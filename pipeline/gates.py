@@ -166,7 +166,9 @@ def main():
             if c.get("cueing", {}).get("flag"):
                 soft.append("cueing (critic): " + c["cueing"].get("why", ""))
             if c.get("level_fit", {}).get("flag"):
-                soft.append("level: " + c["level_fit"].get("why", ""))
+                review_flags.append("level fit: " + c["level_fit"].get("why", ""))
+            if c.get("cultural_safety", {}).get("flag"):
+                review_flags.append("cultural safety: " + c["cultural_safety"].get("why", ""))
             dp = c.get("distractor_plausibility", {})
             weak = [k for k, v in dp.items() if k != it.get("key") and v == 1]
             if weak:

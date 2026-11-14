@@ -155,7 +155,8 @@ test('beta release holds back questions the automated checks raised', async () =
     critic: { overall: 'pass' }, review_flags: [], uncertainty: 'none', ...over,
   });
   assert.equal(automatedHold(doc({})), null);
-  assert.match(automatedHold(doc({ critic: { overall: 'concern', notes_for_reviewer: 'weak distractors' } }))!, /critic/);
+  assert.equal(automatedHold(doc({ critic: { overall: 'concern', notes_for_reviewer: 'weak distractors' } })), null);   // wording concerns don't hold
+  assert.match(automatedHold(doc({ critic: { overall: 'fail', notes_for_reviewer: 'second answer defensible' } }))!, /critic/);
   assert.match(automatedHold(doc({ blind_disagreement: true }))!, /solver/);
   assert.match(automatedHold(doc({ uncertainty: 'major' }))!, /uncertainty/i);
   const out = betaRelease([doc({}), doc({ review_flags: ['accuracy concern: x'] })]);

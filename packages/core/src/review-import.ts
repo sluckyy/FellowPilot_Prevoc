@@ -232,7 +232,9 @@ SELECT ${lit(v.item_id)}, ${version}, ${lit(v.stem)}, ${lit(v.lead_in)}, ${jsonL
 export function automatedHold(d: ReviewDoc): string | null {
   if (d.blind_disagreement) return 'Independent AI solver disagreed with the key';
   if (d.review_flags?.length) return `Automated check: ${d.review_flags[0].slice(0, 160)}`;
-  if (d.critic && d.critic.overall && d.critic.overall !== 'pass') return `AI critic raised a concern${d.critic.notes_for_reviewer ? `: ${d.critic.notes_for_reviewer.slice(0, 160)}` : ''}`;
+  // A critic "concern" is usually wording (cueing, clarity, a weak distractor): the gates carry the substantive
+  // ones (accuracy, scope, cultural safety, a second defensible answer) in review_flags or as hard failures.
+  if (d.critic && d.critic.overall === 'fail') return `AI critic failed it${d.critic.notes_for_reviewer ? `: ${d.critic.notes_for_reviewer.slice(0, 160)}` : ''}`;
   if (d.uncertainty === 'major') return 'Major uncertainty in current guidance';
   return null;
 }

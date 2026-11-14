@@ -1,0 +1,1109 @@
+[
+ {
+  "item_id": "5d32e427-85ed-e3a4-eb68-eb29b0512cdd",
+  "work_order_id": "r1-126",
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 56-year-old woman presents at 01:30 with 6 hours of sudden severe epigastric pain that has spread across her abdomen. She has taken ibuprofen daily for 3 weeks for a sore knee. Heart rate 112, blood pressure 118/70, temperature 37.9, respiratory rate 24. Her abdomen is rigid with generalised guarding. The radiographer on call performs an erect chest X-ray, which you review yourself: the lung fields are clear and the heart size is normal, but there is a crescent of gas under both hemidiaphragms. No CT is available until 08:00. The on-call GP is at home and the nearest surgeon is at the tertiary centre.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit her for overnight observation with regular analgesia and repeat the chest X-ray in the morning"
+   },
+   {
+    "id": "B",
+    "text": "Keep her nil by mouth, start intravenous fluids, analgesia and antibiotics, and phone the tertiary surgical registrar and retrieval service now"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT of the abdomen when the radiographer returns at 08:00 before deciding whether referral is needed"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe a proton pump inhibitor and discharge her with a plan for general practitioner review within 48 hours"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "chest X-ray interpretation",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "a2bb834c-3ed5-0ded-dca4-60ecd758594e",
+  "work_order_id": "r1-127",
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital with 24-hour imaging. A 59-year-old woman was admitted 2 days ago with community-acquired pneumonia and is improving. This morning she tells you that the dull mid-thoracic back pain she has had for 3 weeks is now severe, wakes her at night and is worse lying flat. Overnight she needed a catheter for 900 mL of urinary retention, which the night team attributed to codeine. She had breast cancer treated with mastectomy and chemotherapy 5 years ago and was told she was in remission. On examination she has tenderness over T8, brisk knee reflexes and some difficulty standing from the chair that she attributes to being unwell. Your registrar is in clinic and asks you to organise whichever imaging you think is needed.",
+  "lead_in": "Which investigation is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Plain X-rays of the thoracic and lumbar spine today"
+   },
+   {
+    "id": "B",
+    "text": "CT of the thoracic spine with contrast today"
+   },
+   {
+    "id": "C",
+    "text": "MRI of the lumbar spine as an outpatient after discharge"
+   },
+   {
+    "id": "D",
+    "text": "Urgent MRI of the whole spine today"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "choosing imaging wisely",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "21426ae8-5d8c-6946-04e2-39c2ce2126ba",
+  "work_order_id": "r1-128",
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 70-year-old woman is brought in by her son at 22:00 after tripping on a garden step and striking her forehead on the path about an hour ago. There was no loss of consciousness, she remembers the fall and the drive in, and she has not vomited. She reports a mild frontal headache. She takes amlodipine only and is not on antiplatelet or anticoagulant medication. GCS is 15, pupils are equal and reactive, there is a 3 cm soft haematoma over the right eyebrow, and the neurological examination is normal. Her son asks whether she needs a scan.",
+  "lead_in": "Which feature of this presentation indicates that a CT head is required?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her age of 70 years"
+   },
+   {
+    "id": "B",
+    "text": "The soft haematoma over her right eyebrow"
+   },
+   {
+    "id": "C",
+    "text": "Her mild frontal headache"
+   },
+   {
+    "id": "D",
+    "text": "The mechanism of a fall from standing height"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "choosing imaging wisely",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "112fe0d6-7bab-3c75-06da-11b4a34c146b",
+  "work_order_id": "r1-129",
+  "stem": "You are the junior doctor in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 34-year-old Aboriginal man is brought in by his cousin after being bitten on the ankle by a brown snake while clearing a shed 90 minutes ago. A pressure immobilisation bandage was applied by the ambulance crew. He is alert with mild headache and nausea; heart rate 96, blood pressure 128/80. There is a small puncture mark with no local swelling. His family are with him and, with his agreement, the nurse has contacted the Aboriginal Liaison Officer. Initial bloods: INR greater than 12 (unrecordable), aPTT greater than 180 seconds, fibrinogen less than 0.5 g/L, D-dimer markedly raised, platelets 215 x 10^9/L, creatinine 84 micromol/L, creatine kinase 110 U/L.",
+  "lead_in": "What do these coagulation results indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Disseminated intravascular coagulation from early sepsis at the bite site"
+   },
+   {
+    "id": "B",
+    "text": "Vitamin K deficiency or an undisclosed warfarin ingestion"
+   },
+   {
+    "id": "C",
+    "text": "Venom-induced consumption coagulopathy confirming systemic envenoming"
+   },
+   {
+    "id": "D",
+    "text": "A laboratory artefact from a clotted or under-filled sample"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "coagulation studies",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "4.1",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "18cc6594-8055-ca81-9a4a-31b48b4a1ef6",
+  "work_order_id": "r1-130",
+  "stem": "You are the PGY2 in the emergency department of a tertiary hospital in Adelaide. A 78-year-old man presents at 20:00 with 4 hours of fever and rigors. He received his second cycle of R-CHOP chemotherapy for diffuse large B-cell lymphoma 9 days ago. He has no localising symptoms, no cough, dysuria or diarrhoea. Temperature 38.6, heart rate 108, blood pressure 124/72, respiratory rate 20, oxygen saturation 97 percent on room air. His PICC line site is clean. Full blood count: haemoglobin 102 g/L, white cell count 0.9 x 10^9/L, neutrophils 0.2 x 10^9/L, platelets 88 x 10^9/L. The ED consultant is dealing with a trauma call and the oncology registrar has not yet returned your page.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wait for the blood culture results before starting any antibiotic so the organism is not masked"
+   },
+   {
+    "id": "B",
+    "text": "Take blood cultures from the PICC line and peripherally, then start intravenous piperacillin+tazobactam within the hour"
+   },
+   {
+    "id": "C",
+    "text": "Give paracetamol and observe him in the short stay unit for 6 hours to see whether the fever settles"
+   },
+   {
+    "id": "D",
+    "text": "Start oral amoxicillin+clavulanate and discharge him with oncology clinic review in the morning"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "full blood count abnormalities",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "613eab56-85fa-3fad-ff72-0bc4e96d2e3e",
+  "work_order_id": "r1-131",
+  "stem": "You are the junior doctor covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 29-year-old man was admitted yesterday after taking 25 g of paracetamol in a single ingestion; his 4-hour paracetamol level was above the nomogram line and the standard two-bag acetylcysteine regimen was started on time. On admission his ALT was 28 U/L and INR 1.1. The acetylcysteine infusion finishes at 03:00 and the nurse asks whether it can be stopped. You have discussed the case with the Poisons Information Centre earlier, who asked for repeat bloods at the end of the infusion.",
+  "lead_in": "Which set of end-of-infusion results requires the acetylcysteine infusion to be continued?",
+  "options": [
+   {
+    "id": "A",
+    "text": "ALT 38 U/L, INR 1.2, paracetamol undetectable"
+   },
+   {
+    "id": "B",
+    "text": "ALT 42 U/L, INR 1.0, paracetamol undetectable, bilirubin 12 micromol/L"
+   },
+   {
+    "id": "C",
+    "text": "ALT 30 U/L, INR 1.1, bilirubin 30 micromol/L, paracetamol undetectable"
+   },
+   {
+    "id": "D",
+    "text": "ALT 120 U/L, INR 1.2, paracetamol undetectable"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "liver function tests",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "9c66d9a3-9782-5378-35ef-385c113776e9",
+  "work_order_id": "r1-132",
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital. A 57-year-old man was admitted 3 days ago with severe community-acquired pneumonia and is now improving on intravenous antibiotics. The admitting team added thyroid function tests to his bloods because he mentioned fatigue. Results: TSH 0.2 mIU/L (reference 0.4-4.0), free T4 10 pmol/L (reference 10-20), free T3 2.4 pmol/L (reference 3.5-6.5). He has no history of thyroid disease, no goitre, no tremor, and his resting heart rate is 76. He is not taking amiodarone, lithium or glucocorticoids. The registrar asks you to decide what to do with the result and write a plan in the discharge summary.",
+  "lead_in": "What is the most appropriate plan for this result?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Repeat the thyroid function tests through his general practitioner 6 to 8 weeks after recovery"
+   },
+   {
+    "id": "B",
+    "text": "Start levothyroxine 50 micrograms daily for hypothyroidism"
+   },
+   {
+    "id": "C",
+    "text": "Start carbimazole 10 mg daily for subclinical hyperthyroidism"
+   },
+   {
+    "id": "D",
+    "text": "Request thyroid antibodies and a nuclear medicine thyroid uptake scan before discharge"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "thyroid function tests",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "e80564c2-e20d-c1b2-1b0f-f6a75adbb712",
+  "work_order_id": "r1-133",
+  "stem": "You are the junior doctor on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting physician and specialist advice by phone. An 80-year-old man was admitted overnight with an infective exacerbation of chronic obstructive pulmonary disease. He has chronic kidney disease (eGFR 32 mL/min/1.73 m2) and stable ischaemic heart disease. The admission bloods included a high-sensitivity troponin I of 48 ng/L (reference below 26); a repeat 3 hours later is 51 ng/L. He has had no chest pain at any time, his ECG shows sinus rhythm with unchanged chronic T-wave flattening compared with last year, and he is comfortable on 2 L oxygen with his antibiotics, prednisolone and nebulisers. The nurse asks whether the troponin result changes his management.",
+  "lead_in": "What is the most appropriate response to this troponin result?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Load with aspirin and ticagrelor and start therapeutic enoxaparin for a non-ST-elevation myocardial infarction"
+   },
+   {
+    "id": "B",
+    "text": "Phone the Adelaide cardiology registrar to arrange urgent transfer for coronary angiography"
+   },
+   {
+    "id": "C",
+    "text": "Continue treating the exacerbation, repeat the ECG if he develops symptoms, and discuss the result with the physician on the ward round"
+   },
+   {
+    "id": "D",
+    "text": "Repeat the troponin every 3 hours until it returns to the reference range before planning discharge"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "troponin interpretation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "1.5",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "832aa567-00eb-5e62-1666-e04b9743a31c",
+  "work_order_id": "r1-134",
+  "stem": "You are the intern covering the general ward of a large metropolitan teaching hospital. At 02:00 the nurse calls you to see a 38-year-old woman who is day 2 after a laparoscopic appendicectomy. She had 15 minutes of central chest tightness while lying in bed that has now resolved. She is a non-smoker with no cardiac history, takes the combined oral contraceptive pill, and is mobilising. Heart rate 92, blood pressure 126/78, respiratory rate 16, oxygen saturation 98 percent on room air, afebrile, calves soft and non-tender. Her ECG is normal sinus rhythm with no ST or T-wave change. A high-sensitivity troponin taken 1 hour after the pain started is 6 ng/L (reference below 16). The nurse asks whether the chest pain is now sorted.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Document the pain as musculoskeletal and arrange no further tests"
+   },
+   {
+    "id": "B",
+    "text": "Start therapeutic enoxaparin for presumed pulmonary embolism pending imaging"
+   },
+   {
+    "id": "C",
+    "text": "Give aspirin and ticagrelor loading and phone cardiology for angiography"
+   },
+   {
+    "id": "D",
+    "text": "Repeat the troponin and ECG at least 2 to 3 hours after the first sample and reassess her"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "troponin interpretation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "domains": [
+   "1.5",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "92cf4165-0fd3-df60-9c82-10927cd1686b",
+  "work_order_id": "r1-135",
+  "stem": "You are the PGY2 on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, where the visiting surgeon operates two days a week and gives advice by phone otherwise. A 58-year-old woman is day 3 after a laparoscopic cholecystectomy. Her indwelling catheter was removed on day 1 and she is passing urine normally with no dysuria, frequency, flank pain or fever. She is eating, mobilising and expecting discharge tomorrow. As part of the ward's routine, the nurse performed a urine dipstick this morning: leucocytes 2+, nitrites positive, blood trace, protein trace. The nurse has sent a midstream urine for culture and asks you to chart antibiotics before she goes off shift. The woman has no diabetes, no urological history and is not pregnant.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart trimethoprim 300 mg orally at night for 3 days"
+   },
+   {
+    "id": "B",
+    "text": "Withhold antibiotics, document that she is asymptomatic, and reassess if symptoms or fever develop"
+   },
+   {
+    "id": "C",
+    "text": "Chart cefalexin 500 mg orally 6-hourly until the culture result is available"
+   },
+   {
+    "id": "D",
+    "text": "Reinsert a catheter to obtain an uncontaminated specimen before deciding"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "urinalysis",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "076b44ad-9861-5083-ab90-2ce00a780c39",
+  "work_order_id": "r1-136",
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. At 01:00 the nurse asks you to see a 58-year-old Aboriginal man admitted 2 days ago with a diabetic foot infection on intravenous antibiotics. He has become restless, is pulling at his cannula, does not know where he is, and keeps looking at the corner of the room where he says children are standing. An hour ago he was settled and talking with his daughter, who is staying overnight and says he has never behaved like this and does not drink alcohol. Observations: temperature 38.7, heart rate 122, blood pressure 102/60, respiratory rate 26, oxygen saturation 90 percent on room air, blood glucose 11.2 mmol/L. His attention wanders and he cannot repeat the months backwards. The nurse wonders aloud whether he is withdrawing from alcohol and asks for a sedative.",
+  "lead_in": "What is the most likely interpretation of this presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hyperactive delirium from an acute medical cause such as sepsis or hypoxia"
+   },
+   {
+    "id": "B",
+    "text": "Alcohol withdrawal with early delirium tremens"
+   },
+   {
+    "id": "C",
+    "text": "A first episode of acute psychosis"
+   },
+   {
+    "id": "D",
+    "text": "Situational distress at being away from family and Country that will settle with reassurance"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "acute agitation",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "3.4"
+  ]
+ },
+ {
+  "item_id": "de8725a7-feec-0710-e8c4-2cfc44c4281d",
+  "work_order_id": "r1-137",
+  "stem": "You are the PGY2 covering the medical ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. At 23:00 the nurse in charge calls about a 32-year-old man admitted that afternoon with a fractured clavicle and rib fractures after a motorbike crash, awaiting transfer for surgical review in the morning. He is pacing the corridor, swearing at staff, refusing observations and saying he will leave. He has not threatened anyone physically and has no weapon. His notes record methamphetamine use, and he last used 2 days ago. When you arrive he is sweating, with heart rate 118, and he says the ward is too noisy and he cannot sleep because of the pain. There are two nurses on the ward and no security staff; the on-call GP is at home 10 minutes away.",
+  "lead_in": "What is the most appropriate first step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give intramuscular droperidol 10 mg now with the two nurses restraining him"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurses to lock him in his room until he is calmer"
+   },
+   {
+    "id": "C",
+    "text": "Talk with him calmly in a quiet area, address his pain and offer oral sedation, while asking the on-call doctor to attend"
+   },
+   {
+    "id": "D",
+    "text": "Phone the police and ask them to remove him from the hospital"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "acute agitation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "bec2cfc2-2c7e-f496-8380-6fc944d576ee",
+  "work_order_id": "r1-138",
+  "stem": "You are the junior doctor covering the wards overnight at a country hospital 90 minutes from the nearest tertiary centre, with the on-call GP at home. At 02:30 you are resiting a cannula on a patient who needs intravenous antibiotics when the ward nurse calls. A 40-year-old man admitted 36 hours ago for planned alcohol withdrawal on a symptom-triggered diazepam regimen has become confused and frightened in the last hour, saying there are insects on the walls. His alcohol withdrawal scale score has risen from 8 to 16. Heart rate 124, blood pressure 168/102, temperature 37.9, oxygen saturation 96 percent. He received diazepam 10 mg at 23:00 and thiamine 300 mg intravenously this evening. The nurse asks what you want to do.",
+  "lead_in": "What is the most appropriate first action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the nurse to give the next regimen dose of diazepam and call you back in an hour if he is no better"
+   },
+   {
+    "id": "B",
+    "text": "Finish the cannula quickly, review him immediately, give diazepam according to his score and phone the on-call GP"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT head in the morning to exclude an intracranial cause of his confusion before giving more sedation"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe haloperidol 5 mg intramuscularly for the hallucinations"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "alcohol withdrawal",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "522b8ba0-2ebe-78a1-9704-164195cd9c5a",
+  "work_order_id": "r1-139",
+  "stem": "You are the intern in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, with the on-call GP available by phone. A 68-year-old Aboriginal man is brought in by his son at 18:00. He has drunk about ten standard drinks of beer daily for many years and stopped 2 days ago when he decided, with his family's support, that he wants to give up. Since this morning he has been unsteady, confused about the date and sweaty, with a coarse tremor. His son says he has eaten very little for weeks. On examination he is disorientated, has a wide-based ataxic gait, and you notice that his eyes do not move fully to the sides. Blood glucose 4.8 mmol/L, heart rate 108, temperature 37.2. You start the alcohol withdrawal scale and diazepam, and with his agreement the nurse has asked the Aboriginal Liaison Officer to come in.",
+  "lead_in": "Which prescription is most important to write now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Thiamine 100 mg orally once daily"
+   },
+   {
+    "id": "B",
+    "text": "Glucose 5 percent 1 L intravenously over 4 hours"
+   },
+   {
+    "id": "C",
+    "text": "Multivitamin tablet orally once daily with meals"
+   },
+   {
+    "id": "D",
+    "text": "Thiamine 500 mg intravenously three times daily"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "alcohol withdrawal",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "387ec319-a15b-69fc-c083-db727a372c3d",
+  "work_order_id": "r1-140",
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 54-year-old Aboriginal man presents at 23:00 with 90 minutes of central chest pain. His ECG shows 3 mm ST elevation in leads II, III and aVF. Blood pressure 134/82, heart rate 78, oxygen saturation 97 percent. You phone the cardiologist on call in Adelaide, who advises thrombolysis with tenecteplase now and retrieval. When you explain this, the man says he does not want the clot-busting drug and wants to go home to his family. He is alert, speaks clearly, repeats back that the drug could save his life and that without it he could die, and says he understands but is frightened of bleeding because his brother died of a stroke. The nurse asks what you are going to do.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explore his fears and explain the risks and benefits again, offer to involve his family and the Aboriginal Liaison Officer, and respect his decision if he retains capacity"
+   },
+   {
+    "id": "B",
+    "text": "Give the tenecteplase now because this is a life-threatening emergency and a patient refusing life-saving treatment cannot have capacity"
+   },
+   {
+    "id": "C",
+    "text": "Detain him under the Mental Health Act 2009 so that treatment for his heart attack can be given without consent"
+   },
+   {
+    "id": "D",
+    "text": "Ask him to sign a discharge against medical advice form and let him leave so the department is not held responsible"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "capacity to refuse treatment",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.2",
+   "1.3",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "e4889088-d244-089d-f904-281a7e59de02",
+  "work_order_id": "r1-141",
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the physician available by phone. At 21:00 the nurse asks you to see a 29-year-old Aboriginal woman admitted yesterday with pyelonephritis on intravenous antibiotics. In the last 2 hours she has become frightened and tearful, says there are people in the ceiling talking about her, does not know what day it is, and drifts off mid-sentence. Her mother, who is staying with her, says she has never had anything like this and has no history of mental illness or drug use. Observations: temperature 39.1, heart rate 128, blood pressure 92/58, respiratory rate 24, oxygen saturation 95 percent on room air, blood glucose 6.1 mmol/L. The nurse says she looks like she is having a psychotic episode and suggests calling the psychiatric triage line.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the mental health triage service for assessment of a first psychotic episode"
+   },
+   {
+    "id": "B",
+    "text": "Give olanzapine 10 mg orally and reassess her in the morning on the ward round"
+   },
+   {
+    "id": "C",
+    "text": "Assess her at the bedside now as delirium from worsening sepsis, escalate under the Rapid Detection and Response criteria and phone the physician"
+   },
+   {
+    "id": "D",
+    "text": "Arrange detention under the Mental Health Act 2009 so she can be transferred to an inpatient psychiatric unit"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "delirium versus psychosis",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "e1177c21-8a8c-c613-fbf4-f9f4ca208906",
+  "work_order_id": "r1-142",
+  "stem": "You are the intern on an evening cover shift at a regional hospital with a small medical ward, no intensive care, and retrieval to Adelaide by road or air. A 19-year-old man was admitted 4 days ago with a tibial fracture after a motorbike crash and is waiting for transfer for surgery, which has been postponed twice. At 20:00 the nurse tells you he has eaten little for 2 days, has been tearful, and tonight said he does not see the point of the operation and would not mind if he did not wake up. He is on oxycodone 10 mg four times daily for pain and slept poorly. He is alert, orientated, with normal observations. When you sit with him he says he feels like a burden to his parents, who drive 2 hours each way to visit, and that things will not get better.",
+  "lead_in": "How should these statements be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal adjustment reaction to injury and delay that needs no action tonight beyond reassurance"
+   },
+   {
+    "id": "B",
+    "text": "Possible suicidal ideation that requires a direct risk assessment this evening and escalation to the on-call doctor"
+   },
+   {
+    "id": "C",
+    "text": "Opioid-related mood change that should be managed by reducing the oxycodone dose and reviewing tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "A request for help with sleep that should be met with a short course of temazepam"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "depression on the ward",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "09b969af-d9d5-4865-7482-9604ffafadd6",
+  "work_order_id": "r1-143",
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the on-call doctor at home and specialist advice by phone. At 02:00 the nurse calls about a 34-year-old woman admitted 2 days ago for intravenous antibiotics for cellulitis, which is improving. Over the evening she has become increasingly suspicious, believes the antibiotics are poison sent by a neighbour, and is now dressed and trying to leave through the locked fire door, saying voices have told her to walk to the highway. She has a history of schizophrenia and stopped her medication a month ago. She is physically well with normal observations, has no weapon and has not been aggressive. The nurse asks whether she can leave, since she was admitted voluntarily.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Let her leave after documenting that she declined to stay, because she is a voluntary patient"
+   },
+   {
+    "id": "B",
+    "text": "Give olanzapine 10 mg intramuscularly so that she cannot leave the ward"
+   },
+   {
+    "id": "C",
+    "text": "Phone the police and ask them to take her into custody"
+   },
+   {
+    "id": "D",
+    "text": "Keep her on the ward under close nursing observation while you phone the on-call doctor and the mental health triage line about an inpatient treatment order"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "involuntary treatment under the Mental Health Act",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "03bf8ab9-f9ec-c6d8-b603-afe92008617c",
+  "work_order_id": "r1-144",
+  "stem": "You are the intern at a regional hospital with a small medical ward, no intensive care, on-site CT during business hours only, and retrieval to Adelaide by road or air. A 55-year-old man was brought in by police at 14:00 after his wife found him in the shed with a rope. The general practitioner on duty assessed him, found severe depression with a fixed plan to end his life, and made a Level 1 Inpatient Treatment Order under the Mental Health Act 2009 at 15:00 before leaving for the day. He is now settled on the medical ward with one-to-one nursing, has been given a copy of the order and the statement of rights, and the Chief Psychiatrist notification has been sent. At 22:00 the nurse asks you which of the outstanding tasks must be done tonight. The on-call doctor is available by phone, and the Rural and Remote Mental Health Service psychiatrist can assess by video.",
+  "lead_in": "Which task is most time-critical for you to arrange tonight?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Examination by a psychiatrist or authorised medical practitioner by video before 15:00 tomorrow to confirm or revoke the order"
+   },
+   {
+    "id": "B",
+    "text": "A full admission clerking with bloods, ECG and chest X-ray before the morning ward round"
+   },
+   {
+    "id": "C",
+    "text": "Booking a non-urgent ambulance for transfer to an Adelaide mental health unit tomorrow afternoon"
+   },
+   {
+    "id": "D",
+    "text": "Writing to his general practitioner to arrange follow-up after discharge"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "involuntary treatment under the Mental Health Act",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "2.4",
+   "1.10",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "0310ce00-4886-e278-7643-7974c8f6d742",
+  "work_order_id": "r1-145",
+  "stem": "You are the intern in the outpatient clinic of a regional hospital with a small medical ward, no intensive care, and retrieval to Adelaide by road or air; the physician is reviewing another patient and the on-call physician is reachable by phone. A 47-year-old woman is referred by her general practitioner with weight loss. She has a long history of anorexia nervosa and has restricted her intake to a few hundred calories a day for the past 3 weeks, losing 8 kg in 2 months. Her weight is 39 kg (body mass index 14.3). She is orthostatic (lying blood pressure 92/58, standing 76/50), heart rate 42, temperature 35.4. Bloods taken this morning show potassium 2.9 mmol/L, phosphate 0.6 mmol/L, magnesium 0.6 mmol/L, sodium 134 mmol/L. She says she feels fine and would prefer to manage at home with the dietitian.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Provide a high-energy meal plan to follow at home and review her in clinic in one week"
+   },
+   {
+    "id": "B",
+    "text": "Prescribe oral potassium and phosphate supplements and review her in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Admit her today for monitored refeeding, electrolyte replacement and thiamine, after discussing with the physician"
+   },
+   {
+    "id": "D",
+    "text": "Refer her to the community eating disorder service for outpatient dietitian review"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "refeeding risk in an eating disorder",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "190e9a50-1cae-e40e-66c4-cc7b90d12d45",
+  "work_order_id": "r1-146",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital with a registrar on site overnight. A 70-year-old man is brought in by ambulance at 23:30 after his neighbour found him in the bathroom with cuts to his left forearm. The lacerations are superficial and have stopped bleeding under a dressing. He is tearful and says he wanted to die after his wife went into residential care. On further questioning he says that about 90 minutes before cutting himself he swallowed a handful of his wife's amitriptyline tablets, perhaps 20 of 50 mg. He is drowsy but rousable, heart rate 112, blood pressure 108/70, pupils dilated, mucous membranes dry. The nurse has placed him in a cubicle and asks whether you want to suture the arm first or call the mental health team, as both are waiting.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Suture the forearm lacerations and then take a detailed mental health history"
+   },
+   {
+    "id": "B",
+    "text": "Move him to a monitored bed, obtain a 12-lead ECG and inform the ED registrar of the amitriptyline ingestion now"
+   },
+   {
+    "id": "C",
+    "text": "Refer him to the mental health team for an urgent risk assessment before any medical investigations"
+   },
+   {
+    "id": "D",
+    "text": "Give activated charcoal and wait for the paracetamol level before deciding further"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "self-harm presentation",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "879e6995-7f94-3543-9c6a-a56e176d4a86",
+  "work_order_id": "r1-147",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital on a busy night with a registrar on site. A 69-year-old man presents at 23:00 asking for something to help him sleep. His wife died 4 months ago and he lives alone; his daughter is interstate. He has been drinking a bottle of wine most nights, has lost 6 kg, and says he has not slept properly in weeks. When you ask directly, he says he often thinks he would be better off dead and has thought about taking his late wife's leftover morphine tablets, which are still in the house; he has not set a date and says he came in instead because he was frightened by the thought. He has no prior psychiatric history. The registrar, who is managing a resuscitation, suggests over the phone that you give him some temazepam and ask his GP to follow up.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe a small supply of temazepam and arrange general practitioner review within 48 hours as suggested"
+   },
+   {
+    "id": "B",
+    "text": "Ask him to agree to a no-harm contract and discharge him with the crisis line number"
+   },
+   {
+    "id": "C",
+    "text": "Phone his daughter to arrange for the morphine to be removed from the house and then discharge him"
+   },
+   {
+    "id": "D",
+    "text": "Tell the registrar you assess him as high risk and arrange an urgent mental health assessment before any discharge"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "suicide risk assessment",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "ce6cf651-1dc7-e64e-9dfc-ba4e0e383eea",
+  "work_order_id": "r1-148",
+  "stem": "You are the junior doctor on the medical ward of a rural hospital on the Yorke Peninsula, where a 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. A 36-year-old woman was admitted last night after taking 20 tablets of paracetamol following an argument with her partner; she is receiving acetylcysteine and is medically stable. The mental health triage service will assess her by video this afternoon. The nurse looking after her asks you, while you are reviewing her history together, which part of the history matters most for her future risk of dying by suicide. The history includes a previous overdose 3 years ago requiring admission, full-time work as a teacher, two children aged 8 and 10, and no current alcohol or drug use.",
+  "lead_in": "Which feature of her history is the strongest predictor of future suicide?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her previous suicide attempt"
+   },
+   {
+    "id": "B",
+    "text": "Her age under 40 years"
+   },
+   {
+    "id": "C",
+    "text": "Being female"
+   },
+   {
+    "id": "D",
+    "text": "Her full-time employment"
+   }
+  ],
+  "learning_area": "Mental health and behavioural emergencies",
+  "presentation": "suicide risk assessment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "29724020-3355-3349-c8de-9ae0c0c408a9",
+  "work_order_id": "r1-149",
+  "stem": "You are the PGY2 on a term in a general practice linked to a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 22-year-old woman presents with 2 days of light vaginal spotting and intermittent mild left-sided lower abdominal pain. Her last menstrual period was 6 weeks ago and a home pregnancy test was positive a week ago. She has had no previous pregnancies, no history of pelvic infection and does not use an intrauterine device. Heart rate 78, blood pressure 118/74, abdomen soft with mild left iliac fossa tenderness and no peritonism. Serum beta-hCG this morning is 1,800 IU/L. A transvaginal ultrasound at the hospital today shows an empty uterus with an endometrial thickness of 12 mm, no adnexal mass, and a trace of free fluid in the pouch of Douglas. The supervising GP asks for your interpretation before you discuss her with the obstetric registrar in Adelaide.",
+  "lead_in": "What is the most appropriate interpretation of these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A complete miscarriage, since the uterus is empty and bleeding is light, requiring no further follow-up"
+   },
+   {
+    "id": "B",
+    "text": "A normal early intrauterine pregnancy that is simply too early to see, requiring routine antenatal booking"
+   },
+   {
+    "id": "C",
+    "text": "A pregnancy of unknown location in which ectopic pregnancy has not been excluded"
+   },
+   {
+    "id": "D",
+    "text": "A confirmed ectopic pregnancy requiring immediate transfer to Adelaide for laparoscopy"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "bleeding in early pregnancy",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.5",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "e5f0a195-5a56-9c28-80f2-ee1816f4b0a0",
+  "work_order_id": "r1-150",
+  "stem": "You are the PGY2 in the emergency department of a tertiary hospital in Adelaide. A 31-year-old woman presents at 10:00 on a Sunday asking for emergency contraception after a condom broke during intercourse at about 02:00 on Thursday, around 80 hours ago. She weighs 86 kg (body mass index 31). She is not on any regular contraception, has regular cycles with her last period 12 days ago, takes no other medications, is not breastfeeding and has no history of liver disease or venous thromboembolism. She does not want an intrauterine device. The nearest open pharmacy is some distance away and she asks you to prescribe whatever is most likely to work. You have access to the hospital pharmacy stock.",
+  "lead_in": "Which emergency contraceptive is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Levonorgestrel 1.5 mg orally as a single dose"
+   },
+   {
+    "id": "B",
+    "text": "Ulipristal acetate 30 mg orally as a single dose"
+   },
+   {
+    "id": "C",
+    "text": "Levonorgestrel 1.5 mg orally, repeated after 12 hours"
+   },
+   {
+    "id": "D",
+    "text": "Combined ethinylestradiol and levonorgestrel tablets, two now and two in 12 hours"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "contraception counselling",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.8",
+   "1.7"
+  ]
+ }
+]

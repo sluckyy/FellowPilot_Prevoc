@@ -1,0 +1,2150 @@
+[
+ {
+  "work_order_id": "r1-126",
+  "item_id": "5d32e427-85ed-e3a4-eb68-eb29b0512cdd",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 56-year-old woman presents at 01:30 with 6 hours of sudden severe epigastric pain that has spread across her abdomen. She has taken ibuprofen daily for 3 weeks for a sore knee. Heart rate 112, blood pressure 118/70, temperature 37.9, respiratory rate 24. Her abdomen is rigid with generalised guarding. The radiographer on call performs an erect chest X-ray, which you review yourself: the lung fields are clear and the heart size is normal, but there is a crescent of gas under both hemidiaphragms. No CT is available until 08:00. The on-call GP is at home and the nearest surgeon is at the tertiary centre.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit her for overnight observation with regular analgesia and repeat the chest X-ray in the morning"
+   },
+   {
+    "id": "B",
+    "text": "Keep her nil by mouth, start intravenous fluids, analgesia and antibiotics, and phone the tertiary surgical registrar and retrieval service now"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT of the abdomen when the radiographer returns at 08:00 before deciding whether referral is needed"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe a proton pump inhibitor and discharge her with a plan for general practitioner review within 48 hours"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Free gas under the diaphragm on an erect chest X-ray in a patient with peritonism indicates a perforated viscus, most likely an NSAID-related peptic ulcer. Observation alone delays definitive surgical care and risks septic deterioration.",
+   "B": "Correct. The erect chest X-ray has already made the diagnosis of perforation. The junior doctor's job is resuscitation (fluids, analgesia, intravenous antibiotics covering gut organisms), keeping her fasted, and early escalation to the surgical team and retrieval service so she reaches an operating theatre promptly.",
+   "C": "CT may be requested by the receiving surgeons but is not needed to confirm free intraperitoneal gas that is already visible, and waiting 6 hours for it in a rural hospital without surgical capability wastes critical time.",
+   "D": "This treats the presumed cause (NSAID gastropathy) but ignores the surgical emergency. Discharge of a tachycardic patient with a rigid abdomen would be unsafe."
+  },
+  "learning_point": "Free gas under the diaphragm on an erect chest X-ray in a patient with peritonism is a surgical emergency: resuscitate, fast, give antibiotics and escalate to surgery and retrieval without waiting for further imaging.",
+  "setting_note": "In a tertiary hospital the surgical registrar reviews the patient in the department and CT is often obtained on the way to theatre; in a country hospital the diagnosis on plain film is enough to trigger the retrieval call, and the junior doctor manages resuscitation while the team is in transit.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Rural and remote",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "chest X-ray interpretation",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Intra-abdominal infections - perforated viscus (peritonitis)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Australian and New Zealand College of Radiologists, Education Modules for Appropriate Imaging Referrals: Acute abdominal pain",
+    "locator": "Erect chest X-ray for free intraperitoneal gas",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: an erect chest X-ray detects as little as 1-2 mL of free intraperitoneal gas; the patient must sit upright for 10 minutes beforehand. Perforated peptic ulcer is the commonest cause in a middle-aged NSAID user. Immediate care: oxygen if needed, two large-bore cannulas, fluid resuscitation, intravenous opioid analgesia, broad-spectrum antibiotics per Therapeutic Guidelines, nil by mouth, nasogastric tube if vomiting, and early surgical referral. Misconception: that CT must confirm every surgical diagnosis before referral. Out of scope: operative decision-making.",
+  "plan": "Tests whether a PGY2 can act on free gas under the diaphragm without waiting for CT. Rural overnight scene makes retrieval and phone escalation the relevant actions. Distractors: observe and re-image (delay), wait for CT (common habit), treat the ulcer medically (misses the emergency). Supported by Therapeutic Guidelines Antibiotic (peritonitis) and RANZCR imaging referral guidance."
+ },
+ {
+  "work_order_id": "r1-127",
+  "item_id": "a2bb834c-3ed5-0ded-dca4-60ecd758594e",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital with 24-hour imaging. A 59-year-old woman was admitted 2 days ago with community-acquired pneumonia and is improving. This morning she tells you that the dull mid-thoracic back pain she has had for 3 weeks is now severe, wakes her at night and is worse lying flat. Overnight she needed a catheter for 900 mL of urinary retention, which the night team attributed to codeine. She had breast cancer treated with mastectomy and chemotherapy 5 years ago and was told she was in remission. On examination she has tenderness over T8, brisk knee reflexes and some difficulty standing from the chair that she attributes to being unwell. Your registrar is in clinic and asks you to organise whichever imaging you think is needed.",
+  "lead_in": "Which investigation is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Plain X-rays of the thoracic and lumbar spine today"
+   },
+   {
+    "id": "B",
+    "text": "CT of the thoracic spine with contrast today"
+   },
+   {
+    "id": "C",
+    "text": "MRI of the lumbar spine as an outpatient after discharge"
+   },
+   {
+    "id": "D",
+    "text": "Urgent MRI of the whole spine today"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Plain films miss a large proportion of vertebral metastases and cannot show cord or cauda compression. Ordering them first delays the definitive test in a patient with red flags.",
+   "B": "CT shows bone destruction but is poor at demonstrating epidural disease and cord compression. It is reserved for patients who cannot have MRI.",
+   "C": "Imaging only the lumbar spine would miss a thoracic lesion (her tenderness is at T8), and deferring to after discharge ignores the time-critical nature of suspected cord compression, where neurological outcome depends on treatment within hours to days.",
+   "D": "Correct. A past history of cancer, night pain, thoracic tenderness, new urinary retention and upper motor neurone signs are red flags for malignant spinal cord compression. The investigation of choice is MRI of the whole spine within 24 hours (same day if neurological deficit is present), because multilevel disease is common, and the registrar should be told immediately so dexamethasone and oncology or neurosurgical referral can be arranged."
+  },
+  "learning_point": "Back pain with red flags (history of cancer, night pain, new bladder dysfunction or neurological signs) needs urgent MRI of the whole spine, not plain films or regional imaging.",
+  "setting_note": "In a regional hospital without on-site MRI the same findings mean an urgent phone call to the oncology or neurosurgical service and transfer for MRI, with dexamethasone started on their advice before the patient leaves.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Oncology",
+   "Radiology",
+   "Neurology"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "choosing imaging wisely",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "eviQ (Cancer Institute NSW): Malignant spinal cord compression - clinical resource",
+    "locator": "Diagnosis and imaging: urgent whole-spine MRI",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Choosing Wisely Australia (RACGP/RACP recommendations)",
+    "locator": "Do not request imaging for low back pain in the absence of red flags",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: malignant spinal cord compression affects up to 5 percent of patients with cancer; breast, lung, prostate and myeloma are common primaries; the thoracic spine is the commonest site; 20-30 percent of patients have compression at more than one level, hence whole-spine MRI. Night pain, pain lying flat, bladder or bowel dysfunction and new weakness are red flags. Misconceptions: that retention in a patient on opioids needs no further thought; that a plain film is a reasonable first step; that remission 5 years ago makes recurrence unlikely. Management after imaging (dexamethasone, radiotherapy versus surgery) is a senior decision but the intern should know to escalate immediately.",
+  "plan": "Tests whether an intern recognises red flags that convert a Choosing Wisely no-imaging scenario into an urgent whole-spine MRI. The metro ward scene provides 24-hour MRI so the decision rests on recognition, not access. Distractors: plain films (habit), CT (available and quick but wrong modality), lumbar-only MRI deferred (misses level and urgency). Supported by eviQ MSCC guidance and Choosing Wisely Australia."
+ },
+ {
+  "work_order_id": "r1-128",
+  "item_id": "21426ae8-5d8c-6946-04e2-39c2ce2126ba",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 70-year-old woman is brought in by her son at 22:00 after tripping on a garden step and striking her forehead on the path about an hour ago. There was no loss of consciousness, she remembers the fall and the drive in, and she has not vomited. She reports a mild frontal headache. She takes amlodipine only and is not on antiplatelet or anticoagulant medication. GCS is 15, pupils are equal and reactive, there is a 3 cm soft haematoma over the right eyebrow, and the neurological examination is normal. Her son asks whether she needs a scan.",
+  "lead_in": "Which feature of this presentation indicates that a CT head is required?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her age of 70 years"
+   },
+   {
+    "id": "B",
+    "text": "The soft haematoma over her right eyebrow"
+   },
+   {
+    "id": "C",
+    "text": "Her mild frontal headache"
+   },
+   {
+    "id": "D",
+    "text": "The mechanism of a fall from standing height"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. Age 65 years or older is a high-risk criterion in the Canadian CT Head Rule for minor head injury (GCS 13-15 with witnessed loss of consciousness, amnesia or disorientation) and is also a criterion in most Australian emergency department head injury pathways. Older patients have a markedly higher rate of intracranial haemorrhage after apparently trivial falls, so CT is indicated even with a normal examination.",
+   "B": "A soft scalp haematoma is not by itself an indication for CT; signs of a basal skull fracture or a suspected open or depressed skull fracture are. A boggy haematoma in a child is a different matter.",
+   "C": "Mild headache without vomiting is not a high- or medium-risk criterion. Severe or progressive headache would raise concern.",
+   "D": "A fall from standing is a low-energy mechanism; the dangerous mechanisms in the rule are a pedestrian struck by a vehicle, ejection from a vehicle or a fall from more than 1 metre or 5 stairs."
+  },
+  "learning_point": "In minor head injury, age 65 years or older is on its own an indication for CT head because of the high risk of intracranial bleeding after low-energy falls.",
+  "setting_note": "Many country hospitals have no CT overnight. The decision that CT is indicated then becomes a decision about observation with neurological checks versus transfer, made with the on-call doctor and the receiving emergency physician; anticoagulated patients or anyone deteriorating should be transferred rather than observed.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Older people, delirium and falls",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "choosing imaging wisely",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "minor",
+   "uncertainty_note": "The Canadian CT Head Rule strictly applies to patients with loss of consciousness, amnesia or disorientation; most Australian ED pathways nonetheless list age 65 or over as an indication for CT after any head strike, which is the practice reflected here."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Stiell IG et al. The Canadian CT Head Rule for patients with minor head injury. Lancet 2001",
+    "locator": "High-risk criteria: age 65 years or older",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australasian College for Emergency Medicine / Choosing Wisely Australia: Head injury imaging recommendations",
+    "locator": "Use a validated decision rule to select patients for CT after minor head injury",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Canadian CT Head Rule high-risk criteria are GCS below 15 at 2 hours, suspected open or depressed skull fracture, signs of basal skull fracture, two or more episodes of vomiting, and age 65 or over; medium-risk criteria are amnesia for more than 30 minutes before impact and a dangerous mechanism. Anticoagulant use was an exclusion from the derivation study but is treated as an indication for CT in practice. Misconception: that a normal examination excludes bleeding in older patients. Out of scope: management of the bleed found.",
+  "plan": "Tests recall of the single feature that mandates CT in an otherwise reassuring minor head injury: age 65 or over. The rural overnight scene matters because the answer then drives a transfer-versus-observation discussion. Distractors are features juniors over-weight: scalp haematoma, mild headache, mechanism of a fall from standing. Supported by the Canadian CT Head Rule and ACEM/Choosing Wisely guidance."
+ },
+ {
+  "work_order_id": "r1-129",
+  "item_id": "112fe0d6-7bab-3c75-06da-11b4a34c146b",
+  "version": 1,
+  "stem": "You are the junior doctor in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 34-year-old Aboriginal man is brought in by his cousin after being bitten on the ankle by a brown snake while clearing a shed 90 minutes ago. A pressure immobilisation bandage was applied by the ambulance crew. He is alert with mild headache and nausea; heart rate 96, blood pressure 128/80. There is a small puncture mark with no local swelling. His family are with him and, with his agreement, the nurse has contacted the Aboriginal Liaison Officer. Initial bloods: INR greater than 12 (unrecordable), aPTT greater than 180 seconds, fibrinogen less than 0.5 g/L, D-dimer markedly raised, platelets 215 x 10^9/L, creatinine 84 micromol/L, creatine kinase 110 U/L.",
+  "lead_in": "What do these coagulation results indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Disseminated intravascular coagulation from early sepsis at the bite site"
+   },
+   {
+    "id": "B",
+    "text": "Vitamin K deficiency or an undisclosed warfarin ingestion"
+   },
+   {
+    "id": "C",
+    "text": "Venom-induced consumption coagulopathy confirming systemic envenoming"
+   },
+   {
+    "id": "D",
+    "text": "A laboratory artefact from a clotted or under-filled sample"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Sepsis-related DIC does not develop within 90 minutes of a clean puncture wound and is usually accompanied by thrombocytopenia, which is absent here.",
+   "B": "Warfarin or vitamin K deficiency prolongs INR but does not make fibrinogen unrecordable or raise D-dimer dramatically. The timing after a brown snake bite makes envenoming the only sensible explanation.",
+   "C": "Correct. Brown snake venom contains prothrombin activators that consume fibrinogen and clotting factors, producing an unrecordable INR and aPTT, undetectable fibrinogen and a very high D-dimer with a normal platelet count: venom-induced consumption coagulopathy. This is laboratory evidence of systemic envenoming and the indication for antivenom, given after discussion with the Poisons Information Centre or clinical toxicologist and with preparation for anaphylaxis.",
+   "D": "A clotted sample would typically be rejected by the laboratory or give spuriously normal results; it would not produce a coherent pattern of consumption with a markedly raised D-dimer."
+  },
+  "learning_point": "After an Australian snake bite, an unrecordable INR and aPTT with very low fibrinogen and a high D-dimer indicate venom-induced consumption coagulopathy, which confirms systemic envenoming and the need for antivenom.",
+  "setting_note": "Regional South Australian hospitals stock brown snake and polyvalent antivenom and can test INR, aPTT and fibrinogen on site; where fibrinogen or D-dimer is not available, a markedly prolonged INR with the clinical history is enough to call the Poisons Information Centre on 13 11 26 and arrange antivenom while planning retrieval if the patient deteriorates.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Rural and remote",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "1.5",
+   "4.1",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "coagulation studies",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Toxicology and Toxinology",
+    "locator": "Snake bite - venom-induced consumption coagulopathy and indications for antivenom",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Resuscitation Council Guideline 9.4.8: Envenomation - pressure immobilisation technique",
+    "locator": "First aid for snake bite",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: VICC is the hallmark of brown, tiger and taipan envenoming; platelets are typically normal in brown snake VICC; INR and aPTT unrecordable with fibrinogen below 0.5 g/L; D-dimer rises early (over 2.5 mg/L is a sensitive marker). Repeat bloods at 6 and 12 hours after bite if the first set is normal before removing the bandage. Antivenom: one vial of brown snake antivenom (or polyvalent if species unclear); fresh frozen plasma is not routine. Misconceptions: that fibrinogen recovers quickly after antivenom (it takes 12-24 hours); that local swelling is needed for envenoming. Culturally safe practice: family presence and ALO involvement were offered with the patient's agreement.",
+  "plan": "Tests recognition of VICC on a coagulation profile, a core skill for a junior doctor in rural SA. Scene: Mid North regional ED with phone toxicology advice. Distractors: DIC (similar numbers but wrong timing and platelets), warfarin/vitamin K (INR only), artefact (a common rationalisation for extreme results). Supported by Therapeutic Guidelines Toxicology and Toxinology."
+ },
+ {
+  "work_order_id": "r1-130",
+  "item_id": "18cc6594-8055-ca81-9a4a-31b48b4a1ef6",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a tertiary hospital in Adelaide. A 78-year-old man presents at 20:00 with 4 hours of fever and rigors. He received his second cycle of R-CHOP chemotherapy for diffuse large B-cell lymphoma 9 days ago. He has no localising symptoms, no cough, dysuria or diarrhoea. Temperature 38.6, heart rate 108, blood pressure 124/72, respiratory rate 20, oxygen saturation 97 percent on room air. His PICC line site is clean. Full blood count: haemoglobin 102 g/L, white cell count 0.9 x 10^9/L, neutrophils 0.2 x 10^9/L, platelets 88 x 10^9/L. The ED consultant is dealing with a trauma call and the oncology registrar has not yet returned your page.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wait for the blood culture results before starting any antibiotic so the organism is not masked"
+   },
+   {
+    "id": "B",
+    "text": "Take blood cultures from the PICC line and peripherally, then start intravenous piperacillin+tazobactam within the hour"
+   },
+   {
+    "id": "C",
+    "text": "Give paracetamol and observe him in the short stay unit for 6 hours to see whether the fever settles"
+   },
+   {
+    "id": "D",
+    "text": "Start oral amoxicillin+clavulanate and discharge him with oncology clinic review in the morning"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Culture results take 24-48 hours. In febrile neutropenia mortality rises with every hour antibiotics are delayed, so cultures are taken but treatment is never withheld for the result.",
+   "B": "Correct. Fever (38.0 or more) with neutrophils below 0.5 x 10^9/L after chemotherapy is febrile neutropenia, a medical emergency. The standard of care is cultures from the line and a peripheral vein, then empirical broad-spectrum antipseudomonal therapy such as piperacillin+tazobactam within 60 minutes of arrival, without waiting for the oncology team.",
+   "C": "Observation for a response to antipyretics is unsafe: neutropenic patients can deteriorate into septic shock rapidly with few localising signs.",
+   "D": "Oral therapy and discharge is only considered for carefully selected low-risk patients (for example, a low MASCC score) after assessment by a senior clinician, and this older man with lymphoma and prolonged expected neutropenia is not low risk."
+  },
+  "learning_point": "Fever with a neutrophil count below 0.5 x 10^9/L after chemotherapy is febrile neutropenia: take cultures and give intravenous broad-spectrum antibiotics within 60 minutes without waiting for results or the oncology team.",
+  "setting_note": "In a regional hospital the same antibiotic is started immediately from the local formulary and the oncology service in Adelaide is phoned about transfer; the one-hour antibiotic target applies wherever the patient presents.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Oncology",
+   "Infection and sepsis",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "full blood count abnormalities",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Fever and suspected infection in neutropenic patients - empirical therapy",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "eviQ (Cancer Institute NSW): Febrile neutropenia - initial management",
+    "locator": "Antibiotics within 60 minutes of presentation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: definition is a single temperature of 38.0 or more with neutrophils below 0.5 x 10^9/L (or expected to fall below). First-line empirical therapy in most Australian hospitals is piperacillin+tazobactam; add vancomycin for haemodynamic instability, suspected line infection or known MRSA; check local protocol. The nadir after R-CHOP is around day 7-14. Misconceptions: waiting for cultures, waiting for the oncology team, being reassured by a clean line site or absence of localising signs. Out of scope: G-CSF decisions and antibiotic de-escalation.",
+  "plan": "Tests whether a PGY2 acts on a neutrophil count of 0.2 in a febrile chemotherapy patient without waiting for the oncology registrar. Tertiary ED scene with the senior busy makes independent recognition necessary. Distractors: waiting for cultures, observing for antipyretic response, oral therapy and discharge. Supported by Therapeutic Guidelines Antibiotic and eviQ."
+ },
+ {
+  "work_order_id": "r1-131",
+  "item_id": "613eab56-85fa-3fad-ff72-0bc4e96d2e3e",
+  "version": 1,
+  "stem": "You are the junior doctor covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 29-year-old man was admitted yesterday after taking 25 g of paracetamol in a single ingestion; his 4-hour paracetamol level was above the nomogram line and the standard two-bag acetylcysteine regimen was started on time. On admission his ALT was 28 U/L and INR 1.1. The acetylcysteine infusion finishes at 03:00 and the nurse asks whether it can be stopped. You have discussed the case with the Poisons Information Centre earlier, who asked for repeat bloods at the end of the infusion.",
+  "lead_in": "Which set of end-of-infusion results requires the acetylcysteine infusion to be continued?",
+  "options": [
+   {
+    "id": "A",
+    "text": "ALT 38 U/L, INR 1.2, paracetamol undetectable"
+   },
+   {
+    "id": "B",
+    "text": "ALT 42 U/L, INR 1.0, paracetamol undetectable, bilirubin 12 micromol/L"
+   },
+   {
+    "id": "C",
+    "text": "ALT 30 U/L, INR 1.1, bilirubin 30 micromol/L, paracetamol undetectable"
+   },
+   {
+    "id": "D",
+    "text": "ALT 120 U/L, INR 1.2, paracetamol undetectable"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "An ALT below 50 U/L that has not doubled from baseline, with undetectable paracetamol, meets the criteria for ceasing acetylcysteine.",
+   "B": "ALT 42 U/L is below the threshold of 50 U/L and has not doubled from admission; normal INR and bilirubin add reassurance. Acetylcysteine can stop.",
+   "C": "A mildly raised bilirubin with a normal ALT and INR is not evidence of hepatotoxicity (it may reflect Gilbert syndrome or fasting) and is not a criterion for continuing treatment.",
+   "D": "Correct. The Australian and New Zealand paracetamol poisoning guideline states that at the end of the 20-hour acetylcysteine regimen, treatment is continued (100 mg/kg over 16 hours, with repeat bloods) if the ALT is greater than 50 U/L or has doubled from the admission value, if paracetamol remains detectable (above 10 mg/L), or if the patient is clinically unwell. An ALT that has risen from 28 to 120 U/L signals evolving hepatotoxicity."
+  },
+  "learning_point": "At the end of the standard acetylcysteine course, continue the infusion if ALT is above 50 U/L or has doubled from baseline, if paracetamol is still detectable, or if the patient is clinically unwell.",
+  "setting_note": "A rural hospital can run the extended acetylcysteine regimen and repeat bloods, but a rising ALT or INR, or any encephalopathy, should prompt a call to the Poisons Information Centre and the tertiary liver or toxicology service about transfer, since the hospital cannot manage fulminant liver failure.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Pharmacology",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "liver function tests",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "minor",
+   "uncertainty_note": "Thresholds follow the 2019 Australian and New Zealand guideline (ALT above 50 U/L or doubled; paracetamol above 10 mg/L); local Poisons Information Centre advice should be followed if it differs."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Chiew AL et al. Updated guidelines for the management of paracetamol poisoning in Australia and New Zealand. Med J Aust 2020;212(4):175-183",
+    "locator": "Criteria for continuing acetylcysteine at the end of the standard regimen",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Toxicology and Toxinology",
+    "locator": "Paracetamol poisoning - acetylcysteine regimen and monitoring",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the Australian two-bag regimen is 200 mg/kg over 4 hours then 100 mg/kg over 16 hours; bloods at the end of the infusion (2 hours before the end is also acceptable) are ALT, INR, paracetamol level and renal function. Hepatotoxicity is defined as ALT above 1000 U/L. Massive ingestions (more than 30 g or a level double the nomogram line) need a higher acetylcysteine dose in the second bag. Misconceptions: that a normal INR alone permits cessation; that bilirubin is an early marker of paracetamol injury; that acetylcysteine is simply stopped when the 20 hours are up. Out of scope: transplant criteria.",
+  "plan": "Tests high-level recall of the exact criteria for extending acetylcysteine, a decision a rural overnight doctor must make with phone advice. Distractors are result sets that are all below threshold in different ways (ALT under 50, ALT not doubled, isolated bilirubin). Supported by the MJA 2020 guideline and Therapeutic Guidelines Toxicology."
+ },
+ {
+  "work_order_id": "r1-132",
+  "item_id": "9c66d9a3-9782-5378-35ef-385c113776e9",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital. A 57-year-old man was admitted 3 days ago with severe community-acquired pneumonia and is now improving on intravenous antibiotics. The admitting team added thyroid function tests to his bloods because he mentioned fatigue. Results: TSH 0.2 mIU/L (reference 0.4-4.0), free T4 10 pmol/L (reference 10-20), free T3 2.4 pmol/L (reference 3.5-6.5). He has no history of thyroid disease, no goitre, no tremor, and his resting heart rate is 76. He is not taking amiodarone, lithium or glucocorticoids. The registrar asks you to decide what to do with the result and write a plan in the discharge summary.",
+  "lead_in": "What is the most appropriate plan for this result?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Repeat the thyroid function tests through his general practitioner 6 to 8 weeks after recovery"
+   },
+   {
+    "id": "B",
+    "text": "Start levothyroxine 50 micrograms daily for hypothyroidism"
+   },
+   {
+    "id": "C",
+    "text": "Start carbimazole 10 mg daily for subclinical hyperthyroidism"
+   },
+   {
+    "id": "D",
+    "text": "Request thyroid antibodies and a nuclear medicine thyroid uptake scan before discharge"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. A low TSH with low-normal free T4 and low free T3 in a patient with a serious acute illness and no thyroid symptoms is the typical pattern of non-thyroidal illness (sick euthyroid syndrome). Thyroid function should not have been tested during acute illness; the correct action is to repeat the tests after recovery, when they usually normalise.",
+   "B": "Levothyroxine is not indicated: TSH is suppressed rather than raised, and treating non-thyroidal illness with thyroid hormone has no benefit and may cause harm.",
+   "C": "A suppressed TSH during acute illness does not indicate hyperthyroidism; free T4 and T3 are low, not high. Carbimazole would be inappropriate and potentially dangerous.",
+   "D": "Further thyroid investigation is premature while the patient is acutely unwell; antibodies and uptake scans are decisions for after a persistent abnormality is confirmed, usually in primary care or endocrinology clinic."
+  },
+  "learning_point": "Thyroid function tests done during acute illness commonly show a low TSH with low or low-normal free T4 and T3 (non-thyroidal illness); do not treat, and repeat the tests 6 to 8 weeks after recovery.",
+  "setting_note": "",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "General medicine",
+   "Pathology",
+   "Discharge planning"
+  ],
+  "domains": [
+   "1.5",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "thyroid function tests",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Thyroid function test interpretation - non-thyroidal illness",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RCPA Manual: Thyroid function tests",
+    "locator": "Interpretation in acute illness",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: in non-thyroidal illness T3 falls first (reduced peripheral conversion), TSH may be low during illness and transiently raised during recovery, and free T4 is usually normal or low-normal. Glucocorticoids and dopamine also suppress TSH. Thyroid function tests should be avoided in acute inpatients unless thyroid disease is genuinely suspected. Misconceptions: labelling any low TSH as hyperthyroidism; starting thyroxine for a borderline free T4. Out of scope: central hypothyroidism work-up.",
+  "plan": "Tests whether an intern recognises the sick euthyroid pattern and plans a repeat after recovery rather than treating. Metro ward scene with a registrar delegating the plan. Distractors: thyroxine (reads low T4), carbimazole (reads low TSH), further investigation (over-testing). Supported by Therapeutic Guidelines Endocrinology and the RCPA Manual."
+ },
+ {
+  "work_order_id": "r1-133",
+  "item_id": "e80564c2-e20d-c1b2-1b0f-f6a75adbb712",
+  "version": 1,
+  "stem": "You are the junior doctor on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting physician and specialist advice by phone. An 80-year-old man was admitted overnight with an infective exacerbation of chronic obstructive pulmonary disease. He has chronic kidney disease (eGFR 32 mL/min/1.73 m2) and stable ischaemic heart disease. The admission bloods included a high-sensitivity troponin I of 48 ng/L (reference below 26); a repeat 3 hours later is 51 ng/L. He has had no chest pain at any time, his ECG shows sinus rhythm with unchanged chronic T-wave flattening compared with last year, and he is comfortable on 2 L oxygen with his antibiotics, prednisolone and nebulisers. The nurse asks whether the troponin result changes his management.",
+  "lead_in": "What is the most appropriate response to this troponin result?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Load with aspirin and ticagrelor and start therapeutic enoxaparin for a non-ST-elevation myocardial infarction"
+   },
+   {
+    "id": "B",
+    "text": "Phone the Adelaide cardiology registrar to arrange urgent transfer for coronary angiography"
+   },
+   {
+    "id": "C",
+    "text": "Continue treating the exacerbation, repeat the ECG if he develops symptoms, and discuss the result with the physician on the ward round"
+   },
+   {
+    "id": "D",
+    "text": "Repeat the troponin every 3 hours until it returns to the reference range before planning discharge"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A mildly raised, flat troponin without ischaemic symptoms or ECG change does not meet the definition of myocardial infarction; antiplatelet loading and anticoagulation would expose an 80-year-old with renal impairment to bleeding risk for no benefit.",
+   "B": "Angiography is not indicated for chronic myocardial injury without an acute coronary syndrome; transferring a man with an active COPD exacerbation 2 hours by road would carry risk without changing outcome.",
+   "C": "Correct. A stable, mildly elevated high-sensitivity troponin (change of less than 20 percent between samples) in an older patient with chronic kidney disease and an acute respiratory illness represents chronic myocardial injury or demand-related release, not an acute coronary syndrome. The right action is to treat the precipitating illness, stay alert for new symptoms or ECG change, and ensure the result is reviewed by the senior team rather than acted on alone.",
+   "D": "Troponin in chronic kidney disease may never return to the reference range; serial testing beyond a delta of two samples adds nothing and would delay discharge."
+  },
+  "learning_point": "A mildly raised troponin that is flat on repeat, without ischaemic symptoms or ECG change, usually reflects chronic myocardial injury (for example chronic kidney disease or acute illness) rather than myocardial infarction, and should not trigger acute coronary syndrome treatment.",
+  "setting_note": "In a regional hospital the junior doctor should resist the pull to transfer every raised troponin to Adelaide; the discussion with the visiting physician or cardiology by phone decides whether anything further is needed, while in a tertiary centre the same result would simply be reviewed on the cardiology or medical ward round.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "General medicine",
+   "Pathology",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "troponin interpretation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and CSANZ: Australian Clinical Guidelines for the Management of Acute Coronary Syndromes 2016",
+    "locator": "Troponin interpretation - myocardial injury versus myocardial infarction",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Acute coronary syndromes - diagnosis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the Fourth Universal Definition distinguishes myocardial injury (any troponin above the 99th percentile) from infarction (a rise and/or fall with evidence of ischaemia). Chronic elevations occur with chronic kidney disease, heart failure, structural heart disease and advanced age; acute non-ischaemic elevations occur with sepsis, respiratory failure and pulmonary embolism. A significant delta is generally more than 20 percent (or assay-specific absolute change). Misconception: troponin as a stand-alone test for infarction; ordering troponin without a clinical question. Chronic myocardial injury still carries prognostic significance, so outpatient cardiology follow-up may be reasonable.",
+  "plan": "Tests whether a junior doctor avoids over-treating a flat, mildly raised troponin in an older patient with CKD and acute illness. Mid North ward scene makes transfer the tempting over-reaction. Distractors: ACS treatment, transfer for angiography, endless serial troponins. Supported by the NHF/CSANZ ACS guideline and Therapeutic Guidelines Cardiovascular."
+ },
+ {
+  "work_order_id": "r1-134",
+  "item_id": "832aa567-00eb-5e62-1666-e04b9743a31c",
+  "version": 1,
+  "stem": "You are the intern covering the general ward of a large metropolitan teaching hospital. At 02:00 the nurse calls you to see a 38-year-old woman who is day 2 after a laparoscopic appendicectomy. She had 15 minutes of central chest tightness while lying in bed that has now resolved. She is a non-smoker with no cardiac history, takes the combined oral contraceptive pill, and is mobilising. Heart rate 92, blood pressure 126/78, respiratory rate 16, oxygen saturation 98 percent on room air, afebrile, calves soft and non-tender. Her ECG is normal sinus rhythm with no ST or T-wave change. A high-sensitivity troponin taken 1 hour after the pain started is 6 ng/L (reference below 16). The nurse asks whether the chest pain is now sorted.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Document the pain as musculoskeletal and arrange no further tests"
+   },
+   {
+    "id": "B",
+    "text": "Start therapeutic enoxaparin for presumed pulmonary embolism pending imaging"
+   },
+   {
+    "id": "C",
+    "text": "Give aspirin and ticagrelor loading and phone cardiology for angiography"
+   },
+   {
+    "id": "D",
+    "text": "Repeat the troponin and ECG at least 2 to 3 hours after the first sample and reassess her"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A single troponin drawn 1 hour after symptom onset cannot exclude myocardial injury because troponin rises over several hours; concluding the pain is benign on one early sample is a common and unsafe shortcut.",
+   "B": "She has risk factors for venous thromboembolism (surgery, oral contraceptive), but a resolved pain with normal oxygen saturation, heart rate and calves does not justify empirical anticoagulation 2 days after surgery; a structured assessment with the registrar comes first.",
+   "C": "There is no evidence of acute coronary syndrome: the ECG is normal and the troponin is not raised. Antiplatelet loading in a postoperative patient without a diagnosis risks bleeding.",
+   "D": "Correct. Australian chest pain pathways require a repeat high-sensitivity troponin a minimum of 2 to 3 hours after the first (and at least 3 to 6 hours after symptom onset for an early presenter) together with a repeat ECG before acute myocardial injury can be excluded. The intern should also hand over the pending result and consider other causes such as pulmonary embolism with the registrar."
+  },
+  "learning_point": "A single early troponin does not exclude myocardial injury; chest pain assessment requires an ECG and serial high-sensitivity troponin at least 2 to 3 hours apart before the episode is signed off.",
+  "setting_note": "",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Emergency presentations",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.5",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "troponin interpretation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and CSANZ: Australian Clinical Guidelines for the Management of Acute Coronary Syndromes 2016",
+    "locator": "Assessment of suspected ACS - serial troponin testing",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Acute coronary syndromes - initial assessment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ECG within 10 minutes of chest pain; serial high-sensitivity troponin at 0 and 2-3 hours (some assays validated at 0 and 1 hour under specific pathways); a very early sample may be falsely reassuring. Postoperative chest pain differentials include pulmonary embolism, atelectasis, reflux and anxiety as well as ACS. Misconceptions: a single negative troponin excludes infarction; a normal ECG excludes ACS; anticoagulating empirically without assessment. Out of scope: CT pulmonary angiography decision rules in detail.",
+  "plan": "Tests the basic rule that a single early troponin needs a serial sample. Scene is a metro general ward at night with the intern as first responder; the setting is any because the rule is universal. Distractors: signing off the pain, empirical anticoagulation, ACS loading. Supported by the NHF/CSANZ ACS guideline and Therapeutic Guidelines Cardiovascular."
+ },
+ {
+  "work_order_id": "r1-135",
+  "item_id": "92cf4165-0fd3-df60-9c82-10927cd1686b",
+  "version": 1,
+  "stem": "You are the PGY2 on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, where the visiting surgeon operates two days a week and gives advice by phone otherwise. A 58-year-old woman is day 3 after a laparoscopic cholecystectomy. Her indwelling catheter was removed on day 1 and she is passing urine normally with no dysuria, frequency, flank pain or fever. She is eating, mobilising and expecting discharge tomorrow. As part of the ward's routine, the nurse performed a urine dipstick this morning: leucocytes 2+, nitrites positive, blood trace, protein trace. The nurse has sent a midstream urine for culture and asks you to chart antibiotics before she goes off shift. The woman has no diabetes, no urological history and is not pregnant.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart trimethoprim 300 mg orally at night for 3 days"
+   },
+   {
+    "id": "B",
+    "text": "Withhold antibiotics, document that she is asymptomatic, and reassess if symptoms or fever develop"
+   },
+   {
+    "id": "C",
+    "text": "Chart cefalexin 500 mg orally 6-hourly until the culture result is available"
+   },
+   {
+    "id": "D",
+    "text": "Reinsert a catheter to obtain an uncontaminated specimen before deciding"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Treating a positive dipstick in a patient without urinary symptoms is treatment of asymptomatic bacteriuria, which Therapeutic Guidelines and the ACSQHC antimicrobial stewardship program advise against outside pregnancy and some urological procedures; it drives resistance and Clostridioides difficile infection without benefit.",
+   "B": "Correct. Asymptomatic bacteriuria is common after catheterisation and in older women; dipstick findings in the absence of symptoms do not indicate infection. The best action is no antibiotic, clear documentation of the reasoning, and review if she develops dysuria, fever, flank pain or systemic signs. The culture result does not change this unless symptoms appear.",
+   "C": "Empirical cefalexin while awaiting culture still treats an asymptomatic finding; the culture was arguably not indicated at all and a positive result will tempt further unnecessary treatment.",
+   "D": "Recatheterising a patient to chase a cleaner sample exposes her to the risk of catheter-associated infection to answer a question that does not need answering."
+  },
+  "learning_point": "A positive urine dipstick or culture in a patient without urinary or systemic symptoms is asymptomatic bacteriuria and should not be treated with antibiotics, except in pregnancy or before certain urological procedures.",
+  "setting_note": "The decision is the same in regional and tertiary hospitals; in a small hospital without an on-site pharmacist or infectious diseases service the junior doctor is often the main antimicrobial stewardship safeguard and should feel able to decline an antibiotic request and explain why.",
+  "learning_area": "Investigations and interpretation",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Prescribing and medication safety",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "D",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "urinalysis",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Asymptomatic bacteriuria - when treatment is and is not indicated",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care: Antimicrobial Stewardship Clinical Care Standard",
+    "locator": "Quality statement on appropriate initiation of antimicrobials",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: asymptomatic bacteriuria prevalence rises with age and with recent catheterisation; dipstick leucocytes and nitrites have poor specificity for infection; screening and treatment are recommended only in pregnancy and before urological procedures with mucosal bleeding. In older or postoperative patients, new confusion alone is also not a reliable indicator of urinary infection. Misconceptions: nitrites equal infection; treating to prevent later infection; culture positivity mandates treatment. Routine dipsticks on asymptomatic inpatients are themselves low-value care.",
+  "plan": "Tests whether a PGY2 can decline to treat asymptomatic bacteriuria under nursing pressure in a small surgical ward. Distractors: short-course trimethoprim, empirical cefalexin pending culture, recatheterising for a cleaner sample. Supported by Therapeutic Guidelines Antibiotic and the ACSQHC Antimicrobial Stewardship Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-136",
+  "item_id": "076b44ad-9861-5083-ab90-2ce00a780c39",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. At 01:00 the nurse asks you to see a 58-year-old Aboriginal man admitted 2 days ago with a diabetic foot infection on intravenous antibiotics. He has become restless, is pulling at his cannula, does not know where he is, and keeps looking at the corner of the room where he says children are standing. An hour ago he was settled and talking with his daughter, who is staying overnight and says he has never behaved like this and does not drink alcohol. Observations: temperature 38.7, heart rate 122, blood pressure 102/60, respiratory rate 26, oxygen saturation 90 percent on room air, blood glucose 11.2 mmol/L. His attention wanders and he cannot repeat the months backwards. The nurse wonders aloud whether he is withdrawing from alcohol and asks for a sedative.",
+  "lead_in": "What is the most likely interpretation of this presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hyperactive delirium from an acute medical cause such as sepsis or hypoxia"
+   },
+   {
+    "id": "B",
+    "text": "Alcohol withdrawal with early delirium tremens"
+   },
+   {
+    "id": "C",
+    "text": "A first episode of acute psychosis"
+   },
+   {
+    "id": "D",
+    "text": "Situational distress at being away from family and Country that will settle with reassurance"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. Acute onset, fluctuating course, inattention, disorientation and visual hallucinations are the core features of delirium. Fever, tachycardia, borderline blood pressure, tachypnoea and hypoxia in a patient with a known infection point to sepsis and hypoxia as the cause. This meets Rapid Detection and Response escalation criteria and needs immediate medical assessment, sepsis management and escalation to the on-call doctor, not a sedative.",
+   "B": "Assuming alcohol withdrawal in an Aboriginal patient without any history of alcohol use, when his daughter has specifically said he does not drink, is a stereotype that risks missing sepsis. Withdrawal is a diagnosis made on history, and the fever and hypoxia need another explanation regardless.",
+   "C": "A first psychotic episode at 58 with fever, hypoxia and disorientation would be very unusual; psychosis does not produce inattention and fluctuating consciousness, and visual hallucinations favour an organic cause.",
+   "D": "Cultural and family factors matter and the Aboriginal Liaison Officer and family should be part of his care, but distress does not cause fever, hypoxia and tachycardia; attributing abnormal vital signs to cultural factors delays treatment."
+  },
+  "learning_point": "Acute confusion with inattention, fluctuating course and abnormal vital signs is delirium from a medical cause until proven otherwise; never assume alcohol withdrawal from a patient's background rather than their history.",
+  "setting_note": "In a country hospital the junior doctor is the medical assessment overnight: apply the Rapid Detection and Response escalation criteria, start the sepsis pathway (cultures, lactate if available, fluids, broaden antibiotics on phone advice), give oxygen, and call the on-call doctor and, if deteriorating, the retrieval service; involve the family and the Aboriginal Liaison Officer as part of safe care.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Older people, delirium and falls",
+   "Infection and sepsis",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "3.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "acute agitation",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care: Delirium Clinical Care Standard",
+    "locator": "Quality statements on recognition, assessment and identifying causes of delirium",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response observation chart and escalation criteria",
+    "locator": "Escalation criteria for new confusion, tachycardia, hypoxia and fever",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Delirium - assessment and management of underlying causes",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: delirium is an acute disturbance of attention and awareness with a fluctuating course; the 4AT or CAM can be used at the bedside; common precipitants are infection, hypoxia, medications, pain, retention, constipation and metabolic disturbance. Sedation is reserved for danger to self or others after causes are addressed. Misconceptions: hallucinations mean psychiatric illness; alcohol withdrawal can be assumed from ethnicity or appearance; an Aboriginal patient's distress is cultural rather than clinical. Culturally safe practice includes family presence, the ALO, and a quiet familiar environment, alongside full medical treatment.",
+  "plan": "Tests interpretation of an acutely agitated patient as delirium from sepsis and hypoxia, with the nurse's alcohol-withdrawal suggestion as the stereotype trap. Rural overnight scene with the PGY2 as sole doctor. Distractors: alcohol withdrawal (bias), primary psychosis, cultural distress. Supported by the ACSQHC Delirium Clinical Care Standard, the SA Health RDR criteria and Therapeutic Guidelines Psychotropic."
+ },
+ {
+  "work_order_id": "r1-137",
+  "item_id": "de8725a7-feec-0710-e8c4-2cfc44c4281d",
+  "version": 1,
+  "stem": "You are the PGY2 covering the medical ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. At 23:00 the nurse in charge calls about a 32-year-old man admitted that afternoon with a fractured clavicle and rib fractures after a motorbike crash, awaiting transfer for surgical review in the morning. He is pacing the corridor, swearing at staff, refusing observations and saying he will leave. He has not threatened anyone physically and has no weapon. His notes record methamphetamine use, and he last used 2 days ago. When you arrive he is sweating, with heart rate 118, and he says the ward is too noisy and he cannot sleep because of the pain. There are two nurses on the ward and no security staff; the on-call GP is at home 10 minutes away.",
+  "lead_in": "What is the most appropriate first step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give intramuscular droperidol 10 mg now with the two nurses restraining him"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurses to lock him in his room until he is calmer"
+   },
+   {
+    "id": "C",
+    "text": "Talk with him calmly in a quiet area, address his pain and offer oral sedation, while asking the on-call doctor to attend"
+   },
+   {
+    "id": "D",
+    "text": "Phone the police and ask them to remove him from the hospital"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Parenteral sedation with physical restraint is reserved for patients whose behaviour poses an immediate danger and who cannot be de-escalated or will not accept oral medication. Restraining a man with rib fractures using two nurses is also unsafe for everyone involved.",
+   "B": "Locking a patient in a room is seclusion: it is unlawful outside an approved mental health facility under the SA Mental Health Act, unsafe for a patient with chest injuries, and likely to escalate the situation.",
+   "C": "Correct. Verbal de-escalation is the first-line management of acute behavioural disturbance: a calm approach in a quieter space, listening to his concerns, and addressing contributing factors (here, inadequate analgesia and a noisy environment). Offering oral medication such as diazepam or olanzapine if needed, and calling the on-call doctor early so you are not alone, keeps staff and patient safe and preserves the therapeutic relationship.",
+   "D": "He is an injured inpatient who needs care; asking police to remove him abandons duty of care. Police may be called if there is a genuine threat to safety that staff cannot manage, but that is not the situation described."
+  },
+  "learning_point": "For an agitated but non-violent patient, start with verbal de-escalation and treat contributing factors such as pain, offer oral sedation if needed, and call for help early; parenteral sedation and restraint are last resorts.",
+  "setting_note": "A country hospital has no security or psychiatric team overnight, so the junior doctor should call the on-call GP in early, use the SA Health acute behavioural disturbance guideline, and know the state mental health triage line and the police are available only for genuine safety threats.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Doctor wellbeing, teamwork and workload",
+   "Rural and remote",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "acute agitation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Acute behavioural disturbance - de-escalation and principles of sedation",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Management of Acute Behavioural Disturbance (Emergency Sedation) guideline",
+    "locator": "Stepwise approach: de-escalation, oral then parenteral sedation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a graded approach is de-escalation, oral sedation (diazepam 5-10 mg or olanzapine 5-10 mg), then intramuscular sedation (droperidol 10 mg) only for severe disturbance with danger, with monitoring afterwards. Methamphetamine use raises the risk of agitation but also of hyperthermia and cardiovascular complications, so monitoring matters once he settles. Untreated pain, hypoxia and hypoglycaemia are common drivers of agitation after trauma. Misconceptions: that agitation equals an indication for IM sedation; that seclusion is permitted on a general ward. Out of scope: the legal detail of restraint under the Mental Health Act.",
+  "plan": "Tests the first step with an agitated trauma patient overnight in a country hospital: de-escalate, treat pain, offer oral sedation and call for help. Distractors: immediate IM sedation with restraint, seclusion, police removal. Supported by Therapeutic Guidelines Psychotropic and the SA Health acute behavioural disturbance guideline."
+ },
+ {
+  "work_order_id": "r1-138",
+  "item_id": "bec2cfc2-2c7e-f496-8380-6fc944d576ee",
+  "version": 1,
+  "stem": "You are the junior doctor covering the wards overnight at a country hospital 90 minutes from the nearest tertiary centre, with the on-call GP at home. At 02:30 you are resiting a cannula on a patient who needs intravenous antibiotics when the ward nurse calls. A 40-year-old man admitted 36 hours ago for planned alcohol withdrawal on a symptom-triggered diazepam regimen has become confused and frightened in the last hour, saying there are insects on the walls. His alcohol withdrawal scale score has risen from 8 to 16. Heart rate 124, blood pressure 168/102, temperature 37.9, oxygen saturation 96 percent. He received diazepam 10 mg at 23:00 and thiamine 300 mg intravenously this evening. The nurse asks what you want to do.",
+  "lead_in": "What is the most appropriate first action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the nurse to give the next regimen dose of diazepam and call you back in an hour if he is no better"
+   },
+   {
+    "id": "B",
+    "text": "Finish the cannula quickly, review him immediately, give diazepam according to his score and phone the on-call GP"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT head in the morning to exclude an intracranial cause of his confusion before giving more sedation"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe haloperidol 5 mg intramuscularly for the hallucinations"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A rising withdrawal score with hallucinations and marked autonomic instability signals impending delirium tremens, which carries real mortality. This cannot be managed by phone with a routine dose and a review in an hour.",
+   "B": "Correct. He is deteriorating and takes priority over a non-urgent cannula. The junior doctor should see him now, confirm there is no other cause (hypoglycaemia, hypoxia, head injury, sepsis), give further diazepam titrated to the withdrawal scale (for example 20 mg orally, repeated at intervals until settled, per the local protocol), and escalate to the on-call GP because severe withdrawal in a small hospital may need transfer for closer monitoring.",
+   "C": "Delaying treatment until a scan is available in the morning would allow withdrawal to progress to seizures or delirium tremens; a CT is only indicated if there are focal signs or a history of head injury.",
+   "D": "Antipsychotics lower the seizure threshold and are not a substitute for benzodiazepines in alcohol withdrawal; they are used only as an adjunct for persisting hallucinations after adequate benzodiazepine loading."
+  },
+  "learning_point": "A rising alcohol withdrawal score with hallucinations and autonomic instability is a medical emergency: review in person now, give benzodiazepine titrated to the score, exclude other causes and escalate.",
+  "setting_note": "A country hospital cannot provide high-dependency monitoring; early escalation to the on-call GP and a low threshold for discussing transfer with the tertiary centre are part of the right answer, whereas a tertiary hospital would involve the medical registrar and consider a high-dependency bed.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Prescribing and medication safety",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "alcohol withdrawal",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Addiction Medicine",
+    "locator": "Alcohol withdrawal - severe withdrawal and delirium tremens, benzodiazepine titration",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Alcohol Withdrawal Management guideline (Drug and Alcohol Services South Australia)",
+    "locator": "Symptom-triggered diazepam and escalation of severe withdrawal",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: withdrawal peaks at 24-72 hours; hallucinations, confusion, fever and marked autonomic instability indicate severe withdrawal or delirium tremens; treatment is front-loaded diazepam (for example 20 mg orally every 1-2 hours until settled, with senior involvement for large cumulative doses) plus thiamine; check glucose, oxygen, electrolytes (magnesium, phosphate) and look for sepsis or head injury. Misconceptions: giving antipsychotics for withdrawal hallucinations; treating by phone; attributing confusion to intoxication. The prioritisation point is that a deteriorating patient trumps a routine task.",
+  "plan": "Tests prioritisation overnight: a deteriorating alcohol withdrawal patient outranks a routine cannula, and the right first action is in-person review with titrated diazepam and escalation. Distractors: phone order and wait, CT first, haloperidol. Supported by Therapeutic Guidelines Addiction Medicine and the SA Health alcohol withdrawal guideline."
+ },
+ {
+  "work_order_id": "r1-139",
+  "item_id": "522b8ba0-2ebe-78a1-9704-164195cd9c5a",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, with the on-call GP available by phone. A 68-year-old Aboriginal man is brought in by his son at 18:00. He has drunk about ten standard drinks of beer daily for many years and stopped 2 days ago when he decided, with his family's support, that he wants to give up. Since this morning he has been unsteady, confused about the date and sweaty, with a coarse tremor. His son says he has eaten very little for weeks. On examination he is disorientated, has a wide-based ataxic gait, and you notice that his eyes do not move fully to the sides. Blood glucose 4.8 mmol/L, heart rate 108, temperature 37.2. You start the alcohol withdrawal scale and diazepam, and with his agreement the nurse has asked the Aboriginal Liaison Officer to come in.",
+  "lead_in": "Which prescription is most important to write now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Thiamine 100 mg orally once daily"
+   },
+   {
+    "id": "B",
+    "text": "Glucose 5 percent 1 L intravenously over 4 hours"
+   },
+   {
+    "id": "C",
+    "text": "Multivitamin tablet orally once daily with meals"
+   },
+   {
+    "id": "D",
+    "text": "Thiamine 500 mg intravenously three times daily"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Oral thiamine at 100 mg is a prophylactic dose for uncomplicated drinkers; it is poorly absorbed in malnourished heavy drinkers and far too low for established Wernicke encephalopathy.",
+   "B": "Giving glucose-containing fluid before thiamine can precipitate or worsen Wernicke encephalopathy by consuming the remaining thiamine; his glucose is normal and fluid without thiamine first is the wrong order.",
+   "C": "A multivitamin contains trivial thiamine and does nothing for the acute neurological emergency; it may be added later for general nutritional support.",
+   "D": "Correct. Confusion, ataxia and ophthalmoplegia in a malnourished heavy drinker is Wernicke encephalopathy until proven otherwise. Therapeutic Guidelines recommends high-dose parenteral thiamine, 500 mg intravenously three times daily for at least 3 days, started immediately and before any glucose, to prevent permanent Korsakoff syndrome. Benzodiazepines for withdrawal continue alongside."
+  },
+  "learning_point": "Confusion, ataxia or eye movement abnormalities in a heavy drinker mean Wernicke encephalopathy: give high-dose intravenous thiamine (500 mg three times daily) immediately and before any glucose.",
+  "setting_note": "Intravenous thiamine is stocked in country hospitals and should be given before transfer discussions; the intern should also phone the on-call GP, as a patient with Wernicke encephalopathy and evolving withdrawal may need transfer for monitoring.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Neurology",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "alcohol withdrawal",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Addiction Medicine",
+    "locator": "Wernicke encephalopathy - treatment with high-dose parenteral thiamine",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Thiamine - dosing in Wernicke encephalopathy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the classic triad (confusion, ataxia, ophthalmoplegia) is present in a minority, so treat on suspicion; prophylactic dose for at-risk drinkers is 300 mg IV or IM daily for 3-5 days; treatment dose 500 mg IV three times daily for 3 days then 300 mg daily. Thiamine before glucose. Magnesium deficiency impairs thiamine response and should be corrected. Misconceptions: oral thiamine is adequate; the triad must be complete; alcohol use is assumed rather than asked about respectfully. Culturally safe care here means family involvement and the ALO, and framing the admission around his own decision to stop drinking.",
+  "plan": "Tests recognition and prescribing for Wernicke encephalopathy at an intern level. Rural ED with the GP by phone, patient and family engaged in a change decision, ALO involved. Distractors: low-dose oral thiamine, glucose first, multivitamin. Supported by Therapeutic Guidelines Addiction Medicine and the AMH."
+ },
+ {
+  "work_order_id": "r1-140",
+  "item_id": "387ec319-a15b-69fc-c083-db727a372c3d",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and emergency department overnight in a country hospital 90 minutes from the nearest tertiary centre. A 54-year-old Aboriginal man presents at 23:00 with 90 minutes of central chest pain. His ECG shows 3 mm ST elevation in leads II, III and aVF. Blood pressure 134/82, heart rate 78, oxygen saturation 97 percent. You phone the cardiologist on call in Adelaide, who advises thrombolysis with tenecteplase now and retrieval. When you explain this, the man says he does not want the clot-busting drug and wants to go home to his family. He is alert, speaks clearly, repeats back that the drug could save his life and that without it he could die, and says he understands but is frightened of bleeding because his brother died of a stroke. The nurse asks what you are going to do.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explore his fears and explain the risks and benefits again, offer to involve his family and the Aboriginal Liaison Officer, and respect his decision if he retains capacity"
+   },
+   {
+    "id": "B",
+    "text": "Give the tenecteplase now because this is a life-threatening emergency and a patient refusing life-saving treatment cannot have capacity"
+   },
+   {
+    "id": "C",
+    "text": "Detain him under the Mental Health Act 2009 so that treatment for his heart attack can be given without consent"
+   },
+   {
+    "id": "D",
+    "text": "Ask him to sign a discharge against medical advice form and let him leave so the department is not held responsible"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. A patient with capacity can refuse treatment even when the refusal may lead to death. Capacity means understanding, retaining and weighing the information and communicating a decision, which he demonstrates. The junior doctor's job is to make sure the decision is informed and voluntary: explore the fear driving it, explain the actual bleeding risk, and offer family and the Aboriginal Liaison Officer so he can decide in a culturally safe way. Many patients change their mind when their specific fear is addressed; if not, his decision is respected, alternatives (aspirin, transfer for angiography) are offered and everything is documented and discussed with the cardiologist.",
+   "B": "Refusing treatment does not mean a person lacks capacity; the test is the decision-making process, not whether the decision agrees with medical advice. Treating a competent adult against his will is assault.",
+   "C": "The Mental Health Act permits involuntary treatment of mental illness only; it cannot be used to impose treatment for a physical illness on a competent adult who is not mentally ill.",
+   "D": "A form does not replace the duty to explore the refusal, provide alternatives and ensure he understands; abandoning the conversation at the first refusal is poor practice and particularly unsafe for a patient who may be frightened or feel unheard."
+  },
+  "learning_point": "A competent adult may refuse life-saving treatment; the doctor's role is to ensure the refusal is informed and voluntary, address the specific fear, offer culturally safe support and alternatives, and document the discussion.",
+  "setting_note": "In a country hospital the Aboriginal Liaison Officer may not be on site overnight but can often be contacted by phone, and the retrieval team and cardiologist should be kept informed; the same ethical and legal principles apply in a tertiary centre, where the cardiology registrar would join the conversation in person.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Aboriginal and Torres Strait Islander health",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "1.2",
+   "1.3",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "capacity to refuse treatment",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia: Good medical practice - a code of conduct for doctors in Australia",
+    "locator": "Section 4: Informed consent and respecting patient decisions",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Consent to Medical Treatment and Health Care Policy (Consent to Medical Treatment and Palliative Care Act 1995 SA)",
+    "locator": "Capacity to consent and the right of a competent adult to refuse treatment",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Health Practitioner Regulation Agency / AMC: Cultural safety for Aboriginal and Torres Strait Islander peoples",
+    "locator": "Involving family and Aboriginal Liaison Officers in decision-making",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: capacity is presumed in adults, is decision-specific, and is assessed on process (understand, retain, weigh, communicate); fear or an unwise choice does not negate capacity. Documentation should record the information given, the patient's reasons, the capacity assessment and witnesses. If capacity is genuinely in doubt (for example from hypoxia or opioids), treat emergency incapacity under the SA Consent to Medical Treatment and Palliative Care Act with senior advice. Misconceptions: that refusal equals incapacity; that the Mental Health Act covers physical illness; that a signed form ends the doctor's responsibility. Out of scope: substitute decision-maker hierarchy.",
+  "plan": "Tests the basic principle that a competent adult may refuse treatment, in a rural STEMI scenario where the stakes make the wrong answers tempting. Culturally safe practice (family, ALO) is built into the key. Distractors: treat anyway, misuse the Mental Health Act, sign a form and abandon. Supported by Good medical practice and SA Health consent policy."
+ },
+ {
+  "work_order_id": "r1-141",
+  "item_id": "e4889088-d244-089d-f904-281a7e59de02",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the physician available by phone. At 21:00 the nurse asks you to see a 29-year-old Aboriginal woman admitted yesterday with pyelonephritis on intravenous antibiotics. In the last 2 hours she has become frightened and tearful, says there are people in the ceiling talking about her, does not know what day it is, and drifts off mid-sentence. Her mother, who is staying with her, says she has never had anything like this and has no history of mental illness or drug use. Observations: temperature 39.1, heart rate 128, blood pressure 92/58, respiratory rate 24, oxygen saturation 95 percent on room air, blood glucose 6.1 mmol/L. The nurse says she looks like she is having a psychotic episode and suggests calling the psychiatric triage line.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the mental health triage service for assessment of a first psychotic episode"
+   },
+   {
+    "id": "B",
+    "text": "Give olanzapine 10 mg orally and reassess her in the morning on the ward round"
+   },
+   {
+    "id": "C",
+    "text": "Assess her at the bedside now as delirium from worsening sepsis, escalate under the Rapid Detection and Response criteria and phone the physician"
+   },
+   {
+    "id": "D",
+    "text": "Arrange detention under the Mental Health Act 2009 so she can be transferred to an inpatient psychiatric unit"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Mental health triage cannot treat the cause of her confusion. Hallucinations with disorientation, inattention and fever in a patient with a known infection are delirium, and a psychiatric referral before medical assessment delays life-saving treatment.",
+   "B": "Antipsychotic sedation would mask the signs of deterioration and does nothing for hypotension and fever; it is reserved for distress or danger after medical causes are addressed.",
+   "C": "Correct. Acute onset, fluctuating attention, disorientation and hallucinations in the setting of fever, tachycardia and hypotension meet Rapid Detection and Response escalation criteria and indicate sepsis with possible septic shock. The junior doctor should assess her now, start the sepsis pathway (repeat cultures, lactate, fluid bolus, review the antibiotic choice), escalate to the physician by phone and consider early retrieval, while keeping her mother with her and involving the Aboriginal Liaison Officer for support.",
+   "D": "The Mental Health Act applies to mental illness, not delirium from a medical cause; transferring a septic patient to a psychiatric unit would be dangerous and unlawful."
+  },
+  "learning_point": "New hallucinations with disorientation and inattention in a medically unwell patient are delirium, not psychosis; assess and escalate for the medical cause before any psychiatric referral or sedation.",
+  "setting_note": "In a regional hospital the junior doctor is the first medical responder: start sepsis management, phone the physician and have a low threshold for calling the retrieval service, because the hospital has no intensive care; a tertiary ward would call a rapid response and the medical registrar would attend.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Infection and sepsis",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "delirium versus psychosis",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care: Delirium Clinical Care Standard",
+    "locator": "Recognition of delirium and identification of underlying causes",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response observation chart and escalation criteria",
+    "locator": "Escalation for hypotension, tachycardia, fever and new confusion",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care: Sepsis Clinical Care Standard",
+    "locator": "Time-critical recognition and management of sepsis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: delirium is distinguished from primary psychosis by acute onset, fluctuating course, inattention, disorientation and a medical precipitant; visual hallucinations favour delirium. First psychotic episodes rarely present with fever and hypotension. Sepsis management includes cultures, lactate, 20 mL/kg fluid bolus for hypotension, antibiotic review and reassessment within the hour. Misconceptions: calling psychiatry first because of hallucinations; sedating and waiting; using the Mental Health Act for delirium. Culturally safe practice means family presence and the ALO, without delaying treatment.",
+  "plan": "Tests whether a PGY2 recognises delirium from sepsis when a nurse frames the presentation as psychosis, in a regional ward with the physician by phone. Distractors: mental health triage, antipsychotic and wait, Mental Health Act detention. Supported by the ACSQHC Delirium and Sepsis Clinical Care Standards and SA Health RDR criteria."
+ },
+ {
+  "work_order_id": "r1-142",
+  "item_id": "e1177c21-8a8c-c613-fbf4-f9f4ca208906",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a regional hospital with a small medical ward, no intensive care, and retrieval to Adelaide by road or air. A 19-year-old man was admitted 4 days ago with a tibial fracture after a motorbike crash and is waiting for transfer for surgery, which has been postponed twice. At 20:00 the nurse tells you he has eaten little for 2 days, has been tearful, and tonight said he does not see the point of the operation and would not mind if he did not wake up. He is on oxycodone 10 mg four times daily for pain and slept poorly. He is alert, orientated, with normal observations. When you sit with him he says he feels like a burden to his parents, who drive 2 hours each way to visit, and that things will not get better.",
+  "lead_in": "How should these statements be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal adjustment reaction to injury and delay that needs no action tonight beyond reassurance"
+   },
+   {
+    "id": "B",
+    "text": "Possible suicidal ideation that requires a direct risk assessment this evening and escalation to the on-call doctor"
+   },
+   {
+    "id": "C",
+    "text": "Opioid-related mood change that should be managed by reducing the oxycodone dose and reviewing tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "A request for help with sleep that should be met with a short course of temazepam"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Hopelessness, feeling a burden and a wish not to wake up go beyond expected adjustment; these are recognised warning signs for suicide and must be asked about directly, not reassured away.",
+   "B": "Correct. Passive death wishes, hopelessness and perceived burdensomeness in a young man with poor sleep, pain and social isolation are indicators of possible suicidal ideation. The intern should ask directly about thoughts of suicide, plans, means and intent, document the assessment, ensure he is safe on the ward (including access to medications and the environment), and escalate the same evening to the on-call doctor and the mental health triage service rather than leaving it for the day team.",
+   "C": "Opioids can lower mood, but attributing suicidal statements to medication and deferring assessment would miss a risk that needs action now; medication review can follow the risk assessment.",
+   "D": "Insomnia is part of the picture but prescribing a hypnotic without a risk assessment ignores the content of what he has said and adds a potential means of harm."
+  },
+  "learning_point": "Statements of hopelessness, feeling a burden or wishing not to wake up are warning signs for suicide; ask directly about suicidal thoughts, ensure safety and escalate the same shift.",
+  "setting_note": "In a regional hospital without on-site psychiatry the intern phones the on-call doctor and the state mental health triage line for same-night advice, and ensures nursing observations and environmental safety on the medical ward; a tertiary hospital would have a consultation-liaison or emergency mental health team available overnight.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "depression on the ward",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Suicide and deliberate self-harm - assessment of suicide risk",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCP Clinical practice guideline for the management of deliberate self-harm (2016)",
+    "locator": "Risk assessment and asking directly about suicidal ideation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: asking directly about suicide does not increase risk; warning signs include hopelessness, perceived burdensomeness, social withdrawal, insomnia and reduced intake; risk factors in young men include impulsivity, substance use and access to means. A structured assessment covers ideation, plan, intent, means, protective factors and previous attempts. Misconceptions: that such statements are normal after injury; that medication explains everything; that assessment can wait for the day team. Out of scope: antidepressant choice.",
+  "plan": "Tests interpretation of passive suicidal statements by a young inpatient on an evening shift, with opioids and insomnia as distractor explanations. Rural scene with escalation by phone. Distractors: normal adjustment, opioid effect, hypnotic request. Supported by Therapeutic Guidelines Psychotropic and the RANZCP self-harm guideline."
+ },
+ {
+  "work_order_id": "r1-143",
+  "item_id": "09b969af-d9d5-4865-7482-9604ffafadd6",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the on-call doctor at home and specialist advice by phone. At 02:00 the nurse calls about a 34-year-old woman admitted 2 days ago for intravenous antibiotics for cellulitis, which is improving. Over the evening she has become increasingly suspicious, believes the antibiotics are poison sent by a neighbour, and is now dressed and trying to leave through the locked fire door, saying voices have told her to walk to the highway. She has a history of schizophrenia and stopped her medication a month ago. She is physically well with normal observations, has no weapon and has not been aggressive. The nurse asks whether she can leave, since she was admitted voluntarily.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Let her leave after documenting that she declined to stay, because she is a voluntary patient"
+   },
+   {
+    "id": "B",
+    "text": "Give olanzapine 10 mg intramuscularly so that she cannot leave the ward"
+   },
+   {
+    "id": "C",
+    "text": "Phone the police and ask them to take her into custody"
+   },
+   {
+    "id": "D",
+    "text": "Keep her on the ward under close nursing observation while you phone the on-call doctor and the mental health triage line about an inpatient treatment order"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A patient who is acutely psychotic and intends to walk to a highway at night is at serious risk; allowing her to leave would breach the duty of care. Voluntary status can be changed by making an inpatient treatment order where the criteria for involuntary treatment are met.",
+   "B": "Forced intramuscular medication to prevent a patient leaving is not justified here: she is not violent, de-escalation has not been attempted, and treatment without consent requires a lawful basis such as an inpatient treatment order.",
+   "C": "Police have powers to apprehend people with apparent mental illness in the community, but she is an inpatient in a hospital where a medical practitioner can assess her; calling police first bypasses the appropriate medical process and is likely to escalate her distress.",
+   "D": "Correct. The first priority is safety: use the least restrictive means (staff presence, a quiet space, de-escalation) to keep her on the ward while the lawful process is set in motion. Under the SA Mental Health Act 2009 a medical practitioner may make a Level 1 Inpatient Treatment Order when a person appears to have a mental illness that requires immediate treatment, there is a risk to their safety, and no less restrictive option is available. An intern should not make this decision alone: the on-call doctor must be contacted now, and the mental health triage service can advise on the order and arrange assessment."
+  },
+  "learning_point": "When a voluntary inpatient becomes acutely psychotic and unsafe to leave, keep them safe using the least restrictive means while urgently contacting the senior doctor and mental health service about an inpatient treatment order under the Mental Health Act 2009.",
+  "setting_note": "Regional hospitals have no on-site psychiatry overnight; the on-call doctor can make a Level 1 order and the mental health triage service arranges psychiatrist review, often by video, within the required timeframe; a tertiary centre would have an emergency mental health team to attend in person.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Rural and remote",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "involuntary treatment under the Mental Health Act",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "minor",
+   "uncertainty_note": "Interns hold provisional registration and may legally be able to make a Level 1 order, but local policy and safe practice expect senior involvement; the item is written around escalation rather than the intern completing the order alone."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health, Office of the Chief Psychiatrist: Mental Health Act 2009 - Level 1 Inpatient Treatment Orders guideline",
+    "locator": "Criteria and who may make a Level 1 order",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Mental Health Act 2009 (SA)",
+    "locator": "Part 5: Inpatient treatment orders - Level 1",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Level 1 Inpatient Treatment Order criteria in SA are that the person has or appears to have a mental illness, the illness requires immediate treatment, there is a risk to the person's or others' health or safety, and no less restrictive means are reasonably available. The order is made on the prescribed form, lasts up to 7 days, requires the patient to be given a copy and a statement of rights, notification to the Chief Psychiatrist, and examination by a psychiatrist or authorised medical practitioner within 24 hours (video assessment is permitted). Misconceptions: that voluntary patients can never be stopped from leaving; that IM sedation is a substitute for lawful detention; that police are the first call for an inpatient. Out of scope: Level 2 and 3 orders and community treatment orders.",
+  "plan": "Tests prioritisation overnight when a voluntary inpatient becomes psychotic and unsafe: safety first with least restrictive means, then urgent escalation about an inpatient treatment order. Distractors: let her leave, sedate to prevent leaving, call police. Supported by the SA Chief Psychiatrist guideline on Level 1 orders and the Mental Health Act 2009."
+ },
+ {
+  "work_order_id": "r1-144",
+  "item_id": "03bf8ab9-f9ec-c6d8-b603-afe92008617c",
+  "version": 1,
+  "stem": "You are the intern at a regional hospital with a small medical ward, no intensive care, on-site CT during business hours only, and retrieval to Adelaide by road or air. A 55-year-old man was brought in by police at 14:00 after his wife found him in the shed with a rope. The general practitioner on duty assessed him, found severe depression with a fixed plan to end his life, and made a Level 1 Inpatient Treatment Order under the Mental Health Act 2009 at 15:00 before leaving for the day. He is now settled on the medical ward with one-to-one nursing, has been given a copy of the order and the statement of rights, and the Chief Psychiatrist notification has been sent. At 22:00 the nurse asks you which of the outstanding tasks must be done tonight. The on-call doctor is available by phone, and the Rural and Remote Mental Health Service psychiatrist can assess by video.",
+  "lead_in": "Which task is most time-critical for you to arrange tonight?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Examination by a psychiatrist or authorised medical practitioner by video before 15:00 tomorrow to confirm or revoke the order"
+   },
+   {
+    "id": "B",
+    "text": "A full admission clerking with bloods, ECG and chest X-ray before the morning ward round"
+   },
+   {
+    "id": "C",
+    "text": "Booking a non-urgent ambulance for transfer to an Adelaide mental health unit tomorrow afternoon"
+   },
+   {
+    "id": "D",
+    "text": "Writing to his general practitioner to arrange follow-up after discharge"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. Under the SA Mental Health Act 2009 a Level 1 Inpatient Treatment Order made by a medical practitioner who is not a psychiatrist or authorised medical practitioner must be followed by examination of the patient by a psychiatrist or authorised medical practitioner within 24 hours, who confirms or revokes it. In a regional hospital this is arranged through the Rural and Remote Mental Health Service, usually by video, and the Act expressly allows audiovisual examination. Missing the deadline leaves the detention without a lawful basis, so the referral must be made tonight.",
+   "B": "A medical clerking is good practice and should happen, but it has no statutory deadline and he is physically well with one-to-one nursing; it can be completed in the morning.",
+   "C": "Transfer to an approved treatment centre depends on bed availability and the psychiatrist's decision; booking it is not time-critical tonight and does not replace the statutory examination.",
+   "D": "Discharge planning is important but is days away and has no bearing on the lawfulness of his current detention."
+  },
+  "learning_point": "A Level 1 Inpatient Treatment Order made by a non-psychiatrist must be followed by examination by a psychiatrist or authorised medical practitioner within 24 hours; in regional South Australia this is arranged urgently through the rural mental health service, usually by video.",
+  "setting_note": "In Adelaide the examination is done in person by the on-site psychiatry team; in a regional hospital the junior doctor must actively arrange the video assessment with the Rural and Remote Mental Health Service and should confirm the time of the order so the 24-hour window is not missed.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Rural and remote",
+   "Telehealth"
+  ],
+  "domains": [
+   "2.4",
+   "1.10",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "involuntary treatment under the Mental Health Act",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "minor",
+   "uncertainty_note": "The 24-hour examination requirement for Level 1 orders made by non-psychiatrists is as understood from the Mental Health Act 2009 (SA) as amended; reviewers should confirm against the current Chief Psychiatrist guideline."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health, Office of the Chief Psychiatrist: Mental Health Act 2009 - Level 1 Inpatient Treatment Orders guideline",
+    "locator": "Examination within 24 hours by a psychiatrist or authorised medical practitioner; use of audiovisual conferencing",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Mental Health Act 2009 (SA)",
+    "locator": "Part 5 Division 2: Level 1 inpatient treatment orders - examination and confirmation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a Level 1 order lasts up to 7 days; the patient must receive a copy and a statement of rights; the Chief Psychiatrist must be notified; if the order was made by someone other than a psychiatrist or authorised medical practitioner, examination within 24 hours by one of those is required and the order can be confirmed or revoked; examination by audiovisual link is permitted. Patients should be transferred to an approved treatment centre as soon as practicable. Misconceptions: that medical clerking is the overnight priority; that the order stands for 7 days without review. Out of scope: Level 2 orders and SACAT review.",
+  "plan": "Tests a PGY1 at difficulty 4 on which statutory step is time-critical after a GP makes a Level 1 order in a regional hospital: the 24-hour examination, arranged by video. Distractors are reasonable tasks without a deadline (clerking, transfer booking, GP letter). Supported by the Chief Psychiatrist Level 1 ITO guideline and the Mental Health Act 2009 (SA)."
+ },
+ {
+  "work_order_id": "r1-145",
+  "item_id": "0310ce00-4886-e278-7643-7974c8f6d742",
+  "version": 1,
+  "stem": "You are the intern in the outpatient clinic of a regional hospital with a small medical ward, no intensive care, and retrieval to Adelaide by road or air; the physician is reviewing another patient and the on-call physician is reachable by phone. A 47-year-old woman is referred by her general practitioner with weight loss. She has a long history of anorexia nervosa and has restricted her intake to a few hundred calories a day for the past 3 weeks, losing 8 kg in 2 months. Her weight is 39 kg (body mass index 14.3). She is orthostatic (lying blood pressure 92/58, standing 76/50), heart rate 42, temperature 35.4. Bloods taken this morning show potassium 2.9 mmol/L, phosphate 0.6 mmol/L, magnesium 0.6 mmol/L, sodium 134 mmol/L. She says she feels fine and would prefer to manage at home with the dietitian.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Provide a high-energy meal plan to follow at home and review her in clinic in one week"
+   },
+   {
+    "id": "B",
+    "text": "Prescribe oral potassium and phosphate supplements and review her in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Admit her today for monitored refeeding, electrolyte replacement and thiamine, after discussing with the physician"
+   },
+   {
+    "id": "D",
+    "text": "Refer her to the community eating disorder service for outpatient dietitian review"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Starting unsupervised full feeding at home in a severely malnourished patient with low phosphate is the classic setting for refeeding syndrome, with risk of arrhythmia, heart failure and death.",
+   "B": "Her bradycardia, hypothermia, postural hypotension and electrolyte derangement are markers of medical instability that need inpatient monitoring; oral replacement and review in 2 days is unsafe.",
+   "C": "Correct. A body mass index below 15, rapid weight loss, minimal intake for more than a week, bradycardia below 50, hypothermia and low potassium, phosphate and magnesium place her at high risk of refeeding syndrome and of cardiac complications. National and RANZCP guidance is admission for medical stabilisation: cardiac monitoring, correction of electrolytes, thiamine before and during refeeding, cautious nutrition started at a low rate with daily electrolytes. The intern should discuss with the physician today and not let her go home.",
+   "D": "Community eating disorder services are essential for ongoing care but cannot provide the monitoring she needs now; outpatient referral is the next step after medical stabilisation."
+  },
+  "learning_point": "Severe malnutrition with bradycardia, hypothermia, postural hypotension or low potassium, phosphate or magnesium means high refeeding risk and medical instability: admit for monitored refeeding with electrolyte replacement and thiamine.",
+  "setting_note": "A regional hospital without intensive care can begin stabilisation but should discuss early with the on-call physician and the statewide eating disorder service about transfer to Adelaide for cardiac monitoring if bradycardia or electrolytes worsen; a tertiary hospital would admit directly to a medical ward with telemetry.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "General medicine",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "refeeding risk in an eating disorder",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "RANZCP Clinical practice guidelines for the treatment of eating disorders (2014)",
+    "locator": "Indications for medical admission and management of refeeding risk",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Eating disorders - medical complications and refeeding syndrome",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Eating Disorders Collaboration (NEDC): Eating disorders - a professional resource for general practitioners",
+    "locator": "Medical indicators for hospital admission",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: refeeding syndrome is driven by insulin-induced intracellular shifts of phosphate, potassium and magnesium when carbohydrate is reintroduced; high-risk features include BMI under 16, weight loss over 15 percent in 3-6 months, minimal intake for over 10 days, and low baseline electrolytes. Admission indicators also include heart rate under 50 awake, systolic under 90 or postural drop over 20 mmHg, temperature under 35.5, and ECG abnormalities. Give thiamine before feeding, replace electrolytes, start nutrition cautiously with daily bloods for the first week. Misconceptions: that the patient feeling fine is reassuring; that oral supplements suffice; that a low BMI alone defines risk.",
+  "plan": "Tests the basic decision to admit a medically unstable patient with anorexia nervosa for monitored refeeding, from an outpatient clinic in a regional hospital. Distractors: home meal plan, oral supplements with early review, community referral. Supported by the RANZCP eating disorder guidelines, Therapeutic Guidelines Psychotropic and the NEDC resource."
+ },
+ {
+  "work_order_id": "r1-146",
+  "item_id": "190e9a50-1cae-e40e-66c4-cc7b90d12d45",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital with a registrar on site overnight. A 70-year-old man is brought in by ambulance at 23:30 after his neighbour found him in the bathroom with cuts to his left forearm. The lacerations are superficial and have stopped bleeding under a dressing. He is tearful and says he wanted to die after his wife went into residential care. On further questioning he says that about 90 minutes before cutting himself he swallowed a handful of his wife's amitriptyline tablets, perhaps 20 of 50 mg. He is drowsy but rousable, heart rate 112, blood pressure 108/70, pupils dilated, mucous membranes dry. The nurse has placed him in a cubicle and asks whether you want to suture the arm first or call the mental health team, as both are waiting.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Suture the forearm lacerations and then take a detailed mental health history"
+   },
+   {
+    "id": "B",
+    "text": "Move him to a monitored bed, obtain a 12-lead ECG and inform the ED registrar of the amitriptyline ingestion now"
+   },
+   {
+    "id": "C",
+    "text": "Refer him to the mental health team for an urgent risk assessment before any medical investigations"
+   },
+   {
+    "id": "D",
+    "text": "Give activated charcoal and wait for the paracetamol level before deciding further"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Superficial lacerations with haemostasis are not urgent; spending 30 minutes suturing while a tricyclic overdose evolves could mean missing the window to treat a widening QRS, seizures or arrhythmia.",
+   "B": "Correct. A 1 g amitriptyline ingestion is potentially lethal: anticholinergic signs and tachycardia are already present and sodium channel blockade can cause broad-complex arrhythmia, seizures and hypotension within hours. The first priority is a monitored area, 12-lead ECG looking at QRS duration and the terminal R wave in aVR, intravenous access, and immediate escalation to the registrar so that sodium bicarbonate, airway planning and Poisons Information Centre advice can be arranged. The lacerations and psychiatric assessment follow once he is medically safe.",
+   "C": "Mental health assessment is essential but cannot be done meaningfully in a drowsy patient and would delay life-saving monitoring; every self-harm presentation needs medical stabilisation before psychiatric review.",
+   "D": "Charcoal is reasonable within an hour in an alert patient with a protected airway, but he is drowsy 90 minutes post-ingestion, and waiting on a paracetamol level is not the time-critical issue; the ECG and monitoring are."
+  },
+  "learning_point": "In any self-harm presentation, medical risk comes first: a tricyclic antidepressant overdose needs immediate cardiac monitoring, a 12-lead ECG and escalation before wound care or psychiatric assessment.",
+  "setting_note": "In a regional hospital the same priorities apply with the Poisons Information Centre on 13 11 26 and early retrieval discussion, because tricyclic toxicity can require intubation and intensive care that the hospital cannot provide.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Deteriorating patient",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "self-harm presentation",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Toxicology and Toxinology",
+    "locator": "Tricyclic antidepressant poisoning - risk assessment, ECG monitoring and sodium bicarbonate",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCP Clinical practice guideline for the management of deliberate self-harm (2016)",
+    "locator": "Medical assessment and stabilisation before psychosocial assessment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: tricyclic ingestion over 10 mg/kg is potentially life-threatening; warning ECG features are QRS over 100 ms (seizure risk) and over 160 ms (arrhythmia risk), and an R wave over 3 mm in aVR; treatment is sodium bicarbonate 1-2 mmol/kg for QRS widening or hypotension, benzodiazepines for seizures, early intubation and hyperventilation if severe. Always ask about co-ingestants and take a paracetamol level, but do not let it dictate the sequence. Misconceptions: wounds first because they are visible; psychiatry first because of the stated intent; assuming an elderly man's overdose is minor. Out of scope: detailed ventilation strategy.",
+  "plan": "Tests prioritisation in a self-harm presentation where a hidden tricyclic overdose outranks the visible wounds and the psychiatric referral. Metro ED with a registrar on site, so escalation is in person. Distractors: suture first, mental health first, charcoal and wait. Supported by Therapeutic Guidelines Toxicology and the RANZCP self-harm guideline."
+ },
+ {
+  "work_order_id": "r1-147",
+  "item_id": "879e6995-7f94-3543-9c6a-a56e176d4a86",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital on a busy night with a registrar on site. A 69-year-old man presents at 23:00 asking for something to help him sleep. His wife died 4 months ago and he lives alone; his daughter is interstate. He has been drinking a bottle of wine most nights, has lost 6 kg, and says he has not slept properly in weeks. When you ask directly, he says he often thinks he would be better off dead and has thought about taking his late wife's leftover morphine tablets, which are still in the house; he has not set a date and says he came in instead because he was frightened by the thought. He has no prior psychiatric history. The registrar, who is managing a resuscitation, suggests over the phone that you give him some temazepam and ask his GP to follow up.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe a small supply of temazepam and arrange general practitioner review within 48 hours as suggested"
+   },
+   {
+    "id": "B",
+    "text": "Ask him to agree to a no-harm contract and discharge him with the crisis line number"
+   },
+   {
+    "id": "C",
+    "text": "Phone his daughter to arrange for the morphine to be removed from the house and then discharge him"
+   },
+   {
+    "id": "D",
+    "text": "Tell the registrar you assess him as high risk and arrange an urgent mental health assessment before any discharge"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A hypnotic would add a means of overdose and does not address the risk. The registrar's suggestion was made without the information you now have; an intern must escalate the new finding rather than follow the original plan.",
+   "B": "No-harm contracts have no evidence of reducing suicide and can give false reassurance; discharging a high-risk patient with a phone number alone is unsafe.",
+   "C": "Restricting access to means is a valuable part of a safety plan, but it is not sufficient on its own for a man with active suicidal thoughts, a potential method, recent bereavement, alcohol use and social isolation.",
+   "D": "Correct. Older men, recently bereaved, living alone, drinking heavily, with weight loss, insomnia and suicidal thoughts that include an identified method, are at high risk of suicide. The right step is graded assertiveness: tell the registrar clearly what you have found and that you believe he needs an urgent mental health assessment in the department tonight, and ensure he is kept safe in the department until that assessment is done. Means restriction and family involvement form part of the subsequent safety plan."
+  },
+  "learning_point": "Suicidal thoughts with an identified method in an older bereaved man who drinks and lives alone indicate high risk; escalate assertively to the senior doctor and arrange urgent mental health assessment before any discharge.",
+  "setting_note": "In a regional hospital without an on-site mental health team the same assessment is arranged through the state mental health triage line and the on-call doctor, with the patient kept safe in the department or admitted overnight rather than sent home.",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Older people, delirium and falls",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.9",
+   "2.4",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "suicide risk assessment",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Suicide and deliberate self-harm - risk assessment and immediate management",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCP Clinical practice guideline for the management of deliberate self-harm (2016)",
+    "locator": "Assessment of suicide risk and decisions about discharge",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational Medical Training: Outcome statements",
+    "locator": "1.1 graded assertiveness and escalation; 2.4 working within limits of expertise",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: older men have the highest suicide rate in Australia; bereavement, living alone, alcohol use, insomnia, weight loss and access to means are risk factors; coming in because he was frightened is a protective sign but does not lower the acute risk. Risk assessment covers ideation, plan, intent, means, previous attempts, protective factors and a mental state examination. Misconceptions: no-harm contracts work; a phone number is a safety plan; a senior's plan made with incomplete information must be followed. Out of scope: antidepressant initiation.",
+  "plan": "Tests prioritisation and graded assertiveness: the intern uncovers high suicide risk after the registrar has suggested a quick discharge. Metro ED at night. Distractors: follow the hypnotic plan, no-harm contract, means restriction alone. Supported by Therapeutic Guidelines Psychotropic, the RANZCP self-harm guideline and the AMC outcome statements."
+ },
+ {
+  "work_order_id": "r1-148",
+  "item_id": "ce6cf651-1dc7-e64e-9dfc-ba4e0e383eea",
+  "version": 1,
+  "stem": "You are the junior doctor on the medical ward of a rural hospital on the Yorke Peninsula, where a 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. A 36-year-old woman was admitted last night after taking 20 tablets of paracetamol following an argument with her partner; she is receiving acetylcysteine and is medically stable. The mental health triage service will assess her by video this afternoon. The nurse looking after her asks you, while you are reviewing her history together, which part of the history matters most for her future risk of dying by suicide. The history includes a previous overdose 3 years ago requiring admission, full-time work as a teacher, two children aged 8 and 10, and no current alcohol or drug use.",
+  "lead_in": "Which feature of her history is the strongest predictor of future suicide?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her previous suicide attempt"
+   },
+   {
+    "id": "B",
+    "text": "Her age under 40 years"
+   },
+   {
+    "id": "C",
+    "text": "Being female"
+   },
+   {
+    "id": "D",
+    "text": "Her full-time employment"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Correct. A previous suicide attempt is consistently the strongest single predictor of future suicide and of repeated self-harm; the year after an attempt carries the highest risk. This history should be prominent in the handover to the mental health team and in discharge planning.",
+   "B": "Suicide rates in Australia are highest in middle-aged and older adults, particularly men; age under 40 is not a strong risk marker in itself.",
+   "C": "Women attempt self-harm more often, but men die by suicide at about three times the rate; female sex is not a predictor of completed suicide.",
+   "D": "Employment and responsibility for children are generally protective factors; unemployment and social isolation increase risk."
+  },
+  "learning_point": "A previous suicide attempt is the strongest predictor of future suicide; always ask about and document prior attempts and pass them on at handover.",
+  "setting_note": "",
+  "learning_area": "Mental health and behavioural emergencies",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "suicide risk assessment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Suicide and deliberate self-harm - risk factors",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCP Clinical practice guideline for the management of deliberate self-harm (2016)",
+    "locator": "Risk factors for repetition and suicide after self-harm",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: risk factors for suicide include previous attempt, male sex, older age, psychiatric illness (especially depression and substance use), chronic pain or illness, recent loss, social isolation, unemployment, access to lethal means, and family history. Protective factors include dependent children, social connection, employment and help-seeking. Risk stratification tools have poor predictive value; the point of identifying factors is to inform a safety plan and follow-up. Misconceptions: that women are at higher risk of suicide because they self-harm more; that a previous attempt that was 'not serious' can be discounted.",
+  "plan": "Tests recall of the strongest predictor of future suicide, with a stable inpatient after paracetamol overdose in a rural Yorke Peninsula ward. Distractors are demographic features juniors confuse with risk (young age, female sex) and a protective factor (employment). Supported by Therapeutic Guidelines Psychotropic and the RANZCP self-harm guideline."
+ },
+ {
+  "work_order_id": "r1-149",
+  "item_id": "29724020-3355-3349-c8de-9ae0c0c408a9",
+  "version": 1,
+  "stem": "You are the PGY2 on a term in a general practice linked to a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 22-year-old woman presents with 2 days of light vaginal spotting and intermittent mild left-sided lower abdominal pain. Her last menstrual period was 6 weeks ago and a home pregnancy test was positive a week ago. She has had no previous pregnancies, no history of pelvic infection and does not use an intrauterine device. Heart rate 78, blood pressure 118/74, abdomen soft with mild left iliac fossa tenderness and no peritonism. Serum beta-hCG this morning is 1,800 IU/L. A transvaginal ultrasound at the hospital today shows an empty uterus with an endometrial thickness of 12 mm, no adnexal mass, and a trace of free fluid in the pouch of Douglas. The supervising GP asks for your interpretation before you discuss her with the obstetric registrar in Adelaide.",
+  "lead_in": "What is the most appropriate interpretation of these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A complete miscarriage, since the uterus is empty and bleeding is light, requiring no further follow-up"
+   },
+   {
+    "id": "B",
+    "text": "A normal early intrauterine pregnancy that is simply too early to see, requiring routine antenatal booking"
+   },
+   {
+    "id": "C",
+    "text": "A pregnancy of unknown location in which ectopic pregnancy has not been excluded"
+   },
+   {
+    "id": "D",
+    "text": "A confirmed ectopic pregnancy requiring immediate transfer to Adelaide for laparoscopy"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Complete miscarriage cannot be diagnosed from an empty uterus unless an intrauterine pregnancy was previously confirmed; an empty uterus with a positive hCG may be an ectopic pregnancy.",
+   "B": "At an hCG of 1,800 IU/L an intrauterine pregnancy is often, though not always, visible on transvaginal scan; with unilateral pain and free fluid it is unsafe to assume a normal pregnancy and book routine care.",
+   "C": "Correct. A positive pregnancy test with no intrauterine or extrauterine pregnancy seen on transvaginal ultrasound is a pregnancy of unknown location. With an hCG near the discriminatory zone, unilateral pain and free fluid, ectopic pregnancy must be actively excluded: she is haemodynamically stable, so the plan is a repeat hCG in 48 hours with repeat ultrasound, discussion with the obstetric service, and explicit safety-netting to present immediately with worsening pain, shoulder-tip pain, dizziness or heavy bleeding, bearing in mind the 2-hour distance to definitive surgery.",
+   "D": "Ectopic pregnancy has not been confirmed: there is no adnexal mass and she is stable. Immediate transfer for surgery is not justified on these findings, although the threshold for transfer is lower given the distance."
+  },
+  "learning_point": "A positive hCG with no pregnancy seen on transvaginal ultrasound is a pregnancy of unknown location; ectopic pregnancy must be excluded with serial hCG, repeat ultrasound and clear safety-netting, especially when the patient lives far from surgical care.",
+  "setting_note": "In a regional practice 2 hours from Adelaide the follow-up plan must be explicit: a named person to review the 48-hour hCG, early discussion with the obstetric registrar, a low threshold for transfer, and advice that any deterioration means calling an ambulance rather than driving; in a metropolitan setting the early pregnancy assessment service would manage the same plan in person.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Rural and remote",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "4.1",
+   "1.5",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "bleeding in early pregnancy",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Queensland Clinical Guidelines: Early pregnancy loss (Maternity and Neonatal Clinical Guideline)",
+    "locator": "Pregnancy of unknown location - assessment and follow-up",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCOG: Ectopic pregnancy - clinical guidance and statements",
+    "locator": "Diagnosis of ectopic pregnancy and pregnancy of unknown location",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Sexual and Reproductive Health",
+    "locator": "Bleeding in early pregnancy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the discriminatory zone for transvaginal ultrasound is commonly quoted as hCG 1,500-2,000 IU/L but is not absolute; in a viable intrauterine pregnancy hCG typically rises by at least 50-60 percent over 48 hours, a plateau or slow rise suggests ectopic, and a fall suggests miscarriage or resolving pregnancy of unknown location. Free fluid raises concern. Anti-D is needed for Rh-negative women with bleeding. Misconceptions: empty uterus equals miscarriage; hCG below the discriminatory zone excludes ectopic; a stable patient does not need safety-netting. Out of scope: methotrexate criteria.",
+  "plan": "Tests interpretation of a pregnancy of unknown location with features suggestive but not diagnostic of ectopic pregnancy, in a regional general practice where distance makes the follow-up plan critical. Distractors: complete miscarriage, too early to see, confirmed ectopic needing immediate surgery. Supported by the Queensland early pregnancy loss guideline, RANZCOG guidance and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-150",
+  "item_id": "e5f0a195-5a56-9c28-80f2-ee1816f4b0a0",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a tertiary hospital in Adelaide. A 31-year-old woman presents at 10:00 on a Sunday asking for emergency contraception after a condom broke during intercourse at about 02:00 on Thursday, around 80 hours ago. She weighs 86 kg (body mass index 31). She is not on any regular contraception, has regular cycles with her last period 12 days ago, takes no other medications, is not breastfeeding and has no history of liver disease or venous thromboembolism. She does not want an intrauterine device. The nearest open pharmacy is some distance away and she asks you to prescribe whatever is most likely to work. You have access to the hospital pharmacy stock.",
+  "lead_in": "Which emergency contraceptive is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Levonorgestrel 1.5 mg orally as a single dose"
+   },
+   {
+    "id": "B",
+    "text": "Ulipristal acetate 30 mg orally as a single dose"
+   },
+   {
+    "id": "C",
+    "text": "Levonorgestrel 1.5 mg orally, repeated after 12 hours"
+   },
+   {
+    "id": "D",
+    "text": "Combined ethinylestradiol and levonorgestrel tablets, two now and two in 12 hours"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Levonorgestrel is licensed up to 72 hours and its efficacy falls with time and with higher body weight; at 80 hours in a woman weighing over 70 kg it is clearly inferior to ulipristal.",
+   "B": "Correct. Ulipristal acetate 30 mg is effective up to 120 hours after unprotected intercourse and is more effective than levonorgestrel at every time point, particularly between 72 and 120 hours and probably in women with higher body weight. Since she declines a copper intrauterine device, which is the most effective option, ulipristal is the best oral choice. She should be advised that it may delay ovulation and her period, that any hormonal contraception started afterwards should be delayed by 5 days, to use condoms meanwhile, and to do a pregnancy test if her period is more than 7 days late.",
+   "C": "Doubling the levonorgestrel dose (3 mg) is a strategy some guidelines suggest for women over 70 kg or body mass index over 26 when ulipristal is unavailable, but it is still not recommended beyond 72 hours and ulipristal is available here.",
+   "D": "The Yuzpe regimen is less effective than either levonorgestrel or ulipristal and causes more nausea; it has no place when dedicated products are available."
+  },
+  "learning_point": "Ulipristal acetate 30 mg is the most effective oral emergency contraceptive, works up to 120 hours after unprotected intercourse, and is preferred over levonorgestrel after 72 hours or in women of higher body weight; a copper intrauterine device remains the most effective option overall.",
+  "setting_note": "Ulipristal and levonorgestrel are both available from community pharmacies in Australia without prescription, and SHINE SA and regional pharmacies can provide them; a regional hospital may not stock ulipristal, in which case double-dose levonorgestrel within 72 hours or referral for a copper intrauterine device are the alternatives.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Pharmacology",
+   "Chronic disease, prevention and advocacy"
+  ],
+  "domains": [
+   "4.1",
+   "1.8",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "contraception counselling",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b06",
+   "uncertainty": "minor",
+   "uncertainty_note": "Evidence on body weight and ulipristal efficacy is less certain than for levonorgestrel; Australian guidance still favours ulipristal at 72-120 hours regardless of weight."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Sexual and Reproductive Health",
+    "locator": "Emergency contraception - choice of method and timing",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Ulipristal - emergency contraception; Levonorgestrel - emergency contraception",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Family Planning Alliance Australia / SHINE SA: Emergency contraception clinical guidance",
+    "locator": "Ulipristal versus levonorgestrel and body weight considerations",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: copper IUD is the most effective emergency contraception (failure under 0.1 percent) and can be inserted up to 5 days after intercourse or ovulation; ulipristal 30 mg works to 120 hours; levonorgestrel 1.5 mg to 72 hours (some use to 96 hours with reduced efficacy), with a doubled dose considered for weight over 70 kg or BMI over 26. Ulipristal is reduced in efficacy by progestogens taken in the following 5 days, and breastfeeding should be paused for a week. Neither oral method is abortifacient. Misconceptions: that 72 hours is the limit for all oral methods; that the Yuzpe regimen is still standard; that emergency contraception is contraindicated in obesity. Both oral agents are pharmacist-only medicines in Australia.",
+  "plan": "Tests recall at difficulty 4 of the preferred oral emergency contraceptive beyond 72 hours in a woman of higher body weight who declines an IUD. Metro ED with pharmacy stock available. Distractors: standard levonorgestrel, doubled levonorgestrel, Yuzpe regimen. Supported by Therapeutic Guidelines Sexual and Reproductive Health, the AMH and family planning guidance."
+ }
+]

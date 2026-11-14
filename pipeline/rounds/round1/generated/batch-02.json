@@ -1,0 +1,2200 @@
+[
+ {
+  "work_order_id": "r1-026",
+  "item_id": "e2601e08-fa7f-335f-0c5f-082aec2ba5ea",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a rural hospital on the Yorke Peninsula, with a 4-bed emergency department staffed overnight by you and the GP on call. A 58-year-old woman admitted five days ago with community-acquired pneumonia is being discharged home tonight because her lift has arrived early. The day team did not complete the discharge summary. During the admission her ramipril was withheld for acute kidney injury that has since resolved, prednisolone was started for an exacerbation of her asthma with a weaning course still to run, and a repeat sputum culture is still pending. The GP on call reminds you that her own GP in Kadina will see her next week and will rely on the summary.",
+  "lead_in": "Which content is most important to include in her discharge summary?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A chronological copy of the daily progress notes so nothing is omitted"
+   },
+   {
+    "id": "B",
+    "text": "Diagnosis, medication changes with reasons, pending results and the specific actions requested of her GP"
+   },
+   {
+    "id": "C",
+    "text": "A brief statement that she was treated for pneumonia and discharged well, with full details to follow from the day team"
+   },
+   {
+    "id": "D",
+    "text": "The admission blood results and observation chart in full, so the GP can interpret the course herself"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Copying the progress notes buries the important information. A GP reading a long narrative may miss that ramipril was withheld, that prednisolone must be weaned and that a culture result is outstanding. The summary is a communication tool, not a record dump.",
+   "B": "A safe discharge summary states the diagnosis, every medication started, stopped or changed and why, results that are pending and who will chase them, and clear follow-up actions. Here that means the ramipril plan, the prednisolone wean and the pending sputum culture, with a request for the GP to review renal function and restart ramipril.",
+   "C": "A placeholder summary leaves the GP without the medication changes and pending results at the moment the patient first attends. The day team may not complete it promptly, and the ACSQHC Communicating for Safety standard requires that essential information travels with the patient at transfer of care.",
+   "D": "Raw data without interpretation transfers the work and the risk to the GP. The GP needs the admitting team's conclusions and plan, not the full observation chart."
+  },
+  "learning_point": "A discharge summary must state the diagnosis, every medication change with its reason, pending results with a named person to follow them up, and specific actions for the GP.",
+  "setting_note": "In a regional hospital the GP receiving the summary is often the same GP who provides on-call cover, so a direct phone handover tonight is easy and should accompany the written summary; in a tertiary hospital the written summary is often the only communication the GP receives.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Discharge planning",
+   "Documentation",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "discharge summary quality",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, 2nd edition",
+    "locator": "Communicating for Safety Standard, Action 6.8 (communication at transitions of care)",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National guidelines for on-screen presentation of discharge summaries",
+    "locator": "Core content elements",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the discharge summary is the primary handover from hospital to primary care; the essential elements are diagnosis and problems, procedures, medication changes with reasons, pending results with responsibility for follow-up, follow-up appointments and specific requests of the GP. Misconceptions: that more detail is always safer; that pending results can be left unmentioned because the hospital will chase them. Out of scope: the clinical management of pneumonia or AKI.",
+  "plan": "Tests the content a discharge summary must carry at transition of care (outcomes 1.1, 1.2, 1.10). A woman leaving a rural hospital early in the evening with three live handover issues (withheld ramipril, steroid wean, pending culture) makes the content decision concrete for an intern. Distractors are habits interns fall into: dumping notes, deferring to the day team, and sending raw data. Supported by the ACSQHC Communicating for Safety standard and discharge summary guidance."
+ },
+ {
+  "work_order_id": "r1-027",
+  "item_id": "da3ed7b2-b73f-acb8-bb52-af4f6c45e05b",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The visiting surgeon operated today and has returned to Adelaide; the on-call senior doctor tonight is a local rural generalist at home, 15 minutes away. At 0130 the nurse asks you to review a 19-year-old woman, day one after laparoscopic appendicectomy for a perforated appendix. Her heart rate is 118, blood pressure 98/60 mmHg, temperature 38.4 °C, respiratory rate 24 and oxygen saturation 97%. She has generalised abdominal tenderness with guarding, worse than documented at the evening review. You have inserted a cannula, sent bloods and blood cultures, and started a 500 mL crystalloid bolus. The nurse asks whether this can wait until the morning handover at 0800.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give paracetamol and a further fluid bolus, and review her yourself in one hour before deciding whether to call anyone"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to increase observations to hourly and to call you if any red-zone criterion is met"
+   },
+   {
+    "id": "C",
+    "text": "Phone the on-call surgical registrar at the Adelaide tertiary hospital for advice before contacting the local on-call doctor"
+   },
+   {
+    "id": "D",
+    "text": "Phone the local on-call senior doctor now with an ISBAR handover and ask them to come in and review her"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Treating and watching alone is tempting at 0130, but her observations meet yellow-zone criteria on the SA Health Rapid Detection and Response chart and she has new peritonism after surgery for a perforated appendix. Possible intra-abdominal sepsis or a leak needs senior review now, not after another hour of intern-led observation.",
+   "B": "Handing the decision back to the nurse with a watch-and-wait plan delays escalation and asks the nurse to carry the risk. Red-zone criteria mark a crisis; a patient who already meets yellow-zone criteria with a worsening abdomen needs escalation before that point.",
+   "C": "Specialist advice by phone will be useful, but the first call is to the senior doctor who can attend tonight. The local on-call doctor can assess her, co-ordinate antibiotics and imaging, and make the call to the tertiary surgical team and the retrieval service with authority.",
+   "D": "She is a post-operative patient with yellow-zone observations and new peritonism. The intern has done the right first steps; the next step is immediate escalation to the senior doctor who can come in, using ISBAR so the urgency and the request are clear."
+  },
+  "learning_point": "A post-operative patient with yellow-zone observations and new peritonism needs immediate ISBAR escalation to the senior doctor who can attend, not observation until the morning.",
+  "setting_note": "In a regional hospital the escalation path is the local on-call doctor first, who then involves the tertiary surgical team and the retrieval service; in a tertiary hospital the intern would call the on-site surgical registrar directly, and a MET call is available for red-zone criteria.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.1",
+   "1.9",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "escalation call to a registrar",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "minor",
+   "uncertainty_note": "Exact yellow-zone thresholds vary slightly between SA Health RDR chart versions and local modifications; the observations chosen sit within the yellow zone on the standard adult chart."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy and Rapid Detection and Response adult observation chart",
+    "locator": "Yellow zone response: medical review within 30 minutes and escalation",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for recognising and responding to acute physiological deterioration",
+    "locator": "Escalation of care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: yellow-zone observations require medical review within 30 minutes and escalation if not improving; a worsening abdomen after surgery for perforated appendicitis is a surgical emergency in itself. The intern's job is first assessment and immediate first steps (fluids, cultures), then prompt escalation to the person who can attend. Misconceptions: that calling the on-call doctor at night needs a red-zone trigger; that the tertiary specialist should be phoned before the local senior. Out of scope: antibiotic choice and the surgical decision.",
+  "plan": "Tests when and to whom a rural intern escalates overnight (outcomes 1.1, 1.9, 1.2). A young woman with yellow-zone observations and new peritonism after appendicectomy makes delay dangerous. Distractors reflect three real intern errors: treating and waiting, delegating the trigger to nursing staff, and calling the distant specialist before the local senior. Supported by the SA Health RDR policy and the ACSQHC consensus statement."
+ },
+ {
+  "work_order_id": "r1-028",
+  "item_id": "552c92bd-56d1-3721-89b6-df0508ed9a49",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 22-year-old woman admitted this afternoon with an asthma exacerbation has had two salbutamol nebulisers in the past hour. She is now speaking in short phrases, respiratory rate 30, heart rate 124, oxygen saturation 92% on 6 L/min oxygen via Hudson mask. You phone the on-call senior doctor at home and describe the observations. The senior doctor says, 'Give her another nebuliser and some hydrocortisone, and I'll see her on the round at eight.' You reply, 'Do you think we should get an arterial gas?' The senior says, 'Not needed, she's young.' The nurse is looking at you.",
+  "lead_in": "Which response best reflects the next appropriate step in graded assertiveness?",
+  "options": [
+   {
+    "id": "A",
+    "text": "'Okay, I'll give the nebuliser and hydrocortisone and call you back if she gets worse.'"
+   },
+   {
+    "id": "B",
+    "text": "'Would you like me to give ipratropium with the next nebuliser as well?'"
+   },
+   {
+    "id": "C",
+    "text": "'I'm concerned. She is tiring and still hypoxic despite two nebulisers. I need you to come in and see her now.'"
+   },
+   {
+    "id": "D",
+    "text": "'I'm going to call the retrieval service directly, because I don't think you're taking this seriously.'"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Accepting the plan is the lowest level of assertiveness and leaves a patient with features of severe asthma without senior review. The intern has already hinted once; stepping down to compliance ignores the deterioration in front of them.",
+   "B": "Asking about ipratropium is another hint or probe, the same level the intern has already used with the arterial gas question. Graded assertiveness means moving up a level when a hint is not heard, not repeating it in another form.",
+   "C": "After a hint has been dismissed, the next level is to state the concern clearly, give the facts that worry you and make a specific request. This is the 'I am concerned' and 'I need you to' language of the PACE and CUS tools, and it tells the senior exactly what you are asking for.",
+   "D": "Going around the senior with an accusation is confrontational and skips the step of clearly stating concern. Direct escalation to another doctor or the retrieval service is appropriate only if a clearly stated concern is still refused, and even then it is done without blame."
+  },
+  "learning_point": "When a hint or probe is dismissed, graded assertiveness means stating your concern explicitly with the facts and a specific request, before going over the senior's head.",
+  "setting_note": "In a regional hospital the next step beyond the local senior is the retrieval service or the tertiary emergency consultant by phone, which should be used if a clear statement of concern is refused; in a tertiary hospital a MET call or the ICU registrar provides the same safety net.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Doctor wellbeing, teamwork and workload",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "graded assertiveness",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for recognising and responding to acute physiological deterioration",
+    "locator": "Escalation of care and communication",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "National Framework for Prevocational (PGY1 and PGY2) Medical Training: Outcome Statements",
+    "locator": "Outcome 1.1 graded assertiveness",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Asthma Handbook (National Asthma Council Australia)",
+    "locator": "Managing acute asthma in adults: assessment of severity",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: graded assertiveness tools (PACE: probe, alert, challenge, emergency; CUS: concerned, uncomfortable, safety) move from hint to explicit statement to challenge to independent action. Speaking in phrases, respiratory rate 30, heart rate over 120 and saturation 92% on oxygen indicate severe asthma needing senior review. Misconceptions: that repeating a hint counts as escalating; that bypassing the senior is the next step after one dismissal. Out of scope: detailed asthma pharmacotherapy.",
+  "plan": "Tests recognition of where an intern sits on the graded assertiveness ladder and what the next rung sounds like (outcomes 1.1, 1.2, 2.4). A young woman with severe asthma and a dismissive senior overnight in a small hospital makes the decision necessary. Distractors are compliance, a repeated hint and a hostile bypass. Supported by the ACSQHC consensus statement and the AMC outcome statements."
+ },
+ {
+  "work_order_id": "r1-029",
+  "item_id": "333a6521-780d-abba-361b-a5de8f1c873f",
+  "version": 1,
+  "stem": "You are the PGY2 covering the medical wards overnight at a metropolitan general hospital, with a medical registrar on site. At 2300 the nurse reports that a 79-year-old Aboriginal woman admitted with melaena from a bleeding duodenal ulcer has a haemoglobin of 68 g/L, heart rate 104 and feels light-headed on sitting. The registrar, who is with a sick patient, asks you to consent her for two units of red cells and start the transfusion. She is alert and orientated, speaks English, and has given a clear history. Her daughter is at the bedside and the patient asks that her daughter stay for any discussion. The Aboriginal Liaison Officer is not on site until the morning. You have explained and consented patients for transfusion before.",
+  "lead_in": "What is the most appropriate way to proceed?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain the benefits, risks and alternatives to her in plain language with her daughter present as she requested, confirm her decision and document the consent"
+   },
+   {
+    "id": "B",
+    "text": "Ask her daughter to sign the consent form on her behalf because she is unwell and a family member is present"
+   },
+   {
+    "id": "C",
+    "text": "Defer the transfusion until the Aboriginal Liaison Officer can be present for the consent discussion in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Decline to take consent because only the treating consultant may consent a patient for a blood product"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "She has capacity and has asked for her daughter to be present, which is culturally safe and respects her autonomy. A PGY2 who understands the procedure, its material risks and the alternatives may obtain consent, and the discussion and her decision should be documented before the transfusion starts.",
+   "B": "A substitute decision-maker is only involved when the patient lacks capacity. She is alert, orientated and giving a clear history, so she makes her own decision; a daughter signing for a capable adult is not valid consent.",
+   "C": "Involving the Aboriginal Liaison Officer is good practice and should be arranged in the morning, but she is symptomatic with a haemoglobin of 68 g/L and ongoing bleeding. Delaying treatment that she can consent to now, with the family support she has chosen, would put her at risk.",
+   "D": "The person obtaining consent must have sufficient knowledge of the treatment to explain it, but need not be the consultant. Transfusion consent is within a PGY2's scope and the National Blood Authority and SA Health consent policy support this."
+  },
+  "learning_point": "A capable patient gives her own consent; involve the family members she chooses, document the discussion, and do not delay urgent treatment while waiting for support staff who can be involved later.",
+  "setting_note": "In a regional hospital the Aboriginal Liaison Officer or an Aboriginal health practitioner may be reachable by phone after hours and family may be geographically distant, so asking early who the patient wants involved matters even more; the consent principles are the same.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Aboriginal and Torres Strait Islander health",
+   "Prescribing and medication safety",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "1.2",
+   "1.3",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "informed consent",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Consent to Medical Treatment and Health Care Policy Guideline",
+    "locator": "Who may obtain consent; capacity; role of substitute decision-makers",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Blood Authority Patient Blood Management Guidelines and consent for transfusion guidance",
+    "locator": "Informed consent for transfusion",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4.5 Informed consent; Section 4.8 Culturally safe practice",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: consent is valid when given voluntarily by a person with capacity who has been given the information a reasonable person in their position would want; a junior doctor with adequate knowledge can obtain it; the Consent to Medical Treatment and Palliative Care Act 1995 (SA) governs substitute decision-making only when capacity is lacking. Culturally safe care means asking who the patient wants involved and offering the Aboriginal Liaison Officer, not assuming. Misconceptions: that family can sign for a capable elder; that cultural support must precede urgent treatment. Out of scope: transfusion thresholds in detail.",
+  "plan": "Tests valid consent from a capable older Aboriginal woman at night, combined with culturally safe practice (outcomes 1.2, 1.3, 1.8). Symptomatic anaemia makes the timing matter and the daughter's presence makes the family role concrete. Distractors are the common errors of having family sign, deferring urgent care for support staff, and under-estimating a PGY2's scope. Supported by SA Health consent policy, National Blood Authority guidance and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-030",
+  "item_id": "3bc7bda8-e387-d1b5-405a-6b6185821aa4",
+  "version": 1,
+  "stem": "You are the junior doctor on the general surgical ward of a metropolitan general hospital. The surgical registrar, who is in theatre, phones and asks you to 'get the consent form signed' for a 38-year-old man booked for elective open inguinal hernia repair with mesh tomorrow morning. He is a truck driver. When you see him he says the surgeon mentioned the operation briefly in clinic three months ago. He asks you how likely chronic groin pain is after mesh repair, whether it could stop him driving, and whether there is a non-mesh option. You have observed one hernia repair as a student and do not know the surgeon's complication rates or practice.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Look up population complication rates online and answer his questions yourself so the form can be signed tonight"
+   },
+   {
+    "id": "B",
+    "text": "Ask him to sign the form now and note that the surgeon will answer his remaining questions before theatre"
+   },
+   {
+    "id": "C",
+    "text": "Reassure him that hernia repair is routine and that serious problems are very rare, and complete the form"
+   },
+   {
+    "id": "D",
+    "text": "Explain that his questions need a surgeon's answer, tell the registrar, and arrange for the registrar or consultant to complete the consent discussion before surgery"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "The person obtaining consent must be able to explain the procedure, its material risks and alternatives for this patient. Chronic post-herniorrhaphy pain is a material risk for a truck driver, and whether a non-mesh repair is offered depends on the surgeon. Population figures from a website cannot answer what this surgeon proposes.",
+   "B": "A signature obtained before the patient's questions are answered is not informed consent; the form documents a discussion that has not yet happened. It also creates pressure to proceed in the morning without the discussion.",
+   "C": "Minimising a known complication to secure a signature is misleading. Chronic groin pain after inguinal hernia repair is common enough to be a material risk, particularly for someone whose livelihood depends on sitting and driving.",
+   "D": "A junior doctor may obtain consent only within their knowledge and when the proceduralist has delegated it appropriately. When the patient asks questions you cannot answer, the right action is to say so, inform the registrar, and ensure a surgeon completes the discussion before theatre."
+  },
+  "learning_point": "Only obtain consent for a procedure you can explain, including its material risks and alternatives for this patient; otherwise arrange for the proceduralist to complete the discussion before surgery.",
+  "setting_note": "In a regional hospital the visiting surgeon may not be on site until the morning of surgery, so the junior doctor should flag unresolved consent questions the evening before by phone to avoid a late cancellation; the principle is unchanged.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Professionalism, ethics and law",
+   "Documentation"
+  ],
+  "domains": [
+   "1.2",
+   "2.4",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "informed consent",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4.5 Informed consent",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Consent to Medical Treatment and Health Care Policy Guideline",
+    "locator": "Responsibility for obtaining consent and delegation",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, 2nd edition",
+    "locator": "Partnering with Consumers Standard, Action 2.4 informed consent",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: informed consent is a process, not a signature; the proceduralist retains responsibility and may delegate only to someone who can explain the procedure and its material risks; material risks are those a reasonable person in this patient's position would want to know (Rogers v Whitaker). Chronic pain after inguinal hernia repair is a recognised material risk. Misconceptions: that consent is a form-filling task for the intern; that reassurance substitutes for information. Out of scope: surgical technique choice.",
+  "plan": "Tests the limits of a junior doctor's role in consent (outcomes 1.2, 2.4, 1.1). A truck driver asking about chronic pain and mesh alternatives raises material risks the junior cannot answer. Distractors are the common shortcuts: answering from the internet, signing now and asking later, and minimising. Supported by Good medical practice and SA Health consent policy."
+ },
+ {
+  "work_order_id": "r1-031",
+  "item_id": "b3574c27-8e2a-1e1a-f85e-a4263d145248",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a country hospital 90 minutes from the nearest tertiary centre; overnight you cover the ward and the emergency department, with the on-call doctor at home. A 32-year-old woman admitted yesterday with pyelonephritis is reviewed at 0200 because of rigors. Her temperature is 39.4 °C, heart rate 126, blood pressure 86/48 mmHg, respiratory rate 26 and oxygen saturation 95% on room air. She is drowsy but rousable. You have started a second 500 mL crystalloid bolus after the first produced no change in blood pressure, taken blood cultures and a lactate (4.1 mmol/L), and confirmed that intravenous ceftriaxone was given at 2200. You phone the on-call doctor.",
+  "lead_in": "Which opening to the phone call communicates the situation most effectively?",
+  "options": [
+   {
+    "id": "A",
+    "text": "'Hi, it's the ward. I've got a lady with pyelonephritis who came in yesterday with dysuria and a fever; her GP had given her some antibiotics beforehand. Her history is...'"
+   },
+   {
+    "id": "B",
+    "text": "'This is the intern at the hospital. I'm calling about a 32-year-old woman in bed 6 with pyelonephritis who has septic shock: blood pressure 86 systolic despite one litre of fluid and lactate 4.1. I need you to come in now.'"
+   },
+   {
+    "id": "C",
+    "text": "'Sorry to wake you. One of the ward patients has a temperature of 39.4 and her pulse is 126, pressure 86 over 48, sats 95, resps 26. What would you like me to do?'"
+   },
+   {
+    "id": "D",
+    "text": "'I've given fluids and cultures are off and the ceftriaxone went in at ten. Do you think she needs gentamicin as well, or should we wait and see how she goes?'"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A chronological narrative delays the information the senior needs most. ISBAR starts with who you are, who the patient is and why you are calling now, so the listener can judge urgency within the first sentence.",
+   "B": "This opening identifies the caller, the patient and the situation, gives the key assessment (septic shock not responding to fluid, raised lactate) and makes a clear recommendation and request. ISBAR structure is the recommended format for clinical handover in the ACSQHC standards and SA Health policy.",
+   "C": "Listing observations without identification, assessment or request leaves the senior to work out what is going on and what is being asked. Asking 'what would you like me to do?' without stating your own concern undersells the urgency of shock.",
+   "D": "Starting with a treatment question hides the fact that the patient is in shock and that you need the senior to attend. Antibiotic choice is a secondary question; the primary message is a deteriorating patient who needs senior presence and a retrieval decision."
+  },
+  "learning_point": "Open an escalation call with ISBAR: who you are, who the patient is, the situation, your assessment and the specific request, so the senior can judge urgency within the first sentence.",
+  "setting_note": "In a country hospital the same call must also prompt early contact with the retrieval service and the receiving tertiary ICU, which the on-call doctor usually initiates; in a tertiary hospital the equivalent is a MET call with the ICU team attending.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Infection and sepsis",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.2",
+   "1.1",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "phone call about a deteriorating patient",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, 2nd edition",
+    "locator": "Communicating for Safety Standard, Action 6.7 structured clinical handover",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Clinical Handover Policy Directive",
+    "locator": "Use of ISBAR for clinical communication",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Sepsis and septic shock: initial management",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ISBAR is Identify, Situation, Background, Assessment, Recommendation; the first sentence should state urgency; a specific request ('I need you to come in now') is part of the structure. Hypotension not responding to fluid with lactate above 4 mmol/L is septic shock and in an ICU-free hospital triggers early retrieval discussion. Misconceptions: that politeness requires a chronological story; that asking a treatment question is a substitute for stating concern. Out of scope: vasopressor management.",
+  "plan": "Tests how an intern structures an urgent phone escalation (outcomes 1.2, 1.1, 1.9). A woman in septic shock on a country ward at 0200 with the intern alone makes the call high-stakes. Distractors mirror real calls: the chronological story, the bare observation list with no request, and the question about a secondary detail. Supported by the ACSQHC Communicating for Safety standard and SA Health handover policy."
+ },
+ {
+  "work_order_id": "r1-032",
+  "item_id": "90030aec-0418-008d-1ea7-c5f668216f2b",
+  "version": 1,
+  "stem": "You are the intern on the surgical ward of a large metropolitan teaching hospital. A 61-year-old woman, day three after laparoscopic cholecystectomy, developed atrial fibrillation on day one that has persisted. Cardiology has reviewed her and recommended starting apixaban, with a CHA2DS2-VA score of 2 and no bleeding risk factors identified. On the ward round the surgical registrar asked you to 'sort out the apixaban'. When you bring the chart, she tells you her mother had a brain haemorrhage on warfarin and she is frightened of blood thinners. She asks, 'What would you do, doctor?' The registrar is now in theatre for the rest of the day; the consultant is contactable by phone.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure her that apixaban is much safer than warfarin and that bleeding is very unlikely, and chart it as the team has asked"
+   },
+   {
+    "id": "B",
+    "text": "Document that she has declined anticoagulation, inform the registrar after theatre and leave the decision with the team"
+   },
+   {
+    "id": "C",
+    "text": "Explore what worries her, explain the stroke and bleeding risks in plain numbers, offer written information and arrange a conversation with the consultant or cardiology before she decides"
+   },
+   {
+    "id": "D",
+    "text": "Give her the apixaban consumer medicine information leaflet and ask her to let the nurses know her decision before discharge"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Reassurance that minimises a real risk is not shared decision-making. Apixaban carries a lower intracranial bleeding risk than warfarin, but bleeding still occurs, and telling a frightened patient it is 'very unlikely' to secure a chart entry does not respect her values or the facts.",
+   "B": "She has not declined; she has asked for help deciding. Recording a refusal and walking away forecloses a conversation she is inviting and may leave her without stroke prevention for a reason she might not hold once informed.",
+   "C": "Shared decision-making means eliciting her concerns and values, giving balanced information on benefits and harms in a form she can use, and supporting her to decide with the senior clinicians who recommended the treatment. The intern can start the conversation and arrange the rest; this is within scope and is what she has asked for.",
+   "D": "Written information supports but does not replace a conversation. Handing over a leaflet and delegating the follow-up to nursing staff avoids the discussion she has requested and gives her no chance to weigh her mother's experience against her own risk."
+  },
+  "learning_point": "When a patient asks for help deciding, explore her concerns, give balanced information on benefits and harms, and bring in the clinicians who made the recommendation rather than reassuring, recording a refusal or handing over a leaflet.",
+  "setting_note": "",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "General medicine",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.2",
+   "3.6",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "shared decision-making",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, 2nd edition",
+    "locator": "Partnering with Consumers Standard, Actions 2.6 and 2.7 shared decision-making",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4.3 Effective communication; Section 4.5 Informed consent",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Atrial fibrillation: stroke prevention and anticoagulant choice",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: shared decision-making involves eliciting values and concerns, presenting options with benefits and harms in absolute terms, and supporting a decision; the intern's role is to begin that conversation honestly and involve the recommending clinicians. CHA2DS2-VA of 2 supports anticoagulation but the patient's fear is a legitimate value. Misconceptions: that reassurance equals information; that a hesitant patient has 'declined'. Out of scope: rate versus rhythm control.",
+  "plan": "Tests what an intern does when a patient asks for help with a recommended treatment she fears (outcomes 1.2, 3.6, 1.7). Post-operative AF with a cardiology recommendation and an absent registrar makes the intern the available clinician. Distractors are the three ways interns avoid the conversation: reassure and chart, record a refusal, or delegate to a leaflet. Supported by the ACSQHC Partnering with Consumers standard and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-033",
+  "item_id": "e7db782c-4ddf-19cb-2d31-0b5d3992967b",
+  "version": 1,
+  "stem": "You are the PGY2 covering the wards overnight at a tertiary hospital in Adelaide. At 0100 you review a 36-year-old woman admitted that evening with abdominal pain of uncertain cause; she speaks Vietnamese and limited English. You use the telephone interpreter service. When you ask about the onset and character of the pain, she speaks for about a minute; the interpreter then says, 'She says the pain started yesterday.' When you ask whether anyone at home has hurt her, there is a long exchange between the interpreter and the patient, after which the interpreter says, 'She doesn't want to talk about that, and I think she's just worried about her children.' The patient is avoiding eye contact and has bruising of different ages on her forearm.",
+  "lead_in": "What is the most accurate interpretation of what is happening in this consultation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The interpreter is summarising and adding opinion rather than interpreting everything in the first person, and needs to be redirected to their role"
+   },
+   {
+    "id": "B",
+    "text": "The patient lacks the capacity to give a history tonight and a collateral history from her husband should be obtained"
+   },
+   {
+    "id": "C",
+    "text": "The patient's reluctance indicates that the abdominal pain is likely to be functional and the safety question should not be pursued"
+   },
+   {
+    "id": "D",
+    "text": "A family member who is bilingual would obtain a more complete history than a telephone interpreter and should be asked to interpret"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A professional interpreter renders everything said, in the first person, without summarising, omitting or adding their own views. A minute of speech returned as one sentence, side conversations and an opinion about the patient's state are departures from that role. The doctor should politely ask the interpreter to interpret everything, in full, and may ask what was said in the side conversation.",
+   "B": "Nothing suggests impaired capacity; the barrier is language and the interpreting process. Obtaining collateral from her husband is also unsafe when family violence has not been excluded and bruising of different ages is present.",
+   "C": "Reluctance to answer a question about safety, with unexplained bruising, raises concern rather than reassurance. The question should be revisited privately with full interpreting, and the abdominal pain still needs a medical diagnosis.",
+   "D": "Family members should not interpret clinical consultations, especially where family violence is possible. A bilingual relative may filter, protect or control what is said and the patient cannot speak freely."
+  },
+  "learning_point": "A professional interpreter must interpret everything in the first person without summarising or adding opinion; when that is not happening, redirect the interpreter and never substitute a family member, particularly where safety is in question.",
+  "setting_note": "In a regional hospital the same telephone and video interpreter services are available through the Translating and Interpreting Service and SA Health arrangements; the temptation to use a relative is greater when the only other option is a phone line, but the rule does not change.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Emergency presentations",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "1.2",
+   "1.4",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "working with an interpreter",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Interpreter and Translation Services Policy Directive",
+    "locator": "Use of accredited interpreters; family members not to interpret",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "AUSIT Code of Ethics for interpreters and translators",
+    "locator": "Accuracy, impartiality and role boundaries",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RACGP Abuse and violence: working with our patients in general practice (White Book)",
+    "locator": "Identifying intimate partner abuse; use of interpreters",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: accredited interpreters interpret in the first person, completely and impartially; doctors should brief the interpreter, speak directly to the patient and ask for everything to be interpreted; side conversations should be explained. Family or friends should not interpret clinical content and never where family violence is suspected. Bruising of different ages with reluctance to discuss safety warrants a private, interpreted re-approach and social work referral. Misconceptions: that a summary is adequate after hours; that relatives give fuller histories. Out of scope: the medical workup of the abdominal pain.",
+  "plan": "Tests recognition of an interpreter stepping outside their role in a high-stakes context (outcomes 1.2, 1.4, 3.2). A Vietnamese-speaking woman overnight with possible family violence makes complete interpreting matter. Distractors are the tempting misreadings: capacity, functional pain, and using a relative. Supported by SA Health interpreter policy and the AUSIT code."
+ },
+ {
+  "work_order_id": "r1-034",
+  "item_id": "1014e6ca-2573-d716-b9fa-521ee0c80266",
+  "version": 1,
+  "stem": "You are the junior doctor on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 79-year-old woman, day two after hemiarthroplasty for a fractured neck of femur, has just received her first dose of intravenous flucloxacillin for a wound infection; her previous antibiotic was oral cefalexin. Fifteen minutes after the dose she vomits twice, complains of cramping abdominal pain and says she feels faint. She takes metoprolol. Observations: blood pressure 82/46 mmHg (135/78 an hour earlier), heart rate 62, respiratory rate 20, oxygen saturation 96% on room air. There is no rash, no lip or tongue swelling, and her chest is clear. The nurse suggests this is a vasovagal episode from the vomiting.",
+  "lead_in": "What is the most likely explanation for her presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vasovagal syncope precipitated by pain and vomiting"
+   },
+   {
+    "id": "B",
+    "text": "Haemorrhage from the surgical site with early hypovolaemic shock"
+   },
+   {
+    "id": "C",
+    "text": "A gastrointestinal adverse drug reaction without systemic involvement"
+   },
+   {
+    "id": "D",
+    "text": "Anaphylaxis, despite the absence of skin and respiratory features"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Vasovagal episodes cause transient hypotension with bradycardia and usually resolve lying flat; a sustained fall of more than 50 mmHg within minutes of a new intravenous antibiotic is not explained this way, and the beta-blocker blunts the tachycardia that would otherwise be expected.",
+   "B": "Post-operative bleeding is a reasonable concern on day two, but the abrupt onset within minutes of a first dose of a beta-lactam, with vomiting and cramping, points to a drug reaction. Hypovolaemia from the wound would evolve more gradually.",
+   "C": "Nausea and vomiting are common adverse effects, but profound hypotension is not part of a gastrointestinal-only reaction. Gastrointestinal symptoms with hypotension after exposure to a likely allergen meet the definition of anaphylaxis.",
+   "D": "ASCIA defines anaphylaxis as any acute onset of hypotension, bronchospasm or upper airway obstruction where anaphylaxis is considered possible, even without typical skin features. Severe abdominal pain and vomiting are recognised features. The appropriate action is intramuscular adrenaline 500 micrograms into the outer thigh, lying her flat, stopping the drug and calling for help."
+  },
+  "learning_point": "Acute hypotension within minutes of a likely allergen is anaphylaxis even without rash or wheeze, and the treatment is intramuscular adrenaline without delay.",
+  "setting_note": "In a regional hospital without an on-site ICU, after the first adrenaline dose the junior doctor should phone the on-call senior and discuss early with the retrieval service if there is no prompt response, since a second dose or an adrenaline infusion may be needed; in a tertiary hospital a MET call brings this expertise to the bedside.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Prescribing and medication safety",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "anaphylaxis to a ward medication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ASCIA Acute Management of Anaphylaxis Guidelines",
+    "locator": "Definition of anaphylaxis; adrenaline dosing for adults",
+    "supports": "key"
+   },
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 9.2.7 First Aid Management of Anaphylaxis",
+    "locator": "Recognition and adrenaline administration",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Anaphylaxis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: up to 10-20% of anaphylaxis presents without skin features; hypotension alone after a likely allergen is sufficient; beta-blockers can mask tachycardia and blunt adrenaline response, so glucagon may be considered by seniors. Adrenaline 500 micrograms (0.5 mL of 1:1000) intramuscularly into the lateral thigh, repeated after 5 minutes if needed. Antihistamines and steroids are not first-line. Misconceptions: that anaphylaxis requires urticaria; that bradycardia excludes it. Out of scope: adrenaline infusion titration.",
+  "plan": "Tests recognition of anaphylaxis without cutaneous features in an older beta-blocked patient (outcomes 1.9, 1.8, 4.1). First intravenous flucloxacillin on a rural surgical ward with a nurse offering a benign explanation creates the diagnostic trap. Distractors are the plausible alternatives of vasovagal, bleeding and simple drug intolerance. Supported by ASCIA guidelines and ANZCOR."
+ },
+ {
+  "work_order_id": "r1-035",
+  "item_id": "f637826b-4946-97ae-bf63-72930b090ed6",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a rural hospital on the Yorke Peninsula; the 4-bed emergency department is staffed overnight by you, with the GP on call at home. At 0330 a nurse runs to tell you that a 77-year-old man admitted with pneumonia has been found slumped in bed. You arrive to find him unresponsive to voice and to a firm trapezius squeeze. He is making occasional, irregular gasping noises about every ten seconds. The nurse has pressed the emergency buzzer and a second nurse is bringing the resuscitation trolley and defibrillator. The nurse asks whether you want her to find a carotid pulse before anything else is done.",
+  "lead_in": "According to ANZCOR guidelines, which finding is sufficient to start chest compressions now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absence of a carotid pulse confirmed over ten seconds"
+   },
+   {
+    "id": "B",
+    "text": "Unresponsiveness with breathing that is not normal"
+   },
+   {
+    "id": "C",
+    "text": "Absence of an organised rhythm once the defibrillator pads are applied"
+   },
+   {
+    "id": "D",
+    "text": "Fixed, dilated pupils on examination with a torch"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Pulse checks by health professionals are unreliable and delay compressions; ANZCOR advises that rescuers should not rely on a pulse check to decide whether to start CPR. A pulse check may be performed by trained staff only if it does not delay compressions.",
+   "B": "ANZCOR Guideline 8 states that CPR should be started in any person who is unresponsive and not breathing normally. Occasional gasping (agonal breathing) is not normal breathing and is common in the first minutes of cardiac arrest; it must not be mistaken for a sign of life.",
+   "C": "Rhythm analysis is part of advanced life support and guides defibrillation, but compressions must start before the pads are applied. Waiting for a rhythm wastes the minutes in which compressions matter most.",
+   "D": "Pupil size is not part of the recognition of cardiac arrest and has no role in the decision to begin resuscitation."
+  },
+  "learning_point": "Start CPR in anyone who is unresponsive and not breathing normally; agonal gasps are not normal breathing, and a pulse check must not delay compressions.",
+  "setting_note": "In a rural hospital the intern is the resuscitation team leader until the on-call GP arrives, so the nurse's question is for the intern to answer immediately; compressions, early defibrillation and a call to the on-call doctor and then the retrieval service are all the intern's to initiate.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Rural and remote",
+   "Procedures and practical skills"
+  ],
+  "domains": [
+   "1.9",
+   "1.6",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "cardiac arrest recognition and basic life support",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 8: Cardiopulmonary Resuscitation",
+    "locator": "Recognition of cardiac arrest; agonal gasps",
+    "supports": "key"
+   },
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 11.1: Introduction to and Principles of In-hospital Resuscitation",
+    "locator": "Initial response to collapse",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the DRSABCD sequence; unresponsive and not breathing normally equals cardiac arrest for the purpose of starting CPR; agonal breathing occurs in up to 40% of arrests; compressions at 100-120 per minute, one third of chest depth, 30:2; attach the defibrillator as soon as available. Misconceptions: that gasping means the patient is breathing; that a pulse check is required. Out of scope: drug therapy in ALS.",
+  "plan": "Tests the recall of the ANZCOR criterion for starting CPR (outcomes 1.9, 1.6, 4.1). An older man with agonal gasps on a rural ward at night, with a nurse asking about a pulse check, makes the fact decisive. Distractors are the pulse check, rhythm analysis and pupils. Supported by ANZCOR Guideline 8."
+ },
+ {
+  "work_order_id": "r1-036",
+  "item_id": "aa2e29a4-3a51-9f3c-cb20-005333423aa2",
+  "version": 1,
+  "stem": "You are the PGY2 on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 34-year-old woman, six hours after laparoscopic cholecystectomy, had been tachycardic (118) with a falling blood pressure over the past hour and a drain that has filled with 400 mL of blood. As you arrive she becomes unresponsive and stops breathing normally. Nurses start compressions and bag-mask ventilation; pads are applied and the monitor shows a narrow-complex rhythm at 40 per minute with no palpable femoral pulse during a rhythm check. Intravenous access is in place and a second cannula is being inserted. The on-call surgeon is 20 minutes away and has been called. You are leading the resuscitation.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Deliver an unsynchronised 200 J shock and resume compressions"
+   },
+   {
+    "id": "B",
+    "text": "Give amiodarone 300 mg intravenously and resume compressions"
+   },
+   {
+    "id": "C",
+    "text": "Give adrenaline 1 mg intravenously, resume compressions and start rapid intravenous fluid and emergency O-negative blood for suspected haemorrhage"
+   },
+   {
+    "id": "D",
+    "text": "Give atropine 3 mg intravenously for the bradycardia and resume compressions"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "An organised rhythm without a pulse is pulseless electrical activity, a non-shockable rhythm. Defibrillation has no role and delays the treatment that might work, which is correcting the cause.",
+   "B": "Amiodarone is given for refractory ventricular fibrillation or pulseless ventricular tachycardia after the third shock. It has no place in pulseless electrical activity.",
+   "C": "Pulseless electrical activity is managed on the non-shockable side of the ANZCOR advanced life support algorithm: adrenaline 1 mg immediately and then every second cycle, continuous good-quality compressions, and active treatment of reversible causes. The drain output, tachycardia and falling blood pressure point to hypovolaemia from post-operative bleeding, so rapid volume replacement with crystalloid and uncrossmatched blood is the specific treatment while the surgeon is called in.",
+   "D": "Atropine was removed from the ANZCOR cardiac arrest algorithm; it is not recommended for pulseless electrical activity or asystole. Treating the rate while ignoring the empty circulation would not restore output."
+  },
+  "learning_point": "Pulseless electrical activity is non-shockable: give adrenaline 1 mg, continue compressions and treat the reversible cause, which after recent surgery with drain blood loss is hypovolaemia requiring rapid fluid and blood.",
+  "setting_note": "In a regional hospital the PGY2 may be the most senior doctor present for the first 20 minutes and should also task a nurse to phone the retrieval service early, since definitive haemostasis may require return to theatre with the visiting surgeon or transfer; emergency O-negative blood is usually held in small quantities and the blood bank or pathology on call must be alerted immediately.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "cardiac arrest recognition and basic life support",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 11.2: Protocols for Adult Advanced Life Support",
+    "locator": "Non-shockable rhythms; adrenaline; reversible causes (4 Hs and 4 Ts)",
+    "supports": "key"
+   },
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 11.5: Medications in Adult Cardiac Arrest",
+    "locator": "Adrenaline, amiodarone and atropine",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: PEA and asystole are treated with adrenaline 1 mg immediately and every second loop, two-minute cycles of compressions, and a search for the 4 Hs and 4 Ts; a narrow-complex bradycardic PEA after bleeding suggests hypovolaemia; volume and blood are the treatment, with surgical control. Amiodarone is only for shockable rhythms. Misconceptions: that any organised rhythm on the monitor should be shocked; that atropine is still in the algorithm. Out of scope: massive transfusion protocol specifics.",
+  "plan": "Tests management of pulseless electrical activity with an obvious reversible cause by a PGY2 leading an arrest in a small hospital (outcomes 1.9, 1.8, 2.4). Post-operative haemorrhage gives the reversible cause. Distractors are shocking an organised rhythm, amiodarone and atropine, each a known error under pressure. Supported by ANZCOR advanced life support guidelines."
+ },
+ {
+  "work_order_id": "r1-037",
+  "item_id": "1dadecf8-ba75-fae0-bf04-888b0dd5e1a6",
+  "version": 1,
+  "stem": "You are the junior doctor at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone and no catheter laboratory. A 29-year-old woman on the ward, admitted two days ago with a viral illness and dehydration, develops sharp central chest pain at 1900. The pain is worse lying flat and on inspiration and eases when she sits forward. She is afebrile now, heart rate 96, blood pressure 118/72 mmHg, oxygen saturation 98% on room air. On auscultation you hear a scratching sound at the left sternal edge. The ECG shows sinus rhythm with concave upward ST elevation of 1 to 2 mm in leads I, II, aVL, aVF and V2 to V6, PR segment depression in the same leads, and ST depression with PR elevation in aVR. High-sensitivity troponin is 45 ng/L (reference below 16).",
+  "lead_in": "What is the most likely diagnosis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pericarditis with myocardial involvement"
+   },
+   {
+    "id": "B",
+    "text": "Anterolateral ST-elevation myocardial infarction"
+   },
+   {
+    "id": "C",
+    "text": "Pulmonary embolism"
+   },
+   {
+    "id": "D",
+    "text": "Benign early repolarisation"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Pleuritic, positional chest pain after a viral illness, a pericardial rub, widespread concave ST elevation with PR depression and reciprocal changes confined to aVR are the classic features of acute pericarditis. A modestly raised troponin indicates associated myocarditis (myopericarditis), which is common and does not change the diagnosis.",
+   "B": "ST elevation that is widespread rather than confined to a coronary territory, concave rather than convex, with PR depression and without reciprocal ST depression in the inferior or lateral leads is not the pattern of infarction. Treating this as a STEMI could lead to unnecessary thrombolysis in a hospital without a catheter laboratory, with real bleeding risk in pericarditis.",
+   "C": "Pulmonary embolism may cause pleuritic pain but does not produce widespread ST elevation with PR depression, and the pain relieved by sitting forward with a rub points elsewhere. Her saturation and heart rate are also reassuring.",
+   "D": "Early repolarisation can produce concave ST elevation in young people, but not PR depression, a rub or a troponin rise, and the clinical picture here is symptomatic."
+  },
+  "learning_point": "Widespread concave ST elevation with PR depression, positional pleuritic pain and a rub indicate pericarditis, not infarction; recognising this prevents inappropriate thrombolysis in a hospital without a catheter laboratory.",
+  "setting_note": "In a regional hospital the junior doctor should still transmit the ECG and discuss with the on-call physician or the tertiary cardiology registrar by phone before treating, because the distinction between pericarditis and STEMI determines whether thrombolysis is given; in a tertiary hospital an echocardiogram and cardiology review are available on site.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "4.1",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "chest pain on the ward",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Acute pericarditis: diagnosis and management",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand: Australian clinical guidelines for the management of acute coronary syndromes",
+    "locator": "ECG criteria for ST-elevation myocardial infarction and differential diagnoses",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: pericarditis ECG features are widespread concave ST elevation, PR depression, reciprocal change only in aVR (and sometimes V1), and absence of territorial distribution; troponin rise indicates myopericarditis; management is NSAID or aspirin with colchicine and avoidance of anticoagulation; red flags for admission include fever, large effusion, troponin rise and failure to respond. Misconceptions: that any ST elevation with chest pain is a STEMI; that a raised troponin excludes pericarditis. Out of scope: detailed myocarditis management.",
+  "plan": "Tests ECG and clinical interpretation of pericarditis versus STEMI where the consequence of error is thrombolysis in a hospital without a catheter laboratory (outcomes 1.5, 4.1, 1.9). A young woman after a viral illness with a rub and classic ECG gives a fair but non-trivial pattern. Distractors are STEMI, PE and early repolarisation. Supported by Therapeutic Guidelines and the Australian ACS guideline."
+ },
+ {
+  "work_order_id": "r1-038",
+  "item_id": "df03202a-6c3f-81e6-86f7-1912408b4204",
+  "version": 1,
+  "stem": "You are the intern on the general ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 19-year-old woman, admitted three days ago with cellulitis of the left leg and largely bed-bound with the leg elevated, calls the nurse at 2200 with sudden right-sided chest pain that is worse on breathing in, and a feeling of panic. She takes the combined oral contraceptive pill. Observations: respiratory rate 28, heart rate 112, blood pressure 124/76 mmHg, oxygen saturation 93% on room air, temperature 37.2 °C. Chest examination is normal. The nurse suggests an anxiety attack and asks you to prescribe something to calm her. An arterial blood gas on room air shows pH 7.49, PaCO2 29 mmHg, PaO2 68 mmHg, HCO3 22 mmol/L.",
+  "lead_in": "What is the most accurate interpretation of the blood gas in this clinical context?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute respiratory alkalosis from hyperventilation due to anxiety, with a normal oxygen level for her breathing pattern"
+   },
+   {
+    "id": "B",
+    "text": "A compensated metabolic acidosis consistent with early sepsis from the cellulitis"
+   },
+   {
+    "id": "C",
+    "text": "A normal blood gas for a young woman who is tachypnoeic and in pain"
+   },
+   {
+    "id": "D",
+    "text": "Respiratory alkalosis with hypoxaemia and a widened alveolar-arterial gradient, which makes pulmonary embolism the leading diagnosis to exclude"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Hyperventilation from anxiety lowers carbon dioxide but raises, not lowers, the arterial oxygen; a PaO2 of 68 mmHg while hyperventilating on room air means gas exchange is impaired and the alveolar-arterial gradient is widened. Anxiety does not explain a saturation of 93%.",
+   "B": "The pH is alkalaemic and the bicarbonate is normal; there is no metabolic acidosis to compensate for. The low carbon dioxide is the primary disturbance.",
+   "C": "A PaO2 of 68 mmHg and saturation of 93% on room air are abnormal at any age. Tachypnoea with pain would be expected to raise the PaO2, which makes this value more concerning, not less.",
+   "D": "The low PaCO2 with high pH is a primary respiratory alkalosis, and the low PaO2 despite hyperventilation gives a widened alveolar-arterial gradient. In an immobile young woman on the combined pill with pleuritic pain, tachycardia and hypoxaemia, pulmonary embolism is the diagnosis that must be excluded, and the intern should give oxygen, escalate to the on-call doctor and discuss imaging and empirical anticoagulation."
+  },
+  "learning_point": "A low PaO2 in a patient who is hyperventilating means a widened alveolar-arterial gradient and a lung or vascular cause; anxiety alone raises, not lowers, arterial oxygen.",
+  "setting_note": "In a regional hospital without overnight CT the decision about empirical anticoagulation while awaiting a CT pulmonary angiogram in the morning, or transfer tonight, must be made with the on-call doctor and specialist advice; in a tertiary hospital a CT pulmonary angiogram is available overnight.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "chest pain on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Pulmonary embolism: clinical assessment and investigation",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal College of Pathologists of Australasia Manual: Blood gases",
+    "locator": "Interpretation of arterial blood gases and the alveolar-arterial gradient",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: alveolar oxygen rises as PaCO2 falls, so a hyperventilating patient on room air should have a PaO2 above 100 mmHg; a PaO2 of 68 mmHg with PaCO2 of 29 gives an A-a gradient of about 50 mmHg, far above normal for age. Risk factors here: immobility, infection, combined oral contraceptive. Misconceptions: that respiratory alkalosis equals anxiety; that a normal chest examination excludes PE. Out of scope: Wells scoring details and anticoagulant dosing.",
+  "plan": "Tests interpretation of a blood gas that looks like hyperventilation but shows hypoxaemia, in a young woman with PE risk factors and a nurse framing it as anxiety (outcomes 1.5, 1.9, 4.1). The regional setting without overnight CT makes correct interpretation the trigger for escalation. Distractors are anxiety, a misread metabolic acidosis and dismissal as normal. Supported by Therapeutic Guidelines and standard blood gas interpretation."
+ },
+ {
+  "work_order_id": "r1-039",
+  "item_id": "744ab1fc-5b73-ee9a-5994-a1a153655c69",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 38-year-old woman is in week two of intravenous flucloxacillin via a peripherally inserted central catheter for vertebral osteomyelitis. At 1600 she has a rigor; temperature 39.6 °C, heart rate 116, blood pressure 108/66 mmHg, respiratory rate 22, oxygen saturation 97% on room air, alert. The PICC insertion site is mildly red but not purulent. She last received flucloxacillin two hours ago. The on-call physician is contactable by phone and the day registrar has left for Adelaide.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give paracetamol, repeat observations in one hour and phone the physician if she is not improving"
+   },
+   {
+    "id": "B",
+    "text": "Take paired blood cultures from the PICC and a peripheral vein, give empirical intravenous antibiotics for suspected line sepsis within the hour and phone the physician"
+   },
+   {
+    "id": "C",
+    "text": "Remove the PICC immediately and send the tip for culture before any other action"
+   },
+   {
+    "id": "D",
+    "text": "Continue flucloxacillin alone and wait for the results of a single peripheral blood culture before changing therapy"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A rigor with fever and tachycardia in a patient with a central line is sepsis until proven otherwise. Paracetamol and observation lose the hour in which cultures and antibiotics change outcomes.",
+   "B": "Suspected central line-associated bloodstream infection is managed by taking paired cultures through the line and peripherally, starting empirical broad-spectrum antibiotics that cover staphylococci including MRSA, and escalating. She is on flucloxacillin, so an organism resistant to it, such as MRSA or a Gram-negative, is a concern; the physician needs to know now.",
+   "C": "Line removal is often necessary, but it is a decision for the treating team, and sending the tip without blood cultures loses the paired samples that establish the diagnosis. In a stable patient the cultures and antibiotics come first, and the line is removed on senior advice.",
+   "D": "She is already on flucloxacillin and has become septic on it, so continuing it alone covers neither resistant staphylococci nor Gram-negative organisms. Waiting for culture results before treating sepsis is unsafe."
+  },
+  "learning_point": "Fever and rigors in a patient with a central venous catheter mean paired blood cultures, empirical antibiotics within the hour and escalation; line removal is decided with the senior team after cultures are taken.",
+  "setting_note": "In a regional hospital with no ICU the PGY2 should ask the physician early about thresholds for retrieval, because a line infection can progress quickly to shock; MRSA cover with vancomycin requires weight-based dosing and the on-call pharmacist may be by phone only.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Prescribing and medication safety",
+   "Procedures and practical skills"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "fever and rigors",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Intravascular device-related infections: central venous catheter infection",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Sepsis Clinical Care Standard",
+    "locator": "Quality statements on time-critical management and antimicrobial therapy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: paired cultures with differential time to positivity help diagnose line infection; empirical therapy in suspected line sepsis includes vancomycin for MRSA plus Gram-negative cover depending on local guidance; antibiotics within an hour of recognising sepsis; line removal usually indicated for S. aureus, Pseudomonas, fungi, septic shock or tunnel infection. Misconceptions: that a mildly red site excludes line infection; that removing the line is the first step before cultures. Out of scope: duration of therapy for osteomyelitis.",
+  "plan": "Tests the first steps for suspected line sepsis in a patient on a PICC in a regional hospital (outcomes 1.9, 1.8, 1.5). A rigor on established flucloxacillin forces recognition that current therapy is failing. Distractors are antipyretic and wait, removing the line before cultures, and continuing current therapy. Supported by Therapeutic Guidelines Antibiotic and the Sepsis Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-040",
+  "item_id": "d4fed542-3e97-3b1f-ee86-2ab46d147d54",
+  "version": 1,
+  "stem": "You are the junior doctor at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the on-call doctor at home. At 2330 a 78-year-old Aboriginal man is brought in by his daughter with two days of dysuria, fever and rigors, and confusion this evening. He has type 2 diabetes and chronic kidney disease with a baseline eGFR of 42. Observations: temperature 39.1 °C, heart rate 118, blood pressure 92/54 mmHg, respiratory rate 26, oxygen saturation 94% on room air. Venous lactate is 3.6 mmol/L. He is drowsy but settles when his daughter speaks to him. You have inserted a cannula and sent blood and urine cultures.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give an intravenous crystalloid bolus and empirical intravenous antibiotics now, and phone the on-call doctor and the retrieval service"
+   },
+   {
+    "id": "B",
+    "text": "Give oral antibiotics and encourage fluids, keeping his daughter at the bedside, and review him at 0600"
+   },
+   {
+    "id": "C",
+    "text": "Withhold antibiotics until the urine culture result identifies the organism, because of his renal impairment"
+   },
+   {
+    "id": "D",
+    "text": "Arrange road ambulance transfer to the tertiary hospital now and start treatment on arrival there"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "He has features of septic shock from a urinary source: hypotension, raised lactate, confusion and tachycardia. The Sepsis Clinical Care Standard requires fluid resuscitation and intravenous antibiotics within the first hour, after cultures. In a country hospital without ICU, early calls to the on-call doctor and the retrieval service run in parallel with treatment, and his daughter should be kept involved and the Aboriginal Liaison Officer contacted in the morning.",
+   "B": "Oral therapy and observation are for uncomplicated infection in a well patient. He is hypotensive and confused, and will deteriorate without intravenous fluid and antibiotics.",
+   "C": "Renal impairment changes antibiotic dosing, not the need to treat. Empirical therapy guided by Therapeutic Guidelines, with dose adjustment for his eGFR and discussion of aminoglycoside use with the senior, must not wait for cultures.",
+   "D": "Transfer is likely to be needed, but 90 minutes by road without fluid and antibiotics would leave him untreated in the most important hour. Resuscitation starts here while retrieval is arranged."
+  },
+  "learning_point": "Septic shock is treated where the patient is: cultures, fluid bolus and intravenous antibiotics within the hour, with early escalation and a retrieval call made in parallel rather than instead.",
+  "setting_note": "In a country hospital the retrieval service and the receiving hospital should be contacted early rather than after a trial of treatment, because transport times are long; in a tertiary hospital the same patient would prompt a MET call and ICU review on site.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Aboriginal and Torres Strait Islander health",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "fever and rigors",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Sepsis Clinical Care Standard",
+    "locator": "Quality statement 3: time-critical management",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Urinary tract infection with sepsis: empirical therapy; aminoglycoside use in renal impairment",
+    "supports": "key"
+   },
+   {
+    "source": "carpa",
+    "title": "CARPA Standard Treatment Manual",
+    "locator": "Sepsis; sending a patient to hospital",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hypotension plus lactate above 2 mmol/L with infection suggests septic shock; first-hour actions are cultures, fluid bolus (for example 500 mL to 1 L crystalloid, reassessed), intravenous antibiotics, oxygen to target, and escalation; renal impairment alters gentamicin dosing and duration but a single empirical dose is often still appropriate on senior advice. Culturally safe care includes keeping family present, explaining in plain language and involving the Aboriginal Liaison Officer. Misconceptions: that transfer replaces treatment; that CKD means avoiding all empirical antibiotics. Out of scope: vasopressor choice.",
+  "plan": "Tests first-hour sepsis management by the single doctor in a country hospital, with the retrieval call made in parallel (outcomes 1.9, 1.8, 1.3). An older Aboriginal man with diabetes and CKD presenting with urosepsis and shock, with his daughter present, makes family involvement part of good care. Distractors are oral therapy, withholding antibiotics for cultures, and transfer without treatment. Supported by the Sepsis Clinical Care Standard and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-041",
+  "item_id": "3d5e19b5-1d24-80ca-a62d-6e8f9adc7681",
+  "version": 1,
+  "stem": "You are the PGY2 at a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. At 2100 an 80-year-old man presents after slipping in his bathroom at 2000 and striking the back of his head on the bath. He takes apixaban for atrial fibrillation. He did not lose consciousness but has vomited twice since the fall and has a mild headache. He is alert and orientated, GCS 15, with a 3 cm occipital haematoma and no focal neurological deficit. Observations are normal. The on-call doctor is at home and the radiographer cannot be called in for CT until 0800. His wife asks whether he can just go home and rest.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit for hourly neurological observations overnight and arrange a CT head when the radiographer arrives at 0800"
+   },
+   {
+    "id": "B",
+    "text": "Discharge home with his wife and written head injury advice, since his GCS is 15 and he has no focal deficit"
+   },
+   {
+    "id": "C",
+    "text": "Phone the on-call doctor and arrange urgent transfer tonight to a hospital with CT, with neurological observations in the interim"
+   },
+   {
+    "id": "D",
+    "text": "Give prothrombin complex concentrate now to reverse the apixaban, then observe overnight"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Anticoagulation alone warrants CT, and he also has vomited more than once, which in Australian and international head injury guidance is an indication for CT within an hour. Waiting 12 hours risks an expanding intracranial haemorrhage being recognised only after deterioration, in a hospital without neurosurgery or ICU.",
+   "B": "A normal GCS does not exclude intracranial bleeding in an anticoagulated older person; delayed haemorrhage is well described. Discharge without imaging is unsafe.",
+   "C": "An anticoagulated patient with a head strike and repeated vomiting needs CT within the hour. When CT is not available on site, the right action is to escalate to the on-call doctor and arrange transfer tonight through the retrieval or inter-hospital transfer pathway, with regular neurological observations while waiting.",
+   "D": "Reversal with prothrombin complex concentrate is indicated when intracranial haemorrhage is confirmed or when deterioration makes it likely, on specialist advice; giving it empirically to a well patient without imaging carries thrombotic risk and does not remove the need for CT."
+  },
+  "learning_point": "A head strike on an anticoagulant warrants CT; repeated vomiting makes it urgent, and when CT is not available on site the patient is transferred tonight rather than observed until morning.",
+  "setting_note": "In a regional hospital the decision hinges on access to CT: some sites have an on-call radiographer and others do not, and the PGY2 should know the local arrangement and the inter-hospital transfer process; in a tertiary hospital CT is immediate and the question is simply whether to image, which it is.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Rural and remote",
+   "Radiology"
+  ],
+  "domains": [
+   "1.9",
+   "1.7",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "head strike on an anticoagulant",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "minor",
+   "uncertainty_note": "Timing thresholds for CT in anticoagulated patients without other risk factors differ between guidelines (within 1 hour versus within 8 hours); the stem includes repeated vomiting so that urgent imaging is clearly indicated under all current guidance."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian Commission on Safety and Quality in Health Care / Agency for Clinical Innovation: Closed head injury in adults, initial management (as adopted by SA Health emergency departments)",
+    "locator": "Indications for CT: anticoagulation, vomiting; disposition from sites without CT",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Head injury in adults: imaging and anticoagulated patients",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Inter-hospital transfer and MedSTAR retrieval guidance",
+    "locator": "Requesting urgent transfer for time-critical imaging",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: anticoagulated patients with a head injury require CT; repeated vomiting, GCS below 15 at two hours, focal deficit, seizure or signs of skull fracture indicate urgent CT; in hospitals without CT the patient is transferred, not observed; apixaban reversal (prothrombin complex concentrate, or andexanet where available) is given once bleeding is confirmed or deterioration occurs, on haematology or neurosurgical advice. Misconceptions: that GCS 15 excludes bleeding; that observation substitutes for imaging. Out of scope: neurosurgical management.",
+  "plan": "Tests disposition of an anticoagulated older man with a head strike in a hospital where CT is unavailable overnight (outcomes 1.9, 1.7, 1.5). Repeated vomiting makes urgent CT unambiguous so that the regional problem, not the guideline nuance, is the test. Distractors are observing until morning, discharging on a normal GCS, and empirical reversal. Supported by Australian head injury guidance and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-042",
+  "item_id": "ee4721d7-f8b8-7edc-ebb7-69f94dc696d9",
+  "version": 1,
+  "stem": "You are the intern on the general ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 21-year-old Aboriginal man with rheumatic heart disease and a mechanical mitral valve, on warfarin with an INR of 3.4 yesterday, was admitted for intravenous antibiotics for cellulitis. At 1500 he slipped on the wet bathroom floor and hit his head; he was alert immediately afterwards with GCS 15 and a small frontal haematoma, and the nurse started neurological observations. At 1700 the nurse calls you: he has a worsening headache, has vomited once and is now drowsy but rousable, GCS 14 (E3 V5 M6). Pupils are equal and reactive. Heart rate 54, blood pressure 158/92 mmHg, respiratory rate 12. His mother is with him.",
+  "lead_in": "What is the most likely explanation for the change in his condition?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Concussion, with symptoms expected to settle over the next day with simple analgesia"
+   },
+   {
+    "id": "B",
+    "text": "A vasovagal response to pain, producing bradycardia and drowsiness"
+   },
+   {
+    "id": "C",
+    "text": "Nausea and sedation from over-anticoagulation with warfarin"
+   },
+   {
+    "id": "D",
+    "text": "An expanding intracranial haemorrhage with early signs of raised intracranial pressure"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Concussion can cause headache and nausea, but a fall in GCS two hours after injury with bradycardia and hypertension is a pattern of deterioration, not of a self-limiting injury. In an anticoagulated patient this combination must be assumed to be bleeding.",
+   "B": "A vasovagal episode causes transient hypotension with bradycardia and resolves quickly. His blood pressure is high, not low, and his conscious level has declined progressively over two hours.",
+   "C": "Warfarin itself does not cause drowsiness or nausea; its relevance is that an INR of 3.4 makes intracranial bleeding after a head strike more likely and more rapid. Attributing the symptoms to the drug would miss the complication it has caused.",
+   "D": "A declining GCS, worsening headache, vomiting, bradycardia and rising blood pressure after a head strike in a patient on warfarin indicate an intracranial haematoma with rising intracranial pressure (the early Cushing response). This is a time-critical emergency: the intern should escalate immediately to the on-call doctor, arrange reversal on advice and urgent transfer for CT and neurosurgical care, and keep his mother informed and involved."
+  },
+  "learning_point": "A falling GCS with headache, vomiting, bradycardia and hypertension after a head strike on an anticoagulant means intracranial haemorrhage with raised pressure until proven otherwise and demands immediate escalation.",
+  "setting_note": "In a regional hospital without CT after hours the intern's recognition triggers a retrieval call and discussion of warfarin reversal with the on-call doctor and a haematologist or neurosurgical registrar by phone, balancing the mechanical valve; in a tertiary hospital an immediate CT and neurosurgical review follow a MET call.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Neurology",
+   "Aboriginal and Torres Strait Islander health",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.4",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "head strike on an anticoagulant",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Head injury in adults: signs of deterioration and raised intracranial pressure; anticoagulated patients",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RHDAustralia: Australian guideline for prevention, diagnosis and management of acute rheumatic fever and rheumatic heart disease",
+    "locator": "Anticoagulation with mechanical valves; management of bleeding",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response adult observation chart",
+    "locator": "Neurological observations and escalation for a fall in GCS",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a drop of 2 or more GCS points, or any fall in GCS in an anticoagulated patient after head injury, is an emergency; the Cushing response (bradycardia, hypertension, irregular breathing) is a late sign and indicates critically raised pressure; warfarin reversal in a patient with a mechanical valve is done urgently for intracranial bleeding on specialist advice (vitamin K and prothrombin complex concentrate) despite the valve. Rheumatic heart disease disproportionately affects young Aboriginal people; culturally safe care includes family presence and the Aboriginal Liaison Officer. Misconceptions: that equal pupils are reassuring; that warfarin causes sedation. Out of scope: neurosurgical thresholds for evacuation.",
+  "plan": "Tests interpretation of neurological deterioration after a head strike in an anticoagulated young man (outcomes 1.9, 1.4, 1.3). A mechanical valve for rheumatic heart disease is a realistic reason for warfarin at 21 and lets the item model culturally safe practice without stereotype. Distractors are concussion, vasovagal and attributing symptoms to warfarin. Supported by Therapeutic Guidelines Emergency and the RHD guideline."
+ },
+ {
+  "work_order_id": "r1-043",
+  "item_id": "656385ef-50de-36d7-5a15-13355d473c86",
+  "version": 1,
+  "stem": "You are the PGY2 at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and the emergency department overnight; the on-call doctor is at home, 20 minutes away. At 0215 two calls arrive within a minute. The ward nurse reports that a 36-year-old man, day one after open appendicectomy, has a blood pressure of 84/50 mmHg, heart rate 128, cool peripheries and is 'not himself'; his blood pressure at midnight was 118/72 mmHg. The emergency department nurse reports that a 68-year-old man has just walked in with 30 minutes of central chest pain, is sweaty, heart rate 92, blood pressure 140/85 mmHg, and she has not yet done an ECG. Both nurses want you now.",
+  "lead_in": "What is the most appropriate way to prioritise the next ten minutes?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Go to the emergency department first, because a myocardial infarction is time-critical, and ask the ward nurse to give a fluid bolus and recheck observations"
+   },
+   {
+    "id": "B",
+    "text": "Go to the ward patient now, and ask the emergency department nurse to record a 12-lead ECG, give aspirin if not contraindicated and phone the on-call doctor to come in"
+   },
+   {
+    "id": "C",
+    "text": "Stay at the nurses' station and manage both patients by phone until the on-call doctor arrives"
+   },
+   {
+    "id": "D",
+    "text": "Ask the on-call doctor to decide which patient you should see first before leaving the ward office"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "The chest pain patient is currently stable and his first time-critical step, the ECG, is a nursing task that does not need the doctor present. The surgical patient has shock with a 34 mmHg fall in systolic pressure, red-zone observations and a likely surgical cause; he is the one who may die in the next ten minutes without a doctor at the bedside.",
+   "B": "Prioritisation is by immediate threat to life. The post-operative patient meets rapid response criteria for shock and needs assessment, fluid and a search for bleeding or sepsis now. The chest pain patient's ECG and aspirin can be started by the emergency nurse under your instruction, and the on-call doctor is called in immediately so that both patients have a doctor within 20 minutes.",
+   "C": "A shocked patient cannot be assessed by phone, and remaining at a desk delays care to both. Telephone management is a stopgap for the patient you cannot reach, not for the one down the corridor.",
+   "D": "Deciding which patient to see first is within a PGY2's scope and must happen in seconds. Waiting for the on-call doctor to adjudicate wastes the minutes that the shocked patient does not have; the call to the on-call doctor is for help, not for permission."
+  },
+  "learning_point": "When two patients need you at once, go to the one with the immediate threat to life, delegate the time-critical first steps for the other to nursing staff, and call in senior help straight away.",
+  "setting_note": "In a country hospital the single doctor overnight must delegate and call for help earlier than in a tertiary hospital, where separate ward and emergency teams and a MET would attend each patient; the chest pain ECG should also be transmitted for specialist review by phone.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Doctor wellbeing, teamwork and workload",
+   "Rural and remote",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "hypotension on the ward",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy and Rapid Detection and Response adult observation chart",
+    "locator": "Red zone criteria: systolic blood pressure below 90 mmHg; emergency response",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for recognising and responding to acute physiological deterioration",
+    "locator": "Escalation and rapid response systems",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "National Framework for Prevocational (PGY1 and PGY2) Medical Training: Outcome Statements",
+    "locator": "Outcome 2.8 time, workload and prioritisation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: prioritise by airway, breathing, circulation threat; shock on day one after surgery is bleeding or sepsis until excluded; the first steps for chest pain (ECG within 10 minutes, aspirin) can be delegated to nursing staff with clear instructions; the single doctor calls for the on-call doctor at once. Misconceptions: that the diagnosis with the best-known time target (STEMI) always comes first; that managing by phone is adequate for a shocked patient. Out of scope: management of the shock itself.",
+  "plan": "Tests prioritisation between two simultaneous emergencies for the sole doctor in a country hospital (outcomes 1.9, 2.8, 1.1). A shocked post-operative man versus a stable man with chest pain, with a nurse able to do the ECG, makes the choice hinge on immediate risk and delegation. Distractors are the STEMI-first reflex, managing by phone and deferring the decision to the on-call doctor. Supported by SA Health RDR criteria and the AMC outcome on prioritisation."
+ },
+ {
+  "work_order_id": "r1-044",
+  "item_id": "911acc7b-4d5d-d136-2b03-13014d6be287",
+  "version": 1,
+  "stem": "You are the junior doctor covering the wards overnight at a regional hospital with a small medical ward and no ICU. At 0100 a nurse asks you to review a 56-year-old woman, day one after a laparoscopic hysterectomy. Her blood pressure is 86/52 mmHg (preoperative 128/80), heart rate 108, respiratory rate 18, oxygen saturation 97% on room air, temperature 37.1 °C. She has had 150 mL of urine in the past four hours via her catheter, has vomited twice and has taken only sips of fluid since surgery. Her intravenous fluids were ceased at 1800. She is alert, her abdomen is soft with expected tenderness, and the drain contains 30 mL of serous fluid. She has a working cannula. The on-call doctor has been informed and is on the way.",
+  "lead_in": "What is the most appropriate immediate treatment?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Encourage oral fluids and recheck her blood pressure in one hour"
+   },
+   {
+    "id": "B",
+    "text": "Metaraminol 0.5 mg intravenously"
+   },
+   {
+    "id": "C",
+    "text": "A 500 mL bolus of balanced crystalloid intravenously, then reassess"
+   },
+   {
+    "id": "D",
+    "text": "Withhold her morning antihypertensive and review on the ward round"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "She is vomiting, has had little oral intake and her intravenous fluids were stopped seven hours ago; she is hypovolaemic and hypotensive now. Oral fluids will not correct this quickly enough and she is unlikely to keep them down.",
+   "B": "Vasopressors have a role in theatre and in critical care when hypotension persists despite adequate volume, but in a hypovolaemic ward patient they raise the blood pressure without restoring circulating volume and mask ongoing fluid loss. They are not a ward intern's first treatment.",
+   "C": "Hypotension with tachycardia, poor urine output, vomiting and no intake points to hypovolaemia. The first treatment is a rapid intravenous crystalloid bolus of 250 to 500 mL with reassessment of blood pressure, heart rate and urine output, repeated if there is a response, while the senior doctor assesses for other causes such as bleeding or sepsis.",
+   "D": "Withholding antihypertensives is sensible later, but it does nothing for a patient who is hypotensive at 0100 and would leave her untreated until morning."
+  },
+  "learning_point": "A hypotensive, tachycardic post-operative patient with poor intake and low urine output is hypovolaemic until proven otherwise and needs an intravenous crystalloid bolus with reassessment, not oral fluids, vasopressors or waiting.",
+  "setting_note": "",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Surgery and perioperative care",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.9",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "hypotension on the ward",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Shock: initial assessment and fluid resuscitation",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Intravenous fluids: crystalloids; Metaraminol",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response adult observation chart",
+    "locator": "Red zone: systolic blood pressure below 90 mmHg",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ABCDE assessment, then a fluid bolus of 250-500 mL crystalloid for hypotension with signs of hypovolaemia, reassessing after each bolus; look for bleeding (drain, abdomen, haemoglobin) and sepsis; escalate per RDR criteria; vasopressors are for persistent hypotension after volume, in a monitored setting. Misconceptions: that antihypertensives are the usual cause of post-operative hypotension; that oral fluids suffice. Out of scope: choice between crystalloid types.",
+  "plan": "Tests the simplest safe first step for post-operative hypotension from hypovolaemia (outcomes 1.9, 1.8). A woman after hysterectomy with vomiting and ceased fluids makes the cause clear at difficulty 1. Distractors are oral fluids, a vasopressor and deferring to the morning. Supported by Therapeutic Guidelines Emergency and the AMH."
+ },
+ {
+  "work_order_id": "r1-045",
+  "item_id": "229be150-26f9-0507-a097-021ca517d182",
+  "version": 1,
+  "stem": "You are the junior doctor on the surgical ward of a rural hospital on the Yorke Peninsula, with a 4-bed emergency department staffed overnight by you and the GP on call at home. At 0600 the nurse records an oxygen saturation of 88% on room air in a 31-year-old woman who is day one after laparoscopic appendicectomy; her saturation was 97% at 0200. She is drowsy after morphine overnight, respiratory rate 10, heart rate 92, blood pressure 118/74 mmHg, temperature 37.4 °C. The probe shows a good, regular waveform. The nurse comments that the reading is probably due to cold hands and that she will recheck when the patient wakes.",
+  "lead_in": "What is the most accurate interpretation of this oxygen saturation reading?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It is a true reading that meets rapid response criteria and requires oxygen, assessment and escalation now"
+   },
+   {
+    "id": "B",
+    "text": "It is probably an artefact of peripheral vasoconstriction and should be rechecked in an hour"
+   },
+   {
+    "id": "C",
+    "text": "It is an expected finding after abdominal surgery and needs no action beyond routine observations"
+   },
+   {
+    "id": "D",
+    "text": "It indicates she needs a CT pulmonary angiogram before any treatment is started"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A saturation below 90% with a good waveform is a true, red-zone observation on the SA Health Rapid Detection and Response chart. With a respiratory rate of 10 and drowsiness after morphine, opioid-induced hypoventilation is likely; she needs oxygen, an airway and breathing assessment, consideration of naloxone, and an immediate call to the on-call doctor.",
+   "B": "A poor trace, no waveform or a reading inconsistent with the patient would raise the possibility of artefact. A good regular waveform with a drowsy, slowly breathing patient means the number should be believed and acted on.",
+   "C": "Some reduction in saturation after abdominal surgery is common from atelectasis, but 88% on room air is not an expected finding at any point and would still need oxygen and review even without the drowsiness.",
+   "D": "Pulmonary embolism is a differential for hypoxaemia after surgery, but the first steps are oxygen, assessment and escalation; the clinical picture here points to opioid sedation, and imaging decisions follow the initial response."
+  },
+  "learning_point": "An oxygen saturation below 90% with a good waveform is a true red-zone finding that requires oxygen, assessment and escalation immediately, not a recheck later.",
+  "setting_note": "",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Prescribing and medication safety",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "1.9",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "hypoxia on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response adult observation chart",
+    "locator": "Red zone: oxygen saturation below 90%; respiratory rate criteria",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Opioid analgesics: respiratory depression and naloxone",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Opioid toxicity",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a saturation below 90% is a red-zone criterion; artefact is suggested by poor waveform, movement, nail polish or inconsistency with the clinical picture, not by the nurse's assumption; opioid-induced respiratory depression presents as sedation and low respiratory rate before desaturation; naloxone in small titrated doses (for example 100 micrograms IV repeated) reverses it. Misconceptions: that low readings in cold patients can be ignored; that post-operative hypoxaemia is normal. Out of scope: investigation of pulmonary embolism.",
+  "plan": "Tests belief in and action on a red-zone saturation reading when a nurse offers a benign explanation (outcomes 1.9, 1.5). A drowsy post-operative woman with a low respiratory rate after morphine makes the reading clearly real and the cause clear. Distractors are artefact, normalisation and premature imaging. Supported by the SA Health RDR chart and the AMH."
+ },
+ {
+  "work_order_id": "r1-046",
+  "item_id": "2bea3fc4-50b1-c7ab-a522-7b6f5b1fb582",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 40-year-old woman was admitted overnight with an asthma exacerbation and has received continuous salbutamol and ipratropium nebulisers, oral prednisolone and magnesium. At 0900 she is sitting forward, speaking single words, respiratory rate 32, heart rate 128, oxygen saturation 91% on 8 L/min via Hudson mask, with a quiet chest. Her arterial blood gas on 8 L/min shows pH 7.37, PaCO2 43 mmHg, PaO2 64 mmHg, HCO3 24 mmol/L. The physician is on the ward round elsewhere in the hospital.",
+  "lead_in": "What is the most accurate interpretation of this blood gas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal acid-base result that supports continuing the current treatment and repeating the gas in four hours"
+   },
+   {
+    "id": "B",
+    "text": "A compensated respiratory alkalosis indicating that the bronchospasm is improving"
+   },
+   {
+    "id": "C",
+    "text": "Type 1 respiratory failure only, which is managed by increasing the oxygen flow rate"
+   },
+   {
+    "id": "D",
+    "text": "A normal carbon dioxide level in a patient working this hard indicates fatigue and impending respiratory failure, and requires immediate escalation"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "The numbers look normal in isolation, but a patient with a respiratory rate of 32 and severe airflow obstruction should be blowing off carbon dioxide; a PaCO2 of 43 mmHg means she can no longer increase her ventilation and is tiring. Waiting four hours could end in respiratory arrest.",
+   "B": "A respiratory alkalosis would show a raised pH and a low PaCO2, which is the expected early picture in acute asthma. The pH and PaCO2 here are in the normal range, which represents a change for the worse, not improvement.",
+   "C": "She is hypoxaemic on high-flow oxygen, which is a serious finding, but the PaCO2 is the key message. Increasing oxygen alone treats a number and misses the ventilatory failure that is developing; she needs senior and critical care involvement now.",
+   "D": "In life-threatening asthma, a normal or rising PaCO2 is a sign of exhaustion and impending respiratory failure, and together with single-word speech, a quiet chest and a saturation of 91% on 8 L/min it defines a life-threatening attack. The intern should call the physician out of the ward round immediately, put out an emergency call, and prepare for retrieval, as this patient may need intubation in a hospital without an ICU."
+  },
+  "learning_point": "In severe asthma a normal or rising carbon dioxide is a sign of exhaustion and impending respiratory failure, not reassurance, and requires immediate escalation.",
+  "setting_note": "In a regional hospital without an ICU this gas should trigger an early call to the retrieval service, because intubation of a patient with severe asthma is high-risk and the on-site team is small; in a tertiary hospital the ICU registrar attends a MET call on the ward.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "hypoxia on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian Asthma Handbook (National Asthma Council Australia)",
+    "locator": "Acute asthma in adults: assessment of severity, life-threatening features and blood gas interpretation",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Respiratory",
+    "locator": "Acute asthma in adults: severe and life-threatening asthma",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: early acute asthma causes hypocapnia from hyperventilation; a normal PaCO2 in a distressed asthmatic is a life-threatening feature along with silent chest, cyanosis, exhaustion, altered consciousness, saturation below 92% and poor respiratory effort; management is continuous bronchodilators, oxygen titrated to 92-95%, magnesium, steroids and critical care review for possible non-invasive or invasive ventilation. Misconceptions: that a normal gas means a stable patient; that oxygen alone fixes the problem. Out of scope: ventilator strategies.",
+  "plan": "Tests the classic trap of a 'normal' blood gas in severe asthma (outcomes 1.5, 1.9, 4.1). A woman tiring on maximal ward therapy in a hospital with no ICU makes recognising the signal and escalating urgent. Distractors are the normal reading, misreading as improving alkalosis, and treating the oxygen number alone. Supported by the Australian Asthma Handbook and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-047",
+  "item_id": "5a6f5d99-8cca-96b3-276d-cee06da8ec24",
+  "version": 1,
+  "stem": "You are the junior doctor covering the wards overnight at a regional hospital with a small medical ward and no ICU. At 2300 the nurse reports that a 39-year-old man, day one after an emergency laparotomy for a perforated duodenal ulcer, has passed 15 mL, 10 mL and 15 mL of urine in the past three hours via his indwelling catheter. He received 3 L of crystalloid in theatre and is on maintenance fluids at 100 mL/h. Observations: heart rate 104, blood pressure 102/64 mmHg, respiratory rate 20, oxygen saturation 96% on 2 L/min, temperature 37.8 °C. He is alert, his mucous membranes are dry and his abdomen is appropriately tender. The nurse asks whether you want to prescribe furosemide, as the day team did for another patient.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe furosemide 40 mg intravenously and reassess urine output in an hour"
+   },
+   {
+    "id": "B",
+    "text": "Examine him, confirm the catheter is draining freely, and give a 500 mL crystalloid bolus with reassessment of urine output and observations"
+   },
+   {
+    "id": "C",
+    "text": "Arrange an urgent renal tract ultrasound to exclude obstruction before giving any fluid"
+   },
+   {
+    "id": "D",
+    "text": "Reduce the maintenance fluid rate to 50 mL/h to avoid fluid overload and review on the morning round"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Furosemide in a hypovolaemic patient worsens the volume deficit and converts a pre-renal state into kidney injury. Oliguria after major surgery is almost always a sign of inadequate circulating volume or a surgical complication, not of fluid overload, and a diuretic makes the number look better while harming the patient.",
+   "B": "Oliguria of less than 0.5 mL/kg/h for over two hours after a laparotomy is first assessed by examining the patient and checking the catheter, then treated with a fluid challenge if the patient appears dry, as this man does. Tachycardia, borderline blood pressure and dry mucous membranes after a perforated viscus with third-space losses all point to hypovolaemia. A bolus with reassessment, and escalation to the on-call doctor if no response, is the safe sequence.",
+   "C": "Obstruction is unlikely with a catheter in place and a soft, appropriately tender abdomen; a catheter flush addresses the most likely mechanical cause. Ultrasound is not available overnight in this hospital and would delay treatment of hypovolaemia.",
+   "D": "Reducing fluids assumes overload, but there is no evidence of it: he is dry, tachycardic and his oxygen requirement is modest and expected after a laparotomy. Cutting intake and waiting until morning risks acute kidney injury."
+  },
+  "learning_point": "Post-operative oliguria is treated as hypovolaemia until proven otherwise: examine the patient, check the catheter, give a fluid bolus and reassess, and do not give a diuretic to make the urine output look better.",
+  "setting_note": "In a regional hospital without overnight imaging or ICU, failure to respond to one or two fluid boluses should prompt a call to the on-call doctor and surgeon and consideration of a surgical complication or sepsis, with early discussion of transfer; in a tertiary hospital the surgical registrar and ICU outreach would review on site.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Surgery and perioperative care",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "oliguria",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Acute kidney injury: pre-renal causes and fluid resuscitation",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Kidney Health Australia: Acute kidney injury recognition and management (KHA-CARI adaptation)",
+    "locator": "Oliguria definition and initial management",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Furosemide: precautions in hypovolaemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oliguria is urine output below 0.5 mL/kg/h for more than two hours; after surgery the sequence is examine, check the catheter (flush), assess volume status, fluid challenge, reassess, then consider renal and post-renal causes and escalate; diuretics are reserved for proven overload. Perforated viscus and peritonitis cause large third-space losses. Misconceptions: that furosemide treats oliguria; that reducing fluids is safer overnight. Out of scope: hyperkalaemia management.",
+  "plan": "Tests the first step for post-operative oliguria where a diuretic is tempting because a colleague used one (outcomes 1.9, 1.8, 1.4). A man after laparotomy for a perforated ulcer with signs of hypovolaemia makes the cause clear but the trap real. Distractors are furosemide, ultrasound first and reducing fluids. Supported by Therapeutic Guidelines and the AMH."
+ },
+ {
+  "work_order_id": "r1-048",
+  "item_id": "af63336b-11b6-4a61-50db-1104af3c7029",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a metropolitan general hospital with a registrar on site overnight. A 54-year-old Aboriginal woman with type 2 diabetes and chronic kidney disease (baseline creatinine 150 micromol/L, eGFR 34) was admitted three days ago with community-acquired pneumonia. Her regular medicines, including ramipril and metformin, were continued. The nurse calls you at 1900: her urine output has been 20 mL/h for four hours. Bloods taken at 1700 show creatinine 268 micromol/L, potassium 6.1 mmol/L, bicarbonate 18 mmol/L. Observations: blood pressure 152/88 mmHg, heart rate 96, respiratory rate 24, oxygen saturation 93% on 2 L/min (97% on room air yesterday). Her jugular venous pressure is raised, she has bibasal crackles and mild ankle oedema. She is alert.",
+  "lead_in": "What is the most appropriate immediate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obtain a 12-lead ECG, withhold ramipril and metformin, and phone the registrar now about hyperkalaemia with oliguric acute kidney injury"
+   },
+   {
+    "id": "B",
+    "text": "Give a 500 mL intravenous crystalloid bolus for the oliguria and recheck urine output in an hour"
+   },
+   {
+    "id": "C",
+    "text": "Give furosemide 40 mg intravenously and recheck the potassium in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Insert an indwelling catheter and record strict hourly urine output before any other action"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "She has oliguric acute kidney injury on chronic kidney disease, a potassium of 6.1 mmol/L and clinical fluid overload. The immediate dangers are a cardiac arrhythmia and worsening pulmonary oedema. The intern's first actions are an ECG for hyperkalaemic changes, stopping the drugs that are worsening the kidney injury and the potassium, and immediate escalation to the registrar, who will direct treatment of the hyperkalaemia (calcium, insulin-dextrose, salbutamol) and the overload, and liaise with the renal team.",
+   "B": "Oliguria usually prompts a fluid bolus, which is exactly the trap here. She is overloaded, with a raised jugular venous pressure, crackles, oedema and a rising oxygen requirement; more fluid will precipitate pulmonary oedema.",
+   "C": "A diuretic may be part of the registrar's plan for overload, and it may lower potassium, but giving it alone and leaving a potassium of 6.1 mmol/L unchecked until morning is unsafe, and it does not address the nephrotoxic medicines or the need for senior review now.",
+   "D": "She is already known to be oliguric; a catheter will help monitoring but delaying ECG, medication review and escalation to insert it puts a cardiac arrhythmia ahead of a measurement."
+  },
+  "learning_point": "Oliguria with hyperkalaemia and fluid overload is not a fluid-bolus problem: get an ECG, stop ramipril and metformin, and escalate immediately so the hyperkalaemia and overload are treated by the senior team.",
+  "setting_note": "In a regional hospital the same patient may need discussion with the tertiary renal team and early retrieval if dialysis is likely, since hyperkalaemia with oliguric kidney injury can outrun medical therapy; the intern's first actions are identical.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Prescribing and medication safety",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "oliguria",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Emergency",
+    "locator": "Hyperkalaemia: assessment and management; Acute kidney injury",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "ACE inhibitors and metformin: renal impairment and acute illness",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Kidney Health Australia: Chronic kidney disease management in primary care handbook",
+    "locator": "Sick day management: withholding ACE inhibitors and metformin during acute illness",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a potassium above 6.0 mmol/L needs an ECG and urgent treatment, especially with ECG changes or oliguric kidney injury; ACE inhibitors, metformin, NSAIDs and SGLT2 inhibitors should be withheld during acute illness with kidney injury; fluid overload with oliguria is treated with diuretics, fluid restriction and renal review, not boluses; Aboriginal and Torres Strait Islander people carry a higher burden of chronic kidney disease, which makes early sick-day medication review part of culturally safe, whole-of-person care. Misconceptions: that all oliguria needs fluid; that hyperkalaemia can wait for morning bloods. Out of scope: dialysis indications.",
+  "plan": "Tests whether an intern can resist the fluid-bolus reflex and recognise hyperkalaemia with overload as the priority in oliguric acute kidney injury (outcomes 1.9, 1.8, 1.5). A woman with CKD whose ramipril and metformin were continued through pneumonia gives a realistic, difficult picture. Distractors are the fluid bolus, furosemide alone with delayed potassium recheck, and catheterisation before escalation. Supported by Therapeutic Guidelines and the AMH."
+ },
+ {
+  "work_order_id": "r1-049",
+  "item_id": "f47c1174-b9e4-bcc0-0bff-e10ffc315153",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a metropolitan general hospital with a medical registrar on site. At 0030 a nurse phones about a 33-year-old man admitted that afternoon with cellulitis of the right leg, who is receiving intravenous flucloxacillin. She has just recorded his observations on the SA Health Rapid Detection and Response chart: temperature 38.2 °C, heart rate 142, blood pressure 118/74 mmHg, respiratory rate 22, oxygen saturation 96% on room air, alert and orientated. He says he feels 'a bit shaky' but otherwise well. The nurse asks what response the chart requires.",
+  "lead_in": "Which observation triggers an emergency (rapid response) call under the chart's criteria?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Temperature 38.2 °C"
+   },
+   {
+    "id": "B",
+    "text": "Respiratory rate 22"
+   },
+   {
+    "id": "C",
+    "text": "Heart rate 142"
+   },
+   {
+    "id": "D",
+    "text": "Oxygen saturation 96% on room air"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A temperature of 38.2 °C is within the range that may prompt a clinical review in some local charts, but it is not an emergency call criterion.",
+   "B": "A respiratory rate of 22 sits within the normal or at most the lower clinical review range; emergency criteria for respiratory rate are at the extremes, around 5 and below or 30 and above.",
+   "C": "A heart rate of 140 or more is a red-zone criterion on the SA Health adult Rapid Detection and Response chart and requires an immediate emergency call (medical emergency team or equivalent), regardless of how well the patient appears. The intern should attend, ensure the emergency call is placed and inform the registrar, because a heart rate this high in a febrile patient may be sepsis or an arrhythmia.",
+   "D": "A saturation of 96% on room air is normal and does not trigger any escalation."
+  },
+  "learning_point": "A heart rate of 140 or more is a red-zone criterion requiring an immediate emergency call, even if the patient looks well; knowing the chart's red-zone thresholds is a core intern responsibility.",
+  "setting_note": "In a regional hospital without a medical emergency team, the red-zone response is defined locally, usually the on-call doctor and senior nurse attending immediately, with early retrieval discussion; the trigger thresholds on the SA Health chart are the same.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "rapid response criteria and escalation",
+  "context": "after_hours",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "minor",
+   "uncertainty_note": "The exact red-zone heart rate threshold on SA Health RDR charts is around 130-140 depending on chart version and local modification; 142 exceeds all versions, so the key holds, but the explanation's stated threshold should be checked against the current chart."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response adult observation chart and Recognising and Responding to Clinical Deterioration Policy Directive",
+    "locator": "Red zone (emergency call) criteria: heart rate",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for recognising and responding to acute physiological deterioration",
+    "locator": "Trigger criteria and rapid response systems",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: SA Health RDR adult charts use colour-coded zones; red-zone criteria include heart rate at or above the upper red threshold or below 40, systolic blood pressure below 90, respiratory rate at the extremes, saturation below 90%, a drop in conscious state, and staff or family concern; a red-zone observation mandates an emergency call, not a phone discussion. Misconceptions: that a well-looking patient can wait; that the doctor can 'downgrade' a red-zone trigger by phone. Out of scope: management of the tachycardia.",
+  "plan": "Tests recall of the red-zone heart rate criterion on the SA RDR chart when the patient looks well (outcomes 1.9, 1.1). A young man with cellulitis and a heart rate of 142 isolates the single observation that triggers an emergency call. Distractors are the other observations, each in the normal or clinical-review range. Supported by SA Health RDR policy."
+ },
+ {
+  "work_order_id": "r1-050",
+  "item_id": "5af51434-decd-2cd9-ef34-609281fba43e",
+  "version": 1,
+  "stem": "You are the intern on the surgical ward of a large metropolitan teaching hospital with on-site intensive care. At 1530 a nurse pages you: a 30-year-old man, day two after an open reduction and internal fixation of a tibial fracture, has observations in the yellow zone of the Rapid Detection and Response chart: heart rate 116, respiratory rate 24, temperature 38.3 °C, blood pressure 122/78 mmHg, oxygen saturation 95% on room air. He is alert and complaining of increasing calf pain. The chart requires a clinical review within 30 minutes. You are on the ward with two discharge summaries to write before 1700, and the surgical registrar is in theatre until about 1800.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the nurse to repeat the observations in one hour and to call you back if they are still in the yellow zone"
+   },
+   {
+    "id": "B",
+    "text": "Chart paracetamol by phone for the fever and review him on the evening ward round with the registrar"
+   },
+   {
+    "id": "C",
+    "text": "Ask the nurse to phone the registrar in theatre, since the patient is surgical and the registrar should decide"
+   },
+   {
+    "id": "D",
+    "text": "Attend within 30 minutes, perform a structured assessment of the leg and for sepsis and venous thromboembolism, document a plan, and escalate to the registrar or a MET call if criteria persist or worsen"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Delegating the decision to a later set of observations ignores the chart's requirement for a medical review within 30 minutes and leaves a patient with possible sepsis, compartment syndrome or venous thromboembolism unreviewed for an hour.",
+   "B": "Treating the number by phone without assessing the patient suppresses the fever and the signal with it. Increasing calf pain after a tibial fixation needs the leg examined now, not at an evening round.",
+   "C": "The registrar in theatre cannot examine him, and the clinical review is the intern's responsibility; the registrar should be informed after the intern's assessment, with a clear ISBAR summary, or immediately if red-zone criteria are met.",
+   "D": "The yellow-zone response is a medical review within 30 minutes. The intern attends, assesses the leg for compartment syndrome and wound infection, considers sepsis and venous thromboembolism, orders initial investigations, documents findings and a plan, and escalates to the registrar, or calls a MET if criteria progress. Discharge summaries wait; the deteriorating patient does not."
+  },
+  "learning_point": "A yellow-zone trigger means the junior doctor attends and assesses the patient within 30 minutes, documents a plan and escalates if the criteria persist; paperwork and phone orders do not replace the review.",
+  "setting_note": "",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Surgery and perioperative care",
+   "Doctor wellbeing, teamwork and workload"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "rapid response criteria and escalation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b02",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy Directive and Rapid Detection and Response adult observation chart",
+    "locator": "Yellow zone: clinical review within 30 minutes; escalation if not improving",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for recognising and responding to acute physiological deterioration",
+    "locator": "Tiered escalation and clinical review",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: yellow-zone observations require a medical review within 30 minutes, documentation of the assessment and plan, a decision about further escalation, and a repeat set of observations; the junior doctor must attend, not manage by phone; modifications to calling criteria are made only by a senior clinician after review. Increasing calf pain after tibial fixation raises compartment syndrome, which is a surgical emergency. Misconceptions: that antipyretics by phone are an acceptable response; that only the surgical team may review a surgical patient. Out of scope: the specific management of compartment syndrome.",
+  "plan": "Tests what an intern does with a yellow-zone trigger when busy and with the registrar unavailable (outcomes 1.9, 1.1, 2.8). A man with a fever, tachycardia and calf pain after tibial fixation makes attendance necessary and the differential serious. Distractors are deferring to repeat observations, treating by phone and passing the review to a registrar in theatre. Supported by SA Health RDR policy."
+ }
+]

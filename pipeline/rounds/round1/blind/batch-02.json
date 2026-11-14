@@ -1,0 +1,1111 @@
+[
+ {
+  "item_id": "e2601e08-fa7f-335f-0c5f-082aec2ba5ea",
+  "work_order_id": "r1-026",
+  "stem": "You are the intern on an evening cover shift at a rural hospital on the Yorke Peninsula, with a 4-bed emergency department staffed overnight by you and the GP on call. A 58-year-old woman admitted five days ago with community-acquired pneumonia is being discharged home tonight because her lift has arrived early. The day team did not complete the discharge summary. During the admission her ramipril was withheld for acute kidney injury that has since resolved, prednisolone was started for an exacerbation of her asthma with a weaning course still to run, and a repeat sputum culture is still pending. The GP on call reminds you that her own GP in Kadina will see her next week and will rely on the summary.",
+  "lead_in": "Which content is most important to include in her discharge summary?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A chronological copy of the daily progress notes so nothing is omitted"
+   },
+   {
+    "id": "B",
+    "text": "Diagnosis, medication changes with reasons, pending results and the specific actions requested of her GP"
+   },
+   {
+    "id": "C",
+    "text": "A brief statement that she was treated for pneumonia and discharged well, with full details to follow from the day team"
+   },
+   {
+    "id": "D",
+    "text": "The admission blood results and observation chart in full, so the GP can interpret the course herself"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "discharge summary quality",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "da3ed7b2-b73f-acb8-bb52-af4f6c45e05b",
+  "work_order_id": "r1-027",
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The visiting surgeon operated today and has returned to Adelaide; the on-call senior doctor tonight is a local rural generalist at home, 15 minutes away. At 0130 the nurse asks you to review a 19-year-old woman, day one after laparoscopic appendicectomy for a perforated appendix. Her heart rate is 118, blood pressure 98/60 mmHg, temperature 38.4 \u00b0C, respiratory rate 24 and oxygen saturation 97%. She has generalised abdominal tenderness with guarding, worse than documented at the evening review. You have inserted a cannula, sent bloods and blood cultures, and started a 500 mL crystalloid bolus. The nurse asks whether this can wait until the morning handover at 0800.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give paracetamol and a further fluid bolus, and review her yourself in one hour before deciding whether to call anyone"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to increase observations to hourly and to call you if any red-zone criterion is met"
+   },
+   {
+    "id": "C",
+    "text": "Phone the on-call surgical registrar at the Adelaide tertiary hospital for advice before contacting the local on-call doctor"
+   },
+   {
+    "id": "D",
+    "text": "Phone the local on-call senior doctor now with an ISBAR handover and ask them to come in and review her"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "escalation call to a registrar",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.1",
+   "1.9",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "552c92bd-56d1-3721-89b6-df0508ed9a49",
+  "work_order_id": "r1-028",
+  "stem": "You are the intern covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 22-year-old woman admitted this afternoon with an asthma exacerbation has had two salbutamol nebulisers in the past hour. She is now speaking in short phrases, respiratory rate 30, heart rate 124, oxygen saturation 92% on 6 L/min oxygen via Hudson mask. You phone the on-call senior doctor at home and describe the observations. The senior doctor says, 'Give her another nebuliser and some hydrocortisone, and I'll see her on the round at eight.' You reply, 'Do you think we should get an arterial gas?' The senior says, 'Not needed, she's young.' The nurse is looking at you.",
+  "lead_in": "Which response best reflects the next appropriate step in graded assertiveness?",
+  "options": [
+   {
+    "id": "A",
+    "text": "'Okay, I'll give the nebuliser and hydrocortisone and call you back if she gets worse.'"
+   },
+   {
+    "id": "B",
+    "text": "'Would you like me to give ipratropium with the next nebuliser as well?'"
+   },
+   {
+    "id": "C",
+    "text": "'I'm concerned. She is tiring and still hypoxic despite two nebulisers. I need you to come in and see her now.'"
+   },
+   {
+    "id": "D",
+    "text": "'I'm going to call the retrieval service directly, because I don't think you're taking this seriously.'"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "graded assertiveness",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "333a6521-780d-abba-361b-a5de8f1c873f",
+  "work_order_id": "r1-029",
+  "stem": "You are the PGY2 covering the medical wards overnight at a metropolitan general hospital, with a medical registrar on site. At 2300 the nurse reports that a 79-year-old Aboriginal woman admitted with melaena from a bleeding duodenal ulcer has a haemoglobin of 68 g/L, heart rate 104 and feels light-headed on sitting. The registrar, who is with a sick patient, asks you to consent her for two units of red cells and start the transfusion. She is alert and orientated, speaks English, and has given a clear history. Her daughter is at the bedside and the patient asks that her daughter stay for any discussion. The Aboriginal Liaison Officer is not on site until the morning. You have explained and consented patients for transfusion before.",
+  "lead_in": "What is the most appropriate way to proceed?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain the benefits, risks and alternatives to her in plain language with her daughter present as she requested, confirm her decision and document the consent"
+   },
+   {
+    "id": "B",
+    "text": "Ask her daughter to sign the consent form on her behalf because she is unwell and a family member is present"
+   },
+   {
+    "id": "C",
+    "text": "Defer the transfusion until the Aboriginal Liaison Officer can be present for the consent discussion in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Decline to take consent because only the treating consultant may consent a patient for a blood product"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "informed consent",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.2",
+   "1.3",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "3bc7bda8-e387-d1b5-405a-6b6185821aa4",
+  "work_order_id": "r1-030",
+  "stem": "You are the junior doctor on the general surgical ward of a metropolitan general hospital. The surgical registrar, who is in theatre, phones and asks you to 'get the consent form signed' for a 38-year-old man booked for elective open inguinal hernia repair with mesh tomorrow morning. He is a truck driver. When you see him he says the surgeon mentioned the operation briefly in clinic three months ago. He asks you how likely chronic groin pain is after mesh repair, whether it could stop him driving, and whether there is a non-mesh option. You have observed one hernia repair as a student and do not know the surgeon's complication rates or practice.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Look up population complication rates online and answer his questions yourself so the form can be signed tonight"
+   },
+   {
+    "id": "B",
+    "text": "Ask him to sign the form now and note that the surgeon will answer his remaining questions before theatre"
+   },
+   {
+    "id": "C",
+    "text": "Reassure him that hernia repair is routine and that serious problems are very rare, and complete the form"
+   },
+   {
+    "id": "D",
+    "text": "Explain that his questions need a surgeon's answer, tell the registrar, and arrange for the registrar or consultant to complete the consent discussion before surgery"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "informed consent",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D"
+  ],
+  "domains": [
+   "1.2",
+   "2.4",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "b3574c27-8e2a-1e1a-f85e-a4263d145248",
+  "work_order_id": "r1-031",
+  "stem": "You are the intern on the medical ward of a country hospital 90 minutes from the nearest tertiary centre; overnight you cover the ward and the emergency department, with the on-call doctor at home. A 32-year-old woman admitted yesterday with pyelonephritis is reviewed at 0200 because of rigors. Her temperature is 39.4 \u00b0C, heart rate 126, blood pressure 86/48 mmHg, respiratory rate 26 and oxygen saturation 95% on room air. She is drowsy but rousable. You have started a second 500 mL crystalloid bolus after the first produced no change in blood pressure, taken blood cultures and a lactate (4.1 mmol/L), and confirmed that intravenous ceftriaxone was given at 2200. You phone the on-call doctor.",
+  "lead_in": "Which opening to the phone call communicates the situation most effectively?",
+  "options": [
+   {
+    "id": "A",
+    "text": "'Hi, it's the ward. I've got a lady with pyelonephritis who came in yesterday with dysuria and a fever; her GP had given her some antibiotics beforehand. Her history is...'"
+   },
+   {
+    "id": "B",
+    "text": "'This is the intern at the hospital. I'm calling about a 32-year-old woman in bed 6 with pyelonephritis who has septic shock: blood pressure 86 systolic despite one litre of fluid and lactate 4.1. I need you to come in now.'"
+   },
+   {
+    "id": "C",
+    "text": "'Sorry to wake you. One of the ward patients has a temperature of 39.4 and her pulse is 126, pressure 86 over 48, sats 95, resps 26. What would you like me to do?'"
+   },
+   {
+    "id": "D",
+    "text": "'I've given fluids and cultures are off and the ceftriaxone went in at ten. Do you think she needs gentamicin as well, or should we wait and see how she goes?'"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "phone call about a deteriorating patient",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.2",
+   "1.1",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "90030aec-0418-008d-1ea7-c5f668216f2b",
+  "work_order_id": "r1-032",
+  "stem": "You are the intern on the surgical ward of a large metropolitan teaching hospital. A 61-year-old woman, day three after laparoscopic cholecystectomy, developed atrial fibrillation on day one that has persisted. Cardiology has reviewed her and recommended starting apixaban, with a CHA2DS2-VA score of 2 and no bleeding risk factors identified. On the ward round the surgical registrar asked you to 'sort out the apixaban'. When you bring the chart, she tells you her mother had a brain haemorrhage on warfarin and she is frightened of blood thinners. She asks, 'What would you do, doctor?' The registrar is now in theatre for the rest of the day; the consultant is contactable by phone.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure her that apixaban is much safer than warfarin and that bleeding is very unlikely, and chart it as the team has asked"
+   },
+   {
+    "id": "B",
+    "text": "Document that she has declined anticoagulation, inform the registrar after theatre and leave the decision with the team"
+   },
+   {
+    "id": "C",
+    "text": "Explore what worries her, explain the stroke and bleeding risks in plain numbers, offer written information and arrange a conversation with the consultant or cardiology before she decides"
+   },
+   {
+    "id": "D",
+    "text": "Give her the apixaban consumer medicine information leaflet and ask her to let the nurses know her decision before discharge"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "shared decision-making",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.2",
+   "3.6",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "e7db782c-4ddf-19cb-2d31-0b5d3992967b",
+  "work_order_id": "r1-033",
+  "stem": "You are the PGY2 covering the wards overnight at a tertiary hospital in Adelaide. At 0100 you review a 36-year-old woman admitted that evening with abdominal pain of uncertain cause; she speaks Vietnamese and limited English. You use the telephone interpreter service. When you ask about the onset and character of the pain, she speaks for about a minute; the interpreter then says, 'She says the pain started yesterday.' When you ask whether anyone at home has hurt her, there is a long exchange between the interpreter and the patient, after which the interpreter says, 'She doesn't want to talk about that, and I think she's just worried about her children.' The patient is avoiding eye contact and has bruising of different ages on her forearm.",
+  "lead_in": "What is the most accurate interpretation of what is happening in this consultation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The interpreter is summarising and adding opinion rather than interpreting everything in the first person, and needs to be redirected to their role"
+   },
+   {
+    "id": "B",
+    "text": "The patient lacks the capacity to give a history tonight and a collateral history from her husband should be obtained"
+   },
+   {
+    "id": "C",
+    "text": "The patient's reluctance indicates that the abdominal pain is likely to be functional and the safety question should not be pursued"
+   },
+   {
+    "id": "D",
+    "text": "A family member who is bilingual would obtain a more complete history than a telephone interpreter and should be asked to interpret"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "working with an interpreter",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.2",
+   "1.4",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "1014e6ca-2573-d716-b9fa-521ee0c80266",
+  "work_order_id": "r1-034",
+  "stem": "You are the junior doctor on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 79-year-old woman, day two after hemiarthroplasty for a fractured neck of femur, has just received her first dose of intravenous flucloxacillin for a wound infection; her previous antibiotic was oral cefalexin. Fifteen minutes after the dose she vomits twice, complains of cramping abdominal pain and says she feels faint. She takes metoprolol. Observations: blood pressure 82/46 mmHg (135/78 an hour earlier), heart rate 62, respiratory rate 20, oxygen saturation 96% on room air. There is no rash, no lip or tongue swelling, and her chest is clear. The nurse suggests this is a vasovagal episode from the vomiting.",
+  "lead_in": "What is the most likely explanation for her presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vasovagal syncope precipitated by pain and vomiting"
+   },
+   {
+    "id": "B",
+    "text": "Haemorrhage from the surgical site with early hypovolaemic shock"
+   },
+   {
+    "id": "C",
+    "text": "A gastrointestinal adverse drug reaction without systemic involvement"
+   },
+   {
+    "id": "D",
+    "text": "Anaphylaxis, despite the absence of skin and respiratory features"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "anaphylaxis to a ward medication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "f637826b-4946-97ae-bf63-72930b090ed6",
+  "work_order_id": "r1-035",
+  "stem": "You are the intern on the medical ward of a rural hospital on the Yorke Peninsula; the 4-bed emergency department is staffed overnight by you, with the GP on call at home. At 0330 a nurse runs to tell you that a 77-year-old man admitted with pneumonia has been found slumped in bed. You arrive to find him unresponsive to voice and to a firm trapezius squeeze. He is making occasional, irregular gasping noises about every ten seconds. The nurse has pressed the emergency buzzer and a second nurse is bringing the resuscitation trolley and defibrillator. The nurse asks whether you want her to find a carotid pulse before anything else is done.",
+  "lead_in": "According to ANZCOR guidelines, which finding is sufficient to start chest compressions now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absence of a carotid pulse confirmed over ten seconds"
+   },
+   {
+    "id": "B",
+    "text": "Unresponsiveness with breathing that is not normal"
+   },
+   {
+    "id": "C",
+    "text": "Absence of an organised rhythm once the defibrillator pads are applied"
+   },
+   {
+    "id": "D",
+    "text": "Fixed, dilated pupils on examination with a torch"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "cardiac arrest recognition and basic life support",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.6",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "aa2e29a4-3a51-9f3c-cb20-005333423aa2",
+  "work_order_id": "r1-036",
+  "stem": "You are the PGY2 on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 34-year-old woman, six hours after laparoscopic cholecystectomy, had been tachycardic (118) with a falling blood pressure over the past hour and a drain that has filled with 400 mL of blood. As you arrive she becomes unresponsive and stops breathing normally. Nurses start compressions and bag-mask ventilation; pads are applied and the monitor shows a narrow-complex rhythm at 40 per minute with no palpable femoral pulse during a rhythm check. Intravenous access is in place and a second cannula is being inserted. The on-call surgeon is 20 minutes away and has been called. You are leading the resuscitation.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Deliver an unsynchronised 200 J shock and resume compressions"
+   },
+   {
+    "id": "B",
+    "text": "Give amiodarone 300 mg intravenously and resume compressions"
+   },
+   {
+    "id": "C",
+    "text": "Give adrenaline 1 mg intravenously, resume compressions and start rapid intravenous fluid and emergency O-negative blood for suspected haemorrhage"
+   },
+   {
+    "id": "D",
+    "text": "Give atropine 3 mg intravenously for the bradycardia and resume compressions"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "cardiac arrest recognition and basic life support",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "1dadecf8-ba75-fae0-bf04-888b0dd5e1a6",
+  "work_order_id": "r1-037",
+  "stem": "You are the junior doctor at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone and no catheter laboratory. A 29-year-old woman on the ward, admitted two days ago with a viral illness and dehydration, develops sharp central chest pain at 1900. The pain is worse lying flat and on inspiration and eases when she sits forward. She is afebrile now, heart rate 96, blood pressure 118/72 mmHg, oxygen saturation 98% on room air. On auscultation you hear a scratching sound at the left sternal edge. The ECG shows sinus rhythm with concave upward ST elevation of 1 to 2 mm in leads I, II, aVL, aVF and V2 to V6, PR segment depression in the same leads, and ST depression with PR elevation in aVR. High-sensitivity troponin is 45 ng/L (reference below 16).",
+  "lead_in": "What is the most likely diagnosis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pericarditis with myocardial involvement"
+   },
+   {
+    "id": "B",
+    "text": "Anterolateral ST-elevation myocardial infarction"
+   },
+   {
+    "id": "C",
+    "text": "Pulmonary embolism"
+   },
+   {
+    "id": "D",
+    "text": "Benign early repolarisation"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "chest pain on the ward",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "4.1",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "df03202a-6c3f-81e6-86f7-1912408b4204",
+  "work_order_id": "r1-038",
+  "stem": "You are the intern on the general ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 19-year-old woman, admitted three days ago with cellulitis of the left leg and largely bed-bound with the leg elevated, calls the nurse at 2200 with sudden right-sided chest pain that is worse on breathing in, and a feeling of panic. She takes the combined oral contraceptive pill. Observations: respiratory rate 28, heart rate 112, blood pressure 124/76 mmHg, oxygen saturation 93% on room air, temperature 37.2 \u00b0C. Chest examination is normal. The nurse suggests an anxiety attack and asks you to prescribe something to calm her. An arterial blood gas on room air shows pH 7.49, PaCO2 29 mmHg, PaO2 68 mmHg, HCO3 22 mmol/L.",
+  "lead_in": "What is the most accurate interpretation of the blood gas in this clinical context?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute respiratory alkalosis from hyperventilation due to anxiety, with a normal oxygen level for her breathing pattern"
+   },
+   {
+    "id": "B",
+    "text": "A compensated metabolic acidosis consistent with early sepsis from the cellulitis"
+   },
+   {
+    "id": "C",
+    "text": "A normal blood gas for a young woman who is tachypnoeic and in pain"
+   },
+   {
+    "id": "D",
+    "text": "Respiratory alkalosis with hypoxaemia and a widened alveolar-arterial gradient, which makes pulmonary embolism the leading diagnosis to exclude"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "chest pain on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "744ab1fc-5b73-ee9a-5994-a1a153655c69",
+  "work_order_id": "r1-039",
+  "stem": "You are the PGY2 on the medical ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 38-year-old woman is in week two of intravenous flucloxacillin via a peripherally inserted central catheter for vertebral osteomyelitis. At 1600 she has a rigor; temperature 39.6 \u00b0C, heart rate 116, blood pressure 108/66 mmHg, respiratory rate 22, oxygen saturation 97% on room air, alert. The PICC insertion site is mildly red but not purulent. She last received flucloxacillin two hours ago. The on-call physician is contactable by phone and the day registrar has left for Adelaide.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give paracetamol, repeat observations in one hour and phone the physician if she is not improving"
+   },
+   {
+    "id": "B",
+    "text": "Take paired blood cultures from the PICC and a peripheral vein, give empirical intravenous antibiotics for suspected line sepsis within the hour and phone the physician"
+   },
+   {
+    "id": "C",
+    "text": "Remove the PICC immediately and send the tip for culture before any other action"
+   },
+   {
+    "id": "D",
+    "text": "Continue flucloxacillin alone and wait for the results of a single peripheral blood culture before changing therapy"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "fever and rigors",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "d4fed542-3e97-3b1f-ee86-2ab46d147d54",
+  "work_order_id": "r1-040",
+  "stem": "You are the junior doctor at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the on-call doctor at home. At 2330 a 78-year-old Aboriginal man is brought in by his daughter with two days of dysuria, fever and rigors, and confusion this evening. He has type 2 diabetes and chronic kidney disease with a baseline eGFR of 42. Observations: temperature 39.1 \u00b0C, heart rate 118, blood pressure 92/54 mmHg, respiratory rate 26, oxygen saturation 94% on room air. Venous lactate is 3.6 mmol/L. He is drowsy but settles when his daughter speaks to him. You have inserted a cannula and sent blood and urine cultures.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give an intravenous crystalloid bolus and empirical intravenous antibiotics now, and phone the on-call doctor and the retrieval service"
+   },
+   {
+    "id": "B",
+    "text": "Give oral antibiotics and encourage fluids, keeping his daughter at the bedside, and review him at 0600"
+   },
+   {
+    "id": "C",
+    "text": "Withhold antibiotics until the urine culture result identifies the organism, because of his renal impairment"
+   },
+   {
+    "id": "D",
+    "text": "Arrange road ambulance transfer to the tertiary hospital now and start treatment on arrival there"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "fever and rigors",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "3d5e19b5-1d24-80ca-a62d-6e8f9adc7681",
+  "work_order_id": "r1-041",
+  "stem": "You are the PGY2 at a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. At 2100 an 80-year-old man presents after slipping in his bathroom at 2000 and striking the back of his head on the bath. He takes apixaban for atrial fibrillation. He did not lose consciousness but has vomited twice since the fall and has a mild headache. He is alert and orientated, GCS 15, with a 3 cm occipital haematoma and no focal neurological deficit. Observations are normal. The on-call doctor is at home and the radiographer cannot be called in for CT until 0800. His wife asks whether he can just go home and rest.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit for hourly neurological observations overnight and arrange a CT head when the radiographer arrives at 0800"
+   },
+   {
+    "id": "B",
+    "text": "Discharge home with his wife and written head injury advice, since his GCS is 15 and he has no focal deficit"
+   },
+   {
+    "id": "C",
+    "text": "Phone the on-call doctor and arrange urgent transfer tonight to a hospital with CT, with neurological observations in the interim"
+   },
+   {
+    "id": "D",
+    "text": "Give prothrombin complex concentrate now to reverse the apixaban, then observe overnight"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "head strike on an anticoagulant",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.7",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "ee4721d7-f8b8-7edc-ebb7-69f94dc696d9",
+  "work_order_id": "r1-042",
+  "stem": "You are the intern on the general ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 21-year-old Aboriginal man with rheumatic heart disease and a mechanical mitral valve, on warfarin with an INR of 3.4 yesterday, was admitted for intravenous antibiotics for cellulitis. At 1500 he slipped on the wet bathroom floor and hit his head; he was alert immediately afterwards with GCS 15 and a small frontal haematoma, and the nurse started neurological observations. At 1700 the nurse calls you: he has a worsening headache, has vomited once and is now drowsy but rousable, GCS 14 (E3 V5 M6). Pupils are equal and reactive. Heart rate 54, blood pressure 158/92 mmHg, respiratory rate 12. His mother is with him.",
+  "lead_in": "What is the most likely explanation for the change in his condition?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Concussion, with symptoms expected to settle over the next day with simple analgesia"
+   },
+   {
+    "id": "B",
+    "text": "A vasovagal response to pain, producing bradycardia and drowsiness"
+   },
+   {
+    "id": "C",
+    "text": "Nausea and sedation from over-anticoagulation with warfarin"
+   },
+   {
+    "id": "D",
+    "text": "An expanding intracranial haemorrhage with early signs of raised intracranial pressure"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "head strike on an anticoagulant",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.4",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "656385ef-50de-36d7-5a15-13355d473c86",
+  "work_order_id": "r1-043",
+  "stem": "You are the PGY2 at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and the emergency department overnight; the on-call doctor is at home, 20 minutes away. At 0215 two calls arrive within a minute. The ward nurse reports that a 36-year-old man, day one after open appendicectomy, has a blood pressure of 84/50 mmHg, heart rate 128, cool peripheries and is 'not himself'; his blood pressure at midnight was 118/72 mmHg. The emergency department nurse reports that a 68-year-old man has just walked in with 30 minutes of central chest pain, is sweaty, heart rate 92, blood pressure 140/85 mmHg, and she has not yet done an ECG. Both nurses want you now.",
+  "lead_in": "What is the most appropriate way to prioritise the next ten minutes?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Go to the emergency department first, because a myocardial infarction is time-critical, and ask the ward nurse to give a fluid bolus and recheck observations"
+   },
+   {
+    "id": "B",
+    "text": "Go to the ward patient now, and ask the emergency department nurse to record a 12-lead ECG, give aspirin if not contraindicated and phone the on-call doctor to come in"
+   },
+   {
+    "id": "C",
+    "text": "Stay at the nurses' station and manage both patients by phone until the on-call doctor arrives"
+   },
+   {
+    "id": "D",
+    "text": "Ask the on-call doctor to decide which patient you should see first before leaving the ward office"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "hypotension on the ward",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "2.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "911acc7b-4d5d-d136-2b03-13014d6be287",
+  "work_order_id": "r1-044",
+  "stem": "You are the junior doctor covering the wards overnight at a regional hospital with a small medical ward and no ICU. At 0100 a nurse asks you to review a 56-year-old woman, day one after a laparoscopic hysterectomy. Her blood pressure is 86/52 mmHg (preoperative 128/80), heart rate 108, respiratory rate 18, oxygen saturation 97% on room air, temperature 37.1 \u00b0C. She has had 150 mL of urine in the past four hours via her catheter, has vomited twice and has taken only sips of fluid since surgery. Her intravenous fluids were ceased at 1800. She is alert, her abdomen is soft with expected tenderness, and the drain contains 30 mL of serous fluid. She has a working cannula. The on-call doctor has been informed and is on the way.",
+  "lead_in": "What is the most appropriate immediate treatment?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Encourage oral fluids and recheck her blood pressure in one hour"
+   },
+   {
+    "id": "B",
+    "text": "Metaraminol 0.5 mg intravenously"
+   },
+   {
+    "id": "C",
+    "text": "A 500 mL bolus of balanced crystalloid intravenously, then reassess"
+   },
+   {
+    "id": "D",
+    "text": "Withhold her morning antihypertensive and review on the ward round"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "hypotension on the ward",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "229be150-26f9-0507-a097-021ca517d182",
+  "work_order_id": "r1-045",
+  "stem": "You are the junior doctor on the surgical ward of a rural hospital on the Yorke Peninsula, with a 4-bed emergency department staffed overnight by you and the GP on call at home. At 0600 the nurse records an oxygen saturation of 88% on room air in a 31-year-old woman who is day one after laparoscopic appendicectomy; her saturation was 97% at 0200. She is drowsy after morphine overnight, respiratory rate 10, heart rate 92, blood pressure 118/74 mmHg, temperature 37.4 \u00b0C. The probe shows a good, regular waveform. The nurse comments that the reading is probably due to cold hands and that she will recheck when the patient wakes.",
+  "lead_in": "What is the most accurate interpretation of this oxygen saturation reading?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It is a true reading that meets rapid response criteria and requires oxygen, assessment and escalation now"
+   },
+   {
+    "id": "B",
+    "text": "It is probably an artefact of peripheral vasoconstriction and should be rechecked in an hour"
+   },
+   {
+    "id": "C",
+    "text": "It is an expected finding after abdominal surgery and needs no action beyond routine observations"
+   },
+   {
+    "id": "D",
+    "text": "It indicates she needs a CT pulmonary angiogram before any treatment is started"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "hypoxia on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "2bea3fc4-50b1-c7ab-a522-7b6f5b1fb582",
+  "work_order_id": "r1-046",
+  "stem": "You are the intern on the medical ward of a regional hospital with a small medical ward and no ICU, on-site CT in business hours only and retrieval to Adelaide by road or air. A 40-year-old woman was admitted overnight with an asthma exacerbation and has received continuous salbutamol and ipratropium nebulisers, oral prednisolone and magnesium. At 0900 she is sitting forward, speaking single words, respiratory rate 32, heart rate 128, oxygen saturation 91% on 8 L/min via Hudson mask, with a quiet chest. Her arterial blood gas on 8 L/min shows pH 7.37, PaCO2 43 mmHg, PaO2 64 mmHg, HCO3 24 mmol/L. The physician is on the ward round elsewhere in the hospital.",
+  "lead_in": "What is the most accurate interpretation of this blood gas?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal acid-base result that supports continuing the current treatment and repeating the gas in four hours"
+   },
+   {
+    "id": "B",
+    "text": "A compensated respiratory alkalosis indicating that the bronchospasm is improving"
+   },
+   {
+    "id": "C",
+    "text": "Type 1 respiratory failure only, which is managed by increasing the oxygen flow rate"
+   },
+   {
+    "id": "D",
+    "text": "A normal carbon dioxide level in a patient working this hard indicates fatigue and impending respiratory failure, and requires immediate escalation"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "hypoxia on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "5a6f5d99-8cca-96b3-276d-cee06da8ec24",
+  "work_order_id": "r1-047",
+  "stem": "You are the junior doctor covering the wards overnight at a regional hospital with a small medical ward and no ICU. At 2300 the nurse reports that a 39-year-old man, day one after an emergency laparotomy for a perforated duodenal ulcer, has passed 15 mL, 10 mL and 15 mL of urine in the past three hours via his indwelling catheter. He received 3 L of crystalloid in theatre and is on maintenance fluids at 100 mL/h. Observations: heart rate 104, blood pressure 102/64 mmHg, respiratory rate 20, oxygen saturation 96% on 2 L/min, temperature 37.8 \u00b0C. He is alert, his mucous membranes are dry and his abdomen is appropriately tender. The nurse asks whether you want to prescribe furosemide, as the day team did for another patient.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe furosemide 40 mg intravenously and reassess urine output in an hour"
+   },
+   {
+    "id": "B",
+    "text": "Examine him, confirm the catheter is draining freely, and give a 500 mL crystalloid bolus with reassessment of urine output and observations"
+   },
+   {
+    "id": "C",
+    "text": "Arrange an urgent renal tract ultrasound to exclude obstruction before giving any fluid"
+   },
+   {
+    "id": "D",
+    "text": "Reduce the maintenance fluid rate to 50 mL/h to avoid fluid overload and review on the morning round"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "oliguria",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "af63336b-11b6-4a61-50db-1104af3c7029",
+  "work_order_id": "r1-048",
+  "stem": "You are the intern on the medical ward of a metropolitan general hospital with a registrar on site overnight. A 54-year-old Aboriginal woman with type 2 diabetes and chronic kidney disease (baseline creatinine 150 micromol/L, eGFR 34) was admitted three days ago with community-acquired pneumonia. Her regular medicines, including ramipril and metformin, were continued. The nurse calls you at 1900: her urine output has been 20 mL/h for four hours. Bloods taken at 1700 show creatinine 268 micromol/L, potassium 6.1 mmol/L, bicarbonate 18 mmol/L. Observations: blood pressure 152/88 mmHg, heart rate 96, respiratory rate 24, oxygen saturation 93% on 2 L/min (97% on room air yesterday). Her jugular venous pressure is raised, she has bibasal crackles and mild ankle oedema. She is alert.",
+  "lead_in": "What is the most appropriate immediate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obtain a 12-lead ECG, withhold ramipril and metformin, and phone the registrar now about hyperkalaemia with oliguric acute kidney injury"
+   },
+   {
+    "id": "B",
+    "text": "Give a 500 mL intravenous crystalloid bolus for the oliguria and recheck urine output in an hour"
+   },
+   {
+    "id": "C",
+    "text": "Give furosemide 40 mg intravenously and recheck the potassium in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Insert an indwelling catheter and record strict hourly urine output before any other action"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "oliguria",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "f47c1174-b9e4-bcc0-0bff-e10ffc315153",
+  "work_order_id": "r1-049",
+  "stem": "You are the intern covering the wards overnight at a metropolitan general hospital with a medical registrar on site. At 0030 a nurse phones about a 33-year-old man admitted that afternoon with cellulitis of the right leg, who is receiving intravenous flucloxacillin. She has just recorded his observations on the SA Health Rapid Detection and Response chart: temperature 38.2 \u00b0C, heart rate 142, blood pressure 118/74 mmHg, respiratory rate 22, oxygen saturation 96% on room air, alert and orientated. He says he feels 'a bit shaky' but otherwise well. The nurse asks what response the chart requires.",
+  "lead_in": "Which observation triggers an emergency (rapid response) call under the chart's criteria?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Temperature 38.2 \u00b0C"
+   },
+   {
+    "id": "B",
+    "text": "Respiratory rate 22"
+   },
+   {
+    "id": "C",
+    "text": "Heart rate 142"
+   },
+   {
+    "id": "D",
+    "text": "Oxygen saturation 96% on room air"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "rapid response criteria and escalation",
+  "context": "after_hours",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "5af51434-decd-2cd9-ef34-609281fba43e",
+  "work_order_id": "r1-050",
+  "stem": "You are the intern on the surgical ward of a large metropolitan teaching hospital with on-site intensive care. At 1530 a nurse pages you: a 30-year-old man, day two after an open reduction and internal fixation of a tibial fracture, has observations in the yellow zone of the Rapid Detection and Response chart: heart rate 116, respiratory rate 24, temperature 38.3 \u00b0C, blood pressure 122/78 mmHg, oxygen saturation 95% on room air. He is alert and complaining of increasing calf pain. The chart requires a clinical review within 30 minutes. You are on the ward with two discharge summaries to write before 1700, and the surgical registrar is in theatre until about 1800.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the nurse to repeat the observations in one hour and to call you back if they are still in the yellow zone"
+   },
+   {
+    "id": "B",
+    "text": "Chart paracetamol by phone for the fever and review him on the evening ward round with the registrar"
+   },
+   {
+    "id": "C",
+    "text": "Ask the nurse to phone the registrar in theatre, since the patient is surgical and the registrar should decide"
+   },
+   {
+    "id": "D",
+    "text": "Attend within 30 minutes, perform a structured assessment of the leg and for sepsis and venous thromboembolism, document a plan, and escalate to the registrar or a MET call if criteria persist or worsen"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "rapid response criteria and escalation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "2.8"
+  ]
+ }
+]

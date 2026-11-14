@@ -287,6 +287,34 @@
    "critic_note": "No cue."
   }
  ],
+ "04": [
+  {
+   "work_order_id": "r1-097",
+   "key_len": 127,
+   "max_other": 108,
+   "critic_note": "C is the longest option, a mild cue."
+  }
+ ],
+ "05": [
+  {
+   "work_order_id": "r1-110",
+   "key_len": 121,
+   "max_other": 133,
+   "critic_note": "Lengths are now balanced, but D is the only option that names 'necrotising infection', which hands the candidate the recognition step the stem is designed to test."
+  },
+  {
+   "work_order_id": "r1-111",
+   "key_len": 120,
+   "max_other": 107,
+   "critic_note": "Lengths are now balanced, but B is the only option that names measles ('measles-immune staff'), confirming the diagnosis the stem expects the candidate to make."
+  },
+  {
+   "work_order_id": "r1-121",
+   "key_len": 147,
+   "max_other": 113,
+   "critic_note": "B remains the longest option and the only one with multiple steps, but the gap is now modest and A and D are also phrased as full plans."
+  }
+ ],
  "06": [
   {
    "work_order_id": "r1-126",
@@ -391,6 +419,20 @@
    "key_len": 127,
    "max_other": 111,
    "critic_note": "D is noticeably longer and is the only 'reassuring' multi-component option, which test-wise candidates will select."
+  }
+ ],
+ "08": [
+  {
+   "work_order_id": "r1-182",
+   "key_len": 153,
+   "max_other": 153,
+   "critic_note": "D is the longest option and the only one with a measured 'listen ... document' structure; the three distractors each contain a confidently stated falsehood, which test-wise candidates will recognise."
+  },
+  {
+   "work_order_id": "r1-195",
+   "key_len": 86,
+   "max_other": 120,
+   "critic_note": "A is the only option listing a complete set of documentation elements ('reaction, type, date, source, signed and dated'), which reads as the textbook answer even to a candidate who does not know the content."
   }
  ],
  "09": [
@@ -605,26 +647,6 @@
    "key_len": 84,
    "max_other": 73,
    "critic_note": "Balanced lengths; no cue."
-  }
- ],
- "05": [
-  {
-   "work_order_id": "r1-110",
-   "key_len": 121,
-   "max_other": 133,
-   "critic_note": "Lengths are now balanced, but D is the only option that names 'necrotising infection', which hands the candidate the recognition step the stem is designed to test."
-  },
-  {
-   "work_order_id": "r1-111",
-   "key_len": 120,
-   "max_other": 107,
-   "critic_note": "Lengths are now balanced, but B is the only option that names measles ('measles-immune staff'), confirming the diagnosis the stem expects the candidate to make."
-  },
-  {
-   "work_order_id": "r1-121",
-   "key_len": 147,
-   "max_other": 113,
-   "critic_note": "B remains the longest option and the only one with multiple steps, but the gap is now modest and A and D are also phrased as full plans."
   }
  ]
 }

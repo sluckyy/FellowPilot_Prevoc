@@ -1,0 +1,2114 @@
+[
+ {
+  "work_order_id": "r1-176",
+  "item_id": "4e580023-fe15-9bf4-f4e4-f8444f8fcd76",
+  "version": 1,
+  "stem": "You are the only doctor overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula; the GP is on call from home. A 15-year-old Aboriginal girl with known asthma is brought in by her mother at 02:00 with 6 hours of worsening wheeze after a viral illness. She has used her salbutamol puffer repeatedly with little relief. She can speak only in short phrases, has tracheal tug and widespread wheeze. Respiratory rate 32, heart rate 126, SpO2 90% on air, temperature 37.4 °C, alert. Her mother is frightened and asks whether she can stay with her daughter. The nurse has brought the resuscitation trolley and asks what you want first.",
+  "lead_in": "Which action should you take first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obtain a chest X-ray to exclude pneumothorax before giving further bronchodilator"
+   },
+   {
+    "id": "B",
+    "text": "Give salbutamol by spacer or nebuliser with oxygen to keep SpO2 above 92%, and ask the nurse to phone the GP on call"
+   },
+   {
+    "id": "C",
+    "text": "Take an arterial blood gas to assess for carbon dioxide retention"
+   },
+   {
+    "id": "D",
+    "text": "Give oral prednisolone and reassess her work of breathing in 30 minutes"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Imaging is not routine in acute asthma and should never delay bronchodilator therapy; a chest X-ray is reserved for suspected complications such as pneumothorax or when the child fails to respond.",
+   "B": "This girl has severe acute asthma (short phrases, accessory muscle use, SpO2 90%). Immediate inhaled salbutamol with supplemental oxygen is the first treatment, and the single doctor should call for help early. Her mother staying with her is appropriate and culturally safe care.",
+   "C": "A blood gas does not change the first actions in severe asthma, delays treatment and is distressing; clinical assessment of severity guides initial management in children.",
+   "D": "Systemic corticosteroid is given within the first hour, but it takes hours to act and is not the first intervention in a child who is hypoxic with severe airflow obstruction."
+  },
+  "learning_point": "In severe acute asthma the first priority is inhaled salbutamol with oxygen titrated to SpO2 above 92%, with early escalation and corticosteroid within the hour.",
+  "setting_note": "In a rural emergency department with one doctor overnight, call the GP on call and consider early contact with the paediatric retrieval service if she does not respond to the first hour of treatment, because there is no on-site high-dependency care.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Deteriorating patient",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "paediatric asthma",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "13-17",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Asthma Council Australia, Australian Asthma Handbook",
+    "locator": "Managing acute asthma in clinical settings: children, severity assessment and initial treatment",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Respiratory",
+    "locator": "Acute asthma in children",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Severity in children is judged clinically: short phrases, accessory muscle use, SpO2 below 92% and tachycardia indicate severe asthma. First-line is salbutamol 12 puffs via spacer for children 6 years and over (or nebulised if oxygen is needed), repeated every 20 minutes for the first hour, with ipratropium added for severe episodes and oral prednisolone within the first hour. Blood gases and chest X-rays are not routine. Common misconception: treating hypoxia as a reason to investigate before treating. Out of scope: intravenous magnesium and aminophylline decisions, which the junior doctor would make with the GP or retrieval consultant.",
+  "plan": "Tests the priority of inhaled bronchodilator with oxygen over investigations in severe paediatric asthma, evidencing outcome 4.1 and 1.9. A 15-year-old Aboriginal girl in a single-doctor rural ED forces the junior doctor to act and call for help at the same time, with family presence shown as good care. Distractors are investigations and the steroid that interns often reach for first. Supported by the Australian Asthma Handbook acute asthma algorithm."
+ },
+ {
+  "work_order_id": "r1-177",
+  "item_id": "7b2cc013-a81b-dc99-013a-7a74967ab0d6",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a large metropolitan teaching hospital. An 8-year-old boy presents with a 2-day history of a red, warm, tender area of cellulitis on his shin after a graze. He is well, afebrile, tolerating oral intake and the registrar has reviewed him and asked you to prescribe oral cefalexin and regular paracetamol on the paediatric medication chart for discharge. The weight box on the chart is blank. His mother says he weighed 'about 25 kilos' at a check-up last year. The nurse is busy with another patient and suggests you just use the mother's figure so the family can leave.",
+  "lead_in": "What is the most appropriate way to determine the doses?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe using the mother's reported weight of 25 kg and note 'parent-reported' on the chart"
+   },
+   {
+    "id": "B",
+    "text": "Estimate weight from the age-based formula and prescribe from that estimate"
+   },
+   {
+    "id": "C",
+    "text": "Weigh the child on the department scales, record the measured weight on the chart and calculate each dose in mg/kg, checking against the maximum dose"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe the standard adult dose of each medicine, since he is well and the course is short"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A parent-reported weight from a year ago is unreliable in a growing child and a measured weight is readily obtainable in a stable patient; dosing errors from wrong weights are a leading cause of paediatric medication incidents.",
+   "B": "Age-based formulae are for emergencies when a child cannot be weighed; they can be out by 20 to 30 per cent and are not appropriate when scales are available and the child is well.",
+   "C": "Paediatric doses are calculated from an actual measured weight, which must be documented on the medication chart with the mg/kg dose and the calculated dose, checked against the adult maximum. This is the standard required by the national paediatric medication chart.",
+   "D": "Adult doses are not appropriate for an 8-year-old; most paediatric doses are weight based and an adult dose of cefalexin and paracetamol could exceed the recommended mg/kg dose for a smaller child."
+  },
+  "learning_point": "Prescribe for children from a measured, documented weight using mg/kg dosing checked against the maximum dose, rather than from estimates or adult doses.",
+  "setting_note": "The principle is the same in a rural hospital; where paediatric references are less familiar, confirm doses in the Australian Medicines Handbook Children's Dosing Companion or with the pharmacist before prescribing.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "1.8",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "paediatric drug dosing",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "5-12",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Standard Medication Chart (Paediatric) user guide",
+    "locator": "Recording weight and dose calculation",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook Children's Dosing Companion",
+    "locator": "General principles of dosing in children",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a measured weight is required before prescribing weight-based medicines in children; the chart must show weight, mg/kg dose, calculated dose and frequency; the calculated dose should not exceed the adult maximum. Estimation formulae are reserved for resuscitation when weighing is impossible. Common misconceptions: that a reported weight is good enough for short courses, or that older children can have adult doses. Out of scope: antibiotic choice for cellulitis, which the registrar has decided.",
+  "plan": "Tests the safe prescribing step of obtaining and documenting a measured weight before weight-based paediatric dosing, evidencing outcomes 1.8 and 4.1. The metro ED with a stable child and time pressure from the nurse makes the shortcut tempting. Distractors are the parent estimate, the age formula and flat adult dosing. Supported by the ACSQHC paediatric National Standard Medication Chart guidance."
+ },
+ {
+  "work_order_id": "r1-178",
+  "item_id": "42777ee2-15a1-0f74-2946-b9a3dc6e0323",
+  "version": 1,
+  "stem": "A 3-year-old girl weighing 14 kg is brought to the emergency department of a rural hospital on the Yorke Peninsula at 23:00 with 2 days of vomiting and watery diarrhoea. You are the only doctor on site; the GP is on call. She is lethargic but rousable, has dry mucous membranes, sunken eyes and capillary refill of 2 seconds, with heart rate 130 and normal blood pressure. You estimate 5 per cent dehydration. She vomited an oral rehydration trial and then two attempts at nasogastric rehydration. Blood glucose is 4.8 mmol/L and point-of-care sodium is 137 mmol/L. The GP on call agrees to admit her and asks you to prescribe intravenous rehydration while she drives in.",
+  "lead_in": "Which intravenous fluid prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "0.45% sodium chloride with 5% glucose at 50 mL/h for maintenance, reassessing in the morning"
+   },
+   {
+    "id": "B",
+    "text": "0.9% sodium chloride 20 mL/kg bolus, then 0.18% sodium chloride with 4% glucose at 80 mL/h"
+   },
+   {
+    "id": "C",
+    "text": "0.9% sodium chloride without glucose at 100 mL/h for 24 hours"
+   },
+   {
+    "id": "D",
+    "text": "0.9% sodium chloride with 5% glucose at about 80 mL/h (maintenance plus deficit over 24 hours), with electrolytes and glucose rechecked within 4 to 6 hours"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Hypotonic fluids increase the risk of hospital-acquired hyponatraemia in children and are no longer recommended for routine maintenance; this prescription also ignores her 5 per cent deficit (about 700 mL).",
+   "B": "She is not in shock, so a 20 mL/kg bolus is not indicated, and 0.18% sodium chloride with 4% glucose is hypotonic and should not be used for rehydration in children because of the risk of hyponatraemia.",
+   "C": "Children on intravenous fluids need glucose to prevent hypoglycaemia and ketosis; a fixed double-maintenance rate without glucose and without a deficit calculation is not a safe prescription.",
+   "D": "Isotonic fluid containing glucose is the recommended rehydration and maintenance fluid for children. Maintenance for 14 kg is about 1200 mL/day (50 mL/h) and a 5 per cent deficit of 700 mL replaced over 24 hours adds about 30 mL/h, with early electrolyte rechecks and potassium added once results are known and she is passing urine."
+  },
+  "learning_point": "Children needing intravenous rehydration should receive isotonic fluid with glucose (0.9% sodium chloride with 5% glucose) at maintenance plus deficit, with electrolytes rechecked within 4 to 6 hours.",
+  "setting_note": "In a rural hospital without a paediatric team, discuss the plan with the GP on call, use point-of-care glucose and electrolytes, and set clear triggers for retrieval consultation (ongoing lethargy, abnormal sodium, rising heart rate) because there is no on-site intensive care.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "paediatric fluid prescribing",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Rates are rounded; local paediatric guidelines may replace the deficit over a different period or prefer a 10 mL/kg bolus if perfusion is borderline."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Intravenous fluids",
+    "locator": "Choice of fluid and calculation of maintenance and deficit",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Gastrointestinal",
+    "locator": "Acute gastroenteritis in children, rehydration",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oral or nasogastric rehydration is preferred and intravenous fluid is used when these fail or the child is shocked; use isotonic fluid with glucose; maintenance by the 4-2-1 or 100/50/20 rule; add deficit (percentage dehydration x weight x 10 mL); recheck electrolytes within 4 to 6 hours; add potassium once urine output and potassium are known. Misconceptions: hypotonic fluids for children, boluses in non-shocked children, omitting glucose. Out of scope: antiemetic choice and criteria for ondansetron, which are given earlier in the pathway.",
+  "plan": "Tests isotonic fluid selection and maintenance plus deficit calculation for a dehydrated child, evidencing outcomes 1.8 and 4.1. The rural ED overnight with a GP driving in makes the junior doctor the prescriber. Distractors are hypotonic fluids, an unnecessary bolus and a glucose-free fixed rate. Supported by the RCH intravenous fluids guideline and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-179",
+  "item_id": "ea0c21e0-f709-3a00-8d9d-2e7bd083ea49",
+  "version": 1,
+  "stem": "You are the sole doctor overnight at a rural hospital on the Yorke Peninsula, with the GP on call at home. A 79-year-old woman with severe COPD on home oxygen presents at 01:00 with her third exacerbation in 3 months. On controlled oxygen, nebulised bronchodilators and prednisolone she has improved: respiratory rate 24, SpO2 90% on 2 L/min, alert and talking in sentences. Her daughter is with her. There is no advance care directive or resuscitation plan in her notes. While you insert a cannula she says, 'Last time in Adelaide they put that mask on me and I never want that again. I'm tired.' The ward is quiet and the nurse is ready to admit her.",
+  "lead_in": "What is the most appropriate thing to do now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explore and document what she means and what matters to her now, tell the GP on call, and flag a resuscitation plan discussion with her and her daughter for the day"
+   },
+   {
+    "id": "B",
+    "text": "Defer any discussion of her wishes until the day team, because goals of care conversations are led by the senior treating doctor"
+   },
+   {
+    "id": "C",
+    "text": "Complete a not-for-resuscitation order tonight based on her statement so the nurses know what to do if she deteriorates"
+   },
+   {
+    "id": "D",
+    "text": "Contact the retrieval service to arrange transfer to Adelaide so non-invasive ventilation is available if she deteriorates"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "She has opened the door to a goals of care conversation while stable and able to participate. A junior doctor should listen, clarify what she is refusing and why, document her words, inform the senior doctor responsible, and ensure a formal resuscitation plan conversation happens promptly rather than during a crisis.",
+   "B": "Waiting until morning risks a deterioration overnight with no documented wishes; while the senior doctor leads the formal plan, hearing and documenting the patient's expressed wishes is within an intern's or resident's role.",
+   "C": "A single tired comment at 1 am is not sufficient to complete a resuscitation plan; it requires a structured discussion, clarification of what she is declining (non-invasive ventilation is not the same as all treatment) and involvement of the responsible medical officer.",
+   "D": "She is improving and has just said she does not want non-invasive ventilation; arranging transfer for a treatment she may refuse, without exploring her wishes, does not respect her autonomy and is premature."
+  },
+  "learning_point": "When a stable patient volunteers her wishes about future treatment, explore and document them now and escalate so that a resuscitation plan is made before, not during, a deterioration.",
+  "setting_note": "In a rural hospital the GP on call is the responsible medical officer for the resuscitation plan; recording her wishes overnight gives the GP and the family a starting point and avoids a default retrieval that she may not want.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Rural and remote",
+   "Documentation"
+  ],
+  "domains": [
+   "1.2",
+   "3.2",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "goals of care conversation",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Resuscitation Plan 7 Step Pathway",
+    "locator": "Steps 1-3: recognising the need, assessing capacity and discussing goals of care",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for safe and high-quality end-of-life care",
+    "locator": "Element 2: Teamwork and coordination of care; recognising triggers for end-of-life discussions",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: repeated admissions for advanced COPD are a trigger for goals of care discussion; the 7 Step Pathway separates the patient's expressed wishes from the completed resuscitation plan signed by the responsible medical officer; a refusal of one treatment does not imply refusal of all. Misconceptions: that interns should not raise or document wishes, or that a comment equals a completed order. Out of scope: specifics of advance care directive law under the Advance Care Directives Act 2013 (SA).",
+  "plan": "Tests prioritising a goals of care conversation when the patient raises it while stable, evidencing outcomes 1.2, 3.2 and 1.7. A single-doctor rural overnight setting with a GP on call makes the question of what to do tonight real. Distractors are deferral, premature completion of an order and reflexive retrieval. Supported by the SA Health Resuscitation Plan 7 Step Pathway."
+ },
+ {
+  "work_order_id": "r1-180",
+  "item_id": "288844b6-3605-c5cd-b491-7fe0e88966e3",
+  "version": 1,
+  "stem": "You are the intern on the surgical ward of a regional hospital without an ICU. An 88-year-old woman with an inoperable obstructing sigmoid cancer is being managed with palliative intent after discussion with the visiting surgeon; her goals are comfort and to stay in this hospital near family. She weighs 52 kg and her eGFR is 48 mL/min/1.73 m2. She is prescribed modified-release oral morphine 10 mg twice daily with immediate-release morphine 2.5 mg every 2 hours as needed. Over the past 24 hours she has needed five breakthrough doses for constant abdominal pain she rates 6 out of 10, and her pain disturbs sleep. She is alert, not drowsy, has no myoclonus or confusion, and bowels have not opened for 3 days. The registrar asks you to adjust her analgesia.",
+  "lead_in": "What is the most appropriate change to her opioid prescription?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Change to a transdermal fentanyl 12 microgram/hour patch and stop the oral morphine"
+   },
+   {
+    "id": "B",
+    "text": "Increase modified-release morphine to 15 mg twice daily and the breakthrough dose to 5 mg as needed"
+   },
+   {
+    "id": "C",
+    "text": "Keep modified-release morphine at 10 mg twice daily and increase the breakthrough dose to 10 mg hourly as needed"
+   },
+   {
+    "id": "D",
+    "text": "Add regular immediate-release oxycodone 5 mg every 4 hours alongside the current morphine"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Transdermal fentanyl is for stable opioid requirements, takes 12 to 24 hours to reach effect and cannot be titrated quickly; her pain is uncontrolled and still being titrated, so a patch is not appropriate yet.",
+   "B": "Her total 24-hour morphine was 20 mg regular plus 12.5 mg breakthrough, about 32 mg. Adding the breakthrough use to the regular dose gives about 30 mg/day (15 mg twice daily), and the breakthrough dose is reset to one-sixth to one-twelfth of the daily dose, about 5 mg. She has no toxicity and her renal function permits cautious morphine use.",
+   "C": "Leaving the background dose unchanged when pain is constant means she remains dependent on frequent breakthrough doses; increasing the breakthrough dose to 10 mg (a third of the daily dose) hourly risks oversedation in an 88-year-old.",
+   "D": "Adding a second regular opioid to a regular morphine regimen is confusing and unsafe; titration is done with a single background opioid plus a proportionate breakthrough dose of the same drug."
+  },
+  "learning_point": "Titrate background opioid by adding the previous 24 hours of breakthrough use to the regular dose and reset the breakthrough dose to about one-sixth to one-twelfth of the new daily dose, using one opioid.",
+  "setting_note": "In a regional hospital the palliative care service is usually by telephone; the intern should also prescribe a regular laxative and antiemetic review, and discuss with the visiting surgeon whether bowel obstruction symptoms need a different approach.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Surgery and perioperative care",
+   "Older people, delirium and falls"
+  ],
+  "domains": [
+   "1.8",
+   "1.7",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "opioid titration in palliative care",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Some services would consider switching to hydromorphone or oxycodone given her age and eGFR; at eGFR 48 cautious morphine titration remains acceptable."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Pain: titrating opioids and calculating breakthrough doses",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Opioid analgesics: morphine, dose titration in palliative care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: total the previous 24 hours of regular and breakthrough opioid, increase the regular dose accordingly (usually by 25 to 50 per cent), reset breakthrough to one-sixth to one-twelfth of the daily dose, prescribe a laxative with every regular opioid, and watch for toxicity (drowsiness, myoclonus, confusion) especially with renal impairment (morphine metabolites accumulate when eGFR is below 30). Misconceptions: fentanyl patches for unstable pain; mixing two regular opioids. Out of scope: management of malignant bowel obstruction with octreotide or corticosteroids.",
+  "plan": "Tests the arithmetic and safety principles of opioid titration in a palliative patient, evidencing outcomes 1.8, 1.7 and 3.2. The regional surgical ward with a visiting surgeon makes the intern the one adjusting the chart. Distractors are a patch, breakthrough-only escalation and a second opioid. Supported by Therapeutic Guidelines Palliative Care."
+ },
+ {
+  "work_order_id": "r1-181",
+  "item_id": "e58056c1-b35f-eee1-1cd5-2fb2ca41a523",
+  "version": 1,
+  "stem": "You are the PGY2 resident on the surgical ward of a rural hospital on the Yorke Peninsula. A 71-year-old man with metastatic pancreatic cancer was admitted 5 days ago with a biliary stent occlusion; after discussion with the visiting surgeon and his family, the plan is palliative intent with ward-based care. He is on modified-release oral morphine 20 mg twice daily, unchanged for 2 weeks, and intravenous antibiotics for cholangitis. Over the past 48 hours he has become bed-bound, rouses only briefly to voice, can no longer swallow tablets and takes only sips of water. Today his breathing is irregular with pauses, he has audible upper airway secretions, his hands and knees are mottled and cool, and he has passed 100 mL of urine in 12 hours. Temperature 37.6 °C, heart rate 104, blood pressure 92/54. The nurse asks what is happening.",
+  "lead_in": "What do these findings most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Opioid toxicity from accumulation of morphine metabolites"
+   },
+   {
+    "id": "B",
+    "text": "Worsening sepsis from the biliary source requiring further investigation"
+   },
+   {
+    "id": "C",
+    "text": "He is entering the last days of life and care should move to a terminal care plan"
+   },
+   {
+    "id": "D",
+    "text": "Dehydration from poor oral intake that is reversible with intravenous fluids"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Opioid toxicity causes drowsiness, myoclonus and pinpoint pupils, typically after a dose increase or acute renal decline; a stable morphine dose with the full picture of mottling, irregular breathing and loss of swallowing points to dying rather than drug effect.",
+   "B": "He is already on antibiotics for a known source with palliative intent; the progressive decline over days with peripheral shutdown and reduced consciousness reflects the dying process, and further investigation would not change the goals of care.",
+   "C": "Bed-bound state, reduced consciousness, inability to swallow, minimal oral intake, Cheyne-Stokes breathing, respiratory secretions, peripheral mottling and oliguria over days in a patient with advanced cancer are the recognised features of the last days of life. Recognising this allows medicines to be rationalised, subcutaneous anticipatory medicines to be charted and the family informed.",
+   "D": "Reduced intake is a consequence of dying rather than its cause; intravenous fluids do not improve comfort or prolong life at this stage and can worsen secretions and oedema."
+  },
+  "learning_point": "Progressive decline with reduced consciousness, loss of swallowing, irregular breathing, secretions, mottling and oliguria in advanced cancer indicates the last days of life, and care should shift to a terminal care plan.",
+  "setting_note": "In a rural surgical ward the resident should confirm the assessment with the GP or visiting surgeon by phone, prescribe subcutaneous anticipatory medicines, stop non-comfort medicines and observations, and involve the family; palliative care advice is available by telephone.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Communication, handover and consent",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "recognising dying",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Care in the last days of life: recognising dying",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Consensus Statement: Essential elements for safe and high-quality end-of-life care",
+    "locator": "Element 1: Patient-centred communication and shared decision-making; recognising the dying patient",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: features of the last days of life include profound weakness, bed-bound state, drowsiness, reduced intake and inability to swallow, Cheyne-Stokes or irregular breathing, secretions, mottled cool peripheries and reduced urine output. Actions once dying is recognised: communicate with family, rationalise medicines, convert essential medicines to the subcutaneous route, chart anticipatory medicines for pain, dyspnoea, agitation and secretions, stop routine observations and blood tests. Misconceptions: attributing drowsiness to opioids when the dose is stable, and giving fluids to treat the natural reduction in intake. Out of scope: syringe driver drug doses.",
+  "plan": "Tests recognition of the dying phase from a cluster of clinical findings, evidencing outcomes 1.4, 3.2 and 1.7. A rural surgical ward with the visiting surgeon off site makes the PGY2 the one who must name what is happening and change the plan. Distractors are opioid toxicity, sepsis and dehydration, each tempting because one feature overlaps. Supported by Therapeutic Guidelines Palliative Care."
+ },
+ {
+  "work_order_id": "r1-182",
+  "item_id": "12094618-118d-101a-155b-332d5624ac36",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional South Australian hospital without an ICU, 2 hours from Adelaide. A 77-year-old woman with metastatic ovarian cancer and recurrent malignant ascites is admitted for drainage and symptom control. She lives alone and is fully oriented. The physician is visiting next week and the GP covers the ward. While you review her chart she says, 'I've been reading about voluntary assisted dying. Can you tell me how I would go about it?' You have no conscientious objection, have had no training in voluntary assisted dying, and the nurse is in the room.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that voluntary assisted dying cannot be discussed by hospital doctors and suggest she speaks with her family about it instead"
+   },
+   {
+    "id": "B",
+    "text": "Tell her that you can take her first request today and begin the eligibility assessment as her treating doctor"
+   },
+   {
+    "id": "C",
+    "text": "Tell her she would not be eligible at present because she is being admitted for treatment rather than dying"
+   },
+   {
+    "id": "D",
+    "text": "Listen and acknowledge her request, explain that you cannot assess her but will tell the treating doctor, give her the SA Voluntary Assisted Dying Care Navigator contact details and document the conversation"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "In South Australia a registered health practitioner must not initiate a discussion of voluntary assisted dying, but once a patient raises it the practitioner may discuss it and must not obstruct access to information; deflecting her request is not acceptable.",
+   "B": "A coordinating or consulting practitioner must be a medical practitioner who meets the Act's experience requirements and has completed the approved training; an intern is not eligible to receive a first request as an assessing practitioner or to conduct assessments.",
+   "C": "Eligibility is determined by trained assessing practitioners against the Act's criteria (including a prognosis of 6 months, or 12 months for neurodegenerative conditions); an intern should not make or communicate an eligibility judgement.",
+   "D": "The patient has raised voluntary assisted dying herself, so it is lawful to respond. An intern's role is to listen without judgement, be honest about the limits of their role, ensure the treating doctor is informed, connect her with the state Care Navigator Service, and document what was said. This respects her autonomy while staying within scope."
+  },
+  "learning_point": "When a patient raises voluntary assisted dying, a junior doctor should respond openly, explain they cannot act as an assessing practitioner, inform the treating doctor, provide the SA Voluntary Assisted Dying Care Navigator Service details and document the request.",
+  "setting_note": "In a regional hospital, trained assessing practitioners may not be on site; the Care Navigator Service helps connect patients to practitioners, including by telehealth where the law permits, and the GP covering the ward should be told the same day.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Communication, handover and consent",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.2",
+   "2.1",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "request for information about voluntary assisted dying",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Practitioner eligibility and the limits on telehealth are set by the Voluntary Assisted Dying Act 2021 (SA) and Commonwealth carriage service law; local SA Health policy wording should be checked at review."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health, Voluntary Assisted Dying: information for health practitioners and the Care Navigator Service",
+    "locator": "Responding to a request; practitioner eligibility; initiating discussion",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Voluntary Assisted Dying Act 2021 (SA)",
+    "locator": "Part 2 eligibility criteria; Part 3 request and assessment process; prohibition on health practitioners initiating discussion",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: in SA a health practitioner must not raise voluntary assisted dying first, but may respond when the patient raises it; assessing practitioners need specific experience and approved training, so interns and residents cannot take a first request as a coordinating practitioner; practitioners with a conscientious objection may decline to participate but must not obstruct access; the SA Care Navigator Service supports patients and clinicians. Misconceptions: that the topic is forbidden in public hospitals, or that a junior doctor can judge eligibility. Out of scope: the detailed request and assessment steps and medication administration.",
+  "plan": "Tests the intern's lawful and compassionate response to a patient-initiated request about voluntary assisted dying, evidencing outcomes 1.2, 2.1 and 3.2. The regional ward without on-site specialists makes the Care Navigator pathway the realistic link. Distractors are deflection, overreach and an unauthorised eligibility judgement. Supported by SA Health voluntary assisted dying guidance under the SA Act."
+ },
+ {
+  "work_order_id": "r1-183",
+  "item_id": "2ae88d82-f3f5-21b3-99d8-886c0280910b",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre, with the GP on call at home. A 68-year-old woman with metastatic breast cancer and bone and liver metastases was admitted 2 days ago for pain control; she still walks with a frame and is planning a family event next month. Her resuscitation plan, completed by the GP with her, states: not for CPR, not for intubation, for ward-based medical treatment including intravenous antibiotics and fluids, discuss transfer with the patient if needed. At 02:30 the nurse calls: temperature 38.9 °C, heart rate 118, blood pressure 94/58, respiratory rate 24, new confusion. She has a peripherally inserted central catheter. The nurse says, 'She's not for resuscitation, so do we just keep her comfortable?'",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Treat her for sepsis now with cultures, intravenous antibiotics and fluids, and phone the GP on call"
+   },
+   {
+    "id": "B",
+    "text": "Provide comfort measures only, because the resuscitation plan documents that she is not for resuscitation"
+   },
+   {
+    "id": "C",
+    "text": "Call the retrieval service for immediate transfer to the tertiary centre for intensive care assessment"
+   },
+   {
+    "id": "D",
+    "text": "Withhold active treatment until her family can be contacted in the morning to confirm her wishes"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The resuscitation plan explicitly includes ward-based treatment with antibiotics and fluids. She has probable line-related sepsis, a reversible problem, and her goals include an event next month. Sepsis treatment within the first hour and escalation to the GP on call is the correct application of her plan.",
+   "B": "Not for CPR does not mean not for treatment. Withholding antibiotics from a patient whose plan specifies them, and who has weeks to months of meaningful life ahead, is a common and serious misreading of a resuscitation plan.",
+   "C": "Her plan limits treatment to ward-based care unless transfer is discussed with her, and she cannot currently discuss it. Treatment should start on site now; the question of transfer can be raised with the GP and, when she is lucid, with her.",
+   "D": "She has a valid plan completed with her that answers the question; delaying treatment of sepsis for hours while awaiting family contact risks harm and does not respect her documented wishes."
+  },
+  "learning_point": "A resuscitation plan specifies which treatments are and are not wanted; 'not for CPR' with ward-based treatment means sepsis is treated promptly on the ward within the stated limits.",
+  "setting_note": "At a country hospital the plan's ceiling of ward-based care is realistic and should be respected; the GP on call is contacted early, and the limit on transfer is revisited with the patient once she is able to take part.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Deteriorating patient",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.7",
+   "1.9",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "resuscitation plan",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Resuscitation Plan 7 Step Pathway",
+    "locator": "Step 5: documenting the treatment plan; interpretation of resuscitation plans and ceilings of treatment",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Sepsis Clinical Care Standard",
+    "locator": "Quality statements on time-critical management and goals of care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the SA resuscitation plan separates CPR and intubation decisions from other treatments and records the agreed ceiling of care; sepsis in a patient for ward-based treatment is treated with cultures, antibiotics within an hour and fluids, with early senior escalation. Misconceptions: reading 'not for CPR' as 'comfort care only'; assuming the family must re-consent overnight. Out of scope: choice of antibiotic for line sepsis.",
+  "plan": "Tests correct interpretation and application of a resuscitation plan during deterioration, evidencing outcomes 1.7, 1.9 and 1.2. The single junior doctor overnight at a country hospital with a GP on call makes the decision theirs in the moment. Distractors are comfort-only care, retrieval beyond the plan's ceiling and deferral to family. Supported by the SA Health Resuscitation Plan 7 Step Pathway."
+ },
+ {
+  "work_order_id": "r1-184",
+  "item_id": "4ecb5ffc-3e4e-c068-03f9-4a8d31349f5e",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a metropolitan general hospital; the medical registrar is on site overnight. A 78-year-old man with end-stage lung cancer is now in the last days of life and can no longer swallow. His pain has been well controlled on modified-release oral morphine 40 mg twice daily, and over the past 24 hours he needed one breakthrough dose of immediate-release oral morphine 10 mg. His eGFR is 62 mL/min/1.73 m2 and he has no signs of opioid toxicity. The registrar asks you to chart a continuous subcutaneous infusion of morphine over 24 hours by syringe driver, with a subcutaneous breakthrough dose, and says to use the standard oral to subcutaneous conversion.",
+  "lead_in": "What is the most appropriate 24-hour subcutaneous morphine dose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mg over 24 hours"
+   },
+   {
+    "id": "B",
+    "text": "30 mg over 24 hours"
+   },
+   {
+    "id": "C",
+    "text": "60 mg over 24 hours"
+   },
+   {
+    "id": "D",
+    "text": "90 mg over 24 hours"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "This would be less than a quarter of his equivalent requirement and would leave a dying patient in pain; it reflects dividing by 3 and then halving again, a double reduction that is not required when there is no toxicity.",
+   "B": "His 24-hour oral morphine total is 80 mg regular plus 10 mg breakthrough, 90 mg. Oral morphine is about three times less potent than subcutaneous morphine, so 90 mg oral converts to about 30 mg subcutaneously over 24 hours, with a breakthrough subcutaneous dose of about 5 mg (one-sixth of the daily dose).",
+   "C": "Sixty milligrams subcutaneously is equivalent to about 180 mg of oral morphine, double his requirement, and would risk respiratory depression and toxicity.",
+   "D": "Charting the oral daily total unchanged as the subcutaneous dose ignores the conversion ratio and would give three times his current opioid exposure."
+  },
+  "learning_point": "To convert oral morphine to a 24-hour subcutaneous infusion, total the previous 24 hours of regular and breakthrough oral morphine and divide by about three, then set the breakthrough dose at one-sixth to one-twelfth of the daily subcutaneous dose.",
+  "setting_note": "The conversion is the same in a rural hospital; where the registrar is not on site, confirm the calculation with the GP or pharmacist by phone and have a second nurse check the syringe, as syringe driver errors are a known source of harm.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.8",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "syringe driver",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Australian references give an oral to subcutaneous morphine ratio of about 3:1 (range 2:1 to 3:1); the options avoid the 2:1 result so the item is not ambiguous, but reviewers should confirm against the local palliative care conversion chart."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Opioid conversion table and continuous subcutaneous infusions",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Opioid analgesics: equianalgesic doses and route conversion for morphine",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oral morphine 30 mg is approximately equivalent to subcutaneous morphine 10 mg; total all opioid taken in the previous 24 hours before converting; breakthrough subcutaneous dose is one-sixth to one-twelfth of the 24-hour dose; reduce by 25 to 50 per cent if the patient has toxicity or significant renal impairment. Misconceptions: charting the oral dose unchanged, forgetting breakthrough use, and halving twice. Out of scope: adding midazolam, haloperidol or antisecretory drugs to the same syringe.",
+  "plan": "Tests recall of the oral to subcutaneous morphine conversion when starting a syringe driver, evidencing outcomes 1.8 and 1.7. The metropolitan ward with the registrar delegating the chart makes the intern responsible for the arithmetic. Distractors are a double reduction, a doubled dose and the unconverted oral dose. Supported by the Therapeutic Guidelines Palliative Care opioid conversion table."
+ },
+ {
+  "work_order_id": "r1-185",
+  "item_id": "4998ff49-4402-dc9c-5975-c82aeba6fdb2",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional hospital without an ICU, 2 hours from Adelaide. A 69-year-old man with end-stage metastatic prostate cancer is in the last days of life. Twenty hours ago a continuous subcutaneous infusion of morphine 30 mg, midazolam 10 mg and hyoscine butylbromide 60 mg over 24 hours was started via a syringe driver in the left upper chest, and he was comfortable for the first 12 hours. The nurse now reports that he is restless, grimacing when moved and has needed two breakthrough doses in the last 3 hours. She has noticed that the syringe still contains 16 mL of the original 22 mL, the dressing over the cannula is damp, and the skin around the site is red and firm. The driver's display shows no alarm.",
+  "lead_in": "What is the most likely explanation for his symptoms?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Development of opioid tolerance requiring a higher morphine dose"
+   },
+   {
+    "id": "B",
+    "text": "Terminal agitation from progression of his disease"
+   },
+   {
+    "id": "C",
+    "text": "Failure of drug delivery because of a leaking or occluded infusion site"
+   },
+   {
+    "id": "D",
+    "text": "Paradoxical agitation from midazolam"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Tolerance develops over days to weeks, not within 12 hours of a stable dose; the key finding is that most of the syringe volume has not been delivered, so he has effectively not received his prescribed opioid.",
+   "B": "Terminal agitation is a diagnosis made after reversible causes such as pain, urinary retention and failed drug delivery are excluded; the damp dressing and remaining volume point to a delivery problem.",
+   "C": "After 20 hours of a 24-hour infusion about 18 mL should have been delivered, yet 16 mL remains, the dressing is wet and the site is inflamed. The line has been leaking or the site has occluded, so he has been under-dosed. The site should be resited, the line and connections checked, breakthrough doses given, and the infusion restarted with the pharmacist or senior doctor confirming the dose.",
+   "D": "Paradoxical reactions to midazolam are uncommon and would not explain the undelivered volume, the wet dressing or the inflamed site."
+  },
+  "learning_point": "When a patient on a syringe driver becomes uncomfortable, check the site, line and remaining volume first, because leakage, occlusion or site inflammation means the drugs have not been delivered.",
+  "setting_note": "In a regional hospital the intern may be the only doctor available; checking the driver and resiting it are within scope, with the dose confirmed by phone with the GP, pharmacist or palliative care service rather than escalating the dose for a problem that is mechanical.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Patient safety, quality and systems",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.7",
+   "1.1",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "syringe driver",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Continuous subcutaneous infusions: monitoring the infusion and site",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "CareSearch (Palliative Care Knowledge Network), Syringe drivers: clinical evidence and practice",
+    "locator": "Site care, checking volume delivered and troubleshooting",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: syringe driver checks every 4 hours include volume remaining, rate, site condition and line integrity; expected delivery is proportional to elapsed time; site reactions, leaks and kinks cause under-delivery and are a common reason for apparent symptom breakthrough; resite and restart rather than increase the dose. Misconceptions: labelling restlessness as terminal agitation without excluding reversible causes. Out of scope: drug compatibility in the syringe and choice of sedative for true terminal agitation.",
+  "plan": "Tests interpretation of a syringe driver problem (under-delivery from a leaking or inflamed site) as the cause of symptom recurrence, evidencing outcomes 1.7, 1.1 and 3.2. The regional ward without on-site palliative care makes the intern the one who must reason it out. Distractors are tolerance, terminal agitation and a paradoxical drug reaction. Supported by Therapeutic Guidelines Palliative Care guidance on monitoring infusions."
+ },
+ {
+  "work_order_id": "r1-186",
+  "item_id": "50cfcd21-13b0-8589-34cf-06c00ada09bd",
+  "version": 1,
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 72-year-old woman with metastatic lung cancer is in the last days of life on a terminal care plan; a syringe driver with morphine and midazolam was started yesterday and her dose has not changed. At 19:00 the nurse asks you to review her because her breathing has become loud and gurgling over the last 2 hours. Her daughter is distressed and asks whether she is drowning. On review she is unresponsive to voice, her breathing is 14 per minute and unlaboured, there is no grimacing or use of accessory muscles, and the noise comes from the throat and varies with position. Her lungs are difficult to auscultate over the noise; there is no fever and no peripheral oedema.",
+  "lead_in": "What does this finding most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pulmonary oedema, which would respond to intravenous furosemide"
+   },
+   {
+    "id": "B",
+    "text": "Aspiration pneumonia, which should be treated with intravenous antibiotics"
+   },
+   {
+    "id": "C",
+    "text": "Opioid-induced respiratory depression, which needs naloxone"
+   },
+   {
+    "id": "D",
+    "text": "Retained upper airway secretions of the dying phase, which are not distressing to her and are managed with repositioning, explanation to the family and an antisecretory medicine"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Pulmonary oedema produces breathlessness, tachypnoea and fine crackles rather than positional upper airway noise in an unresponsive, unlaboured patient; diuretics do not help terminal secretions and are not consistent with her comfort-focused plan.",
+   "B": "There is no fever or respiratory distress, and investigating or treating a pneumonia in the last days of life does not match the terminal care plan; the sound is from pooled saliva, not consolidation.",
+   "C": "Her respiratory rate is 14 and her opioid dose is unchanged; naloxone would precipitate pain and agitation in a dying patient and is reserved for true opioid-induced respiratory depression.",
+   "D": "Noisy breathing from secretions pooling in the pharynx is common in the final hours and days when the patient can no longer swallow or cough. The patient is unconscious and not distressed; the family often is. Management is repositioning, reassuring and explaining to the family, and a subcutaneous antimuscarinic such as hyoscine butylbromide or glycopyrronium, which works better when started early."
+  },
+  "learning_point": "Noisy, gurgling breathing in an unresponsive dying patient with unlaboured respirations is retained upper airway secretions, managed by repositioning, family explanation and a subcutaneous antisecretory medicine rather than investigation.",
+  "setting_note": "In a regional hospital this is managed on site without transfer; the intern can phone the palliative care service for advice on antisecretory dosing and should involve the family and nursing staff in the explanation.",
+  "learning_area": "Palliative care and goals of care",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Prescribing and medication safety",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "terminal symptoms",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Care in the last days of life: noisy breathing (respiratory secretions)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "CareSearch (Palliative Care Knowledge Network), Terminal secretions",
+    "locator": "Assessment and management; communication with family",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: terminal secretions occur in up to half of dying patients, are positional and from the upper airway, are not thought to distress the patient, and respond partially to antimuscarinics (hyoscine butylbromide, glycopyrronium) best started early; suctioning is usually unhelpful and distressing. The family's distress is the main target of care. Misconceptions: treating as pulmonary oedema or pneumonia, or giving naloxone because the breathing sounds abnormal. Out of scope: specific antisecretory doses, which are confirmed from the local guideline.",
+  "plan": "Tests interpretation of terminal respiratory secretions versus reversible causes, evidencing outcomes 1.4, 3.2 and 1.2. A regional ward with specialist advice only by phone makes the intern the one who reassures the family and acts. Distractors are pulmonary oedema, aspiration pneumonia and opioid toxicity. Supported by Therapeutic Guidelines Palliative Care on noisy breathing."
+ },
+ {
+  "work_order_id": "r1-187",
+  "item_id": "316cd842-1c6f-10ba-dea9-3a02ac4961de",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 58-year-old man admitted with cellulitis developed a hot, tender forearm around his peripheral intravenous cannula on day 4 and grew Staphylococcus aureus from blood cultures; the visiting physician has managed the bacteraemia. Reviewing the record, you find no documented insertion date or time for the cannula, no daily phlebitis score, and no record of whether the cannula was still needed after oral antibiotics started on day 2. The nurse unit manager, preparing for the hospital's accreditation visit, asks you to help write up the case and wants to know which National Safety and Quality Health Service Standard the gaps in cannula insertion, daily review and documentation mainly fall under.",
+  "lead_in": "Which National Safety and Quality Health Service Standard most directly covers these gaps?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Preventing and Controlling Infections Standard"
+   },
+   {
+    "id": "B",
+    "text": "Medication Safety Standard"
+   },
+   {
+    "id": "C",
+    "text": "Recognising and Responding to Acute Deterioration Standard"
+   },
+   {
+    "id": "D",
+    "text": "Communicating for Safety Standard"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The Preventing and Controlling Infections Standard includes a criterion on invasive medical devices, requiring that insertion, daily assessment of need, maintenance and removal of devices such as peripheral cannulas follow protocols and are documented, precisely the gaps in this case.",
+   "B": "The Medication Safety Standard covers prescribing, dispensing, administering and reconciling medicines, including antibiotics; it does not address cannula insertion, review and removal.",
+   "C": "This standard addresses detecting and escalating physiological deterioration through observation charts and rapid response systems; the gaps here are in device management, not in recognising deterioration.",
+   "D": "The Communicating for Safety Standard covers patient identification, clinical handover and communicating critical information; missing device documentation is an infection prevention process issue rather than a handover failure."
+  },
+  "learning_point": "Insertion, daily assessment of need, care and timely removal of peripheral intravenous cannulas are requirements of the Preventing and Controlling Infections Standard's invasive medical devices criterion.",
+  "setting_note": "Regional hospitals are accredited to the same standards as tertiary hospitals; in small sites the junior doctor is often the clinician who documents the cannula review on the ward round, so the standard applies directly to their daily practice.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Documentation",
+   "Procedures and practical skills"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "National Safety and Quality Health Service Standards",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (second edition)",
+    "locator": "Preventing and Controlling Infections Standard: Invasive medical devices criterion",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Management of Peripheral Intravenous Catheters Clinical Care Standard",
+    "locator": "Quality statements on insertion documentation, daily review and prompt removal",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the eight NSQHS Standards are Clinical Governance, Partnering with Consumers, Preventing and Controlling Infections, Medication Safety, Comprehensive Care, Communicating for Safety, Blood Management, and Recognising and Responding to Acute Deterioration. Peripheral cannulas should have insertion date and time documented, be reviewed daily with a phlebitis score, and be removed when no longer needed; S. aureus bacteraemia from cannulas is a key preventable harm. Misconception: that every documentation gap belongs under Communicating for Safety. Out of scope: management of the bacteraemia itself.",
+  "plan": "Tests the ability to map a real device-related harm to the correct NSQHS Standard, evidencing outcomes 1.1, 4.3 and 1.10. The regional ward preparing for accreditation gives a realistic reason for the question. Distractors are the other standards a junior doctor might plausibly choose. Supported by the ACSQHC NSQHS Standards and the peripheral intravenous catheter clinical care standard."
+ },
+ {
+  "work_order_id": "r1-188",
+  "item_id": "e25f587e-afa0-7a1a-98a0-7d5c9f88ce7b",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital. On the ward round the consultant notices that a 19-year-old woman admitted with pyelonephritis 3 days ago has no venous thromboembolism risk assessment documented and asks you to 'do a quick audit' of VTE risk assessment and prophylaxis on the ward over the next 2 weeks and present the results at the unit meeting. You have never done an audit before. The ward has about 30 inpatients at a time and the electronic medical record is used for all charts.",
+  "lead_in": "What is the most appropriate first step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start reviewing charts today and record each patient's name and findings in a spreadsheet on your personal laptop"
+   },
+   {
+    "id": "B",
+    "text": "Define the standard and criteria from the hospital's VTE prevention policy, agree the sample and data items with the consultant, and register the audit with the unit's quality office"
+   },
+   {
+    "id": "C",
+    "text": "Submit an application to the hospital's human research ethics committee before any data are collected"
+   },
+   {
+    "id": "D",
+    "text": "Obtain written consent from each inpatient before opening their record for the audit"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "An audit needs a defined standard and criteria before data collection so that the results mean something, and identifiable patient data must not be stored on a personal device; data should be de-identified and held on hospital systems.",
+   "B": "Clinical audit measures current practice against an explicit standard. The first step is to agree what is being measured (for example, the proportion of patients with a documented VTE risk assessment within 24 hours of admission, per the hospital policy and the national VTE clinical care standard), the sample, and the data items, and to register the audit through the local clinical governance process so it is supported and the data are handled appropriately.",
+   "C": "Quality assurance activities that measure practice against existing standards, use de-identified data and carry negligible risk do not usually require full human research ethics committee review; the local quality office advises if review is needed.",
+   "D": "Chart review for quality assurance within the treating organisation does not require individual patient consent when data are de-identified and used to improve care; registering the audit is the appropriate safeguard."
+  },
+  "learning_point": "A clinical audit starts by defining the standard and criteria, agreeing the sample and data items, and registering the activity with the local quality office, with de-identified data kept on hospital systems.",
+  "setting_note": "The process is the same in a regional hospital, where the quality or safety coordinator for the Local Health Network registers audits; the smaller patient numbers may mean a longer collection period.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Documentation",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "4.3",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "clinical audit",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Clinical Governance Standard",
+    "locator": "Measurement and quality improvement; clinical audit",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "NHMRC, Ethical considerations in quality assurance and evaluation activities",
+    "locator": "Distinguishing quality assurance from research and when ethics review is required",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Venous Thromboembolism Prevention Clinical Care Standard",
+    "locator": "Quality statement on VTE risk assessment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the audit cycle is define standard, measure practice, compare, implement change, re-audit; audits are registered with the local quality unit, use de-identified data on secure systems, and generally do not need HREC review or patient consent. Misconceptions: that ethics approval is always required, or that collecting data on a personal device is acceptable. Out of scope: VTE prophylaxis drug choice.",
+  "plan": "Tests the first step of a clinical audit, evidencing outcomes 4.3 and 1.10. A consultant request on a metropolitan ward is the typical trigger for an intern's first audit. Distractors are starting without a standard on a personal device, unnecessary ethics review and unnecessary consent. Supported by the ACSQHC Clinical Governance Standard and NHMRC quality assurance guidance."
+ },
+ {
+  "work_order_id": "r1-189",
+  "item_id": "79a7d5bb-d4a5-e9e2-3a37-539d8f3a196c",
+  "version": 1,
+  "stem": "You are the intern starting a shift in the emergency department of a large metropolitan teaching hospital. A 68-year-old woman with heart failure presented 6 hours ago with breathlessness and was referred to the medical team. At the 08:00 handover the outgoing ED doctor said, 'Bed 12, heart failure, medics are seeing her, nothing to do.' The medical registrar was not at the handover and had not yet reviewed her; her 06:00 potassium result of 6.4 mmol/L was in the system but unacknowledged. At 10:30 she had a broad-complex arrhythmia and required treatment in resuscitation. The ED consultant is reviewing the incident with you and asks what the handover lacked.",
+  "lead_in": "Which element required by the Communicating for Safety Standard was missing from this handover?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A written summary countersigned by both the outgoing and oncoming doctors"
+   },
+   {
+    "id": "B",
+    "text": "The use of the ISBAR format"
+   },
+   {
+    "id": "C",
+    "text": "A clear transfer of responsibility and accountability for her care to a named clinician"
+   },
+   {
+    "id": "D",
+    "text": "The presence of the nurse in charge at the medical handover"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "The standard requires a structured process and documentation of relevant information but does not mandate a countersigned written summary; the fundamental failure here was that nobody took over responsibility for her.",
+   "B": "ISBAR is a recommended structured tool, not a mandated format; using it would have helped, but a structured handover that still left her ownership undefined would have had the same gap.",
+   "C": "The Communicating for Safety Standard's clinical handover criterion requires that handover processes are structured, include the transfer of responsibility and accountability for care, and that critical information such as abnormal results is communicated. 'Medics are seeing her' transferred nothing: no named clinician owned her care or her potassium result.",
+   "D": "The standard requires involvement of relevant clinicians, patients and carers in handover where appropriate, but attendance of the nurse in charge is a local arrangement rather than a required element."
+  },
+  "learning_point": "Every clinical handover must transfer responsibility and accountability for the patient to a named clinician and communicate critical information, including unacknowledged abnormal results.",
+  "setting_note": "In a rural emergency department with one doctor and a GP on call, the same gap occurs when a patient is 'waiting for the GP'; the junior doctor remains accountable until the GP explicitly accepts care.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Emergency presentations",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.1",
+   "1.10",
+   "4.3"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "clinical handover failure",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "The standard's wording on handover elements should be checked against the current edition at review; the key reflects the transfer of accountability requirement in the clinical handover criterion."
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Communicating for Safety Standard",
+    "locator": "Clinical handover criterion (actions on structured handover, transfer of responsibility and accountability, and communicating critical information)",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Clinical Handover Policy Directive and Guideline",
+    "locator": "Minimum content and transfer of accountability",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the Communicating for Safety Standard covers correct patient identification, clinical handover at transitions, communicating critical information (including results) and documentation. Clinical handover must be structured, occur at the right time and place, involve the patient and carers where appropriate, and explicitly transfer responsibility and accountability. ISBAR is a tool, not the requirement. Misconceptions: that a referral equals a handover, or that 'being seen by another team' removes responsibility. Out of scope: hyperkalaemia management.",
+  "plan": "Tests recall of the required elements of clinical handover under the Communicating for Safety Standard through a realistic ED handover failure, evidencing outcomes 1.1, 1.10 and 4.3. The metro ED at shift change with a referred but unaccepted patient is a classic gap. Distractors are plausible but non-mandated features of handover. Supported by the ACSQHC Communicating for Safety Standard."
+ },
+ {
+  "work_order_id": "r1-190",
+  "item_id": "231a8f66-df0b-6bcc-0417-15f3100d805c",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a rural hospital on the Yorke Peninsula. A 34-year-old woman with Crohn's disease was admitted 2 days ago with a flare and vomiting. Reviewing the electronic medical record this morning you realise that your progress note from yesterday evening recorded her potassium as 3.9 mmol/L with a plan of 'no replacement required'; the actual result was 2.9 mmol/L. The nurse noticed the result overnight, the GP on call prescribed potassium, and the patient is well with a repeat level of 3.6 mmol/L today. The nurse unit manager says, 'Just go in and fix the number in your note so the record is accurate.' The electronic record allows you to edit or delete your own notes, and keeps an edit history that is not visible to most users.",
+  "lead_in": "What is the most appropriate way to correct the record?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Edit the original note to show the correct potassium value, relying on the system's hidden edit history to preserve the original"
+   },
+   {
+    "id": "B",
+    "text": "Leave the original note as it is and tell the registrar and the GP verbally about the error"
+   },
+   {
+    "id": "C",
+    "text": "Delete the original note and write a new note for yesterday evening with the correct value and plan"
+   },
+   {
+    "id": "D",
+    "text": "Write a dated and timed addendum that identifies the error and the correct value, leave the original note visible, and submit an incident report"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Altering a contemporaneous entry so the original wording is no longer visible to the clinicians who read it, even with a hidden audit trail, obscures what was known at the time and can appear to be concealment; corrections must be transparent to every reader of the record.",
+   "B": "A verbal disclosure does not correct the record; other clinicians who read the note will see a normal potassium and a plan of no replacement, and the error would be undocumented for the patient and for quality review.",
+   "C": "Deleting a clinical entry and recreating it with yesterday's time is falsification of the record, regardless of the system permitting it, and breaches the professional obligation to keep accurate, unaltered records.",
+   "D": "The accepted way to correct a clinical record is a clearly marked, dated and timed addendum or late entry that states the error and the correct information, leaving the original entry intact and legible. The error reached the patient (a delayed replacement) so an incident report is also required, supporting open disclosure and system learning."
+  },
+  "learning_point": "Correct a clinical record with a dated and timed addendum that identifies the error, never by altering or deleting the original entry, and report the error through the incident system.",
+  "setting_note": "In a rural hospital the GP on call and nurses rely heavily on the written record between visits, so transparent corrections matter even more; the same incident system (SLS) is used across SA Health sites.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Documentation",
+   "Professionalism, ethics and law",
+   "Fluids, electrolytes and renal"
+  ],
+  "domains": [
+   "1.10",
+   "2.1",
+   "4.3"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "electronic medical record documentation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Local electronic record policies differ on whether in-place correction with a visible audit trail is permitted; the key reflects the general principle that corrections must be transparent and the original entry preserved."
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 10.5 Medical records",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Clinical Documentation and Health Record Management policy directives",
+    "locator": "Correcting errors and late entries in health records",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Open Disclosure Framework",
+    "locator": "Incidents causing minimal harm: documentation and reporting",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: clinical records must be accurate, contemporaneous and not altered; errors are corrected by an addendum or late entry that is dated, timed and signed, with the original entry retained; medication and documentation errors that reach the patient are reported in the incident system and disclosed to the patient. Misconceptions: that a system permitting edits makes editing acceptable, or that a verbal correction is sufficient. Out of scope: hypokalaemia replacement regimens.",
+  "plan": "Tests the correct method of correcting an electronic clinical record after a documentation error, evidencing outcomes 1.10, 2.1 and 4.3. The rural ward with a nurse unit manager suggesting a quick fix and a system that permits edits makes the wrong option attractive. Distractors are silent editing, verbal-only correction and deletion. Supported by Good medical practice section on medical records and SA Health documentation directives."
+ },
+ {
+  "work_order_id": "r1-191",
+  "item_id": "8b358f2c-0206-899c-65fd-2a6231e12de1",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a metropolitan general hospital with a busy medical ward; the medical registrar is on site. At 20:30 a nurse tells you that a 32-year-old woman admitted with a lower limb cellulitis was given enoxaparin 40 mg subcutaneously at 18:00 by the afternoon nurse and again at 20:00 by the evening nurse, because the 18:00 administration had not been signed on the chart. The patient has no history of bleeding, a normal platelet count and eGFR on admission, and is not on any other anticoagulant. The nurse is upset and asks you what needs to happen now. You have four other jobs waiting, none of them urgent.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Review the patient for bleeding and risk factors, and inform the medical registrar of the double dose"
+   },
+   {
+    "id": "B",
+    "text": "Complete the Safety Learning System incident report while the details are fresh"
+   },
+   {
+    "id": "C",
+    "text": "Go and tell the patient what has happened and apologise on behalf of the team"
+   },
+   {
+    "id": "D",
+    "text": "Ask both nurses to write statements about how the duplicate administration occurred"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "When a medication error reaches a patient, the first priority is the patient's safety: assess for harm, consider whether any monitoring or treatment is needed, and involve the senior doctor. A double prophylactic dose of enoxaparin in a young woman with normal renal function is low risk, but this is established by assessment, not assumption.",
+   "B": "Incident reporting is required and should be done during the shift, but it follows clinical assessment of the patient; the report does not change what happens to her tonight.",
+   "C": "Open disclosure is required, but it is done after the clinical facts are known and with the senior clinician, so that the patient receives accurate information about what happened and what it means for her.",
+   "D": "Investigating how the error occurred is part of the incident review process led by the ward manager and quality unit; it is not the junior doctor's first task and should not be approached as blame-finding."
+  },
+  "learning_point": "After a medication error reaches a patient, assess the patient and escalate to the senior doctor first, then report the incident and take part in open disclosure.",
+  "setting_note": "In a rural hospital the same sequence applies with the GP on call in place of the registrar; the SA Health Safety Learning System is used for incident reporting across all sites.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Communication, handover and consent",
+   "Doctor wellbeing, teamwork and workload"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "incident reporting",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Patient Incident Management and Open Disclosure Policy Directive",
+    "locator": "Immediate response to a patient incident: care of the patient, notification and reporting",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Open Disclosure Framework",
+    "locator": "Initial response and clinician disclosure",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the incident response sequence is care for the patient, escalate, report in the Safety Learning System during the shift, disclose to the patient, and document. Reporting is a system learning tool, not a disciplinary one. A duplicate prophylactic enoxaparin dose rarely causes harm but the patient should be assessed and informed. Misconceptions: that the nurse alone reports nursing errors, or that disclosure should wait for the day team. Out of scope: management of enoxaparin overdose with protamine, which is not indicated here.",
+  "plan": "Tests prioritising patient assessment and escalation over paperwork after a medication error, evidencing outcomes 1.1, 4.3 and 2.8. The evening cover intern with competing tasks and a distressed nurse creates the real-world pressure. Distractors are each a necessary later step presented as the first. Supported by the SA Health Patient Incident Management and Open Disclosure policy."
+ },
+ {
+  "work_order_id": "r1-192",
+  "item_id": "87b40509-676e-6446-dfaf-41f562ad590e",
+  "version": 1,
+  "stem": "You are the intern on the general ward of a regional hospital without an ICU. A 38-year-old man was admitted this morning with community-acquired pneumonia. The admitting doctor charted amoxicillin with clavulanic acid 875 mg with 125 mg orally twice daily. The patient's alert band and the adverse drug reaction section of the medication chart record 'penicillin: anaphylaxis, 2015'. Before the first dose, the ward pharmacist noticed the conflict, withheld the medicine and phoned you. No dose was given. You change the prescription after discussing an alternative with the GP. The pharmacist asks whether you will enter the event in the Safety Learning System, and a colleague says there is no point because nothing happened to the patient.",
+  "lead_in": "How is this event best classified?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An adverse drug reaction, which is reported to the Therapeutic Goods Administration"
+   },
+   {
+    "id": "B",
+    "text": "A near miss, a prescribing error intercepted before reaching the patient, which is still reported in the incident system"
+   },
+   {
+    "id": "C",
+    "text": "A non-reportable event, because no medicine was administered and no harm occurred"
+   },
+   {
+    "id": "D",
+    "text": "A sentinel event, which requires a formal root cause analysis"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "An adverse drug reaction is a harmful response to a medicine actually taken; nothing was administered, so this is a prescribing error, not a reaction.",
+   "B": "A near miss is an incident that could have caused harm but was intercepted before it reached the patient. Near misses are reported in the Safety Learning System because they reveal system weaknesses, here a prescription written despite a documented anaphylaxis alert, that could cause serious harm next time.",
+   "C": "Absence of harm does not make an event non-reportable; reporting near misses is explicitly encouraged by the Medication Safety Standard and SA Health incident policy so that latent errors are fixed before they hurt someone.",
+   "D": "Sentinel events are a defined list of catastrophic, wholly preventable events such as medication error resulting in death; an intercepted prescription does not meet that threshold, although it should still be reviewed locally."
+  },
+  "learning_point": "A prescribing error intercepted before administration is a near miss and should be reported in the incident system because it exposes a system weakness that could cause serious harm.",
+  "setting_note": "In a regional hospital the ward pharmacist may be part time or remote, so the same error on another day might not be intercepted; reporting it allows the site to add safeguards such as mandatory allergy review at prescribing.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "medication error",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Patient Incident Management and Open Disclosure Policy Directive",
+    "locator": "Definitions: patient incident, near miss; reporting requirements",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Medication Safety Standard",
+    "locator": "Monitoring and action on medication incidents including near misses",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: definitions of near miss, adverse event, adverse drug reaction and sentinel event; near misses are reportable and valuable; the Australian Sentinel Events List is a specific set of events. Misconceptions: that reporting requires harm, or that near misses reflect only on the individual prescriber. Out of scope: choice of alternative antibiotic for pneumonia in penicillin anaphylaxis.",
+  "plan": "Tests classification of an intercepted prescribing error as a reportable near miss, evidencing outcomes 1.1, 4.3 and 1.8. A regional ward with a pharmacist intercepting the error and a colleague dismissing it gives a realistic prompt. Distractors are the other incident categories a junior doctor confuses. Supported by the SA Health Patient Incident Management policy and the Medication Safety Standard."
+ },
+ {
+  "work_order_id": "r1-193",
+  "item_id": "9012628b-7ab2-b60b-c27f-aae72e10ce28",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a regional hospital without an ICU, where CT is available only in business hours and patients are retrieved to Adelaide by road or air. Three weeks ago a 55-year-old man admitted with pancreatitis deteriorated overnight; his observations had breached the escalation criteria for 4 hours before the GP on call was contacted, and he died after a delayed retrieval. The Local Health Network has commissioned a root cause analysis and you have been asked to attend an interview because you were the doctor on the preceding day shift. The night nurse involved is anxious and asks you whether the process is going to decide whether she loses her registration.",
+  "lead_in": "What is the purpose of a root cause analysis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "To determine which individual was responsible for the delay and recommend disciplinary action"
+   },
+   {
+    "id": "B",
+    "text": "To establish the hospital's legal liability in preparation for the coronial inquest"
+   },
+   {
+    "id": "C",
+    "text": "To identify the system factors that contributed to the event and recommend changes to prevent recurrence, without apportioning blame"
+   },
+   {
+    "id": "D",
+    "text": "To provide the family with a formal written apology from the hospital"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Root cause analysis is explicitly a no-blame, systems-focused process; individual performance concerns are managed through separate professional pathways, not through the analysis.",
+   "B": "The analysis is conducted under statutory protection in South Australia so that participants can speak frankly; its report is not a liability document and is separate from any coronial process, though the coroner may conduct their own inquiry.",
+   "C": "A root cause analysis examines what happened, why it happened and what can be done to reduce the risk of recurrence, looking at contributing factors such as escalation processes, staffing, communication and equipment. Its output is recommendations for system change, and it does not identify or blame individuals.",
+   "D": "Open disclosure, including an apology and explanation, is owed to the family but is a separate process led by the treating team and senior clinicians; it may be informed by the analysis but is not its purpose."
+  },
+  "learning_point": "A root cause analysis is a protected, no-blame review of a serious incident that identifies contributing system factors and recommends changes to prevent recurrence.",
+  "setting_note": "In small regional hospitals the factors identified often relate to single-doctor overnight cover, delayed escalation to the GP on call and retrieval timelines, so junior doctors' candid participation is especially valuable.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Professionalism, ethics and law",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.3",
+   "1.1",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "root cause analysis",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Patient Incident Management and Open Disclosure Policy Directive",
+    "locator": "Root cause analysis: purpose, process and statutory protections under the Health Care Act 2008 (SA) Part 7",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Clinical Governance Standard",
+    "locator": "Incident management systems and open disclosure",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: root cause analysis is used for serious incidents (for example severity assessment code 1 events) and asks what, why and how to prevent; it is protected under Part 7 of the Health Care Act 2008 (SA) so that information given to the team cannot be used in disciplinary or legal proceedings; it produces system recommendations. Misconceptions: that it is an investigation of individuals or a liability assessment. Out of scope: details of the coronial process and mandatory reporting to the coroner.",
+  "plan": "Tests understanding of the purpose and no-blame nature of a root cause analysis, evidencing outcomes 4.3, 1.1 and 2.1. A regional hospital death after delayed escalation and retrieval is the kind of event that triggers one. Distractors are the blame, liability and apology purposes commonly confused with it. Supported by the SA Health incident management policy and the Clinical Governance Standard."
+ },
+ {
+  "work_order_id": "r1-194",
+  "item_id": "0d3a56ef-8465-a7e6-0690-06ef86a159ce",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a tertiary hospital in Adelaide. Two women with the same surname are in adjacent cubicles. You intended to chart intravenous ceftriaxone and order blood cultures for a 54-year-old woman with pyelonephritis in cubicle 9, but entered the orders on the record of the 56-year-old woman in cubicle 8, who is being observed after a fall. The nurse has just administered ceftriaxone 1 g intravenously to the woman in cubicle 8, who has no documented antibiotic allergy, before you noticed the error. The ED consultant is on the floor.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cancel the orders on the wrong record, re-enter them for the correct patient and move on, since no harm has occurred"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to document that she administered the dose in error and to submit the incident report"
+   },
+   {
+    "id": "C",
+    "text": "Wait until the woman in cubicle 8 has been observed for a reaction before deciding whether to tell her"
+   },
+   {
+    "id": "D",
+    "text": "Assess the woman who received the dose, inform the consultant, correct both records, disclose the error to her and report it"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Quietly correcting the orders leaves the patient who received an unintended medicine uninformed and unassessed, omits the incident report, and delays treatment for the patient who actually needs antibiotics.",
+   "B": "The prescribing error was the doctor's and the administration followed from it; the doctor must assess the patient, escalate and take part in reporting and disclosure rather than assigning the task to the nurse.",
+   "C": "Open disclosure should occur promptly once the facts are known; the patient has a right to know she received a medicine not intended for her, whether or not a reaction develops.",
+   "D": "A medication given to the wrong patient is a reportable incident that has reached the patient. The correct response is to check the patient for adverse effects, inform the senior doctor, correct the records (cancelling the wrong orders and ordering for the right patient so her treatment is not delayed), disclose to the patient with an apology, and report in the incident system."
+  },
+  "learning_point": "After a wrong-patient medication error, assess the patient who received the medicine, escalate, correct both records, disclose openly and report the incident.",
+  "setting_note": "In a rural emergency department with one doctor the sequence is the same, with the GP on call informed; smaller departments still face wrong-patient risk when names are similar, and three identifiers should be checked at every order and administration.",
+  "learning_area": "Patient safety, quality and systems",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Communication, handover and consent",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "wrong-patient error",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Australian Open Disclosure Framework",
+    "locator": "When open disclosure is required and the elements of clinician disclosure",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Communicating for Safety Standard",
+    "locator": "Correct identification and procedure matching: three approved identifiers",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: wrong-patient errors arise from similar names and adjacent beds; use three approved identifiers (name, date of birth, medical record number) at ordering and administration, and apply name alerts. After an error reaching a patient: assess, escalate, correct, disclose with apology, report. Misconceptions: that no harm means no disclosure, or that the administering nurse owns the incident. Out of scope: ceftriaxone adverse effect management.",
+  "plan": "Tests the full response to a wrong-patient medication error, evidencing outcomes 1.1, 4.3 and 1.2. The tertiary ED with same-surname patients in adjacent cubicles is a classic set-up. Distractors are silent correction, delegation to the nurse and delayed disclosure. Supported by the Australian Open Disclosure Framework and the Communicating for Safety Standard."
+ },
+ {
+  "work_order_id": "r1-195",
+  "item_id": "e158f4a2-0a75-74f9-659b-13c151936b51",
+  "version": 1,
+  "stem": "You are the intern in the outpatient clinic of a rural hospital on the Yorke Peninsula, seeing a 78-year-old man before a planned admission for an elective hernia repair. He is otherwise well. While you complete the medication chart he tells you that penicillin 'gave me a rash all over as a boy' and that codeine 'makes me vomit every time'. His general practitioner's summary lists only 'penicillin allergy'. You are completing the adverse drug reaction section of the chart that will be used for his admission.",
+  "lead_in": "What should be recorded in the adverse drug reaction section?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Both medicines, each with the drug name, a description of the reaction, whether it was an allergy or an intolerance, the approximate date and the source of the information, with your signature"
+   },
+   {
+    "id": "B",
+    "text": "Penicillin only, since vomiting with codeine is a side effect rather than a true adverse reaction"
+   },
+   {
+    "id": "C",
+    "text": "'Penicillin: anaphylaxis' so that staff treat it as the most serious possibility"
+   },
+   {
+    "id": "D",
+    "text": "'No known drug allergies' because neither reaction has been confirmed by testing"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The adverse drug reaction section records every reported reaction, allergic or not, with the drug, the nature of the reaction, the type, when it occurred and who gave the information, and is signed and dated. Recording codeine intolerance prevents it being prescribed postoperatively, and documenting a childhood rash rather than a vague allergy allows safe decisions about beta-lactam use.",
+   "B": "Intolerances such as vomiting with codeine are recorded in the adverse drug reaction section alongside allergies, with the type marked, because they influence prescribing just as much.",
+   "C": "Documenting a reaction the patient did not have exaggerates the record, may lead to avoidance of first-line antibiotics with worse outcomes, and misrepresents the history; the actual reaction, a childhood rash, should be recorded as described.",
+   "D": "Reported reactions are documented as the patient describes them; absence of formal testing does not justify recording no known allergies, which would expose him to re-exposure."
+  },
+  "learning_point": "Record every reported adverse drug reaction, both allergy and intolerance, with the drug, the nature of the reaction, the type, the date and the source, signed and dated, in the adverse drug reaction section of the chart.",
+  "setting_note": "In a rural hospital where the chart may be the only record seen by the visiting anaesthetist and surgeon, an accurate adverse drug reaction section completed in clinic matters even more; the GP summary should be updated as well.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Documentation",
+   "Surgery and perioperative care",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "allergy documentation",
+  "context": "clinic",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Inpatient Medication Chart user guide",
+    "locator": "Adverse drug reactions and allergies section: required information",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards: Medication Safety Standard",
+    "locator": "Documentation of medicines-related information including adverse drug reactions",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Antimicrobial hypersensitivity: assessing and documenting penicillin allergy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the adverse drug reaction section must be completed before prescribing; it records drug, reaction, type (allergy or intolerance), date and source, with signature; an empty section is not the same as no known reactions; a red alert band is applied where a reaction is recorded. Penicillin allergy labels should be clarified (nature, timing, severity) because many are low risk and can be delabelled. Misconceptions: omitting intolerances, upgrading reactions to anaphylaxis, or leaving the section blank. Out of scope: formal penicillin allergy testing pathways.",
+  "plan": "Tests recall of what must be documented in the adverse drug reaction section of the medication chart, evidencing outcomes 1.8, 1.1 and 1.10. The rural preadmission clinic with an elderly patient and an incomplete GP summary makes the task realistic. Distractors are omitting an intolerance, exaggerating the reaction and recording no known allergies. Supported by the ACSQHC National Inpatient Medication Chart user guide."
+ },
+ {
+  "work_order_id": "r1-196",
+  "item_id": "8bc19389-6927-a663-8e2c-a2342190581a",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 52-year-old Aboriginal man with well-controlled type 2 diabetes presents with 2 days of a warm, red, tender area over his left shin after a scratch while fencing. There is no abscess, ulcer or necrosis, the erythema is 8 cm across and marked, and he has no fever; heart rate 84, blood pressure 132/80, blood glucose 7.1 mmol/L. He has no history of MRSA infection and the local antibiogram shows low community MRSA rates; he has no drug allergies. He lives 40 minutes away, has transport and would like to go home. The GP on call agrees with discharge and asks you to prescribe oral antibiotics and arrange review with the Aboriginal health service in 48 hours.",
+  "lead_in": "Which antibiotic prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Amoxicillin with clavulanic acid 875 mg with 125 mg orally twice daily for 10 days"
+   },
+   {
+    "id": "B",
+    "text": "Flucloxacillin 500 mg orally 6-hourly for 5 days, extended if the cellulitis is slow to resolve at review"
+   },
+   {
+    "id": "C",
+    "text": "Cefalexin 500 mg orally 6-hourly for 14 days"
+   },
+   {
+    "id": "D",
+    "text": "Trimethoprim with sulfamethoxazole 160 mg with 800 mg orally twice daily for 7 days"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Amoxicillin with clavulanic acid is broader than needed for uncomplicated cellulitis, which is almost always caused by Streptococcus pyogenes or Staphylococcus aureus, and a 10-day course exceeds the recommended duration.",
+   "B": "Mild cellulitis without systemic features is treated with an oral anti-staphylococcal penicillin; flucloxacillin (or dicloxacillin) 500 mg 6-hourly for 5 days is the Therapeutic Guidelines first-line regimen, with the course extended if improvement is slow. Marking the erythema margin and reviewing at 48 hours allows early detection of failure.",
+   "C": "Cefalexin is an acceptable alternative where adherence to 6-hourly flucloxacillin is a concern, but 14 days is far longer than recommended and increases adverse effects and resistance without benefit.",
+   "D": "Trimethoprim with sulfamethoxazole is used when MRSA is likely (previous MRSA, or high community prevalence); it has unreliable activity against Streptococcus pyogenes and is not first line in a patient without MRSA risk factors."
+  },
+  "learning_point": "Mild cellulitis without systemic features is treated with oral flucloxacillin 500 mg 6-hourly for 5 days, extended only if resolution is slow, with early review rather than broader or longer therapy.",
+  "setting_note": "In a regional hospital the 48-hour review can be shared with the local Aboriginal health service, which supports culturally safe follow-up and transport; a patient living remotely with no reliable review may need a lower threshold for admission or intravenous therapy, which is not the case here.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Aboriginal and Torres Strait Islander health",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.7",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "antibiotic choice and duration",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Therapeutic Guidelines durations for cellulitis have shortened over successive editions; the 5-day course with extension if slow to resolve reflects the current edition and should be verified at review."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Cellulitis and erysipelas: mild infection, oral therapy and duration",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Antimicrobial Stewardship Clinical Care Standard",
+    "locator": "Quality statements on appropriate choice and duration of antimicrobials",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: mild cellulitis is treated orally with flucloxacillin or dicloxacillin 500 mg 6-hourly, cefalexin if adherence is a problem, for 5 days with extension if slow to resolve; mark the margin and review at 48 hours; MRSA cover is added only with risk factors; diabetes alone does not require intravenous therapy. Misconceptions: that broader or longer courses are safer, or that Aboriginal identity in itself is an MRSA risk factor rather than local prevalence and personal history. Out of scope: diabetic foot infection, which is a different guideline.",
+  "plan": "Tests choice and duration of oral antibiotics for mild cellulitis, evidencing outcomes 1.8, 1.7 and 1.3. The regional ED with a GP on call and the Aboriginal health service for follow-up shows culturally safe discharge planning. Distractors are an overly broad agent, an overly long course and MRSA-directed therapy without indication. Supported by Therapeutic Guidelines Antibiotic."
+ },
+ {
+  "work_order_id": "r1-197",
+  "item_id": "b4d4636e-4de1-0241-31bd-c61237b4c9b5",
+  "version": 1,
+  "stem": "You are the junior doctor on the medical ward of a metropolitan general hospital; the registrar is on site. A 58-year-old man was admitted 3 days ago from the emergency department with community-acquired pneumonia and was started empirically on intravenous piperacillin with tazobactam because he was initially tachycardic and febrile. Blood cultures taken before antibiotics have grown Streptococcus pneumoniae, fully susceptible to penicillin. He has been afebrile for 36 hours, is eating and drinking, has a respiratory rate of 18 on room air, and wants to go home tomorrow. On the morning round the registrar says, 'Sort out his antibiotics today' and moves to the next patient. The pharmacist has also left a note on the chart about antimicrobial stewardship.",
+  "lead_in": "What is the most important action regarding his antibiotics today?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Continue intravenous piperacillin with tazobactam until he completes 7 days and then stop"
+   },
+   {
+    "id": "B",
+    "text": "Leave the antibiotics unchanged until the consultant reviews him on tomorrow's round"
+   },
+   {
+    "id": "C",
+    "text": "Switch to oral amoxicillin and document a planned stop date for a total course of 5 to 7 days"
+   },
+   {
+    "id": "D",
+    "text": "Request infectious diseases approval so that piperacillin with tazobactam can be continued"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Continuing a broad-spectrum intravenous agent when a fully susceptible organism is known and the patient has met criteria for oral switch exposes him to unnecessary adverse effects, cannula-related infection and resistance, and delays discharge.",
+   "B": "Deferral for a day is not justified; de-escalation and intravenous to oral switch are expected daily actions that the junior doctor should carry out with the registrar's agreement, and the registrar has already asked for it.",
+   "C": "He is clinically stable, afebrile, tolerating oral intake and has a penicillin-susceptible pneumococcus, so narrowing to oral amoxicillin and setting a total duration of 5 to 7 days is the stewardship priority; documenting the stop date on the chart ensures the course is not continued by default.",
+   "D": "Seeking approval to continue a broad-spectrum agent is the opposite of what is needed; restricted antimicrobials require justification, and here there is none."
+  },
+  "learning_point": "When a susceptible organism is identified and the patient is stable and tolerating oral intake, de-escalate to the narrowest effective oral antibiotic and document a stop date.",
+  "setting_note": "In a regional hospital without an on-site pharmacist or infectious diseases service, the same de-escalation is made by the junior doctor with the GP or visiting physician, using Therapeutic Guidelines and the local antimicrobial stewardship phone line.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Discharge planning",
+   "General medicine"
+  ],
+  "domains": [
+   "1.8",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "antibiotic choice and duration",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Community-acquired pneumonia in adults: directed therapy and intravenous to oral switch; principles of antimicrobial use",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Antimicrobial Stewardship Clinical Care Standard",
+    "locator": "Quality statements on review of therapy, de-escalation and documentation of duration",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: criteria for intravenous to oral switch include clinical improvement, haemodynamic stability, ability to absorb oral medicines and an oral option; directed therapy for penicillin-susceptible pneumococcal pneumonia is amoxicillin; total duration for uncomplicated community-acquired pneumonia is usually 5 to 7 days; every antibiotic order should carry an indication and review or stop date. Misconceptions: that broad agents are safer, or that courses must be completed as started. Out of scope: severity scoring at admission.",
+  "plan": "Tests prioritising de-escalation and oral switch as the key antibiotic action for a stable patient with a susceptible organism, evidencing outcomes 1.8 and 1.7. The metro ward with a busy registrar and a pharmacist note makes it the junior doctor's job. Distractors are inertia, deferral and an inappropriate approval request. Supported by Therapeutic Guidelines Antibiotic and the Antimicrobial Stewardship Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-198",
+  "item_id": "bd8edf9f-8557-d988-892c-395530d2b457",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 60-year-old man on warfarin for a mechanical mitral valve presents at 21:00 after an hour of epistaxis that stopped with 20 minutes of pressure. He started a course of trimethoprim with sulfamethoxazole 5 days ago for a urinary infection. He has no other bleeding, no headache, no melaena, and his observations are normal; haemoglobin is 142 g/L. His INR tonight is 7.5, with a target range of 2.5 to 3.5. The hospital pharmacy holds vitamin K and a small stock of prothrombin complex concentrate.",
+  "lead_in": "What does this INR result mean for his management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A life-threatening bleed, requiring prothrombin complex concentrate and intravenous vitamin K 10 mg now"
+   },
+   {
+    "id": "B",
+    "text": "An acceptable INR for a mechanical valve, requiring no change to his warfarin"
+   },
+   {
+    "id": "C",
+    "text": "A supratherapeutic INR requiring warfarin to be stopped and replaced with apixaban"
+   },
+   {
+    "id": "D",
+    "text": "A supratherapeutic INR with minor bleeding, managed by withholding warfarin, giving low-dose vitamin K and rechecking the INR within 24 hours"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Full reversal with prothrombin complex concentrate and high-dose vitamin K is reserved for major or life-threatening bleeding; using it here would risk valve thrombosis and make re-anticoagulation difficult for days.",
+   "B": "An INR of 7.5 is well above his target of 2.5 to 3.5 and has already caused bleeding; it must be acted on, and the interaction with trimethoprim with sulfamethoxazole explains the rise.",
+   "C": "Direct oral anticoagulants are contraindicated in patients with mechanical heart valves; warfarin is withheld temporarily, not replaced.",
+   "D": "An INR between 4.5 and 10 with minor bleeding is managed by withholding warfarin, giving a small dose of vitamin K (1 to 2 mg orally or intravenously) so that the INR falls without overshooting below his valve's target range, and rechecking the INR within 24 hours before deciding on dose resumption. The interacting antibiotic should be reviewed."
+  },
+  "learning_point": "An INR of 4.5 to 10 with minor bleeding is managed by withholding warfarin, low-dose vitamin K and an INR recheck within 24 hours; full reversal with prothrombin complex concentrate is only for major bleeding, especially in patients with mechanical valves.",
+  "setting_note": "In a regional hospital with limited prothrombin complex concentrate stock and no on-site haematology, it is important to reserve concentrate for major bleeding and to seek telephone advice from the receiving haematology or cardiology service if there is any doubt about a mechanical valve patient.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Pharmacology",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "anticoagulant dosing and reversal",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "minor",
+   "uncertainty_note": "Vitamin K dose bands for INR 4.5 to 10 vary slightly between Therapeutic Guidelines and local anticoagulation protocols; the principle of low-dose vitamin K and no prothrombin complex concentrate for minor bleeding is consistent."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Warfarin: management of elevated INR and bleeding",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Tran H et al., Australasian Society of Thrombosis and Haemostasis consensus guidelines for warfarin reversal, Medical Journal of Australia 2013",
+    "locator": "Recommendations by INR and bleeding severity",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: warfarin reversal is graded by INR and bleeding: INR above target without bleeding, withhold and reduce; INR 4.5 to 10 without bleeding, withhold and consider vitamin K 1 to 2 mg; INR above 10, vitamin K 3 to 5 mg; any major bleeding, prothrombin complex concentrate plus vitamin K 5 to 10 mg with fresh frozen plasma if unavailable. Mechanical valves need cautious reversal to avoid thrombosis. Trimethoprim with sulfamethoxazole is a major warfarin potentiator. Misconceptions: reversing fully for epistaxis, or switching valve patients to direct oral anticoagulants. Out of scope: bridging anticoagulation when restarting.",
+  "plan": "Tests interpretation of a supratherapeutic INR with minor bleeding in a mechanical valve patient, evidencing outcomes 1.8, 1.5 and 1.1. The regional ED with limited concentrate stock and phone-only haematology makes the graded decision matter. Distractors are over-reversal, inaction and an inappropriate anticoagulant switch. Supported by Therapeutic Guidelines Cardiovascular and the ASTH warfarin reversal guideline."
+ },
+ {
+  "work_order_id": "r1-199",
+  "item_id": "0d7836bd-2a29-ecf4-7afc-f10035ffd0b3",
+  "version": 1,
+  "stem": "You are the only doctor overnight, covering the wards at a rural hospital on the Yorke Peninsula; the GP is on call at home. A 58-year-old woman, weight 70 kg, admitted 2 days ago with community-acquired pneumonia, developed a swollen right calf this afternoon. The visiting sonographer confirmed an above-knee deep vein thrombosis at 17:00. Her eGFR is 55 mL/min/1.73 m2, platelets 240 x 10^9/L, haemoglobin 128 g/L, and she has no history of bleeding, recent surgery or liver disease. The GP has reviewed her by phone, agrees she should start treatment-dose low molecular weight heparin tonight, and asks you to chart it. The nurse brings the medication chart and the ward stock of enoxaparin.",
+  "lead_in": "Which prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Enoxaparin 70 mg subcutaneously every 12 hours"
+   },
+   {
+    "id": "B",
+    "text": "Enoxaparin 40 mg subcutaneously once daily"
+   },
+   {
+    "id": "C",
+    "text": "Enoxaparin 70 mg subcutaneously once daily because of her reduced eGFR"
+   },
+   {
+    "id": "D",
+    "text": "Unfractionated heparin by intravenous infusion with 6-hourly APTT monitoring"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Treatment-dose enoxaparin for venous thromboembolism is 1 mg/kg subcutaneously every 12 hours (or 1.5 mg/kg once daily); for a 70 kg patient this is 70 mg 12-hourly. Her renal function (eGFR 55) does not require dose adjustment, and her platelets and bleeding risk are acceptable.",
+   "B": "Forty milligrams once daily is the prophylactic dose; it is inadequate for an established above-knee deep vein thrombosis and leaves her at risk of extension and pulmonary embolism.",
+   "C": "Renal dose reduction of enoxaparin (1 mg/kg once daily) applies when creatinine clearance is below 30 mL/min; at an eGFR of 55 full treatment dosing is used.",
+   "D": "An unfractionated heparin infusion is reserved for patients with severe renal impairment, very high bleeding risk or a likely need for urgent reversal; it is harder to run safely in a small rural ward overnight and offers no advantage here."
+  },
+  "learning_point": "Treatment of venous thromboembolism with enoxaparin is 1 mg/kg subcutaneously every 12 hours (or 1.5 mg/kg daily) at normal or mildly reduced renal function; dose reduction applies only when creatinine clearance is below 30 mL/min.",
+  "setting_note": "In a rural ward overnight, subcutaneous enoxaparin is the practical choice because an unfractionated heparin infusion needs frequent APTT sampling and nursing adjustment that a single-doctor site may not support; the GP decides on transition to an oral anticoagulant in the morning.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Pharmacology",
+   "General medicine",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "anticoagulant dosing and reversal",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Venous thromboembolism: initial anticoagulation with low molecular weight heparin",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Enoxaparin: treatment dose and dose adjustment in renal impairment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: enoxaparin treatment dose is 1 mg/kg 12-hourly or 1.5 mg/kg daily, using actual body weight; reduce to 1 mg/kg daily if creatinine clearance is below 30 mL/min; prophylactic dose is 40 mg daily; check platelets and bleeding risk before starting; direct oral anticoagulants may be started instead when appropriate. Misconceptions: confusing prophylactic and treatment doses, and applying renal adjustment at mild impairment. Out of scope: choice and duration of ongoing oral anticoagulation.",
+  "plan": "Tests correct weight-based treatment dosing of enoxaparin and when renal adjustment applies, evidencing outcomes 1.8 and 1.1. The single-doctor rural ward overnight with the GP by phone makes the intern the prescriber. Distractors are the prophylactic dose, unnecessary renal reduction and a heparin infusion. Supported by Therapeutic Guidelines Cardiovascular and the Australian Medicines Handbook."
+ },
+ {
+  "work_order_id": "r1-200",
+  "item_id": "d6b49dd7-1953-6eb8-cd05-70ba26a5f6d6",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a regional hospital without an ICU, where CT is available in business hours and patients are retrieved to Adelaide when needed. A 68-year-old man with rheumatoid arthritis, who takes methotrexate 15 mg orally once weekly with folic acid, is admitted with a lower urinary tract infection and mild dehydration; he is not septic. His eGFR is 58 mL/min/1.73 m2, full blood count is normal, and he has no drug allergies. The GP covering the ward asks you to chart an oral antibiotic from the ward's standard options and to check for interactions with his regular medicines before you do.",
+  "lead_in": "Which antibiotic carries the greatest risk of a serious interaction with his regular medicines?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cefalexin"
+   },
+   {
+    "id": "B",
+    "text": "Trimethoprim"
+   },
+   {
+    "id": "C",
+    "text": "Nitrofurantoin"
+   },
+   {
+    "id": "D",
+    "text": "Amoxicillin"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Cefalexin has no clinically important interaction with methotrexate or folic acid and is a reasonable choice for cystitis in a man when susceptibility allows.",
+   "B": "Trimethoprim inhibits dihydrofolate reductase and reduces renal clearance of methotrexate; combined with weekly methotrexate, particularly in an older patient with reduced renal function and dehydration, it can cause severe pancytopenia and mucositis. The combination should be avoided even with low-dose methotrexate.",
+   "C": "Nitrofurantoin does not interact significantly with methotrexate; its main limitation is reduced efficacy and increased toxicity when creatinine clearance is well below 45 mL/min, which should be checked but is a separate issue.",
+   "D": "Amoxicillin has no important interaction with methotrexate at this dose; high-dose penicillins can reduce methotrexate clearance in oncology dosing, but this is not relevant to weekly low-dose rheumatological therapy."
+  },
+  "learning_point": "Trimethoprim, alone or with sulfamethoxazole, must be avoided in patients taking methotrexate because of the risk of severe bone marrow suppression.",
+  "setting_note": "In a regional hospital without a clinical pharmacist on every shift, the junior doctor is often the last interaction check before dispensing; the Australian Medicines Handbook and the medication safety phone line are available at all sites.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Pharmacology",
+   "Musculoskeletal",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "drug interactions",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b08",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Methotrexate: interactions (trimethoprim, sulfamethoxazole)",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Urinary tract infection: acute cystitis in men; antimicrobial choice",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: methotrexate plus trimethoprim (with or without sulfamethoxazole) is a well-documented cause of fatal pancytopenia, amplified by renal impairment, dehydration and older age; other methotrexate interactions include NSAIDs at high dose and proton pump inhibitors in high-dose therapy; weekly methotrexate itself is a high-risk medicine requiring a clearly documented day of the week. Misconceptions: assuming low-dose methotrexate is safe with trimethoprim, or that folic acid supplementation protects against the interaction. Out of scope: antibiotic durations for cystitis in men.",
+  "plan": "Tests recall of the dangerous methotrexate and trimethoprim interaction when choosing a urinary antibiotic, evidencing outcomes 1.8 and 1.1. The regional ward with the GP delegating the interaction check makes the PGY2 responsible. Distractors are the other common oral cystitis agents, none of which interact importantly. Supported by the Australian Medicines Handbook methotrexate interactions entry."
+ }
+]

@@ -4,3 +4,4 @@ dist/
 *.zip
 .env
 .env.*
+__pycache__/

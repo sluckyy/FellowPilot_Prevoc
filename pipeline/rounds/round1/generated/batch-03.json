@@ -1,0 +1,2113 @@
+[
+ {
+  "work_order_id": "r1-051",
+  "item_id": "085a75c6-601d-7e36-f2d4-e1c82f442e47",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional hospital overnight. The hospital has no intensive care unit, CT is available only during business hours, and retrieval to Adelaide is by road or air. A nurse asks you to review a 79-year-old man admitted two days ago with community-acquired pneumonia. He has chronic kidney disease (eGFR 28 mL/min/1.73 m2) and was charted oxycodone 5 mg orally 4-hourly as needed for pleuritic pain; the chart shows five doses in the past 20 hours. He was alert at the evening medication round. He is now difficult to rouse: GCS 9 (E2 V2 M5), respiratory rate 7 breaths/min, SpO2 89% on room air, heart rate 72, blood pressure 118/70 mmHg, temperature 36.9 C and bedside glucose 6.4 mmol/L. His pupils are 2 mm and equal. There is no facial asymmetry and he moves all four limbs when roused.",
+  "lead_in": "What is the most likely cause of his reduced level of consciousness?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypoglycaemia"
+   },
+   {
+    "id": "B",
+    "text": "Hypercapnic respiratory failure from worsening pneumonia"
+   },
+   {
+    "id": "C",
+    "text": "Opioid toxicity from accumulated oxycodone"
+   },
+   {
+    "id": "D",
+    "text": "Intracerebral haemorrhage"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Checking the glucose was the right first step, but a bedside glucose of 6.4 mmol/L excludes hypoglycaemia as the cause.",
+   "B": "Pneumonia can lead to hypercapnia, but this usually follows a period of tachypnoea and increased work of breathing. A respiratory rate of 7 with small pupils in a patient who was alert hours earlier points to central respiratory depression from a drug rather than lung failure. A venous gas is still worth taking.",
+   "C": "Repeated doses of oxycodone accumulate in renal impairment, and the triad of reduced consciousness, a slow respiratory rate and miosis is opioid toxicity. He meets rapid response criteria: call for help, support the airway and breathing with oxygen and bag-valve-mask if needed, give naloxone, withhold further opioids and review the analgesia plan.",
+   "D": "Haemorrhage is possible in an older patient, but there are no focal signs, the pupils are small and equal, and the drug history explains the picture completely. With no CT overnight, the reversible cause must be sought and treated first; failure to respond to naloxone or new focal signs would prompt retrieval for imaging."
+  },
+  "learning_point": "Reduced consciousness with a slow respiratory rate and small pupils in a patient receiving repeated opioid doses, especially with renal impairment, is opioid toxicity until proven otherwise and needs immediate escalation and naloxone.",
+  "setting_note": "Without CT or an intensive care unit overnight, recognising and reversing a drug cause at the bedside matters even more; if he does not respond to naloxone or develops focal signs, contact the physician on call and the retrieval service early.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Older people, delirium and falls",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "reduced level of consciousness",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Toxicology and Toxinology",
+    "locator": "Opioid poisoning - clinical features and management",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Opioid analgesics - oxycodone, use in renal impairment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: opioid toxicity triad is reduced consciousness, respiratory depression and miosis; oxycodone and its metabolites accumulate with eGFR below 30; naloxone can be given in small titrated IV doses (for example 100 micrograms) to restore breathing without full reversal of analgesia, repeated as needed, and its duration is shorter than oxycodone so observation is needed. Common misconceptions: that a normal blood pressure and glucose make a stroke more likely; that a venous gas showing hypercapnia proves pneumonia is the cause. Out of scope: detailed naloxone infusion regimens.",
+  "plan": "Tests recognition of iatrogenic opioid toxicity as a reversible cause of reduced consciousness on a regional ward (outcomes 1.9, 1.1, 1.8). An older man with CKD given repeated as-needed oxycodone presents with GCS 9, RR 7 and miosis overnight when CT is unavailable. Distractors are hypoglycaemia (excluded by the glucose), hypercapnia from pneumonia (tempting given the diagnosis) and haemorrhage (tempting because of age, but no focal signs). Supported by Therapeutic Guidelines Toxicology and the AMH."
+ },
+ {
+  "work_order_id": "r1-052",
+  "item_id": "53ba99d8-4ded-73e0-d910-7ec8d67645dc",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 36-year-old woman was admitted 36 hours ago with community-acquired pneumonia and is improving on intravenous antibiotics. The nurse calls you urgently: the patient has just had a generalised tonic-clonic seizure lasting about two minutes that stopped on its own. She is drowsy but rousable and protecting her airway. Observations: heart rate 118, blood pressure 152/94 mmHg, temperature 37.3 C, SpO2 96% on 2 L/min oxygen. Bedside glucose is 5.9 mmol/L and this morning's sodium was 137 mmol/L. There is no neck stiffness, rash or history of epilepsy. She is tremulous and sweating. Her partner tells you she usually drinks a bottle of wine every evening and has had nothing since admission; the admission notes record no alcohol history.",
+  "lead_in": "What is the most likely cause of her seizure?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypoglycaemia"
+   },
+   {
+    "id": "B",
+    "text": "Alcohol withdrawal"
+   },
+   {
+    "id": "C",
+    "text": "Hyponatraemia"
+   },
+   {
+    "id": "D",
+    "text": "Bacterial meningitis"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Hypoglycaemia is a reversible cause of seizure that must always be checked, but her glucose of 5.9 mmol/L excludes it.",
+   "B": "A first seizure 24 to 48 hours after a heavy drinker's last drink, with tremor, sweating, tachycardia and hypertension, is an alcohol withdrawal seizure. She now needs benzodiazepines according to the withdrawal protocol, thiamine, regular withdrawal scoring and discussion with the physician on call, because untreated withdrawal can progress to further seizures or delirium tremens.",
+   "C": "Severe hyponatraemia can cause seizures, but a sodium of 137 mmol/L this morning makes this very unlikely, and nothing in the history suggests a sudden fall since.",
+   "D": "Meningitis is a serious cause of seizure in a febrile patient, but she is afebrile with no neck stiffness or rash, and her fever source is already explained. The autonomic signs and drinking history point elsewhere."
+  },
+  "learning_point": "A first seizure 24 to 48 hours into an admission in a patient who has stopped drinking, with tremor, sweating and tachycardia, is most likely an alcohol withdrawal seizure; take an alcohol history at every admission so withdrawal can be anticipated and prevented.",
+  "setting_note": "In a regional hospital the seizure and withdrawal are managed locally with benzodiazepines and thiamine under the withdrawal protocol, with the physician on call informed; transfer is considered only if seizures recur, are prolonged or another cause emerges.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "General medicine",
+   "Mental health and behavioural emergencies",
+   "Neurology"
+  ],
+  "domains": [
+   "1.9",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Addiction Medicine",
+    "locator": "Alcohol withdrawal - clinical features, withdrawal seizures and management",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Seizures - first seizure and provoked seizures",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: alcohol withdrawal seizures typically occur 6 to 48 hours after the last drink and are usually brief generalised tonic-clonic events; autonomic hyperactivity (tremor, sweating, tachycardia, hypertension) accompanies them; treatment is diazepam loading per protocol plus thiamine, and prevention requires an alcohol history on admission. Common misconceptions: that a single seizure in a patient without epilepsy always needs urgent CT before treatment; that phenytoin is useful for withdrawal seizures (it is not). Out of scope: management of delirium tremens and Wernicke encephalopathy detail.",
+  "plan": "Tests interpretation of a first inpatient seizure with a missed alcohol history (outcomes 1.9, 1.4). A woman admitted with pneumonia seizes at 36 hours with autonomic signs and normal glucose and sodium. Distractors are the reversible causes an intern should check (glucose, sodium) and meningitis, each excluded by the data given. Supported by Therapeutic Guidelines Addiction Medicine."
+ },
+ {
+  "work_order_id": "r1-053",
+  "item_id": "f11b3de5-3b54-2ab3-0ca8-fab1c5be85a4",
+  "version": 1,
+  "stem": "You are the PGY2 resident covering the surgical ward of a tertiary hospital in Adelaide one evening. A 54-year-old man, day 1 after an open inguinal hernia repair, has a known seizure disorder controlled on sodium valproate; he vomited his morning dose and the evening dose has not yet been given. The nurse calls you to the bedside: he is having a generalised tonic-clonic seizure that began five minutes ago and has not stopped. The nurse has already called a MET, placed him on his side, applied high-flow oxygen and checked a bedside glucose of 6.8 mmol/L. He has a patent intravenous cannula. The MET team is on its way but has not yet arrived.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium valproate 500 mg via a nasogastric tube"
+   },
+   {
+    "id": "B",
+    "text": "Arrange an urgent CT brain"
+   },
+   {
+    "id": "C",
+    "text": "Give levetiracetam 60 mg/kg intravenously over 10 minutes"
+   },
+   {
+    "id": "D",
+    "text": "Give midazolam 5 mg intravenously"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Replacing his regular antiepileptic is important once the seizure has stopped, but it does not terminate an ongoing seizure, and placing a nasogastric tube in a convulsing patient is unsafe.",
+   "B": "Imaging is considered after the seizure is controlled and the patient is stable. This is a provoked seizure in a known epileptic with missed doses; the priority is to stop it.",
+   "C": "Levetiracetam is a second-line agent for status epilepticus, given if seizures continue after a benzodiazepine. It is not the first drug and takes time to work.",
+   "D": "A convulsive seizure lasting five minutes or more is treated as status epilepticus. The first-line treatment is a benzodiazepine such as midazolam 5 to 10 mg intravenously (or intramuscularly if no access), repeated once after 5 minutes if needed, with monitoring of airway and breathing. A PGY2 should give this while the MET is on its way rather than waiting."
+  },
+  "learning_point": "A convulsive seizure lasting five minutes or more is status epilepticus: give a benzodiazepine (such as midazolam 5 to 10 mg intravenously or intramuscularly) immediately while help is called, before second-line agents or imaging.",
+  "setting_note": "In a tertiary hospital the MET arrives within minutes; in a rural hospital the same benzodiazepine is given by the junior doctor, with the GP on call and the retrieval service contacted early if the seizure does not stop.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Neurology",
+   "Surgery and perioperative care",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.9",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Convulsive status epilepticus in adults - first-line benzodiazepine therapy",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Midazolam - status epilepticus dosing",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: operational definition of status epilepticus is 5 minutes of continuous convulsive seizure or recurrent seizures without recovery; first line is a benzodiazepine (midazolam 5 to 10 mg IV or IM, clonazepam 1 mg IV or diazepam 10 mg IV), repeated once; second line is levetiracetam, sodium valproate or phenytoin by IV loading; airway, oxygen, glucose and timing matter throughout. Common misconceptions: waiting for the MET before giving any drug; giving the regular oral antiepileptic first; rushing to CT. Out of scope: refractory status and anaesthetic induction.",
+  "plan": "Tests the first-line drug for status epilepticus at PGY2 level on a surgical ward (outcomes 1.9, 1.8). A known epileptic has missed valproate doses postoperatively and is still convulsing at five minutes with a MET called and IV access in situ. Distractors are the regular antiepileptic, a second-line IV agent and imaging. Supported by Therapeutic Guidelines Neurology and the AMH."
+ },
+ {
+  "work_order_id": "r1-054",
+  "item_id": "5e6f5ca8-3906-c250-22ad-1f66f9cf9b42",
+  "version": 1,
+  "stem": "You are the junior doctor covering the medical ward of a rural hospital on the Yorke Peninsula overnight; the 4-bed emergency department is also your responsibility and the GP is on call from home. At 02:00 a nurse phones about a 34-year-old woman who had a laparoscopic appendicectomy yesterday afternoon. Her observations are heart rate 124 and regular, blood pressure 118/72 mmHg, respiratory rate 18, SpO2 97% on room air and temperature 37.4 C. All earlier observations were normal and she has had no pain relief for 6 hours. The nurse says the heart rate falls in the yellow zone of the Rapid Detection and Response observation chart and asks what the policy requires her and you to do.",
+  "lead_in": "Under the SA Health Rapid Detection and Response policy, what response does an observation in the yellow zone require?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An immediate rapid response (MET) call, with the patient moved to a monitored bed"
+   },
+   {
+    "id": "B",
+    "text": "Medical review of the patient within 30 minutes, with observations repeated more frequently"
+   },
+   {
+    "id": "C",
+    "text": "Observations repeated in one hour, with escalation only if they remain abnormal"
+   },
+   {
+    "id": "D",
+    "text": "Documentation of the observation and review on the morning ward round"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A rapid response call is the response to a red zone observation (for example a heart rate of 140 or more) or to serious clinical worry. A yellow zone heart rate alone does not mandate a MET call, though the doctor may escalate at any time.",
+   "B": "A yellow zone observation requires the nurse to notify the nurse in charge and the covering doctor, who must review the patient within 30 minutes, and observations are increased in frequency until the patient is stable. Here the review should look for pain, bleeding, hypovolaemia, infection or pulmonary embolism as causes of new tachycardia.",
+   "C": "Repeating observations without review delays recognition of the cause. Tachycardia is often the first sign of bleeding or sepsis after surgery, and waiting an hour is not what the policy allows.",
+   "D": "Deferring review to the morning ignores the escalation criteria. The chart exists so that abnormal observations trigger timely action overnight."
+  },
+  "learning_point": "On the SA Health Rapid Detection and Response chart a yellow zone observation requires medical review within 30 minutes and increased observation frequency, while a red zone observation requires an immediate rapid response call.",
+  "setting_note": "In a rural hospital the reviewing doctor is often the only doctor on site; if the review finds a likely cause such as bleeding, the GP on call should be phoned early rather than after the patient reaches the red zone.",
+  "learning_area": "Deteriorating patient",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Patient safety, quality and systems",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "tachycardia after surgery",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "minor",
+   "uncertainty_note": "The 30-minute yellow zone review is the standard SA Health RDR response, but individual sites and Local Health Networks may apply locally modified escalation criteria; reviewers should confirm against the current SA Health policy directive."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy Directive and Rapid Detection and Response (RDR) Observation Chart",
+    "locator": "Escalation protocol - yellow zone and red zone responses",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards - Recognising and Responding to Acute Deterioration Standard",
+    "locator": "Escalating care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: yellow zone requires notification of the nurse in charge and medical review within 30 minutes with increased observations; red zone requires an immediate rapid response call; the 'worried' criterion allows escalation at any time; new postoperative tachycardia should prompt a search for pain, bleeding, hypovolaemia, sepsis and pulmonary embolism. Common misconceptions: that normal blood pressure makes tachycardia benign; that the yellow zone can be re-checked without a doctor seeing the patient. Out of scope: management of each cause of postoperative tachycardia.",
+  "plan": "Tests recall of the SA Health RDR escalation response for a yellow zone observation (outcomes 1.9, 1.1), the most basic safety fact for a junior doctor covering a ward. A postoperative woman has new tachycardia at 124 with otherwise normal observations. Distractors are over-escalation (MET), under-escalation (repeat in an hour) and deferral to the morning. Supported by the SA Health RDR policy and the ACSQHC deterioration standard."
+ },
+ {
+  "work_order_id": "r1-055",
+  "item_id": "92caa6c5-4fba-c550-134d-341a3a6338ee",
+  "version": 1,
+  "stem": "You are the intern covering the medical wards overnight at a tertiary hospital in Adelaide. At 01:30 a nurse asks you to chart intravenous fluids for a 58-year-old man admitted three days ago with community-acquired pneumonia. His sodium today is 122 mmol/L, down from 131 mmol/L on admission, and the nurse says he has been intermittently confused this evening, which is new. His observations are within normal limits and he is not vomiting. You have never managed hyponatraemia and are unsure whether he needs fluid restriction, saline or something else. The medical registrar is in the emergency department with an unwell patient and said at the start of the shift, 'Only call me if it is really urgent.' There is a hyponatraemia guideline on the intranet, and the emergency department consultant is also in the building.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the medical registrar now with an ISBAR summary and ask for advice"
+   },
+   {
+    "id": "B",
+    "text": "Follow the intranet guideline, chart 0.9% sodium chloride 1 L over 8 hours and review in the morning"
+   },
+   {
+    "id": "C",
+    "text": "Ask the nurse to start a 1 L fluid restriction and repeat the sodium with the morning bloods"
+   },
+   {
+    "id": "D",
+    "text": "Go to the emergency department and ask the ED consultant to advise on the fluids"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "New confusion with a sodium of 122 mmol/L is symptomatic hyponatraemia, which is potentially urgent and beyond an intern's experience. The registrar's comment does not remove the duty to call; a concise ISBAR handover lets the registrar decide whether to come, advise by phone or involve the consultant. Asking for help when out of your depth is a core safety behaviour, not a failing.",
+   "B": "A guideline helps, but choosing the right fluid in hyponatraemia depends on assessing volume status, the likely cause (here probably SIADH from pneumonia) and symptoms. The wrong fluid can worsen the sodium, and deferring review of a confused patient until morning is unsafe.",
+   "C": "Fluid restriction may turn out to be appropriate, but deciding this alone and leaving a symptomatic patient unreviewed until the morning bloods is outside intern scope and delays care.",
+   "D": "The ED consultant is not responsible for inpatients and asking them bypasses the team's line of escalation. This becomes reasonable only if the registrar and then the on-call consultant cannot be reached."
+  },
+  "learning_point": "When a problem is beyond your experience and potentially urgent, call the registrar with an ISBAR summary regardless of how busy they said they were; asking for help is expected of a safe junior doctor.",
+  "setting_note": "In a rural hospital the equivalent call is to the GP or physician on call by phone, and the intern may need to start simple safe measures (strict fluid balance, repeat sodium, neurological observations) while waiting for advice.",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Communication, handover and consent",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "2.2",
+   "2.4",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "asking for help",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia - Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 2 Providing good care - recognising and working within the limits of your competence",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational (PGY1 and PGY2) Medical Training",
+    "locator": "Outcome statements 2.2 and 2.4",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Hyponatraemia - assessment and management",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hyponatraemia with new neurological symptoms needs prompt senior assessment; management depends on volume status and cause, and both saline and fluid restriction can be wrong; ISBAR (Identify, Situation, Background, Assessment, Request) structures the call; graded assertiveness applies if the registrar brushes the call off. Common misconceptions: that a registrar's request to limit calls overrides patient safety; that a guideline substitutes for experience in a symptomatic patient. Out of scope: hypertonic saline regimens.",
+  "plan": "Tests willingness and method of asking for help when out of depth overnight (outcomes 2.2, 2.4, 1.1). The intern faces symptomatic hyponatraemia, a reluctant registrar and tempting shortcuts. Distractors are acting alone from a guideline, a nurse-delivered half measure deferred to morning, and bypassing the escalation line to the ED consultant. Supported by Good medical practice and the AMC framework."
+ },
+ {
+  "work_order_id": "r1-056",
+  "item_id": "832fff68-2ed1-45f4-7998-179883020cf6",
+  "version": 1,
+  "stem": "You are the intern at a country hospital 90 minutes from the nearest tertiary centre, covering the general ward and the emergency department overnight. You started at 08:00 and were rostered to finish at 22:00, but the doctor due to relieve you has called in sick, and the GP on call asks whether you can stay until the locum arrives at 08:00. A 56-year-old man with chest pain has just arrived in the emergency department and there are 14 inpatients on the ward. You feel reasonably alert but you also have a shift tomorrow starting at 14:00. Before you phone the director of medical services you want to describe the fatigue risk accurately using the AMA National Code of Practice on hours of work.",
+  "lead_in": "According to the AMA National Code of Practice on hours of work for hospital doctors, which of the following rostering patterns is classified as a higher risk for fatigue?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A break of 12 hours between consecutive shifts"
+   },
+   {
+    "id": "B",
+    "text": "Five consecutive days of 10-hour shifts"
+   },
+   {
+    "id": "C",
+    "text": "A single continuous period of duty longer than 14 hours"
+   },
+   {
+    "id": "D",
+    "text": "A total of 50 hours worked in one week"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "The Code regards fewer than 10 hours between shifts as a higher-risk pattern; a 12-hour break meets the minimum recommended rest period.",
+   "B": "Five consecutive days is a routine working week. The Code flags higher risk at more than seven consecutive days of work.",
+   "C": "A continuous period of duty longer than 14 hours is a recognised higher-risk indicator in the Code, because performance after 16 to 18 hours awake is impaired to a degree comparable with alcohol intoxication. Staying until 08:00 would mean a 24-hour duty period and a short break before the next shift, so the request should be named as higher-risk and the director of medical services asked to find alternative cover, with the chest-pain patient managed with the GP on call in the meantime.",
+   "D": "Fifty hours in a week is within the Code's lower-risk range; the Code identifies total weekly hours above 70 as higher risk."
+  },
+  "learning_point": "A continuous period of duty longer than 14 hours, or a break of fewer than 10 hours between shifts, places a doctor in the higher-risk fatigue category; name the risk and escalate to the director of medical services rather than silently working on.",
+  "setting_note": "Fatigue management is hardest in small rural hospitals where the junior doctor may be the only doctor on site; responsibility for finding cover sits with the director of medical services, and the chest-pain patient must be handed over to or managed with the GP on call rather than left to an impaired doctor.",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Rural and remote",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "2.2",
+   "2.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "fatigue and safe working hours",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "minor",
+   "uncertainty_note": "The AMA Code is guidance rather than law; enforceable limits for SA junior doctors sit in the SA Salaried Medical Officers Enterprise Agreement, and exact thresholds in the Code's risk assessment should be checked against the current edition."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian Medical Association - National Code of Practice: Hours of Work, Shiftwork and Rostering for Hospital Doctors (2016)",
+    "locator": "Fatigue risk assessment - higher-risk indicators (shift length, breaks between shifts, consecutive days, weekly hours)",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia - Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 11 Ensuring doctors' health - your health, including the effects of fatigue",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: AMA Code higher-risk indicators include shifts longer than 14 hours, fewer than 10 hours between shifts, more than seven consecutive days, and more than 70 hours in a week; fatigue impairs judgement comparably to alcohol; fatigue risk should be raised with the responsible manager. Common misconceptions: that feeling alert means low risk; that a junior doctor is obliged to accept a cover request. Out of scope: industrial entitlements and penalty rates.",
+  "plan": "Tests recall of the AMA fatigue risk thresholds a junior doctor needs to advocate for safe hours (outcomes 2.2, 2.8, 1.1). A rural intern at the end of a 14-hour shift is asked to work through the night while a chest-pain patient arrives. Distractors are patterns within the lower-risk range (12-hour break, five days, 50 hours). Supported by the AMA Code and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-057",
+  "item_id": "34890f59-46e4-6f6b-12fc-0ebbcdf149a6",
+  "version": 1,
+  "stem": "You are a junior doctor on the surgical ward of a rural hospital on the Yorke Peninsula. The 4-bed emergency department is staffed overnight by one junior doctor, with the GP on call. A 79-year-old man had a hemiarthroplasty for a fractured neck of femur three days ago, performed by the visiting orthopaedic surgeon. Overnight his creatinine rose from 98 to 176 micromol/L; the result was released at 06:40, after you had handed over and left the hospital, and the GP on call reviewed him. At 08:30 the surgeon stops you in the corridor on his way to theatre and says, 'You need to be far more on top of your post-op patients,' before walking off. You feel the comment is unfair. The surgeon is also your term supervisor and your mid-term assessment is due next week.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain immediately in the corridor that the result was released after handover so the criticism is misplaced"
+   },
+   {
+    "id": "B",
+    "text": "Accept the comment without discussion and resolve to check results more frequently"
+   },
+   {
+    "id": "C",
+    "text": "Report the comment to the Director of Clinical Training as unprofessional feedback"
+   },
+   {
+    "id": "D",
+    "text": "Ask the surgeon for a time later that day to discuss the specific concern and agree what should change"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Defending yourself as the surgeon walks to theatre is likely to be heard as argument rather than reflection, and a corridor is not the place to establish what happened. The facts can be presented calmly in a proper conversation.",
+   "B": "Passive acceptance leaves the real issue unexamined. If the system for following up results released after handover is the problem, resolving to work harder will not fix it, and the surgeon's impression of you will stand uncorrected before your assessment.",
+   "C": "Blunt feedback is not the same as bullying or harassment. Escalating to the Director of Clinical Training before any direct conversation skips the normal first step and may damage a working relationship in a small team; it remains an option if direct discussion fails or the behaviour is repeated.",
+   "D": "Seeking a timely, specific conversation lets you understand the concern, present the handover timeline without defensiveness, and agree an action, for example how overnight results are followed up by the night doctor or GP on call. This models receiving feedback well and is the appropriate way to clarify expectations before a mid-term assessment."
+  },
+  "learning_point": "Brief or blunt feedback is still feedback: respond by seeking a timely, specific conversation about the concern and agreeing an action, rather than defending yourself on the spot, dismissing it or escalating prematurely.",
+  "setting_note": "In a rural hospital with a visiting surgeon, opportunities for feedback are scarce and the team is small; a scheduled conversation also allows the system for results released after handover to be fixed, so the problem is not left with one individual.",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Communication, handover and consent",
+   "Rural and remote"
+  ],
+  "domains": [
+   "2.3",
+   "2.5",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "feedback and supervision",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational (PGY1 and PGY2) Medical Training",
+    "locator": "Outcome statements 2.3 (seeking and responding to feedback) and 2.5 (interprofessional teamwork)",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia - Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4 Working with other health care professionals - respect for colleagues",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: effective feedback is timely, specific and leads to an agreed action; the recipient's role is to seek clarification and reflect, not to argue or passively accept; result follow-up across handover is a system responsibility that should be made explicit at handover. Common misconceptions: that unfair-seeming feedback should be rebutted immediately or reported; that accepting feedback means agreeing with every word. Out of scope: formal bullying and harassment processes, which apply to repeated or demeaning behaviour.",
+  "plan": "Tests how a junior doctor should respond to blunt feedback from a supervisor in a small rural team (outcomes 2.3, 2.5). A post-hip fracture patient's creatinine rise was released after handover and the surgeon criticises the resident in passing. Distractors are immediate rebuttal, passive acceptance and premature escalation. Supported by the AMC framework and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-058",
+  "item_id": "5ce5d225-7c57-efb9-29e1-4534056d543c",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a tertiary hospital in Adelaide. At 23:15 you have four calls waiting. A nurse on the gynaecology ward phones about a 34-year-old woman who had a laparoscopic ovarian cystectomy this afternoon: her observations are all within the white zone of the chart, her pain is controlled and she has had no bleeding, but the nurse says, 'She just doesn't look right to me, and I have looked after a lot of these patients.' The other calls are: a 72-year-old man whose intravenous fluids finish in 90 minutes and need recharting; a request to rewrite a regular medication chart that has run out of space before the 08:00 round; and a sodium of 133 mmol/L phoned through on a stable patient. The medical registrar is in the emergency department.",
+  "lead_in": "Which task should you attend to first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Go to the gynaecology ward and assess the woman the nurse is worried about"
+   },
+   {
+    "id": "B",
+    "text": "Rechart the intravenous fluids before they run out"
+   },
+   {
+    "id": "C",
+    "text": "Rewrite the medication chart before the morning round"
+   },
+   {
+    "id": "D",
+    "text": "Review the patient with a sodium of 133 mmol/L"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Clinician concern ('worried') is an escalation criterion in its own right on the SA Health observation chart and under the national deterioration standard, independent of the numbers. An experienced nurse's unease after laparoscopic surgery may be the earliest sign of occult bleeding or another complication, and a bedside assessment now is the safest and most respectful response to a colleague's judgement.",
+   "B": "Fluids that finish in 90 minutes are a real task but carry no immediate risk; they can be charted after the review, or the nurse can be asked to slow the rate if needed.",
+   "C": "A medication chart rewrite is administrative and can wait until later in the shift or be done by the day team; no doses are due to be missed overnight.",
+   "D": "A sodium of 133 mmol/L in a stable patient is a mild abnormality that needs noting and a plan, not urgent review."
+  },
+  "learning_point": "An experienced nurse's concern about a patient is a recognised escalation criterion in its own right: review that patient first, even when the charted observations are normal.",
+  "setting_note": "In a small rural hospital with no registrar on site the same principle applies, and the junior doctor should lower their threshold for phoning the GP or surgeon on call if the bedside review does not reassure them.",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Surgery and perioperative care",
+   "Obstetrics and women's health"
+  ],
+  "domains": [
+   "2.5",
+   "1.9",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "interprofessional teamwork",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards - Recognising and Responding to Acute Deterioration Standard",
+    "locator": "Escalating care - clinician and family concern as a trigger",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response (RDR) Observation Chart",
+    "locator": "Escalation criteria - 'worried' criterion",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the 'worried' criterion lets any clinician or family member escalate regardless of observations; nursing intuition has recognised predictive value for deterioration; after laparoscopic gynaecological surgery occult bleeding may present before observations change. Common misconceptions: that normal observations make a nurse's concern low priority; that administrative tasks with deadlines outrank patient review. Out of scope: the specific assessment of postoperative bleeding.",
+  "plan": "Tests prioritisation of a nurse's clinical worry over routine tasks (outcomes 2.5, 1.9, 2.8). Four overnight calls compete; the only one with clinical risk is a postoperative woman with normal observations about whom an experienced nurse is worried. Distractors are time-limited or administrative tasks and a trivially abnormal result. Supported by the ACSQHC deterioration standard and the SA Health RDR chart."
+ },
+ {
+  "work_order_id": "r1-059",
+  "item_id": "b232e727-ad8f-bba2-3cc1-342c9c14ef2e",
+  "version": 1,
+  "stem": "You are a PGY2 resident on the medical ward of a large metropolitan teaching hospital. Your co-resident is off sick and no cover has been found, so you are looking after 24 patients across two teams. It is 14:30 and you have not had a break since 08:00. The ward pharmacist has intercepted two of your prescribing errors this morning: enoxaparin charted at a treatment dose instead of a prophylactic dose, and an antibiotic charted for a patient with a documented anaphylaxis to it. You have five discharge summaries outstanding and a 38-year-old woman with a newly diagnosed pulmonary embolism needs her anticoagulation charted. The registrar is in clinic and has told you to 'just do your best'. You notice you are irritable and are re-reading results several times.",
+  "lead_in": "How should this situation be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal busy day on a medical ward that should be managed by working faster"
+   },
+   {
+    "id": "B",
+    "text": "An unsafe workload with early signs of error that requires immediate escalation to the registrar or consultant"
+   },
+   {
+    "id": "C",
+    "text": "A problem of personal time management best addressed by a course after the rotation"
+   },
+   {
+    "id": "D",
+    "text": "A sign that you lack the knowledge to prescribe safely and should stop prescribing until retrained"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Working faster under these conditions increases error. Two intercepted prescribing errors in one morning are near misses, not normal background noise.",
+   "B": "Doubling a resident's patient load without cover, no break for six hours, two near-miss prescribing errors, irritability and difficulty concentrating are the recognised markers of an unsafe workload. The right response is to tell the registrar and, if necessary, the consultant or medical administration now so that tasks can be redistributed or cover found, and to prioritise the time-critical anticoagulation. Reporting the near misses through the incident system is also appropriate.",
+   "C": "Time management skills matter, but this is a staffing and system problem affecting patient safety today; deferring it to a course leaves the current patients at risk.",
+   "D": "These are errors of attention under overload, not of knowledge. Stopping prescribing is not possible when a patient with pulmonary embolism needs anticoagulation; the fix is reducing the load and double-checking high-risk prescriptions."
+  },
+  "learning_point": "Intercepted prescribing errors, skipped breaks and irritability during an uncovered workload are warning signs of unsafe workload, and the correct response is to tell the registrar or consultant now so that tasks can be redistributed.",
+  "setting_note": "",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "2.8",
+   "2.2",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "managing a heavy workload",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational (PGY1 and PGY2) Medical Training",
+    "locator": "Outcome statements 2.2 (recognising own limits and fatigue) and 2.8 (managing time and workload)",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia - Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 11 Ensuring doctors' health",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards - Medication Safety Standard",
+    "locator": "Medication safety - reporting and learning from medication incidents",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: near misses are incidents and should be reported; overload, hunger and fatigue degrade attention and prescribing accuracy; escalation of workload is a professional obligation, not a weakness; high-risk medicines (anticoagulants, antimicrobials with allergy) deserve a deliberate double check. Common misconceptions: that asking for help reflects poorly on the resident; that discharge summaries outrank clinical prescribing. Out of scope: enoxaparin dosing detail.",
+  "plan": "Tests recognition that a pattern of near misses under an uncovered workload is unsafe and must be escalated (outcomes 2.8, 2.2, 1.1). A PGY2 covering two teams has two intercepted prescribing errors and a patient needing anticoagulation. Distractors normalise the day, individualise the problem as time management, or misread it as a knowledge gap. Supported by the AMC framework and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-060",
+  "item_id": "9a037570-3241-a461-a7ee-ce16a4d19314",
+  "version": 1,
+  "stem": "You are the junior doctor on an evening cover shift at a tertiary hospital in Adelaide. At 19:00 the handover list gives you four new tasks. A 78-year-old woman, day 2 after fixation of a hip fracture, has become newly confused; her respiratory rate is 26, blood pressure 98/60 mmHg (usually 140/80) and heart rate 108, and the nurse has increased her observations and asked for review. A 66-year-old man on warfarin has an INR of 3.4 and his evening dose is due. A 50-year-old woman needs her intravenous cannula resited for antibiotics due in two hours. An 83-year-old man in the emergency department has waited three hours to be clerked for admission; his observations are stable and the ED consultant has phoned twice asking when you will come. The medical registrar is attending a cardiac arrest.",
+  "lead_in": "Which patient should you see first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The man on warfarin with an INR of 3.4 whose dose is due"
+   },
+   {
+    "id": "B",
+    "text": "The woman who needs her cannula resited for antibiotics"
+   },
+   {
+    "id": "C",
+    "text": "The woman with new confusion, tachypnoea and hypotension after hip surgery"
+   },
+   {
+    "id": "D",
+    "text": "The man waiting to be clerked in the emergency department"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "An INR of 3.4 is mildly above range; the evening dose can be withheld by phone and the plan reviewed after the sick patient has been seen. It carries no minute-to-minute risk.",
+   "B": "Antibiotics due in two hours give time; the cannula can be resited after the deteriorating patient has been assessed, or by a nurse credentialed to cannulate.",
+   "C": "New confusion with a respiratory rate of 26, a fall in systolic blood pressure of more than 40 mmHg from baseline and tachycardia meets escalation criteria and suggests sepsis, bleeding or pulmonary embolism after hip surgery. She is the only patient on the list at immediate risk of harm, and because the registrar is at an arrest you should see her now, begin assessment and treatment, and call for help if she meets rapid response criteria.",
+   "D": "The emergency department patient is stable and the pressure to attend is social rather than clinical. A courteous call to the ED consultant explaining the deteriorating patient and giving an estimated time is appropriate; the clerking follows."
+  },
+  "learning_point": "Prioritise by clinical risk: new confusion with tachypnoea and a relative drop in blood pressure meets escalation criteria and may be sepsis or another deterioration, and it comes before tasks that are merely time-limited or socially pressured.",
+  "setting_note": "In a rural hospital with no registrar the same patient is seen first and the GP on call phoned early, with the retrieval service in mind if she does not respond to initial treatment.",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Older people, delirium and falls",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "2.8",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "prioritising a ward call list",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Rapid Detection and Response (RDR) Observation Chart",
+    "locator": "Escalation criteria - respiratory rate, systolic blood pressure and new confusion",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Sepsis Clinical Care Standard",
+    "locator": "Quality statement - recognising sepsis and escalating care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a relative fall in systolic blood pressure of 40 mmHg or more from baseline is as important as the absolute number; new confusion in an older postoperative patient is an organ dysfunction sign; a prioritisation framework (sick, time-critical, routine) helps on evening cover; communicating delays to colleagues is part of safe prioritisation. Common misconceptions: that a consultant's phone calls define urgency; that a supratherapeutic INR without bleeding is an emergency. Out of scope: management of postoperative sepsis.",
+  "plan": "Tests prioritisation of a ward call list by clinical risk (outcomes 2.8, 1.9). Four handover tasks compete; the postoperative older woman with new confusion, tachypnoea and relative hypotension is the only deteriorating patient. Distractors are a mildly high INR with a dose due, a cannula with a two-hour deadline and a stable ED patient backed by a persistent consultant. Supported by the SA Health RDR chart and the Sepsis Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-061",
+  "item_id": "8d564ee4-7af9-100c-e3c0-43a950eb4a48",
+  "version": 1,
+  "stem": "You are working in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. There is no ultrasound until the visiting sonographer arrives tomorrow afternoon. A 33-year-old woman presents at 21:00 with 6 hours of left iliac fossa pain and light vaginal spotting. Her last menstrual period was 7 weeks ago. She has had no previous pregnancies and no abdominal surgery. Observations: heart rate 96, blood pressure 118/74 mmHg, respiratory rate 16, temperature 36.8 C. The abdomen is tender in the left iliac fossa without guarding or rebound. Urine hCG is positive. Serum hCG is 2,100 IU/L and haemoglobin is 128 g/L. She asks whether she can go home and come back for the scan tomorrow.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A threatened miscarriage, because bleeding with stable observations makes ectopic pregnancy unlikely"
+   },
+   {
+    "id": "B",
+    "text": "A viable intrauterine pregnancy, because a serum hCG above 1,500 IU/L indicates an intrauterine gestation"
+   },
+   {
+    "id": "C",
+    "text": "Early appendicitis in pregnancy, because the pain is unilateral and the hCG is low for 7 weeks"
+   },
+   {
+    "id": "D",
+    "text": "A pregnancy of unknown location in which ectopic pregnancy must be assumed until excluded by ultrasound"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Vaginal bleeding occurs in both miscarriage and ectopic pregnancy and does not distinguish them. Stable observations do not exclude an unruptured ectopic, which can rupture without warning; a diagnosis of miscarriage cannot be made without imaging.",
+   "B": "The so-called discriminatory level of hCG (around 1,500 to 2,000 IU/L) is the level above which an intrauterine pregnancy should be visible on transvaginal ultrasound. If none is seen at this level, ectopic pregnancy becomes more likely. An hCG value on its own never confirms the location of a pregnancy.",
+   "C": "Appendicitis is usually right-sided and she is afebrile. In a pregnant woman with unilateral pelvic pain and bleeding, ectopic pregnancy is the diagnosis that must be excluded first, and hCG values at 7 weeks vary too widely to call 2,100 IU/L low.",
+   "D": "Pain and bleeding with a positive pregnancy test and no ultrasound localisation is a pregnancy of unknown location, and ectopic pregnancy is assumed until excluded. She should not be discharged. The on-call obstetrics and gynaecology service should be phoned now, intravenous access secured, blood taken for group and hold, and same-night transfer or imaging arranged."
+  },
+  "learning_point": "A woman with abdominal pain, vaginal bleeding and a positive pregnancy test has an ectopic pregnancy until ultrasound proves otherwise; stable observations and a quantitative hCG cannot exclude it.",
+  "setting_note": "Where ultrasound is unavailable overnight, discuss immediately with the on-call obstetrics and gynaecology service, secure intravenous access and a group and hold, and arrange transfer or same-night imaging rather than discharging her to return for a scan; involve the retrieval service early if she deteriorates.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Obstetrics and women's health",
+   "Rural and remote",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.4",
+   "1.5",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "acute abdominal pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "South Australian Perinatal Practice Guideline - Ectopic Pregnancy",
+    "locator": "Diagnosis - pregnancy of unknown location, role of serum hCG and transvaginal ultrasound",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RANZCOG - Early pregnancy complications (ectopic pregnancy) clinical guidance",
+    "locator": "Assessment of pain and bleeding in early pregnancy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: pregnancy of unknown location is a positive hCG with no intrauterine or extrauterine pregnancy seen on ultrasound; the discriminatory hCG level helps interpret an ultrasound, not replace it; ectopic pregnancy remains a leading cause of maternal death in the first trimester; risk factors include previous ectopic, tubal surgery, pelvic infection and assisted reproduction but most women have none. Common misconceptions: that normal observations exclude ectopic; that bleeding means miscarriage; that a 'high' hCG proves an intrauterine pregnancy. Out of scope: methotrexate versus surgical management.",
+  "plan": "Tests interpretation of early pregnancy pain and bleeding when ultrasound is unavailable (outcomes 1.4, 1.5, 1.9). A woman at 7 weeks with unilateral pain, spotting and hCG 2,100 IU/L asks to go home. The distractors each misuse one reassuring feature (stable observations, hCG above the discriminatory level, laterality) to reach a false diagnosis. Supported by the SA Perinatal Practice Guideline on ectopic pregnancy."
+ },
+ {
+  "work_order_id": "r1-062",
+  "item_id": "7cfa1dd9-22b1-1cce-5979-0c618f25027b",
+  "version": 1,
+  "stem": "You are the junior doctor in the emergency department of a regional hospital with a small medical ward, no intensive care unit, CT during business hours only and retrieval to Adelaide by road or air. A 19-year-old woman with known asthma arrives at 02:00 with 6 hours of worsening wheeze after a viral illness. In the past hour she has had salbutamol 12 puffs via spacer three times, ipratropium and oral prednisolone 50 mg. She can speak only in single words, sits forward using her accessory muscles, and has a respiratory rate of 32, heart rate 128, SpO2 92% on 6 L/min oxygen by mask and a quiet chest with faint wheeze. A venous blood gas shows pH 7.36, pCO2 44 mmHg, bicarbonate 24 mmol/L and lactate 2.8 mmol/L. The nurse comments that the gas 'looks normal'.",
+  "lead_in": "How should the blood gas result be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The normal pH and pCO2 confirm a moderate attack that can continue on the current treatment"
+   },
+   {
+    "id": "B",
+    "text": "A normal or rising pCO2 in a patient this breathless indicates exhaustion and impending respiratory failure"
+   },
+   {
+    "id": "C",
+    "text": "The raised lactate indicates sepsis as the cause of her deterioration"
+   },
+   {
+    "id": "D",
+    "text": "A venous gas cannot be interpreted in acute asthma and an arterial sample is required before any decision"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A patient breathing at 32 per minute should be blowing off carbon dioxide and have a low pCO2. A 'normal' pCO2 here is abnormal, and her clinical features (single words, accessory muscles, quiet chest) already place her in the severe to life-threatening category regardless of the gas.",
+   "B": "In severe asthma, a pCO2 that is normal or rising means ventilation is no longer keeping up with the work of breathing: she is tiring and is at risk of respiratory arrest. This requires immediate senior involvement, continuous nebulised salbutamol, intravenous magnesium and, in a hospital without intensive care, an urgent call to the retrieval service and the physician on call.",
+   "C": "A mildly raised lactate in acute asthma is common and is largely due to high-dose salbutamol and the work of breathing; nothing here suggests sepsis, and chasing that explanation would distract from the airway threat.",
+   "D": "A venous gas is adequate to screen pCO2 and pH in acute asthma, and arterial sampling should not delay escalation. The clinical picture alone demands action."
+  },
+  "learning_point": "In acute asthma a hyperventilating patient should have a low pCO2; a normal or rising pCO2 with severe clinical features signals exhaustion and impending respiratory failure and requires immediate senior and retrieval involvement.",
+  "setting_note": "With no intensive care unit on site, this patient needs an urgent call to the retrieval service and the physician on call now, continuous nebulised salbutamol and intravenous magnesium while awaiting transfer; do not wait for further deterioration before calling.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Rural and remote",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.5",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "acute asthma",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Asthma Council Australia - Australian Asthma Handbook",
+    "locator": "Acute asthma in adults and adolescents - assessing severity and indications for intensive care",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Respiratory",
+    "locator": "Acute asthma in adults - severe and life-threatening asthma",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: severity is judged clinically (ability to speak, work of breathing, oxygen saturation, conscious state, chest sounds); a normal or raised pCO2 in a tachypnoeic asthmatic is a sign of fatigue; salbutamol causes lactate rise; life-threatening asthma warrants continuous nebulised salbutamol, intravenous magnesium 10 mmol, and early intensive care or retrieval. Common misconceptions: that a normal gas is reassuring; that arterial sampling is needed before acting; that a quiet chest means improvement. Out of scope: ventilation strategies.",
+  "plan": "Tests interpretation of a deceptively normal blood gas in severe asthma at a hospital without intensive care (outcomes 1.5, 1.9). A young woman with severe clinical features has a normal pCO2 and a mildly raised lactate. Distractors are false reassurance from the gas, misattribution of lactate to sepsis, and insistence on an arterial sample. Supported by the Australian Asthma Handbook and Therapeutic Guidelines Respiratory."
+ },
+ {
+  "work_order_id": "r1-063",
+  "item_id": "c8a11043-e3f0-f9d1-5158-19739ae81c0b",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital at 23:00; the medical registrar is on site and the orthopaedic registrar is on call from home. A 23-year-old man presents with 4 days of severe low back pain after lifting a heavy box at work. Today he has developed numbness around his buttocks and perineum, has had difficulty starting his urine stream, and did not notice passing a small amount of urine in his underwear. Examination shows power 4/5 in ankle dorsiflexion bilaterally, reduced sensation in the S3 to S4 dermatomes and reduced anal tone. His observations are normal and he is afebrile. A bladder scan shows a post-void residual of 650 mL. He asks for strong pain relief so he can go home and see his GP.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inform the registrar now and request urgent MRI of the lumbosacral spine"
+   },
+   {
+    "id": "B",
+    "text": "Request plain X-rays of the lumbar spine and review the result before escalating"
+   },
+   {
+    "id": "C",
+    "text": "Insert an indwelling catheter, give analgesia and admit for physiotherapy review in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Discharge with analgesia and a referral for an outpatient MRI within one week"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Saddle anaesthesia, urinary retention with overflow, bilateral leg weakness and reduced anal tone are cauda equina syndrome until proven otherwise. The intern's job is immediate escalation to the registrar and an emergency MRI (or CT if MRI is unavailable), with referral to the spinal or neurosurgical service, because outcome depends on time to decompression. An indwelling catheter and analgesia are given alongside, not instead.",
+   "B": "Plain X-rays do not show disc herniation or cord compression and will not change the need for MRI; waiting for them delays the diagnosis.",
+   "C": "Catheterising a retaining bladder is appropriate supportive care, but admitting him for physiotherapy in the morning treats this as mechanical back pain and misses the surgical emergency.",
+   "D": "Discharge is unsafe. Red flags for cauda equina syndrome require same-day imaging, not an outpatient scan."
+  },
+  "learning_point": "Back pain with saddle anaesthesia, urinary retention or incontinence and reduced anal tone is cauda equina syndrome until proven otherwise and needs immediate escalation and emergency MRI, because outcome depends on time to decompression.",
+  "setting_note": "In a rural hospital without MRI the same findings mandate an immediate phone call to the on-call surgical or spinal service and arrangement of urgent transfer for imaging; do not wait for morning.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Musculoskeletal",
+   "Neurology",
+   "Radiology"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Low Back Pain Clinical Care Standard (2022)",
+    "locator": "Quality statement 1 - Initial clinical assessment: features suggesting serious pathology including cauda equina syndrome",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Rheumatology",
+    "locator": "Low back pain - red flags and urgent referral",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: cauda equina red flags are bilateral sciatica or leg weakness, saddle sensory change, bladder or bowel dysfunction (retention, overflow, loss of sensation of voiding) and reduced anal tone; a post-void residual above about 200 mL supports retention; MRI is the investigation of choice and the time window for decompression is hours. Common misconceptions: that unilateral or young patients cannot have cauda equina syndrome; that X-rays are a useful first step. Out of scope: surgical technique and outcomes data.",
+  "plan": "Tests recognition and immediate escalation of cauda equina syndrome by an intern (outcomes 1.4, 1.9, 1.7). A young man with mechanical-sounding back pain develops saddle anaesthesia, retention and reduced anal tone. Distractors are X-ray first, supportive care with morning physiotherapy, and discharge with outpatient MRI. Supported by the ACSQHC Low Back Pain Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-064",
+  "item_id": "43171eee-124d-37a7-d9df-e7d66a612d8d",
+  "version": 1,
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with 24-hour imaging. A 56-year-old woman presents with 2 weeks of constant mid-thoracic back pain that wakes her at night and is not relieved by rest or paracetamol. She has type 2 diabetes (HbA1c 9.1%) and finished oral antibiotics for a urinary tract infection 3 weeks ago. She has had sweats and feels generally unwell. Temperature is 38.1 C, heart rate 96, blood pressure 128/80 mmHg. There is midline tenderness over T7 to T8 without deformity. Lower limb power, sensation and reflexes are normal and she has no sphincter symptoms. Blood tests show a white cell count of 13.8 x 10^9/L and CRP 164 mg/L. A thoracic spine X-ray is reported as normal for age.",
+  "lead_in": "What is the most appropriate interpretation of these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mechanical back pain with a residual urinary infection, suitable for analgesia and GP follow-up"
+   },
+   {
+    "id": "B",
+    "text": "An osteoporotic vertebral fracture not yet visible on X-ray, needing a repeat film in 2 weeks"
+   },
+   {
+    "id": "C",
+    "text": "Probable vertebral osteomyelitis or spinal epidural abscess, requiring urgent MRI and blood cultures despite the normal X-ray and neurology"
+   },
+   {
+    "id": "D",
+    "text": "Thoracic pain of cardiac origin that should be investigated with troponin and ECG before any spinal imaging"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Night pain unrelieved by rest, fever, sweats and a CRP of 164 mg/L are red flags that are incompatible with simple mechanical back pain. A recent urinary infection is a plausible source of bacteraemia seeding the spine, not a reason for reassurance.",
+   "B": "An insufficiency fracture can be radiographically occult, but it does not cause fever, sweats and a markedly raised CRP. Waiting 2 weeks for a repeat film risks progression to cord compression if infection is present.",
+   "C": "Fever, raised inflammatory markers, diabetes and recent infection with localised spinal tenderness make spinal infection the diagnosis to exclude. Plain X-rays are often normal for weeks, and neurological signs appear late. The correct actions are blood cultures before antibiotics (if she remains stable), urgent MRI of the whole spine and early discussion with the infectious diseases and spinal or neurosurgical teams; antibiotics start empirically if she becomes septic or develops neurological deficit.",
+   "D": "Constant pain over 2 weeks with midline tenderness and fever is not an acute coronary syndrome pattern. A screening ECG is reasonable in a diabetic woman, but it must not delay spinal imaging."
+  },
+  "learning_point": "Back pain with fever, raised inflammatory markers and risk factors such as diabetes or recent infection suggests spinal infection; a normal X-ray and normal neurological examination do not exclude it, and MRI with blood cultures is the next step.",
+  "setting_note": "In a regional hospital without MRI, take blood cultures, discuss with the physician or infectious diseases service on call and arrange transfer for MRI; start empirical antibiotics after cultures only if she is septic or develops neurological signs.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Radiology",
+   "Musculoskeletal"
+  ],
+  "domains": [
+   "1.4",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Low Back Pain Clinical Care Standard (2022)",
+    "locator": "Quality statement 1 - features suggesting serious pathology (infection, fracture, malignancy)",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Vertebral osteomyelitis and spinal epidural abscess - diagnosis and empirical therapy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: red flags for spinal infection are fever, immunosuppression or diabetes, intravenous drug use, recent bacteraemia or instrumentation, and raised CRP or ESR; MRI with contrast is the investigation of choice and plain films are insensitive early; take at least two sets of blood cultures before antibiotics unless the patient is septic; neurological deficit is a late sign and a surgical emergency. Common misconceptions: that a normal X-ray or normal neurology excludes serious spinal pathology; that antibiotics should be started before cultures in a stable patient. Out of scope: choice and duration of antibiotics.",
+  "plan": "Tests interpretation of red-flag back pain pointing to spinal infection with a normal X-ray and intact neurology (outcomes 1.4, 1.5). A diabetic woman with night pain, fever, recent urinary infection and CRP 164 mg/L is the vignette. Distractors anchor on the normal X-ray, the recent urinary infection or her cardiac risk. Supported by the ACSQHC Low Back Pain Clinical Care Standard and Therapeutic Guidelines Antibiotic."
+ },
+ {
+  "work_order_id": "r1-065",
+  "item_id": "502540d7-39cd-8586-53d4-e3f6e8915973",
+  "version": 1,
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 21-year-old man presents at 20:00 with 2 days of fever, productive cough and increasing shortness of breath. He has no chronic lung disease and does not smoke. Observations: respiratory rate 28, heart rate 112, blood pressure 124/78 mmHg, temperature 38.9 C, SpO2 89% on room air. There are coarse crackles at the right base. The nurse has applied oxygen by nasal prongs at 2 L/min and asks you to prescribe the oxygen on the medication chart with a target saturation range so that she knows when to titrate it up or down overnight.",
+  "lead_in": "Which target oxygen saturation range should be prescribed for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "88 to 92%"
+   },
+   {
+    "id": "B",
+    "text": "92 to 96%"
+   },
+   {
+    "id": "C",
+    "text": "94 to 98%"
+   },
+   {
+    "id": "D",
+    "text": "At least 98%"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A target of 88 to 92% is reserved for patients at risk of hypercapnic respiratory failure, such as those with COPD, severe obesity or neuromuscular disease. A healthy 21-year-old with pneumonia is not in that group and would be under-oxygenated.",
+   "B": "Australian and New Zealand guidance for acute oxygen use in adults sets a target of 92 to 96% for acutely unwell patients without risk of hypercapnia. Prescribing the target lets nursing staff titrate flow safely and recognise rising oxygen requirements as deterioration.",
+   "C": "A range of 94 to 98% is used in some overseas guidelines but is not the Australian recommendation, and the upper end encourages unnecessary oxygen that can mask deterioration.",
+   "D": "Aiming for 98% or above means running high-flow oxygen regardless of need; hyperoxia is not beneficial and a saturation of 100% hides a rising oxygen requirement."
+  },
+  "learning_point": "For acutely unwell adults without a risk of hypercapnic respiratory failure, oxygen is prescribed to a target saturation of 92 to 96%; 88 to 92% is reserved for patients at risk of hypercapnia such as those with COPD.",
+  "setting_note": "In a regional hospital with no intensive care unit and a finite oxygen supply, titrating to a target rather than running high-flow oxygen by default conserves supply and reveals deterioration early; a young patient needing more than a few litres per minute to hold 92% should prompt an early call to the physician on call and the retrieval service.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Infection and sepsis",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "acute shortness of breath",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Thoracic Society of Australia and New Zealand - Acute oxygen use in adults: 'Swimming between the flags' (Beasley et al., Respirology 2015)",
+    "locator": "Recommendations - target oxygen saturation 92 to 96% for most acutely unwell patients; 88 to 92% if at risk of hypercapnia",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Respiratory",
+    "locator": "Acute oxygen therapy - target saturations",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oxygen is a drug and must be prescribed with a target range; 92 to 96% for most acutely unwell adults, 88 to 92% for those at risk of hypercapnia; a rising oxygen requirement is an escalation criterion; this patient also needs sepsis assessment, blood cultures and antibiotics per community-acquired pneumonia guidance. Common misconceptions: that more oxygen is always safer; that a saturation of 100% is the goal. Out of scope: antibiotic choice for pneumonia and the SMART-COP score.",
+  "plan": "Tests recall of the Australian target oxygen saturation range for an acutely unwell adult without hypercapnia risk (outcomes 1.8, 1.9). A young man with pneumonia and SpO2 89% needs oxygen prescribed overnight at a regional hospital. Distractors are the COPD target, an overseas range and a maximal target. Supported by the TSANZ acute oxygen guideline and Therapeutic Guidelines Respiratory."
+ },
+ {
+  "work_order_id": "r1-066",
+  "item_id": "4b655508-0311-69af-f368-1a9d6a7c5ae2",
+  "version": 1,
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care. A 29-year-old man is brought in by ambulance 25 minutes after a petrol fire in a shed. He has partial-thickness burns to his face, neck, anterior chest and both forearms, estimated by paramedics at 18% of total body surface area. The burns have not been cooled. He has singed nasal hairs and eyebrows, soot around his mouth, a hoarse voice and is coughing up carbonaceous sputum. He speaks in full sentences but his voice has changed since the paramedics first assessed him. Observations: respiratory rate 24, SpO2 97% on 15 L/min oxygen by non-rebreather mask, heart rate 118, blood pressure 132/84 mmHg. He has one intravenous cannula and is in severe pain. The ED consultant is with another patient.",
+  "lead_in": "Which of the following should be done first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Call the ED consultant and anaesthetist now for airway assessment and early intubation"
+   },
+   {
+    "id": "B",
+    "text": "Start cooling the burns with cool running water for 20 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Calculate fluid requirements and start the resuscitation infusion"
+   },
+   {
+    "id": "D",
+    "text": "Give intravenous morphine and cover the burns with cling film"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Facial burns with singed nasal hairs, soot in the mouth, carbonaceous sputum and a voice that is changing are signs of inhalation injury. Airway oedema progresses over hours and intubation becomes much harder once it develops, so the airway must be assessed by the most senior available doctor now and secured early. Everything else follows once help is on its way.",
+   "B": "Cooling with running water for 20 minutes is effective for up to 3 hours after a burn and should be done, but it is not the first priority when the airway is threatened; it can be started by nursing staff while senior help is called.",
+   "C": "Fluid resuscitation is needed for an 18% burn and is calculated from the time of injury, but it is a circulation step that comes after the airway is addressed.",
+   "D": "Analgesia and simple covering of the burns are important, but opioids before the airway is assessed may hasten obstruction in a patient with inhalation injury."
+  },
+  "learning_point": "Facial burns with singed nasal hairs, soot in the mouth, carbonaceous sputum and a changing voice indicate inhalation injury with impending airway obstruction; securing the airway early with senior help takes precedence over cooling, fluids and dressings.",
+  "setting_note": "In a rural hospital the same signs mean calling the GP anaesthetist or the retrieval service immediately, because the airway may need to be secured before transfer and the window closes as oedema develops.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Anaesthetics",
+   "Surgery and perioperative care",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.9",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "burns first aid",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Burn Association - Emergency Management of Severe Burns (EMSB) course manual",
+    "locator": "Primary survey - airway and inhalation injury; first aid for burns",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Burn Association - Burn first aid and referral criteria",
+    "locator": "Cooling for 20 minutes within 3 hours; referral criteria including inhalation injury",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: inhalation injury signs are facial burns, singed nasal hair, soot in sputum, hoarseness, stridor and burns sustained in an enclosed space; airway oedema peaks over hours, so early intubation by an experienced operator is the rule; first aid is 20 minutes of cool running water within 3 hours; fluid resuscitation for burns over 15 to 20% is calculated from the time of injury; burns to the face, hands and airway meet burn unit referral criteria. Common misconceptions: that normal saturations exclude airway compromise; that cooling must be done before anything else. Out of scope: formulae for fluid volume and escharotomy.",
+  "plan": "Tests prioritisation of the airway in a burns patient with inhalation injury (outcomes 1.9, 1.4). A man with 18% facial and chest burns has singed nasal hairs, carbonaceous sputum and a changing voice; the consultant is busy. Distractors are the other correct but lower-priority steps: cooling, fluids, analgesia and dressings. Supported by the ANZBA EMSB manual."
+ },
+ {
+  "work_order_id": "r1-067",
+  "item_id": "9ceba1bf-ed5d-d620-6e3d-28e96e72dbe2",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 28-year-old man with type 1 diabetes presents with 2 days of vomiting after running out of insulin. He is alert, with heart rate 118, blood pressure 104/66 mmHg, respiratory rate 26 and dry mucous membranes. Point-of-care results: glucose 29 mmol/L, blood ketones 5.8 mmol/L, venous pH 7.14, bicarbonate 9 mmol/L, potassium 3.1 mmol/L, sodium 133 mmol/L, creatinine 128 micromol/L. The nurse has started 0.9% sodium chloride 1 L over the first hour and has drawn up an insulin infusion (50 units in 50 mL) according to the hospital DKA protocol. She asks you to prescribe the insulin now. The physician on call has not yet returned your call.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start the insulin infusion at 0.1 units/kg/hour and add potassium to the next litre of fluid"
+   },
+   {
+    "id": "B",
+    "text": "Give insulin 10 units as an intravenous bolus, then start the infusion"
+   },
+   {
+    "id": "C",
+    "text": "Withhold insulin, start intravenous potassium replacement and recheck the potassium before starting the infusion"
+   },
+   {
+    "id": "D",
+    "text": "Give intravenous sodium bicarbonate to correct the acidosis before starting insulin"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Starting insulin with a potassium of 3.1 mmol/L drives potassium into cells and can cause life-threatening hypokalaemia and arrhythmia within the first hour. Potassium must be replaced first.",
+   "B": "An intravenous insulin bolus is not recommended in adult DKA and does not change the need to correct potassium before any insulin is given.",
+   "C": "Australian guidance is that insulin is withheld if the potassium is below 3.5 mmol/L, potassium is replaced intravenously (for example 10 mmol/hour via a peripheral line with cardiac monitoring, or faster under senior direction), and insulin is started once the potassium is 3.5 mmol/L or above. Fluid resuscitation continues meanwhile, and the physician on call and the retrieval service should be contacted early for a patient with pH 7.14.",
+   "D": "Bicarbonate is not routinely used in DKA and is considered only for severe acidosis (pH below about 7.0) on senior advice; it also lowers potassium further."
+  },
+  "learning_point": "In DKA, insulin must be withheld if the potassium is below 3.5 mmol/L; replace potassium first and recheck, because insulin drives potassium into cells and can precipitate fatal arrhythmia.",
+  "setting_note": "The potassium rule does not change with setting, but in a regional hospital the physician on call and the retrieval service should be contacted early for a patient this acidotic, and continuous cardiac monitoring is essential during potassium replacement.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Prescribing and medication safety",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes",
+    "locator": "Diabetic ketoacidosis in adults - potassium replacement and timing of insulin infusion",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Potassium chloride - intravenous replacement, monitoring",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: total body potassium is depleted in DKA even when the serum level is normal or high; insulin and correction of acidosis both lower serum potassium; thresholds are withhold insulin below 3.5 mmol/L, replace with insulin between 3.5 and 5.0, and withhold potassium above 5.0 or if anuric; insulin infusion rate is 0.1 units/kg/hour without a bolus; monitor potassium hourly initially with ECG monitoring. Common misconceptions: that high glucose makes insulin the first priority; that bicarbonate is needed for pH 7.1. Out of scope: management of cerebral oedema and sodium correction.",
+  "plan": "Tests the potassium-before-insulin rule in DKA at a level a PGY1 must know when the nurse is pushing to start insulin and the physician has not called back (outcomes 1.8, 1.9). The vignette gives pH 7.14 and potassium 3.1 mmol/L. Distractors are starting insulin with potassium in the next bag, an insulin bolus and bicarbonate. Supported by Therapeutic Guidelines Diabetes and the AMH."
+ },
+ {
+  "work_order_id": "r1-068",
+  "item_id": "4182fb37-9bca-1c4e-4803-93b69376cda0",
+  "version": 1,
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care. You are managing a 31-year-old man with type 1 diabetes in diabetic ketoacidosis, admitted 2 hours ago with pH 7.08, glucose 32 mmol/L and potassium 5.1 mmol/L. He has received 2 L of 0.9% sodium chloride, an insulin infusion is running at 6 units/hour and potassium 10 mmol/hour was started with the second litre. He is alert. The nurse hands you the 2-hour results and a list: the venous gas shows pH 7.18, glucose 14.2 mmol/L and potassium 3.1 mmol/L; the glucose is now below the level at which the protocol requires a 10% glucose infusion to be added; the ED consultant has asked you to phone the medical registrar to refer him for admission; and the patient is asking for a drink of water. The ED consultant is now intubating a trauma patient.",
+  "lead_in": "Which of these should you attend to first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Add the 10% glucose infusion so that the insulin infusion can continue at the current rate"
+   },
+   {
+    "id": "B",
+    "text": "Phone the medical registrar to arrange the admission"
+   },
+   {
+    "id": "C",
+    "text": "Chart oral fluids so that he can have a drink"
+   },
+   {
+    "id": "D",
+    "text": "Increase potassium replacement and discuss reducing or pausing the insulin infusion with a senior doctor"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Adding glucose when the blood glucose falls below about 15 mmol/L is a protocol step that is due within the hour, but a glucose of 14 mmol/L is not dangerous right now, whereas the potassium is.",
+   "B": "The referral can wait a few minutes; the registrar will want to know what you have done about the potassium in any case.",
+   "C": "Sips of water are reasonable in an alert patient who is no longer vomiting, but this is the least urgent item on the list.",
+   "D": "The potassium has fallen from 5.1 to 3.1 mmol/L in 2 hours while insulin and fluids continue to drive it lower, and a level below 3.5 mmol/L carries a risk of fatal arrhythmia. The most time-critical action is to increase potassium replacement with cardiac monitoring and, because the consultant is unavailable, to speak to the medical or intensive care registrar about reducing or pausing insulin until the potassium is above 3.5 mmol/L. Protocol steps and the referral follow."
+  },
+  "learning_point": "During DKA treatment a potassium that has fallen below 3.5 mmol/L is the most time-critical abnormality, because insulin and fluids drive it lower and the risk is fatal arrhythmia; escalate and replace it before the routine protocol steps.",
+  "setting_note": "In a rural hospital a falling potassium during DKA treatment and limited capacity for cardiac monitoring or higher-rate potassium replacement are reasons to involve the retrieval service early; the order of priorities does not change.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Deteriorating patient",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes",
+    "locator": "Diabetic ketoacidosis in adults - monitoring, potassium replacement and adding glucose",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Potassium chloride - intravenous administration rates and monitoring",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: potassium typically falls steeply in the first hours of DKA treatment; check it at least hourly initially; below 3.5 mmol/L insulin is paused or reduced and potassium replacement increased with ECG monitoring; peripheral replacement is usually limited to 10 mmol/hour, with higher rates needing a central line or senior approval; glucose 10% is added when blood glucose falls below about 15 mmol/L so that insulin can continue to clear ketones. Common misconceptions: that falling glucose is the main marker of progress; that insulin should never be interrupted in DKA. Out of scope: resolution criteria and transition to subcutaneous insulin.",
+  "plan": "Tests prioritisation during ongoing DKA treatment when several protocol steps compete with a dangerous potassium (outcomes 1.9, 1.8, 2.8). Two hours in, potassium has fallen to 3.1 mmol/L while the glucose threshold for adding dextrose, a referral and a patient request all call for attention. Distractors are each a legitimate task but none is time-critical. Supported by Therapeutic Guidelines Diabetes and the AMH."
+ },
+ {
+  "work_order_id": "r1-069",
+  "item_id": "5b5b3414-65a2-329d-1837-ca3f5a0a1251",
+  "version": 1,
+  "stem": "You are working in the emergency department of a large metropolitan teaching hospital with 24-hour CT. A 68-year-old woman is brought in by her husband. Two hours ago, while lifting a pot plant in the garden, she developed a sudden severe occipital headache that reached its maximum within seconds; she describes it as the worst headache of her life. She vomited once and has felt nauseated since. She has hypertension treated with amlodipine and no history of migraine. On arrival the headache has eased to 6 out of 10 after paracetamol. She is alert and orientated with a GCS of 15, no neck stiffness, no focal neurological deficit and normal fundi. Blood pressure is 168/96 mmHg, heart rate 84 and temperature 36.7 C.",
+  "lead_in": "What is the most appropriate interpretation of this presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A thunderclap headache in which subarachnoid haemorrhage must be excluded by urgent CT brain"
+   },
+   {
+    "id": "B",
+    "text": "A first episode of migraine without aura that can be treated with analgesia and reviewed if it recurs"
+   },
+   {
+    "id": "C",
+    "text": "A hypertensive headache that will settle once her blood pressure is controlled"
+   },
+   {
+    "id": "D",
+    "text": "A tension-type headache precipitated by exertion that does not require imaging"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A headache that reaches maximum intensity within a minute is a thunderclap headache, and subarachnoid haemorrhage is the diagnosis to exclude regardless of how she looks now. Onset with exertion, vomiting and age over 50 add to the risk. She needs an urgent non-contrast CT brain and senior review; if the CT is normal and performed more than 6 hours after onset, lumbar puncture or CT angiography follows.",
+   "B": "A new migraine at 68 with no prior history and an abrupt onset is a red-flag presentation, not a first migraine; migraine builds over minutes to hours.",
+   "C": "A blood pressure of 168/96 mmHg is a response to pain and anxiety and does not cause a thunderclap headache; treating the pressure and discharging her could miss a haemorrhage.",
+   "D": "Tension-type headache is gradual, bilateral and mild to moderate; exertional sudden headache in an older woman is never labelled tension-type without imaging."
+  },
+  "learning_point": "A headache that reaches maximum intensity within a minute (thunderclap headache) is subarachnoid haemorrhage until proven otherwise, even when the pain has eased and the examination is normal; it needs urgent CT.",
+  "setting_note": "In a rural hospital without CT overnight, a thunderclap headache is an indication for urgent discussion with the physician on call and the retrieval service for transfer to a site with CT, rather than observation until morning.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Neurology",
+   "Radiology",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.4",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "headache red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Headache - red flags and thunderclap headache; subarachnoid haemorrhage",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Ottawa Subarachnoid Haemorrhage Rule (Perry et al., JAMA 2013)",
+    "locator": "High-risk features: age 40 or over, onset during exertion, thunderclap onset, neck pain or stiffness, loss of consciousness",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: thunderclap headache is maximal within one minute; CT within 6 hours of onset on a modern scanner read by an experienced radiologist is highly sensitive for subarachnoid haemorrhage, after which lumbar puncture for xanthochromia or CT angiography is needed; other causes of thunderclap headache include reversible cerebral vasoconstriction syndrome and cervical artery dissection. Common misconceptions: that improvement with analgesia or a normal examination excludes haemorrhage; that the first ever headache in an older person can be migraine. Out of scope: aneurysm management.",
+  "plan": "Tests recognition of thunderclap headache as a red flag requiring urgent CT (outcomes 1.4, 1.9). An older woman has a sudden maximal exertional headache that has eased, with a normal examination. Distractors are the benign labels a junior doctor might reach for: first migraine, hypertensive headache and tension-type headache. Supported by Therapeutic Guidelines Neurology."
+ },
+ {
+  "work_order_id": "r1-070",
+  "item_id": "f8985df3-7b2b-e71d-d528-d7752669a118",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a large metropolitan teaching hospital. A 52-year-old woman sustained a closed mid-shaft tibial fracture when a horse kicked her 5 hours ago. The fracture has been reduced and placed in a plaster backslab by the orthopaedic registrar, who has since gone to theatre. She is awaiting a ward bed. The nurse calls you because the patient's leg pain is 9 out of 10 and increasing despite morphine 10 mg intravenously over the past hour, and she says the pain feels 'different' from when she arrived. The foot is warm and pink, capillary refill is 2 seconds and the dorsalis pedis pulse is palpable. You are considering acute compartment syndrome and want to examine for its earliest reliable sign before you phone the registrar in theatre.",
+  "lead_in": "Which clinical finding is the earliest reliable sign of acute compartment syndrome?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absence of the dorsalis pedis pulse"
+   },
+   {
+    "id": "B",
+    "text": "Pallor and coolness of the foot"
+   },
+   {
+    "id": "C",
+    "text": "Paralysis of the toes and ankle"
+   },
+   {
+    "id": "D",
+    "text": "Pain on passive stretch of the compartment muscles"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Compartment pressures that cause muscle ischaemia are well below arterial pressure, so distal pulses are usually preserved until very late. A palpable pulse must never be used to exclude compartment syndrome.",
+   "B": "Pallor and coolness are late findings that indicate arterial compromise; by then irreversible muscle and nerve damage may already have occurred.",
+   "C": "Paralysis is a late sign reflecting established nerve and muscle ischaemia; waiting for it means missing the window for fasciotomy.",
+   "D": "Pain out of proportion to the injury and pain on passive stretch of the muscles in the affected compartment are the earliest and most reliable clinical signs, followed by paraesthesia. The immediate actions are to split the cast and padding down to skin, keep the limb at heart level, phone the orthopaedic registrar in theatre and not to simply increase the opioid dose."
+  },
+  "learning_point": "Pain out of proportion to the injury and pain on passive stretch are the earliest signs of compartment syndrome; pulses, colour and capillary refill are usually preserved until late, so their presence must never be used to exclude it.",
+  "setting_note": "In a rural hospital suspected compartment syndrome means splitting the cast and padding to skin, keeping the limb at heart level and urgent phone contact with the on-call orthopaedic service and the retrieval service, because fasciotomy within hours determines the outcome for the limb.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Musculoskeletal",
+   "Surgery and perioperative care",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.4",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "limb fracture initial management",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Royal Australasian College of Surgeons - Emergency Management of Severe Trauma (EMST) course manual",
+    "locator": "Musculoskeletal trauma - compartment syndrome: clinical signs and initial management",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Acute pain after trauma - escalating analgesic requirement as a warning sign",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the tibia is the commonest site; the classic early features are pain out of proportion, pain on passive stretch and paraesthesia; the 'P' signs of pulselessness, pallor and paralysis are late; compartment pressure measurement can help but should not delay surgical review; treatment is fasciotomy. Common misconceptions: that a palpable pulse or normal capillary refill excludes the diagnosis; that increasing opioids is the right response to escalating pain in a casted limb. Out of scope: pressure thresholds for fasciotomy.",
+  "plan": "Tests recall of the earliest reliable sign of compartment syndrome in a casted tibial fracture (outcomes 1.4, 1.9). A woman has escalating pain despite opioids with preserved pulses and perfusion. Distractors are the late 'P' signs that interns commonly and dangerously wait for. Supported by the EMST manual."
+ },
+ {
+  "work_order_id": "r1-071",
+  "item_id": "09dcedd3-120d-af99-bdba-0fb41438c817",
+  "version": 1,
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone. A 71-year-old woman who lives independently fell in her kitchen this morning and presents at 10:00 with left hip pain and inability to bear weight. X-ray confirms a displaced intracapsular fracture of the left neck of femur. She has well-controlled hypertension and takes no anticoagulants. Her pain has been assessed and treated, including a fascia iliaca block. The visiting surgeon is not due for 5 days and does not operate on hip fractures at this site. The nurse coordinator asks how urgently transfer to Adelaide must be arranged, because the next routine patient transport slot is in 3 days.",
+  "lead_in": "According to the Australian Hip Fracture Care Clinical Care Standard, within what time from presentation should she have surgery?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Within 24 hours"
+   },
+   {
+    "id": "B",
+    "text": "Within 36 hours"
+   },
+   {
+    "id": "C",
+    "text": "Within 48 hours"
+   },
+   {
+    "id": "D",
+    "text": "Within 72 hours"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Twenty-four hours is not the national benchmark; it would be unachievable for many rural patients and is not what the Standard specifies.",
+   "B": "The 2023 revision of the Hip Fracture Care Clinical Care Standard states that a patient with a hip fracture should receive surgery within 36 hours of presentation, where there is no clinical contraindication, because earlier surgery reduces pain, delirium, complications and mortality. Presenting at 10:00 at a site that cannot operate, she must be transferred today, and the time of her first presentation to this hospital is the clock start, so the intern should ask the surgeon or orthogeriatric service in Adelaide to accept her now and request urgent rather than routine transport.",
+   "C": "Forty-eight hours was the timeframe in the 2016 edition of the Standard and is still widely quoted as a benchmark, but the Standard was tightened in its 2023 revision.",
+   "D": "Seventy-two hours exceeds the Standard and would mean waiting for the routine transport slot, which is exactly what the Standard is designed to prevent."
+  },
+  "learning_point": "The Hip Fracture Care Clinical Care Standard expects surgery within 36 hours of first presentation, and the clock starts at the referring hospital, so a rural intern must arrange same-day transfer rather than wait for routine transport.",
+  "setting_note": "In a rural hospital the time to surgery includes the transfer time, so the referral to the receiving orthopaedic service and the request for urgent transport should be made within the first hours; analgesia with a nerve block, pressure care, hydration and delirium prevention continue while waiting.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Older people, delirium and falls",
+   "Rural and remote",
+   "Musculoskeletal"
+  ],
+  "domains": [
+   "1.7",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "limb fracture initial management",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "minor",
+   "uncertainty_note": "The 2016 edition of the Standard specified 48 hours; the 2023 revision reduced the timeframe to 36 hours in line with the ANZ Hip Fracture Registry benchmark. Reviewers should confirm the current wording of quality statement 5 before publication, as many local pathways still quote 48 hours."
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Hip Fracture Care Clinical Care Standard (2023)",
+    "locator": "Quality statement 5 - Timing of surgery",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Hip Fracture Registry - Annual Report",
+    "locator": "Key performance indicators - time to surgery",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the Standard also expects pain assessment within 30 minutes of arrival with analgesia including nerve blocks, orthogeriatric care, mobilisation the day after surgery, and secondary fracture prevention; for rural patients the time to surgery includes transfer, so early referral matters; delirium prevention and pressure care start in the referring hospital. Common misconceptions: that the clock starts on arrival at the operating hospital; that 48 hours remains the benchmark. Out of scope: choice of arthroplasty versus fixation.",
+  "plan": "Tests recall of the national time-to-surgery benchmark for hip fracture, which drives transfer urgency from a rural site (outcomes 1.7, 1.4). An older woman with a neck of femur fracture presents to a hospital that cannot operate and transport is offered in 3 days. Distractors are the older 48-hour figure and other plausible intervals. Supported by the ACSQHC Hip Fracture Care Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-072",
+  "item_id": "85391dd3-eac2-83d2-53c7-52bab3186bd8",
+  "version": 1,
+  "stem": "You are working in the emergency department of a metropolitan general hospital at 19:00; a registrar is on site overnight. A 55-year-old man fell from his bicycle at low speed 90 minutes ago, striking his helmeted head on the road. Bystanders report he was unresponsive for less than a minute. He cannot remember the 5 minutes before the fall. He has vomited once in the department, has a mild frontal headache and has a small scalp haematoma over the right parietal region with no palpable step and no laceration. There are no signs of a basal skull fracture, his pupils are equal and reactive and there is no focal neurological deficit. His GCS has been 15 since the ambulance arrived. He takes no antiplatelet or anticoagulant medication and has not been drinking alcohol. The registrar asks you to apply the head injury guideline's CT criteria.",
+  "lead_in": "Which single finding, if present, would make a CT brain mandatory for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A single episode of vomiting"
+   },
+   {
+    "id": "B",
+    "text": "Amnesia for the 5 minutes before impact"
+   },
+   {
+    "id": "C",
+    "text": "Two or more episodes of vomiting"
+   },
+   {
+    "id": "D",
+    "text": "A scalp haematoma without a palpable skull defect"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A single vomit after a head injury is common and is not by itself a CT criterion in the Canadian CT Head Rule used in Australian guidelines; it does warrant a period of observation.",
+   "B": "Retrograde amnesia becomes a criterion only when it exceeds 30 minutes before impact; 5 minutes does not meet the threshold.",
+   "C": "Two or more episodes of vomiting is a high-risk criterion, alongside a GCS below 15 at 2 hours after injury, suspected open or depressed skull fracture, signs of basal skull fracture and age 65 or over. Any one of these mandates CT. He currently has none, so structured neurological observations and reassessment of his GCS at 2 hours are the plan, with a CT if he vomits again or his GCS drops.",
+   "D": "A scalp haematoma on its own is not a criterion; it becomes relevant only if there is a palpable depression, a large boggy haematoma suggesting fracture, or signs of basal skull fracture."
+  },
+  "learning_point": "In a GCS 15 adult with minor head injury, two or more episodes of vomiting is one of the high-risk features (with GCS below 15 at 2 hours, suspected skull fracture, age 65 or over and anticoagulation) that mandates CT; a single vomit, a small scalp haematoma or brief amnesia alone do not.",
+  "setting_note": "In a rural hospital without CT, a patient who meets a CT criterion needs transfer for imaging, while one who does not can be observed locally with structured neurological observations and discharged with written head injury advice to a responsible adult.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Radiology",
+   "Neurology",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.4",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "minor head injury",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "minor",
+   "uncertainty_note": "The item uses the Canadian CT Head Rule criteria as adopted in Australian adult head injury guidelines; local SA Health pathways may add criteria such as anticoagulant use or lower the threshold for imaging."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "NSW Institute of Trauma and Injury Management - Initial Management of Closed Head Injury in Adults (2nd edition), incorporating the Canadian CT Head Rule",
+    "locator": "Risk assessment and indications for CT in mild head injury",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Head injury - assessment and indications for imaging",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Canadian CT Head Rule high-risk criteria are GCS below 15 at 2 hours, suspected open or depressed skull fracture, signs of basal skull fracture, two or more vomits, and age 65 or over; medium-risk criteria are retrograde amnesia over 30 minutes and a dangerous mechanism; anticoagulant use is a separate indication in Australian practice; discharge requires a responsible adult and written advice. Common misconceptions: that any loss of consciousness mandates CT; that a scalp haematoma means a skull fracture. Out of scope: paediatric head injury rules.",
+  "plan": "Tests recall of the CT criteria for minor head injury in an adult with GCS 15 (outcomes 1.4, 1.5). A middle-aged cyclist has brief loss of consciousness, one vomit, short amnesia and a scalp haematoma, none of which mandates CT. Distractors are the near-miss versions of real criteria. Supported by the NSW ITIM adult head injury guideline and the Canadian CT Head Rule."
+ },
+ {
+  "work_order_id": "r1-073",
+  "item_id": "b9765605-8d7b-7f57-62d1-5f0b0362cba4",
+  "version": 1,
+  "stem": "You are the PGY2 resident covering the emergency department and ward of a country hospital 90 minutes from the nearest tertiary centre overnight. A 79-year-old woman is brought in by her daughter at 23:00. Three hours earlier, after an argument, she swallowed 20 tablets of immediate-release paracetamol 500 mg (10 g) from a packet of 24. She weighs 62 kg, took nothing else and does not drink alcohol. She is alert and orientated with normal observations and feels mildly nauseated. Her only regular medicine is perindopril. The hospital laboratory can run a paracetamol concentration with a turnaround of about one hour, and the Poisons Information Centre is available on 13 11 26. She says she regrets what she did and asks to go home.",
+  "lead_in": "What is the most appropriate next step in managing the paracetamol ingestion?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Measure the serum paracetamol concentration at 4 hours after ingestion and treat according to the nomogram"
+   },
+   {
+    "id": "B",
+    "text": "Give activated charcoal 50 g orally now"
+   },
+   {
+    "id": "C",
+    "text": "Start intravenous acetylcysteine immediately without waiting for a concentration"
+   },
+   {
+    "id": "D",
+    "text": "Observe overnight and check liver function tests at 24 hours"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "For a single acute immediate-release ingestion presenting within 8 hours, the decision to treat rests on a paracetamol concentration taken 4 hours or more after ingestion and plotted on the Australian and New Zealand nomogram, with acetylcysteine started if the level is on or above the treatment line. Her level can be drawn in an hour and reported before 8 hours have elapsed, so this is the correct pathway. The Poisons Information Centre should be called, and she must not be discharged before the result and a mental health risk assessment.",
+   "B": "Activated charcoal is recommended within 2 hours of an immediate-release overdose of 10 g or more, and up to 4 hours only for massive or modified-release ingestions. At 3 hours after 10 g it is not indicated.",
+   "C": "Empirical acetylcysteine is started when the concentration cannot be obtained and acted on within 8 hours of ingestion, or for massive, staggered or late presentations. Here the level will be available well inside 8 hours, so treatment is guided by the nomogram; starting acetylcysteine would not be dangerous, but it is not the best next step.",
+   "D": "Liver function tests are normal in the first 24 hours even after serious overdose; waiting for them misses the window in which acetylcysteine is most effective."
+  },
+  "learning_point": "For a single acute immediate-release paracetamol overdose presenting within 8 hours, the decision to start acetylcysteine is based on a paracetamol concentration taken at least 4 hours after ingestion plotted on the nomogram; acetylcysteine is started empirically only if the level cannot be obtained before 8 hours.",
+  "setting_note": "In a country hospital whose laboratory cannot return a paracetamol concentration within 8 hours of ingestion, start acetylcysteine empirically and stop it if the level is later below the line; discuss every overdose with the Poisons Information Centre and arrange a mental health assessment, which may be by telehealth.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Mental health and behavioural emergencies",
+   "Rural and remote",
+   "Older people, delirium and falls"
+  ],
+  "domains": [
+   "1.7",
+   "1.9",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "overdose and poisoning",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Guidelines for the management of paracetamol poisoning in Australia and New Zealand (Chiew AL et al., Medical Journal of Australia, 2020 update)",
+    "locator": "Acute immediate-release ingestion presenting within 8 hours - timing of paracetamol concentration, nomogram and activated charcoal",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Toxicology and Toxinology",
+    "locator": "Paracetamol poisoning - assessment and acetylcysteine",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: toxic dose threshold is 10 g or 200 mg/kg; the nomogram line starts at 150 mg/L at 4 hours; charcoal is for presentation within 2 hours (4 hours for massive or modified-release); empirical acetylcysteine if the level will not be available within 8 hours; older patients and those on enzyme-inducing drugs are not treated differently under the current guideline; every deliberate overdose requires a mental health risk assessment and safe-keeping of medicines. Common misconceptions: that normal early liver function tests are reassuring; that a remorseful patient can go home. Out of scope: the two-bag acetylcysteine regimen and massive ingestion thresholds.",
+  "plan": "Tests the standard assessment pathway for an acute paracetamol overdose presenting at 3 hours (outcomes 1.7, 1.9, 1.4). An older woman at a country hospital with an on-site laboratory asks to go home. Distractors are charcoal outside its window, empirical acetylcysteine when a timely level is available, and watchful waiting. Supported by the Australian and New Zealand paracetamol poisoning guideline."
+ },
+ {
+  "work_order_id": "r1-074",
+  "item_id": "5e494e61-b9d4-8fa2-d739-ac080d34845d",
+  "version": 1,
+  "stem": "You are the only doctor on site overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula; the GP is on call from home. At 02:10 a 58-year-old man is brought in by his wife. They were watching television together when, at 01:30, he suddenly stopped speaking properly and his right arm went weak. On examination he has expressive dysphasia, right facial droop and right arm power 2 out of 5; he is alert. Blood pressure is 172/94 mmHg, heart rate 88 and regular, SpO2 97% on room air and bedside glucose 6.2 mmol/L. He has hypertension and takes no anticoagulant, has had no recent surgery or bleeding, and his wife asks whether you can give him an aspirin.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give aspirin 300 mg orally now and reassess his deficit in one hour"
+   },
+   {
+    "id": "B",
+    "text": "Activate the acute stroke pathway now and call for time-critical imaging and reperfusion assessment"
+   },
+   {
+    "id": "C",
+    "text": "Phone the GP on call and ask them to come in and assess him before any further decisions are made"
+   },
+   {
+    "id": "D",
+    "text": "Admit him for observation and arrange a CT brain and physician review in the morning"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Aspirin is withheld until intracranial haemorrhage has been excluded on imaging, and it is not given before thrombolysis. Reassessing in an hour wastes time within the treatment window.",
+   "B": "A sudden focal deficit with a witnessed onset 40 minutes ago is a time-critical emergency: he may be eligible for thrombolysis within 4.5 hours and thrombectomy beyond that. The junior doctor's job is to activate the stroke pathway immediately, which in this setting means phoning the state stroke or telestroke service and the retrieval service for urgent transfer to a CT-capable, thrombolysis-capable hospital, while recording the onset time, checking glucose and keeping him nil by mouth. In a hospital with CT it means calling the stroke code and going straight to the scanner.",
+   "C": "The GP on call should be informed, but waiting for them to arrive before activating the pathway delays reperfusion; both calls can be made in parallel and the stroke call comes first.",
+   "D": "Overnight observation treats a hyperacute stroke as a routine admission and removes any chance of reperfusion therapy."
+  },
+  "learning_point": "A sudden focal neurological deficit with a known onset time is a time-critical emergency: activate the stroke pathway immediately and arrange urgent imaging and reperfusion assessment, and do not give aspirin until haemorrhage has been excluded on CT.",
+  "setting_note": "In a tertiary hospital this means calling the stroke code and going straight to CT; in a rural hospital without CT it means an immediate call to the retrieval service and the state telestroke or on-call stroke service, with the GP on call informed in parallel rather than waited for.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Neurology",
+   "Rural and remote",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.9",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "stroke recognition",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Stroke Foundation - Australian and New Zealand Living Clinical Guidelines for Stroke Management",
+    "locator": "Pre-hospital and emergency assessment; reperfusion therapy eligibility and time windows; antiplatelet therapy after imaging",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Statewide Stroke Clinical Network - acute stroke and telestroke pathways for rural sites",
+    "locator": "Rural acute stroke pathway - early notification and retrieval",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: thrombolysis is considered up to 4.5 hours from onset and thrombectomy up to 24 hours in selected patients, so every minute counts; glucose must be checked to exclude hypoglycaemia as a mimic; aspirin is given only after haemorrhage is excluded and not within 24 hours of thrombolysis; record the time last known well, medications and contraindications for the receiving team. Common misconceptions: that aspirin is harmless to give early; that the stroke call should wait for a senior doctor to confirm the diagnosis. Out of scope: thrombolysis dosing and blood pressure thresholds.",
+  "plan": "Tests immediate activation of the stroke pathway by a junior doctor (outcomes 1.9, 1.7) in a way that applies to any setting. A man with a witnessed onset of dysphasia and hemiparesis 40 minutes earlier presents overnight and his wife asks for aspirin. Distractors are early aspirin, waiting for the GP on call, and overnight observation. Supported by the Stroke Foundation guidelines."
+ },
+ {
+  "work_order_id": "r1-075",
+  "item_id": "8bf17146-a98d-2f22-a516-c874b00c3046",
+  "version": 1,
+  "stem": "You are the intern covering the emergency department and ward of a country hospital 90 minutes from the nearest tertiary centre overnight; the GP is on call from home. A 78-year-old man presents at 03:00 with 45 minutes of central chest heaviness radiating to the left arm, with nausea and sweating. He has hypertension and type 2 diabetes. Observations: heart rate 54 and regular, blood pressure 108/66 mmHg, respiratory rate 20, SpO2 96% on room air. The nurse hands you the 12-lead ECG: sinus rhythm at 54 per minute, 2 mm ST elevation in leads II, III and aVF, 1 to 2 mm ST depression in leads I and aVL, and no ST change in the anterior leads. An ECG from an admission 2 years ago was normal.",
+  "lead_in": "What is the most appropriate interpretation of this ECG?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pericarditis, because of ST elevation in several leads"
+   },
+   {
+    "id": "B",
+    "text": "Early repolarisation, a normal variant that explains the ST elevation"
+   },
+   {
+    "id": "C",
+    "text": "Posterior myocardial infarction, indicated by the ST depression"
+   },
+   {
+    "id": "D",
+    "text": "Inferior ST-elevation myocardial infarction requiring immediate reperfusion"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Pericarditis produces widespread concave ST elevation, often with PR depression, and does not cause reciprocal ST depression in the lateral leads. Reciprocal change points firmly to infarction.",
+   "B": "Early repolarisation is seen in young, healthy people, mainly in the anterior leads, with notched J points and no symptoms. New ST elevation compared with a previously normal ECG in a 78-year-old with typical pain is not a normal variant.",
+   "C": "Posterior infarction shows ST depression in V1 to V3 with tall R waves. Here the depression in I and aVL is the reciprocal mirror of the inferior elevation, not a separate territory.",
+   "D": "ST elevation of 1 mm or more in two contiguous inferior leads with reciprocal depression in I and aVL is an inferior STEMI. The bradycardia and low-normal blood pressure suggest right ventricular involvement or vagal tone, so nitrates should be used with caution. The intern should give aspirin 300 mg, phone the GP on call and the cardiology or retrieval service immediately, and work through the fibrinolysis checklist, because primary PCI cannot be reached within the recommended time from this hospital."
+  },
+  "learning_point": "ST elevation in two contiguous leads with reciprocal ST depression in the opposite leads is a STEMI; in a rural hospital far from a catheterisation laboratory this triggers the chest pain pathway for an immediate fibrinolysis decision and transfer.",
+  "setting_note": "In a tertiary hospital the patient goes straight to the catheterisation laboratory; 90 minutes from a PCI centre, fibrinolysis in the emergency department is usually indicated, so the intern should phone the cardiology on-call or retrieval service and the GP on call at once while giving aspirin and preparing the fibrinolysis checklist.",
+  "learning_area": "Emergency presentations",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Rural and remote",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.5",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "undifferentiated chest pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b03",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand - Australian Clinical Guidelines for the Management of Acute Coronary Syndromes",
+    "locator": "Diagnosis of ST-elevation myocardial infarction; reperfusion strategy where primary PCI is not available within the recommended time",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Acute coronary syndromes - STEMI recognition and reperfusion",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: STEMI criteria are new ST elevation at the J point in two contiguous leads (1 mm in most leads, higher thresholds in V2 to V3 depending on age and sex); reciprocal depression increases specificity; inferior STEMI with bradycardia and hypotension suggests right ventricular involvement, in which nitrates can cause profound hypotension and right-sided leads (V4R) help; fibrinolysis is indicated when primary PCI cannot be achieved within about 90 to 120 minutes of first medical contact. Common misconceptions: that ST elevation in more than one lead group means pericarditis; that a slow heart rate is reassuring. Out of scope: fibrinolytic drug selection and contraindication lists.",
+  "plan": "Tests ECG interpretation of an inferior STEMI with reciprocal changes by a solo rural intern (outcomes 1.5, 1.9). An older diabetic man with typical pain has inferior ST elevation, lateral ST depression and bradycardia. Distractors are pericarditis, early repolarisation and posterior infarction, each anchored on one feature. Supported by the NHF/CSANZ acute coronary syndrome guidelines."
+ }
+]

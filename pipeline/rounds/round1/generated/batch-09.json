@@ -1,0 +1,2112 @@
+[
+ {
+  "work_order_id": "r1-201",
+  "item_id": "90f95068-37d5-9d17-d19c-bd76f117d587",
+  "version": 1,
+  "stem": "A 22-year-old man attends the pre-admission clinic of a large metropolitan teaching hospital before an elective arthroscopic repair of his anterior cruciate ligament. He has had major depression for three years, well controlled on sertraline 100 mg each morning, and takes no other medicines. He has no allergies, normal renal function and weighs 78 kg. The anaesthetic registrar asks you, the intern, to draft the postoperative analgesia on the medication chart for the registrar to check, following the unit's usual multimodal approach of regular paracetamol, a regular NSAID and an immediate-release opioid when required. The registrar reminds you that one of the unit's usual choices interacts with his antidepressant and should be left off the chart.",
+  "lead_in": "Which analgesic should be avoided because of its interaction with sertraline?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Paracetamol"
+   },
+   {
+    "id": "B",
+    "text": "Ibuprofen"
+   },
+   {
+    "id": "C",
+    "text": "Tramadol"
+   },
+   {
+    "id": "D",
+    "text": "Oxycodone"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Paracetamol has no clinically important interaction with SSRIs and is the foundation of multimodal postoperative analgesia; it should be charted regularly.",
+   "B": "NSAIDs such as ibuprofen do not cause serotonin toxicity. SSRIs modestly increase bleeding risk when combined with NSAIDs, which is worth noting for longer courses, but a short postoperative course in a young, healthy man is standard practice and is not the interaction being asked about.",
+   "C": "Tramadol inhibits serotonin and noradrenaline reuptake as well as acting on opioid receptors. Combined with an SSRI it raises the risk of serotonin toxicity and lowers the seizure threshold. The Australian Medicines Handbook and Therapeutic Guidelines advise avoiding the combination where possible, so it should not be charted for a patient taking sertraline.",
+   "D": "Oxycodone is a conventional opioid without meaningful serotonergic activity and is an appropriate immediate-release opioid for breakthrough pain in this patient."
+  },
+  "learning_point": "Tramadol has serotonergic activity and should be avoided in patients taking an SSRI or SNRI because of the risk of serotonin toxicity; oxycodone is the safer immediate-release opioid choice.",
+  "setting_note": "This does not change between settings, although in a smaller hospital without a clinical pharmacist on site the junior doctor is more often the last check on interactions before a chart is signed.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Anaesthetics",
+   "Pharmacology",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "drug interactions",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Tramadol: interactions with serotonergic drugs; Serotonin toxicity",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Opioids for acute pain: tramadol and tapentadol; drug interactions and serotonin toxicity",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key fact: tramadol (and tapentadol, pethidine, and to a lesser extent fentanyl) has serotonergic activity and combination with SSRIs, SNRIs, MAOIs or other serotonergic drugs risks serotonin toxicity (agitation, clonus, hyperreflexia, hyperthermia). Oxycodone and morphine do not carry this risk. Common misconception: that tramadol is a 'weak' or 'safer' opioid; it also lowers seizure threshold. Out of scope: management of established serotonin toxicity, SSRI-NSAID bleeding risk in detail.",
+  "plan": "Tests recall of the tramadol-SSRI interaction, evidencing 1.8 (safe prescribing) and 1.1 (safety checks before charting). Young man with depression on sertraline in pre-admission clinic for day surgery makes the intern the one drafting analgesia. Distractors are the other standard multimodal analgesics; ibuprofen tempts because of SSRI bleeding interaction, oxycodone because some confuse all opioids. Supported by AMH tramadol interactions and Therapeutic Guidelines pain chapter."
+ },
+ {
+  "work_order_id": "r1-202",
+  "item_id": "818f461a-5680-8dd3-2089-5b9c103e21ef",
+  "version": 1,
+  "stem": "At 02:00 in the emergency department of a country hospital 90 minutes by road from the nearest tertiary centre, you are the PGY2 covering the ward and emergency department alone, with the GP on call 20 minutes away. A 56-year-old woman arrives with two large melaena stools over four hours and light-headedness. She has a mechanical mitral valve and takes warfarin; her point-of-care INR is 7.4. Observations: heart rate 118, blood pressure 92/58 mmHg, respiratory rate 22, SpO2 97% on air, alert. The nurse has inserted one cannula and sent bloods including a group and hold. The hospital holds Prothrombinex-VF, vitamin K and two units of O-negative red cells. You have asked the nurse to call the GP in.",
+  "lead_in": "Which action takes priority while you wait for the GP?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give intravenous vitamin K and Prothrombinex-VF now, start fluid resuscitation through a second large-bore cannula and call the retrieval service"
+   },
+   {
+    "id": "B",
+    "text": "Withhold tonight's warfarin, repeat the INR in six hours and admit her to the ward for observation"
+   },
+   {
+    "id": "C",
+    "text": "Arrange transfer for urgent endoscopy and defer reversal until she is assessed in Adelaide because of her mechanical valve"
+   },
+   {
+    "id": "D",
+    "text": "Give fresh frozen plasma alone, as Prothrombinex-VF is contraindicated in patients with a mechanical heart valve"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Haemodynamically significant bleeding with an INR of 7.4 needs immediate reversal: Prothrombinex-VF 50 units/kg with vitamin K 5 to 10 mg intravenously (THANZ consensus, reflected in Therapeutic Guidelines), alongside resuscitation and early retrieval. The mechanical valve is a reason for careful re-anticoagulation later, not a reason to delay reversal. A call to haematology or the retrieval coordinator can run in parallel but should not delay the first doses.",
+   "B": "Withholding warfarin and rechecking the INR is appropriate only for a raised INR without bleeding. This woman is tachycardic and hypotensive and will deteriorate while the INR drifts down over days.",
+   "C": "Transfer and endoscopy are needed, but a 90-minute journey with an uncorrected INR of 7.4 and active bleeding is dangerous; reversal and resuscitation must begin before she leaves. The valve does not change this.",
+   "D": "Fresh frozen plasma is slower, needs a large volume and reverses less reliably than prothrombin complex concentrate; it is used when Prothrombinex-VF is unavailable or as an adjunct for life-threatening bleeding. A mechanical valve is not a contraindication to Prothrombinex-VF."
+  },
+  "learning_point": "In a bleeding, haemodynamically compromised patient on warfarin, reversal with Prothrombinex-VF and intravenous vitamin K plus resuscitation take priority over investigation and transfer, regardless of a mechanical valve.",
+  "setting_note": "In a regional hospital the junior doctor must start reversal and resuscitation personally while the GP and retrieval service are mobilised; a tertiary emergency department has blood bank, gastroenterology and haematology on site, but the first steps are identical.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Warfarin: management of bleeding and elevated INR (major bleeding)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Tran HA et al. An update of consensus guidelines for warfarin reversal (THANZ). Medical Journal of Australia 2013",
+    "locator": "Recommendations for life-threatening bleeding: Prothrombinex-VF 50 units/kg plus vitamin K 5-10 mg IV",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: major bleeding on warfarin is reversed with Prothrombinex-VF 50 units/kg plus IV vitamin K 5-10 mg (FFP only if Prothrombinex unavailable or as adjunct); a raised INR without bleeding is managed by withholding and small-dose vitamin K depending on level. Mechanical valves do not alter acute reversal; bridging re-anticoagulation is decided later with cardiology or haematology. Misconception: that reversal must wait for specialist approval or that a mechanical valve forbids Prothrombinex. Out of scope: endoscopic management, transfusion thresholds in detail.",
+  "plan": "Tests prioritisation of reversal and resuscitation over observation or transfer in warfarin-related major bleeding, evidencing 1.8, 1.9 and 1.1. A rural overnight PGY2 alone makes the decision real. Distractors: observation (right for non-bleeding raised INR), transfer first (tempting given valve anxiety), FFP only (misconception about valves and Prothrombinex). Supported by Therapeutic Guidelines warfarin bleeding and THANZ consensus."
+ },
+ {
+  "work_order_id": "r1-203",
+  "item_id": "3f81c608-9513-3e42-dba9-0e62d1260da5",
+  "version": 1,
+  "stem": "A 58-year-old man is brought to the emergency department of a regional hospital that has a small medical ward without an intensive care unit, CT during business hours only and retrieval to Adelaide by road or air. He slipped on a wet floor 3 hours ago, hit his head and has a worsening headache with one vomit. He takes apixaban 5 mg twice daily for atrial fibrillation, last dose at 08:00; it is now 14:00. GCS is 14 (confused), pupils equal and reactive, no focal deficit, blood pressure 158/90 mmHg. The on-site CT shows a 9 mm acute subdural haematoma with 3 mm midline shift. The medical registrar is on the phone with the retrieval coordinator and neurosurgery and asks you to deal with his anticoagulation now.",
+  "lead_in": "What is the most appropriate next step for his anticoagulation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Withhold further apixaban and observe with half-hourly neurological observations until retrieval arrives"
+   },
+   {
+    "id": "B",
+    "text": "Give Prothrombinex-VF 50 units/kg intravenously after urgent phone advice from haematology, and document the time of his last apixaban dose for the receiving team"
+   },
+   {
+    "id": "C",
+    "text": "Give fresh frozen plasma 15 mL/kg intravenously as the reversal agent of choice for factor Xa inhibitors"
+   },
+   {
+    "id": "D",
+    "text": "Give vitamin K 10 mg intravenously and recheck the INR in 6 hours"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Withholding apixaban is necessary but not sufficient. An intracranial haemorrhage with midline shift is life-threatening, and withholding alone leaves the anticoagulant effect present for 12 to 24 hours or longer. Observation while waiting for retrieval is inadequate.",
+   "B": "For life-threatening bleeding on a direct factor Xa inhibitor, Australian consensus guidance (THANZ, reflected in Therapeutic Guidelines) recommends prothrombin complex concentrate (Prothrombinex-VF 25 to 50 units/kg) because andexanet alfa is not available in almost any regional hospital. Haematology advice by phone confirms the dose and any adjuncts such as tranexamic acid. The time of the last dose guides the receiving neurosurgical team and should be documented.",
+   "C": "Fresh frozen plasma does not reliably reverse direct factor Xa inhibitors and adds volume; it is not recommended for DOAC reversal.",
+   "D": "Vitamin K and the INR relate to warfarin, not apixaban. The INR does not measure apixaban effect reliably and vitamin K has no effect on it."
+  },
+  "learning_point": "Life-threatening bleeding on apixaban or rivaroxaban is treated with prothrombin complex concentrate (Prothrombinex-VF) on haematology advice; withholding the drug, fresh frozen plasma or vitamin K are not adequate.",
+  "setting_note": "Regional hospitals typically hold Prothrombinex-VF but not andexanet alfa or idarucizumab (for dabigatran); the junior doctor should know where it is kept and give it before transfer rather than relying on the receiving hospital, while retrieval and neurosurgical advice are arranged in parallel.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Neurology",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "Prothrombinex-VF dose for factor Xa inhibitor reversal is quoted as 25-50 units/kg in Australian guidance; the item uses 50 units/kg for life-threatening intracranial bleeding, which is within the recommended range."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Direct oral anticoagulants: management of bleeding (life-threatening bleeding on a factor Xa inhibitor)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Tran H et al. New oral anticoagulants: a practical guide on prescription, laboratory testing and peri-procedural/bleeding management (THANZ). Internal Medicine Journal 2014",
+    "locator": "Management of major bleeding on rivaroxaban/apixaban: prothrombin complex concentrate",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: apixaban and rivaroxaban have no routinely available specific antidote in Australia (andexanet alfa is not stocked in most hospitals); Prothrombinex-VF 25-50 units/kg is the recommended agent for life-threatening bleeding; dabigatran is reversed with idarucizumab. INR and vitamin K are irrelevant to DOACs; FFP is not effective. Misconceptions: that withholding is enough because of short half-life, or that FFP reverses all anticoagulants. Out of scope: neurosurgical management, re-starting anticoagulation.",
+  "plan": "Tests the management decision of reversing a factor Xa inhibitor in life-threatening intracranial bleeding, evidencing 1.8, 1.9 and 1.1. Rural ED with CT in hours, retrieval pending, registrar occupied, so the junior doctor acts. Distractors: observation only (half-life misconception), FFP (generic reversal misconception), vitamin K/INR (warfarin confusion). Supported by Therapeutic Guidelines DOAC bleeding section and THANZ guidance."
+ },
+ {
+  "work_order_id": "r1-204",
+  "item_id": "cd618f42-fe42-a3f1-62e2-67605b199405",
+  "version": 1,
+  "stem": "You are the PGY2 on the surgical ward of a regional hospital with a small ICU-free medical ward. A 79-year-old man with type 2 diabetes had a right hemicolectomy 2 days ago. At home he takes premixed insulin aspart/insulin aspart protamine 30/70, 24 units before breakfast and 16 units before dinner, and these doses were charted unchanged on admission. He is eating about a quarter of each meal and has had no supplemental insulin. His blood glucose chart for the last 24 hours reads: 06:00 3.1 mmol/L (treated with oral glucose), 08:00 6.2, 12:00 8.9, 17:00 10.4, 22:00 3.4 (treated), 02:00 5.8. He is afebrile, his creatinine is normal and he is on no new medicines. The night nurse asks you what the pattern means before the morning dose is due.",
+  "lead_in": "What is the most likely explanation for this blood glucose pattern?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Stress hyperglycaemia from surgery that needs his premixed insulin increased"
+   },
+   {
+    "id": "B",
+    "text": "Glucometer error, so no change should be made until a laboratory glucose is available"
+   },
+   {
+    "id": "C",
+    "text": "Dawn phenomenon with early-morning hepatic glucose output"
+   },
+   {
+    "id": "D",
+    "text": "His full home doses of premixed insulin continued despite greatly reduced oral intake, causing hypoglycaemia after each dose"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "The daytime readings are not high enough to suggest stress hyperglycaemia needing more insulin, and increasing a premixed dose that is already producing two hypoglycaemic episodes a day would be dangerous.",
+   "B": "Two readings under 4 mmol/L at consistent times, both symptomatic enough to be treated, form a recognisable pattern rather than random error. A laboratory glucose can confirm but must not delay dose reduction.",
+   "C": "The dawn phenomenon produces early-morning hyperglycaemia, not hypoglycaemia; the pattern here is the opposite.",
+   "D": "Premixed insulin contains a rapid-acting component dosed for a full meal. When intake falls to a quarter of normal, unchanged doses produce hypoglycaemia in the hours after each injection, seen here before breakfast and at bedtime. The doses should be reduced substantially (Therapeutic Guidelines and the Australian Diabetes Society perioperative guideline advise reducing premixed insulin while intake is poor and reviewing daily), the error of charting full doses in a fasting or poorly eating patient should be recognised, and the physician informed."
+  },
+  "learning_point": "Hypoglycaemia at consistent times after premixed insulin in a patient eating poorly means the home doses were continued unchanged; reduce the dose and review daily rather than treating each episode in isolation.",
+  "setting_note": "In a regional hospital without an on-site endocrinologist or diabetes educator, the PGY2 should reduce the doses and phone the physician or endocrinology service for advice in the morning; the interpretation is the same in a tertiary centre where a diabetes team can review the same day.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "General medicine",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "insulin prescribing errors",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes",
+    "locator": "Managing diabetes in hospital inpatients: insulin adjustment with reduced oral intake; perioperative management",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society. Peri-operative Diabetes and Hyperglycaemia Guidelines (Adults) 2022",
+    "locator": "Postoperative insulin management: premixed insulin and reduced intake",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: premixed insulin doses must be reduced (often by around half or more) when intake is poor or the patient is fasting; hypoglycaemia (<4 mmol/L) recurring at the same times after a dose points to a dosing error rather than random variation. Supplemental (sliding scale) insulin alone is not a substitute for adjusting basal/premixed insulin. Misconceptions: surgical stress means more insulin is always needed; a single hypo is treated and forgotten. Out of scope: converting premixed to basal-bolus regimens, insulin infusions.",
+  "plan": "Tests interpretation of a BGL chart showing hypoglycaemia caused by full-dose premixed insulin in a poorly eating postoperative patient, evidencing 1.8, 1.5 and 1.1. Elderly man on a regional surgical ward with nurse asking the PGY2 overnight. Distractors: stress hyperglycaemia (misreads the daytime values), glucometer error (inaction), dawn phenomenon (wrong direction). Supported by Therapeutic Guidelines inpatient diabetes and the ADS perioperative guideline."
+ },
+ {
+  "work_order_id": "r1-205",
+  "item_id": "998f1a55-de28-62b9-afd7-49a32e4d65f4",
+  "version": 1,
+  "stem": "A 52-year-old woman is brought to the emergency department of a large metropolitan teaching hospital by her sister, who found her at home unwell for 3 days with vomiting, poor intake and drowsiness. She has treatment-resistant schizophrenia managed by the community mental health team on clozapine 400 mg at night, and her sister reports she has taken no clozapine for the past 3 days. She is afebrile, heart rate 96, blood pressure 118/74 mmHg, mildly dehydrated, with a normal ECG and no clinical features of infection; bloods are pending. The ED consultant asks you, the intern, to reconcile her medicines and asks specifically how her clozapine should be re-charted tonight.",
+  "lead_in": "Which approach to re-charting her clozapine is correct?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart clozapine 400 mg at night as usual because she has taken it long term and tolerated it"
+   },
+   {
+    "id": "B",
+    "text": "Restart at 12.5 mg once or twice daily and re-titrate under psychiatry guidance, because more than 48 hours of doses have been missed"
+   },
+   {
+    "id": "C",
+    "text": "Withhold clozapine until a clozapine plasma level and neutrophil count are back, then resume 400 mg at night"
+   },
+   {
+    "id": "D",
+    "text": "Substitute olanzapine 10 mg at night until the psychiatry team reviews her, then resume clozapine"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Tolerance to clozapine's cardiovascular and sedative effects is lost within days. Restarting the full dose after a break of more than 48 hours risks profound hypotension, bradycardia, syncope, excessive sedation and seizures.",
+   "B": "The Australian Medicines Handbook and Therapeutic Guidelines, consistent with the product information, state that when clozapine has been missed for more than 48 hours it must be restarted at 12.5 mg once or twice daily and re-titrated (more quickly than the initial titration if tolerated), with psychiatry involved and the clozapine monitoring coordinator informed. Her vomiting and drowsiness also need a cause found, including infection, which raises clozapine levels.",
+   "C": "A neutrophil count is required under the monitoring program, but waiting for a plasma level is unnecessary, and resuming at 400 mg once results are back repeats the error of a full-dose restart.",
+   "D": "Clozapine is reserved for treatment-resistant illness; substituting another antipsychotic is a psychiatry decision, risks relapse, and prolonging the interruption makes re-titration longer."
+  },
+  "learning_point": "Clozapine missed for more than 48 hours must be restarted at 12.5 mg and re-titrated under psychiatry guidance, never re-charted at the previous full dose.",
+  "setting_note": "In a regional hospital the same rule applies; the junior doctor contacts the patient's community mental health team or the on-call psychiatrist and the clozapine coordinator by phone and does not restart the full dose while waiting.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Mental health and behavioural emergencies",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Clozapine: practice points, restarting after interruption of more than 48 hours",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Clozapine: missed doses and re-titration",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: clozapine interrupted for more than 48 hours is restarted at 12.5 mg once or twice daily and re-titrated; the clozapine monitoring service and prescribing psychiatrist must be informed; neutrophil monitoring continues; infection, smoking cessation and some drugs raise levels; constipation, myocarditis and seizures are important toxicities. Misconceptions: long-term patients can resume full dose; any antipsychotic can be swapped in. Out of scope: initiation protocols, management of clozapine-induced neutropenia.",
+  "plan": "Tests a hard recall fact about medication reconciliation: the 48-hour rule for clozapine restart, evidencing 1.8 and 1.1. Woman with schizophrenia in a metropolitan ED after missed doses, intern asked to re-chart. Distractors: full-dose restart (the actual error seen), waiting for levels then full dose, substituting olanzapine. Supported by AMH and Therapeutic Guidelines clozapine sections."
+ },
+ {
+  "work_order_id": "r1-206",
+  "item_id": "7e7f3700-9613-c399-e013-e1be6b636419",
+  "version": 1,
+  "stem": "A 68-year-old man presents to the emergency department of a tertiary hospital in Adelaide with community-acquired pneumonia and is to be admitted under general medicine. He lives alone, has ischaemic heart disease, type 2 diabetes, hypertension and gout, and says he takes 'about eight tablets' but can name only metformin and 'a blood pressure one'. He has no medication list or packaging with him; his daughter is driving in from Murray Bridge and will arrive in 2 hours. It is 16:30 and the ED pharmacist has finished for the day. The medical registrar asks you, the intern, to complete his medication history and chart his regular medicines before he goes to the ward.",
+  "lead_in": "What is the most appropriate way to establish his medication history?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart metformin and withhold everything else until the ward pharmacist reviews him tomorrow"
+   },
+   {
+    "id": "B",
+    "text": "Chart the medicines he can recall and ask the ward team to confirm the rest at the post-take round"
+   },
+   {
+    "id": "C",
+    "text": "Chart a standard regimen for his conditions based on the discharge summary from his last admission 3 years ago"
+   },
+   {
+    "id": "D",
+    "text": "Obtain a best possible medication history from at least two sources, such as My Health Record and his community pharmacy or GP, confirm it with him and his daughter, and document the sources on the medication management plan"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Withholding cardiac and antihypertensive medicines for a day is not neutral: omitting a beta blocker or antianginal can precipitate ischaemia. The pharmacist is an important check, but the intern can and should obtain the history now.",
+   "B": "Charting only what he recalls leaves most of his medicines unreconciled. Patient recall alone is a single, unreliable source; the national standard expects at least two.",
+   "C": "A 3-year-old discharge summary is out of date, and a 'standard regimen' is a guess that can introduce medicines he no longer takes or omit new ones.",
+   "D": "The ACSQHC Medication Safety Standard requires a best possible medication history taken from the patient or carer plus at least one other reliable source (My Health Record, PBS claims, community pharmacy dispensing history, GP), documented with its sources on the medication management plan before medicines are charted or as soon as possible after admission. Community pharmacies are usually still open at this hour and My Health Record is accessible from the ED."
+  },
+  "learning_point": "A best possible medication history uses at least two sources, is confirmed with the patient or carer and is documented with its sources before regular medicines are charted.",
+  "setting_note": "In a regional hospital without an on-site pharmacist, the junior doctor relies even more on My Health Record, the local pharmacy and the GP; the standard is the same.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Documentation",
+   "Patient safety, quality and systems",
+   "General medicine"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (2nd edition): Medication Safety Standard",
+    "locator": "Actions 4.05 and 4.06: medication reconciliation and best possible medication history",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Medication Management Plan (MMP) and medication reconciliation guidance",
+    "locator": "Documenting sources of the medication history",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a best possible medication history (BPMH) uses the patient/carer interview plus at least one other reliable source; sources include My Health Record, PBS history, community pharmacy, GP, Webster packs, previous discharge summaries (checked for currency); document on the medication management plan with the sources used; reconcile against the chart. Misconceptions: med rec is the pharmacist's job alone; withholding is safe. Out of scope: specific perioperative withholding rules.",
+  "plan": "Tests the basic management step of taking a BPMH from two sources before charting, evidencing 1.8, 1.1 and 1.10. Older man with multiple conditions and no list in a tertiary ED after pharmacist hours. Distractors: withhold all (seems cautious), chart recall only (common shortcut), use an old summary (plausible but unsafe). Supported by the ACSQHC Medication Safety Standard and SA Health MMP guidance."
+ },
+ {
+  "work_order_id": "r1-207",
+  "item_id": "17603e6b-830c-14d4-59e4-88cc74647e94",
+  "version": 1,
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and specialist advice by phone. A 19-year-old Aboriginal man had an open appendicectomy for a perforated appendix 2 days ago. He is eating, mobilising and passing flatus; his pain is 3/10 at rest and 6/10 on moving, controlled with regular paracetamol, ibuprofen and two doses of oxycodone 5 mg in the last 24 hours. He lives 45 minutes away with his grandmother and wants to go home today. With his agreement the Aboriginal Liaison Officer has arranged transport and a wound review at the local Aboriginal health service in 3 days, and the visiting surgeon has approved discharge. You are writing his discharge medicines.",
+  "lead_in": "What is the most appropriate discharge analgesia?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Regular paracetamol and ibuprofen, with a small quantity of immediate-release oxycodone 5 mg (enough for about 3 days), a written plan to stop the opioid first, and a copy of the plan for the Aboriginal health service"
+   },
+   {
+    "id": "B",
+    "text": "Modified-release oxycodone 10 mg twice daily for 14 days so he is covered until the surgeon's next visit"
+   },
+   {
+    "id": "C",
+    "text": "Paracetamol alone, with advice to return to the emergency department if his pain is not controlled"
+   },
+   {
+    "id": "D",
+    "text": "Modified-release tramadol 100 mg twice daily for 7 days as a lower-risk alternative to oxycodone"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This follows the ACSQHC Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard: regular non-opioid analgesics as the base, an immediate-release opioid only while still needed, in the smallest quantity likely to be required (usually a few days), with a written weaning plan and handover to his usual provider. Sharing the plan with the Aboriginal health service, with his agreement, supports continuity and culturally safe follow-up close to home.",
+   "B": "Modified-release opioids are not recommended for acute pain or at discharge: they are harder to taper, carry higher risk of harm, and a 14-day supply far exceeds expected need after appendicectomy.",
+   "C": "He still needs oxycodone about twice a day. Discharging without an NSAID or any opioid risks uncontrolled pain and an unnecessary 45-minute trip back; under-treating pain is not a safe form of stewardship.",
+   "D": "Tramadol is not safer than oxycodone for acute pain, has serotonergic interactions and seizure risk, and a modified-release 7-day course is as inappropriate at discharge as any other modified-release opioid."
+  },
+  "learning_point": "Discharge analgesia after surgery is regular non-opioids plus the smallest necessary quantity of an immediate-release opioid with a written weaning plan and handover; modified-release opioids are not used for acute pain.",
+  "setting_note": "In a regional hospital, distance makes a written plan, a short opioid supply and a confirmed follow-up appointment at the patient's chosen service (here the Aboriginal health service, arranged with the Aboriginal Liaison Officer) especially important; in a metropolitan hospital GP follow-up is closer but the prescribing principles are identical.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Aboriginal and Torres Strait Islander health",
+   "Discharge planning",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.8",
+   "1.3",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "opioid prescribing and discharge",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard (2022)",
+    "locator": "Quality statements on appropriate opioid prescribing, documentation and transfer of care (discharge planning, limiting quantity, weaning plan)",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Acute postoperative pain: analgesia at hospital discharge",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: at discharge use regular paracetamol and NSAID (if not contraindicated), immediate-release opioid in the smallest quantity (often 3 days or less, PBS allows limited quantities for acute pain), written plan to cease the opioid first and dispose of leftovers, handover to GP or Aboriginal health service, no modified-release opioids for acute pain. Culturally safe care: involve the ALO, confirm follow-up and transport, written plan the patient and family can use. Misconceptions: modified-release is 'smoother'; tramadol is low risk; distance justifies larger supply. Out of scope: chronic opioid therapy, ScriptCheckSA.",
+  "plan": "Tests the management decision of safe discharge analgesia after surgery in a young Aboriginal man in a regional hospital, evidencing 1.8, 1.3 and 1.1. Distractors: long modified-release oxycodone course (distance rationalisation), paracetamol alone (over-correction), modified-release tramadol (false safety). Supported by the ACSQHC opioid stewardship standard and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-208",
+  "item_id": "6e0a05aa-2ac7-de89-9263-af7d213a3189",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a large metropolitan teaching hospital at 05:00. A 34-year-old Aboriginal woman presented 4 hours ago with right-sided renal colic; CT shows a 4 mm distal ureteric stone without obstruction or signs of infection. She has had intravenous morphine 10 mg in divided doses, intravenous ketorolac and paracetamol. Her pain remains 8/10, heart rate 108, blood pressure 138/86 mmHg, afebrile. The department is full and the nurse in charge asks you to 'write her discharge script so the bed can be turned over'. The patient, whose two children are at home with her mother, also wants to leave. The Aboriginal Liaison Officer starts at 08:00. The ED consultant is in the resuscitation bay with another patient.",
+  "lead_in": "Which action takes priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Write a discharge prescription for immediate-release oxycodone 5 mg, 20 tablets, so she can leave now"
+   },
+   {
+    "id": "B",
+    "text": "Give a further dose of intravenous morphine and discharge her once she feels more comfortable"
+   },
+   {
+    "id": "C",
+    "text": "Reassess her pain and observations yourself and discuss her with the ED consultant before any discharge decision is made"
+   },
+   {
+    "id": "D",
+    "text": "Arrange outpatient urology follow-up and discharge her with paracetamol only"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Prescribing an opioid to facilitate the departure of a patient whose pain is uncontrolled and who is tachycardic bypasses assessment. Twenty tablets also exceeds the small quantity the opioid stewardship standard recommends, if an opioid is needed at all.",
+   "B": "A further dose may be appropriate, but discharging on the basis of transient relief after intravenous morphine, without working out why first-line management has failed, is unsafe.",
+   "C": "Severe pain despite adequate multimodal analgesia and persistent tachycardia are red flags that require reassessment (repeat examination, consider obstruction, infection or an alternative diagnosis, repeat urinalysis and observations) and a senior decision before discharge. Bed pressure and the patient's wish to leave are real pressures that the PGY2 should name to the consultant rather than resolve with a script. Her family responsibilities can be discussed with her, and the Aboriginal Liaison Officer involved as soon as available if she wishes.",
+   "D": "Follow-up is needed for a 4 mm stone, but discharging with paracetamol alone while pain is 8/10 is neither safe nor compassionate."
+  },
+  "learning_point": "Persistent severe pain and abnormal observations after first-line analgesia are a reason to reassess and escalate, not a reason to write a discharge opioid prescription.",
+  "setting_note": "In a regional ED the senior may be the GP on call by phone; the principle of reassessment and escalation before discharge is unchanged, and the on-call doctor should be woken for this decision.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Aboriginal and Torres Strait Islander health",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "opioid prescribing and discharge",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard (2022)",
+    "locator": "Quality statements on acute pain assessment, appropriate opioid prescribing and transfer of care",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Renal colic: analgesia and indications for review or admission",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: renal colic should usually settle with NSAID plus opioid; failure to control pain, persistent tachycardia, fever or signs of obstruction/infection are indications for reassessment, imaging review, urology discussion or admission. Opioid discharge prescriptions should be small quantities with a plan, never a tool to clear a bed. Graded assertiveness: the PGY2 should state the concern to the nurse in charge and the consultant. Cultural safety: ask the patient what support she wants, involve the ALO when available, address practical barriers to staying. Out of scope: stone management thresholds, ScriptCheckSA.",
+  "plan": "Tests prioritisation: reassessment and senior escalation over discharge prescribing under bed pressure, evidencing 1.8, 1.1 and 2.4. Young Aboriginal woman with uncontrolled colic in a busy metropolitan ED at 05:00. Distractors: write the script (the pressured shortcut), another morphine dose then discharge, paracetamol-only discharge. Supported by the ACSQHC opioid stewardship standard and Therapeutic Guidelines renal colic section."
+ },
+ {
+  "work_order_id": "r1-209",
+  "item_id": "bff853ff-7d40-85b7-3e4a-b4d3bac34997",
+  "version": 1,
+  "stem": "You are the intern covering the surgical ward of a metropolitan general hospital overnight, with the surgical registrar on site. At 23:30 a nurse asks you to chart 'something stronger' for a 69-year-old man, 76 kg, who is 1 day after a laparoscopic cholecystectomy and rates his wound pain 6/10. He has heart failure and chronic kidney disease (baseline eGFR 38 mL/min/1.73 m2) and takes ramipril 10 mg and frusemide 40 mg daily, both continued since admission. His chart has regular paracetamol 1 g four times daily and ibuprofen 400 mg three times daily when required, which he has had twice today. Reviewing the chart you notice the fluid balance: urine output via his indwelling catheter has been 15 to 20 mL per hour for the last 3 hours, and he has had 1.5 L of intravenous fluid since surgery. Other observations are within normal limits.",
+  "lead_in": "Which action takes priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart immediate-release oxycodone 5 mg when required and hand the rest over to the day team"
+   },
+   {
+    "id": "B",
+    "text": "Cease the ibuprofen, assess his fluid status, request urgent electrolytes and creatinine, and call the registrar about the low urine output before adjusting his analgesia"
+   },
+   {
+    "id": "C",
+    "text": "Change ibuprofen to celecoxib, which spares the kidney, and add oxycodone when required"
+   },
+   {
+    "id": "D",
+    "text": "Increase paracetamol to 1 g every 4 hours while he is in pain"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Pain relief matters, but adding an opioid without acting on oliguria in a patient taking an NSAID, an ACE inhibitor and a loop diuretic (the 'triple whammy') misses the more urgent problem; oxycodone also accumulates if kidney function is falling.",
+   "B": "Urine output below 0.5 mL/kg/h for 3 hours in a patient with chronic kidney disease on the triple whammy is acute kidney injury until proven otherwise. The intern's priority is to stop the nephrotoxic NSAID, assess volume status, send bloods and escalate to the on-site registrar, who can also decide about the ramipril and frusemide. Analgesia is then adjusted safely: paracetamol continues and any opioid is chosen with renal function in mind.",
+   "C": "COX-2 selective NSAIDs have the same renal effects as non-selective NSAIDs; there is no kidney-sparing NSAID.",
+   "D": "Paracetamol 1 g every 4 hours would deliver 6 g a day, above the maximum of 4 g in 24 hours."
+  },
+  "learning_point": "An NSAID combined with an ACE inhibitor or ARB and a diuretic ('triple whammy') in a patient with chronic kidney disease can precipitate acute kidney injury; falling urine output in that setting takes priority over an analgesia request, so stop the NSAID and escalate.",
+  "setting_note": "In a regional hospital without a registrar on site the intern phones the on-call doctor; stopping the NSAID, assessing fluids and sending bloods are the same, though results may take longer overnight.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Surgery and perioperative care",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "paracetamol and NSAID safety",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "NSAIDs: precautions (renal impairment, heart failure) and interactions with ACE inhibitors and diuretics",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "NSAIDs: adverse effects and precautions, renal toxicity; paracetamol maximum daily dose",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: NSAID plus ACE inhibitor/ARB plus diuretic markedly increases AKI risk, especially with CKD, dehydration, heart failure and age; oliguria is <0.5 mL/kg/h; COX-2 inhibitors share renal toxicity; paracetamol maximum 4 g/24 h (lower in low weight or hepatic risk). Misconceptions: celecoxib is renally safe; postoperative oliguria is 'just the anaesthetic'. Out of scope: detailed AKI management, opioid selection in renal impairment.",
+  "plan": "Tests prioritisation of recognising NSAID-associated AKI risk over a routine analgesia request, evidencing 1.8, 1.9 and 1.1. Older man with CKD and heart failure on a surgical ward overnight with a registrar available. Distractors: just add oxycodone, swap to celecoxib (renal-sparing myth), overdose paracetamol. Supported by AMH NSAID precautions and Therapeutic Guidelines analgesic chapter."
+ },
+ {
+  "work_order_id": "r1-210",
+  "item_id": "90c488f5-0659-7db0-427f-cc02496970f6",
+  "version": 1,
+  "stem": "A 60-year-old woman weighing 45 kg is admitted to the medical ward of a regional hospital (small ICU-free medical ward, CT in business hours only, retrieval to Adelaide by road or air) with a CT-confirmed segmental pulmonary embolism and stable observations. Her serum creatinine is 150 micromol/L and the laboratory reports an eGFR (CKD-EPI) of 33 mL/min/1.73 m2. She has no bleeding history, platelets 240 x 10^9/L, and takes no anticoagulant or antiplatelet. The physician, by phone, asks you, the intern, to chart treatment-dose enoxaparin tonight and says 'check her renal function and dose it properly'. The hospital cannot measure anti-Xa levels.",
+  "lead_in": "What is the most appropriate enoxaparin dose to chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "45 mg subcutaneously twice daily"
+   },
+   {
+    "id": "B",
+    "text": "70 mg subcutaneously once daily"
+   },
+   {
+    "id": "C",
+    "text": "40 mg subcutaneously once daily"
+   },
+   {
+    "id": "D",
+    "text": "45 mg subcutaneously once daily"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "1 mg/kg twice daily is the standard treatment dose when creatinine clearance is 30 mL/min or more. Her clearance is below that, so twice-daily dosing would accumulate and raise bleeding risk.",
+   "B": "1.5 mg/kg once daily is an alternative regimen for patients with normal renal function, not a renal adjustment; for her it also overdoses.",
+   "C": "40 mg once daily is a prophylactic dose and would under-treat an acute pulmonary embolism.",
+   "D": "Dose adjustment is based on Cockcroft-Gault creatinine clearance, not the laboratory eGFR, which is normalised to 1.73 m2 and overestimates clearance in a small woman. Her Cockcroft-Gault clearance is about 25 mL/min: (140 - 60) x 45 x 0.85 divided by (0.814 x 150). With clearance below 30 mL/min, the Australian Medicines Handbook and Therapeutic Guidelines dose is 1 mg/kg once daily, about 45 mg, with close observation for bleeding; unfractionated heparin is an alternative if clearance is much lower or monitoring is required."
+  },
+  "learning_point": "Enoxaparin and other renally cleared drugs are dosed on Cockcroft-Gault creatinine clearance using actual weight, not the reported eGFR; with clearance below 30 mL/min, treatment-dose enoxaparin becomes 1 mg/kg once daily.",
+  "setting_note": "Without anti-Xa monitoring in a regional hospital, the once-daily renal dose with clinical observation is practical; a tertiary hospital might use an unfractionated heparin infusion with APTT monitoring or check anti-Xa levels, but the calculation is the same.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Pharmacology",
+   "General medicine"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Enoxaparin: dosage in renal impairment (CrCl less than 30 mL/min, 1 mg/kg once daily); Prescribing in renal impairment: estimating renal function with Cockcroft-Gault",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Treatment of venous thromboembolism: low molecular weight heparin dosing in renal impairment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Cockcroft-Gault CrCl = (140 - age) x weight x (0.85 if female) / (0.814 x serum creatinine in micromol/L); eGFR is indexed to body surface area and misleads at extremes of weight; enoxaparin treatment dose is 1 mg/kg bd (or 1.5 mg/kg daily) with CrCl 30 or more and 1 mg/kg daily below 30; prophylactic dose is reduced to 20 mg daily below 30. Misconceptions: eGFR from the lab is the dosing number; renal dosing means halving the dose. Out of scope: anti-Xa monitoring targets, DOAC dosing in renal impairment.",
+  "plan": "Tests recall of enoxaparin renal dose adjustment and of using Cockcroft-Gault rather than eGFR, evidencing 1.8 and 1.5. Small, older woman with PE on a regional ward where the intern charts anticoagulation on phone instruction. Distractors: standard bd dose (uses eGFR), 1.5 mg/kg daily (misread as renal regimen), prophylactic dose. Supported by AMH enoxaparin dosing and Therapeutic Guidelines VTE treatment."
+ },
+ {
+  "work_order_id": "r1-211",
+  "item_id": "4b2a05d1-380a-7453-2e5d-d99fa9a729b6",
+  "version": 1,
+  "stem": "A 22-year-old man, 70 kg, was admitted to the general ward of a large metropolitan teaching hospital 24 hours ago with pyelonephritis and sepsis. In the emergency department he received gentamicin 5 mg/kg (350 mg) intravenously and intravenous amoxicillin; his creatinine then was 110 micromol/L. He has improved: temperature 37.6, heart rate 88, blood pressure 122/76 mmHg. This morning's creatinine is 190 micromol/L, his urine output overnight was 0.4 mL/kg/h despite intravenous fluids, and the urine culture is growing a Gram-negative bacillus with sensitivities due tomorrow. The nurse tells you the next gentamicin dose is 'due now' according to the chart; the medical registrar is in clinic until midday and the ward pharmacist is on the ward. You are the resident.",
+  "lead_in": "What is the most appropriate action regarding the gentamicin dose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Withhold the dose, order a gentamicin plasma level and repeat creatinine, and contact the registrar or pharmacist now to change to an alternative such as ceftriaxone pending sensitivities"
+   },
+   {
+    "id": "B",
+    "text": "Give gentamicin 350 mg now because he is clinically improving and his creatinine remains within three times baseline"
+   },
+   {
+    "id": "C",
+    "text": "Give a reduced dose of gentamicin 3 mg/kg now and recheck the creatinine tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Cease all antibiotics until the sensitivities are reported tomorrow"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "His creatinine has nearly doubled with reduced urine output: this is acute kidney injury. Therapeutic Guidelines states that in patients with impaired or changing renal function further gentamicin doses are given only on the basis of plasma concentration monitoring, that empirical gentamicin should not continue beyond 48 hours, and that when kidney function deteriorates the aminoglycoside should be stopped and an alternative used (for pyelonephritis, typically ceftriaxone, narrowed once sensitivities are available). Withholding the dose and seeking advice now, rather than waiting until midday, is within a resident's scope.",
+   "B": "Clinical improvement does not protect the kidney or the inner ear. A second dose into established acute kidney injury risks worsening nephrotoxicity and ototoxicity, and 'within three times baseline' is not a dosing criterion.",
+   "C": "Reducing the dose without a level is guesswork; in renal impairment the interval is extended on the basis of levels, and here the better course is to stop the aminoglycoside.",
+   "D": "Stopping all antibiotics in a patient with Gram-negative urosepsis would be dangerous; the aim is to replace the nephrotoxic agent, not to leave him untreated."
+  },
+  "learning_point": "Once renal function is deteriorating, further gentamicin doses must not be given empirically; withhold, check a level and creatinine, and switch to a non-nephrotoxic alternative on senior or pharmacist advice.",
+  "setting_note": "In a regional hospital gentamicin levels may be sent to a distant laboratory with a delay of a day or more, which strengthens the case for switching antibiotics early on phone advice; in a tertiary centre the pharmacist and infectious diseases team are readily available.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Fluids, electrolytes and renal",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "Therapeutic Guidelines aminoglycoside dosing tables and the 48-hour empirical limit are periodically revised; the principle that further doses in deteriorating renal function require level-guided dosing or a switch is stable."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Principles of aminoglycoside use: dosing in renal impairment, plasma concentration monitoring and duration of empirical therapy",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Gentamicin: dosage in renal impairment and monitoring",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: empirical gentamicin is limited to 48 hours (usually 1 to 2 doses); dose interval depends on creatinine clearance and subsequent doses in impaired or changing renal function require level-guided dosing; nephrotoxicity and ototoxicity are cumulative; in pyelonephritis an alternative is ceftriaxone adjusted to sensitivities. The resident should act now rather than waiting for the registrar, using the pharmacist. Misconceptions: a clinically improving patient can safely keep receiving gentamicin; dose reduction without levels is adequate. Out of scope: detailed nomogram use, extended-interval dosing calculators.",
+  "plan": "Tests management of a due gentamicin dose in a young man who has developed acute kidney injury, evidencing 1.8, 1.5 and 1.1. Metropolitan ward with registrar away, pharmacist available, so the resident must decide. Distractors: give the dose because he is improving, give a reduced dose unguided, cease all antibiotics. Supported by Therapeutic Guidelines aminoglycoside principles and AMH."
+ },
+ {
+  "work_order_id": "r1-212",
+  "item_id": "d049eedd-a301-ae55-661c-9da55f398077",
+  "version": 1,
+  "stem": "You are the intern on overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department, the GP on call at home. At 01:30 you admit a 72-year-old woman, 58 kg, with community-acquired pneumonia; her oxygen saturation is 93% on 2 L and she is otherwise stable and will stay on the ward. She takes no anticoagulant or antiplatelet and has no bleeding history. The hospital's admission chart prompts VTE risk assessment and its protocol is enoxaparin 40 mg daily for medical inpatients. Her admission bloods return: haemoglobin 126 g/L, platelets 38 x 10^9/L with no previous count available, creatinine 70 micromol/L. Her antibiotics and fluids are charted. The nurse asks you to complete the VTE section of the chart.",
+  "lead_in": "What is the most appropriate action for her VTE prophylaxis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart enoxaparin 40 mg daily as the protocol directs, since the platelet count is only mildly reduced"
+   },
+   {
+    "id": "B",
+    "text": "Chart enoxaparin at a halved dose of 20 mg daily to balance the risks"
+   },
+   {
+    "id": "C",
+    "text": "Withhold pharmacological prophylaxis, use mechanical prophylaxis and early mobilisation, document the reason, and discuss the unexplained thrombocytopenia with the GP on call"
+   },
+   {
+    "id": "D",
+    "text": "Chart aspirin 100 mg daily as a safer alternative to enoxaparin"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A platelet count of 38 x 10^9/L is well below the level (about 50 x 10^9/L) at which Therapeutic Guidelines advises withholding pharmacological prophylaxis unless thrombosis risk is exceptional. It is not mild, and a new unexplained count this low needs explanation: sepsis-related consumption, drug effect or pseudothrombocytopenia.",
+   "B": "Halving the dose is not an evidence-based compromise and does not remove bleeding risk; enoxaparin dose reduction is for renal impairment or low body weight, not thrombocytopenia.",
+   "C": "Mechanical prophylaxis (graduated compression stockings or intermittent pneumatic compression if available) plus mobilisation is the recommended approach while pharmacological prophylaxis is contraindicated. The chart should record the reason so the decision is reviewed daily. A new platelet count of 38 at 01:30 in a patient with pneumonia warrants a call to the GP on call rather than waiting for the morning, with a repeat count and blood film, because it may indicate sepsis-related consumption and alters the need for transfer.",
+   "D": "Aspirin is not recommended for VTE prophylaxis in medical inpatients and also impairs platelet function."
+  },
+  "learning_point": "A platelet count under about 50 x 10^9/L is a contraindication to pharmacological VTE prophylaxis; use mechanical measures, document the reason and escalate an unexplained new thrombocytopenia.",
+  "setting_note": "In a small rural hospital compression devices may be unavailable, so stockings and mobilisation become the mainstay, and the junior doctor must decide with the on-call GP whether the thrombocytopenia changes the need for transfer; in a tertiary hospital haematology advice is available immediately.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Pathology",
+   "Rural and remote",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "venous thromboembolism prophylaxis",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Prevention of venous thromboembolism in hospitalised patients: contraindications to pharmacological prophylaxis (thrombocytopenia) and mechanical prophylaxis",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Venous Thromboembolism Prevention Clinical Care Standard (2020)",
+    "locator": "Quality statements on VTE and bleeding risk assessment and appropriate prophylaxis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: pharmacological VTE prophylaxis is generally withheld when platelets are below about 50 x 10^9/L, with active bleeding, or within 12 hours of neuraxial procedures; mechanical prophylaxis is used instead and the decision is documented and reviewed daily; a new unexplained thrombocytopenia in a septic patient needs repeat count, film and senior discussion. Misconceptions: protocols override contraindications; aspirin is adequate prophylaxis. Out of scope: heparin-induced thrombocytopenia management, DIC treatment.",
+  "plan": "Tests prioritisation: recognising a contraindication that overrides the admission protocol and deciding to escalate overnight, evidencing 1.8, 1.1 and 1.5. Rural solo intern admitting an older woman with pneumonia and new thrombocytopenia. Distractors: follow protocol (anchoring), half dose (false compromise), aspirin (wrong agent). Supported by Therapeutic Guidelines VTE prophylaxis and the ACSQHC VTE Prevention standard."
+ },
+ {
+  "work_order_id": "r1-213",
+  "item_id": "1557617f-9001-b664-7d1f-cd46900ca78e",
+  "version": 1,
+  "stem": "You are the intern covering the ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. An 80-year-old man is admitted from the emergency department with a urinary tract infection. His medicines are confirmed from his Webster pack and his GP's list, which show he takes digoxin 62.5 micrograms every morning for atrial fibrillation, as well as apixaban and metoprolol. The nurse asks you to write up his regular medicines on the paper National Inpatient Medication Chart used by the hospital so that the morning dose is not missed. There is no electronic prescribing system.",
+  "lead_in": "How should the digoxin order be written on the chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "digoxin 62.5 mcg orally, mane"
+   },
+   {
+    "id": "B",
+    "text": "digoxin 62.5 micrograms orally, mane"
+   },
+   {
+    "id": "C",
+    "text": "digoxin .0625 mg orally, mane"
+   },
+   {
+    "id": "D",
+    "text": "digoxin 62.50 micrograms orally, mane"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "The abbreviation 'mcg' is on the ACSQHC list of error-prone abbreviations to avoid because it has been misread as 'mg', producing thousand-fold overdoses; 'micrograms' must be written in full.",
+   "B": "This order uses the generic name, the dose with the unit written in full, the route and an accepted frequency, with no error-prone abbreviations, no trailing zero and no naked decimal. It should also carry the indication, the prescriber's signature, printed name and the date.",
+   "C": "A decimal with no leading zero can be read as 625 mg. If a decimal is unavoidable a leading zero is mandatory, and expressing the dose in micrograms avoids the decimal altogether.",
+   "D": "A trailing zero after a decimal point (62.50) can be read as 6250 micrograms, a hundred-fold overdose; trailing zeros must never be used."
+  },
+  "learning_point": "Write 'micrograms' and 'units' in full, never use trailing zeros, and always put a leading zero before a decimal point; these are the ACSQHC national rules for safe medication charting.",
+  "setting_note": "Paper charts remain common in country hospitals, so legible, standardised writing matters more; electronic prescribing systems in tertiary hospitals enforce many of these rules automatically.",
+  "learning_area": "Prescribing and medication safety",
+  "secondary_areas": [
+   "Documentation",
+   "Patient safety, quality and systems",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.8",
+   "1.10",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "writing a safe medication chart",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Recommendations for terminology, abbreviations and symbols used in medicines documentation (2016)",
+    "locator": "Dose expression: micrograms and units in full; no trailing zeros; leading zero before decimal point; error-prone abbreviations",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Inpatient Medication Chart user guide",
+    "locator": "Writing a regular medicine order",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: write micrograms, units, international units in full; no trailing zeros; leading zero before a decimal; avoid 'u', 'IU', 'mcg', 'ug', 'OD', 'qd'; generic names; include indication, route, frequency, date, signature and printed name. Misconceptions: 'mcg' is acceptable because it is common. Out of scope: digoxin dosing itself, electronic prescribing workflows.",
+  "plan": "Tests the basic management skill of writing a safe digoxin order on a paper chart, evidencing 1.8, 1.10 and 1.1. Elderly man admitted overnight in a country hospital with paper charts. Distractors are the three classic error-prone forms: mcg, naked decimal, trailing zero. Supported by the ACSQHC terminology recommendations and NIMC user guide."
+ },
+ {
+  "work_order_id": "r1-214",
+  "item_id": "4f99681c-44cc-02d3-0951-571b475c40fb",
+  "version": 1,
+  "stem": "On the medical ward of a tertiary hospital in Adelaide, a 70-year-old woman admitted with community-acquired pneumonia develops new central chest tightness. The nurse brings the ECG machine and asks you, the intern, to record a 12-lead ECG while she phones the registrar. You attach the limb electrodes, place V1 at the fourth intercostal space at the right sternal edge and V2 at the fourth intercostal space at the left sternal edge, and then need to locate V4 so that V3, V5 and V6 can be placed in relation to it. The patient had an ECG in the emergency department yesterday and the registrar will want to compare the two.",
+  "lead_in": "Where should the V4 electrode be placed?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Fifth intercostal space at the left sternal edge"
+   },
+   {
+    "id": "B",
+    "text": "Fourth intercostal space in the left midclavicular line"
+   },
+   {
+    "id": "C",
+    "text": "Fifth intercostal space in the left anterior axillary line"
+   },
+   {
+    "id": "D",
+    "text": "Fifth intercostal space in the left midclavicular line"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "The left sternal edge in the fourth space is the V2 position; no standard chest electrode sits at the sternal edge in the fifth space.",
+   "B": "V4 is one interspace lower than V1 and V2. Placing it in the fourth space shifts the anterior leads upward and can mimic or conceal anterior ST changes when serial ECGs are compared.",
+   "C": "The fifth space in the anterior axillary line is the V5 position, placed horizontally level with V4.",
+   "D": "V4 is placed in the fifth intercostal space in the left midclavicular line. V3 is then placed midway between V2 and V4, and V5 and V6 at the same horizontal level as V4 in the anterior axillary and midaxillary lines. In a woman with large breasts the electrodes are placed beneath the breast to reach the correct landmarks. Consistent placement is what makes serial ECGs comparable."
+  },
+  "learning_point": "V4 is at the fifth intercostal space in the left midclavicular line, and V5 and V6 are placed at the same horizontal level as V4 rather than following the rib space.",
+  "setting_note": "Interns in small hospitals often record their own ECGs overnight without a technician, so correct placement is a core skill; the landmarks do not change with setting.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.6",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "ECG acquisition",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Society for Cardiological Science and Technology. Clinical guidelines by consensus: recording a standard 12-lead electrocardiogram (2017)",
+    "locator": "Section on chest electrode positions (V1 to V6)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Life in the Fast Lane (LITFL) ECG Library: ECG lead positioning",
+    "locator": "Precordial lead placement",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: V1 fourth ICS right sternal edge; V2 fourth ICS left sternal edge; V3 midway between V2 and V4; V4 fifth ICS left midclavicular line; V5 anterior axillary line level with V4; V6 midaxillary line level with V4; limb electrodes distal on limbs (or proximal if tremor, noting on the trace); electrodes under the breast; document any non-standard placement. Misconceptions: V5 and V6 follow the interspace rather than a horizontal line; V4 at the fourth space. Out of scope: ECG interpretation, posterior and right-sided leads.",
+  "plan": "Tests recall of standard precordial electrode placement, evidencing 1.6 and 1.5. Older woman with chest tightness on a ward where the intern records the ECG. Distractors are neighbouring positions commonly confused (V2's level, the fourth space, V5's line). Supported by the SCST consensus guideline and LITFL lead positioning summary."
+ },
+ {
+  "work_order_id": "r1-215",
+  "item_id": "3ccef498-5784-0c78-dfb6-e02b7468b866",
+  "version": 1,
+  "stem": "A 36-year-old man with a severe asthma exacerbation is in the emergency department of a regional hospital with a small ICU-free medical ward and retrieval to Adelaide by road or air. Forty minutes ago you, the junior doctor, took an arterial blood gas from his right radial artery after two failed attempts; the nurse applied a firm pressure bandage. He now says his right hand is painful and 'numb'. It is pale and cool compared with the left, capillary refill is 5 seconds, and you cannot feel the radial pulse at the wrist, though the ulnar pulse is palpable. His breathing has improved on nebulised salbutamol and he is awaiting the physician's review. There is no vascular surgeon or CT angiography available in the hospital tonight.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Remove the pressure bandage, reassess perfusion and pulses within minutes, and if perfusion does not promptly recover contact the on-call vascular surgeon in Adelaide and the retrieval service urgently"
+   },
+   {
+    "id": "B",
+    "text": "Elevate the arm on pillows, apply a warm pack and review the hand in 4 hours"
+   },
+   {
+    "id": "C",
+    "text": "Start a therapeutic heparin infusion immediately on the assumption of radial artery thrombosis"
+   },
+   {
+    "id": "D",
+    "text": "Take a repeat arterial sample from the right ulnar artery to confirm his gas has improved"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A pale, cool, pulseless hand after arterial puncture is a time-critical limb threat. The first step is to remove any constricting dressing, which may be the whole cause, and reassess. If the signs persist, radial artery thrombosis, dissection or spasm with inadequate collateral flow must be assumed, and vascular surgical advice sought immediately, with retrieval if intervention is needed. The physician and senior nurse are told at the same time.",
+   "B": "Waiting 4 hours with an ischaemic hand risks irreversible tissue loss; elevation and review suit a simple haematoma, not pulselessness with a capillary refill of 5 seconds.",
+   "C": "Anticoagulation may be advised, but starting it before vascular assessment in a patient who may have a dissection or compressive haematoma is a specialist decision, not the junior doctor's first step.",
+   "D": "Puncturing the ulnar artery of a hand that may be surviving on ulnar flow alone could complete the ischaemia; it is contraindicated."
+  },
+  "learning_point": "A pale, cool, painful or pulseless hand after radial arterial puncture is a vascular emergency: release any pressure dressing, reassess immediately and escalate to vascular surgery without delay.",
+  "setting_note": "In a regional hospital without vascular surgery or CT angiography after hours, early phone contact with the Adelaide vascular service and MedSTAR retrieval is the only route to intervention, so the threshold to call is lower than in a tertiary centre where the vascular team can review at the bedside.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Rural and remote",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.6",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "arterial puncture",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "No single Australian guideline covers management of limb ischaemia after arterial puncture; the key reflects standard procedural and vascular surgical practice described in Australian procedural references."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Life in the Fast Lane (LITFL) Critical Care Compendium: Arterial blood gas sampling",
+    "locator": "Complications of arterial puncture and their management",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Dougherty L, Lister S (eds). The Royal Marsden Manual of Clinical Nursing Procedures, 10th edition",
+    "locator": "Arterial puncture: post-procedure care and complications (haematoma, thrombosis, ischaemia)",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: complications of radial puncture include haematoma, arterial spasm, thrombosis, dissection, infection and nerve injury; a modified Allen test or Doppler before puncture checks collateral ulnar flow; a pressure dressing that is too tight can itself occlude; signs of ischaemia (pain, pallor, coolness, slow refill, absent pulse) require immediate reassessment and vascular escalation, as warm ischaemia time for the hand is measured in hours. Misconceptions: a palpable ulnar pulse makes the hand safe; observation is reasonable overnight. Out of scope: surgical or endovascular techniques, anticoagulation regimens.",
+  "plan": "Tests management of a rare but critical complication of arterial puncture, evidencing 1.6, 1.9 and 1.1. Young man in a regional ED without vascular services makes early escalation the hinge. Distractors: elevation and wait (under-reaction), empirical heparin (over-reach), ulnar puncture (dangerous). Supported by LITFL arterial sampling complications and a standard procedural manual."
+ },
+ {
+  "work_order_id": "r1-216",
+  "item_id": "32bbc51d-8316-918b-70c3-083d05dda7a4",
+  "version": 1,
+  "stem": "You are the PGY2 in the recovery area of the theatre suite of a regional hospital with a small ICU-free medical ward. An 81-year-old woman, 55 kg, has just arrived from theatre after a hip hemiarthroplasty under spinal anaesthesia with intravenous sedation; she received fentanyl 50 micrograms 20 minutes ago. The anaesthetist has gone back into theatre to start the next case. The recovery nurse calls you because the patient has become unrousable to voice, is snoring loudly with see-saw chest and abdominal movement, and her SpO2 has fallen from 96% to 86% on 6 L oxygen via a Hudson mask. Heart rate 92, blood pressure 118/70 mmHg. A bag-valve-mask, oropharyngeal airways and suction are on the trolley beside you.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give naloxone 100 micrograms intravenously and repeat every 2 minutes until she wakes"
+   },
+   {
+    "id": "B",
+    "text": "Insert a size 3 laryngeal mask airway and connect it to the oxygen circuit"
+   },
+   {
+    "id": "C",
+    "text": "Perform a head-tilt, chin-lift or jaw thrust while increasing oxygen to 15 L via a non-rebreather mask, and ask the nurse to call the anaesthetist back immediately"
+   },
+   {
+    "id": "D",
+    "text": "Sit her upright and apply continuous positive airway pressure through the ward CPAP machine"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Opioid-related sedation is probably contributing and naloxone may well follow, but drawing up and giving a drug while the airway remains obstructed delays the manoeuvre that corrects hypoxia within seconds; airway opening comes first (ANZCOR Guideline 4).",
+   "B": "A laryngeal mask requires a deeply unconscious patient and skills most PGY2s do not have; it is the anaesthetist's decision, after simple manoeuvres have been tried.",
+   "C": "Snoring with see-saw movement and falling saturations means upper airway obstruction from loss of tone. A head-tilt, chin-lift or jaw thrust relieves it immediately, high-flow oxygen buys time, and the anaesthetist, who is seconds away, must be recalled at once. An oropharyngeal airway and bag-valve-mask ventilation follow if breathing remains inadequate.",
+   "D": "CPAP needs a patent airway and a cooperative patient; it does not treat obstruction from reduced consciousness, and sitting a sedated patient upright risks losing the airway altogether."
+  },
+  "learning_point": "Noisy, obstructed breathing in a sedated patient is treated first with basic airway manoeuvres and high-flow oxygen while help is called; drugs and airway devices come after the airway is open.",
+  "setting_note": "In a regional theatre suite the anaesthetist may be the only person able to manage an advanced airway, so the junior doctor must be able to maintain a basic airway alone for several minutes and should call early; in a tertiary hospital a second anaesthetist or ICU team is usually available.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Anaesthetics",
+   "Deteriorating patient",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.6",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "basic airway management",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 4: Airway",
+    "locator": "Basic airway management: head tilt, chin lift and jaw thrust; airway adjuncts",
+    "supports": "key"
+   },
+   {
+    "source": "anzcor",
+    "title": "ANZCOR Guideline 3: Recognition and first aid management of the unconscious person",
+    "locator": "Airway and breathing assessment and calling for help",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: sequence for obstructed airway in a sedated patient is open the airway (head tilt/chin lift, jaw thrust), high-flow oxygen, call for help, then adjuncts (oropharyngeal or nasopharyngeal airway), bag-valve-mask ventilation if breathing inadequate, then consider reversal agents; naloxone in titrated doses (for example 100 micrograms IV) is appropriate once the airway is supported. Misconceptions: reversal drugs are the first step; CPAP treats obstruction from reduced consciousness. Out of scope: supraglottic airway insertion technique, intubation.",
+  "plan": "Tests prioritisation of basic airway manoeuvres and calling help over drugs or devices, evidencing 1.6 and 1.9. Elderly woman in recovery at a regional hospital with the anaesthetist in theatre. Distractors: naloxone first (plausible cause but wrong order), LMA (beyond scope), CPAP (wrong tool). Supported by ANZCOR Guidelines 3 and 4."
+ },
+ {
+  "work_order_id": "r1-217",
+  "item_id": "2c9a79eb-0a72-2a05-651f-aaa814d10597",
+  "version": 1,
+  "stem": "In the pre-admission clinic and theatre suite of a tertiary hospital in Adelaide, a 55-year-old woman is about to have a laparoscopic cholecystectomy. Four years ago she had a left mastectomy with axillary node clearance for breast cancer and has mild left arm lymphoedema controlled with a compression sleeve. Her right forearm has good visible veins and both antecubital fossae have large veins. She has no arteriovenous fistula. The anaesthetist asks you, the resident, to site an intravenous cannula suitable for induction and for a possible postoperative patient-controlled analgesia pump, and mentions that the surgeon wants the left arm tucked by her side during the operation.",
+  "lead_in": "Which cannulation site is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Left antecubital fossa, 16 gauge, because it has the largest vein"
+   },
+   {
+    "id": "B",
+    "text": "Right forearm, 18 or 20 gauge, avoiding the antecubital crease"
+   },
+   {
+    "id": "C",
+    "text": "Left dorsum of the hand, 20 gauge, to keep the antecubital fossa for blood sampling"
+   },
+   {
+    "id": "D",
+    "text": "Right foot, 22 gauge, to keep both arms free"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "The arm on the side of axillary node clearance with established lymphoedema should be avoided for cannulation, venepuncture and blood pressure cuffs where a reasonable alternative exists, as the Australasian Lymphology Association advises; a tucked arm is also inaccessible to the anaesthetist during the case.",
+   "B": "The right forearm has good veins, avoids the lymphoedema arm, avoids the flexion point at the elbow (which kinks, dislodges and is discouraged for routine use in the ACSQHC PIVC Clinical Care Standard), and an 18 or 20 gauge cannula is adequate for induction, fluids and a PCA.",
+   "C": "This site is in the at-risk arm, and the hand is a less comfortable and less durable site; preserving the fossa for sampling does not override the lymphoedema precaution.",
+   "D": "Lower-limb cannulation in an adult carries higher thrombosis and infection risk and is reserved for when no upper-limb site is usable."
+  },
+  "learning_point": "Avoid cannulating an arm with lymphoedema or prior axillary node clearance where another site exists, and prefer forearm veins over flexion points for a cannula that will stay in after surgery.",
+  "setting_note": "No change between settings; in a regional hospital the junior doctor is more often the one inserting theatre cannulas and should ask the patient directly about previous breast or axillary surgery and fistulas before choosing a site.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Anaesthetics",
+   "Oncology",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.6",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "intravenous cannulation",
+  "context": "theatre",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "Evidence that cannulation in the at-risk arm causes or worsens lymphoedema is limited, but Australian practice and the Australasian Lymphology Association still advise avoiding it where an alternative exists."
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Management of Peripheral Intravenous Catheters Clinical Care Standard (2021)",
+    "locator": "Quality statement on insertion: site selection (avoid areas of flexion, limbs with lymphoedema, fistula or prior axillary surgery)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australasian Lymphology Association. Position statement: Lymphoedema risk reduction (venepuncture, cannulation and blood pressure in the at-risk limb)",
+    "locator": "Recommendations for the at-risk limb",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: choose the non-dominant forearm where possible; avoid flexion points, the at-risk limb after axillary node clearance or with lymphoedema, fistula arms, limbs with cellulitis or planned surgery, and lower limbs in adults; 18 to 20 gauge suits most adult theatre cases; document site, date and gauge. Misconceptions: biggest vein is always best; a tucked arm with a cannula can be monitored. Out of scope: ultrasound-guided cannulation, central access.",
+  "plan": "Tests the management decision of cannula site selection in a woman with prior axillary clearance and lymphoedema, evidencing 1.6 and 1.1. Tertiary theatre suite with anaesthetist delegating. Distractors: biggest vein in the wrong arm, hand of the wrong arm, foot vein. Supported by the ACSQHC PIVC standard and the Australasian Lymphology Association position statement."
+ },
+ {
+  "work_order_id": "r1-218",
+  "item_id": "299d6763-86ce-d96e-9ebd-9a7dd0fd0346",
+  "version": 1,
+  "stem": "You are the intern covering the general ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. A 32-year-old woman, 60 kg, admitted with pyelonephritis, slips in the bathroom and sustains a clean 6 cm laceration to her left forearm with no tendon or nerve involvement. The nurse has irrigated it and set up a suture tray with 1% lignocaine (lidocaine) without adrenaline. The woman has no allergies, no cardiac history and is not pregnant. The GP on call asks you by phone to close the wound and reminds you to stay within the maximum safe dose of local anaesthetic.",
+  "lead_in": "What is the maximum volume of 1% lignocaine without adrenaline you may infiltrate for this woman?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mL"
+   },
+   {
+    "id": "B",
+    "text": "30 mL"
+   },
+   {
+    "id": "C",
+    "text": "42 mL"
+   },
+   {
+    "id": "D",
+    "text": "18 mL"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "10 mL (100 mg) is well within the safe limit but is not the maximum; underestimating the ceiling can lead to inadequate anaesthesia and a painful closure when more could safely be used.",
+   "B": "30 mL of 1% is 300 mg, which is 5 mg/kg, above the 3 mg/kg limit for plain lignocaine and risks systemic toxicity (perioral tingling, tinnitus, confusion, seizures, arrhythmia).",
+   "C": "42 mL (420 mg) corresponds to 7 mg/kg, the maximum for lignocaine with adrenaline, not for the plain solution on this tray.",
+   "D": "Plain lignocaine has a maximum of 3 mg/kg up to 200 mg (Therapeutic Guidelines and the Australian Medicines Handbook). For 60 kg this is 180 mg; a 1% solution contains 10 mg/mL, so 18 mL. Aspirating before injecting and injecting slowly reduce the risk of intravascular injection, and a 6 cm laceration usually needs well under this volume."
+  },
+  "learning_point": "The maximum lignocaine dose is 3 mg/kg (up to 200 mg) without adrenaline and 7 mg/kg (up to 500 mg) with adrenaline; a 1% solution contains 10 mg/mL.",
+  "setting_note": "In a country hospital the junior doctor closes wounds alone overnight and must know the dose limit, the early signs of local anaesthetic toxicity and where lipid emulsion is kept, because help is by phone; the arithmetic is unchanged in a metropolitan emergency department.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Pharmacology",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.6",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "local anaesthetic and wound closure",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia (Local anaesthetics)",
+    "locator": "Maximum doses of local anaesthetics for infiltration: lidocaine with and without adrenaline",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Lidocaine (lignocaine): dosage for local infiltration, maximum dose",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: 1% = 10 mg/mL, 2% = 20 mg/mL; plain lignocaine maximum 3 mg/kg (200 mg); with adrenaline 7 mg/kg (500 mg); bupivacaine 2 mg/kg; signs of toxicity progress from perioral tingling and tinnitus to seizures and cardiovascular collapse; treatment includes stopping injection, airway support, benzodiazepine for seizures and intravenous lipid emulsion. Misconceptions: percentage equals mg per mL; adrenaline limits apply to plain solution. Out of scope: digital blocks, wound closure technique.",
+  "plan": "Tests recall of the plain lignocaine maximum dose and the percentage-to-mg conversion, evidencing 1.6 and 1.8. Young woman on a country ward closed by the lone intern overnight. Distractors: a safe but sub-maximal volume, the 5 mg/kg error, the with-adrenaline limit. Supported by Therapeutic Guidelines local anaesthetic doses and AMH lidocaine."
+ },
+ {
+  "work_order_id": "r1-219",
+  "item_id": "f569202c-f8a4-7f99-84e5-644aac640e1c",
+  "version": 1,
+  "stem": "You are the only doctor overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula, with the GP on call at home. A 19-year-old man with a previous appendicectomy presents with 12 hours of colicky abdominal pain, distension and repeated bilious vomiting; heart rate 108, blood pressure 108/70 mmHg. An abdominal X-ray taken before the radiographer went home shows dilated small bowel loops with air-fluid levels. You have inserted a cannula, started intravenous fluids and given analgesia, and the GP has agreed by phone that he needs a nasogastric tube and transfer to Adelaide in the morning. You pass a 16 Fr nasogastric tube to 60 cm without difficulty; he is talking comfortably and no fluid has yet drained.",
+  "lead_in": "What should you do first before leaving the tube in place?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aspirate the tube and test the aspirate with pH indicator paper, accepting a pH of 5 or less as confirming gastric placement"
+   },
+   {
+    "id": "B",
+    "text": "Inject 20 mL of air down the tube while auscultating over the epigastrium for a 'whoosh'"
+   },
+   {
+    "id": "C",
+    "text": "Call the on-call radiographer back in for a chest X-ray before anything else is done"
+   },
+   {
+    "id": "D",
+    "text": "Connect the tube to free drainage, secure it and reassess its position at handover"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Australian guidance (the NSW Agency for Clinical Innovation guideline, mirrored in SA Health local procedures) recommends confirming gastric placement with an aspirate pH of 5 or less using pH indicator paper as the first-line check. If no aspirate is obtained, the patient is repositioned or a little air insufflated and aspiration repeated; an X-ray is used when pH testing fails or is unreliable. Even a tube placed for drainage can coil in the oesophagus or enter the airway, so position is confirmed before it is secured.",
+   "B": "The 'whoosh' test is unreliable and has been abandoned; a tube in a bronchus can produce an identical sound.",
+   "C": "Radiography is the second-line confirmation when pH testing is unavailable or equivocal. Recalling the radiographer before attempting pH testing wastes a scarce overnight resource and time, though it becomes appropriate if pH cannot confirm placement.",
+   "D": "Leaving an unconfirmed tube in place until handover risks aspiration or a wrongly sited tube going unnoticed for hours."
+  },
+  "learning_point": "Confirm nasogastric tube position with an aspirate pH of 5 or less before use or leaving it in place; the 'whoosh' test is obsolete and X-ray is the second-line method when pH testing fails.",
+  "setting_note": "In a rural hospital an overnight X-ray means calling in a radiographer, so pH testing is the practical first check; a tertiary emergency department can obtain an X-ray quickly, but pH testing remains the first step there too.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.6",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "nasogastric tube insertion",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "The pH threshold of 5 or less is used by NSW ACI and most Australian hospital procedures; some local procedures use 5.5. The principle of pH first, X-ray second is consistent."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "NSW Agency for Clinical Innovation. Guideline: Insertion and management of nasogastric and orogastric tubes in adults (2021)",
+    "locator": "Confirming tube position: pH testing first line, X-ray second line",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health local health network procedure: Nasogastric tube insertion and confirmation of position in adults",
+    "locator": "Position confirmation prior to use",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: confirm position by aspirate pH 5 or less (indicator paper, not litmus); if no aspirate, reposition, wait, insufflate a small volume of air and retry; X-ray if pH testing fails, pH is above 5, or the patient is on acid suppression; the whoosh test and bubbling in water are not acceptable; document the method, external length and date. Contraindications to the nasal route include base-of-skull fracture and severe facial trauma. Misconceptions: a drainage tube does not need confirming; talking comfortably proves the tube is not in the airway. Out of scope: feeding tube management, bridle fixation.",
+  "plan": "Tests prioritisation of position confirmation by pH before using or leaving a nasogastric tube, evidencing 1.6 and 1.1. Young man with small bowel obstruction in a rural ED overnight where X-ray means recalling a radiographer. Distractors: whoosh test (obsolete), X-ray first (wasteful), defer to handover (unsafe). Supported by the NSW ACI nasogastric guideline and SA Health procedure."
+ },
+ {
+  "work_order_id": "r1-220",
+  "item_id": "6d11e936-82e9-f4ac-6600-191769186975",
+  "version": 1,
+  "stem": "A 52-year-old woman attends the emergency department of a tertiary hospital in Adelaide at 23:00 with a closed, minimally displaced distal radius fracture after a fall. A below-elbow plaster backslab was applied at 15:00 and she was discharged with paracetamol and ibuprofen and a fracture clinic appointment. She has returned because the pain has steadily worsened over 6 hours, is 9/10 and unrelieved by her analgesia, and she describes 'tightness'. On examination the fingers are swollen and she is reluctant to move them; gentle passive extension of the fingers causes severe forearm pain. Capillary refill is 2 seconds, the radial pulse is palpable and sensation to light touch is intact across all fingers. The orthopaedic registrar is in theatre and the ED consultant is on the floor.",
+  "lead_in": "What is the most likely explanation for these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Expected post-fracture pain that will settle with elevation and stronger analgesia"
+   },
+   {
+    "id": "B",
+    "text": "Median nerve neuropraxia from the fracture itself"
+   },
+   {
+    "id": "C",
+    "text": "A constricting cast or evolving compartment syndrome, in which a palpable pulse and normal capillary refill do not exclude the diagnosis"
+   },
+   {
+    "id": "D",
+    "text": "Arterial injury, which is excluded here because the pulse is present and refill is normal"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Pain that escalates despite immobilisation and analgesia, with pain on passive stretch, is not expected post-fracture pain; it is the cardinal early sign of rising compartment pressure or a cast that has become too tight as swelling increases.",
+   "B": "Median nerve neuropraxia causes numbness and weakness in the median distribution; her sensation is intact and the dominant feature is pain out of proportion with passive stretch pain.",
+   "C": "Pain out of proportion, worsening over hours, with pain on passive stretch of the compartment's muscles is the earliest and most reliable sign; pulselessness, pallor and paraesthesia are late. The immediate response is to split the plaster and all padding to skin along its full length, keep the limb at heart level, and have the orthopaedic registrar see her now, with the ED consultant's help to insist, with a plan for compartment pressure measurement or fasciotomy if symptoms do not settle promptly.",
+   "D": "A present pulse does not exclude compartment syndrome because tissue pressure exceeds capillary but not arterial pressure; arterial injury is also not suggested by the mechanism or the normal refill."
+  },
+  "learning_point": "Escalating pain out of proportion with pain on passive stretch under a cast is compartment syndrome or a tight cast until proven otherwise; pulses and capillary refill stay normal until late, so split the cast to skin and escalate immediately.",
+  "setting_note": "In a regional hospital the junior doctor splits the cast and calls the on-call orthopaedic service in Adelaide and retrieval early, as fasciotomy cannot wait for a morning transfer; in a tertiary emergency department the registrar may be in theatre, so the ED consultant should be involved to ensure review within minutes.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Musculoskeletal",
+   "Emergency presentations",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.6",
+   "1.4",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "plaster and splint check",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "No Australian national guideline on compartment syndrome; the key reflects the NSW Emergency Care Institute plaster guidance and the British Orthopaedic Association standard widely used in Australian orthopaedic practice."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "NSW Agency for Clinical Innovation, Emergency Care Institute: Plaster and cast care; Compartment syndrome",
+    "locator": "Recognition of a tight cast and compartment syndrome; splitting the cast",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "British Orthopaedic Association Standards for Trauma (BOAST): Diagnosis and management of compartment syndrome of the limbs (2016)",
+    "locator": "Clinical diagnosis: pain out of proportion and pain on passive stretch; pulses unreliable",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: early signs are pain out of proportion, pain on passive stretch, tense swelling and increasing analgesic requirement; paraesthesia, pallor, paralysis and pulselessness are late; management is to split cast and padding to skin, limb at heart level (not elevated above it), analgesia, urgent orthopaedic review and compartment pressure measurement or fasciotomy. Misconceptions: a palpable pulse excludes compartment syndrome; elevation high above the heart helps (it reduces perfusion pressure). Out of scope: fasciotomy technique, pressure measurement thresholds.",
+  "plan": "Tests interpretation of pain out of proportion and passive stretch pain under a cast as compartment syndrome despite normal pulse and refill, evidencing 1.6, 1.4 and 1.9. Middle-aged woman re-presenting to a tertiary ED at night. Distractors: expected pain (anchoring on the simple fracture), median neuropraxia (plausible for distal radius), pulse-based reassurance (classic error). Supported by NSW ECI plaster guidance and BOAST compartment syndrome standard."
+ },
+ {
+  "work_order_id": "r1-221",
+  "item_id": "78f59627-140b-6bc2-061f-1623ecf0b765",
+  "version": 1,
+  "stem": "You are the resident on the general ward of a large metropolitan teaching hospital. At 10:30, while taking blood from a 32-year-old man admitted with cellulitis who has a history of injecting drug use and whose hepatitis B, hepatitis C and HIV status are not documented, the needle slips as you withdraw it and punctures your gloved thumb, drawing blood. You still have the rest of the ward round jobs to do and the registrar is at the bedside of another patient. The hospital's occupational exposure procedure directs staff to the staff health clinic during business hours or the emergency department after hours. You completed hepatitis B vaccination at university but do not know your antibody level.",
+  "lead_in": "What is the most appropriate immediate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wash the puncture with soap and running water, finish the ward round jobs, then report the injury at the end of the shift"
+   },
+   {
+    "id": "B",
+    "text": "Wash the puncture with soap and running water, tell the registrar now so the ward is covered, go to the staff health clinic for risk assessment and baseline bloods, and arrange testing of the patient's blood with his informed consent"
+   },
+   {
+    "id": "C",
+    "text": "Squeeze the puncture to expel blood, apply an alcohol swab, take your own bloods on the ward and check the results tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Ask the patient's nurse to add hepatitis and HIV serology to his morning bloods without raising it with him, so you can decide whether you need treatment"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Washing is correct but delay is not. HIV post-exposure prophylaxis is most effective when started within hours (ideally within 2 and no later than 72), and the source patient's rapid testing, hepatitis B immunoglobulin decisions and incident documentation all depend on prompt reporting. Ward jobs can be handed over.",
+   "B": "This follows SA Health and the ASHM national guidance: first aid, immediate reporting to the supervisor, prompt assessment by the designated service, baseline serology of the exposed worker, rapid testing of the source with consent, a risk assessment for HIV post-exposure prophylaxis and hepatitis B immunoglobulin or booster, and an incident report. The registrar covering the ward is the right person to tell.",
+   "C": "Squeezing the wound is not recommended and does not reduce risk, alcohol is unnecessary, and self-ordered bloods bypass the risk assessment, counselling and the time-critical decision about prophylaxis.",
+   "D": "Testing the source patient without his knowledge and consent breaches his rights. Source testing requires informed consent with a pre-test discussion; most patients agree to rapid testing when asked respectfully."
+  },
+  "learning_point": "After a needlestick, wash the wound, report immediately, attend the designated service for risk assessment and baseline bloods the same day, and arrange source testing only with the patient's informed consent.",
+  "setting_note": "In a regional hospital the designated service is usually the emergency department, and HIV post-exposure prophylaxis starter packs and rapid source testing may need to be arranged through the ED or by phone with the SA infectious diseases service, which makes immediate reporting even more important.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Doctor wellbeing, teamwork and workload",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "1.6",
+   "1.1",
+   "2.2"
+  ],
+  "clinical_experiences": [
+   "D",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "sharps injury",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ASHM. National guidelines for post-exposure prophylaxis after non-occupational and occupational exposure to HIV (2nd edition 2016, updated 2023)",
+    "locator": "Occupational exposure: timing of PEP, source testing with consent, baseline testing of the exposed person",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health: Management of occupational exposure to blood and body fluids (Infection Control Service guideline)",
+    "locator": "Immediate first aid, reporting and risk assessment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: first aid is washing with soap and water (do not squeeze, no caustic agents); report immediately; designated service performs risk assessment considering source status and exposure type; HIV PEP ideally within 2 hours and up to 72; hepatitis B management depends on vaccination and antibody status (booster or immunoglobulin); hepatitis C has no prophylaxis but needs follow-up testing; source testing requires informed consent; complete an incident report. Misconceptions: squeezing helps; the injured doctor can self-manage. Out of scope: PEP drug regimens.",
+  "plan": "Tests management of a needlestick from a high-risk source, evidencing 1.6, 1.1 and 2.2. Resident on a busy metropolitan ward with competing jobs. Distractors: delay until end of shift (common real behaviour), squeeze and self-test (folk practice), covert source testing (ethical breach). Supported by ASHM national PEP guidelines and SA Health occupational exposure guidance."
+ },
+ {
+  "work_order_id": "r1-222",
+  "item_id": "8241e9e1-8b16-77e2-d5d6-01de290e4253",
+  "version": 1,
+  "stem": "You are the intern in the recovery and surgical ward area of a rural hospital on the Yorke Peninsula, with the GP anaesthetist still in the building. A 78-year-old man with known benign prostatic hyperplasia on tamsulosin had an inguinal hernia repair under spinal anaesthesia this afternoon. Eight hours later he has not passed urine, is uncomfortable, and a bladder scan shows 720 mL. The nurse has attempted a 14 Fr catheter without success. You attempt a 16 Fr catheter with lignocaine lubricant gel, using aseptic technique. The catheter passes to about 20 cm with mild resistance at one point, and about 30 mL of clear urine returns. As you begin to inflate the balloon with sterile water he cries out with sharp pain in the penis, and the water is hard to inject.",
+  "lead_in": "What do these findings most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Normal transient discomfort of catheterisation that should settle once the balloon is fully inflated"
+   },
+   {
+    "id": "B",
+    "text": "Bladder spasm from rapid decompression of a distended bladder"
+   },
+   {
+    "id": "C",
+    "text": "A urethral stricture that will require a suprapubic catheter"
+   },
+   {
+    "id": "D",
+    "text": "The balloon is being inflated within the urethra because the catheter tip has not fully entered the bladder"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Balloon inflation in the bladder is painless. Sharp pain with resistance to inflation is never normal, and continuing to inflate can rupture the urethra, causing bleeding, false passage and later stricture.",
+   "B": "Bladder spasm produces suprapubic cramping after drainage, not sharp penile pain synchronous with balloon inflation, and 30 mL has barely begun decompression.",
+   "C": "The mild resistance was passed and urine returned, so the lumen was negotiated; a stricture presents as inability to pass the catheter. Suprapubic catheterisation is a decision for the surgeon or GP anaesthetist after failed urethral attempts, not an inference from this picture.",
+   "D": "Urine can return once the tip is just past the external sphincter in the prostatic urethra, especially in a man with an enlarged prostate and a long urethra. Pain and resistance on inflation indicate the balloon is in the urethra: stop inflating, withdraw the water, advance the catheter to the hub, confirm a free flow of urine, then inflate slowly. If pain recurs or there is bleeding, stop and seek senior help, as the ANZUNS catheterisation guideline advises."
+  },
+  "learning_point": "Pain or resistance while inflating a urinary catheter balloon means the balloon is in the urethra: stop, deflate, advance to the hub and confirm urine flow before inflating.",
+  "setting_note": "In a rural hospital there is no urology registrar; if the catheter still cannot be sited safely the junior doctor calls the surgeon or GP anaesthetist and may need to arrange transfer for suprapubic drainage, so recognising the error early avoids a urethral injury that would itself require transfer.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Older people, delirium and falls",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.6",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "urinary catheterisation",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Urological Nurses Society (ANZUNS). Catheterisation Clinical Guidelines (2021)",
+    "locator": "Male urethral catheterisation: insertion to the hub, confirming urine flow before balloon inflation, troubleshooting pain or resistance",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: in men insert the catheter to the hub (bifurcation) and confirm urine flow before inflating; pain or resistance on inflation means stop and deflate; after prostatic resistance a larger (16 to 18 Fr) catheter or a coude tip may pass more easily; postoperative retention after spinal anaesthesia and alpha blocker use are common; document residual volume. Misconceptions: urine return proves the tip is in the bladder; smaller catheters are always easier in BPH. Out of scope: suprapubic insertion technique, trial of void planning.",
+  "plan": "Tests interpretation of pain and resistance during balloon inflation as a urethrally placed balloon, evidencing 1.6 and 1.4. Elderly man with BPH in postoperative retention at a rural hospital, intern catheterising. Distractors: normal discomfort (dangerous reassurance), bladder spasm, stricture needing suprapubic (over-reach). Supported by the ANZUNS catheterisation guidelines."
+ },
+ {
+  "work_order_id": "r1-223",
+  "item_id": "f53bdb49-491b-3e6d-7b37-3f95bf93683b",
+  "version": 1,
+  "stem": "On the surgical ward of a regional hospital with a small ICU-free medical ward, a 79-year-old woman who had a bowel resection 4 days ago becomes febrile to 38.6 with rigors; heart rate 104, blood pressure 118/72 mmHg, respiratory rate 20. She has a peripheral cannula in her left forearm inserted 3 days ago and no central line. The registrar, by phone, asks you, the intern, to take blood cultures before the first dose of antibiotics, which the nurse is already drawing up, and to send a full blood count and electrolytes at the same time. The nurse asks how you want the cultures collected.",
+  "lead_in": "Which blood culture collection technique is correct?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Two sets, each from a separate fresh venepuncture site after skin antisepsis with 2% chlorhexidine in 70% alcohol allowed to dry, with 8 to 10 mL of blood in each bottle, taken before the antibiotics"
+   },
+   {
+    "id": "B",
+    "text": "One set drawn through the existing peripheral cannula after flushing it, to avoid a second needle in a frail patient"
+   },
+   {
+    "id": "C",
+    "text": "A single set of 2 to 3 mL in each bottle taken with the other bloods from one venepuncture, as volume matters less than speed"
+   },
+   {
+    "id": "D",
+    "text": "Two sets taken 30 minutes apart from the same venepuncture site, after the first antibiotic dose so that treatment is not delayed"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Therapeutic Guidelines and the ACSQHC Sepsis Clinical Care Standard recommend two sets (aerobic and anaerobic bottles) from separate venepunctures, with adequate skin antisepsis and 8 to 10 mL per bottle in adults, because yield rises with volume and two sites help distinguish contaminants from true bacteraemia. Cultures are taken before antibiotics but must not delay them by more than a few minutes; the other bloods are collected after the culture bottles from the same venepuncture.",
+   "B": "Cultures drawn from an existing peripheral cannula have high contamination rates and are not recommended unless no other access is possible, and then only as one of two sets.",
+   "C": "Low-volume cultures markedly reduce the chance of detecting bacteraemia; the volume inoculated is the single most important factor in yield.",
+   "D": "Two sets can be taken at the same time from different sites; spacing them 30 minutes apart delays antibiotics unnecessarily, and taking cultures after antibiotics reduces yield."
+  },
+  "learning_point": "Adult blood cultures are two sets from two separate venepuncture sites, 8 to 10 mL per bottle, after chlorhexidine-alcohol skin antisepsis, before but without delaying antibiotics.",
+  "setting_note": "The technique is the same in any hospital; in a regional hospital cultures may travel to a distant laboratory, so correct labelling with time and site and prompt transport matter, and the intern should ensure antibiotics are not held up waiting for a second site.",
+  "learning_area": "Procedures and practical skills",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Pathology",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.6",
+   "1.5",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "venepuncture and blood cultures",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Sepsis and septic shock: investigations, blood culture collection (two sets, adequate volume, before antibiotics)",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Sepsis Clinical Care Standard (2022)",
+    "locator": "Quality statements on time-critical management: cultures before antimicrobials without delaying treatment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: two sets from separate sites (or one peripheral plus one from a central line if line infection suspected), 8 to 10 mL per bottle (20 mL per set) in adults, chlorhexidine-alcohol antisepsis of skin and bottle tops, inoculate aerobic bottle first with a syringe, do not draw cultures from existing peripheral cannulas, label with time and site, collect before antibiotics but never delay antibiotics in sepsis by more than minutes. Misconceptions: a single set suffices; cultures must be spaced in time. Out of scope: antibiotic selection, interpretation of contaminants.",
+  "plan": "Tests recall of correct adult blood culture technique, evidencing 1.6, 1.5 and 1.1. Elderly postoperative woman with rigors on a regional surgical ward, intern instructed by phone. Distractors: cannula draw (convenience), low volume (speed), spaced sets after antibiotics (misremembered rule). Supported by Therapeutic Guidelines sepsis investigations and the ACSQHC Sepsis standard."
+ },
+ {
+  "work_order_id": "r1-224",
+  "item_id": "8acc7feb-5bdc-7d83-3d79-c0ea494e9083",
+  "version": 1,
+  "stem": "You are a PGY2 in the emergency department of a large metropolitan teaching hospital. A 31-year-old man has right iliac fossa pain, fever and a CT report of acute appendicitis. When you phone the surgical registrar with an ISBAR referral, she interrupts, calls you 'useless' for not having a lactate, says 'don't waste my time, call me when you have actually done your job' and hangs up. This is the third time this week she has spoken to you or your intern colleagues this way; one intern was in tears yesterday. The patient needs surgical admission tonight. The ED consultant is on the floor and your term supervisor, a physician, is on call for the department. Your hospital has a Director of Clinical Training and a medical education unit.",
+  "lead_in": "What is the most appropriate course of action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Accept that this is surgical culture, obtain the lactate and call back without comment"
+   },
+   {
+    "id": "B",
+    "text": "Confront the registrar when she next comes to the department, in front of the team, so that others see the behaviour challenged"
+   },
+   {
+    "id": "C",
+    "text": "Ask the ED consultant to escalate the referral consultant-to-consultant so the patient is admitted, then document the interaction factually and raise it with your term supervisor or the Director of Clinical Training through the hospital's process"
+   },
+   {
+    "id": "D",
+    "text": "Describe the interaction in the junior doctors' group chat so that colleagues are warned about her"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Tolerating the behaviour harms you and your colleagues, normalises it and leaves a patient's care hostage to a registrar's mood. Good medical practice and the AMC framework expect doctors to contribute to a culture free of bullying, which includes not accepting it as normal.",
+   "B": "A public confrontation escalates conflict, is unlikely to change behaviour and could itself be seen as unprofessional; the hospital has processes for exactly this situation.",
+   "C": "Patient care comes first: the ED consultant can secure the admission at a senior level. Then a factual, dated note of what was said, and raising it with the term supervisor, Director of Clinical Training or medical education unit (or the hospital's complaint and support pathways), uses the graded, supported route the hospital provides. Checking on the affected intern is part of a safe workplace.",
+   "D": "An informal group chat spreads the issue without resolving it, may breach confidentiality and professional standards, exposes you to allegations of defamation, and does nothing for the patient or the interns."
+  },
+  "learning_point": "When a senior colleague's behaviour is abusive, secure the patient's care through your own senior first, then document the facts and raise it through the hospital's supervision and support processes rather than retaliating or ignoring it.",
+  "setting_note": "In a regional hospital the same registrar or surgeon may be the only surgical contact and the supervisor may be the director of medical services; the health network's prevocational education unit and the Rural Support Service can be contacted, and the principle of securing patient care first, then escalating formally, is unchanged.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Doctor wellbeing, teamwork and workload",
+   "Communication, handover and consent",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "2.6",
+   "2.1",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "bullying and harassment",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "Section numbering in Good medical practice (2020) for respect for colleagues and bullying is cited from memory and should be verified; the content of the obligation is not in doubt."
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia. Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 4.2 Respect for medical colleagues and other healthcare professionals (bullying, harassment and discrimination)",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational (PGY1 and PGY2) Medical Training: Outcome statements",
+    "locator": "Outcome 2.6 Safe and supportive workplaces; Outcome 1.1 graded assertiveness and escalation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: bullying and harassment are breaches of Good medical practice and of SA Health workplace policy; the junior doctor's duties are to keep the patient safe (escalate the referral via their own senior), document contemporaneously, and use formal channels (term supervisor, DCT, medical education unit, Employee Assistance Program, AMA SA Doctors' Health); support colleagues who were affected. Misconceptions: it must be tolerated to get a reference; social media or group chats are a safe outlet. Out of scope: formal HR investigation processes, AHPRA notification thresholds.",
+  "plan": "Tests the management of registrar bullying during a referral while keeping patient care first, evidencing 2.6, 2.1 and 2.4. PGY2 in a metropolitan ED with a consultant and supervisor available. Distractors: tolerate (common), public confrontation, group chat. Supported by Good medical practice and the AMC framework outcome statements."
+ },
+ {
+  "work_order_id": "r1-225",
+  "item_id": "4367c3f5-128d-f1e2-a84e-2025da2acc82",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional hospital with a small ICU-free medical ward and CT only in business hours. A 56-year-old woman was admitted yesterday after a witnessed first generalised tonic-clonic seizure; her CT head and bloods are normal and she has recovered fully. She drives the local school bus. When you explain that she must not drive for the present and will need neurology follow-up, she becomes distressed: in this town everyone knows everyone, her job is the family's only income, and she asks you to 'keep this between us'. She says she will keep driving the bus because 'nothing will happen'. She has decision-making capacity. Your consultant will do a phone ward round in an hour.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Respect her confidentiality completely, document the advice not to drive and leave the decision to her"
+   },
+   {
+    "id": "B",
+    "text": "Telephone her employer to inform them she has had a seizure and must not drive the bus"
+   },
+   {
+    "id": "C",
+    "text": "Ask the ward nurse, who knows the family, to persuade her relatives to take her keys"
+   },
+   {
+    "id": "D",
+    "text": "Tell her clearly that she must not drive, document the advice, and after discussing with your consultant notify the Registrar of Motor Vehicles as South Australian law requires for a driver you believe is unfit, informing her that you are doing so and disclosing nothing to her employer"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Confidentiality is not absolute. In South Australia, section 148 of the Motor Vehicles Act 1959 places a legal duty on medical practitioners to notify the Registrar of Motor Vehicles when they believe a patient is unfit to drive, and Austroads Assessing Fitness to Drive sets a substantial non-driving period after a first seizure that is far longer for commercial drivers. A first seizure in a bus driver who intends to keep driving is the clearest case for this duty.",
+   "B": "Disclosure to an employer is not authorised by the Act or by privacy principles; the legal pathway is notification to the Registrar, who acts on her licence. Telling the employer would be a breach of confidence.",
+   "C": "Using a nurse's personal connections and involving family without the patient's consent breaches her privacy, is unprofessional and unreliable, and does not discharge the legal duty.",
+   "D": "This is candid with the patient, documents the advice (which also protects the doctor), involves the senior for a decision an intern should not make alone, fulfils the statutory obligation, and limits disclosure to the minimum necessary to the authorised recipient. Austroads notes that a practitioner who notifies in good faith is protected from civil liability. Offering social work support and a clear neurology plan is part of good care."
+  },
+  "learning_point": "In South Australia doctors have a legal duty to notify the Registrar of Motor Vehicles when a patient is unfit to drive; tell the patient, involve your senior, disclose only to the Registrar and document.",
+  "setting_note": "In a small town the stakes for confidentiality are higher because any disclosure beyond the Registrar will spread quickly; the duty is the same in Adelaide, where the patient's anonymity is less fragile and social work and neurology are closer at hand.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Neurology",
+   "Rural and remote",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "2.1",
+   "1.2",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "confidentiality and privacy",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b09",
+   "uncertainty": "minor",
+   "uncertainty_note": "South Australia and the Northern Territory are the jurisdictions with mandatory reporting of unfit drivers by health professionals; the exact section (s148 Motor Vehicles Act 1959) should be verified against the current Act."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Austroads and National Transport Commission. Assessing Fitness to Drive for commercial and private vehicle drivers (2022)",
+    "locator": "Part A: Reporting responsibilities of health professionals (mandatory reporting in SA and NT); Part B: Seizures and epilepsy, first seizure, commercial standards",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Motor Vehicles Act 1959 (South Australia)",
+    "locator": "Section 148: duty of medical practitioners to notify the Registrar of a person unfit to drive",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia. Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Confidentiality and privacy; disclosure required by law",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: SA and NT have mandatory reporting of drivers believed unfit; elsewhere reporting is discretionary; the doctor tells the patient, documents, and discloses only to the licensing authority; first seizure means no private driving for a defined period (commonly 6 months if investigations normal) and much longer non-driving for commercial licences, decided with neurology; good-faith notifiers are protected. Misconceptions: the employer can be told; capacity means the patient's wish is final. Out of scope: exact non-driving periods, seizure treatment.",
+  "plan": "Tests management of a confidentiality conflict with a statutory reporting duty in SA, evidencing 2.1, 1.2 and 2.4. Middle-aged bus driver on a regional ward after a first seizure, consultant by phone. Distractors: absolute confidentiality (misreads the law), telling the employer (over-disclosure), informal family pressure (unprofessional). Supported by Austroads Assessing Fitness to Drive, the SA Motor Vehicles Act and Good medical practice."
+ }
+]

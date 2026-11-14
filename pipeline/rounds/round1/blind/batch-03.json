@@ -1,0 +1,1103 @@
+[
+ {
+  "item_id": "085a75c6-601d-7e36-f2d4-e1c82f442e47",
+  "work_order_id": "r1-051",
+  "stem": "You are the intern on the medical ward of a regional hospital overnight. The hospital has no intensive care unit, CT is available only during business hours, and retrieval to Adelaide is by road or air. A nurse asks you to review a 79-year-old man admitted two days ago with community-acquired pneumonia. He has chronic kidney disease (eGFR 28 mL/min/1.73 m2) and was charted oxycodone 5 mg orally 4-hourly as needed for pleuritic pain; the chart shows five doses in the past 20 hours. He was alert at the evening medication round. He is now difficult to rouse: GCS 9 (E2 V2 M5), respiratory rate 7 breaths/min, SpO2 89% on room air, heart rate 72, blood pressure 118/70 mmHg, temperature 36.9 C and bedside glucose 6.4 mmol/L. His pupils are 2 mm and equal. There is no facial asymmetry and he moves all four limbs when roused.",
+  "lead_in": "What is the most likely cause of his reduced level of consciousness?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypoglycaemia"
+   },
+   {
+    "id": "B",
+    "text": "Hypercapnic respiratory failure from worsening pneumonia"
+   },
+   {
+    "id": "C",
+    "text": "Opioid toxicity from accumulated oxycodone"
+   },
+   {
+    "id": "D",
+    "text": "Intracerebral haemorrhage"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "reduced level of consciousness",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "53ba99d8-4ded-73e0-d910-7ec8d67645dc",
+  "work_order_id": "r1-052",
+  "stem": "You are the intern on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 36-year-old woman was admitted 36 hours ago with community-acquired pneumonia and is improving on intravenous antibiotics. The nurse calls you urgently: the patient has just had a generalised tonic-clonic seizure lasting about two minutes that stopped on its own. She is drowsy but rousable and protecting her airway. Observations: heart rate 118, blood pressure 152/94 mmHg, temperature 37.3 C, SpO2 96% on 2 L/min oxygen. Bedside glucose is 5.9 mmol/L and this morning's sodium was 137 mmol/L. There is no neck stiffness, rash or history of epilepsy. She is tremulous and sweating. Her partner tells you she usually drinks a bottle of wine every evening and has had nothing since admission; the admission notes record no alcohol history.",
+  "lead_in": "What is the most likely cause of her seizure?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypoglycaemia"
+   },
+   {
+    "id": "B",
+    "text": "Alcohol withdrawal"
+   },
+   {
+    "id": "C",
+    "text": "Hyponatraemia"
+   },
+   {
+    "id": "D",
+    "text": "Bacterial meningitis"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "f11b3de5-3b54-2ab3-0ca8-fab1c5be85a4",
+  "work_order_id": "r1-053",
+  "stem": "You are the PGY2 resident covering the surgical ward of a tertiary hospital in Adelaide one evening. A 54-year-old man, day 1 after an open inguinal hernia repair, has a known seizure disorder controlled on sodium valproate; he vomited his morning dose and the evening dose has not yet been given. The nurse calls you to the bedside: he is having a generalised tonic-clonic seizure that began five minutes ago and has not stopped. The nurse has already called a MET, placed him on his side, applied high-flow oxygen and checked a bedside glucose of 6.8 mmol/L. He has a patent intravenous cannula. The MET team is on its way but has not yet arrived.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium valproate 500 mg via a nasogastric tube"
+   },
+   {
+    "id": "B",
+    "text": "Arrange an urgent CT brain"
+   },
+   {
+    "id": "C",
+    "text": "Give levetiracetam 60 mg/kg intravenously over 10 minutes"
+   },
+   {
+    "id": "D",
+    "text": "Give midazolam 5 mg intravenously"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "5e6f5ca8-3906-c250-22ad-1f66f9cf9b42",
+  "work_order_id": "r1-054",
+  "stem": "You are the junior doctor covering the medical ward of a rural hospital on the Yorke Peninsula overnight; the 4-bed emergency department is also your responsibility and the GP is on call from home. At 02:00 a nurse phones about a 34-year-old woman who had a laparoscopic appendicectomy yesterday afternoon. Her observations are heart rate 124 and regular, blood pressure 118/72 mmHg, respiratory rate 18, SpO2 97% on room air and temperature 37.4 C. All earlier observations were normal and she has had no pain relief for 6 hours. The nurse says the heart rate falls in the yellow zone of the Rapid Detection and Response observation chart and asks what the policy requires her and you to do.",
+  "lead_in": "Under the SA Health Rapid Detection and Response policy, what response does an observation in the yellow zone require?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An immediate rapid response (MET) call, with the patient moved to a monitored bed"
+   },
+   {
+    "id": "B",
+    "text": "Medical review of the patient within 30 minutes, with observations repeated more frequently"
+   },
+   {
+    "id": "C",
+    "text": "Observations repeated in one hour, with escalation only if they remain abnormal"
+   },
+   {
+    "id": "D",
+    "text": "Documentation of the observation and review on the morning ward round"
+   }
+  ],
+  "learning_area": "Deteriorating patient",
+  "presentation": "tachycardia after surgery",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "92caa6c5-4fba-c550-134d-341a3a6338ee",
+  "work_order_id": "r1-055",
+  "stem": "You are the intern covering the medical wards overnight at a tertiary hospital in Adelaide. At 01:30 a nurse asks you to chart intravenous fluids for a 58-year-old man admitted three days ago with community-acquired pneumonia. His sodium today is 122 mmol/L, down from 131 mmol/L on admission, and the nurse says he has been intermittently confused this evening, which is new. His observations are within normal limits and he is not vomiting. You have never managed hyponatraemia and are unsure whether he needs fluid restriction, saline or something else. The medical registrar is in the emergency department with an unwell patient and said at the start of the shift, 'Only call me if it is really urgent.' There is a hyponatraemia guideline on the intranet, and the emergency department consultant is also in the building.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the medical registrar now with an ISBAR summary and ask for advice"
+   },
+   {
+    "id": "B",
+    "text": "Follow the intranet guideline, chart 0.9% sodium chloride 1 L over 8 hours and review in the morning"
+   },
+   {
+    "id": "C",
+    "text": "Ask the nurse to start a 1 L fluid restriction and repeat the sodium with the morning bloods"
+   },
+   {
+    "id": "D",
+    "text": "Go to the emergency department and ask the ED consultant to advise on the fluids"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "asking for help",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "2.2",
+   "2.4",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "832fff68-2ed1-45f4-7998-179883020cf6",
+  "work_order_id": "r1-056",
+  "stem": "You are the intern at a country hospital 90 minutes from the nearest tertiary centre, covering the general ward and the emergency department overnight. You started at 08:00 and were rostered to finish at 22:00, but the doctor due to relieve you has called in sick, and the GP on call asks whether you can stay until the locum arrives at 08:00. A 56-year-old man with chest pain has just arrived in the emergency department and there are 14 inpatients on the ward. You feel reasonably alert but you also have a shift tomorrow starting at 14:00. Before you phone the director of medical services you want to describe the fatigue risk accurately using the AMA National Code of Practice on hours of work.",
+  "lead_in": "According to the AMA National Code of Practice on hours of work for hospital doctors, which of the following rostering patterns is classified as a higher risk for fatigue?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A break of 12 hours between consecutive shifts"
+   },
+   {
+    "id": "B",
+    "text": "Five consecutive days of 10-hour shifts"
+   },
+   {
+    "id": "C",
+    "text": "A single continuous period of duty longer than 14 hours"
+   },
+   {
+    "id": "D",
+    "text": "A total of 50 hours worked in one week"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "fatigue and safe working hours",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "2.2",
+   "2.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "34890f59-46e4-6f6b-12fc-0ebbcdf149a6",
+  "work_order_id": "r1-057",
+  "stem": "You are a junior doctor on the surgical ward of a rural hospital on the Yorke Peninsula. The 4-bed emergency department is staffed overnight by one junior doctor, with the GP on call. A 79-year-old man had a hemiarthroplasty for a fractured neck of femur three days ago, performed by the visiting orthopaedic surgeon. Overnight his creatinine rose from 98 to 176 micromol/L; the result was released at 06:40, after you had handed over and left the hospital, and the GP on call reviewed him. At 08:30 the surgeon stops you in the corridor on his way to theatre and says, 'You need to be far more on top of your post-op patients,' before walking off. You feel the comment is unfair. The surgeon is also your term supervisor and your mid-term assessment is due next week.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain immediately in the corridor that the result was released after handover so the criticism is misplaced"
+   },
+   {
+    "id": "B",
+    "text": "Accept the comment without discussion and resolve to check results more frequently"
+   },
+   {
+    "id": "C",
+    "text": "Report the comment to the Director of Clinical Training as unprofessional feedback"
+   },
+   {
+    "id": "D",
+    "text": "Ask the surgeon for a time later that day to discuss the specific concern and agree what should change"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "feedback and supervision",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "domains": [
+   "2.3",
+   "2.5",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "5ce5d225-7c57-efb9-29e1-4534056d543c",
+  "work_order_id": "r1-058",
+  "stem": "You are the intern covering the wards overnight at a tertiary hospital in Adelaide. At 23:15 you have four calls waiting. A nurse on the gynaecology ward phones about a 34-year-old woman who had a laparoscopic ovarian cystectomy this afternoon: her observations are all within the white zone of the chart, her pain is controlled and she has had no bleeding, but the nurse says, 'She just doesn't look right to me, and I have looked after a lot of these patients.' The other calls are: a 72-year-old man whose intravenous fluids finish in 90 minutes and need recharting; a request to rewrite a regular medication chart that has run out of space before the 08:00 round; and a sodium of 133 mmol/L phoned through on a stable patient. The medical registrar is in the emergency department.",
+  "lead_in": "Which task should you attend to first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Go to the gynaecology ward and assess the woman the nurse is worried about"
+   },
+   {
+    "id": "B",
+    "text": "Rechart the intravenous fluids before they run out"
+   },
+   {
+    "id": "C",
+    "text": "Rewrite the medication chart before the morning round"
+   },
+   {
+    "id": "D",
+    "text": "Review the patient with a sodium of 133 mmol/L"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "interprofessional teamwork",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "domains": [
+   "2.5",
+   "1.9",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "b232e727-ad8f-bba2-3cc1-342c9c14ef2e",
+  "work_order_id": "r1-059",
+  "stem": "You are a PGY2 resident on the medical ward of a large metropolitan teaching hospital. Your co-resident is off sick and no cover has been found, so you are looking after 24 patients across two teams. It is 14:30 and you have not had a break since 08:00. The ward pharmacist has intercepted two of your prescribing errors this morning: enoxaparin charted at a treatment dose instead of a prophylactic dose, and an antibiotic charted for a patient with a documented anaphylaxis to it. You have five discharge summaries outstanding and a 38-year-old woman with a newly diagnosed pulmonary embolism needs her anticoagulation charted. The registrar is in clinic and has told you to 'just do your best'. You notice you are irritable and are re-reading results several times.",
+  "lead_in": "How should this situation be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal busy day on a medical ward that should be managed by working faster"
+   },
+   {
+    "id": "B",
+    "text": "An unsafe workload with early signs of error that requires immediate escalation to the registrar or consultant"
+   },
+   {
+    "id": "C",
+    "text": "A problem of personal time management best addressed by a course after the rotation"
+   },
+   {
+    "id": "D",
+    "text": "A sign that you lack the knowledge to prescribe safely and should stop prescribing until retrained"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "managing a heavy workload",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "2.8",
+   "2.2",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "9a037570-3241-a461-a7ee-ce16a4d19314",
+  "work_order_id": "r1-060",
+  "stem": "You are the junior doctor on an evening cover shift at a tertiary hospital in Adelaide. At 19:00 the handover list gives you four new tasks. A 78-year-old woman, day 2 after fixation of a hip fracture, has become newly confused; her respiratory rate is 26, blood pressure 98/60 mmHg (usually 140/80) and heart rate 108, and the nurse has increased her observations and asked for review. A 66-year-old man on warfarin has an INR of 3.4 and his evening dose is due. A 50-year-old woman needs her intravenous cannula resited for antibiotics due in two hours. An 83-year-old man in the emergency department has waited three hours to be clerked for admission; his observations are stable and the ED consultant has phoned twice asking when you will come. The medical registrar is attending a cardiac arrest.",
+  "lead_in": "Which patient should you see first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The man on warfarin with an INR of 3.4 whose dose is due"
+   },
+   {
+    "id": "B",
+    "text": "The woman who needs her cannula resited for antibiotics"
+   },
+   {
+    "id": "C",
+    "text": "The woman with new confusion, tachypnoea and hypotension after hip surgery"
+   },
+   {
+    "id": "D",
+    "text": "The man waiting to be clerked in the emergency department"
+   }
+  ],
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "prioritising a ward call list",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "2.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "8d564ee4-7af9-100c-e3c0-43a950eb4a48",
+  "work_order_id": "r1-061",
+  "stem": "You are working in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. There is no ultrasound until the visiting sonographer arrives tomorrow afternoon. A 33-year-old woman presents at 21:00 with 6 hours of left iliac fossa pain and light vaginal spotting. Her last menstrual period was 7 weeks ago. She has had no previous pregnancies and no abdominal surgery. Observations: heart rate 96, blood pressure 118/74 mmHg, respiratory rate 16, temperature 36.8 C. The abdomen is tender in the left iliac fossa without guarding or rebound. Urine hCG is positive. Serum hCG is 2,100 IU/L and haemoglobin is 128 g/L. She asks whether she can go home and come back for the scan tomorrow.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A threatened miscarriage, because bleeding with stable observations makes ectopic pregnancy unlikely"
+   },
+   {
+    "id": "B",
+    "text": "A viable intrauterine pregnancy, because a serum hCG above 1,500 IU/L indicates an intrauterine gestation"
+   },
+   {
+    "id": "C",
+    "text": "Early appendicitis in pregnancy, because the pain is unilateral and the hCG is low for 7 weeks"
+   },
+   {
+    "id": "D",
+    "text": "A pregnancy of unknown location in which ectopic pregnancy must be assumed until excluded by ultrasound"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "acute abdominal pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.5",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "7cfa1dd9-22b1-1cce-5979-0c618f25027b",
+  "work_order_id": "r1-062",
+  "stem": "You are the junior doctor in the emergency department of a regional hospital with a small medical ward, no intensive care unit, CT during business hours only and retrieval to Adelaide by road or air. A 19-year-old woman with known asthma arrives at 02:00 with 6 hours of worsening wheeze after a viral illness. In the past hour she has had salbutamol 12 puffs via spacer three times, ipratropium and oral prednisolone 50 mg. She can speak only in single words, sits forward using her accessory muscles, and has a respiratory rate of 32, heart rate 128, SpO2 92% on 6 L/min oxygen by mask and a quiet chest with faint wheeze. A venous blood gas shows pH 7.36, pCO2 44 mmHg, bicarbonate 24 mmol/L and lactate 2.8 mmol/L. The nurse comments that the gas 'looks normal'.",
+  "lead_in": "How should the blood gas result be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The normal pH and pCO2 confirm a moderate attack that can continue on the current treatment"
+   },
+   {
+    "id": "B",
+    "text": "A normal or rising pCO2 in a patient this breathless indicates exhaustion and impending respiratory failure"
+   },
+   {
+    "id": "C",
+    "text": "The raised lactate indicates sepsis as the cause of her deterioration"
+   },
+   {
+    "id": "D",
+    "text": "A venous gas cannot be interpreted in acute asthma and an arterial sample is required before any decision"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "acute asthma",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "c8a11043-e3f0-f9d1-5158-19739ae81c0b",
+  "work_order_id": "r1-063",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital at 23:00; the medical registrar is on site and the orthopaedic registrar is on call from home. A 23-year-old man presents with 4 days of severe low back pain after lifting a heavy box at work. Today he has developed numbness around his buttocks and perineum, has had difficulty starting his urine stream, and did not notice passing a small amount of urine in his underwear. Examination shows power 4/5 in ankle dorsiflexion bilaterally, reduced sensation in the S3 to S4 dermatomes and reduced anal tone. His observations are normal and he is afebrile. A bladder scan shows a post-void residual of 650 mL. He asks for strong pain relief so he can go home and see his GP.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inform the registrar now and request urgent MRI of the lumbosacral spine"
+   },
+   {
+    "id": "B",
+    "text": "Request plain X-rays of the lumbar spine and review the result before escalating"
+   },
+   {
+    "id": "C",
+    "text": "Insert an indwelling catheter, give analgesia and admit for physiotherapy review in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Discharge with analgesia and a referral for an outpatient MRI within one week"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "43171eee-124d-37a7-d9df-e7d66a612d8d",
+  "work_order_id": "r1-064",
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with 24-hour imaging. A 56-year-old woman presents with 2 weeks of constant mid-thoracic back pain that wakes her at night and is not relieved by rest or paracetamol. She has type 2 diabetes (HbA1c 9.1%) and finished oral antibiotics for a urinary tract infection 3 weeks ago. She has had sweats and feels generally unwell. Temperature is 38.1 C, heart rate 96, blood pressure 128/80 mmHg. There is midline tenderness over T7 to T8 without deformity. Lower limb power, sensation and reflexes are normal and she has no sphincter symptoms. Blood tests show a white cell count of 13.8 x 10^9/L and CRP 164 mg/L. A thoracic spine X-ray is reported as normal for age.",
+  "lead_in": "What is the most appropriate interpretation of these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mechanical back pain with a residual urinary infection, suitable for analgesia and GP follow-up"
+   },
+   {
+    "id": "B",
+    "text": "An osteoporotic vertebral fracture not yet visible on X-ray, needing a repeat film in 2 weeks"
+   },
+   {
+    "id": "C",
+    "text": "Probable vertebral osteomyelitis or spinal epidural abscess, requiring urgent MRI and blood cultures despite the normal X-ray and neurology"
+   },
+   {
+    "id": "D",
+    "text": "Thoracic pain of cardiac origin that should be investigated with troponin and ECG before any spinal imaging"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "502540d7-39cd-8586-53d4-e3f6e8915973",
+  "work_order_id": "r1-065",
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 21-year-old man presents at 20:00 with 2 days of fever, productive cough and increasing shortness of breath. He has no chronic lung disease and does not smoke. Observations: respiratory rate 28, heart rate 112, blood pressure 124/78 mmHg, temperature 38.9 C, SpO2 89% on room air. There are coarse crackles at the right base. The nurse has applied oxygen by nasal prongs at 2 L/min and asks you to prescribe the oxygen on the medication chart with a target saturation range so that she knows when to titrate it up or down overnight.",
+  "lead_in": "Which target oxygen saturation range should be prescribed for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "88 to 92%"
+   },
+   {
+    "id": "B",
+    "text": "92 to 96%"
+   },
+   {
+    "id": "C",
+    "text": "94 to 98%"
+   },
+   {
+    "id": "D",
+    "text": "At least 98%"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "acute shortness of breath",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "4b655508-0311-69af-f368-1a9d6a7c5ae2",
+  "work_order_id": "r1-066",
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care. A 29-year-old man is brought in by ambulance 25 minutes after a petrol fire in a shed. He has partial-thickness burns to his face, neck, anterior chest and both forearms, estimated by paramedics at 18% of total body surface area. The burns have not been cooled. He has singed nasal hairs and eyebrows, soot around his mouth, a hoarse voice and is coughing up carbonaceous sputum. He speaks in full sentences but his voice has changed since the paramedics first assessed him. Observations: respiratory rate 24, SpO2 97% on 15 L/min oxygen by non-rebreather mask, heart rate 118, blood pressure 132/84 mmHg. He has one intravenous cannula and is in severe pain. The ED consultant is with another patient.",
+  "lead_in": "Which of the following should be done first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Call the ED consultant and anaesthetist now for airway assessment and early intubation"
+   },
+   {
+    "id": "B",
+    "text": "Start cooling the burns with cool running water for 20 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Calculate fluid requirements and start the resuscitation infusion"
+   },
+   {
+    "id": "D",
+    "text": "Give intravenous morphine and cover the burns with cling film"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "burns first aid",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "9ceba1bf-ed5d-d620-6e3d-28e96e72dbe2",
+  "work_order_id": "r1-067",
+  "stem": "You are the intern in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 28-year-old man with type 1 diabetes presents with 2 days of vomiting after running out of insulin. He is alert, with heart rate 118, blood pressure 104/66 mmHg, respiratory rate 26 and dry mucous membranes. Point-of-care results: glucose 29 mmol/L, blood ketones 5.8 mmol/L, venous pH 7.14, bicarbonate 9 mmol/L, potassium 3.1 mmol/L, sodium 133 mmol/L, creatinine 128 micromol/L. The nurse has started 0.9% sodium chloride 1 L over the first hour and has drawn up an insulin infusion (50 units in 50 mL) according to the hospital DKA protocol. She asks you to prescribe the insulin now. The physician on call has not yet returned your call.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start the insulin infusion at 0.1 units/kg/hour and add potassium to the next litre of fluid"
+   },
+   {
+    "id": "B",
+    "text": "Give insulin 10 units as an intravenous bolus, then start the infusion"
+   },
+   {
+    "id": "C",
+    "text": "Withhold insulin, start intravenous potassium replacement and recheck the potassium before starting the infusion"
+   },
+   {
+    "id": "D",
+    "text": "Give intravenous sodium bicarbonate to correct the acidosis before starting insulin"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "4182fb37-9bca-1c4e-4803-93b69376cda0",
+  "work_order_id": "r1-068",
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care. You are managing a 31-year-old man with type 1 diabetes in diabetic ketoacidosis, admitted 2 hours ago with pH 7.08, glucose 32 mmol/L and potassium 5.1 mmol/L. He has received 2 L of 0.9% sodium chloride, an insulin infusion is running at 6 units/hour and potassium 10 mmol/hour was started with the second litre. He is alert. The nurse hands you the 2-hour results and a list: the venous gas shows pH 7.18, glucose 14.2 mmol/L and potassium 3.1 mmol/L; the glucose is now below the level at which the protocol requires a 10% glucose infusion to be added; the ED consultant has asked you to phone the medical registrar to refer him for admission; and the patient is asking for a drink of water. The ED consultant is now intubating a trauma patient.",
+  "lead_in": "Which of these should you attend to first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Add the 10% glucose infusion so that the insulin infusion can continue at the current rate"
+   },
+   {
+    "id": "B",
+    "text": "Phone the medical registrar to arrange the admission"
+   },
+   {
+    "id": "C",
+    "text": "Chart oral fluids so that he can have a drink"
+   },
+   {
+    "id": "D",
+    "text": "Increase potassium replacement and discuss reducing or pausing the insulin infusion with a senior doctor"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "5b5b3414-65a2-329d-1837-ca3f5a0a1251",
+  "work_order_id": "r1-069",
+  "stem": "You are working in the emergency department of a large metropolitan teaching hospital with 24-hour CT. A 68-year-old woman is brought in by her husband. Two hours ago, while lifting a pot plant in the garden, she developed a sudden severe occipital headache that reached its maximum within seconds; she describes it as the worst headache of her life. She vomited once and has felt nauseated since. She has hypertension treated with amlodipine and no history of migraine. On arrival the headache has eased to 6 out of 10 after paracetamol. She is alert and orientated with a GCS of 15, no neck stiffness, no focal neurological deficit and normal fundi. Blood pressure is 168/96 mmHg, heart rate 84 and temperature 36.7 C.",
+  "lead_in": "What is the most appropriate interpretation of this presentation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A thunderclap headache in which subarachnoid haemorrhage must be excluded by urgent CT brain"
+   },
+   {
+    "id": "B",
+    "text": "A first episode of migraine without aura that can be treated with analgesia and reviewed if it recurs"
+   },
+   {
+    "id": "C",
+    "text": "A hypertensive headache that will settle once her blood pressure is controlled"
+   },
+   {
+    "id": "D",
+    "text": "A tension-type headache precipitated by exertion that does not require imaging"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "headache red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "f8985df3-7b2b-e71d-d528-d7752669a118",
+  "work_order_id": "r1-070",
+  "stem": "You are the intern in the emergency department of a large metropolitan teaching hospital. A 52-year-old woman sustained a closed mid-shaft tibial fracture when a horse kicked her 5 hours ago. The fracture has been reduced and placed in a plaster backslab by the orthopaedic registrar, who has since gone to theatre. She is awaiting a ward bed. The nurse calls you because the patient's leg pain is 9 out of 10 and increasing despite morphine 10 mg intravenously over the past hour, and she says the pain feels 'different' from when she arrived. The foot is warm and pink, capillary refill is 2 seconds and the dorsalis pedis pulse is palpable. You are considering acute compartment syndrome and want to examine for its earliest reliable sign before you phone the registrar in theatre.",
+  "lead_in": "Which clinical finding is the earliest reliable sign of acute compartment syndrome?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Absence of the dorsalis pedis pulse"
+   },
+   {
+    "id": "B",
+    "text": "Pallor and coolness of the foot"
+   },
+   {
+    "id": "C",
+    "text": "Paralysis of the toes and ankle"
+   },
+   {
+    "id": "D",
+    "text": "Pain on passive stretch of the compartment muscles"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "limb fracture initial management",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.4",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "09dcedd3-120d-af99-bdba-0fb41438c817",
+  "work_order_id": "r1-071",
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone. A 71-year-old woman who lives independently fell in her kitchen this morning and presents at 10:00 with left hip pain and inability to bear weight. X-ray confirms a displaced intracapsular fracture of the left neck of femur. She has well-controlled hypertension and takes no anticoagulants. Her pain has been assessed and treated, including a fascia iliaca block. The visiting surgeon is not due for 5 days and does not operate on hip fractures at this site. The nurse coordinator asks how urgently transfer to Adelaide must be arranged, because the next routine patient transport slot is in 3 days.",
+  "lead_in": "According to the Australian Hip Fracture Care Clinical Care Standard, within what time from presentation should she have surgery?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Within 24 hours"
+   },
+   {
+    "id": "B",
+    "text": "Within 36 hours"
+   },
+   {
+    "id": "C",
+    "text": "Within 48 hours"
+   },
+   {
+    "id": "D",
+    "text": "Within 72 hours"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "limb fracture initial management",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.7",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "85391dd3-eac2-83d2-53c7-52bab3186bd8",
+  "work_order_id": "r1-072",
+  "stem": "You are working in the emergency department of a metropolitan general hospital at 19:00; a registrar is on site overnight. A 55-year-old man fell from his bicycle at low speed 90 minutes ago, striking his helmeted head on the road. Bystanders report he was unresponsive for less than a minute. He cannot remember the 5 minutes before the fall. He has vomited once in the department, has a mild frontal headache and has a small scalp haematoma over the right parietal region with no palpable step and no laceration. There are no signs of a basal skull fracture, his pupils are equal and reactive and there is no focal neurological deficit. His GCS has been 15 since the ambulance arrived. He takes no antiplatelet or anticoagulant medication and has not been drinking alcohol. The registrar asks you to apply the head injury guideline's CT criteria.",
+  "lead_in": "Which single finding, if present, would make a CT brain mandatory for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A single episode of vomiting"
+   },
+   {
+    "id": "B",
+    "text": "Amnesia for the 5 minutes before impact"
+   },
+   {
+    "id": "C",
+    "text": "Two or more episodes of vomiting"
+   },
+   {
+    "id": "D",
+    "text": "A scalp haematoma without a palpable skull defect"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "minor head injury",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.4",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "b9765605-8d7b-7f57-62d1-5f0b0362cba4",
+  "work_order_id": "r1-073",
+  "stem": "You are the PGY2 resident covering the emergency department and ward of a country hospital 90 minutes from the nearest tertiary centre overnight. A 79-year-old woman is brought in by her daughter at 23:00. Three hours earlier, after an argument, she swallowed 20 tablets of immediate-release paracetamol 500 mg (10 g) from a packet of 24. She weighs 62 kg, took nothing else and does not drink alcohol. She is alert and orientated with normal observations and feels mildly nauseated. Her only regular medicine is perindopril. The hospital laboratory can run a paracetamol concentration with a turnaround of about one hour, and the Poisons Information Centre is available on 13 11 26. She says she regrets what she did and asks to go home.",
+  "lead_in": "What is the most appropriate next step in managing the paracetamol ingestion?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Measure the serum paracetamol concentration at 4 hours after ingestion and treat according to the nomogram"
+   },
+   {
+    "id": "B",
+    "text": "Give activated charcoal 50 g orally now"
+   },
+   {
+    "id": "C",
+    "text": "Start intravenous acetylcysteine immediately without waiting for a concentration"
+   },
+   {
+    "id": "D",
+    "text": "Observe overnight and check liver function tests at 24 hours"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "overdose and poisoning",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.7",
+   "1.9",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "5e494e61-b9d4-8fa2-d739-ac080d34845d",
+  "work_order_id": "r1-074",
+  "stem": "You are the only doctor on site overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula; the GP is on call from home. At 02:10 a 58-year-old man is brought in by his wife. They were watching television together when, at 01:30, he suddenly stopped speaking properly and his right arm went weak. On examination he has expressive dysphasia, right facial droop and right arm power 2 out of 5; he is alert. Blood pressure is 172/94 mmHg, heart rate 88 and regular, SpO2 97% on room air and bedside glucose 6.2 mmol/L. He has hypertension and takes no anticoagulant, has had no recent surgery or bleeding, and his wife asks whether you can give him an aspirin.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give aspirin 300 mg orally now and reassess his deficit in one hour"
+   },
+   {
+    "id": "B",
+    "text": "Activate the acute stroke pathway now and call for time-critical imaging and reperfusion assessment"
+   },
+   {
+    "id": "C",
+    "text": "Phone the GP on call and ask them to come in and assess him before any further decisions are made"
+   },
+   {
+    "id": "D",
+    "text": "Admit him for observation and arrange a CT brain and physician review in the morning"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "stroke recognition",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "8bf17146-a98d-2f22-a516-c874b00c3046",
+  "work_order_id": "r1-075",
+  "stem": "You are the intern covering the emergency department and ward of a country hospital 90 minutes from the nearest tertiary centre overnight; the GP is on call from home. A 78-year-old man presents at 03:00 with 45 minutes of central chest heaviness radiating to the left arm, with nausea and sweating. He has hypertension and type 2 diabetes. Observations: heart rate 54 and regular, blood pressure 108/66 mmHg, respiratory rate 20, SpO2 96% on room air. The nurse hands you the 12-lead ECG: sinus rhythm at 54 per minute, 2 mm ST elevation in leads II, III and aVF, 1 to 2 mm ST depression in leads I and aVL, and no ST change in the anterior leads. An ECG from an admission 2 years ago was normal.",
+  "lead_in": "What is the most appropriate interpretation of this ECG?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pericarditis, because of ST elevation in several leads"
+   },
+   {
+    "id": "B",
+    "text": "Early repolarisation, a normal variant that explains the ST elevation"
+   },
+   {
+    "id": "C",
+    "text": "Posterior myocardial infarction, indicated by the ST depression"
+   },
+   {
+    "id": "D",
+    "text": "Inferior ST-elevation myocardial infarction requiring immediate reperfusion"
+   }
+  ],
+  "learning_area": "Emergency presentations",
+  "presentation": "undifferentiated chest pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "1.9"
+  ]
+ }
+]

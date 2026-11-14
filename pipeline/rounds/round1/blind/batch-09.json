@@ -1,0 +1,1114 @@
+[
+ {
+  "item_id": "90f95068-37d5-9d17-d19c-bd76f117d587",
+  "work_order_id": "r1-201",
+  "stem": "A 22-year-old man attends the pre-admission clinic of a large metropolitan teaching hospital before an elective arthroscopic repair of his anterior cruciate ligament. He has had major depression for three years, well controlled on sertraline 100 mg each morning, and takes no other medicines. He has no allergies, normal renal function and weighs 78 kg. The anaesthetic registrar asks you, the intern, to draft the postoperative analgesia on the medication chart for the registrar to check, following the unit's usual multimodal approach of regular paracetamol, a regular NSAID and an immediate-release opioid when required. The registrar reminds you that one of the unit's usual choices interacts with his antidepressant and should be left off the chart.",
+  "lead_in": "Which analgesic should be avoided because of its interaction with sertraline?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Paracetamol"
+   },
+   {
+    "id": "B",
+    "text": "Ibuprofen"
+   },
+   {
+    "id": "C",
+    "text": "Tramadol"
+   },
+   {
+    "id": "D",
+    "text": "Oxycodone"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "drug interactions",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "818f461a-5680-8dd3-2089-5b9c103e21ef",
+  "work_order_id": "r1-202",
+  "stem": "At 02:00 in the emergency department of a country hospital 90 minutes by road from the nearest tertiary centre, you are the PGY2 covering the ward and emergency department alone, with the GP on call 20 minutes away. A 56-year-old woman arrives with two large melaena stools over four hours and light-headedness. She has a mechanical mitral valve and takes warfarin; her point-of-care INR is 7.4. Observations: heart rate 118, blood pressure 92/58 mmHg, respiratory rate 22, SpO2 97% on air, alert. The nurse has inserted one cannula and sent bloods including a group and hold. The hospital holds Prothrombinex-VF, vitamin K and two units of O-negative red cells. You have asked the nurse to call the GP in.",
+  "lead_in": "Which action takes priority while you wait for the GP?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give intravenous vitamin K and Prothrombinex-VF now, start fluid resuscitation through a second large-bore cannula and call the retrieval service"
+   },
+   {
+    "id": "B",
+    "text": "Withhold tonight's warfarin, repeat the INR in six hours and admit her to the ward for observation"
+   },
+   {
+    "id": "C",
+    "text": "Arrange transfer for urgent endoscopy and defer reversal until she is assessed in Adelaide because of her mechanical valve"
+   },
+   {
+    "id": "D",
+    "text": "Give fresh frozen plasma alone, as Prothrombinex-VF is contraindicated in patients with a mechanical heart valve"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "3f81c608-9513-3e42-dba9-0e62d1260da5",
+  "work_order_id": "r1-203",
+  "stem": "A 58-year-old man is brought to the emergency department of a regional hospital that has a small medical ward without an intensive care unit, CT during business hours only and retrieval to Adelaide by road or air. He slipped on a wet floor 3 hours ago, hit his head and has a worsening headache with one vomit. He takes apixaban 5 mg twice daily for atrial fibrillation, last dose at 08:00; it is now 14:00. GCS is 14 (confused), pupils equal and reactive, no focal deficit, blood pressure 158/90 mmHg. The on-site CT shows a 9 mm acute subdural haematoma with 3 mm midline shift. The medical registrar is on the phone with the retrieval coordinator and neurosurgery and asks you to deal with his anticoagulation now.",
+  "lead_in": "What is the most appropriate next step for his anticoagulation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Withhold further apixaban and observe with half-hourly neurological observations until retrieval arrives"
+   },
+   {
+    "id": "B",
+    "text": "Give Prothrombinex-VF 50 units/kg intravenously after urgent phone advice from haematology, and document the time of his last apixaban dose for the receiving team"
+   },
+   {
+    "id": "C",
+    "text": "Give fresh frozen plasma 15 mL/kg intravenously as the reversal agent of choice for factor Xa inhibitors"
+   },
+   {
+    "id": "D",
+    "text": "Give vitamin K 10 mg intravenously and recheck the INR in 6 hours"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "cd618f42-fe42-a3f1-62e2-67605b199405",
+  "work_order_id": "r1-204",
+  "stem": "You are the PGY2 on the surgical ward of a regional hospital with a small ICU-free medical ward. A 79-year-old man with type 2 diabetes had a right hemicolectomy 2 days ago. At home he takes premixed insulin aspart/insulin aspart protamine 30/70, 24 units before breakfast and 16 units before dinner, and these doses were charted unchanged on admission. He is eating about a quarter of each meal and has had no supplemental insulin. His blood glucose chart for the last 24 hours reads: 06:00 3.1 mmol/L (treated with oral glucose), 08:00 6.2, 12:00 8.9, 17:00 10.4, 22:00 3.4 (treated), 02:00 5.8. He is afebrile, his creatinine is normal and he is on no new medicines. The night nurse asks you what the pattern means before the morning dose is due.",
+  "lead_in": "What is the most likely explanation for this blood glucose pattern?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Stress hyperglycaemia from surgery that needs his premixed insulin increased"
+   },
+   {
+    "id": "B",
+    "text": "Glucometer error, so no change should be made until a laboratory glucose is available"
+   },
+   {
+    "id": "C",
+    "text": "Dawn phenomenon with early-morning hepatic glucose output"
+   },
+   {
+    "id": "D",
+    "text": "His full home doses of premixed insulin continued despite greatly reduced oral intake, causing hypoglycaemia after each dose"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "insulin prescribing errors",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "998f1a55-de28-62b9-afd7-49a32e4d65f4",
+  "work_order_id": "r1-205",
+  "stem": "A 52-year-old woman is brought to the emergency department of a large metropolitan teaching hospital by her sister, who found her at home unwell for 3 days with vomiting, poor intake and drowsiness. She has treatment-resistant schizophrenia managed by the community mental health team on clozapine 400 mg at night, and her sister reports she has taken no clozapine for the past 3 days. She is afebrile, heart rate 96, blood pressure 118/74 mmHg, mildly dehydrated, with a normal ECG and no clinical features of infection; bloods are pending. The ED consultant asks you, the intern, to reconcile her medicines and asks specifically how her clozapine should be re-charted tonight.",
+  "lead_in": "Which approach to re-charting her clozapine is correct?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart clozapine 400 mg at night as usual because she has taken it long term and tolerated it"
+   },
+   {
+    "id": "B",
+    "text": "Restart at 12.5 mg once or twice daily and re-titrate under psychiatry guidance, because more than 48 hours of doses have been missed"
+   },
+   {
+    "id": "C",
+    "text": "Withhold clozapine until a clozapine plasma level and neutrophil count are back, then resume 400 mg at night"
+   },
+   {
+    "id": "D",
+    "text": "Substitute olanzapine 10 mg at night until the psychiatry team reviews her, then resume clozapine"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "7e7f3700-9613-c399-e013-e1be6b636419",
+  "work_order_id": "r1-206",
+  "stem": "A 68-year-old man presents to the emergency department of a tertiary hospital in Adelaide with community-acquired pneumonia and is to be admitted under general medicine. He lives alone, has ischaemic heart disease, type 2 diabetes, hypertension and gout, and says he takes 'about eight tablets' but can name only metformin and 'a blood pressure one'. He has no medication list or packaging with him; his daughter is driving in from Murray Bridge and will arrive in 2 hours. It is 16:30 and the ED pharmacist has finished for the day. The medical registrar asks you, the intern, to complete his medication history and chart his regular medicines before he goes to the ward.",
+  "lead_in": "What is the most appropriate way to establish his medication history?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart metformin and withhold everything else until the ward pharmacist reviews him tomorrow"
+   },
+   {
+    "id": "B",
+    "text": "Chart the medicines he can recall and ask the ward team to confirm the rest at the post-take round"
+   },
+   {
+    "id": "C",
+    "text": "Chart a standard regimen for his conditions based on the discharge summary from his last admission 3 years ago"
+   },
+   {
+    "id": "D",
+    "text": "Obtain a best possible medication history from at least two sources, such as My Health Record and his community pharmacy or GP, confirm it with him and his daughter, and document the sources on the medication management plan"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "17603e6b-830c-14d4-59e4-88cc74647e94",
+  "work_order_id": "r1-207",
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and specialist advice by phone. A 19-year-old Aboriginal man had an open appendicectomy for a perforated appendix 2 days ago. He is eating, mobilising and passing flatus; his pain is 3/10 at rest and 6/10 on moving, controlled with regular paracetamol, ibuprofen and two doses of oxycodone 5 mg in the last 24 hours. He lives 45 minutes away with his grandmother and wants to go home today. With his agreement the Aboriginal Liaison Officer has arranged transport and a wound review at the local Aboriginal health service in 3 days, and the visiting surgeon has approved discharge. You are writing his discharge medicines.",
+  "lead_in": "What is the most appropriate discharge analgesia?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Regular paracetamol and ibuprofen, with a small quantity of immediate-release oxycodone 5 mg (enough for about 3 days), a written plan to stop the opioid first, and a copy of the plan for the Aboriginal health service"
+   },
+   {
+    "id": "B",
+    "text": "Modified-release oxycodone 10 mg twice daily for 14 days so he is covered until the surgeon's next visit"
+   },
+   {
+    "id": "C",
+    "text": "Paracetamol alone, with advice to return to the emergency department if his pain is not controlled"
+   },
+   {
+    "id": "D",
+    "text": "Modified-release tramadol 100 mg twice daily for 7 days as a lower-risk alternative to oxycodone"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "opioid prescribing and discharge",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.3",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "6e0a05aa-2ac7-de89-9263-af7d213a3189",
+  "work_order_id": "r1-208",
+  "stem": "You are the PGY2 in the emergency department of a large metropolitan teaching hospital at 05:00. A 34-year-old Aboriginal woman presented 4 hours ago with right-sided renal colic; CT shows a 4 mm distal ureteric stone without obstruction or signs of infection. She has had intravenous morphine 10 mg in divided doses, intravenous ketorolac and paracetamol. Her pain remains 8/10, heart rate 108, blood pressure 138/86 mmHg, afebrile. The department is full and the nurse in charge asks you to 'write her discharge script so the bed can be turned over'. The patient, whose two children are at home with her mother, also wants to leave. The Aboriginal Liaison Officer starts at 08:00. The ED consultant is in the resuscitation bay with another patient.",
+  "lead_in": "Which action takes priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Write a discharge prescription for immediate-release oxycodone 5 mg, 20 tablets, so she can leave now"
+   },
+   {
+    "id": "B",
+    "text": "Give a further dose of intravenous morphine and discharge her once she feels more comfortable"
+   },
+   {
+    "id": "C",
+    "text": "Reassess her pain and observations yourself and discuss her with the ED consultant before any discharge decision is made"
+   },
+   {
+    "id": "D",
+    "text": "Arrange outpatient urology follow-up and discharge her with paracetamol only"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "opioid prescribing and discharge",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "bff853ff-7d40-85b7-3e4a-b4d3bac34997",
+  "work_order_id": "r1-209",
+  "stem": "You are the intern covering the surgical ward of a metropolitan general hospital overnight, with the surgical registrar on site. At 23:30 a nurse asks you to chart 'something stronger' for a 69-year-old man, 76 kg, who is 1 day after a laparoscopic cholecystectomy and rates his wound pain 6/10. He has heart failure and chronic kidney disease (baseline eGFR 38 mL/min/1.73 m2) and takes ramipril 10 mg and frusemide 40 mg daily, both continued since admission. His chart has regular paracetamol 1 g four times daily and ibuprofen 400 mg three times daily when required, which he has had twice today. Reviewing the chart you notice the fluid balance: urine output via his indwelling catheter has been 15 to 20 mL per hour for the last 3 hours, and he has had 1.5 L of intravenous fluid since surgery. Other observations are within normal limits.",
+  "lead_in": "Which action takes priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart immediate-release oxycodone 5 mg when required and hand the rest over to the day team"
+   },
+   {
+    "id": "B",
+    "text": "Cease the ibuprofen, assess his fluid status, request urgent electrolytes and creatinine, and call the registrar about the low urine output before adjusting his analgesia"
+   },
+   {
+    "id": "C",
+    "text": "Change ibuprofen to celecoxib, which spares the kidney, and add oxycodone when required"
+   },
+   {
+    "id": "D",
+    "text": "Increase paracetamol to 1 g every 4 hours while he is in pain"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "paracetamol and NSAID safety",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "90c488f5-0659-7db0-427f-cc02496970f6",
+  "work_order_id": "r1-210",
+  "stem": "A 60-year-old woman weighing 45 kg is admitted to the medical ward of a regional hospital (small ICU-free medical ward, CT in business hours only, retrieval to Adelaide by road or air) with a CT-confirmed segmental pulmonary embolism and stable observations. Her serum creatinine is 150 micromol/L and the laboratory reports an eGFR (CKD-EPI) of 33 mL/min/1.73 m2. She has no bleeding history, platelets 240 x 10^9/L, and takes no anticoagulant or antiplatelet. The physician, by phone, asks you, the intern, to chart treatment-dose enoxaparin tonight and says 'check her renal function and dose it properly'. The hospital cannot measure anti-Xa levels.",
+  "lead_in": "What is the most appropriate enoxaparin dose to chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "45 mg subcutaneously twice daily"
+   },
+   {
+    "id": "B",
+    "text": "70 mg subcutaneously once daily"
+   },
+   {
+    "id": "C",
+    "text": "40 mg subcutaneously once daily"
+   },
+   {
+    "id": "D",
+    "text": "45 mg subcutaneously once daily"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "4b2a05d1-380a-7453-2e5d-d99fa9a729b6",
+  "work_order_id": "r1-211",
+  "stem": "A 22-year-old man, 70 kg, was admitted to the general ward of a large metropolitan teaching hospital 24 hours ago with pyelonephritis and sepsis. In the emergency department he received gentamicin 5 mg/kg (350 mg) intravenously and intravenous amoxicillin; his creatinine then was 110 micromol/L. He has improved: temperature 37.6, heart rate 88, blood pressure 122/76 mmHg. This morning's creatinine is 190 micromol/L, his urine output overnight was 0.4 mL/kg/h despite intravenous fluids, and the urine culture is growing a Gram-negative bacillus with sensitivities due tomorrow. The nurse tells you the next gentamicin dose is 'due now' according to the chart; the medical registrar is in clinic until midday and the ward pharmacist is on the ward. You are the resident.",
+  "lead_in": "What is the most appropriate action regarding the gentamicin dose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Withhold the dose, order a gentamicin plasma level and repeat creatinine, and contact the registrar or pharmacist now to change to an alternative such as ceftriaxone pending sensitivities"
+   },
+   {
+    "id": "B",
+    "text": "Give gentamicin 350 mg now because he is clinically improving and his creatinine remains within three times baseline"
+   },
+   {
+    "id": "C",
+    "text": "Give a reduced dose of gentamicin 3 mg/kg now and recheck the creatinine tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Cease all antibiotics until the sensitivities are reported tomorrow"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "d049eedd-a301-ae55-661c-9da55f398077",
+  "work_order_id": "r1-212",
+  "stem": "You are the intern on overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department, the GP on call at home. At 01:30 you admit a 72-year-old woman, 58 kg, with community-acquired pneumonia; her oxygen saturation is 93% on 2 L and she is otherwise stable and will stay on the ward. She takes no anticoagulant or antiplatelet and has no bleeding history. The hospital's admission chart prompts VTE risk assessment and its protocol is enoxaparin 40 mg daily for medical inpatients. Her admission bloods return: haemoglobin 126 g/L, platelets 38 x 10^9/L with no previous count available, creatinine 70 micromol/L. Her antibiotics and fluids are charted. The nurse asks you to complete the VTE section of the chart.",
+  "lead_in": "What is the most appropriate action for her VTE prophylaxis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart enoxaparin 40 mg daily as the protocol directs, since the platelet count is only mildly reduced"
+   },
+   {
+    "id": "B",
+    "text": "Chart enoxaparin at a halved dose of 20 mg daily to balance the risks"
+   },
+   {
+    "id": "C",
+    "text": "Withhold pharmacological prophylaxis, use mechanical prophylaxis and early mobilisation, document the reason, and discuss the unexplained thrombocytopenia with the GP on call"
+   },
+   {
+    "id": "D",
+    "text": "Chart aspirin 100 mg daily as a safer alternative to enoxaparin"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "venous thromboembolism prophylaxis",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "1557617f-9001-b664-7d1f-cd46900ca78e",
+  "work_order_id": "r1-213",
+  "stem": "You are the intern covering the ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. An 80-year-old man is admitted from the emergency department with a urinary tract infection. His medicines are confirmed from his Webster pack and his GP's list, which show he takes digoxin 62.5 micrograms every morning for atrial fibrillation, as well as apixaban and metoprolol. The nurse asks you to write up his regular medicines on the paper National Inpatient Medication Chart used by the hospital so that the morning dose is not missed. There is no electronic prescribing system.",
+  "lead_in": "How should the digoxin order be written on the chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "digoxin 62.5 mcg orally, mane"
+   },
+   {
+    "id": "B",
+    "text": "digoxin 62.5 micrograms orally, mane"
+   },
+   {
+    "id": "C",
+    "text": "digoxin .0625 mg orally, mane"
+   },
+   {
+    "id": "D",
+    "text": "digoxin 62.50 micrograms orally, mane"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "writing a safe medication chart",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.10",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "4f99681c-44cc-02d3-0951-571b475c40fb",
+  "work_order_id": "r1-214",
+  "stem": "On the medical ward of a tertiary hospital in Adelaide, a 70-year-old woman admitted with community-acquired pneumonia develops new central chest tightness. The nurse brings the ECG machine and asks you, the intern, to record a 12-lead ECG while she phones the registrar. You attach the limb electrodes, place V1 at the fourth intercostal space at the right sternal edge and V2 at the fourth intercostal space at the left sternal edge, and then need to locate V4 so that V3, V5 and V6 can be placed in relation to it. The patient had an ECG in the emergency department yesterday and the registrar will want to compare the two.",
+  "lead_in": "Where should the V4 electrode be placed?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Fifth intercostal space at the left sternal edge"
+   },
+   {
+    "id": "B",
+    "text": "Fourth intercostal space in the left midclavicular line"
+   },
+   {
+    "id": "C",
+    "text": "Fifth intercostal space in the left anterior axillary line"
+   },
+   {
+    "id": "D",
+    "text": "Fifth intercostal space in the left midclavicular line"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "ECG acquisition",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "3ccef498-5784-0c78-dfb6-e02b7468b866",
+  "work_order_id": "r1-215",
+  "stem": "A 36-year-old man with a severe asthma exacerbation is in the emergency department of a regional hospital with a small ICU-free medical ward and retrieval to Adelaide by road or air. Forty minutes ago you, the junior doctor, took an arterial blood gas from his right radial artery after two failed attempts; the nurse applied a firm pressure bandage. He now says his right hand is painful and 'numb'. It is pale and cool compared with the left, capillary refill is 5 seconds, and you cannot feel the radial pulse at the wrist, though the ulnar pulse is palpable. His breathing has improved on nebulised salbutamol and he is awaiting the physician's review. There is no vascular surgeon or CT angiography available in the hospital tonight.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Remove the pressure bandage, reassess perfusion and pulses within minutes, and if perfusion does not promptly recover contact the on-call vascular surgeon in Adelaide and the retrieval service urgently"
+   },
+   {
+    "id": "B",
+    "text": "Elevate the arm on pillows, apply a warm pack and review the hand in 4 hours"
+   },
+   {
+    "id": "C",
+    "text": "Start a therapeutic heparin infusion immediately on the assumption of radial artery thrombosis"
+   },
+   {
+    "id": "D",
+    "text": "Take a repeat arterial sample from the right ulnar artery to confirm his gas has improved"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "arterial puncture",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "32bbc51d-8316-918b-70c3-083d05dda7a4",
+  "work_order_id": "r1-216",
+  "stem": "You are the PGY2 in the recovery area of the theatre suite of a regional hospital with a small ICU-free medical ward. An 81-year-old woman, 55 kg, has just arrived from theatre after a hip hemiarthroplasty under spinal anaesthesia with intravenous sedation; she received fentanyl 50 micrograms 20 minutes ago. The anaesthetist has gone back into theatre to start the next case. The recovery nurse calls you because the patient has become unrousable to voice, is snoring loudly with see-saw chest and abdominal movement, and her SpO2 has fallen from 96% to 86% on 6 L oxygen via a Hudson mask. Heart rate 92, blood pressure 118/70 mmHg. A bag-valve-mask, oropharyngeal airways and suction are on the trolley beside you.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give naloxone 100 micrograms intravenously and repeat every 2 minutes until she wakes"
+   },
+   {
+    "id": "B",
+    "text": "Insert a size 3 laryngeal mask airway and connect it to the oxygen circuit"
+   },
+   {
+    "id": "C",
+    "text": "Perform a head-tilt, chin-lift or jaw thrust while increasing oxygen to 15 L via a non-rebreather mask, and ask the nurse to call the anaesthetist back immediately"
+   },
+   {
+    "id": "D",
+    "text": "Sit her upright and apply continuous positive airway pressure through the ward CPAP machine"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "basic airway management",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "2c9a79eb-0a72-2a05-651f-aaa814d10597",
+  "work_order_id": "r1-217",
+  "stem": "In the pre-admission clinic and theatre suite of a tertiary hospital in Adelaide, a 55-year-old woman is about to have a laparoscopic cholecystectomy. Four years ago she had a left mastectomy with axillary node clearance for breast cancer and has mild left arm lymphoedema controlled with a compression sleeve. Her right forearm has good visible veins and both antecubital fossae have large veins. She has no arteriovenous fistula. The anaesthetist asks you, the resident, to site an intravenous cannula suitable for induction and for a possible postoperative patient-controlled analgesia pump, and mentions that the surgeon wants the left arm tucked by her side during the operation.",
+  "lead_in": "Which cannulation site is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Left antecubital fossa, 16 gauge, because it has the largest vein"
+   },
+   {
+    "id": "B",
+    "text": "Right forearm, 18 or 20 gauge, avoiding the antecubital crease"
+   },
+   {
+    "id": "C",
+    "text": "Left dorsum of the hand, 20 gauge, to keep the antecubital fossa for blood sampling"
+   },
+   {
+    "id": "D",
+    "text": "Right foot, 22 gauge, to keep both arms free"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "intravenous cannulation",
+  "context": "theatre",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "1.6",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "299d6763-86ce-d96e-9ebd-9a7dd0fd0346",
+  "work_order_id": "r1-218",
+  "stem": "You are the intern covering the general ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. A 32-year-old woman, 60 kg, admitted with pyelonephritis, slips in the bathroom and sustains a clean 6 cm laceration to her left forearm with no tendon or nerve involvement. The nurse has irrigated it and set up a suture tray with 1% lignocaine (lidocaine) without adrenaline. The woman has no allergies, no cardiac history and is not pregnant. The GP on call asks you by phone to close the wound and reminds you to stay within the maximum safe dose of local anaesthetic.",
+  "lead_in": "What is the maximum volume of 1% lignocaine without adrenaline you may infiltrate for this woman?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mL"
+   },
+   {
+    "id": "B",
+    "text": "30 mL"
+   },
+   {
+    "id": "C",
+    "text": "42 mL"
+   },
+   {
+    "id": "D",
+    "text": "18 mL"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "local anaesthetic and wound closure",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D"
+  ],
+  "domains": [
+   "1.6",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "f569202c-f8a4-7f99-84e5-644aac640e1c",
+  "work_order_id": "r1-219",
+  "stem": "You are the only doctor overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula, with the GP on call at home. A 19-year-old man with a previous appendicectomy presents with 12 hours of colicky abdominal pain, distension and repeated bilious vomiting; heart rate 108, blood pressure 108/70 mmHg. An abdominal X-ray taken before the radiographer went home shows dilated small bowel loops with air-fluid levels. You have inserted a cannula, started intravenous fluids and given analgesia, and the GP has agreed by phone that he needs a nasogastric tube and transfer to Adelaide in the morning. You pass a 16 Fr nasogastric tube to 60 cm without difficulty; he is talking comfortably and no fluid has yet drained.",
+  "lead_in": "What should you do first before leaving the tube in place?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aspirate the tube and test the aspirate with pH indicator paper, accepting a pH of 5 or less as confirming gastric placement"
+   },
+   {
+    "id": "B",
+    "text": "Inject 20 mL of air down the tube while auscultating over the epigastrium for a 'whoosh'"
+   },
+   {
+    "id": "C",
+    "text": "Call the on-call radiographer back in for a chest X-ray before anything else is done"
+   },
+   {
+    "id": "D",
+    "text": "Connect the tube to free drainage, secure it and reassess its position at handover"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "nasogastric tube insertion",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "6d11e936-82e9-f4ac-6600-191769186975",
+  "work_order_id": "r1-220",
+  "stem": "A 52-year-old woman attends the emergency department of a tertiary hospital in Adelaide at 23:00 with a closed, minimally displaced distal radius fracture after a fall. A below-elbow plaster backslab was applied at 15:00 and she was discharged with paracetamol and ibuprofen and a fracture clinic appointment. She has returned because the pain has steadily worsened over 6 hours, is 9/10 and unrelieved by her analgesia, and she describes 'tightness'. On examination the fingers are swollen and she is reluctant to move them; gentle passive extension of the fingers causes severe forearm pain. Capillary refill is 2 seconds, the radial pulse is palpable and sensation to light touch is intact across all fingers. The orthopaedic registrar is in theatre and the ED consultant is on the floor.",
+  "lead_in": "What is the most likely explanation for these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Expected post-fracture pain that will settle with elevation and stronger analgesia"
+   },
+   {
+    "id": "B",
+    "text": "Median nerve neuropraxia from the fracture itself"
+   },
+   {
+    "id": "C",
+    "text": "A constricting cast or evolving compartment syndrome, in which a palpable pulse and normal capillary refill do not exclude the diagnosis"
+   },
+   {
+    "id": "D",
+    "text": "Arterial injury, which is excluded here because the pulse is present and refill is normal"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "plaster and splint check",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.4",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "78f59627-140b-6bc2-061f-1623ecf0b765",
+  "work_order_id": "r1-221",
+  "stem": "You are the resident on the general ward of a large metropolitan teaching hospital. At 10:30, while taking blood from a 32-year-old man admitted with cellulitis who has a history of injecting drug use and whose hepatitis B, hepatitis C and HIV status are not documented, the needle slips as you withdraw it and punctures your gloved thumb, drawing blood. You still have the rest of the ward round jobs to do and the registrar is at the bedside of another patient. The hospital's occupational exposure procedure directs staff to the staff health clinic during business hours or the emergency department after hours. You completed hepatitis B vaccination at university but do not know your antibody level.",
+  "lead_in": "What is the most appropriate immediate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wash the puncture with soap and running water, finish the ward round jobs, then report the injury at the end of the shift"
+   },
+   {
+    "id": "B",
+    "text": "Wash the puncture with soap and running water, tell the registrar now so the ward is covered, go to the staff health clinic for risk assessment and baseline bloods, and arrange testing of the patient's blood with his informed consent"
+   },
+   {
+    "id": "C",
+    "text": "Squeeze the puncture to expel blood, apply an alcohol swab, take your own bloods on the ward and check the results tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Ask the patient's nurse to add hepatitis and HIV serology to his morning bloods without raising it with him, so you can decide whether you need treatment"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "sharps injury",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "A"
+  ],
+  "domains": [
+   "1.6",
+   "1.1",
+   "2.2"
+  ]
+ },
+ {
+  "item_id": "8241e9e1-8b16-77e2-d5d6-01de290e4253",
+  "work_order_id": "r1-222",
+  "stem": "You are the intern in the recovery and surgical ward area of a rural hospital on the Yorke Peninsula, with the GP anaesthetist still in the building. A 78-year-old man with known benign prostatic hyperplasia on tamsulosin had an inguinal hernia repair under spinal anaesthesia this afternoon. Eight hours later he has not passed urine, is uncomfortable, and a bladder scan shows 720 mL. The nurse has attempted a 14 Fr catheter without success. You attempt a 16 Fr catheter with lignocaine lubricant gel, using aseptic technique. The catheter passes to about 20 cm with mild resistance at one point, and about 30 mL of clear urine returns. As you begin to inflate the balloon with sterile water he cries out with sharp pain in the penis, and the water is hard to inject.",
+  "lead_in": "What do these findings most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Normal transient discomfort of catheterisation that should settle once the balloon is fully inflated"
+   },
+   {
+    "id": "B",
+    "text": "Bladder spasm from rapid decompression of a distended bladder"
+   },
+   {
+    "id": "C",
+    "text": "A urethral stricture that will require a suprapubic catheter"
+   },
+   {
+    "id": "D",
+    "text": "The balloon is being inflated within the urethra because the catheter tip has not fully entered the bladder"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "urinary catheterisation",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D"
+  ],
+  "domains": [
+   "1.6",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "f53bdb49-491b-3e6d-7b37-3f95bf93683b",
+  "work_order_id": "r1-223",
+  "stem": "On the surgical ward of a regional hospital with a small ICU-free medical ward, a 79-year-old woman who had a bowel resection 4 days ago becomes febrile to 38.6 with rigors; heart rate 104, blood pressure 118/72 mmHg, respiratory rate 20. She has a peripheral cannula in her left forearm inserted 3 days ago and no central line. The registrar, by phone, asks you, the intern, to take blood cultures before the first dose of antibiotics, which the nurse is already drawing up, and to send a full blood count and electrolytes at the same time. The nurse asks how you want the cultures collected.",
+  "lead_in": "Which blood culture collection technique is correct?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Two sets, each from a separate fresh venepuncture site after skin antisepsis with 2% chlorhexidine in 70% alcohol allowed to dry, with 8 to 10 mL of blood in each bottle, taken before the antibiotics"
+   },
+   {
+    "id": "B",
+    "text": "One set drawn through the existing peripheral cannula after flushing it, to avoid a second needle in a frail patient"
+   },
+   {
+    "id": "C",
+    "text": "A single set of 2 to 3 mL in each bottle taken with the other bloods from one venepuncture, as volume matters less than speed"
+   },
+   {
+    "id": "D",
+    "text": "Two sets taken 30 minutes apart from the same venepuncture site, after the first antibiotic dose so that treatment is not delayed"
+   }
+  ],
+  "learning_area": "Procedures and practical skills",
+  "presentation": "venepuncture and blood cultures",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.6",
+   "1.5",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "8acc7feb-5bdc-7d83-3d79-c0ea494e9083",
+  "work_order_id": "r1-224",
+  "stem": "You are a PGY2 in the emergency department of a large metropolitan teaching hospital. A 31-year-old man has right iliac fossa pain, fever and a CT report of acute appendicitis. When you phone the surgical registrar with an ISBAR referral, she interrupts, calls you 'useless' for not having a lactate, says 'don't waste my time, call me when you have actually done your job' and hangs up. This is the third time this week she has spoken to you or your intern colleagues this way; one intern was in tears yesterday. The patient needs surgical admission tonight. The ED consultant is on the floor and your term supervisor, a physician, is on call for the department. Your hospital has a Director of Clinical Training and a medical education unit.",
+  "lead_in": "What is the most appropriate course of action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Accept that this is surgical culture, obtain the lactate and call back without comment"
+   },
+   {
+    "id": "B",
+    "text": "Confront the registrar when she next comes to the department, in front of the team, so that others see the behaviour challenged"
+   },
+   {
+    "id": "C",
+    "text": "Ask the ED consultant to escalate the referral consultant-to-consultant so the patient is admitted, then document the interaction factually and raise it with your term supervisor or the Director of Clinical Training through the hospital's process"
+   },
+   {
+    "id": "D",
+    "text": "Describe the interaction in the junior doctors' group chat so that colleagues are warned about her"
+   }
+  ],
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "bullying and harassment",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "2.6",
+   "2.1",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "4367c3f5-128d-f1e2-a84e-2025da2acc82",
+  "work_order_id": "r1-225",
+  "stem": "You are the intern on the medical ward of a regional hospital with a small ICU-free medical ward and CT only in business hours. A 56-year-old woman was admitted yesterday after a witnessed first generalised tonic-clonic seizure; her CT head and bloods are normal and she has recovered fully. She drives the local school bus. When you explain that she must not drive for the present and will need neurology follow-up, she becomes distressed: in this town everyone knows everyone, her job is the family's only income, and she asks you to 'keep this between us'. She says she will keep driving the bus because 'nothing will happen'. She has decision-making capacity. Your consultant will do a phone ward round in an hour.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Respect her confidentiality completely, document the advice not to drive and leave the decision to her"
+   },
+   {
+    "id": "B",
+    "text": "Telephone her employer to inform them she has had a seizure and must not drive the bus"
+   },
+   {
+    "id": "C",
+    "text": "Ask the ward nurse, who knows the family, to persuade her relatives to take her keys"
+   },
+   {
+    "id": "D",
+    "text": "Tell her clearly that she must not drive, document the advice, and after discussing with your consultant notify the Registrar of Motor Vehicles as South Australian law requires for a driver you believe is unfit, informing her that you are doing so and disclosing nothing to her employer"
+   }
+  ],
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "confidentiality and privacy",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "2.1",
+   "1.2",
+   "2.4"
+  ]
+ }
+]

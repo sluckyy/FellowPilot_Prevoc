@@ -8,25 +8,25 @@
   "options": [
    {
     "id": "A",
-    "text": "Explain that he must remain until the intravenous course is finished and document that he was advised not to leave"
+    "text": "Explain that he must remain until the intravenous course is finished and document that he was advised not to leave tonight"
    },
    {
     "id": "B",
-    "text": "Acknowledge his obligation, review him for a switch to oral antibiotics, arrange follow-up with an Aboriginal health service in Port Augusta and confirm the plan with the physician"
+    "text": "Acknowledge his obligation, review for oral antibiotics and arrange Port Augusta follow-up agreed with the physician"
    },
    {
     "id": "C",
-    "text": "Ask him to sign the discharge against medical advice form so he can leave without further delay"
+    "text": "Ask him to sign the discharge against medical advice form so that he can leave tonight without further delay"
    },
    {
     "id": "D",
-    "text": "Suggest that his family travel to the hospital instead so he can grieve here while completing treatment"
+    "text": "Suggest that his family travel to the hospital instead, so that he can grieve here while completing his treatment"
    }
   ],
   "key": "B",
   "explanations": {
    "A": "Insisting he stay ignores a cultural obligation that is central to his wellbeing and his standing in his community. He has capacity and will leave regardless; the doctor's job is to make that departure as safe as possible, not to refuse to plan for it.",
-   "B": "Attending Sorry Business is a recognised cultural obligation, not an inconvenience. He is clinically improving and meets usual criteria for intravenous-to-oral switch, so a planned early discharge on oral antibiotics with a review arranged near where he will be, written instructions on return precautions and a brief phone call to the physician on call is the safest and most culturally responsive plan.",
+   "B": "Attending Sorry Business is a recognised cultural obligation, not an inconvenience. He is clinically improving and meets usual criteria for intravenous-to-oral switch, so a planned early discharge on oral antibiotics with a review arranged through an Aboriginal health service near where he will be, written instructions on return precautions and a brief phone call to the physician on call is the safest and most culturally responsive plan.",
    "C": "Treating this as discharge against medical advice frames a reasonable decision as non-compliance and often ends with no antibiotics, no follow-up and no handover. The form does not remove the duty to arrange safe ongoing care.",
    "D": "Asking the family to come to him misunderstands Sorry Business, which involves travelling to be with community for ceremony; it is not something that can be relocated to the ward."
   },
@@ -92,19 +92,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Book an outpatient dental review through the regional dental service"
+    "text": "Book an outpatient dental check-up for her through the regional public dental health service"
    },
    {
     "id": "B",
-    "text": "Request a follow-up chest X-ray in six weeks to confirm resolution of the pneumonia"
+    "text": "Request a follow-up chest X-ray in six weeks' time to confirm that her pneumonia has fully resolved"
    },
    {
     "id": "C",
-    "text": "Give the overdue benzathine benzylpenicillin injection today and notify the rheumatic heart disease register of the missed dose and her new contact details"
+    "text": "Give the overdue benzathine benzylpenicillin today and notify the rheumatic heart disease register"
    },
    {
     "id": "D",
-    "text": "Arrange her next echocardiogram for 12 months after the previous one"
+    "text": "Arrange her next surveillance echocardiogram for 12 months after her previous echocardiogram"
    }
   ],
   "key": "C",
@@ -184,11 +184,11 @@
    },
    {
     "id": "C",
-    "text": "Nephrotic syndrome from undiagnosed glomerulonephritis, requiring urgent transfer for renal biopsy"
+    "text": "Nephrotic syndrome from an undiagnosed glomerulonephritis, requiring urgent transfer to Adelaide for renal biopsy"
    },
    {
     "id": "D",
-    "text": "Chronic kidney disease, stage 3a with moderately increased albuminuria, most likely diabetic, so nephrotoxic drugs such as NSAIDs should be avoided and GP and renal follow-up arranged"
+    "text": "Chronic kidney disease stage 3a with moderately increased albuminuria, most likely from diabetic kidney disease"
    }
   ],
   "key": "D",
@@ -261,19 +261,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Her brief answers and limited eye contact may reflect communication norms and feeling unsafe on the ward, so her understanding and agreement cannot be assumed and should be checked in a more culturally safe way"
+    "text": "Her brief answers may reflect communication norms or feeling unsafe, so her understanding and agreement cannot be assumed"
    },
    {
     "id": "B",
-    "text": "Her responses show she understands the plan and consents to it, and documenting her agreement is appropriate"
+    "text": "Her responses show she understands the plan and consents to it, so documenting her agreement is appropriate"
    },
    {
     "id": "C",
-    "text": "Her presentation most likely indicates depression and a mental health assessment should be requested"
+    "text": "Her quiet presentation most likely indicates depression, and a mental health assessment should be requested"
    },
    {
     "id": "D",
-    "text": "Her lack of engagement suggests intoxication or withdrawal, which should be assessed before any further discussion"
+    "text": "Her lack of engagement suggests intoxication or withdrawal, which should be assessed before any further discussion with her"
    }
   ],
   "key": "A",
@@ -344,7 +344,7 @@
   "options": [
    {
     "id": "A",
-    "text": "He has little pain and the analgesia can be stepped down to paracetamol alone"
+    "text": "He is experiencing little pain, and his analgesia can now be stepped down to paracetamol alone"
    },
    {
     "id": "B",
@@ -352,11 +352,11 @@
    },
    {
     "id": "C",
-    "text": "His answer may understate his pain, so his pain should be assessed using function, behaviour and a scale he is comfortable with, and analgesia offered with a clear explanation of its purpose"
+    "text": "His answer may understate his pain, which should be assessed by function, behaviour and a suitable scale"
    },
    {
     "id": "D",
-    "text": "His nephew is influencing his answers and should be asked to leave during clinical assessments"
+    "text": "His nephew is influencing his answers and so should be asked to leave the room during clinical assessments"
    }
   ],
   "key": "C",
@@ -431,7 +431,7 @@
    },
    {
     "id": "B",
-    "text": "His right to care and the hospital's duty of care continue unchanged; he can return at any time, and the team should offer the safest treatment plan he can accept"
+    "text": "His right to care and the hospital's duty of care continue unchanged, and he can return to this hospital at any time"
    },
    {
     "id": "C",
@@ -594,7 +594,7 @@
   "options": [
    {
     "id": "A",
-    "text": "An adult relative under Aboriginal kinship rules who has a close and continuing relationship with him can act as the person responsible for consent"
+    "text": "A relative by Aboriginal kinship with a close and continuing relationship with him can be the person responsible"
    },
    {
     "id": "B",
@@ -678,19 +678,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Prescribe amlodipine on a hospital script and advise him to see a GP at some stage for review"
+    "text": "Prescribe amlodipine on a hospital script and advise him to see a GP at some point in the future for review"
    },
    {
     "id": "B",
-    "text": "Refer him to the hospital's cardiology outpatient clinic for assessment of hypertension"
+    "text": "Refer him to the hospital's cardiology outpatient clinic for a specialist assessment of his hypertension"
    },
    {
     "id": "C",
-    "text": "With the Aboriginal Liaison Officer, link him to an Aboriginal Community Controlled Health Service or GP for an Aboriginal and Torres Strait Islander health assessment and registration for the Closing the Gap PBS co-payment measure"
+    "text": "Link him to an Aboriginal health service or GP for a health assessment and Closing the Gap PBS registration"
    },
    {
     "id": "D",
-    "text": "Admit him under the medical team for investigation and control of his blood pressure"
+    "text": "Admit him under the general medical team for further investigation and control of his blood pressure"
    }
   ],
   "key": "C",
@@ -765,15 +765,15 @@
    },
    {
     "id": "B",
-    "text": "Arrange an accredited Pitjantjatjara interpreter by phone or video, and ask the Aboriginal Liaison Officer to support her during the discussion"
+    "text": "Book a Pitjantjatjara interpreter through the telephone or video interpreting service"
    },
    {
     "id": "C",
-    "text": "Ask the Aboriginal Liaison Officer to interpret the consent discussion"
+    "text": "Ask the Aboriginal Liaison Officer to interpret the consent discussion for her"
    },
    {
     "id": "D",
-    "text": "Ask a nurse who speaks some Pitjantjatjara to explain the procedure to her"
+    "text": "Ask a ward nurse who speaks some Pitjantjatjara to explain the procedure to her"
    }
   ],
   "key": "B",
@@ -844,7 +844,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Review her previous notes, offer analgesia consistent with her earlier visits and discharge her with advice to see the GP"
+    "text": "Review her previous notes, offer analgesia as on earlier visits and discharge her with advice to see the GP"
    },
    {
     "id": "B",
@@ -852,11 +852,11 @@
    },
    {
     "id": "C",
-    "text": "Request a urine drug screen before deciding whether analgesia is appropriate"
+    "text": "Request a urine drug screen before deciding whether analgesia is appropriate for her tonight"
    },
    {
     "id": "D",
-    "text": "Assess her now as a new presentation with a full history, examination and investigations, setting aside the labels in her notes"
+    "text": "Assess her now as a new presentation, with a full history, examination and relevant investigations"
    }
   ],
   "key": "D",
@@ -928,19 +928,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Ask the Aboriginal Liaison Officer to meet her now, help her contact her family and join the discussion about angiography, while you remain responsible for explaining the procedure and seeking her consent"
+    "text": "Ask the Aboriginal Liaison Officer to meet her now, help her contact family and join the angiography discussion"
    },
    {
     "id": "B",
-    "text": "Ask the Aboriginal Liaison Officer to obtain her consent for the angiogram so the cardiology team can proceed in the morning"
+    "text": "Ask the Aboriginal Liaison Officer to obtain her consent for the angiogram so cardiology can proceed in the morning"
    },
    {
     "id": "C",
-    "text": "Ask the Aboriginal Liaison Officer to convince her to stay in hospital until the procedure is done"
+    "text": "Ask the Aboriginal Liaison Officer to convince her to stay in hospital until the angiogram has been done"
    },
    {
     "id": "D",
-    "text": "Defer involving the Aboriginal Liaison Officer until the morning ward round so the cardiology registrar can brief them in person"
+    "text": "Defer involving the Aboriginal Liaison Officer until the morning ward round, when the registrar can brief them"
    }
   ],
   "key": "A",
@@ -1016,11 +1016,11 @@
    },
    {
     "id": "B",
-    "text": "Advise that pneumococcal vaccination is unlikely to benefit her now that she is over 75"
+    "text": "Advise that pneumococcal vaccination is unlikely to benefit her now that she is over 75 years of age"
    },
    {
     "id": "C",
-    "text": "Recommend she see her GP for pneumococcal vaccination and the two-dose recombinant zoster vaccine, both funded under the National Immunisation Program for her age"
+    "text": "Recommend she see her GP for funded pneumococcal and two-dose recombinant zoster vaccination"
    },
    {
     "id": "D",
@@ -1089,11 +1089,11 @@
   "options": [
    {
     "id": "A",
-    "text": "He has alcohol dependence and requires inpatient withdrawal management before surgery can be scheduled"
+    "text": "He has alcohol dependence and will require inpatient withdrawal management before his surgery can be scheduled"
    },
    {
     "id": "B",
-    "text": "He is drinking well above the Australian guideline levels at a risky level, which warrants a brief intervention now and a plan for withdrawal risk around surgery"
+    "text": "He is drinking at a risky level above Australian guidelines, warranting brief intervention and withdrawal planning"
    },
    {
     "id": "C",
@@ -1101,7 +1101,7 @@
    },
    {
     "id": "D",
-    "text": "His raised gamma-glutamyl transferase indicates established alcoholic liver disease requiring hepatology referral before surgery"
+    "text": "His raised gamma-glutamyl transferase indicates established alcoholic liver disease needing hepatology referral first"
    }
   ],
   "key": "B",
@@ -1174,11 +1174,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Renew the three prescriptions as requested and book a routine review in three months"
+    "text": "Renew the three prescriptions as she has requested today and book her a routine review in three months"
    },
    {
     "id": "B",
-    "text": "Arrange a repeat MRI of the lumbar spine to look for a new surgical cause of her pain"
+    "text": "Arrange a repeat MRI of her lumbar spine to look for a new, potentially surgical cause of her pain"
    },
    {
     "id": "C",
@@ -1186,7 +1186,7 @@
    },
    {
     "id": "D",
-    "text": "Address the sedation and falls from combined opioid, benzodiazepine and gabapentinoid use, checking the real-time prescription monitoring system and agreeing a supervised taper plan with the GP"
+    "text": "Address the sedation and falls from her opioid, benzodiazepine and gabapentinoid, planning a supervised taper"
    }
   ],
   "key": "D",
@@ -1258,19 +1258,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Discuss her pregnancy plans and agree a preconception plan with lifestyle-based weight management, folate, and glucose and blood pressure monitoring in partnership with her Aboriginal health service"
+    "text": "Discuss her pregnancy plans and agree preconception care alongside lifestyle weight management"
    },
    {
     "id": "B",
-    "text": "Start a glucagon-like peptide-1 receptor agonist for weight loss before she conceives"
+    "text": "Start a glucagon-like peptide-1 receptor agonist to achieve weight loss before she conceives"
    },
    {
     "id": "C",
-    "text": "Refer her for bariatric surgery assessment given her body mass index and metabolic risk"
+    "text": "Refer her for bariatric surgery assessment, given her body mass index and metabolic risk factors"
    },
    {
     "id": "D",
-    "text": "Advise her to postpone pregnancy until her body mass index is below 30"
+    "text": "Advise her to postpone pregnancy until she has reduced her body mass index to below 30"
    }
   ],
   "key": "A",
@@ -1345,15 +1345,15 @@
    },
    {
     "id": "B",
-    "text": "It indicates a meaningful chance of bowel cancer or advanced adenoma and he needs prompt GP referral for colonoscopy regardless of symptoms"
+    "text": "It indicates a meaningful chance of cancer or advanced adenoma, and he needs prompt colonoscopy referral"
    },
    {
     "id": "C",
-    "text": "It means he has bowel cancer and should be referred directly to a surgeon for staging"
+    "text": "It means he has bowel cancer and should be referred directly to a colorectal surgeon for staging"
    },
    {
     "id": "D",
-    "text": "The test is unreliable in people over 65 and should be repeated before any further action"
+    "text": "The test is unreliable in people over 65 years and should be repeated before any further action"
    }
   ],
   "key": "B",
@@ -1424,19 +1424,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Advise that because nicotine replacement has already failed, her best chance now is to stop without medication"
+    "text": "Advise that since nicotine replacement has already failed, her best chance is to stop without medication"
    },
    {
     "id": "B",
-    "text": "Recommend bupropion as first-line therapy because it will also help her depression"
+    "text": "Recommend bupropion as first-line therapy, because it will also help to treat her depression"
    },
    {
     "id": "C",
-    "text": "Recommend combination nicotine replacement therapy, a 21 mg patch plus a fast-acting form such as gum, lozenge or mouth spray for cravings, together with referral to Quitline"
+    "text": "Recommend a 21 mg patch plus a fast-acting nicotine product for cravings, with referral to Quitline"
    },
    {
     "id": "D",
-    "text": "Recommend she switch to a nicotine vaping product as the first-line approach"
+    "text": "Recommend that she switch to a nicotine vaping product as the first-line approach this time"
    }
   ],
   "key": "C",
@@ -1508,19 +1508,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Increase her furosemide dose and book a review in two weeks to reduce the chance of readmission"
+    "text": "Increase her furosemide dose and book a review in two weeks' time to reduce her chance of readmission"
    },
    {
     "id": "B",
-    "text": "Discharge her from the clinic for non-attendance and ask her GP to manage her heart failure"
+    "text": "Discharge her from the clinic for her non-attendance and ask her GP to take over managing her heart failure"
    },
    {
     "id": "C",
-    "text": "Refer her to psychiatry for assessment of non-adherence before changing her plan"
+    "text": "Refer her to psychiatry for an assessment of her non-adherence before making any changes to her treatment plan"
    },
    {
     "id": "D",
-    "text": "Refer her to the clinic social worker today, simplify her regimen into a once-daily dose administration aid, check her PBS Safety Net status and link her with the community heart failure nurse and a homelessness service"
+    "text": "Involve social work today, simplify her regimen in a dose administration aid and link her with community care"
    }
   ],
   "key": "D",
@@ -1592,15 +1592,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Her glycaemia is above target and she has persistent moderately increased albuminuria, so her glucose-lowering therapy needs intensifying and an ACE inhibitor or angiotensin receptor blocker should be considered"
+    "text": "Her glycaemia is above target and she has persistent moderately increased albuminuria, both needing action"
    },
    {
     "id": "B",
-    "text": "Her results are all at target and her current treatment should continue unchanged"
+    "text": "Her results are all at target and her current metformin treatment should simply continue unchanged"
    },
    {
     "id": "C",
-    "text": "An albumin-creatinine ratio of 4.2 mg/mmol is within the normal range for a woman, so only her HbA1c needs attention"
+    "text": "An albumin-creatinine ratio of 4.2 mg/mmol is normal for a woman, so only her HbA1c needs attention"
    },
    {
     "id": "D",
@@ -1768,11 +1768,11 @@
    },
    {
     "id": "C",
-    "text": "Tell him honestly that the scan has shown a serious abnormality that needs specialist explanation, ask what he would like to know now, contact the registrar tonight to arrange a proper discussion as soon as possible, and document the conversation"
+    "text": "Tell him the scan shows a serious abnormality, ask what he wants to know, and call the registrar tonight"
    },
    {
     "id": "D",
-    "text": "Tell him you have not seen the report and that results are only discussed on ward rounds"
+    "text": "Tell him that you have not seen the report and that results are only discussed on ward rounds"
    }
   ],
   "key": "C",
@@ -1844,11 +1844,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Tell her mother the working diagnosis, since she is the recorded next of kin and is asking in good faith"
+    "text": "Tell her mother the working diagnosis, as she is the recorded next of kin and asking in good faith"
    },
    {
     "id": "B",
-    "text": "Tell her mother that you cannot give any information at all and end the call"
+    "text": "Tell her mother that you are unable to give any information at all and then end the call"
    },
    {
     "id": "C",
@@ -1856,7 +1856,7 @@
    },
    {
     "id": "D",
-    "text": "Check with the patient what, if anything, she wants shared, then speak to her mother within those limits, for example that she is safe and being looked after, and document the conversation"
+    "text": "Ask the patient what, if anything, she wants shared, then speak to her mother within those limits"
    }
   ],
   "key": "D",
@@ -1928,7 +1928,7 @@
   "options": [
    {
     "id": "A",
-    "text": "The patient, and her husband if she wishes, should be told promptly what happened, given an apology or expression of regret, told what is being done and how recurrence will be prevented"
+    "text": "The patient, and her husband if she wishes, should promptly be told what happened and receive an apology"
    },
    {
     "id": "B",
@@ -1936,11 +1936,11 @@
    },
    {
     "id": "C",
-    "text": "Only the medical director or consultant may disclose the error, so the intern should say nothing until they are available"
+    "text": "Only the medical director or consultant may disclose the error, so the intern should say nothing yet"
    },
    {
     "id": "D",
-    "text": "The word \"sorry\" should be avoided because an apology is an admission of liability"
+    "text": "The word \"sorry\" should be avoided in the discussion, because an apology is an admission of liability"
    }
   ],
   "key": "A",
@@ -2012,19 +2012,19 @@
   "options": [
    {
     "id": "A",
-    "text": "It does not include the ward's direct telephone number for the GP to call"
+    "text": "It does not include the ward's direct telephone number for the GP to call with any later queries"
    },
    {
     "id": "B",
-    "text": "It omits the new diagnosis of atrial fibrillation, the newly started apixaban and metoprolol with their reasons, the pending blood culture result and the planned echocardiogram and physician review"
+    "text": "It omits the atrial fibrillation, its new medicines, the pending culture and planned reviews"
    },
    {
     "id": "C",
-    "text": "The hospital course is too brief and does not describe his daily progress"
+    "text": "The hospital course is too brief and does not describe his daily progress during the admission"
    },
    {
     "id": "D",
-    "text": "It does not list the investigations that returned normal results"
+    "text": "It does not list the investigations that returned normal results during his five-day admission"
    }
   ],
   "key": "B",

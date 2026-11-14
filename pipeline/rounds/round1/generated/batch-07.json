@@ -602,7 +602,7 @@
    },
    {
     "id": "D",
-    "text": "Clarify his perioperative wishes with him, tell the surgeon and anaesthetist, and document a Resuscitation Plan"
+    "text": "Clarify his theatre wishes, tell the surgeon and anaesthetist, and document a Resuscitation Plan"
    }
   ],
   "key": "D",
@@ -847,15 +847,15 @@
    },
    {
     "id": "B",
-    "text": "Ask the nurse in charge to call security to escort him back to bed and apply a restraint"
+    "text": "Ask the nurse in charge to call security to escort him back to bed and apply a physical restraint"
    },
    {
     "id": "C",
-    "text": "Page the registrar out of the emergency department to review him before any treatment or redirection is attempted"
+    "text": "Page the registrar from the emergency department to review him before any treatment or redirection"
    },
    {
     "id": "D",
-    "text": "De-escalate calmly with a familiar nurse, check for pain, retention and hypoxia, and have his daughter called"
+    "text": "De-escalate calmly with familiar staff, assess for reversible causes, and ask his daughter to come in"
    }
   ],
   "key": "D",
@@ -1439,19 +1439,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Insert an indwelling catheter and discuss with the registrar now to arrange urgent spinal imaging for suspected cauda equina syndrome"
+    "text": "Insert an indwelling catheter and contact the registrar now to arrange urgent spinal imaging tonight"
    },
    {
     "id": "B",
-    "text": "Insert an indwelling catheter, check renal function and electrolytes, and reassess her mobility and bladder function on the morning ward round"
+    "text": "Insert an indwelling catheter, check U&Es, and reassess mobility and bladder function in the morning"
    },
    {
     "id": "C",
-    "text": "Perform an in-out catheter, encourage oral fluids and repeat the bladder scan in four hours"
+    "text": "Perform an in-out catheterisation, encourage oral fluids and repeat the bladder scan in four hours' time"
    },
    {
     "id": "D",
-    "text": "Withhold oxycodone, give a stimulant laxative and repeat the bladder scan in four hours"
+    "text": "Withhold the oxycodone, give a stimulant laxative tonight and repeat the bladder scan in four hours"
    }
   ],
   "key": "A",
@@ -1867,7 +1867,7 @@
    },
    {
     "id": "B",
-    "text": "Arrange a CT brain tonight using the on-site scanner before it closes for the evening"
+    "text": "Arrange a non-contrast CT brain tonight using the on-site scanner before it closes for the evening"
    },
    {
     "id": "C",
@@ -1875,7 +1875,7 @@
    },
    {
     "id": "D",
-    "text": "Manage the fever source, observe until fully recovered, explain febrile seizures to her parents and discharge with GP follow-up"
+    "text": "Treat the fever source, observe until fully recovered, educate her parents and discharge with GP follow-up"
    }
   ],
   "key": "D",

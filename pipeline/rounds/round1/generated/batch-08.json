@@ -521,7 +521,7 @@
    },
    {
     "id": "D",
-    "text": "Listen, explain that you cannot assess her but will inform the treating doctor, give her the Care Navigator Service details and document the conversation"
+    "text": "Listen, explain that you cannot assess her but will tell her treating doctor, give her Care Navigator Service details and document the conversation"
    }
   ],
   "key": "D",
@@ -1610,15 +1610,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Both medicines, with the reaction, its type, the date and the source, signed and dated"
+    "text": "Both medicines, each with the reaction he describes, its type, date and source, and sign the entry"
    },
    {
     "id": "B",
-    "text": "Penicillin only, as an allergy, since vomiting with codeine is a predictable side effect rather than an adverse reaction"
+    "text": "Penicillin only, as an allergy, since codeine vomiting is a predictable side effect, not an adverse reaction"
    },
    {
     "id": "C",
-    "text": "'Penicillin: anaphylaxis' so that all staff treat the allergy as the most serious possibility during his admission"
+    "text": "'Penicillin: anaphylaxis' so that staff treat the allergy as the most serious possibility during admission"
    },
    {
     "id": "D",

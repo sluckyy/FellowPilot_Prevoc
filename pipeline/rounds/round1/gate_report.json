@@ -1,0 +1,38 @@
+{
+  "items": 250,
+  "status": {
+    "to_review": 247,
+    "regenerate": 3
+  },
+  "retried": [],
+  "hard_fail_reasons": {
+    "critic": 1,
+    "single-best": 2
+  },
+  "hard_fails": {
+    "r1-003": [
+      "critic: overall fail - Key contains a staging error (ACR 42 mg/mmol = A3 severely increased, not moderately increased). Easy fix, but as written the 'most accurate interpretation' is inaccurate. Also note HbA1c 8.9 % with no retinopathy data makes 'most likely diabetic' reasonable but not certain."
+    ],
+    "r1-071": [
+      "single-best: C defensible - Clinicians and resources still quoting the 2016 standard will answer 48 hours. If the item was keyed to 48 hours it is outdated; if keyed to 36 hours, the explanation must state the 2023 revision explicitly."
+    ],
+    "r1-128": [
+      "single-best: B defensible - Under NEXUS II 'scalp haematoma' is itself a CT criterion, so a candidate using that rule could argue B. More importantly, under the Canadian CT Head Rule and NICE this patient (no LOC, no amnesia, GCS 15) does not strictly meet any CT criterion, so the premise of the lead-in ('indicates that a CT head is required') depends on which rule is applied."
+    ]
+  },
+  "soft_flags": {
+    "cueing": 36,
+    "cueing (critic)": 62,
+    "weak distractor(s)": 208,
+    "clarity": 5
+  },
+  "blind_disagreements": 0,
+  "key_positions": {
+    "B": 66,
+    "C": 61,
+    "D": 63,
+    "A": 60
+  },
+  "uncertainty_major": [],
+  "missing_work_orders": []
+}

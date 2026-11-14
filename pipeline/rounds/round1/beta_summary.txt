@@ -1,0 +1,6 @@
+{"beta":242,"held":5}
+r1-012  held  Automated check: accuracy concern: Option A states the ED resident 'remain[s] responsible for explaining the procedure and seeking her consent' for coronary angiography. Under S
+r1-087  held  Automated check: level fit: Giving hypertonic saline is the correct action, but an intern alone would normally do so after a brief phone discussion with the physician or retriev
+r1-098  held  Automated check: accuracy concern: The stem reports 'PaCO2' on a venous gas; this should read PvCO2 or pCO2. Otherwise consistent with eTG acute heart failure management.
+r1-174  held  Automated check: accuracy concern: A BGL of exactly 2.6 mmol/L sits on the RCH treatment threshold (hypoglycaemia defined as less than 2.6), so the stem value is ambiguous; a va
+r1-184  held  Automated check: accuracy concern: 'The standard oral to subcutaneous conversion' is not a single standard in Australia: AMH and the eTG equianalgesic table use 3:1 for morphine

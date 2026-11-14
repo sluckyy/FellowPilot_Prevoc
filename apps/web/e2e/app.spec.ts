@@ -3,7 +3,7 @@ import { test, expect, type Page, type APIRequestContext, type Browser, type Bro
 import pg from 'pg';
 
 // Runs against the built app with E2E=1 (emails are captured instead of sent) and a database
-// loaded with 12 round 1 questions. Tests run in order and share state.
+// loaded with the round 1 bank. Tests run in order and share state.
 const ADMIN = process.env.ADMIN_EMAIL ?? 'admin@example.org';
 const TRAINEE = 'trainee@example.org';
 const SHOTS = 'e2e/screenshots';
@@ -67,7 +67,9 @@ test.describe.serial('Web app', () => {
   test('health check reports the database and questions', async ({ request }) => {
     const r = await request.get('/api/health');
     expect(r.status()).toBe(200);
-    expect(await r.json()).toMatchObject({ ok: true, db: true, items: 12 });
+    const h = await r.json();
+    expect(h).toMatchObject({ ok: true, db: true });
+    expect(h.items).toBeGreaterThanOrEqual(12);   // the round 1 bank (migration 008) plus the 12-item fixture
   });
 
   test('signed-out visitors are sent to sign in, and APIs refuse them', async ({ page, request }) => {
@@ -648,7 +650,7 @@ test.describe.serial('Web app', () => {
     await page.getByLabel('Your question').fill('And in a city hospital?');
     await page.getByRole('button', { name: 'Ask', exact: true }).click();
     await expect(page.getByText(/You asked: "And in a city hospital\?"/)).toBeVisible();
-    await page.getByRole('button', { name: 'Yes' }).first().click();
+    await page.getByRole('button', { name: 'Yes', exact: true }).first().click();
     await expect(page.getByText('Thanks for the feedback.')).toBeVisible();
     await page.screenshot({ path: `${SHOTS}/13-tutor.png`, fullPage: true });
 

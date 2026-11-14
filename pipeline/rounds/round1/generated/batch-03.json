@@ -437,15 +437,15 @@
    },
    {
     "id": "B",
-    "text": "Five consecutive days of 10-hour shifts"
+    "text": "Five consecutive days of 10-hour rostered shifts"
    },
    {
     "id": "C",
-    "text": "A single continuous period of duty longer than 14 hours"
+    "text": "A continuous period of duty longer than 14 hours"
    },
    {
     "id": "D",
-    "text": "A total of 50 hours worked in one week"
+    "text": "A total of 50 hours worked within a single week"
    }
   ],
   "key": "C",
@@ -601,7 +601,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Go to the gynaecology ward and assess the woman the nurse is worried about"
+    "text": "Review the woman whom the nurse is worried about"
    },
    {
     "id": "B",
@@ -686,11 +686,11 @@
   "options": [
    {
     "id": "A",
-    "text": "A normal busy day on a medical ward that should be managed by working faster"
+    "text": "A normal busy day on a medical ward that is best managed by working faster through the list"
    },
    {
     "id": "B",
-    "text": "An unsafe workload with early signs of error that requires immediate escalation to the registrar or consultant"
+    "text": "An unsafe workload with early signs of error, needing urgent escalation to a senior doctor"
    },
    {
     "id": "C",
@@ -698,7 +698,7 @@
    },
    {
     "id": "D",
-    "text": "A sign that you lack the knowledge to prescribe safely and should stop prescribing until retrained"
+    "text": "A knowledge gap in safe prescribing, so you should stop prescribing until retrained"
    }
   ],
   "key": "B",
@@ -784,7 +784,7 @@
    },
    {
     "id": "C",
-    "text": "The woman with new confusion, tachypnoea and hypotension after hip surgery"
+    "text": "The 78-year-old woman on day 2 after hip fracture repair"
    },
    {
     "id": "D",
@@ -1121,11 +1121,11 @@
    },
    {
     "id": "C",
-    "text": "Probable vertebral osteomyelitis or spinal epidural abscess, requiring urgent MRI and blood cultures despite the normal X-ray and neurology"
+    "text": "Probable vertebral osteomyelitis or epidural abscess, needing urgent MRI and blood cultures"
    },
    {
     "id": "D",
-    "text": "Thoracic pain of cardiac origin that should be investigated with troponin and ECG before any spinal imaging"
+    "text": "Thoracic pain of cardiac origin, to be investigated with troponin and ECG before spinal imaging"
    }
   ],
   "key": "C",
@@ -1281,7 +1281,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Call the ED consultant and anaesthetist now for airway assessment and early intubation"
+    "text": "Call the ED consultant and anaesthetist to secure the airway early"
    },
    {
     "id": "B",
@@ -1289,7 +1289,7 @@
    },
    {
     "id": "C",
-    "text": "Calculate fluid requirements and start the resuscitation infusion"
+    "text": "Calculate the fluid requirements and start the resuscitation infusion"
    },
    {
     "id": "D",
@@ -1368,11 +1368,11 @@
    },
    {
     "id": "B",
-    "text": "Give insulin 10 units as an intravenous bolus, then start the infusion"
+    "text": "Give insulin 10 units as an intravenous bolus, then start the protocol insulin infusion"
    },
    {
     "id": "C",
-    "text": "Withhold insulin, start intravenous potassium replacement and recheck the potassium before starting the infusion"
+    "text": "Withhold insulin, replace potassium intravenously and recheck before starting the infusion"
    },
    {
     "id": "D",
@@ -1447,19 +1447,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Add the 10% glucose infusion so that the insulin infusion can continue at the current rate"
+    "text": "Add 10% glucose so that the insulin infusion can continue at its current rate"
    },
    {
     "id": "B",
-    "text": "Phone the medical registrar to arrange the admission"
+    "text": "Phone the medical registrar to refer him for admission, as the consultant asked"
    },
    {
     "id": "C",
-    "text": "Chart oral fluids so that he can have a drink"
+    "text": "Chart oral fluids so that he can have the drink of water he is asking for"
    },
    {
     "id": "D",
-    "text": "Increase potassium replacement and discuss reducing or pausing the insulin infusion with a senior doctor"
+    "text": "Increase potassium replacement; ask a senior about reducing or pausing insulin"
    }
   ],
   "key": "D",
@@ -1619,15 +1619,15 @@
    },
    {
     "id": "B",
-    "text": "Pallor and coolness of the foot"
+    "text": "Pallor and coolness of the injured foot"
    },
    {
     "id": "C",
-    "text": "Paralysis of the toes and ankle"
+    "text": "Paralysis of toe and ankle movement"
    },
    {
     "id": "D",
-    "text": "Pain on passive stretch of the compartment muscles"
+    "text": "Pain on passive stretch of the muscles"
    }
   ],
   "key": "D",
@@ -1867,19 +1867,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Measure the serum paracetamol concentration at 4 hours after ingestion and treat according to the nomogram"
+    "text": "Measure a 4-hour paracetamol level and treat by the nomogram"
    },
    {
     "id": "B",
-    "text": "Give activated charcoal 50 g orally now"
+    "text": "Give a single 50 g dose of activated charcoal by mouth now"
    },
    {
     "id": "C",
-    "text": "Start intravenous acetylcysteine immediately without waiting for a concentration"
+    "text": "Start intravenous acetylcysteine now without waiting for a level"
    },
    {
     "id": "D",
-    "text": "Observe overnight and check liver function tests at 24 hours"
+    "text": "Observe her overnight and check liver function tests at 24 hours"
    }
   ],
   "key": "A",

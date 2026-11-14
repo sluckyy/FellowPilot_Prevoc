@@ -767,7 +767,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Start intravenous flucloxacillin 2 g 6-hourly for cellulitis, admit him to the ward and hand over to the GP for review in the morning"
+    "text": "Start intravenous flucloxacillin 2 g 6-hourly for cellulitis, admit him to the ward and hand over to the GP in the morning"
    },
    {
     "id": "B",
@@ -779,7 +779,7 @@
    },
    {
     "id": "D",
-    "text": "Start intravenous fluids and broad-spectrum antibiotics for necrotising infection and call the GP on call and MedSTAR now"
+    "text": "Start intravenous fluids and broad-spectrum antibiotics now, and call both the GP on call and MedSTAR for retrieval"
    }
   ],
   "key": "D",
@@ -861,15 +861,15 @@
    },
    {
     "id": "B",
-    "text": "Airborne precautions in a single room with the door closed, fit-checked P2/N95 respirators and measles-immune staff only"
+    "text": "Airborne precautions in a closed single room, with fit-checked P2/N95 respirators and immune staff only"
    },
    {
     "id": "C",
-    "text": "Droplet precautions with a surgical mask for staff within 1 metre and a surgical mask for the patient"
+    "text": "Droplet precautions with a surgical mask for staff within 1 metre of her and a surgical mask for the patient"
    },
    {
     "id": "D",
-    "text": "Contact precautions with gown and gloves, dedicated patient equipment and a single room"
+    "text": "Contact precautions with a gown and gloves for staff, dedicated patient equipment and a single room"
    }
   ],
   "key": "B",
@@ -1715,19 +1715,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Send a D-dimer now and escalate to the GP on call only if the result comes back raised"
+    "text": "Send a D-dimer tonight rather than with the morning bloods, and escalate to the GP on call only if it comes back raised"
    },
    {
     "id": "B",
-    "text": "Assess him now with an ECG and observations, treat as high pretest probability, and discuss anticoagulation and transfer for CT with the GP on call"
+    "text": "Assess him now with an ECG, treat as high pretest probability, and discuss anticoagulation and CT transfer with the GP"
    },
    {
     "id": "C",
-    "text": "Prescribe oral analgesia for probable musculoskeletal chest pain and review him on the morning surgical round"
+    "text": "Prescribe oral analgesia for probable musculoskeletal chest wall pain and review him on the morning surgical ward round"
    },
    {
     "id": "D",
-    "text": "Request a chest X-ray and defer any decision about escalation until the film has been reported by the radiologist"
+    "text": "Request a chest X-ray now and defer any decision about escalation until the film has been reported by the radiologist"
    }
   ],
   "key": "B",

@@ -12,7 +12,7 @@
    },
    {
     "id": "B",
-    "text": "Keep her nil by mouth, start intravenous fluids, analgesia and antibiotics, and phone the tertiary surgical registrar and retrieval service now"
+    "text": "Fast her, give intravenous fluids, analgesia and antibiotics, and call the surgical registrar and retrieval"
    },
    {
     "id": "C",
@@ -350,7 +350,7 @@
    },
    {
     "id": "B",
-    "text": "Take blood cultures from the PICC line and peripherally, then start intravenous piperacillin+tazobactam within the hour"
+    "text": "Take line and peripheral cultures, then start intravenous piperacillin+tazobactam within the hour"
    },
    {
     "id": "C",
@@ -600,11 +600,11 @@
    },
    {
     "id": "B",
-    "text": "Phone the Adelaide cardiology registrar to arrange urgent transfer for coronary angiography"
+    "text": "Phone the Adelaide cardiology registrar to arrange his urgent transfer for a coronary angiogram"
    },
    {
     "id": "C",
-    "text": "Continue treating the exacerbation, repeat the ECG if he develops symptoms, and discuss the result with the physician on the ward round"
+    "text": "Treat the exacerbation, repeat the ECG if symptoms occur, and discuss it on the physician's ward round"
    },
    {
     "id": "D",
@@ -680,7 +680,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Document the pain as musculoskeletal and arrange no further tests"
+    "text": "Document the pain as musculoskeletal and arrange no further testing"
    },
    {
     "id": "B",
@@ -692,7 +692,7 @@
    },
    {
     "id": "D",
-    "text": "Repeat the troponin and ECG at least 2 to 3 hours after the first sample and reassess her"
+    "text": "Repeat troponin and ECG at least 2 to 3 hours after the first sample"
    }
   ],
   "key": "D",
@@ -764,15 +764,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Chart trimethoprim 300 mg orally at night for 3 days"
+    "text": "Chart trimethoprim 300 mg orally at night for 3 days from tonight"
    },
    {
     "id": "B",
-    "text": "Withhold antibiotics, document that she is asymptomatic, and reassess if symptoms or fever develop"
+    "text": "Withhold antibiotics, note she is asymptomatic, review if that changes"
    },
    {
     "id": "C",
-    "text": "Chart cefalexin 500 mg orally 6-hourly until the culture result is available"
+    "text": "Chart cefalexin 500 mg orally 6-hourly until the culture result is back"
    },
    {
     "id": "D",
@@ -944,15 +944,15 @@
    },
    {
     "id": "B",
-    "text": "Ask the nurses to lock him in his room until he is calmer"
+    "text": "Ask the two nurses to lock him in his room until he has calmed down"
    },
    {
     "id": "C",
-    "text": "Talk with him calmly in a quiet area, address his pain and offer oral sedation, while asking the on-call doctor to attend"
+    "text": "Talk calmly in a quiet area, treat pain, offer oral sedation, call the GP"
    },
    {
     "id": "D",
-    "text": "Phone the police and ask them to remove him from the hospital"
+    "text": "Phone the police and ask them to remove him from the hospital tonight"
    }
   ],
   "key": "C",
@@ -1025,19 +1025,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Ask the nurse to give the next regimen dose of diazepam and call you back in an hour if he is no better"
+    "text": "Ask the nurse to give the next diazepam dose and call back in an hour if no better"
    },
    {
     "id": "B",
-    "text": "Finish the cannula quickly, review him immediately, give diazepam according to his score and phone the on-call GP"
+    "text": "Finish the cannula, see him now, give diazepam by his score and phone the on-call GP"
    },
    {
     "id": "C",
-    "text": "Arrange a CT head in the morning to exclude an intracranial cause of his confusion before giving more sedation"
+    "text": "Arrange a CT head in the morning to exclude an intracranial cause before more sedation"
    },
    {
     "id": "D",
-    "text": "Prescribe haloperidol 5 mg intramuscularly for the hallucinations"
+    "text": "Prescribe haloperidol 5 mg intramuscularly to treat his visual hallucinations"
    }
   ],
   "key": "B",
@@ -1194,19 +1194,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Explore his fears and explain the risks and benefits again, offer to involve his family and the Aboriginal Liaison Officer, and respect his decision if he retains capacity"
+    "text": "Explore his fears, re-explain risks and benefits, offer family and Aboriginal Liaison Officer input, respect his choice"
    },
    {
     "id": "B",
-    "text": "Give the tenecteplase now because this is a life-threatening emergency and a patient refusing life-saving treatment cannot have capacity"
+    "text": "Give the tenecteplase now because this is a life-threatening emergency and a patient refusing it cannot have capacity"
    },
    {
     "id": "C",
-    "text": "Detain him under the Mental Health Act 2009 so that treatment for his heart attack can be given without consent"
+    "text": "Detain him under the Mental Health Act 2009 so that treatment for his heart attack can be given without his consent"
    },
    {
     "id": "D",
-    "text": "Ask him to sign a discharge against medical advice form and let him leave so the department is not held responsible"
+    "text": "Ask him to sign a discharge against medical advice form and let him leave so that the department is not held responsible"
    }
   ],
   "key": "A",
@@ -1284,19 +1284,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Phone the mental health triage service for assessment of a first psychotic episode"
+    "text": "Phone the mental health triage service for urgent assessment of a first psychotic episode"
    },
    {
     "id": "B",
-    "text": "Give olanzapine 10 mg orally and reassess her in the morning on the ward round"
+    "text": "Give olanzapine 10 mg orally to settle her and reassess her in the morning on the ward round"
    },
    {
     "id": "C",
-    "text": "Assess her at the bedside now as delirium from worsening sepsis, escalate under the Rapid Detection and Response criteria and phone the physician"
+    "text": "Assess her now as septic delirium, escalate per Rapid Detection and Response, phone the physician"
    },
    {
     "id": "D",
-    "text": "Arrange detention under the Mental Health Act 2009 so she can be transferred to an inpatient psychiatric unit"
+    "text": "Arrange detention under the Mental Health Act 2009 so she can be transferred to a psychiatric unit"
    }
   ],
   "key": "C",
@@ -1463,15 +1463,15 @@
    },
    {
     "id": "B",
-    "text": "Give olanzapine 10 mg intramuscularly so that she cannot leave the ward"
+    "text": "Give olanzapine 10 mg intramuscularly now so that she is unable to leave the ward"
    },
    {
     "id": "C",
-    "text": "Phone the police and ask them to take her into custody"
+    "text": "Phone the local police and ask them to come to the ward and take her into custody"
    },
    {
     "id": "D",
-    "text": "Keep her on the ward under close nursing observation while you phone the on-call doctor and the mental health triage line about an inpatient treatment order"
+    "text": "Keep her on the ward under close watch and phone the on-call doctor and mental health triage"
    }
   ],
   "key": "D",
@@ -1544,7 +1544,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Examination by a psychiatrist or authorised medical practitioner by video before 15:00 tomorrow to confirm or revoke the order"
+    "text": "Video examination by a psychiatrist or authorised medical practitioner before 15:00 tomorrow"
    },
    {
     "id": "B",
@@ -1556,7 +1556,7 @@
    },
    {
     "id": "D",
-    "text": "Writing to his general practitioner to arrange follow-up after discharge"
+    "text": "Writing a letter to his general practitioner to arrange follow-up after his discharge"
    }
   ],
   "key": "A",
@@ -1637,7 +1637,7 @@
    },
    {
     "id": "C",
-    "text": "Admit her today for monitored refeeding, electrolyte replacement and thiamine, after discussing with the physician"
+    "text": "Admit her today for monitored refeeding, electrolyte replacement and thiamine"
    },
    {
     "id": "D",
@@ -1894,7 +1894,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Her previous suicide attempt"
+    "text": "Her past suicide attempt"
    },
    {
     "id": "B",
@@ -1902,7 +1902,7 @@
    },
    {
     "id": "C",
-    "text": "Being female"
+    "text": "Being a female patient"
    },
    {
     "id": "D",

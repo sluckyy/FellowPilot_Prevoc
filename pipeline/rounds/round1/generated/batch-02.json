@@ -268,11 +268,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Explain the benefits, risks and alternatives to her in plain language with her daughter present as she requested, confirm her decision and document the consent"
+    "text": "Explain benefits, risks and alternatives plainly with her daughter present, and confirm and document her decision"
    },
    {
     "id": "B",
-    "text": "Ask her daughter to sign the consent form on her behalf because she is unwell and a family member is present"
+    "text": "Ask her daughter to sign the consent form on her behalf, because she is unwell and a family member is present"
    },
    {
     "id": "C",
@@ -280,7 +280,7 @@
    },
    {
     "id": "D",
-    "text": "Decline to take consent because only the treating consultant may consent a patient for a blood product"
+    "text": "Decline to take consent, because only the treating consultant may obtain a patient's consent for a blood product"
    }
   ],
   "key": "A",
@@ -358,19 +358,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Look up population complication rates online and answer his questions yourself so the form can be signed tonight"
+    "text": "Look up population complication rates online and answer his questions yourself, so the form can be signed tonight"
    },
    {
     "id": "B",
-    "text": "Ask him to sign the form now and note that the surgeon will answer his remaining questions before theatre"
+    "text": "Ask him to sign the form now, and note on it that the surgeon will answer his remaining questions before theatre"
    },
    {
     "id": "C",
-    "text": "Reassure him that hernia repair is routine and that serious problems are very rare, and complete the form"
+    "text": "Reassure him that hernia repair is a routine operation and that serious problems are very rare, then complete the form"
    },
    {
     "id": "D",
-    "text": "Explain that his questions need a surgeon's answer, tell the registrar, and arrange for the registrar or consultant to complete the consent discussion before surgery"
+    "text": "Say a surgeon must answer his questions, tell the registrar, and have a surgeon complete consent before theatre"
    }
   ],
   "key": "D",
@@ -452,7 +452,7 @@
    },
    {
     "id": "B",
-    "text": "'This is the intern at the hospital. I'm calling about a 32-year-old woman in bed 6 with pyelonephritis who has septic shock: blood pressure 86 systolic despite one litre of fluid and lactate 4.1. I need you to come in now.'"
+    "text": "'It's the intern on the ward. Bed 6, a 32-year-old with pyelonephritis, is in septic shock: systolic 86 after a litre of fluid, lactate 4.1. I need you to come in now.'"
    },
    {
     "id": "C",
@@ -538,19 +538,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Reassure her that apixaban is much safer than warfarin and that bleeding is very unlikely, and chart it as the team has asked"
+    "text": "Reassure her that apixaban is much safer than warfarin and that bleeding is very unlikely, and then chart it as the team has asked you to"
    },
    {
     "id": "B",
-    "text": "Document that she has declined anticoagulation, inform the registrar after theatre and leave the decision with the team"
+    "text": "Document that she has declined anticoagulation, inform the registrar once out of theatre and leave the decision to the treating surgical team"
    },
    {
     "id": "C",
-    "text": "Explore what worries her, explain the stroke and bleeding risks in plain numbers, offer written information and arrange a conversation with the consultant or cardiology before she decides"
+    "text": "Explore her fears, give stroke and bleeding risks in numbers and in writing, and involve the consultant or cardiology before she decides"
    },
    {
     "id": "D",
-    "text": "Give her the apixaban consumer medicine information leaflet and ask her to let the nurses know her decision before discharge"
+    "text": "Give her the apixaban consumer medicine information leaflet and ask her to tell the nursing staff her decision before she is discharged home"
    }
   ],
   "key": "C",
@@ -629,11 +629,11 @@
   "options": [
    {
     "id": "A",
-    "text": "The interpreter is summarising and adding opinion rather than interpreting everything in the first person, and needs to be redirected to their role"
+    "text": "The interpreter is summarising and adding opinion rather than interpreting in full in the first person, and should be redirected"
    },
    {
     "id": "B",
-    "text": "The patient lacks the capacity to give a history tonight and a collateral history from her husband should be obtained"
+    "text": "The patient lacks the capacity to give a history tonight, and a collateral history should be obtained from her husband instead"
    },
    {
     "id": "C",
@@ -894,19 +894,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Deliver an unsynchronised 200 J shock and resume compressions"
+    "text": "Deliver an unsynchronised 200 J defibrillation shock and then resume chest compressions immediately"
    },
    {
     "id": "B",
-    "text": "Give amiodarone 300 mg intravenously and resume compressions"
+    "text": "Give amiodarone 300 mg as an intravenous bolus and then resume chest compressions immediately"
    },
    {
     "id": "C",
-    "text": "Give adrenaline 1 mg intravenously, resume compressions and start rapid intravenous fluid and emergency O-negative blood for suspected haemorrhage"
+    "text": "Give adrenaline 1 mg intravenously, resume compressions and start rapid fluid and O-negative blood"
    },
    {
     "id": "D",
-    "text": "Give atropine 3 mg intravenously for the bradycardia and resume compressions"
+    "text": "Give atropine 3 mg intravenously for the bradycardia and then resume chest compressions immediately"
    }
   ],
   "key": "C",
@@ -1068,15 +1068,15 @@
    },
    {
     "id": "B",
-    "text": "A compensated metabolic acidosis consistent with early sepsis from the cellulitis"
+    "text": "A compensated metabolic acidosis, consistent with early sepsis arising from the cellulitis of her left leg"
    },
    {
     "id": "C",
-    "text": "A normal blood gas for a young woman who is tachypnoeic and in pain"
+    "text": "An arterial blood gas within the normal reference range for a young woman who is tachypnoeic and in pain"
    },
    {
     "id": "D",
-    "text": "Respiratory alkalosis with hypoxaemia and a widened alveolar-arterial gradient, which makes pulmonary embolism the leading diagnosis to exclude"
+    "text": "Respiratory alkalosis with hypoxaemia and a widened alveolar-arterial gradient, pointing to pulmonary embolism"
    }
   ],
   "key": "D",
@@ -1148,19 +1148,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Give paracetamol, repeat observations in one hour and phone the physician if she is not improving"
+    "text": "Give paracetamol, repeat the observations in one hour and phone the physician if she is not improving by that time"
    },
    {
     "id": "B",
-    "text": "Take paired blood cultures from the PICC and a peripheral vein, give empirical intravenous antibiotics for suspected line sepsis within the hour and phone the physician"
+    "text": "Take paired PICC and peripheral cultures, give empirical intravenous antibiotics within an hour and call the physician"
    },
    {
     "id": "C",
-    "text": "Remove the PICC immediately and send the tip for culture before any other action"
+    "text": "Remove the PICC line straight away and send the catheter tip off for culture before you take any other action"
    },
    {
     "id": "D",
-    "text": "Continue flucloxacillin alone and wait for the results of a single peripheral blood culture before changing therapy"
+    "text": "Continue flucloxacillin alone and wait for the result of a single peripheral blood culture before changing her antibiotics"
    }
   ],
   "key": "B",
@@ -1233,19 +1233,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Give an intravenous crystalloid bolus and empirical intravenous antibiotics now, and phone the on-call doctor and the retrieval service"
+    "text": "Give a crystalloid bolus and intravenous antibiotics now, and phone the on-call doctor and the retrieval service"
    },
    {
     "id": "B",
-    "text": "Give oral antibiotics and encourage fluids, keeping his daughter at the bedside, and review him at 0600"
+    "text": "Give oral antibiotics and encourage oral fluids, keeping his daughter at the bedside, and review him again at 0600"
    },
    {
     "id": "C",
-    "text": "Withhold antibiotics until the urine culture result identifies the organism, because of his renal impairment"
+    "text": "Withhold antibiotics until the urine culture result identifies the organism, because of his chronic kidney disease"
    },
    {
     "id": "D",
-    "text": "Arrange road ambulance transfer to the tertiary hospital now and start treatment on arrival there"
+    "text": "Arrange road ambulance transfer to the tertiary hospital now, and start his treatment once he arrives there"
    }
   ],
   "key": "A",
@@ -1323,19 +1323,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Admit for hourly neurological observations overnight and arrange a CT head when the radiographer arrives at 0800"
+    "text": "Admit him for hourly neurological observations overnight and arrange a CT head when the radiographer arrives at 0800"
    },
    {
     "id": "B",
-    "text": "Discharge home with his wife and written head injury advice, since his GCS is 15 and he has no focal deficit"
+    "text": "Discharge him home with his wife and written head injury advice, since his GCS is 15 and he has no focal deficit"
    },
    {
     "id": "C",
-    "text": "Phone the on-call doctor and arrange urgent transfer tonight to a hospital with CT, with neurological observations in the interim"
+    "text": "Phone the on-call doctor, arrange transfer tonight to a hospital with CT, and continue neurological observations"
    },
    {
     "id": "D",
-    "text": "Give prothrombin complex concentrate now to reverse the apixaban, then observe overnight"
+    "text": "Give prothrombin complex concentrate now to reverse the apixaban, then observe him closely on the ward overnight"
    }
   ],
   "key": "C",
@@ -1777,15 +1777,15 @@
    },
    {
     "id": "B",
-    "text": "A compensated respiratory alkalosis indicating that the bronchospasm is improving"
+    "text": "A compensated respiratory alkalosis, indicating that her bronchospasm is now improving with treatment"
    },
    {
     "id": "C",
-    "text": "Type 1 respiratory failure only, which is managed by increasing the oxygen flow rate"
+    "text": "Type 1 respiratory failure only, which is managed by increasing the flow rate of supplemental oxygen"
    },
    {
     "id": "D",
-    "text": "A normal carbon dioxide level in a patient working this hard indicates fatigue and impending respiratory failure, and requires immediate escalation"
+    "text": "A normal PaCO2 despite this work of breathing, indicating fatigue and impending respiratory failure"
    }
   ],
   "key": "D",
@@ -1857,15 +1857,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Prescribe furosemide 40 mg intravenously and reassess urine output in an hour"
+    "text": "Prescribe furosemide 40 mg intravenously now and then reassess his urine output in an hour"
    },
    {
     "id": "B",
-    "text": "Examine him, confirm the catheter is draining freely, and give a 500 mL crystalloid bolus with reassessment of urine output and observations"
+    "text": "Examine him, check the catheter drains freely, and give a 500 mL crystalloid bolus, then reassess"
    },
    {
     "id": "C",
-    "text": "Arrange an urgent renal tract ultrasound to exclude obstruction before giving any fluid"
+    "text": "Arrange an urgent renal tract ultrasound first, to exclude obstruction before giving him any fluid"
    },
    {
     "id": "D",
@@ -1948,15 +1948,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Obtain a 12-lead ECG, withhold ramipril and metformin, and phone the registrar now about hyperkalaemia with oliguric acute kidney injury"
+    "text": "Obtain a 12-lead ECG now, withhold her ramipril and metformin, and phone the registrar immediately"
    },
    {
     "id": "B",
-    "text": "Give a 500 mL intravenous crystalloid bolus for the oliguria and recheck urine output in an hour"
+    "text": "Give a 500 mL intravenous crystalloid bolus for the oliguria and recheck her urine output in an hour"
    },
    {
     "id": "C",
-    "text": "Give furosemide 40 mg intravenously and recheck the potassium in the morning"
+    "text": "Give furosemide 40 mg intravenously now and then recheck her potassium level in the morning"
    },
    {
     "id": "D",
@@ -2125,15 +2125,15 @@
    },
    {
     "id": "B",
-    "text": "Chart paracetamol by phone for the fever and review him on the evening ward round with the registrar"
+    "text": "Chart paracetamol by phone for the fever and review him later on the evening ward round with the registrar"
    },
    {
     "id": "C",
-    "text": "Ask the nurse to phone the registrar in theatre, since the patient is surgical and the registrar should decide"
+    "text": "Ask the nurse to phone the registrar in theatre instead, since the patient is surgical and the registrar should decide"
    },
    {
     "id": "D",
-    "text": "Attend within 30 minutes, perform a structured assessment of the leg and for sepsis and venous thromboembolism, document a plan, and escalate to the registrar or a MET call if criteria persist or worsen"
+    "text": "Attend within 30 minutes, assess the leg and for sepsis or VTE, document a plan and escalate if criteria persist"
    }
   ],
   "key": "D",

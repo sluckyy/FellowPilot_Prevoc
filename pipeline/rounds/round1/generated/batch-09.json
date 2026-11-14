@@ -92,11 +92,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Give intravenous vitamin K and Prothrombinex-VF now, start fluid resuscitation through a second large-bore cannula and call the retrieval service"
+    "text": "Give intravenous vitamin K and Prothrombinex-VF, resuscitate through a second large-bore cannula and call retrieval"
    },
    {
     "id": "B",
-    "text": "Withhold tonight's warfarin, repeat the INR in six hours and admit her to the ward for observation"
+    "text": "Withhold tonight's warfarin dose, repeat the INR in six hours and admit her to the medical ward for observation"
    },
    {
     "id": "C",
@@ -181,7 +181,7 @@
    },
    {
     "id": "B",
-    "text": "Give Prothrombinex-VF 50 units/kg intravenously after urgent phone advice from haematology, and document the time of his last apixaban dose for the receiving team"
+    "text": "Give Prothrombinex-VF 50 units/kg intravenously now, after urgent phone advice from haematology"
    },
    {
     "id": "C",
@@ -189,7 +189,7 @@
    },
    {
     "id": "D",
-    "text": "Give vitamin K 10 mg intravenously and recheck the INR in 6 hours"
+    "text": "Give vitamin K 10 mg intravenously now and recheck the INR in 6 hours to guide further treatment"
    }
   ],
   "key": "B",
@@ -262,19 +262,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Stress hyperglycaemia from surgery that needs his premixed insulin increased"
+    "text": "Stress hyperglycaemia from surgery that needs his premixed insulin dose increased"
    },
    {
     "id": "B",
-    "text": "Glucometer error, so no change should be made until a laboratory glucose is available"
+    "text": "Glucometer error, so no change should be made until a laboratory glucose result is available"
    },
    {
     "id": "C",
-    "text": "Dawn phenomenon with early-morning hepatic glucose output"
+    "text": "Dawn phenomenon, with a surge in hepatic glucose output in the early morning hours"
    },
    {
     "id": "D",
-    "text": "His full home doses of premixed insulin continued despite greatly reduced oral intake, causing hypoglycaemia after each dose"
+    "text": "Premixed insulin doses too high for his current needs, causing post-dose hypoglycaemia"
    }
   ],
   "key": "D",
@@ -351,7 +351,7 @@
    },
    {
     "id": "B",
-    "text": "Restart at 12.5 mg once or twice daily and re-titrate under psychiatry guidance, because more than 48 hours of doses have been missed"
+    "text": "Restart clozapine at 12.5 mg once or twice daily and re-titrate the dose under psychiatry guidance"
    },
    {
     "id": "C",
@@ -429,7 +429,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Chart metformin and withhold everything else until the ward pharmacist reviews him tomorrow"
+    "text": "Chart the metformin and withhold everything else until the ward pharmacist reviews him tomorrow"
    },
    {
     "id": "B",
@@ -441,7 +441,7 @@
    },
    {
     "id": "D",
-    "text": "Obtain a best possible medication history from at least two sources, such as My Health Record and his community pharmacy or GP, confirm it with him and his daughter, and document the sources on the medication management plan"
+    "text": "Take a best possible medication history from at least two sources, such as My Health Record and his pharmacy"
    }
   ],
   "key": "D",
@@ -514,7 +514,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Regular paracetamol and ibuprofen, with a small quantity of immediate-release oxycodone 5 mg (enough for about 3 days), a written plan to stop the opioid first, and a copy of the plan for the Aboriginal health service"
+    "text": "Regular paracetamol and ibuprofen, plus 3 days of immediate-release oxycodone 5 mg and a weaning plan"
    },
    {
     "id": "B",
@@ -607,11 +607,11 @@
    },
    {
     "id": "C",
-    "text": "Reassess her pain and observations yourself and discuss her with the ED consultant before any discharge decision is made"
+    "text": "Reassess her pain and observations yourself and discuss her with the ED consultant before discharge"
    },
    {
     "id": "D",
-    "text": "Arrange outpatient urology follow-up and discharge her with paracetamol only"
+    "text": "Arrange outpatient urology follow-up and discharge her home this morning with paracetamol only"
    }
   ],
   "key": "C",
@@ -688,7 +688,7 @@
    },
    {
     "id": "B",
-    "text": "Cease the ibuprofen, assess his fluid status, request urgent electrolytes and creatinine, and call the registrar about the low urine output before adjusting his analgesia"
+    "text": "Stop ibuprofen, assess volume status, check U&Es and call the registrar about his oliguria"
    },
    {
     "id": "C",
@@ -696,7 +696,7 @@
    },
    {
     "id": "D",
-    "text": "Increase paracetamol to 1 g every 4 hours while he is in pain"
+    "text": "Increase his paracetamol to 1 g every 4 hours while he remains in pain overnight"
    }
   ],
   "key": "B",
@@ -853,19 +853,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Withhold the dose, order a gentamicin plasma level and repeat creatinine, and contact the registrar or pharmacist now to change to an alternative such as ceftriaxone pending sensitivities"
+    "text": "Withhold the dose, order a gentamicin level and creatinine, and seek advice now on changing to ceftriaxone"
    },
    {
     "id": "B",
-    "text": "Give gentamicin 350 mg now because he is clinically improving and his creatinine remains within three times baseline"
+    "text": "Give gentamicin 350 mg now because he is clinically improving and his creatinine is within three times baseline"
    },
    {
     "id": "C",
-    "text": "Give a reduced dose of gentamicin 3 mg/kg now and recheck the creatinine tomorrow"
+    "text": "Give a reduced dose of gentamicin 3 mg/kg now and recheck his creatinine level tomorrow morning"
    },
    {
     "id": "D",
-    "text": "Cease all antibiotics until the sensitivities are reported tomorrow"
+    "text": "Cease all antibiotics now and wait until the urine culture sensitivities are reported back tomorrow"
    }
   ],
   "key": "A",
@@ -942,15 +942,15 @@
    },
    {
     "id": "B",
-    "text": "Chart enoxaparin at a halved dose of 20 mg daily to balance the risks"
+    "text": "Chart enoxaparin at a halved dose of 20 mg daily to balance her bleeding and clotting risks"
    },
    {
     "id": "C",
-    "text": "Withhold pharmacological prophylaxis, use mechanical prophylaxis and early mobilisation, document the reason, and discuss the unexplained thrombocytopenia with the GP on call"
+    "text": "Use mechanical prophylaxis and mobilisation, not enoxaparin, and call the GP about her platelets"
    },
    {
     "id": "D",
-    "text": "Chart aspirin 100 mg daily as a safer alternative to enoxaparin"
+    "text": "Chart aspirin 100 mg daily for VTE prophylaxis as a safer alternative to enoxaparin tonight"
    }
   ],
   "key": "C",
@@ -1190,19 +1190,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Remove the pressure bandage, reassess perfusion and pulses within minutes, and if perfusion does not promptly recover contact the on-call vascular surgeon in Adelaide and the retrieval service urgently"
+    "text": "Remove the pressure bandage, reassess now and get urgent vascular advice if it does not recover"
    },
    {
     "id": "B",
-    "text": "Elevate the arm on pillows, apply a warm pack and review the hand in 4 hours"
+    "text": "Elevate the arm on pillows, apply a warm pack to the hand and review it again in 4 hours"
    },
    {
     "id": "C",
-    "text": "Start a therapeutic heparin infusion immediately on the assumption of radial artery thrombosis"
+    "text": "Start a therapeutic heparin infusion immediately on the assumption of a radial artery thrombosis"
    },
    {
     "id": "D",
-    "text": "Take a repeat arterial sample from the right ulnar artery to confirm his gas has improved"
+    "text": "Take a repeat arterial sample from the right ulnar artery to confirm that his gas has improved"
    }
   ],
   "key": "A",
@@ -1279,11 +1279,11 @@
    },
    {
     "id": "B",
-    "text": "Insert a size 3 laryngeal mask airway and connect it to the oxygen circuit"
+    "text": "Insert a size 3 laryngeal mask airway yourself and connect it to the oxygen circuit"
    },
    {
     "id": "C",
-    "text": "Perform a head-tilt, chin-lift or jaw thrust while increasing oxygen to 15 L via a non-rebreather mask, and ask the nurse to call the anaesthetist back immediately"
+    "text": "Do a chin lift or jaw thrust, give 15 L/min oxygen and have the anaesthetist recalled"
    },
    {
     "id": "D",
@@ -1526,7 +1526,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Aspirate the tube and test the aspirate with pH indicator paper, accepting a pH of 5 or less as confirming gastric placement"
+    "text": "Aspirate and test with pH indicator paper, accepting pH 5 or less as gastric placement"
    },
    {
     "id": "B",
@@ -1614,11 +1614,11 @@
    },
    {
     "id": "B",
-    "text": "Median nerve neuropraxia from the fracture itself"
+    "text": "Median nerve neuropraxia caused directly by the distal radius fracture itself"
    },
    {
     "id": "C",
-    "text": "A constricting cast or evolving compartment syndrome, in which a palpable pulse and normal capillary refill do not exclude the diagnosis"
+    "text": "Raised pressure from a constricting cast or an evolving forearm compartment syndrome"
    },
    {
     "id": "D",
@@ -1699,7 +1699,7 @@
    },
    {
     "id": "B",
-    "text": "Wash the puncture with soap and running water, tell the registrar now so the ward is covered, go to the staff health clinic for risk assessment and baseline bloods, and arrange testing of the patient's blood with his informed consent"
+    "text": "Wash the puncture with soap and water, tell the registrar, go to staff health now, and seek his consent to test his blood"
    },
    {
     "id": "C",
@@ -1707,7 +1707,7 @@
    },
    {
     "id": "D",
-    "text": "Ask the patient's nurse to add hepatitis and HIV serology to his morning bloods without raising it with him, so you can decide whether you need treatment"
+    "text": "Ask his nurse to add hepatitis and HIV serology to his morning bloods without telling him, to guide your treatment"
    }
   ],
   "key": "B",
@@ -1857,7 +1857,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Two sets, each from a separate fresh venepuncture site after skin antisepsis with 2% chlorhexidine in 70% alcohol allowed to dry, with 8 to 10 mL of blood in each bottle, taken before the antibiotics"
+    "text": "Two sets from separate venepunctures after chlorhexidine-alcohol antisepsis, 8 to 10 mL per bottle, before antibiotics"
    },
    {
     "id": "B",
@@ -1874,7 +1874,7 @@
   ],
   "key": "A",
   "explanations": {
-   "A": "Therapeutic Guidelines and the ACSQHC Sepsis Clinical Care Standard recommend two sets (aerobic and anaerobic bottles) from separate venepunctures, with adequate skin antisepsis and 8 to 10 mL per bottle in adults, because yield rises with volume and two sites help distinguish contaminants from true bacteraemia. Cultures are taken before antibiotics but must not delay them by more than a few minutes; the other bloods are collected after the culture bottles from the same venepuncture.",
+   "A": "Therapeutic Guidelines and the ACSQHC Sepsis Clinical Care Standard recommend two sets (aerobic and anaerobic bottles) from separate venepunctures, with adequate skin antisepsis (2% chlorhexidine in 70% alcohol, allowed to dry) and 8 to 10 mL per bottle in adults, because yield rises with volume and two sites help distinguish contaminants from true bacteraemia. Cultures are taken before antibiotics but must not delay them by more than a few minutes; the other bloods are collected after the culture bottles from the same venepuncture.",
    "B": "Cultures drawn from an existing peripheral cannula have high contamination rates and are not recommended unless no other access is possible, and then only as one of two sets.",
    "C": "Low-volume cultures markedly reduce the chance of detecting bacteraemia; the volume inoculated is the single most important factor in yield.",
    "D": "Two sets can be taken at the same time from different sites; spacing them 30 minutes apart delays antibiotics unnecessarily, and taking cultures after antibiotics reduces yield."
@@ -1942,15 +1942,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Accept that this is surgical culture, obtain the lactate and call back without comment"
+    "text": "Accept that this is surgical culture, obtain the lactate and call the registrar back without comment"
    },
    {
     "id": "B",
-    "text": "Confront the registrar when she next comes to the department, in front of the team, so that others see the behaviour challenged"
+    "text": "Confront the registrar in front of the team when she next comes to the department, so others see it challenged"
    },
    {
     "id": "C",
-    "text": "Ask the ED consultant to escalate the referral consultant-to-consultant so the patient is admitted, then document the interaction factually and raise it with your term supervisor or the Director of Clinical Training through the hospital's process"
+    "text": "Have the ED consultant escalate the referral, then record the exchange and raise it with your term supervisor"
    },
    {
     "id": "D",
@@ -2027,19 +2027,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Respect her confidentiality completely, document the advice not to drive and leave the decision to her"
+    "text": "Respect her confidentiality completely, document the advice not to drive and leave the decision with her"
    },
    {
     "id": "B",
-    "text": "Telephone her employer to inform them she has had a seizure and must not drive the bus"
+    "text": "Telephone her employer to tell them she has had a seizure and must not drive the school bus"
    },
    {
     "id": "C",
-    "text": "Ask the ward nurse, who knows the family, to persuade her relatives to take her keys"
+    "text": "Ask the ward nurse, who knows the family, to persuade her relatives to take away her car keys"
    },
    {
     "id": "D",
-    "text": "Tell her clearly that she must not drive, document the advice, and after discussing with your consultant notify the Registrar of Motor Vehicles as South Australian law requires for a driver you believe is unfit, informing her that you are doing so and disclosing nothing to her employer"
+    "text": "Tell her not to drive and, with your consultant, notify the Registrar of Motor Vehicles, telling her so"
    }
   ],
   "key": "D",

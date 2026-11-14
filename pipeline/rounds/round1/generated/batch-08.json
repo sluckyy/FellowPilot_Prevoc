@@ -8,19 +8,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Obtain a chest X-ray to exclude pneumothorax before giving further bronchodilator"
+    "text": "Obtain a portable chest X-ray to exclude pneumothorax before any further bronchodilator is given"
    },
    {
     "id": "B",
-    "text": "Give salbutamol by spacer or nebuliser with oxygen to keep SpO2 above 92%, and ask the nurse to phone the GP on call"
+    "text": "Give salbutamol with oxygen now and have the nurse phone the GP on call"
    },
    {
     "id": "C",
-    "text": "Take an arterial blood gas to assess for carbon dioxide retention"
+    "text": "Take an arterial blood gas to assess for carbon dioxide retention before deciding on treatment"
    },
    {
     "id": "D",
-    "text": "Give oral prednisolone and reassess her work of breathing in 30 minutes"
+    "text": "Give oral prednisolone and reassess her work of breathing and oxygen saturation in 30 minutes"
    }
   ],
   "key": "B",
@@ -92,15 +92,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Prescribe using the mother's reported weight of 25 kg and note 'parent-reported' on the chart"
+    "text": "Prescribe using the mother's reported weight of 25 kg and write 'parent-reported weight' on the chart"
    },
    {
     "id": "B",
-    "text": "Estimate weight from the age-based formula and prescribe from that estimate"
+    "text": "Estimate his weight from the age-based formula and prescribe from that estimate, noting it is estimated"
    },
    {
     "id": "C",
-    "text": "Weigh the child on the department scales, record the measured weight on the chart and calculate each dose in mg/kg, checking against the maximum dose"
+    "text": "Weigh him now, record the weight on the chart and calculate each dose in mg/kg"
    },
    {
     "id": "D",
@@ -174,19 +174,19 @@
   "options": [
    {
     "id": "A",
-    "text": "0.45% sodium chloride with 5% glucose at 50 mL/h for maintenance, reassessing in the morning"
+    "text": "0.45% sodium chloride with 5% glucose at 50 mL/h for maintenance only, with electrolytes rechecked in the morning"
    },
    {
     "id": "B",
-    "text": "0.9% sodium chloride 20 mL/kg bolus, then 0.18% sodium chloride with 4% glucose at 80 mL/h"
+    "text": "0.9% sodium chloride 20 mL/kg bolus, then 0.18% sodium chloride with 4% glucose at 80 mL/h until review in the morning"
    },
    {
     "id": "C",
-    "text": "0.9% sodium chloride without glucose at 100 mL/h for 24 hours"
+    "text": "0.9% sodium chloride without glucose at 100 mL/h for 24 hours, with electrolytes rechecked at 12 hours"
    },
    {
     "id": "D",
-    "text": "0.9% sodium chloride with 5% glucose at about 80 mL/h (maintenance plus deficit over 24 hours), with electrolytes and glucose rechecked within 4 to 6 hours"
+    "text": "0.9% sodium chloride with 5% glucose at about 80 mL/h, with electrolytes and glucose rechecked within 4 to 6 hours"
    }
   ],
   "key": "D",
@@ -257,19 +257,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Explore and document what she means and what matters to her now, tell the GP on call, and flag a resuscitation plan discussion with her and her daughter for the day"
+    "text": "Explore and document what she means and what matters to her, inform the GP on call, and flag a resuscitation plan discussion for the day"
    },
    {
     "id": "B",
-    "text": "Defer any discussion of her wishes until the day team, because goals of care conversations are led by the senior treating doctor"
+    "text": "Defer any discussion of her wishes until the day team arrives, because goals of care conversations should be led by the senior treating doctor"
    },
    {
     "id": "C",
-    "text": "Complete a not-for-resuscitation order tonight based on her statement so the nurses know what to do if she deteriorates"
+    "text": "Complete a not-for-resuscitation order tonight on the basis of her statement so that the nurses know what to do if she deteriorates overnight"
    },
    {
     "id": "D",
-    "text": "Contact the retrieval service to arrange transfer to Adelaide so non-invasive ventilation is available if she deteriorates"
+    "text": "Contact the retrieval service now to arrange transfer to Adelaide so that non-invasive ventilation is available if she deteriorates overnight"
    }
   ],
   "key": "A",
@@ -429,15 +429,15 @@
    },
    {
     "id": "B",
-    "text": "Worsening sepsis from the biliary source requiring further investigation"
+    "text": "Worsening sepsis from the biliary source that needs further investigation"
    },
    {
     "id": "C",
-    "text": "He is entering the last days of life and care should move to a terminal care plan"
+    "text": "He is entering the last days of life"
    },
    {
     "id": "D",
-    "text": "Dehydration from poor oral intake that is reversible with intravenous fluids"
+    "text": "Dehydration from poor oral intake that would reverse with intravenous fluids"
    }
   ],
   "key": "C",
@@ -509,19 +509,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Explain that voluntary assisted dying cannot be discussed by hospital doctors and suggest she speaks with her family about it instead"
+    "text": "Explain that voluntary assisted dying cannot be discussed by doctors in a public hospital and suggest she raises it with her family or her own GP instead"
    },
    {
     "id": "B",
-    "text": "Tell her that you can take her first request today and begin the eligibility assessment as her treating doctor"
+    "text": "Tell her that you can receive her first request today and begin the eligibility assessment as her treating doctor, documenting the request in her record"
    },
    {
     "id": "C",
-    "text": "Tell her she would not be eligible at present because she is being admitted for treatment rather than dying"
+    "text": "Tell her that she would not be eligible at present because she has been admitted for active treatment rather than being in the final stage of her illness"
    },
    {
     "id": "D",
-    "text": "Listen and acknowledge her request, explain that you cannot assess her but will tell the treating doctor, give her the SA Voluntary Assisted Dying Care Navigator contact details and document the conversation"
+    "text": "Listen, explain that you cannot assess her but will inform the treating doctor, give her the Care Navigator Service details and document the conversation"
    }
   ],
   "key": "D",
@@ -760,19 +760,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Development of opioid tolerance requiring a higher morphine dose"
+    "text": "Development of opioid tolerance that requires a higher morphine dose"
    },
    {
     "id": "B",
-    "text": "Terminal agitation from progression of his disease"
+    "text": "Terminal agitation from progression of his underlying disease"
    },
    {
     "id": "C",
-    "text": "Failure of drug delivery because of a leaking or occluded infusion site"
+    "text": "Failure of drug delivery from a leaking or occluded infusion site"
    },
    {
     "id": "D",
-    "text": "Paradoxical agitation from midazolam"
+    "text": "A paradoxical agitation reaction to the midazolam in the infusion"
    }
   ],
   "key": "C",
@@ -844,19 +844,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Acute pulmonary oedema, which would respond to intravenous furosemide"
+    "text": "Acute pulmonary oedema, which would respond to intravenous furosemide, sitting her upright and oxygen"
    },
    {
     "id": "B",
-    "text": "Aspiration pneumonia, which should be treated with intravenous antibiotics"
+    "text": "Aspiration pneumonia, which should be treated with intravenous antibiotics, chest physiotherapy and oral suction"
    },
    {
     "id": "C",
-    "text": "Opioid-induced respiratory depression, which needs naloxone"
+    "text": "Opioid-induced respiratory depression, which needs naloxone and a reduction in the infusion rate"
    },
    {
     "id": "D",
-    "text": "Retained upper airway secretions of the dying phase, which are not distressing to her and are managed with repositioning, explanation to the family and an antisecretory medicine"
+    "text": "Retained upper airway secretions of the dying phase, managed by repositioning and an antisecretory medicine"
    }
   ],
   "key": "D",
@@ -1012,19 +1012,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Start reviewing charts today and record each patient's name and findings in a spreadsheet on your personal laptop"
+    "text": "Start reviewing charts today and record each patient's name and findings in a spreadsheet on your personal laptop so you can work on it at home"
    },
    {
     "id": "B",
-    "text": "Define the standard and criteria from the hospital's VTE prevention policy, agree the sample and data items with the consultant, and register the audit with the unit's quality office"
+    "text": "Define the standard and criteria from the hospital's VTE policy, agree the sample, and register the audit with the quality office"
    },
    {
     "id": "C",
-    "text": "Submit an application to the hospital's human research ethics committee before any data are collected"
+    "text": "Submit an application to the hospital's human research ethics committee and wait for approval before any data are collected"
    },
    {
     "id": "D",
-    "text": "Obtain written consent from each inpatient before opening their record for the audit"
+    "text": "Obtain written consent from each inpatient, or their next of kin, before opening their record for the audit"
    }
   ],
   "key": "B",
@@ -1100,15 +1100,15 @@
   "options": [
    {
     "id": "A",
-    "text": "A written summary countersigned by both the outgoing and oncoming doctors"
+    "text": "A written summary countersigned by both the outgoing and the oncoming doctor"
    },
    {
     "id": "B",
-    "text": "The use of the ISBAR format"
+    "text": "The use of the ISBAR format for every patient discussed at handover"
    },
    {
     "id": "C",
-    "text": "A clear transfer of responsibility and accountability for her care to a named clinician"
+    "text": "A clear transfer of responsibility and accountability for her care"
    },
    {
     "id": "D",
@@ -1185,19 +1185,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Edit the original note to show the correct potassium value, relying on the system's hidden edit history to preserve the original"
+    "text": "Edit the original note to show the correct potassium value, relying on the system's hidden edit history to preserve the original wording"
    },
    {
     "id": "B",
-    "text": "Leave the original note as it is and tell the registrar and the GP verbally about the error"
+    "text": "Leave the original note as it is, and tell the registrar and the GP verbally about the error so that they are aware of it"
    },
    {
     "id": "C",
-    "text": "Delete the original note and write a new note for yesterday evening with the correct value and plan"
+    "text": "Delete the original note and write a new note timed for yesterday evening with the correct value and the plan that should have followed"
    },
    {
     "id": "D",
-    "text": "Write a dated and timed addendum that identifies the error and the correct value, leave the original note visible, and submit an incident report"
+    "text": "Write a dated and timed addendum identifying the error and the correct value, leave the original visible, and report the incident"
    }
   ],
   "key": "D",
@@ -1275,11 +1275,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Review the patient for bleeding and risk factors, and inform the medical registrar of the double dose"
+    "text": "Review her for bleeding and risk factors, and tell the medical registrar"
    },
    {
     "id": "B",
-    "text": "Complete the Safety Learning System incident report while the details are fresh"
+    "text": "Complete the Safety Learning System incident report while the details are fresh in everyone's mind"
    },
    {
     "id": "C",
@@ -1359,19 +1359,19 @@
   "options": [
    {
     "id": "A",
-    "text": "An adverse drug reaction, which is reported to the Therapeutic Goods Administration"
+    "text": "An adverse drug reaction, which is reported to the Therapeutic Goods Administration rather than locally"
    },
    {
     "id": "B",
-    "text": "A near miss, a prescribing error intercepted before reaching the patient, which is still reported in the incident system"
+    "text": "A near miss, intercepted before reaching the patient, which is still reported in the incident system"
    },
    {
     "id": "C",
-    "text": "A non-reportable event, because no medicine was administered and no harm occurred"
+    "text": "A non-reportable event, because no medicine was administered and no harm came to the patient"
    },
    {
     "id": "D",
-    "text": "A sentinel event, which requires a formal root cause analysis"
+    "text": "A sentinel event, which requires notification to the department and a formal root cause analysis"
    }
   ],
   "key": "B",
@@ -1442,19 +1442,19 @@
   "options": [
    {
     "id": "A",
-    "text": "To determine which individual was responsible for the delay and recommend disciplinary action"
+    "text": "To determine which individual was responsible for the delay and recommend appropriate disciplinary action"
    },
    {
     "id": "B",
-    "text": "To establish the hospital's legal liability in preparation for the coronial inquest"
+    "text": "To establish the hospital's legal liability in preparation for the coronial inquest into the death"
    },
    {
     "id": "C",
-    "text": "To identify the system factors that contributed to the event and recommend changes to prevent recurrence, without apportioning blame"
+    "text": "To identify system factors contributing to the event and recommend changes to prevent recurrence"
    },
    {
     "id": "D",
-    "text": "To provide the family with a formal written apology from the hospital"
+    "text": "To provide the family with a formal written apology and explanation from the hospital"
    }
   ],
   "key": "C",
@@ -1526,19 +1526,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Cancel the orders on the wrong record, re-enter them for the correct patient and move on, since no harm has occurred"
+    "text": "Cancel the orders on the wrong record and re-enter them for the correct patient, since no harm has occurred and she has no allergy"
    },
    {
     "id": "B",
-    "text": "Ask the nurse to document that she administered the dose in error and to submit the incident report"
+    "text": "Ask the nurse to document that she administered the dose in error and to submit the incident report, since she gave it"
    },
    {
     "id": "C",
-    "text": "Wait until the woman in cubicle 8 has been observed for a reaction before deciding whether to tell her"
+    "text": "Wait until the woman in cubicle 8 has been observed for a reaction before deciding whether she needs to be told"
    },
    {
     "id": "D",
-    "text": "Assess the woman who received the dose, inform the consultant, correct both records, disclose the error to her and report it"
+    "text": "Assess the woman who received the dose, inform the consultant, correct both records, disclose and report"
    }
   ],
   "key": "D",
@@ -1610,19 +1610,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Both medicines, each with the drug name, a description of the reaction, whether it was an allergy or an intolerance, the approximate date and the source of the information, with your signature"
+    "text": "Both medicines, with the reaction, its type, the date and the source, signed and dated"
    },
    {
     "id": "B",
-    "text": "Penicillin only, since vomiting with codeine is a side effect rather than a true adverse reaction"
+    "text": "Penicillin only, as an allergy, since vomiting with codeine is a predictable side effect rather than an adverse reaction"
    },
    {
     "id": "C",
-    "text": "'Penicillin: anaphylaxis' so that staff treat it as the most serious possibility"
+    "text": "'Penicillin: anaphylaxis' so that all staff treat the allergy as the most serious possibility during his admission"
    },
    {
     "id": "D",
-    "text": "'No known drug allergies' because neither reaction has been confirmed by testing"
+    "text": "'No known drug allergies', because neither reaction has been confirmed by testing and both occurred years ago"
    }
   ],
   "key": "A",
@@ -1705,11 +1705,11 @@
    },
    {
     "id": "B",
-    "text": "Flucloxacillin 500 mg orally 6-hourly for 5 days, extended if the cellulitis is slow to resolve at review"
+    "text": "Flucloxacillin 500 mg orally 6-hourly for 5 days, extended if slow to resolve"
    },
    {
     "id": "C",
-    "text": "Cefalexin 500 mg orally 6-hourly for 14 days"
+    "text": "Cefalexin 500 mg orally 6-hourly for 14 days to cover his diabetes"
    },
    {
     "id": "D",
@@ -1785,15 +1785,15 @@
   "options": [
    {
     "id": "A",
-    "text": "Continue intravenous piperacillin with tazobactam until he completes 7 days and then stop"
+    "text": "Continue intravenous piperacillin with tazobactam until he has completed 7 days, then stop"
    },
    {
     "id": "B",
-    "text": "Leave the antibiotics unchanged until the consultant reviews him on tomorrow's round"
+    "text": "Leave the antibiotics unchanged until the consultant reviews him on tomorrow's ward round"
    },
    {
     "id": "C",
-    "text": "Switch to oral amoxicillin and document a planned stop date for a total course of 5 to 7 days"
+    "text": "Switch to oral amoxicillin and document a stop date for a 5 to 7 day course"
    },
    {
     "id": "D",
@@ -1868,19 +1868,19 @@
   "options": [
    {
     "id": "A",
-    "text": "A life-threatening bleed, requiring prothrombin complex concentrate and intravenous vitamin K 10 mg now"
+    "text": "A life-threatening bleed, requiring prothrombin complex concentrate and intravenous vitamin K 10 mg immediately, before any transfer"
    },
    {
     "id": "B",
-    "text": "An acceptable INR for a mechanical valve, requiring no change to his warfarin"
+    "text": "An acceptable INR for a patient with a mechanical valve, requiring no change to his warfarin dosing"
    },
    {
     "id": "C",
-    "text": "A supratherapeutic INR requiring warfarin to be stopped and replaced with apixaban"
+    "text": "A supratherapeutic INR requiring warfarin to be stopped permanently and replaced with apixaban"
    },
    {
     "id": "D",
-    "text": "A supratherapeutic INR with minor bleeding, managed by withholding warfarin, giving low-dose vitamin K and rechecking the INR within 24 hours"
+    "text": "A supratherapeutic INR with minor bleeding, needing warfarin withheld, low-dose vitamin K and an INR recheck in 24 hours"
    }
   ],
   "key": "D",

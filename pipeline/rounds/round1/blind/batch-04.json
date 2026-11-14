@@ -1,0 +1,1111 @@
+[
+ {
+  "item_id": "7134750d-2278-c42c-294f-f57531fab544",
+  "work_order_id": "r1-076",
+  "stem": "You are the PGY2 on an evening cover shift at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight. A 34-year-old woman with ulcerative colitis, maintained on oral mesalazine for 8 months, presents with 3 weeks of malaise, low-grade fever, arthralgia and a faint maculopapular rash. Her colitis is quiescent with one formed stool daily. She denies NSAID use and has no vomiting or diarrhoea. Observations: temperature 37.9 C, heart rate 84/min, blood pressure 128/78 mmHg, mucous membranes moist. Creatinine is 310 micromol/L (baseline 68 micromol/L 6 months ago), urea 14 mmol/L, potassium 4.6 mmol/L, eosinophils 1.1 x 10^9/L. Urinalysis: leucocytes 2+, protein 1+, no blood. Urine microscopy reports white cell casts, no red cell casts, no bacteria. Bedside bladder scan shows 40 mL post-void. The physician is available by phone.",
+  "lead_in": "Which diagnosis best explains her acute kidney injury?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prerenal acute kidney injury from volume depletion"
+   },
+   {
+    "id": "B",
+    "text": "Drug-induced acute interstitial nephritis"
+   },
+   {
+    "id": "C",
+    "text": "Post-infectious glomerulonephritis"
+   },
+   {
+    "id": "D",
+    "text": "Acute pyelonephritis with early urosepsis"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "acute kidney injury",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 5,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "919a818e-2c65-91b8-cee6-7e9ef8488212",
+  "work_order_id": "r1-077",
+  "stem": "You are the PGY2 on the medical ward of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 79-year-old woman admitted with symptomatic iron deficiency anaemia (haemoglobin 66 g/L, heart rate 104/min, breathless walking to the bathroom) has been prescribed one unit of packed red cells, with iron studies and a gastroenterology referral arranged. The unit was signed out of the blood fridge and the transfusion commenced at 14:10. At 15:30 the nurse tells you the pump has been alarming intermittently for a positional cannula and only half the unit has infused. She asks by what time this unit must be finished.",
+  "lead_in": "What is the maximum time from removal from controlled storage within which the unit must be completely infused?",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 hour"
+   },
+   {
+    "id": "B",
+    "text": "2 hours"
+   },
+   {
+    "id": "C",
+    "text": "4 hours"
+   },
+   {
+    "id": "D",
+    "text": "6 hours"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "blood product prescribing",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "9c0418f6-e066-4205-e26a-5e1c3be53adb",
+  "work_order_id": "r1-078",
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 58-year-old man with alcohol-related cirrhosis and a recent variceal bleed, now stable, is receiving his second unit of packed red cells for a haemoglobin of 64 g/L. Fifteen minutes into the unit the nurse calls you urgently: he has developed rigors and loin pain, his temperature has risen from 37.0 C to 39.1 C, heart rate is 118/min and blood pressure has fallen from 128/76 to 92/58 mmHg. He is anxious but talking. The first unit, completed 2 hours earlier, was uneventful. The nurse has already pressed the pause button on the pump and is waiting for your instruction.",
+  "lead_in": "What is the most appropriate immediate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Slow the infusion rate and give paracetamol 1 g orally for a febrile non-haemolytic reaction"
+   },
+   {
+    "id": "B",
+    "text": "Phone the transfusion laboratory to confirm the unit's compatibility before deciding"
+   },
+   {
+    "id": "C",
+    "text": "Collect blood cultures from the patient and the unit and send them to the laboratory"
+   },
+   {
+    "id": "D",
+    "text": "Stop the transfusion, disconnect the unit and keep the cannula patent with sodium chloride 0.9%"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "blood product prescribing",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "667b6a16-fcd1-d8a3-3557-aa4f82714c26",
+  "work_order_id": "r1-079",
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital with on-site intensive care. A 19-year-old man with type 1 diabetes was admitted from the emergency department 90 minutes ago with vomiting and diabetic ketoacidosis after missing insulin doses during a gastroenteritis. In the emergency department he received 1 L of sodium chloride 0.9% over the first hour. Observations now: heart rate 112/min, blood pressure 104/66 mmHg, respiratory rate 24/min, alert. Repeat venous gas: pH 7.16, bicarbonate 9 mmol/L, glucose 27 mmol/L, potassium 3.2 mmol/L, sodium 134 mmol/L, lactate 1.8 mmol/L. Blood ketones 5.4 mmol/L. The emergency department has not yet started insulin. The medical registrar is in a resuscitation and asks you to write up the next hour of fluids and insulin according to the hospital DKA protocol.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Add potassium chloride 40 mmol to the next litre of sodium chloride 0.9% and defer the insulin infusion until potassium exceeds 3.5 mmol/L"
+   },
+   {
+    "id": "B",
+    "text": "Start an insulin infusion at 0.1 units/kg/hour immediately, with potassium-free sodium chloride 0.9% running alongside at 250 mL/hour"
+   },
+   {
+    "id": "C",
+    "text": "Give a further 1 L bolus of sodium chloride 0.9% and repeat the gas in one hour before deciding on potassium"
+   },
+   {
+    "id": "D",
+    "text": "Give sodium bicarbonate 8.4% 100 mL intravenously to correct the acidosis before starting insulin"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "fluid resuscitation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "5477351b-2b57-c724-fdcd-9d48236921e8",
+  "work_order_id": "r1-080",
+  "stem": "You are the intern on the surgical ward of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 56-year-old woman is day 3 after a mastectomy for breast cancer with known bone metastases. The nurse reports that she has become drowsy and confused overnight, is nauseated, has not opened her bowels for 4 days and has passed only 300 mL of urine in the last 12 hours. Observations: heart rate 102/min, blood pressure 108/70 mmHg, temperature 36.9 C, dry mucous membranes. Bloods you ordered this morning show corrected calcium 3.42 mmol/L (reference 2.10 to 2.60), creatinine 142 micromol/L (baseline 70), potassium 4.1 mmol/L, albumin 31 g/L. The visiting surgeon has left for the day and the physician is available by phone.",
+  "lead_in": "Which action should you prioritise first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe intravenous zoledronic acid 4 mg"
+   },
+   {
+    "id": "B",
+    "text": "Commence intravenous sodium chloride 0.9% rehydration"
+   },
+   {
+    "id": "C",
+    "text": "Give intravenous furosemide 40 mg to promote calcium excretion"
+   },
+   {
+    "id": "D",
+    "text": "Arrange a CT of the abdomen to look for bowel obstruction"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hypercalcaemia",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "77d3731c-6d6a-8c99-b4e3-93008dec47f0",
+  "work_order_id": "r1-081",
+  "stem": "You are the intern at a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 38-year-old woman with type 1 diabetes and diabetic nephropathy (baseline eGFR 28 mL/min/1.73 m2) on perindopril and spironolactone presents with 3 days of vomiting. Potassium on the blood gas is 7.2 mmol/L, glucose 9 mmol/L, bicarbonate 17 mmol/L. The ECG shows peaked T waves and a PR interval of 240 ms. She is on a cardiac monitor with the nurse at the bedside. You have given calcium gluconate 10% 10 mL intravenously over 5 minutes. The physician, reached by phone, agrees with your plan, asks you to prescribe insulin with glucose to shift potassium into cells while retrieval is organised, and says she will call back in 15 minutes.",
+  "lead_in": "Which prescription is correct for this purpose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Neutral (short-acting) insulin 10 units subcutaneously now with glucose 10% 500 mL intravenously over 4 hours"
+   },
+   {
+    "id": "B",
+    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 5% 100 mL intravenously over 5 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 50% 50 mL intravenously over 15 to 30 minutes"
+   },
+   {
+    "id": "D",
+    "text": "Neutral (short-acting) insulin infusion 50 units in 50 mL at 10 units/hour with glucose 10% 1 L over 8 hours"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hyperkalaemia",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "4f0ecad4-f485-f033-81dd-51f79d9830d7",
+  "work_order_id": "r1-082",
+  "stem": "You are the intern covering the general ward of a tertiary hospital in Adelaide on a weekday evening. A 62-year-old man was transferred from the neurosurgical high-dependency unit this morning, day 2 after transsphenoidal resection of a pituitary macroadenoma. At 20:30 the nurse calls: he is intensely thirsty, has passed 400 to 450 mL of pale urine every hour for the past 4 hours, and is becoming drowsy. His sodium this morning was 141 mmol/L; a sample sent an hour ago is 158 mmol/L. He is drinking water from a jug beside the bed. Heart rate 96/min, blood pressure 118/72 mmHg. You still have a warfarin chart to complete, a cannula to resite and two discharge summaries outstanding. The neurosurgical registrar is in theatre but contactable by phone, and the medical registrar is on site.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe glucose 5% 1 L over 8 hours to lower the sodium gradually and review him on the morning round"
+   },
+   {
+    "id": "B",
+    "text": "Order paired serum and urine osmolality and a repeat sodium in 2 hours, and escalate to the registrar once those results are available"
+   },
+   {
+    "id": "C",
+    "text": "Give desmopressin 1 microgram subcutaneously from the ward imprest to stop the polyuria"
+   },
+   {
+    "id": "D",
+    "text": "Phone the neurosurgical registrar now with an ISBAR handover, keep oral water available and chart strict fluid balance"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hypernatraemia",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "fb37b6ce-d03c-e695-01a5-f41eaea6035c",
+  "work_order_id": "r1-083",
+  "stem": "You are the intern in the emergency department of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 52-year-old woman presents after 4 days of vomiting from viral gastroenteritis. She is alert, heart rate 92/min, blood pressure 112/70 mmHg. Potassium is 2.6 mmol/L, magnesium 0.78 mmol/L, creatinine 88 micromol/L, and the ECG shows sinus rhythm with no U waves or ST change. She cannot tolerate oral potassium because of ongoing nausea. The physician by phone agrees she should be admitted to the general ward, which has no cardiac monitoring, for intravenous potassium replacement through a peripheral cannula using premixed bags from the ward imprest, and asks you to write up the fluids.",
+  "lead_in": "What is the maximum rate of intravenous potassium replacement appropriate for her on this ward?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mmol per hour"
+   },
+   {
+    "id": "B",
+    "text": "20 mmol per hour"
+   },
+   {
+    "id": "C",
+    "text": "30 mmol per hour"
+   },
+   {
+    "id": "D",
+    "text": "40 mmol per hour"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hypokalaemia",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "bc0eb77f-8346-d982-a79b-f151b695458a",
+  "work_order_id": "r1-084",
+  "stem": "You are the PGY2 on the surgical ward of a large metropolitan teaching hospital. A 36-year-old woman is day 4 after a laparoscopic cholecystectomy complicated by a bile leak, now managed with a drain. She has had persistent vomiting for 3 days despite ondansetron, is nil by mouth on maintenance fluids with potassium chloride 20 mmol per litre, and has received an additional 80 mmol of intravenous potassium over the last 48 hours. Her potassium has moved only from 2.8 to 2.9 mmol/L. This morning's results: sodium 137 mmol/L, bicarbonate 33 mmol/L, magnesium 0.46 mmol/L (reference 0.70 to 1.10), creatinine 72 micromol/L, corrected calcium 2.18 mmol/L. The ECG shows flattened T waves. The registrar is in theatre and asks you to work out why the potassium is not correcting.",
+  "lead_in": "Which interpretation best explains her persistent hypokalaemia?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Post-operative ileus is preventing absorption of the potassium she has been given"
+   },
+   {
+    "id": "B",
+    "text": "Hypomagnesaemia is causing renal potassium wasting, so potassium will not correct until magnesium is replaced"
+   },
+   {
+    "id": "C",
+    "text": "Vomiting is losing potassium directly in the gastric fluid faster than it can be replaced"
+   },
+   {
+    "id": "D",
+    "text": "The metabolic alkalosis is shifting potassium into cells and will resolve on its own once the vomiting stops"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hypokalaemia",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "34d7f894-d5d6-76d8-5d1f-f705713e7db4",
+  "work_order_id": "r1-085",
+  "stem": "You are the PGY2 on the general ward of a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight. A 41-year-old man was admitted this afternoon with alcohol withdrawal after drinking about 15 standard drinks daily for several years; he has had thiamine and two doses of diazepam and is tremulous but settling. His admission bloods have just been phoned through by the laboratory as critical: magnesium 0.42 mmol/L (reference 0.70 to 1.10), potassium 3.0 mmol/L, corrected calcium 1.92 mmol/L (reference 2.10 to 2.60), albumin 34 g/L, phosphate 0.70 mmol/L, lipase normal. His ECG shows sinus rhythm 98/min with a QTc of 512 ms and no other change. He has no history of cardiac disease. The physician is available by phone.",
+  "lead_in": "Which interpretation of these results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The low calcium reflects the low albumin and will not need specific treatment"
+   },
+   {
+    "id": "B",
+    "text": "The prolonged QTc is an adverse effect of the diazepam he has received and the electrolyte changes are incidental findings"
+   },
+   {
+    "id": "C",
+    "text": "Hypomagnesaemia underlies the hypokalaemia, hypocalcaemia and QT prolongation, and must be replaced for the others to correct"
+   },
+   {
+    "id": "D",
+    "text": "Hypocalcaemia from alcoholic pancreatitis is the primary abnormality driving the ECG change"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hypomagnesaemia",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "7181d777-2326-a647-6337-2b5689ca4c79",
+  "work_order_id": "r1-086",
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 22-year-old woman was admitted yesterday afternoon with viral gastroenteritis and vomiting. Her admission sodium was 137 mmol/L. Overnight she received 3 L of glucose 5% at 125 mL/hour as written on the fluid chart by the evening doctor, and this morning she is tolerating sips of fluid, has stopped vomiting and has passed urine twice. Her morning sodium is 126 mmol/L, potassium 3.6 mmol/L, glucose 5.2 mmol/L. She is alert, mildly nauseated, with no headache or confusion. Heart rate 78/min, blood pressure 118/74 mmHg, mucous membranes moist, no oedema. The physician visits on Thursdays and is available by phone.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Continue glucose 5% at 125 mL/hour until she is drinking freely and recheck the sodium tomorrow morning"
+   },
+   {
+    "id": "B",
+    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes and recheck the sodium afterwards"
+   },
+   {
+    "id": "C",
+    "text": "Give furosemide 40 mg intravenously to remove free water and recheck the sodium in 4 hours"
+   },
+   {
+    "id": "D",
+    "text": "Cease the glucose 5%, send paired serum and urine osmolality and urine sodium, and recheck the sodium in 4 to 6 hours"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hyponatraemia",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "09520649-97f4-206b-da57-4974859f729b",
+  "work_order_id": "r1-087",
+  "stem": "You are the intern covering the surgical ward overnight at a country hospital 90 minutes from the nearest tertiary centre, the only doctor on site. A 55-year-old woman is day 2 after a right hemicolectomy performed by the visiting surgeon. At 02:00 the nurse calls because she has had a generalised tonic-clonic seizure lasting about 3 minutes, which has just stopped after midazolam 5 mg intramuscularly. She is now drowsy, protecting her airway, oxygen saturation 95% on 6 L/min, heart rate 104/min, blood pressure 138/84 mmHg. She has no history of epilepsy. Her venous blood gas shows sodium 116 mmol/L (124 mmol/L yesterday morning), glucose 6.1 mmol/L, potassium 3.9 mmol/L. She has been receiving glucose 4% with sodium chloride 0.18% at 125 mL/hour since surgery. The nurse has already paged the surgeon and the physician, who are both driving in, 20 minutes away. The emergency department stocks sodium chloride 3%.",
+  "lead_in": "What is the most appropriate next step while waiting?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes and recheck the sodium on a gas afterwards"
+   },
+   {
+    "id": "B",
+    "text": "Stop the intravenous fluid, restrict oral fluid to 1 L per day and recheck the sodium at 06:00"
+   },
+   {
+    "id": "C",
+    "text": "Give sodium chloride 0.9% 1 L intravenously over 1 hour to raise the sodium gradually"
+   },
+   {
+    "id": "D",
+    "text": "Give levetiracetam 1 g intravenously to prevent further seizures and arrange a CT brain when the radiographer arrives"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "hyponatraemia",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "e9a33aee-4a6d-4bfd-63c5-b89c7d008309",
+  "work_order_id": "r1-088",
+  "stem": "You are a junior doctor on a general practice term in a practice linked to a metropolitan general hospital. A 58-year-old woman attends for review 3 days after discharge from the hospital's medical ward, where she was treated for community-acquired pneumonia. She feels well, is eating and drinking normally and has no headache, nausea or confusion. Her discharge summary notes: admission sodium 138 mmol/L; day 3 sodium 129 mmol/L after 3 days of glucose 4% with sodium chloride 0.18% at 125 mL/hour while she was eating poorly; fluids ceased on day 3; discharge sodium (day 5) 133 mmol/L. No urine tests were sent. She takes no regular medications, has no history of cardiac, renal or liver disease and her chest X-ray was reported as clear of any mass. Blood taken yesterday by the practice nurse shows sodium 136 mmol/L, potassium 4.0 mmol/L, creatinine 68 micromol/L.",
+  "lead_in": "Which interpretation of this sodium trend is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Syndrome of inappropriate antidiuresis from the pneumonia, requiring fluid restriction and referral back to the hospital"
+   },
+   {
+    "id": "B",
+    "text": "Dilutional hyponatraemia from hypotonic maintenance fluid in hospital, now resolved, needing a repeat sodium in a week or two"
+   },
+   {
+    "id": "C",
+    "text": "Possible adrenal insufficiency unmasked by illness, requiring a morning cortisol and short synacthen test"
+   },
+   {
+    "id": "D",
+    "text": "Pseudohyponatraemia from lipaemia during the acute illness, requiring no further action or testing"
+   }
+  ],
+  "learning_area": "Fluids, electrolytes and renal",
+  "presentation": "maintenance intravenous fluids",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "070e4f04-c695-9f0c-e0a1-ce572e2f02f1",
+  "work_order_id": "r1-089",
+  "stem": "You are the PGY2 in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A 44-year-old woman with COPD (30 pack-year smoking history, FEV1 48% predicted on spirometry last year, two previous admissions) presents with 3 days of increasing breathlessness, wheeze and green sputum. She is speaking in short sentences, respiratory rate 28/min, heart rate 108/min, oxygen saturation 86% on room air, temperature 37.8 C, blood pressure 134/82 mmHg, alert and orientated. The nurse has placed her on a monitor, inserted a cannula and asks you what oxygen to prescribe while you organise bronchodilators, prednisolone and a venous blood gas.",
+  "lead_in": "What is the most appropriate oxygen prescription?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Oxygen 15 L/min via non-rebreather mask targeting saturation of 94% or above"
+   },
+   {
+    "id": "B",
+    "text": "Withhold oxygen until the blood gas result is available because of the risk of carbon dioxide retention"
+   },
+   {
+    "id": "C",
+    "text": "Titrated oxygen via nasal prongs or Venturi mask to a target saturation of 88 to 92%"
+   },
+   {
+    "id": "D",
+    "text": "Titrated oxygen via nasal prongs to a target saturation of 92 to 96%"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "COPD exacerbation",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "51aa0055-d98b-45cb-7216-b6d93ad4e5cb",
+  "work_order_id": "r1-090",
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting physician and specialist advice by phone. A 52-year-old Aboriginal woman with type 2 diabetes, hypertension and stage 3b chronic kidney disease (baseline creatinine 118 micromol/L) was admitted 2 days ago with cellulitis of the leg and started on intravenous flucloxacillin. Her regular medications, continued on admission, are metformin, perindopril, empagliflozin and ibuprofen, which she has been taking for leg pain. This morning's bloods: creatinine 236 micromol/L, potassium 5.4 mmol/L, bicarbonate 19 mmol/L. She has passed about 600 mL of urine in the last 24 hours, feels nauseated, heart rate 92/min, blood pressure 124/78 mmHg. The ECG is normal. The Aboriginal Liaison Officer has helped arrange for her daughter to be present for discussions, as she has asked. The physician's next visit is in 2 days.",
+  "lead_in": "Which action should take priority this morning?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a renal tract ultrasound at the regional imaging service for later this week and review the result at the physician's visit"
+   },
+   {
+    "id": "B",
+    "text": "Phone the Adelaide renal unit this morning to arrange transfer for possible dialysis"
+   },
+   {
+    "id": "C",
+    "text": "Give a 1 L bolus of sodium chloride 0.9% over 1 hour and repeat the bloods this afternoon"
+   },
+   {
+    "id": "D",
+    "text": "Withhold metformin, perindopril, empagliflozin and ibuprofen, assess volume status and phone the physician today"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "acute kidney injury",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "77e1bdc7-bf46-1af0-0dc5-64df636958ae",
+  "work_order_id": "r1-091",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital with a registrar on site. A 60-year-old man presents with 3 days of vomiting and watery diarrhoea after a family barbecue. He has hypertension treated with ramipril 10 mg daily and takes no other medications. He has not passed urine since early this morning. Observations: heart rate 112/min, blood pressure 96/58 mmHg (usual 135/85), temperature 37.6 C, dry mucous membranes, capillary refill 3 seconds, chest clear, no oedema. Bloods: creatinine 196 micromol/L (84 micromol/L at his GP two months ago), urea 19 mmol/L, potassium 4.8 mmol/L, bicarbonate 18 mmol/L, glucose 6 mmol/L. Bladder scan shows 30 mL. The registrar is with another patient and asks you to start management and chart his medications.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium chloride 0.9% 1 L intravenously over 30 minutes, withhold ramipril and reassess"
+   },
+   {
+    "id": "B",
+    "text": "Give furosemide 40 mg intravenously to re-establish urine output"
+   },
+   {
+    "id": "C",
+    "text": "Request an urgent renal tract ultrasound before giving any intravenous fluid"
+   },
+   {
+    "id": "D",
+    "text": "Insert an indwelling urinary catheter and observe hourly urine output for 4 hours before deciding on fluid"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "acute kidney injury",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "66b87a8c-2a08-7c63-1895-5b0b81e9acce",
+  "work_order_id": "r1-092",
+  "stem": "You are the intern covering the surgical ward and recovery area overnight at a country hospital 90 minutes from the nearest tertiary centre. A 35-year-old man had an uncomplicated laparoscopic appendicectomy this evening under the visiting surgeon, who has returned to Adelaide and plans discharge tomorrow. In recovery you review his pre-operative bloods: haemoglobin 96 g/L, MCV 68 fL, platelets 410 x 10^9/L, white cell count 13.2 x 10^9/L, creatinine normal. He is comfortable, heart rate 78/min, blood pressure 126/80 mmHg, and reports feeling tired for months but no overt bleeding; he has never had a blood test before. There is no record that anyone has discussed the anaemia with him. Estimated operative blood loss was 20 mL. The night nurse asks whether anything needs to happen about the low haemoglobin before he goes home.",
+  "lead_in": "Which action is the most important to prioritise before his discharge?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Transfuse one unit of packed red cells overnight to bring the haemoglobin above 100 g/L before he travels home"
+   },
+   {
+    "id": "B",
+    "text": "Send iron studies now, tell him about the result, and document the anaemia with a GP follow-up plan in the discharge summary"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT of the abdomen before discharge to look for a gastrointestinal source"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe oral ferrous sulfate on the discharge script with a repeat full blood count at his GP in 3 months"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "anaemia work-up",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "f8a3ba1d-5996-4812-255d-4c4a51cb299e",
+  "work_order_id": "r1-093",
+  "stem": "You are the intern covering the wards overnight at a country hospital 90 minutes from the nearest tertiary centre, the only doctor on site, with the physician on call by phone. At 01:30 the nurse calls about a 58-year-old man admitted 2 days ago with community-acquired pneumonia, now on day 2 of intravenous antibiotics. His monitor shows an irregular tachycardia at 138/min. He feels palpitations but no chest pain or breathlessness. Blood pressure 118/76 mmHg, oxygen saturation 93% on 2 L/min nasal prongs, temperature 38.2 C, alert. A 12-lead ECG confirms atrial fibrillation with a rate of 135/min and no ischaemic change. He has no history of atrial fibrillation or heart disease. Today's bloods: potassium 3.3 mmol/L, magnesium 0.62 mmol/L, haemoglobin 134 g/L. He has had 1 L of fluid in the last 24 hours and his mucous membranes are dry.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give amiodarone 300 mg intravenously over 1 hour to restore sinus rhythm before the physician's morning round"
+   },
+   {
+    "id": "B",
+    "text": "Give metoprolol 5 mg intravenously now, repeated every 5 minutes until the rate is below 100/min"
+   },
+   {
+    "id": "C",
+    "text": "Replace potassium and magnesium, give fluid and paracetamol, review the oxygen, and phone the physician for a rate-control plan"
+   },
+   {
+    "id": "D",
+    "text": "Arrange synchronised DC cardioversion under sedation in the emergency department before the rhythm becomes established"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "atrial fibrillation",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "e08e9cd2-a64b-fcaf-7438-f70de313c979",
+  "work_order_id": "r1-094",
+  "stem": "You are the intern staffing the 4-bed emergency department of a rural hospital on the Yorke Peninsula overnight, with the GP on call by phone and the Adelaide cardiology registrar available through the hospital switchboard. A 32-year-old woman presents at 23:00 with 3 hours of palpitations that began after a wedding at which she drank about eight standard drinks. She has no chest pain, breathlessness or syncope, no past medical history, and takes the combined oral contraceptive pill. Heart rate 132/min irregular, blood pressure 122/78 mmHg, saturation 98% on room air, afebrile, chest clear. The 12-lead ECG shows atrial fibrillation at 128/min with narrow QRS and no ST change. The nurse has her on the monitor with a cannula in place and has sent electrolytes, magnesium and thyroid function.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give flecainide 300 mg orally now and discharge her once the rhythm reverts, with GP review in a week"
+   },
+   {
+    "id": "B",
+    "text": "Perform synchronised DC cardioversion under procedural sedation in the department tonight with the nurse assisting"
+   },
+   {
+    "id": "C",
+    "text": "Start apixaban 5 mg twice daily and discharge her for GP review in 2 weeks with advice to return if symptoms recur"
+   },
+   {
+    "id": "D",
+    "text": "Keep her monitored, check the bloods, and phone the GP on call and the cardiology registrar for a plan"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "atrial fibrillation",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "fd469de5-26d6-0a8d-741f-67800d761339",
+  "work_order_id": "r1-095",
+  "stem": "You are the intern on an evening cover shift at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the physician available by phone. A 34-year-old woman presents to the emergency department with 4 days of cough, fever and right-sided pleuritic chest pain. She is not pregnant, has no allergies and has had no antibiotics or hospital admissions in the past year. Observations: temperature 38.9 C, respiratory rate 24/min, heart rate 104/min, blood pressure 112/68 mmHg, saturation 93% on room air, alert. Examination shows bronchial breathing at the right base; chest X-ray confirms right lower lobe consolidation without effusion. Bloods: white cell count 16 x 10^9/L, creatinine normal, albumin 36 g/L. The physician agrees by phone that she needs admission to the ward and asks you to chart the antibiotics according to Therapeutic Guidelines.",
+  "lead_in": "Which antibiotic regimen is the most appropriate to prescribe?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Benzylpenicillin 1.2 g intravenously 6-hourly plus doxycycline 100 mg orally twice daily"
+   },
+   {
+    "id": "B",
+    "text": "Ceftriaxone 1 g intravenously daily plus azithromycin 500 mg intravenously daily"
+   },
+   {
+    "id": "C",
+    "text": "Amoxicillin 1 g orally 8-hourly alone, with discharge and GP review in 48 hours"
+   },
+   {
+    "id": "D",
+    "text": "Piperacillin with tazobactam 4.5 g intravenously 8-hourly"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "community-acquired pneumonia",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "b77c2bb5-7cb3-c3fe-6335-134603a02ba7",
+  "work_order_id": "r1-096",
+  "stem": "You are the junior doctor on the surgical ward of a large metropolitan teaching hospital. A 40-year-old man is day 2 after an open reduction and internal fixation of an ankle fracture and is receiving enoxaparin 40 mg daily for thromboprophylaxis. He has a history of gout, well controlled on allopurinol 300 mg daily with no flare for a year. Overnight he developed severe pain, redness and swelling of the opposite first metatarsophalangeal joint, identical to his previous flares. He is afebrile, heart rate 84/min, blood pressure 132/80 mmHg, and the surgical wound is clean. Bloods: white cell count 11.8 x 10^9/L, creatinine 128 micromol/L with eGFR 55 mL/min/1.73 m2, urate 0.48 mmol/L. The registrar asks you to sort out his gout before the round.",
+  "lead_in": "Which action should you prioritise?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease allopurinol until the flare has settled"
+   },
+   {
+    "id": "B",
+    "text": "Continue allopurinol and start a short course of oral prednisolone"
+   },
+   {
+    "id": "C",
+    "text": "Increase allopurinol to 400 mg daily because the urate is above target"
+   },
+   {
+    "id": "D",
+    "text": "Start ibuprofen 400 mg three times daily with food"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "gout flare in hospital",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "63101d93-94c8-a62c-a4c0-50ed4d97b5a0",
+  "work_order_id": "r1-097",
+  "stem": "You are the junior doctor on the general ward of a metropolitan general hospital with a registrar on site. A 60-year-old man with heart failure with reduced ejection fraction (ejection fraction 30%) was admitted 3 days ago with decompensation and has been receiving furosemide 80 mg intravenously twice daily alongside his usual perindopril 8 mg, bisoprolol 5 mg and spironolactone 25 mg. His weight is down 3.5 kg, he is less breathless, oxygen saturation 95% on room air, and ankle oedema has reduced but persists. This morning: heart rate 68/min, blood pressure 94/58 mmHg (124/76 on admission), creatinine 162 micromol/L (98 on admission), potassium 5.7 mmol/L (4.4 on admission), sodium 134 mmol/L. The nurse is about to give the morning doses and asks you to confirm the chart.",
+  "lead_in": "Which action should take priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease furosemide and give sodium chloride 0.9% 500 mL over 30 minutes to restore the blood pressure"
+   },
+   {
+    "id": "B",
+    "text": "Increase the furosemide to 120 mg intravenously twice daily because the ankle oedema persists"
+   },
+   {
+    "id": "C",
+    "text": "Withhold this morning's spironolactone and perindopril, check an ECG and potassium, and discuss the diuretic with the registrar"
+   },
+   {
+    "id": "D",
+    "text": "Give calcium gluconate 10% 10 mL intravenously over 5 minutes for the hyperkalaemia before the morning doses"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "heart failure",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "2740e40e-721e-8405-2e01-f8f07d4614f6",
+  "work_order_id": "r1-098",
+  "stem": "You are the junior doctor in the emergency department of a tertiary hospital in Adelaide. A 38-year-old man is brought in by ambulance with 2 weeks of worsening breathlessness, orthopnoea and leg swelling after a flu-like illness a month ago, now acutely worse over 2 hours. He is sitting forward, sweaty, speaking in single words. Respiratory rate 32/min, oxygen saturation 86% on 8 L/min via Hudson mask, heart rate 124/min regular, blood pressure 158/96 mmHg, temperature 37.2 C. Widespread crackles to the mid-zones and a raised jugular venous pressure. The ECG shows sinus tachycardia with left bundle branch block of unknown age. Venous gas: pH 7.29, PaCO2 52 mmHg, lactate 2.8 mmol/L. A chest X-ray is being done at the bedside. The emergency consultant is in the next bay and has said to call when you have assessed him.",
+  "lead_in": "Which action should you prioritise first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give furosemide 40 mg intravenously and insert a urinary catheter to monitor the diuretic response"
+   },
+   {
+    "id": "B",
+    "text": "Send troponin, B-type natriuretic peptide and blood cultures and await the results before treatment"
+   },
+   {
+    "id": "C",
+    "text": "Request an urgent bedside echocardiogram to define the cause of heart failure before starting treatment"
+   },
+   {
+    "id": "D",
+    "text": "Sit him upright, give sublingual glyceryl trinitrate 400 micrograms and call the consultant now to start CPAP"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "heart failure",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "fea1ce09-50fc-29da-518e-f8c989405803",
+  "work_order_id": "r1-099",
+  "stem": "You are the intern on the general medicine team at a tertiary hospital in Adelaide, which provides a daily telehealth ward round to a regional hospital's medical ward. On today's video call the regional nurse presents a 56-year-old woman admitted 2 days ago with a community-acquired pneumonia, who has type 2 diabetes managed with metformin and gliclazide at home and is now on prednisolone 50 mg daily for coexisting asthma. Her capillary blood glucose readings over the past 24 hours have been 13 to 19 mmol/L, highest in the late afternoon. She is eating about half her meals, has no ketones on a point-of-care test, and her creatinine is normal. The regional hospital uses a subcutaneous insulin chart that requires the treating team to document a blood glucose target range before supplemental insulin can be prescribed. The nurse asks what target range your team wants documented.",
+  "lead_in": "Which blood glucose target range is recommended for this hospital inpatient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "5 to 10 mmol/L"
+   },
+   {
+    "id": "B",
+    "text": "4 to 7 mmol/L"
+   },
+   {
+    "id": "C",
+    "text": "8 to 15 mmol/L"
+   },
+   {
+    "id": "D",
+    "text": "Below 20 mmol/L"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "hyperglycaemia in hospital",
+  "context": "telehealth",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "766c5cca-cc8f-8c5f-97a0-58ec8ff71126",
+  "work_order_id": "r1-100",
+  "stem": "You are the PGY2 in the emergency department of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 79-year-old man presents at 19:00 with a sprained ankle after a fall from a step. The triage nurse is concerned because his blood pressure is 198/108 mmHg, confirmed on three readings 10 minutes apart in both arms. He tells you he ran out of amlodipine 2 weeks ago. He has no headache, visual disturbance, chest pain, breathlessness or neurological symptoms, and is fully orientated. Heart rate 76/min, saturation 97% on room air. Examination: no focal neurology, chest clear, no new murmur; fundoscopy shows arteriolar narrowing without haemorrhages or papilloedema. ECG shows sinus rhythm with voltage criteria for left ventricular hypertrophy and no acute change. Creatinine 92 micromol/L (baseline 90), urinalysis trace protein, no blood. The ankle X-ray is normal.",
+  "lead_in": "Which interpretation of his blood pressure is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypertensive emergency requiring intravenous labetalol and retrieval to Adelaide tonight for monitoring"
+   },
+   {
+    "id": "B",
+    "text": "Severe hypertension without acute target organ damage, managed with oral therapy and GP review within days"
+   },
+   {
+    "id": "C",
+    "text": "Pain-related blood pressure elevation needing analgesia only and no antihypertensive action"
+   },
+   {
+    "id": "D",
+    "text": "Probable secondary hypertension requiring urgent renal artery imaging before discharge"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "hypertension on the ward",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.4"
+  ]
+ }
+]

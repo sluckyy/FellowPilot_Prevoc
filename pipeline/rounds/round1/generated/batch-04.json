@@ -265,11 +265,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Prescribe the next litre of sodium chloride 0.9% with potassium chloride 40 mmol added and defer the insulin infusion until potassium is above 3.5 mmol/L"
+    "text": "Add potassium chloride 40 mmol to the next litre of sodium chloride 0.9% and defer the insulin infusion until potassium exceeds 3.5 mmol/L"
    },
    {
     "id": "B",
-    "text": "Start an insulin infusion at 0.1 units/kg/hour now with potassium-free sodium chloride 0.9% running alongside"
+    "text": "Start an insulin infusion at 0.1 units/kg/hour immediately, with potassium-free sodium chloride 0.9% running alongside at 250 mL/hour"
    },
    {
     "id": "C",
@@ -433,7 +433,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Neutral (short-acting) insulin 10 units subcutaneously with glucose 10% 500 mL intravenously over 4 hours"
+    "text": "Neutral (short-acting) insulin 10 units subcutaneously now with glucose 10% 500 mL intravenously over 4 hours"
    },
    {
     "id": "B",
@@ -441,7 +441,7 @@
    },
    {
     "id": "C",
-    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 50% 50 mL intravenously over 15 to 30 minutes, then blood glucose hourly"
+    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 50% 50 mL intravenously over 15 to 30 minutes"
    },
    {
     "id": "D",
@@ -527,7 +527,7 @@
    },
    {
     "id": "B",
-    "text": "Order paired serum and urine osmolality and a repeat sodium, and escalate once those results are available"
+    "text": "Order paired serum and urine osmolality and a repeat sodium in 2 hours, and escalate to the registrar once those results are available"
    },
    {
     "id": "C",
@@ -535,7 +535,7 @@
    },
    {
     "id": "D",
-    "text": "Phone the neurosurgical registrar now with an ISBAR handover, and in the meantime ensure free access to oral water, strict fluid balance and a repeat sodium within 2 hours"
+    "text": "Phone the neurosurgical registrar now with an ISBAR handover, keep oral water available and chart strict fluid balance"
    }
   ],
   "key": "D",
@@ -703,11 +703,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Post-operative ileus is preventing absorption of the potassium given"
+    "text": "Post-operative ileus is preventing absorption of the potassium she has been given"
    },
    {
     "id": "B",
-    "text": "Hypomagnesaemia is causing ongoing renal potassium wasting, so the potassium will not correct until magnesium is replaced"
+    "text": "Hypomagnesaemia is causing renal potassium wasting, so potassium will not correct until magnesium is replaced"
    },
    {
     "id": "C",
@@ -791,11 +791,11 @@
    },
    {
     "id": "B",
-    "text": "The prolonged QTc is an adverse effect of diazepam and the electrolytes are incidental"
+    "text": "The prolonged QTc is an adverse effect of the diazepam he has received and the electrolyte changes are incidental findings"
    },
    {
     "id": "C",
-    "text": "Hypomagnesaemia is the underlying cause of the hypokalaemia, hypocalcaemia and QT prolongation, and magnesium must be replaced for the others to correct"
+    "text": "Hypomagnesaemia underlies the hypokalaemia, hypocalcaemia and QT prolongation, and must be replaced for the others to correct"
    },
    {
     "id": "D",
@@ -872,19 +872,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Continue glucose 5% at 125 mL/hour and recheck the sodium tomorrow morning"
+    "text": "Continue glucose 5% at 125 mL/hour until she is drinking freely and recheck the sodium tomorrow morning"
    },
    {
     "id": "B",
-    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes"
+    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes and recheck the sodium afterwards"
    },
    {
     "id": "C",
-    "text": "Give furosemide 40 mg intravenously to remove free water"
+    "text": "Give furosemide 40 mg intravenously to remove free water and recheck the sodium in 4 hours"
    },
    {
     "id": "D",
-    "text": "Cease the glucose 5% infusion, send paired serum and urine osmolality and urine sodium, and recheck the serum sodium in 4 to 6 hours"
+    "text": "Cease the glucose 5%, send paired serum and urine osmolality and urine sodium, and recheck the sodium in 4 to 6 hours"
    }
   ],
   "key": "D",
@@ -1043,7 +1043,7 @@
    },
    {
     "id": "B",
-    "text": "Dilutional hyponatraemia caused by hypotonic maintenance fluid in hospital, now resolved, needing only a repeat sodium in a week or two"
+    "text": "Dilutional hyponatraemia from hypotonic maintenance fluid in hospital, now resolved, needing a repeat sodium in a week or two"
    },
    {
     "id": "C",
@@ -1051,7 +1051,7 @@
    },
    {
     "id": "D",
-    "text": "Pseudohyponatraemia from lipaemia during the acute illness, requiring no further action"
+    "text": "Pseudohyponatraemia from lipaemia during the acute illness, requiring no further action or testing"
    }
   ],
   "key": "B",
@@ -1213,19 +1213,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Request a renal tract ultrasound at the regional imaging service for later this week"
+    "text": "Request a renal tract ultrasound at the regional imaging service for later this week and review the result at the physician's visit"
    },
    {
     "id": "B",
-    "text": "Phone the Adelaide renal unit to arrange transfer for possible dialysis"
+    "text": "Phone the Adelaide renal unit this morning to arrange transfer for possible dialysis"
    },
    {
     "id": "C",
-    "text": "Give a 1 L bolus of sodium chloride 0.9% and repeat the bloods this afternoon"
+    "text": "Give a 1 L bolus of sodium chloride 0.9% over 1 hour and repeat the bloods this afternoon"
    },
    {
     "id": "D",
-    "text": "Withhold metformin, perindopril, empagliflozin and ibuprofen, check volume status and fluid balance, and phone the physician today with an ISBAR summary"
+    "text": "Withhold metformin, perindopril, empagliflozin and ibuprofen, assess volume status and phone the physician today"
    }
   ],
   "key": "D",
@@ -1389,11 +1389,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Transfuse one unit of packed red cells overnight to bring the haemoglobin above 100 g/L"
+    "text": "Transfuse one unit of packed red cells overnight to bring the haemoglobin above 100 g/L before he travels home"
    },
    {
     "id": "B",
-    "text": "Send iron studies now, tell the patient about the finding, and record the anaemia with a clear plan for GP follow-up of iron deficiency in the discharge summary"
+    "text": "Send iron studies now, tell him about the result, and document the anaemia with a GP follow-up plan in the discharge summary"
    },
    {
     "id": "C",
@@ -1401,7 +1401,7 @@
    },
    {
     "id": "D",
-    "text": "Prescribe oral ferrous sulfate on the discharge script with a repeat blood count in 3 months"
+    "text": "Prescribe oral ferrous sulfate on the discharge script with a repeat full blood count at his GP in 3 months"
    }
   ],
   "key": "B",
@@ -1480,7 +1480,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Give amiodarone 300 mg intravenously over 1 hour to restore sinus rhythm"
+    "text": "Give amiodarone 300 mg intravenously over 1 hour to restore sinus rhythm before the physician's morning round"
    },
    {
     "id": "B",
@@ -1488,11 +1488,11 @@
    },
    {
     "id": "C",
-    "text": "Correct the potassium and magnesium, give fluid and paracetamol, review the oxygen, and phone the physician to agree a rate-control plan"
+    "text": "Replace potassium and magnesium, give fluid and paracetamol, review the oxygen, and phone the physician for a rate-control plan"
    },
    {
     "id": "D",
-    "text": "Arrange synchronised DC cardioversion under sedation in the emergency department"
+    "text": "Arrange synchronised DC cardioversion under sedation in the emergency department before the rhythm becomes established"
    }
   ],
   "key": "C",
@@ -1565,19 +1565,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Give flecainide 300 mg orally now and discharge her once the rhythm reverts"
+    "text": "Give flecainide 300 mg orally now and discharge her once the rhythm reverts, with GP review in a week"
    },
    {
     "id": "B",
-    "text": "Perform synchronised DC cardioversion under procedural sedation in the department tonight"
+    "text": "Perform synchronised DC cardioversion under procedural sedation in the department tonight with the nurse assisting"
    },
    {
     "id": "C",
-    "text": "Start apixaban 5 mg twice daily and discharge her for GP review in 2 weeks"
+    "text": "Start apixaban 5 mg twice daily and discharge her for GP review in 2 weeks with advice to return if symptoms recur"
    },
    {
     "id": "D",
-    "text": "Keep her monitored, check the bloods, and phone the GP on call and the cardiology registrar to agree a rate-control and cardioversion plan"
+    "text": "Keep her monitored, check the bloods, and phone the GP on call and the cardiology registrar for a plan"
    }
   ],
   "key": "D",
@@ -1820,19 +1820,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Cease furosemide and give sodium chloride 0.9% 500 mL to restore the blood pressure"
+    "text": "Cease furosemide and give sodium chloride 0.9% 500 mL over 30 minutes to restore the blood pressure"
    },
    {
     "id": "B",
-    "text": "Increase the furosemide to 120 mg twice daily because oedema persists"
+    "text": "Increase the furosemide to 120 mg intravenously twice daily because the ankle oedema persists"
    },
    {
     "id": "C",
-    "text": "Withhold this morning's spironolactone and perindopril, request an ECG and repeat potassium, and discuss the diuretic dose with the registrar"
+    "text": "Withhold this morning's spironolactone and perindopril, check an ECG and potassium, and discuss the diuretic with the registrar"
    },
    {
     "id": "D",
-    "text": "Give calcium gluconate 10% 10 mL intravenously for the hyperkalaemia"
+    "text": "Give calcium gluconate 10% 10 mL intravenously over 5 minutes for the hyperkalaemia before the morning doses"
    }
   ],
   "key": "C",
@@ -1910,19 +1910,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Give furosemide 40 mg intravenously and insert a urinary catheter to monitor output"
+    "text": "Give furosemide 40 mg intravenously and insert a urinary catheter to monitor the diuretic response"
    },
    {
     "id": "B",
-    "text": "Send troponin, B-type natriuretic peptide and blood cultures and await the results"
+    "text": "Send troponin, B-type natriuretic peptide and blood cultures and await the results before treatment"
    },
    {
     "id": "C",
-    "text": "Request an urgent bedside echocardiogram to define the cause of heart failure"
+    "text": "Request an urgent bedside echocardiogram to define the cause of heart failure before starting treatment"
    },
    {
     "id": "D",
-    "text": "Sit him upright, give sublingual glyceryl trinitrate 400 micrograms, and call the consultant now to start continuous positive airway pressure"
+    "text": "Sit him upright, give sublingual glyceryl trinitrate 400 micrograms and call the consultant now to start CPAP"
    }
   ],
   "key": "D",
@@ -2078,11 +2078,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Hypertensive emergency requiring intravenous labetalol and retrieval to Adelaide tonight"
+    "text": "Hypertensive emergency requiring intravenous labetalol and retrieval to Adelaide tonight for monitoring"
    },
    {
     "id": "B",
-    "text": "Severe hypertension without acute target organ damage, managed by restarting oral therapy with GP review within days"
+    "text": "Severe hypertension without acute target organ damage, managed with oral therapy and GP review within days"
    },
    {
     "id": "C",

@@ -1,0 +1,2111 @@
+[
+ {
+  "work_order_id": "r1-151",
+  "item_id": "3f84ce57-cff3-46d5-93e6-fcec493196cc",
+  "version": 1,
+  "stem": "A 46-year-old woman attends the gynaecology outpatient clinic of a regional hospital, where the visiting gynaecologist reviews patients by phone between monthly visits. She has had irregular periods for a year and assumed she was perimenopausal, but now has seven weeks of amenorrhoea, light spotting and three days of mild left iliac fossa discomfort. She is haemodynamically stable (heart rate 78/min, blood pressure 124/78 mmHg) with mild left iliac fossa tenderness and no peritonism. Serum beta-hCG is 1,800 IU/L. Transvaginal ultrasound this morning shows an empty uterus, a 2.5 cm left adnexal mass without a yolk sac or fetal cardiac activity, and a small amount of free fluid in the pouch of Douglas. Liver and renal function and full blood count are normal. She lives on a station 250 km away, has no car this week and says she cannot return for blood tests until the next clinic in a month. The gynaecologist is considering methotrexate.",
+  "lead_in": "Which feature makes medical management with methotrexate unsuitable for her?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A serum beta-hCG of 1,800 IU/L"
+   },
+   {
+    "id": "B",
+    "text": "A small amount of free fluid in the pouch of Douglas"
+   },
+   {
+    "id": "C",
+    "text": "Her inability to return for serial beta-hCG monitoring"
+   },
+   {
+    "id": "D",
+    "text": "An adnexal mass of 2.5 cm without fetal cardiac activity"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A beta-hCG of 1,800 IU/L is well below the level (around 5,000 IU/L) above which methotrexate failure becomes likely; a low hCG favours medical management.",
+   "B": "A small volume of free pelvic fluid is common in unruptured ectopic pregnancy and, in a stable woman without peritonism, does not by itself indicate rupture or exclude methotrexate; a large haemoperitoneum or haemodynamic instability would.",
+   "C": "Methotrexate for ectopic pregnancy requires serum beta-hCG on days 4 and 7 and then weekly until undetectable, plus ready access to emergency care if rupture occurs. A woman who cannot attend this follow-up or reach hospital quickly is not a candidate, and surgical management should be discussed with her instead.",
+   "D": "A mass under 3.5 cm with no fetal cardiac activity is within the usual criteria for methotrexate; a larger mass or cardiac activity would be reasons to prefer surgery."
+  },
+  "learning_point": "Methotrexate for ectopic pregnancy is only safe when the woman is stable, has a low beta-hCG and a small mass without cardiac activity, and can reliably return for serial beta-hCG monitoring and urgent care.",
+  "setting_note": "In a regional hospital, distance and transport often decide between medical and surgical management: a woman who cannot return for day 4 and 7 bloods or reach an operating theatre quickly if she ruptures should be discussed with the gynaecologist for laparoscopy, either locally when the visiting surgeon is available or in Adelaide.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Rural and remote",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "minor",
+   "uncertainty_note": "Exact hCG and mass-size cut-offs for methotrexate vary between guidelines (3,500 to 5,000 IU/L; 3.5 to 4 cm); the item avoids hinging on a specific numeric cut-off."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Sexual and reproductive health",
+    "locator": "Ectopic pregnancy: medical management with methotrexate, patient selection and follow-up",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Queensland Clinical Guideline: Early pregnancy loss",
+    "locator": "Ectopic pregnancy: criteria for methotrexate and follow-up",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: methotrexate is for stable women with unruptured ectopic, hCG usually under 5,000 IU/L, mass under 3.5 cm, no cardiac activity, normal FBC/LFT/UEC and reliable follow-up (hCG day 4 and 7, then weekly). Misconceptions: any free fluid means rupture; age alone is a contraindication. Out of scope: methotrexate dosing and the decision itself, which belong to the gynaecologist.",
+  "plan": "Tests recall of patient-selection criteria for methotrexate in ectopic pregnancy, evidencing 4.1 and 1.7. A perimenopausal woman in a regional clinic with an unruptured ectopic makes the follow-up constraint real. Distractors are features interns misread as contraindications (small free fluid, hCG level, mass size). Supported by Therapeutic Guidelines and the Queensland early pregnancy loss guideline."
+ },
+ {
+  "work_order_id": "r1-152",
+  "item_id": "05921acb-fddd-762a-eedf-77f70e8e0b46",
+  "version": 1,
+  "stem": "A 22-year-old woman sees you in a general practice attached to a metropolitan general hospital. Her last period was six weeks ago and a home pregnancy test yesterday was positive. For 24 hours she has had intermittent right iliac fossa pain, worse this morning, and a small amount of brown vaginal spotting. She had chlamydia treated two years ago. She looks well: heart rate 86/min, blood pressure 116/74 mmHg, afebrile. Abdominal examination shows mild right iliac fossa tenderness without guarding or rebound. A urine pregnancy test in the practice is positive. She asks whether she can wait and see, because the pain has eased with paracetamol and she has work tomorrow. The practice has no ultrasound; the hospital runs an early pregnancy assessment service and has an emergency department.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a pelvic ultrasound through a community radiology practice for later in the week and review the report when it arrives"
+   },
+   {
+    "id": "B",
+    "text": "Refer her today to the hospital early pregnancy assessment service for serum beta-hCG and transvaginal ultrasound"
+   },
+   {
+    "id": "C",
+    "text": "Request serum beta-hCG and progesterone through community pathology and review her tomorrow with the results"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe regular paracetamol and repeat the urine pregnancy test in one week if the pain persists"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "An ultrasound in several days leaves a possible ectopic pregnancy undiagnosed during the period when it may rupture; the scan should be transvaginal and performed the same day, which community practices often cannot provide.",
+   "B": "Any woman with a positive pregnancy test, abdominal pain and bleeding has a possible ectopic pregnancy until an intrauterine pregnancy is seen. Previous chlamydia increases her risk. Same-day serum beta-hCG and transvaginal ultrasound through an early pregnancy assessment service, with clear instructions to attend the emergency department if pain worsens or she feels faint, is the standard of care even when she looks well.",
+   "C": "A serum beta-hCG alone cannot locate the pregnancy, and a single progesterone does not exclude ectopic pregnancy; waiting a day for results delays definitive imaging.",
+   "D": "Analgesia and watchful waiting for a week risks rupture and haemorrhage; pain easing with paracetamol does not exclude an ectopic pregnancy."
+  },
+  "learning_point": "Pain or bleeding in early pregnancy requires same-day serum beta-hCG and transvaginal ultrasound to locate the pregnancy, regardless of how well the woman looks.",
+  "setting_note": "In a regional centre without same-day ultrasound, phone the on-call obstetric or gynaecology team and arrange an urgent scan or transfer the same day; give clear instructions to present to the nearest emergency department immediately if pain increases, she feels faint or bleeding becomes heavy.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Sexual and reproductive health",
+    "locator": "Ectopic pregnancy: presentation and diagnosis",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Queensland Clinical Guideline: Early pregnancy loss",
+    "locator": "Assessment of pain and bleeding in early pregnancy; pregnancy of unknown location",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: positive pregnancy test plus pain or bleeding equals possible ectopic until an intrauterine pregnancy is seen; same-day beta-hCG and transvaginal ultrasound; risk factors include previous pelvic infection, tubal surgery, IUD, IVF. Misconceptions: a stable, well-looking woman can wait; a single hCG or progesterone is diagnostic. Out of scope: interpretation of serial hCG trends and choice of treatment.",
+  "plan": "Tests the management decision that early pregnancy pain and bleeding need same-day hospital-based assessment (4.1, 1.7). A general practice setting with a stable young woman who wants to wait creates the temptation to defer. Distractors are the delays an intern might accept: outpatient scan, community bloods, watchful waiting. Supported by Therapeutic Guidelines and the Queensland early pregnancy loss guideline."
+ },
+ {
+  "work_order_id": "r1-153",
+  "item_id": "6fbf93ad-6c02-84e9-7980-358dd7ecdf87",
+  "version": 1,
+  "stem": "A 45-year-old woman at 35 weeks of gestation attends her general practitioner for a routine shared-care antenatal visit; the practice is linked to a tertiary hospital in Adelaide. This is an IVF pregnancy using a donor egg. Her booking blood pressure was 112/70 mmHg and her antenatal course has been uncomplicated. Today her blood pressure is 142/92 mmHg and, after ten minutes of rest, 144/90 mmHg. Urine dipstick shows no protein. She mentions two days of epigastric discomfort and nausea that she has attributed to reflux, with no headache or visual symptoms. Fetal movements are normal and the fundal height is appropriate. She has no oedema. Her next hospital clinic appointment is in two weeks.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe an antacid for reflux and recheck her blood pressure at a nurse visit in one week"
+   },
+   {
+    "id": "B",
+    "text": "Start labetalol 100 mg twice daily and review her blood pressure and a urine protein-creatinine ratio in one week"
+   },
+   {
+    "id": "C",
+    "text": "Request full blood count, liver and renal function and urine protein-creatinine ratio through community pathology and review the results tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Refer her the same day to the hospital maternity assessment unit for pre-eclampsia investigations and fetal assessment"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Treating her as reflux ignores new hypertension after 20 weeks combined with epigastric pain, a recognised warning symptom of pre-eclampsia and HELLP syndrome; waiting a week is unsafe.",
+   "B": "Antihypertensive treatment may be needed, but starting it in general practice without investigating for pre-eclampsia delays diagnosis; the blood pressure is only mildly raised, and the concerning feature is the epigastric pain.",
+   "C": "These are the right investigations but the wrong timeframe: community pathology results take hours to a day, there is no fetal assessment, and a woman with possible pre-eclampsia and epigastric pain should be assessed in hospital today.",
+   "D": "New-onset hypertension after 20 weeks must be assessed for pre-eclampsia, which can occur without proteinuria. Epigastric pain with new hypertension is a red flag for hepatic involvement, so same-day hospital assessment with blood tests, urine protein-creatinine ratio and fetal monitoring is required, with the obstetric team deciding on antihypertensives and timing of birth."
+  },
+  "learning_point": "Epigastric pain with new hypertension in the second half of pregnancy is a pre-eclampsia red flag that needs same-day hospital assessment even when proteinuria is absent and the blood pressure rise is mild.",
+  "setting_note": "From a regional practice, phone the on-call obstetric team at the nearest birthing hospital and arrange same-day assessment there or transfer; if blood pressure reaches 160/110 mmHg or she develops severe symptoms, she should travel by ambulance.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "hypertension in pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "SOMANZ Hypertension in Pregnancy Guideline 2023",
+    "locator": "Definition and diagnosis of pre-eclampsia; assessment of new-onset hypertension after 20 weeks; warning symptoms",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Hypertension in pregnancy: assessment and when to refer",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hypertension in pregnancy is 140/90 mmHg or above on repeated measurement after 20 weeks; pre-eclampsia is hypertension plus any maternal organ involvement (renal, hepatic, haematological, neurological) or fetal growth restriction, and proteinuria is no longer required; epigastric or right upper quadrant pain, headache, visual disturbance and reduced fetal movements are warning symptoms. Misconceptions: no proteinuria means no pre-eclampsia; mild blood pressure means low urgency. Out of scope: choice and dose of antihypertensive, magnesium sulfate and timing of birth.",
+  "plan": "Tests recognition that mild new hypertension with epigastric pain is a pre-eclampsia red flag needing same-day hospital assessment (4.1, 1.7). An older IVF pregnancy in shared care sets up the temptation to manage in general practice. Distractors are plausible slower pathways: treat reflux, start an antihypertensive, order the right bloods through community pathology. Supported by the SOMANZ 2023 guideline and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-154",
+  "item_id": "ee55c377-08b7-4b7e-add0-56e5c48e8fac",
+  "version": 1,
+  "stem": "A 23-year-old woman attends the outpatient clinic of a rural hospital on the Yorke Peninsula, five days after an uncomplicated vaginal birth at the regional maternity unit. She has felt feverish and shivery for 24 hours, with lower abdominal cramping and offensive-smelling lochia. She is breastfeeding and her breasts are soft and non-tender. Her perineum is intact. Observations: temperature 38.6 °C, heart rate 108/min, blood pressure 108/66 mmHg, respiratory rate 20/min, oxygen saturation 98%. The uterus is tender and slightly bulky on abdominal palpation; there is no loin tenderness. Urine dipstick shows a trace of leucocytes. She has no drug allergies. The GP obstetrician is on call by phone and the hospital has a small inpatient ward.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit her for blood cultures and intravenous amoxicillin, gentamicin and metronidazole"
+   },
+   {
+    "id": "B",
+    "text": "Prescribe oral amoxicillin and clavulanic acid and arrange review in the clinic in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Prescribe oral cefalexin for a urinary tract infection and send a midstream urine for culture"
+   },
+   {
+    "id": "D",
+    "text": "Arrange a pelvic ultrasound to look for retained products before deciding on antibiotics"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Fever, uterine tenderness and offensive lochia five days postpartum indicate endometritis. With a temperature of 38.6 °C and tachycardia she has systemic features and should be admitted for blood cultures and intravenous antibiotics covering aerobes and anaerobes, as Therapeutic Guidelines recommends for postpartum endometritis; the GP obstetrician should be informed. Gentamicin and metronidazole are compatible with breastfeeding.",
+   "B": "Oral amoxicillin and clavulanic acid is reasonable for mild endometritis in a well woman with low-grade fever who can be reviewed, but her tachycardia and high fever place her outside that group and a 48-hour gap risks progression to sepsis.",
+   "C": "A trace of leucocytes on dipstick is common postpartum and does not explain uterine tenderness and offensive lochia; treating for a urinary infection misses the diagnosis and under-treats her.",
+   "D": "Ultrasound may be considered later if she fails to improve, but imaging should not delay antibiotics in a febrile, tachycardic postpartum woman."
+  },
+  "learning_point": "Postpartum fever with uterine tenderness and offensive lochia is endometritis; systemic features such as fever above 38 °C with tachycardia mean admission, blood cultures and intravenous antibiotics rather than oral treatment and outpatient review.",
+  "setting_note": "In a rural hospital with one junior doctor overnight, admit her early rather than relying on review in 48 hours, phone the GP obstetrician on call, and apply the local deteriorating-patient criteria; if she meets sepsis criteria or does not improve within 24 to 48 hours, discuss transfer to the regional maternity unit or Adelaide.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "postpartum fever",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Postpartum endometritis: intravenous regimen for moderate to severe infection; oral regimen for mild infection",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Gentamicin and metronidazole: use in breastfeeding",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: endometritis is the commonest cause of postpartum fever after day 2; diagnosis is clinical (fever, uterine tenderness, offensive lochia); intravenous amoxicillin or ampicillin plus gentamicin plus metronidazole for systemic illness, oral amoxicillin-clavulanate for mild cases; also consider mastitis, urinary infection, wound infection, venous thromboembolism. Misconceptions: breastfeeding precludes gentamicin or metronidazole; imaging is needed before treating. Out of scope: management of retained products and surgical evacuation.",
+  "plan": "Tests the decision between oral outpatient and inpatient intravenous treatment of postpartum endometritis (4.1, 1.7, 1.8). A young breastfeeding woman in a rural outpatient clinic with systemic features makes the choice consequential. Distractors are the oral option that suits milder cases, misattribution to urinary infection, and imaging before antibiotics. Supported by Therapeutic Guidelines Antibiotic and the AMH."
+ },
+ {
+  "work_order_id": "r1-155",
+  "item_id": "82fad2a1-5adf-bc95-f0d3-c0985ad30b9d",
+  "version": 1,
+  "stem": "A 45-year-old woman at 30 weeks of gestation presents at 2200 to the emergency department of a metropolitan general hospital with two days of swelling and aching in her left calf, which is now painful to walk on. She has no chest pain or breathlessness. She has a singleton pregnancy conceived by IVF and a body mass index of 34. Observations: heart rate 92/min, blood pressure 122/78 mmHg, respiratory rate 16/min, oxygen saturation 98% on room air, afebrile. The left calf is 4 cm larger in circumference than the right, warm and tender along the medial calf. The ultrasound department does not open until 0800 and the obstetric registrar is on site.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a D-dimer and, if it is below the laboratory threshold, discharge her with antenatal clinic review"
+   },
+   {
+    "id": "B",
+    "text": "Start therapeutic enoxaparin now and arrange compression ultrasound of the leg when imaging opens"
+   },
+   {
+    "id": "C",
+    "text": "Start warfarin tonight and arrange compression ultrasound of the leg as an outpatient"
+   },
+   {
+    "id": "D",
+    "text": "Advise compression stockings, elevation and analgesia, with review in the antenatal clinic in one week"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "D-dimer rises physiologically in pregnancy, so a positive result is uninterpretable, and a negative result is not validated to exclude deep vein thrombosis in pregnancy; it should not guide discharge.",
+   "B": "Pregnancy, IVF and obesity are risk factors, and unilateral calf swelling with a 4 cm difference makes deep vein thrombosis likely. Because imaging is delayed, therapeutic weight-based low-molecular-weight heparin should be started now and compression ultrasound performed when available; enoxaparin does not cross the placenta and is the anticoagulant of choice in pregnancy. The obstetric registrar should be informed.",
+   "C": "Warfarin crosses the placenta, is teratogenic and is associated with fetal haemorrhage; it is not used for venous thromboembolism in pregnancy, and outpatient imaging delays confirmation.",
+   "D": "Conservative measures alone leave a probable deep vein thrombosis untreated for a week, risking extension and pulmonary embolism."
+  },
+  "learning_point": "Suspected deep vein thrombosis in pregnancy is treated with weight-based therapeutic low-molecular-weight heparin while awaiting compression ultrasound, and D-dimer should not be used to exclude it.",
+  "setting_note": "In a regional hospital without overnight ultrasound, the same approach applies: start enoxaparin after discussing with the obstetric team on call and arrange imaging the next morning locally or in Adelaide; if she develops chest pain or breathlessness, treat as possible pulmonary embolism and arrange urgent transfer.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "pregnant patient in the emergency department",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Venous thromboembolism in pregnancy: diagnosis and treatment with low-molecular-weight heparin",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "SOMANZ and ASTH consensus: Recommendations for the diagnosis and treatment of deep venous thrombosis and pulmonary embolism in pregnancy and the postpartum period",
+    "locator": "Diagnostic approach; role of D-dimer; empirical anticoagulation when imaging delayed",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: pregnancy increases venous thromboembolism risk four- to five-fold; left leg is more often affected; compression ultrasound is the first-line test; therapeutic enoxaparin 1 mg/kg twice daily (or 1.5 mg/kg daily) based on current weight; warfarin and direct oral anticoagulants are avoided in pregnancy. Misconceptions: a negative D-dimer excludes clot in pregnancy; anticoagulation must wait for imaging. Out of scope: management of pulmonary embolism, imaging choice for suspected PE, peripartum anticoagulation planning.",
+  "plan": "Tests the management of suspected deep vein thrombosis in pregnancy when imaging is delayed (4.1, 1.7, 1.8). An older, obese IVF pregnancy at night in a general hospital makes the choice between empirical heparin and waiting realistic. Distractors are the D-dimer trap, warfarin, and conservative measures. Supported by Therapeutic Guidelines and the SOMANZ/ASTH consensus."
+ },
+ {
+  "work_order_id": "r1-156",
+  "item_id": "0f313f78-f13e-a506-cf4c-ad3a3abdcf22",
+  "version": 1,
+  "stem": "A 32-year-old woman is seen in the outpatient clinic of a rural hospital on the Yorke Peninsula, referred by the practice nurse after a positive pregnancy test. By dates she is six weeks pregnant; the pregnancy is unplanned but wanted. Her medications are perindopril 5 mg daily for hypertension started two years ago, sodium valproate 500 mg twice daily for generalised epilepsy (seizure-free for three years), sertraline 50 mg daily for anxiety, and folic acid 0.5 mg daily that she started last week. Her blood pressure today is 128/80 mmHg. Her neurologist is in Adelaide and sees her annually; the GP obstetrician is available by phone. You are the PGY2 resident running the clinic.",
+  "lead_in": "Which action should you take before she leaves the clinic today?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease perindopril today and ask the GP obstetrician whether an alternative antihypertensive is needed"
+   },
+   {
+    "id": "B",
+    "text": "Cease sodium valproate today and request an urgent appointment with her neurologist in Adelaide"
+   },
+   {
+    "id": "C",
+    "text": "Change sertraline to a different antidepressant with more pregnancy safety data and review in two weeks"
+   },
+   {
+    "id": "D",
+    "text": "Replace sodium valproate with lamotrigine today and arrange an urgent neurology review"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "ACE inhibitors are contraindicated in pregnancy because of fetotoxicity (renal dysgenesis, oligohydramnios, skull hypoplasia, fetal death), and should be stopped as soon as pregnancy is confirmed. Her blood pressure today is 128/80 mmHg so she may need nothing for now; the GP obstetrician should decide whether labetalol, nifedipine or methyldopa is required. This is within a resident's scope and must happen today.",
+   "B": "Sodium valproate carries the highest teratogenic risk of the antiepileptic drugs and her neurologist should be contacted urgently this week, but abrupt cessation risks breakthrough seizures that endanger her and the pregnancy. Antiepileptic changes in pregnancy are specialist decisions.",
+   "C": "Sertraline is one of the better-studied antidepressants in pregnancy and is usually continued; switching risks relapse and offers no safety benefit.",
+   "D": "Lamotrigine is a safer antiepileptic in pregnancy, but a switch requires slow cross-titration under neurologist supervision with monitoring of levels; a resident substituting it in clinic is unsafe and outside scope."
+  },
+  "learning_point": "When pregnancy is confirmed in a woman on an ACE inhibitor, stop it the same day and arrange a safe alternative if needed; antiepileptic drugs are never stopped or swapped abruptly and need urgent specialist input, with folic acid increased to 5 mg daily.",
+  "setting_note": "In a rural clinic the urgent specialist phone calls are part of the same day's work: the GP obstetrician for antihypertensive choice and shared-care antenatal planning, and the neurologist's rooms in Adelaide or the on-call neurology registrar for an expedited valproate review. Increase folic acid to 5 mg daily today because she is on valproate.",
+  "learning_area": "Obstetrics and women's health",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Neurology",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "prescribing in pregnancy and breastfeeding",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "minor",
+   "uncertainty_note": "AMH and the TGA advise ceasing ACE inhibitors at confirmation of pregnancy; data on first-trimester malformation risk are mixed, but cessation itself is uncontroversial. High-dose folic acid is also a same-day action and is addressed in the learning point and setting note rather than as an option."
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Perindopril and ACE inhibitors: pregnancy (contraindicated); Antiepileptics: pregnancy and valproate",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Epilepsy: management in pregnancy; do not stop antiepileptic therapy abruptly",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ACE inhibitors and angiotensin receptor blockers are stopped at confirmation of pregnancy and replaced with labetalol, nifedipine or methyldopa if needed; valproate is the most teratogenic antiepileptic but must not be stopped or swapped abruptly; women on valproate need folic acid 5 mg daily; sertraline is generally continued. Misconceptions: stopping valproate immediately protects the fetus; sertraline must be changed. Out of scope: antiepileptic cross-titration regimens and pregnancy category labelling details.",
+  "plan": "Tests prioritisation of medication changes at pregnancy confirmation: which action is urgent and within a resident's scope versus which needs a specialist (4.1, 1.7, 1.8). A rural clinic with specialists by phone makes scope and sequencing matter. Distractors are the tempting but unsafe immediate valproate changes and an unnecessary sertraline switch. Supported by the AMH and Therapeutic Guidelines Neurology."
+ },
+ {
+  "work_order_id": "r1-157",
+  "item_id": "41f923c1-3814-2f22-37b7-473ad06caba2",
+  "version": 1,
+  "stem": "You are the evening cover resident at a large metropolitan teaching hospital. At 2130 a nurse asks you to review a 79-year-old woman with severe COPD on home oxygen, admitted two days ago with pneumonia. Her respiratory rate is 32/min, oxygen saturation 86% on 6 L/min via Hudson mask, heart rate 118/min and blood pressure 138/84 mmHg, and she is drowsy but rousable, meeting rapid response criteria. The nurse shows you a certified Advance Care Directive in the notes: she refuses intubation and CPR in any circumstances, but wants treatments that may get her home, including a trial of mask ventilation. No Resuscitation Plan (7-Step Pathway) has been completed by the day team. Her husband, her substitute decision-maker, is not contactable yet. The medical registrar is in the emergency department.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Activate a rapid response call and proceed with full escalation, including intubation if required, because no Resuscitation Plan has been completed"
+   },
+   {
+    "id": "B",
+    "text": "Withhold further active treatment and start end-of-life comfort care, in keeping with the limits in her directive"
+   },
+   {
+    "id": "C",
+    "text": "Activate a rapid response call and treat within her directive's limits, including non-invasive ventilation"
+   },
+   {
+    "id": "D",
+    "text": "Defer treatment decisions until her husband can be reached to give consent as her substitute decision-maker"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Under the Advance Care Directives Act 2013 (SA), a binding refusal of CPR or intubation in a certified directive must be followed when it applies to the current circumstances; a missing Resuscitation Plan does not override it. Intubating her against her refusal would be unlawful.",
+   "B": "Her directive refuses only intubation and CPR; it explicitly asks for treatment that might get her home. Withholding controlled oxygen, antibiotics, bronchodilators and non-invasive ventilation misreads a limitation of treatment as a request for palliation.",
+   "C": "She is deteriorating and meets escalation criteria, so the rapid response team should be called now. Her directive sets the ceiling of care (no intubation or CPR) and permits a trial of non-invasive ventilation, so treatment proceeds within those limits. The registrar should document a Resuscitation Plan reflecting the directive, and the husband should be updated when reached.",
+   "D": "A substitute decision-maker cannot override a binding refusal, and his consent is not needed for treatment she has asked for; delaying escalation while he is contacted risks avoidable harm."
+  },
+  "learning_point": "A certified Advance Care Directive sets the ceiling of treatment, not the floor: a refusal of intubation and CPR is binding and does not prevent active escalation of everything else the patient wants.",
+  "setting_note": "In a regional hospital without on-site intensive care, the same ceiling applies; non-invasive ventilation may be available in the emergency department or ward, and the directive informs whether retrieval to Adelaide for higher-level care is appropriate, which should be discussed with the on-call physician.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Professionalism, ethics and law",
+   "Palliative care and goals of care"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "advance care directives",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "Advance Care Directives Act 2013 (SA): information for health practitioners",
+    "locator": "Binding and non-binding provisions; when a refusal of health care must be followed; role of substitute decision-makers",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Resuscitation Planning: 7 Step Pathway policy directive",
+    "locator": "Documenting a Resuscitation Plan consistent with an Advance Care Directive; care within agreed limits",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: in SA a certified Advance Care Directive's refusal of specific treatment is binding when the person lacks capacity and the refusal applies to the circumstances; other provisions are wishes that guide care; a substitute decision-maker cannot consent to treatment the person has refused; a Resuscitation Plan is the clinical order that translates the directive into bedside instructions. Misconceptions: no Resuscitation Plan means full resuscitation regardless; a directive means do nothing. Out of scope: resolving disputes between family and directive, and the technical delivery of non-invasive ventilation.",
+  "plan": "Tests applying an Advance Care Directive to an acute deterioration after hours (1.4, 3.2, 1.9). A woman with severe COPD and a directive that refuses intubation but requests a trial of mask ventilation makes the ceiling-of-care distinction necessary. Distractors are the two misreadings of the directive and deferring to the absent husband. Supported by SA Health guidance on the ACD Act and the 7 Step Pathway."
+ },
+ {
+  "work_order_id": "r1-158",
+  "item_id": "ee031eb1-e607-ca41-bb75-fccdaf49b138",
+  "version": 1,
+  "stem": "A 68-year-old man is admitted to the surgical ward of a 30-bed regional hospital in South Australia's Mid North the afternoon before an elective inguinal hernia repair by the visiting surgeon. He is independent, has well-controlled type 2 diabetes and is otherwise well. While you are clerking him he hands you a copy of his Advance Care Directive, completed last year after his wife's death. It states that he refuses CPR and life support 'if I am dying from an illness that cannot be cured and will not recover a meaningful quality of life'. He has not discussed it with the surgeon. The nurse asks whether she should write 'not for CPR' on his chart and whether the anaesthetist needs to know.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Record 'not for resuscitation' on his observation chart tonight because his directive refuses CPR"
+   },
+   {
+    "id": "B",
+    "text": "Return the directive to him and explain that it does not apply while he has decision-making capacity"
+   },
+   {
+    "id": "C",
+    "text": "Ask the visiting surgeon to override the directive before he goes to theatre tomorrow morning"
+   },
+   {
+    "id": "D",
+    "text": "Clarify his perioperative wishes with him, tell the surgeon and anaesthetist, and document a Resuscitation Plan"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "His refusal is conditional on dying from an incurable illness without prospect of recovery; a reversible anaesthetic or surgical complication in a well man does not meet that condition, so a blanket not-for-CPR order misapplies the directive and could cost him his life.",
+   "B": "The directive only takes effect if he loses capacity, but it is still relevant information that must be filed, flagged and considered; dismissing it discourages him from raising his wishes and leaves the team unprepared.",
+   "C": "A directive is the patient's own expression of wishes and cannot be overridden by a surgeon; the right step is to clarify it with the patient, not to seek to set it aside.",
+   "D": "The binding provisions of a directive apply only in the circumstances the person described and only once they have lost capacity. The intern should clarify with him, while he has capacity, what he would want if a potentially reversible complication occurred in theatre, place the directive in the notes, alert the surgeon and anaesthetist, and ensure a Resuscitation Plan (7 Step Pathway) is completed that reflects his wishes."
+  },
+  "learning_point": "An Advance Care Directive's refusals apply only in the circumstances it describes and once capacity is lost, so a well patient before elective surgery should be asked directly what he wants perioperatively and the team informed.",
+  "setting_note": "In a regional hospital the visiting surgeon and anaesthetist may arrive the morning of the list, so the conversation and documentation should be done the afternoon before and handed over explicitly; if the patient's wishes are unclear, the on-call physician can help before theatre.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Surgery and perioperative care",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "advance care directives",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "Advance Care Directives Act 2013 (SA): information for health practitioners",
+    "locator": "When binding refusals apply; relevance of capacity; health practitioner obligations",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Resuscitation Planning: 7 Step Pathway policy directive",
+    "locator": "Completing a Resuscitation Plan with the patient before a procedure",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a directive speaks for the person only when they cannot; binding refusals apply only in the circumstances described; perioperative resuscitation wishes should be discussed explicitly with a patient who has capacity and documented in a Resuscitation Plan that the anaesthetist and surgeon see. Misconceptions: any mention of CPR refusal means not-for-resuscitation; directives are irrelevant while the patient can speak. Out of scope: anaesthetic-specific consent for suspension of limitations during surgery.",
+  "plan": "Tests how an intern handles a directive presented by a capable patient before elective surgery (1.4, 3.2, 1.2). A regional surgical ward with a visiting surgeon makes timely handover of the conversation important. Distractors are the blanket not-for-CPR order, dismissing the directive, and asking the surgeon to override it. Supported by SA Health ACD Act guidance and the 7 Step Pathway."
+ },
+ {
+  "work_order_id": "r1-159",
+  "item_id": "b38b5678-cb03-be7f-c6ca-728d4333b825",
+  "version": 1,
+  "stem": "An 88-year-old woman on the surgical ward of a metropolitan teaching hospital is three days post repair of a fractured neck of femur. She is taking oxycodone immediate-release 2.5 mg four times a day for pain, regular paracetamol, and her usual amlodipine and pantoprazole. She has not opened her bowels since admission five days ago and reports bloating and discomfort. Her abdomen is soft and mildly distended with normal bowel sounds; rectal examination shows soft stool in the rectum. She is eating small meals, drinking about 800 mL a day, and mobilises only short distances with physiotherapy. She has no history of bowel obstruction, is not vomiting, and has normal renal function. No laxative was charted on admission.",
+  "lead_in": "Which laxative is most appropriate to prescribe?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Psyllium husk 3.5 g twice daily in water"
+   },
+   {
+    "id": "B",
+    "text": "Docusate with senna 2 tablets nocte"
+   },
+   {
+    "id": "C",
+    "text": "Liquid paraffin 15 mL at night"
+   },
+   {
+    "id": "D",
+    "text": "Methylnaltrexone 8 mg subcutaneously daily"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Bulk-forming laxatives need a good fluid intake and mobility to work; in an immobile older patient drinking under a litre a day and taking opioids they can worsen distension and cause impaction.",
+   "B": "Opioid-induced constipation responds to a stimulant laxative, usually combined with a softener, taken regularly rather than as needed. Docusate with senna is the standard first-line choice in Therapeutic Guidelines and should be charted whenever an opioid is prescribed for more than a day or two in an older person.",
+   "C": "Liquid paraffin carries a risk of aspiration lipoid pneumonia in older or frail patients and interferes with absorption of fat-soluble vitamins; it is not recommended.",
+   "D": "Methylnaltrexone, a peripherally acting opioid antagonist, is reserved for opioid-induced constipation that has failed conventional laxatives, usually in palliative care; it is not first line."
+  },
+  "learning_point": "A regular stimulant laxative such as senna with docusate should be charted alongside any opioid for an older inpatient; bulk-forming agents are unsuitable when fluid intake and mobility are poor.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Surgery and perioperative care",
+   "Pharmacology"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "constipation",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Gastrointestinal",
+    "locator": "Constipation in adults: opioid-induced constipation; choice of laxative",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Laxatives: comparative information; bulk-forming laxatives and fluid intake; liquid paraffin precautions",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: prescribe a regular stimulant laxative (senna) with or without a softener (docusate) whenever starting an opioid; osmotic laxatives (macrogol, lactulose) are acceptable alternatives or add-ons; bulk-forming agents need fluid and mobility; liquid paraffin is avoided in older people; methylnaltrexone is for refractory opioid-induced constipation. Misconceptions: fibre supplements are the gentlest first choice for everyone; laxatives should be as-needed only. Out of scope: management of faecal impaction and bowel obstruction.",
+  "plan": "Tests recall of first-line laxative choice for opioid-induced constipation in an older inpatient (1.4, 3.2, 1.8). A post-hip-fracture woman on oxycodone with no laxative charted is the everyday scenario. Distractors are the bulk-forming agent interns reach for, liquid paraffin, and a second-line agent. Supported by Therapeutic Guidelines Gastrointestinal and the AMH."
+ },
+ {
+  "work_order_id": "r1-160",
+  "item_id": "c4a671bc-c999-fc8c-08f6-08bea9a4a8a0",
+  "version": 1,
+  "stem": "You are the evening cover intern at a tertiary hospital in Adelaide. At 2000 a nurse phones about an 81-year-old woman admitted yesterday with a urinary tract infection. She lives independently, drives, and had no confusion on admission. She is now pulling at her intravenous cannula, trying to climb over the bed rails and insisting she needs to get to the bus stop, and she does not know where she is. She has refused her evening medications. Her last observations two hours ago were heart rate 96/min, blood pressure 132/78 mmHg, temperature 37.6 °C and oxygen saturation 95% on room air. Her chart includes intravenous ceftriaxone, oxycodone 5 mg as needed (given twice today for back pain) and temazepam 10 mg at night, started on admission. The nurse asks you to chart something to settle her.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart olanzapine 5 mg wafer as needed over the phone so the nurse can give a dose now and reassess later"
+   },
+   {
+    "id": "B",
+    "text": "Chart an additional dose of temazepam 10 mg tonight to help her settle and sleep through"
+   },
+   {
+    "id": "C",
+    "text": "Attend now to assess for pain, retention, hypoxia and medication causes, and start non-pharmacological measures"
+   },
+   {
+    "id": "D",
+    "text": "Request an urgent CT brain tonight to exclude a stroke as the cause of her new confusion and agitation"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Antipsychotics for delirium are reserved for severe distress or imminent danger when non-drug measures have failed, and only after the patient has been assessed; prescribing by phone without examination risks oversedation, falls and masking a deteriorating cause.",
+   "B": "Benzodiazepines worsen and prolong delirium in older people and increase falls; the temazepam started on admission is itself a likely contributor and should be ceased, not increased.",
+   "C": "This is new acute confusion with inattention in a previously independent woman: delirium. The intern should attend, repeat observations, check a blood glucose and bladder scan, assess pain and bowels, review the medication chart (oxycodone and temazepam are likely contributors) and ask the nurses to implement reorientation, lighting, hearing aids and glasses, and family presence, as set out in the Delirium Clinical Care Standard.",
+   "D": "Imaging is indicated if there are focal neurological signs, a head injury, or anticoagulation and a fall; with an obvious precipitant (infection, opioid, benzodiazepine) and no focal signs, a CT is not the first step."
+  },
+  "learning_point": "Acute confusion in an older inpatient is delirium until proven otherwise: assess in person for precipitants and treat them, use non-pharmacological measures first, and never prescribe sedatives over the phone.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "delirium",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Delirium Clinical Care Standard (2021)",
+    "locator": "Quality statements 3 to 6: assessment, identifying and treating causes, non-pharmacological interventions, minimising antipsychotic use",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Delirium: management; avoidance of benzodiazepines; limited role of antipsychotics",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: delirium is an acute change in attention and cognition with a fluctuating course; common precipitants are infection, drugs (opioids, benzodiazepines, anticholinergics), pain, retention, constipation, hypoxia, metabolic disturbance; first-line management is treating causes and non-pharmacological care; antipsychotics only for severe distress or danger after assessment. Misconceptions: sedation is treatment; benzodiazepines help agitation in older people. Out of scope: antipsychotic dosing and management in Parkinson disease or Lewy body dementia.",
+  "plan": "Tests the intern's first response to a phone call about a newly confused older patient after hours (1.4, 3.2, 1.8). A previously independent woman with infection, an opioid and a new benzodiazepine makes the reversible precipitants obvious once sought. Distractors are the two sedatives the nurse is implicitly requesting and a reflex CT. Supported by the ACSQHC Delirium Clinical Care Standard and Therapeutic Guidelines Psychotropic."
+ },
+ {
+  "work_order_id": "r1-161",
+  "item_id": "7e434377-db6e-8e54-3b4a-704221bc49ba",
+  "version": 1,
+  "stem": "You are the PGY2 covering the medical ward of a metropolitan general hospital at 2100; the medical registrar is resuscitating a patient in the emergency department. An 87-year-old man with moderate Alzheimer's dementia, admitted yesterday with community-acquired pneumonia, has been increasingly restless since dinner. When a nurse tried to redirect him back to bed he pushed her and shouted; she is unhurt. He is now standing at the ward exit, agitated, demanding to go home to his wife, who died two years ago. He has had no analgesia today, has not passed urine since 1400, and his oxygen saturation is 93% on room air with a respiratory rate of 22/min. His daughter, who usually settles him, lives 15 minutes away. The nurse in charge asks you to 'give him something' and is considering calling security.",
+  "lead_in": "What is the most appropriate first action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe risperidone 0.5 mg orally now so that he can be returned to bed and the ward kept safe overnight"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse in charge to call security to escort him back to bed and apply a restraint"
+   },
+   {
+    "id": "C",
+    "text": "Page the registrar out of the emergency department to review him before any treatment or redirection is attempted"
+   },
+   {
+    "id": "D",
+    "text": "De-escalate calmly with a familiar nurse, check for pain, retention and hypoxia, and have his daughter called"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Antipsychotics in dementia increase stroke and death risk and are reserved for severe distress or imminent harm when non-drug approaches have failed; he has not been assessed, has likely reversible triggers, and is not currently striking anyone.",
+   "B": "Physical restraint escalates agitation, causes injury and is a restrictive practice requiring justification and authorisation; security may be needed if imminent danger develops but is not the first step.",
+   "C": "The registrar is managing a critical patient. Assessing and de-escalating an agitated patient on the ward is within a PGY2's scope; the registrar should be informed, but waiting for them delays safe care.",
+   "D": "Behavioural symptoms in dementia are usually a response to unmet needs or a medical trigger: here untreated pain, possible urinary retention, borderline hypoxia, an unfamiliar environment and grief for his wife. The priority is safety through calm de-escalation by familiar staff, a focused check for reversible causes, and bringing in the person who settles him. Medication is considered only if he remains at imminent risk of harm."
+  },
+  "learning_point": "For behavioural symptoms in dementia, the first priority is de-escalation and a search for pain, retention, hypoxia and other triggers, with family involvement; antipsychotics and restraint come only when there is imminent danger after these fail.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Mental health and behavioural emergencies",
+   "Deteriorating patient",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "dementia with behavioural symptoms",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Psychotropic",
+    "locator": "Behavioural and psychological symptoms of dementia: assessment of triggers, non-pharmacological management, limited role of antipsychotics",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Delirium Clinical Care Standard (2021) and Psychotropic medicines in cognitive disability or impairment Clinical Care Standard (2022)",
+    "locator": "Non-pharmacological strategies first; psychotropics only for severe distress or risk of harm",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: behavioural symptoms in dementia often signal pain, retention, constipation, infection, hypoxia or delirium superimposed on dementia; de-escalation, familiar faces and family are first line; antipsychotics have modest benefit and real harms (stroke, death, falls) and need a specific indication of severe distress or danger; restraint is a last resort governed by policy. Misconceptions: a nurse being pushed means immediate sedation; waiting for the registrar is always safer. Out of scope: choice and dosing of antipsychotic if required, and Mental Health Act considerations.",
+  "plan": "Tests prioritisation when an agitated patient with dementia threatens ward safety and the registrar is unavailable (1.4, 3.2, 2.8). Untreated pain, possible retention and bereavement are embedded as the real drivers. Distractors are the nurse's implicit request for sedation, security and restraint, and deferring to the registrar. Supported by Therapeutic Guidelines Psychotropic and ACSQHC clinical care standards."
+ },
+ {
+  "work_order_id": "r1-162",
+  "item_id": "192df013-557d-bf69-8419-f7f6336e6b51",
+  "version": 1,
+  "stem": "You are the evening cover resident at a regional hospital with a small medical ward. An 88-year-old woman admitted four days ago with a urinary tract infection and a fall at home is due for discharge tomorrow morning. The nurse asks you to check that the discharge is still appropriate. The physiotherapist's note from this afternoon reads: 'Timed Up and Go 24 seconds with four-wheeled frame. Requires standby assistance for sit-to-stand and turning. Reports two falls in the past three months. Lives alone on a farm 40 km from town; no community services; daughter in Adelaide.' Her observations are normal, she is oriented and she says she is keen to go home to feed her dogs. The day team's plan says 'home when physio happy'.",
+  "lead_in": "How should the physiotherapy assessment be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "She is at high falls risk and needs standby assistance, so discharge home alone tomorrow is unsafe without supports"
+   },
+   {
+    "id": "B",
+    "text": "A Timed Up and Go of 24 seconds is acceptable at her age, so discharge home tomorrow morning can proceed as planned"
+   },
+   {
+    "id": "C",
+    "text": "She needs transfer to Adelaide for inpatient geriatric rehabilitation before any discharge home can be considered"
+   },
+   {
+    "id": "D",
+    "text": "She can no longer manage at home and the plan should change to placement in permanent residential aged care"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A Timed Up and Go above about 12 to 14 seconds indicates increased falls risk, and she also needs standby assistance for transfers and has had recurrent falls. Discharged alone to an isolated farm without services she is likely to fall again. The resident should document this and flag it clearly at handover so the day team, physiotherapist and social worker arrange supports (daughter, home care services, transitional care or a short extension of stay) before she leaves, rather than cancelling the discharge unilaterally overnight.",
+   "B": "A Timed Up and Go of 24 seconds is well above the threshold associated with falls risk, and the need for standby assistance shows she cannot safely transfer alone; age does not normalise the result.",
+   "C": "Rehabilitation may help, but regional hospitals often provide this locally or through transitional care, and a single assessment does not mandate transfer to Adelaide; this over-reads the note.",
+   "D": "Needing assistance after an acute illness does not mean permanent care is required; function often improves with rehabilitation, and placement decisions involve the patient, family, geriatric assessment and her own wishes."
+  },
+  "learning_point": "A Timed Up and Go above 12 to 14 seconds and a need for standby assistance indicate high falls risk; discharge home alone should not proceed until supports are arranged, and the evening resident's job is to flag this clearly for the day team.",
+  "setting_note": "Distance magnifies the risk: 40 km from town with no services means a fall may go unnoticed for hours. Regional hospitals often have access to transitional care, Commonwealth Home Support services and district nursing that the social worker can arrange, and a short extension of stay is reasonable while this happens.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Discharge planning",
+   "Rural and remote",
+   "Documentation"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "discharge planning for an older person",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Preventing Falls and Harm From Falls in Older People: Best Practice Guidelines for Australian Hospitals (2009)",
+    "locator": "Falls risk screening and assessment; Timed Up and Go; discharge planning",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Falls Prevention Society: Timed Up and Go test",
+    "locator": "Interpretation thresholds (12 to 14 seconds) for increased falls risk in older adults",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the Timed Up and Go measures rising from a chair, walking 3 metres, turning and sitting; under 10 seconds is normal, over about 12 to 14 seconds indicates increased falls risk in community-dwelling older people; two or more falls in a year and the need for standby assistance are independent risk markers; safe discharge needs a match between function and the home environment. Misconceptions: a stated wish to go home and normal observations equal a safe discharge; the overnight resident must either cancel or rubber-stamp the plan. Out of scope: detailed aged care assessment processes.",
+  "plan": "Tests interpretation of a functional assessment in the context of an isolated home (1.4, 3.2, 1.1). An evening resident asked to confirm a discharge makes the handover action concrete. Distractors are normalising the result and over-reading it as needing Adelaide rehabilitation or permanent care. Supported by the ACSQHC falls guidelines and ANZFPS guidance on the Timed Up and Go."
+ },
+ {
+  "work_order_id": "r1-163",
+  "item_id": "5bc5dd9c-7f18-82da-2d83-11681dae5000",
+  "version": 1,
+  "stem": "A 70-year-old woman on the general ward of a metropolitan teaching hospital, admitted with cellulitis and taking apixaban 5 mg twice daily for atrial fibrillation, is found on the floor beside her bed at 0300 by the night nurse. The fall was unwitnessed. You are the PGY2 covering. She is alert with a GCS of 15, normal pupils, no focal neurological deficit, no neck pain, and no visible scalp wound, bruise or swelling. She has grazed her right elbow. When asked, she says she got up to go to the toilet and 'the next thing I was on the floor'; she cannot recall falling or how long she was there. Observations are unchanged from the evening. The nurse has completed the post-fall assessment tool and asks what the findings mean for her care.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal GCS and absence of visible head injury mean intracranial bleeding is excluded and hourly neurological observations are sufficient"
+   },
+   {
+    "id": "B",
+    "text": "Amnesia for the fall in an anticoagulated patient means head injury cannot be excluded and a CT brain is indicated now"
+   },
+   {
+    "id": "C",
+    "text": "Amnesia for the event indicates delirium, and the priority is a 4AT screen and delirium workup rather than imaging"
+   },
+   {
+    "id": "D",
+    "text": "Apixaban must be reversed with prothrombin complex concentrate immediately, before any imaging is arranged"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Anticoagulated older patients can have significant intracranial bleeding with a normal initial GCS and no external sign, and symptoms may be delayed; observations alone are not enough once head strike cannot be excluded.",
+   "B": "She cannot say whether she struck her head or lost consciousness, so an unwitnessed fall with amnesia must be treated as a possible head injury. On apixaban, this meets criteria for urgent CT brain (with consideration of cervical spine imaging) rather than observation, and the registrar should be informed. Amnesia for the event also raises the possibility of syncope, which needs its own assessment.",
+   "C": "Delirium should be screened for after any fall, but amnesia for a single event is more suggestive of transient loss of consciousness than delirium, and a delirium workup does not address the risk of intracranial haemorrhage.",
+   "D": "Reversal agents are given for confirmed or strongly suspected life-threatening bleeding; reversing anticoagulation without a diagnosis exposes her to thrombotic risk. The next dose of apixaban should be withheld pending the scan, and reversal considered if bleeding is found."
+  },
+  "learning_point": "An unwitnessed fall with amnesia for the event in an anticoagulated patient is a possible head injury, and a normal GCS does not exclude intracranial bleeding; urgent CT brain is indicated.",
+  "setting_note": "In a regional hospital without CT overnight, discuss with the on-call physician and the retrieval or telehealth service: an anticoagulated patient with possible head strike may need transfer for imaging, and close neurological observations are a bridge, not a substitute.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Radiology",
+   "Prescribing and medication safety",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "falls on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "minor",
+   "uncertainty_note": "Post-fall imaging criteria are set by local health service policy; all Australian post-fall guides treat anticoagulation with possible head strike or unexplained fall as an indication for urgent CT, but the exact wording and timeframe vary."
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Preventing Falls and Harm From Falls in Older People: Best Practice Guidelines for Australian Hospitals (2009)",
+    "locator": "Post-fall management: assessment for injury, anticoagulation and head injury",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Clinical Excellence Commission (NSW): Post Fall Guide, management of patients who fall in hospital",
+    "locator": "Unwitnessed fall, anticoagulation and head strike as indications for urgent CT brain and medical review",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: after an inpatient fall, assess for head injury, fracture and the cause of the fall; anticoagulation plus possible head strike (including unwitnessed falls and amnesia) is an indication for urgent CT brain; intracranial haemorrhage on anticoagulants can present with a normal GCS and evolve over hours; withhold the next anticoagulant dose pending imaging; also assess for syncope (postural blood pressure, ECG). Misconceptions: no bump means no head injury; reversal before diagnosis. Out of scope: management of confirmed intracranial haemorrhage and choice of reversal agent.",
+  "plan": "Tests interpretation of a post-fall assessment where the only red flag is amnesia in an anticoagulated patient (1.4, 3.2, 1.5). A night fall on a general ward with a reassuring examination makes the decision subtle. Distractors are false reassurance from the normal GCS, relabelling amnesia as delirium, and premature reversal. Supported by the ACSQHC falls guidelines and the NSW CEC post-fall guide."
+ },
+ {
+  "work_order_id": "r1-164",
+  "item_id": "a02ca749-0619-6a66-c13f-69d0d6519b1a",
+  "version": 1,
+  "stem": "An 88-year-old man on the surgical ward of a metropolitan general hospital was admitted this afternoon with an intracapsular fractured neck of femur after a fall at home. Surgery is planned for tomorrow morning. He weighs 62 kg, has chronic kidney disease (eGFR 38 mL/min/1.73 m2) and mild cognitive impairment, and takes amlodipine and a statin. He received paracetamol in the emergency department and a fascia iliaca block four hours ago, but now rates his hip pain at 7 out of 10 at rest and cannot be repositioned. The nurse asks you, the intern, to chart analgesia for the night. The orthopaedic registrar is in theatre and the anaesthetic registrar is available by phone.",
+  "lead_in": "Which analgesic is most appropriate to chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ibuprofen 400 mg orally three times a day with food"
+   },
+   {
+    "id": "B",
+    "text": "Tramadol 100 mg orally every six hours as needed for pain"
+   },
+   {
+    "id": "C",
+    "text": "Morphine 10 mg intramuscularly every four hours as needed"
+   },
+   {
+    "id": "D",
+    "text": "Oxycodone immediate-release 2.5 mg orally four-hourly as needed"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Non-steroidal anti-inflammatory drugs are avoided in older people with chronic kidney disease because of acute kidney injury, fluid retention, hypertension and gastrointestinal bleeding, particularly before anaesthesia and surgery.",
+   "B": "Tramadol causes confusion and delirium in older people, lowers the seizure threshold, accumulates in renal impairment, and 100 mg is a full adult dose; it is a poor choice in a frail 88-year-old.",
+   "C": "Intramuscular injections are painful and erratically absorbed, and 10 mg is an excessive starting dose for a frail older man with renal impairment; it risks respiratory depression and delirium.",
+   "D": "The Hip Fracture Clinical Care Standard requires regular pain assessment and multimodal analgesia. With regular paracetamol continuing and the block wearing off, a low-dose immediate-release oral opioid is the appropriate addition for an older patient with renal impairment: oxycodone 2.5 mg, titrated to effect with monitoring, and a laxative charted alongside. Ask the anaesthetic registrar whether the block can be repeated."
+  },
+  "learning_point": "For hip fracture pain in a frail older patient, give regular paracetamol with a low-dose oral immediate-release opioid such as oxycodone 2.5 mg and consider repeating the nerve block; avoid NSAIDs, tramadol and intramuscular opioids.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Surgery and perioperative care",
+   "Fluids, electrolytes and renal"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Hip Fracture Clinical Care Standard (2023)",
+    "locator": "Quality statement 2: Pain management, including nerve blocks and regular assessment",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Acute pain in older people; opioid starting doses in frailty and renal impairment; avoid tramadol and NSAIDs",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: multimodal analgesia with regular paracetamol, a fascia iliaca or femoral nerve block (repeatable), and low-dose oral immediate-release opioid titrated to effect; start oxycodone at 2.5 mg in frail or renally impaired older patients; chart a laxative and an antiemetic; monitor sedation score. Misconceptions: tramadol is safer than oxycodone in older people; intramuscular morphine is a reasonable breakthrough option. Out of scope: performing the block, and perioperative anticoagulation.",
+  "plan": "Tests the intern's choice of breakthrough analgesic for hip fracture in a frail man with renal impairment (1.4, 3.2, 1.8). A surgical ward at night with the block wearing off is the typical call. Distractors are an NSAID, tramadol and intramuscular morphine, each wrong for a stated reason. Supported by the ACSQHC Hip Fracture Clinical Care Standard and Therapeutic Guidelines Pain and Analgesia."
+ },
+ {
+  "work_order_id": "r1-165",
+  "item_id": "9dc2e33e-637d-8fe8-4adf-ecf00f86cef3",
+  "version": 1,
+  "stem": "An 86-year-old woman on the medical ward of a large metropolitan teaching hospital, admitted with community-acquired pneumonia, slips while walking to the bathroom with a nurse. She lands on her left side and immediately complains of left groin pain. She is unable to weight-bear, and the left leg appears slightly shortened and externally rotated, with pain on any attempt at hip rotation. Distal pulses and sensation are normal. She has osteoporosis treated with denosumab. A pelvis and left hip X-ray performed within the hour is reported as: 'No fracture or dislocation identified. Osteopenic bones. Degenerative change in both hips.' The nurse asks whether the physiotherapist can mobilise her in the morning.",
+  "lead_in": "How should the X-ray result be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A fracture has been excluded and she can be mobilised with physiotherapy in the morning as her pain allows"
+   },
+   {
+    "id": "B",
+    "text": "Her symptoms reflect a soft tissue injury and she should be reviewed in a week if the pain persists"
+   },
+   {
+    "id": "C",
+    "text": "An occult hip fracture is not excluded given the clinical signs, and MRI or CT is required"
+   },
+   {
+    "id": "D",
+    "text": "The findings suggest septic arthritis of the hip and urgent joint aspiration should be arranged"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Mobilising a patient with an undiagnosed hip fracture risks displacing it and converting an undisplaced fracture into one needing a more complex operation; a negative X-ray does not clear her to walk when she cannot weight-bear.",
+   "B": "Groin pain, inability to weight-bear, shortening and external rotation after a fall in an osteoporotic woman are hip fracture signs, not soft tissue strain; delaying diagnosis by a week would delay surgery and increase complications.",
+   "C": "Plain X-rays miss a proportion of hip fractures, especially undisplaced fractures in osteopenic bone. The Australian and New Zealand hip fracture guideline recommends that when a fracture is suspected clinically despite a negative X-ray, MRI should be performed, with CT if MRI is unavailable. She should remain non-weight-bearing with analgesia and the orthopaedic team informed.",
+   "D": "There is a clear traumatic cause, the onset was immediate after a fall, and nothing suggests joint infection; septic arthritis does not fit."
+  },
+  "learning_point": "A normal hip X-ray does not exclude a fracture when the clinical picture is typical; keep the patient non-weight-bearing and arrange MRI, or CT if MRI is unavailable.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Radiology",
+   "Musculoskeletal",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian and New Zealand Guideline for Hip Fracture Care (ANZHFR, 2014)",
+    "locator": "Imaging: MRI if hip fracture is suspected despite negative X-rays; CT if MRI is not available",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Hip Fracture Clinical Care Standard (2023)",
+    "locator": "Quality statement 1: Care at presentation, including timely diagnosis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: around 2 to 10% of hip fractures are occult on initial plain films; shortening and external rotation with inability to weight-bear is a hip fracture until proven otherwise; MRI is the most sensitive test, CT an acceptable alternative; keep non-weight-bearing and give analgesia while awaiting imaging; report the inpatient fall as an incident. Misconceptions: a radiology report of no fracture ends the question; pain alone can be managed and reviewed later. Out of scope: surgical options and timing of surgery.",
+  "plan": "Tests interpretation of a negative X-ray against strong clinical signs of hip fracture (1.4, 3.2, 1.5). An inpatient fall in an osteoporotic woman with classic signs makes the mismatch clear. Distractors are mobilising on the strength of the report, a soft tissue label, and an irrelevant infective diagnosis. Supported by the ANZHFR guideline and the ACSQHC Hip Fracture Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-166",
+  "item_id": "6c1a761e-986d-c6b4-7a91-8783457b865a",
+  "version": 1,
+  "stem": "A 78-year-old Aboriginal woman from a community on the Yorke Peninsula is admitted to the general ward of the local rural hospital after a fall at home. Her blood glucose on arrival was 3.1 mmol/L and she was sweaty and confused, improving after oral glucose. With her consent, the Aboriginal Health Practitioner helps you take a medication history with her daughter present: metformin 1 g twice daily, gliclazide modified-release 60 mg daily, perindopril 5 mg daily, atorvastatin 40 mg daily, aspirin 100 mg daily and pantoprazole 40 mg daily, started 'years ago for indigestion'. Her daughter says her appetite has been poor for a month and she sometimes skips meals. Her HbA1c last month was 6.1% (43 mmol/mol) and her eGFR is 52 mL/min/1.73 m2. Her blood pressure is 134/80 mmHg. You are the PGY2 preparing her medication review for the ward round.",
+  "lead_in": "Which medication should be addressed first in the medication review?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gliclazide, because it has caused hypoglycaemia and her HbA1c is already below target"
+   },
+   {
+    "id": "B",
+    "text": "Pantoprazole, because long-term use without a clear indication increases fracture and infection risk"
+   },
+   {
+    "id": "C",
+    "text": "Atorvastatin, because statins offer little benefit to people over 75 years without known vascular disease"
+   },
+   {
+    "id": "D",
+    "text": "Metformin, because it should be stopped once the eGFR falls below 60 mL/min/1.73 m2"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A sulfonylurea in an older person with poor appetite and an HbA1c of 6.1% is over-treatment that has already caused a hypoglycaemic fall, the most immediate harm on this list. Reducing or ceasing gliclazide, with a glycaemic target relaxed to around 7 to 8% for a frail older person, is the priority and should be agreed with her and her daughter, with the Aboriginal Health Practitioner supporting follow-up.",
+   "B": "Long-term proton pump inhibitors without a clear indication are a reasonable deprescribing target, but this is not causing immediate harm and can be addressed at a later review.",
+   "C": "Statin benefit in older people depends on cardiovascular history and life expectancy, and she has vascular risk factors; this is a shared decision over time, not the priority today.",
+   "D": "Metformin can continue, with dose review below an eGFR of 45 and cessation below 30 mL/min/1.73 m2; an eGFR of 52 does not require cessation, and metformin does not cause hypoglycaemia."
+  },
+  "learning_point": "In a frail older person, the first deprescribing priority is the drug causing active harm: a sulfonylurea producing hypoglycaemia when HbA1c is already below the relaxed target for frailty.",
+  "setting_note": "In a rural hospital the Aboriginal Health Practitioner and the community clinic are key to safe follow-up: a clear written medication list, a phone call to her usual clinic and support for home glucose monitoring make the change stick after discharge.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Aboriginal and Torres Strait Islander health",
+   "Chronic disease, prevention and advocacy"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "polypharmacy and deprescribing",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Sulfonylureas: hypoglycaemia and precautions in older people; Metformin: dose adjustment in renal impairment",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes",
+    "locator": "Glycaemic targets in older people and those with frailty; deprescribing glucose-lowering drugs",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "RACGP Management of type 2 diabetes: a handbook for general practice",
+    "locator": "Individualising HbA1c targets; hypoglycaemia risk in older people",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: sulfonylureas are the commonest cause of drug-induced hypoglycaemia in older people, especially with poor intake and renal impairment; HbA1c targets are relaxed to about 7 to 8% in frailty; metformin continues to eGFR 30 with dose reduction below 45; proton pump inhibitors and statins are legitimate deprescribing targets but are not urgent. Culturally safe practice: involve the Aboriginal Health Practitioner and family, and plan follow-up through her community clinic. Misconceptions: tight HbA1c is always better; eGFR under 60 means stop metformin. Out of scope: choice of alternative glucose-lowering agents.",
+  "plan": "Tests prioritisation within a medication review after a hypoglycaemic fall (1.4, 3.2, 1.3). An older Aboriginal woman in a rural ward with family and the Aboriginal Health Practitioner involved models culturally safe medication history-taking. Distractors are reasonable but non-urgent deprescribing targets and a common metformin misconception. Supported by the AMH, Therapeutic Guidelines Diabetes and the RACGP diabetes handbook."
+ },
+ {
+  "work_order_id": "r1-167",
+  "item_id": "c837da30-89b3-272d-b6d5-e62c8fabb41c",
+  "version": 1,
+  "stem": "A 79-year-old woman on the medical ward of a regional hospital has been bed-bound for six days with severe pneumonia and heart failure, requiring oxygen and with poor oral intake. She has type 2 diabetes with peripheral neuropathy and a body mass index of 19. During the evening skin check the nurse finds a 4 cm area over her left heel that is deep purple, feels boggy compared with the surrounding skin, and is painful to touch. The skin is intact with no blister. The foot is warm, pedal pulses are palpable and capillary refill is normal. She did not fall before admission. The nurse asks you what the finding means and whether an incident report is needed.",
+  "lead_in": "How should this finding be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A stage 1 pressure injury with non-blanchable redness that will resolve with regular repositioning and skin care"
+   },
+   {
+    "id": "B",
+    "text": "A suspected deep tissue pressure injury that needs offloading, wound team review and an incident report"
+   },
+   {
+    "id": "C",
+    "text": "A bruise from minor trauma that needs only documentation and review at the next routine skin check"
+   },
+   {
+    "id": "D",
+    "text": "Acute limb ischaemia from peripheral arterial disease that needs urgent vascular surgical referral tonight"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Stage 1 injuries show non-blanchable erythema of intact skin; a purple or maroon colour with boggy texture indicates damage to deeper tissue and is classified separately because it carries a much worse prognosis.",
+   "B": "Persistent purple or maroon discolouration of intact skin that is boggy, painful and differs in temperature from surrounding tissue over a bony prominence is a suspected deep tissue pressure injury. It frequently evolves over days into a full-thickness ulcer even with good care. Management is complete heel offloading, a pressure-redistributing surface, nutrition review, wound or nurse specialist input, documentation with photographs, and an incident report as a hospital-acquired complication.",
+   "C": "There is no history of trauma, and the location over a bony prominence in a bed-bound patient with risk factors points to pressure; labelling it a bruise would miss the chance to prevent progression.",
+   "D": "A warm foot with palpable pulses and normal capillary refill excludes acute ischaemia; the lesion is localised to the pressure point."
+  },
+  "learning_point": "Purple or maroon discolouration of intact, boggy, painful skin over a bony prominence is a suspected deep tissue pressure injury that needs immediate offloading, specialist wound review and incident reporting, because it often progresses despite intact skin.",
+  "setting_note": "Regional hospitals may not have a dedicated wound nurse; use the SA Health pressure injury resources, photograph and document carefully, and seek telehealth advice from the wound service or the physician on call, since progression could require transfer for surgical debridement.",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Dermatology",
+   "Documentation"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "pressure injury prevention",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "NSQHS Standards (2nd edition): Comprehensive Care Standard",
+    "locator": "Preventing and managing pressure injuries; Hospital-Acquired Complications list",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Pan Pacific Clinical Practice Guideline for the Prevention and Management of Pressure Injury (Australian Wound Management Association)",
+    "locator": "Classification of pressure injuries, including suspected deep tissue injury; heel offloading",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: pressure injury stages 1 to 4 plus unstageable and suspected deep tissue injury; deep tissue injury is purple or maroon intact skin or a blood-filled blister, often boggy or painful, and can progress rapidly; heels are high risk in immobile, malnourished, diabetic and neuropathic patients; management is offloading, support surfaces, nutrition and wound expertise; hospital-acquired pressure injuries are reportable complications. Misconceptions: intact skin means minor injury; a purple heel is a bruise. Out of scope: dressing selection and debridement.",
+  "plan": "Tests interpretation of a nurse's skin finding as a suspected deep tissue pressure injury (1.4, 3.2, 1.1). A bed-bound, malnourished diabetic woman in a regional ward is the classic setting. Distractors are under-staging, a bruise label, and an ischaemia label excluded by the examination. Supported by the NSQHS Comprehensive Care Standard and the Pan Pacific pressure injury guideline."
+ },
+ {
+  "work_order_id": "r1-168",
+  "item_id": "c530ffe1-18d8-ed81-e911-3468bbb595c3",
+  "version": 1,
+  "stem": "A 78-year-old woman on the general ward of a metropolitan general hospital was admitted two days ago with severe low back pain after a fall at home, managed with paracetamol and oxycodone. At 2300 the nurse tells you, the PGY2 covering, that she has not passed urine for ten hours and has lower abdominal discomfort. A bladder scan shows 850 mL. She last opened her bowels three days ago. On questioning she says that since this afternoon her feet have felt 'numb and heavy' and she has not felt the urge to void. Examination shows reduced power (4/5) at both ankles, reduced perianal sensation and lax anal tone. Her observations are normal. The medical registrar is on site, and the hospital has 24-hour CT but MRI only during the day.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Insert an indwelling catheter and discuss with the registrar now to arrange urgent spinal imaging for suspected cauda equina syndrome"
+   },
+   {
+    "id": "B",
+    "text": "Insert an indwelling catheter, check renal function and electrolytes, and reassess her mobility and bladder function on the morning ward round"
+   },
+   {
+    "id": "C",
+    "text": "Perform an in-out catheter, encourage oral fluids and repeat the bladder scan in four hours"
+   },
+   {
+    "id": "D",
+    "text": "Withhold oxycodone, give a stimulant laxative and repeat the bladder scan in four hours"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Painless urinary retention with bilateral leg weakness, saddle anaesthesia and reduced anal tone is cauda equina syndrome until proven otherwise, a surgical emergency in which delay to decompression worsens permanent bladder and bowel dysfunction. The bladder should be drained with an indwelling catheter and the registrar contacted immediately to arrange emergency MRI (or CT if MRI cannot be obtained) and neurosurgical or spinal referral.",
+   "B": "Catheterisation is correct, but leaving the neurological findings until the morning risks irreversible deficit; the red flags demand escalation tonight.",
+   "C": "An in-out catheter is acceptable for simple retention, but this is not simple retention; fluids and rescanning do nothing for the cause and ignore the neurological signs.",
+   "D": "Opioids and constipation contribute to retention in older people and should be addressed, but attributing bilateral weakness and saddle anaesthesia to them would be a dangerous misdiagnosis."
+  },
+  "learning_point": "Urinary retention in an older patient with back pain must be screened for cauda equina red flags (bilateral leg weakness, saddle anaesthesia, reduced anal tone); their presence means catheterise and escalate immediately for emergency spinal imaging.",
+  "setting_note": "",
+  "learning_area": "Older people, delirium and falls",
+  "secondary_areas": [
+   "Neurology",
+   "Emergency presentations",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "urinary retention",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Low Back Pain Clinical Care Standard (2022)",
+    "locator": "Quality statement 1: Initial clinical assessment, screening for serious pathology including cauda equina syndrome",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Rheumatology",
+    "locator": "Low back pain: red flags and urgent referral for suspected cauda equina syndrome",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: cauda equina red flags are bilateral sciatica or leg weakness, saddle anaesthesia, new urinary retention or incontinence, faecal incontinence and reduced anal tone; retention with loss of bladder sensation is a late sign; emergency MRI and surgical decompression within hours give the best outcomes; always catheterise and record the residual. Common causes of retention in older women also include opioids, anticholinergics, constipation and infection, which are addressed after excluding emergencies. Misconceptions: retention in women is always from drugs or constipation; imaging can wait for the day MRI slot. Out of scope: surgical management.",
+  "plan": "Tests recognition that new urinary retention with neurological signs after back pain is cauda equina syndrome needing immediate escalation (1.4, 3.2, 1.9). A metropolitan ward with CT overnight but no MRI makes the escalation path realistic. Distractors are the routine retention actions (catheter and reassess, in-out catheter, fix the opioid and bowels) that would delay diagnosis. Supported by the ACSQHC Low Back Pain Clinical Care Standard and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-169",
+  "item_id": "15acf156-cd96-e6dd-2395-30eb48ba31db",
+  "version": 1,
+  "stem": "At 2300 in the emergency department of a regional hospital, a 4-month-old boy is brought in by his parents with three days of coryza and cough and increasing work of breathing today. He was born at term and is otherwise well. He is febrile at 38.4 °C, respiratory rate 64/min with moderate subcostal and intercostal recession and widespread wheeze and crackles, and oxygen saturation 91% on room air, improving to 96% on 1 L/min nasal prong oxygen. He has taken about two-thirds of his usual feeds today. While he was being undressed at triage, the nurse observed a 15-second pause in breathing with colour change, which resolved spontaneously. You are the intern on alone, with the GP on call at home. The hospital has a small medical ward with no paediatric high-flow or high-dependency capability.",
+  "lead_in": "Which feature most strongly indicates that he needs discussion with the paediatric retrieval service now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Oxygen saturation of 91% on room air, improving to 96% on low-flow oxygen"
+   },
+   {
+    "id": "B",
+    "text": "Feeding about two-thirds of his usual volumes over the day"
+   },
+   {
+    "id": "C",
+    "text": "The apnoeic episode with colour change witnessed at triage"
+   },
+   {
+    "id": "D",
+    "text": "Fever of 38.4 °C with three days of coryza and cough"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Hypoxaemia that corrects with low-flow oxygen is an indication for admission and oxygen, and moderate bronchiolitis can be managed in a regional ward with appropriate monitoring; it does not by itself mandate retrieval.",
+   "B": "Reduced feeding to around two-thirds is a marker of moderate severity requiring admission and possibly nasogastric feeds, but it does not indicate severe disease on its own.",
+   "C": "Apnoea is a marker of severe bronchiolitis and of risk of further life-threatening episodes, especially in infants under six months. The Australasian bronchiolitis guideline classifies apnoea as severe disease needing a higher level of care; in a hospital without paediatric high-flow or high-dependency support, the intern should call the GP and the paediatric retrieval service (MedSTAR Kids) immediately, while providing oxygen and continuous monitoring.",
+   "D": "Fever and coryza are expected in bronchiolitis; the height of the fever does not correlate with severity and is not a retrieval criterion."
+  },
+  "learning_point": "In bronchiolitis, witnessed apnoea marks severe disease; in a regional hospital without paediatric high-dependency capability it triggers immediate discussion with the paediatric retrieval service, even if other features look moderate.",
+  "setting_note": "The regional context is the point: hypoxaemia and poor feeding can be managed locally with oxygen and nasogastric feeds, but an infant who has had apnoea needs continuous monitoring and may need high-flow or ventilatory support, so early retrieval discussion and the GP on call attending are essential before deterioration overnight.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Rural and remote",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "bronchiolitis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "PREDICT Australasian Bronchiolitis Guideline (2016, updated 2023)",
+    "locator": "Severity assessment; apnoea as a marker of severe disease; risk factors and escalation of care",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "South Australian Paediatric Clinical Practice Guideline: Bronchiolitis",
+    "locator": "Assessment of severity; indications for discussion with paediatric service and retrieval",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: bronchiolitis severity is judged on work of breathing, feeding, oxygen saturation, behaviour and apnoea; apnoea, saturation persistently below 90% despite oxygen, severe recession or exhaustion define severe disease; infants under six to eight weeks, prematurity and comorbidity raise risk; treatment is supportive (oxygen, fluids, minimal handling), with no role for salbutamol, steroids or antibiotics. Misconceptions: a short self-resolving apnoea is reassuring; a good response to oxygen means safe to keep locally. Out of scope: high-flow nasal cannula settings.",
+  "plan": "Tests prioritisation of escalation criteria in bronchiolitis for a lone intern in a regional emergency department (4.1, 1.4, 1.9). A 4-month-old with moderate features and one brief apnoea is designed so that only the apnoea changes the disposition. Distractors are genuine severity markers that justify admission but not retrieval. Supported by the PREDICT guideline and the SA paediatric bronchiolitis guideline."
+ },
+ {
+  "work_order_id": "r1-170",
+  "item_id": "c66fb37d-2144-28bf-b801-e5e3952ca86a",
+  "version": 1,
+  "stem": "A 3-year-old boy is brought to the emergency department of a 30-bed regional hospital in South Australia's Mid North by his mother's partner, with two days of cough and a runny nose. He is alert, playful at times, afebrile, with clear lungs. When you examine him you notice several bruises: three yellow-green bruises over both shins, a 3 cm purple bruise on the left pinna, a cluster of four small oval bruises on the left side of his chest, and a fading bruise on his right buttock. The partner says the boy 'is always falling over and bruises easily' and that he 'fell off the trampoline'. The mother is not present. The boy goes quiet when the partner speaks. There is no family history of bleeding disorders. The nearest paediatrician is in Adelaide, two hours away, and available by phone.",
+  "lead_in": "How should the bruising pattern be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Multiple bruises of different ages in an active 3-year-old are typical of normal play and need no further action beyond documentation"
+   },
+   {
+    "id": "B",
+    "text": "The pattern suggests a bleeding disorder, and a normal coagulation screen would exclude inflicted injury as the cause"
+   },
+   {
+    "id": "C",
+    "text": "Only bruises with a recognisable hand or object imprint are concerning for inflicted injury in a child of this age"
+   },
+   {
+    "id": "D",
+    "text": "Bruising on the ear, torso and buttock is unusual for accidental injury and requires a mandatory child protection report"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Shin bruises over bony prominences are typical accidental injuries in a mobile child, but bruising of the ear, torso and buttocks is not; these sites are protected in ordinary falls and are strongly associated with inflicted injury.",
+   "B": "A bleeding disorder is a differential and a full blood count and coagulation screen should be sent, but the site pattern and a cluster suggesting grip marks are not explained by easy bruising, and a normal screen does not exclude abuse; the two are not mutually exclusive.",
+   "C": "Patterned bruises are highly specific, but their absence is not reassuring. Location (ears, torso, neck, buttocks, genitals) and clustering are the key features in young children, as in the TEN-4 bruising rule.",
+   "D": "Bruising to the ear, chest and buttock in a toddler, with a cluster suggestive of fingertip grip marks and an explanation that does not fit, raises reasonable suspicion of physical abuse. In South Australia, doctors are mandated notifiers under the Children and Young People (Safety) Act 2017 and must report to the Child Abuse Report Line. The intern should also phone the Child Protection Service at the Women's and Children's Hospital for advice, document and photograph the injuries, involve the senior doctor on call, and keep the child safe in hospital while this occurs."
+  },
+  "learning_point": "Bruising on the torso, ears or neck of a child under four, or any bruising in a non-mobile infant, is a sentinel sign of possible abuse and triggers mandatory reporting in South Australia, alongside a medical workup for bleeding disorders.",
+  "setting_note": "In a regional hospital the junior doctor should not manage this alone: involve the GP or physician on call, phone the Child Protection Service paediatrician in Adelaide for advice on assessment and skeletal survey, and admit the child locally while the report is made and a safety plan is agreed.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Emergency presentations",
+   "Documentation"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health: Child protection, mandatory reporting under the Children and Young People (Safety) Act 2017",
+    "locator": "Mandated notifiers; reporting to the Child Abuse Report Line; Child Protection Services (Women's and Children's Hospital) consultation",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Child abuse; Bruising in children",
+    "locator": "Sentinel bruising sites (TEN-4-FACESp); differential diagnosis and investigations",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: accidental bruises in mobile children are over bony prominences on the front of the body; bruising to the torso, ears, neck, buttocks, genitals or cheeks, clustered or patterned bruises, bruises in non-mobile infants, and histories that do not fit are sentinel signs; mandatory reporting requires reasonable suspicion, not proof; investigations include full blood count, coagulation screen and, under two years, skeletal survey as advised by child protection specialists. Misconceptions: a normal coagulation screen settles the matter; the clinician must be certain before reporting. Out of scope: forensic interview techniques.",
+  "plan": "Tests interpretation of a bruising pattern as a sentinel sign of abuse in an incidental presentation (4.1, 1.4, 2.1). A regional emergency department with a non-parent carer and specialist advice by phone keeps it at intern level. Distractors are normalising bruises in a toddler, relying on a bleeding workup to exclude abuse, and requiring patterned marks. Supported by SA Health mandatory reporting guidance and the RCH child abuse guideline."
+ },
+ {
+  "work_order_id": "r1-171",
+  "item_id": "cda0c2f4-6040-bc3b-0734-63248267657a",
+  "version": 1,
+  "stem": "A 7-year-old boy is brought to the emergency department of a large metropolitan teaching hospital at 1400 by his father's new partner, with burns to both feet. She says that two evenings ago he 'turned on the hot tap while sitting in the bath' and that they treated it at home with cream. He has a mild intellectual disability and is non-verbal with strangers. Examination shows partial-thickness burns of both feet and ankles extending to the same level 5 cm above each ankle, with a sharp horizontal upper border, uniform depth throughout, no splash marks on the legs or trunk, and sparing of the soles where they would have been pressed against the bath floor. He flinches when approached. He is otherwise well and the burns show no sign of infection. The paediatric registrar is available.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Symmetrical stocking burns with a sharp tide line and no splash marks suggest forced immersion and require a child protection report"
+   },
+   {
+    "id": "B",
+    "text": "Scalds in school-age children are almost always accidental, and the two-day delay simply reflects the carer's difficulty judging severity at home"
+   },
+   {
+    "id": "C",
+    "text": "The sharp demarcation and uniform depth indicate a contact burn from a heater, an accident consistent with his intellectual disability"
+   },
+   {
+    "id": "D",
+    "text": "The pattern indicates a chemical burn from bath products, and the carer's account of events in the bath is plausible"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A child who accidentally contacts hot water withdraws, producing irregular, asymmetric burns with splash marks and variable depth. Symmetrical stocking-distribution scalds with a clear tide line, uniform depth, sparing of soles pressed against the bath, no splash marks, and a two-day delay in seeking care are classic features of forced immersion. Children with disability are at higher risk of abuse. The resident must report to the Child Abuse Report Line (mandatory under the Children and Young People (Safety) Act 2017), involve the paediatric registrar and the hospital's child protection service, document and photograph the burns, and manage the burns and admission.",
+   "B": "Age does not exclude abuse, and a delay in seeking care for painful partial-thickness burns is itself a recognised indicator of concern rather than a reassuring explanation.",
+   "C": "Contact burns are usually unilateral or asymmetric with a shape matching the object; bilateral symmetrical burns to the same level on both feet are a liquid immersion pattern.",
+   "D": "Household bath products do not cause partial-thickness burns with a horizontal tide line; the pattern is thermal and the history offered does not account for it."
+  },
+  "learning_point": "Bilateral symmetrical scalds with a sharp tide line, uniform depth and no splash marks, especially with delayed presentation, indicate immersion injury and require a mandatory child protection report and specialist child protection assessment.",
+  "setting_note": "",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Emergency presentations",
+   "Documentation"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "5-12",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health: Child protection, mandatory reporting under the Children and Young People (Safety) Act 2017",
+    "locator": "Mandated notifiers; reporting to the Child Abuse Report Line; hospital child protection service referral",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Child abuse; Burns",
+    "locator": "Features of inflicted burns: immersion pattern, tide line, absence of splash marks, delayed presentation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: inflicted scalds are typically symmetrical glove-or-stocking or buttock immersion burns with clear upper margins, uniform depth and no splash marks; accidental scalds are asymmetric with splash and variable depth; delayed presentation, an inconsistent or changing history, and disability are additional concern markers; mandatory reporting needs reasonable suspicion; burns also need standard first aid and burns unit referral by area and depth. Misconceptions: older children are not abused; the carer's explanation should be accepted if delivered confidently. Out of scope: forensic documentation standards and burns resuscitation.",
+  "plan": "Tests interpretation of a burn pattern as inflicted immersion injury (4.1, 1.4, 2.1). A child with disability brought by a non-parent carer two days after injury to a tertiary emergency department gives all the recognised markers. Distractors normalise the delay or assign the pattern to contact or chemical burns. Supported by SA mandatory reporting guidance and the RCH child abuse guideline."
+ },
+ {
+  "work_order_id": "r1-172",
+  "item_id": "e6af3e0b-0a27-d198-ac39-b52b3ff6a64f",
+  "version": 1,
+  "stem": "A 10-month-old boy is brought to the emergency department of a tertiary hospital in Adelaide with six days of fever to 39.5 °C despite paracetamol, irritability and poor feeding. He was seen on day 3 by a GP and diagnosed with a viral illness. Today he has bilateral conjunctival injection without discharge, a blotchy erythematous rash over the trunk and nappy area, and puffy hands. His lips are red but not cracked, there is no lymphadenopathy, the throat is mildly red, and ears and chest are normal. Observations: heart rate 168/min, temperature 39.1 °C, capillary refill 2 seconds. Catheter urinalysis shows 40 leucocytes per microlitre, nitrite negative. Blood tests: CRP 118 mg/L, white cell count 17 x 10^9/L, platelets 540 x 10^9/L, sodium 131 mmol/L, albumin 27 g/L, ALT 96 U/L. The paediatric registrar is in resus with another child and asks you to propose a plan.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start intravenous antibiotics for a urinary tract infection on the basis of the pyuria and admit for intravenous therapy pending culture"
+   },
+   {
+    "id": "B",
+    "text": "Discharge with oral antibiotics for presumed scarlet fever and arrange GP review in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Admit under paediatrics for probable incomplete Kawasaki disease, with echocardiography and consideration of immunoglobulin"
+   },
+   {
+    "id": "D",
+    "text": "Reassure the parents that this is a prolonged viral exanthem and arrange review in the emergency department in two days"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Sterile pyuria (leucocytes without nitrites) is a recognised feature of Kawasaki disease and a classic trap; a nitrite-negative urine in a child with conjunctivitis, rash and extremity changes should not be labelled a urinary infection without culture. Antibiotics do not address the coronary artery risk.",
+   "B": "Scarlet fever is rare under two years, usually has exudative pharyngitis and a sandpaper rash, and does not cause this degree of systemic inflammation with hypoalbuminaemia and thrombocytosis; discharge with a six-day fever and these findings is unsafe.",
+   "C": "Fever for five or more days with conjunctival injection, polymorphous rash and extremity changes meets three of five principal criteria; with CRP above 100, thrombocytosis, hyponatraemia, hypoalbuminaemia and raised ALT, this is probable incomplete Kawasaki disease, which is common and easily missed in infants under one year. Intravenous immunoglobulin within ten days of fever onset reduces coronary aneurysm risk, so admission, urgent echocardiography and a senior paediatric decision on immunoglobulin and aspirin is the correct plan.",
+   "D": "Six days of high fever with marked inflammatory markers in an infant is not a benign viral illness; waiting two more days risks missing the window for immunoglobulin."
+  },
+  "learning_point": "In an infant with fever for five or more days, conjunctivitis, rash, extremity changes and high inflammatory markers, consider incomplete Kawasaki disease even when criteria are not all met, and remember that sterile pyuria is a feature, not a diagnosis of urinary infection.",
+  "setting_note": "In a regional hospital, recognition is still the junior doctor's task; echocardiography and immunoglobulin require paediatric input, so the infant should be discussed with the paediatric team in Adelaide early and transferred, since treatment is best begun within ten days of fever onset.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Emergency presentations",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "febrile child",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "minor",
+   "uncertainty_note": "Diagnostic criteria and the incomplete Kawasaki algorithm follow the RCH guideline and the American Heart Association statement it draws on; the eTG locator is the Kawasaki disease topic within the rheumatology or paediatric content and may sit under a different heading in the current edition."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Kawasaki disease",
+    "locator": "Diagnostic criteria; incomplete Kawasaki disease algorithm with supplementary laboratory criteria; treatment with intravenous immunoglobulin and aspirin",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Rheumatology",
+    "locator": "Kawasaki disease: diagnosis and treatment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Kawasaki disease is fever of five or more days plus at least four of bilateral non-exudative conjunctivitis, oral mucosal changes, polymorphous rash, extremity changes and cervical lymphadenopathy; incomplete disease is diagnosed with fewer features plus raised CRP or ESR and supplementary criteria (anaemia, thrombocytosis after day 7, hypoalbuminaemia, raised ALT, sterile pyuria, hyponatraemia, leucocytosis) or coronary abnormalities on echo; infants under one year are at highest risk of coronary aneurysms and most often have incomplete presentations; immunoglobulin within ten days reduces aneurysm risk. Misconceptions: pyuria means urinary infection; all criteria must be present. Out of scope: immunoglobulin dosing, aspirin regimens and echo follow-up schedules.",
+  "plan": "Tests management of a febrile infant whose findings point to incomplete Kawasaki disease rather than the urinary infection the urinalysis suggests (4.1, 1.4, 1.5). A tertiary emergency department with a busy registrar leaves the plan to the junior doctor. Distractors are the sterile pyuria trap, scarlet fever, and prolonged viral illness. Supported by the RCH Kawasaki disease guideline and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-173",
+  "item_id": "117fa84c-0add-8d85-c4f8-3b9a58fd1ec1",
+  "version": 1,
+  "stem": "A 2-year-old girl is brought by ambulance to the emergency department of a regional hospital at 1900 after a seizure at home. Her parents describe about two minutes of generalised stiffening and jerking of all limbs with her eyes rolled back, which stopped on its own; she was drowsy afterwards. She has had a runny nose and cough for a day. Her immunisations are up to date, she has no history of seizures and her development is normal; her father had a 'fit with fever' as a child. On arrival 40 minutes after the event she is febrile at 39.4 °C with a heart rate of 140/min, alert and cuddling her mother, with a red throat and a bulging left tympanic membrane. Her neck is supple, there is no rash, and neurological examination is normal. Her parents are frightened and ask whether she needs a scan.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perform a lumbar puncture to exclude bacterial meningitis before any decision about discharge is made tonight"
+   },
+   {
+    "id": "B",
+    "text": "Arrange a CT brain tonight using the on-site scanner before it closes for the evening"
+   },
+   {
+    "id": "C",
+    "text": "Commence regular sodium valproate to prevent recurrence and arrange an outpatient paediatric neurology referral"
+   },
+   {
+    "id": "D",
+    "text": "Manage the fever source, observe until fully recovered, explain febrile seizures to her parents and discharge with GP follow-up"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Lumbar puncture is indicated when there are meningeal signs, a prolonged or focal seizure, incomplete recovery, pre-treatment with antibiotics, or in young infants where signs are unreliable; a fully immunised, alert 2-year-old with a supple neck and an obvious source does not need one.",
+   "B": "Neuroimaging has no role in a simple febrile seizure with a normal neurological examination; using the scanner because it is available exposes her to radiation and possible sedation without benefit.",
+   "C": "Simple febrile seizures do not need antiepileptic prophylaxis; the risk of later epilepsy is only slightly above baseline, and antiepileptic adverse effects outweigh any benefit.",
+   "D": "This is a simple febrile seizure: generalised, under 15 minutes, single in 24 hours, in a child aged 6 months to 6 years with fever and a clear source, with full recovery. Management is to treat the cause, observe until back to baseline, and provide written and verbal education: a recurrence risk of about one in three, first aid during a seizure, when to call an ambulance, and that antipyretics ease discomfort but do not prevent recurrence. Discharge with GP review is appropriate."
+  },
+  "learning_point": "A simple febrile seizure in a well, fully recovered child needs no investigations or antiepileptic treatment; the key tasks are finding the fever source, observing until baseline, and educating parents.",
+  "setting_note": "In a regional emergency department the decision is the same, but if the child has not fully recovered within an hour, the seizure was prolonged or focal, or she is under 12 months, phone the paediatric team on call in Adelaide early; a child who needed a benzodiazepine should be observed and discussed.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Neurology",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "febrile seizure",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Febrile seizures",
+    "locator": "Definition of simple versus complex febrile seizure; investigations not routinely required; parent information",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Neurology",
+    "locator": "Febrile seizures: assessment, when to investigate, and advice to parents",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: simple febrile seizures are generalised, last under 15 minutes and do not recur within 24 hours; complex features (focal, prolonged, recurrent, incomplete recovery) or signs of central nervous system infection change the approach; investigations target the fever source only; recurrence about 30%, higher if under 18 months or family history; antipyretics do not prevent seizures; parents need seizure first aid and return advice. Misconceptions: every first seizure needs imaging; regular paracetamol prevents recurrence. Out of scope: management of status epilepticus and benzodiazepine dosing.",
+  "plan": "Tests management of a simple febrile seizure in a child who has recovered (4.1, 1.4, 1.2). A regional emergency department with an on-site CT scanner and worried parents creates the pull toward unnecessary tests. Distractors are lumbar puncture, CT and antiepileptic prophylaxis. Supported by the RCH febrile seizures guideline and Therapeutic Guidelines Neurology."
+ },
+ {
+  "work_order_id": "r1-174",
+  "item_id": "7878ac25-8996-75be-173c-7bdb4ed1637e",
+  "version": 1,
+  "stem": "A 9-month-old girl is brought to a regional hospital emergency department at 2200 with two days of vomiting and profuse watery diarrhoea. Her weight today is 8.1 kg; at her 8-month child health check she weighed 8.8 kg. She is lethargic but rousable, with sunken eyes, dry mucous membranes, capillary refill of 3 seconds, heart rate 170/min, respiratory rate 40/min and cool hands. Her last wet nappy was eight hours ago. She was given ondansetron on arrival and over the past hour has vomited every attempt at oral rehydration solution. A point-of-care blood glucose is 2.6 mmol/L. An intravenous cannula has just been inserted and a venous gas is pending. You are the intern alone in the department; the GP is on call at home and the nearest paediatric unit is in Adelaide.",
+  "lead_in": "Which action should you take first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Insert a nasogastric tube and start rapid nasogastric rehydration at 25 mL/kg per hour"
+   },
+   {
+    "id": "B",
+    "text": "Give 2 mL/kg of 10% glucose intravenously and recheck the blood glucose in 15 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Phone the paediatric retrieval service to arrange transfer to Adelaide"
+   },
+   {
+    "id": "D",
+    "text": "Send electrolytes and a venous gas and wait for the results before choosing a fluid"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Rapid nasogastric rehydration is the preferred route for moderate dehydration when oral rehydration fails, but she has failed an oral trial, is lethargic, has signs approaching shock and is hypoglycaemic; the hypoglycaemia must be corrected first and intravenous fluids are now indicated.",
+   "B": "A blood glucose of 2.6 mmol/L in a lethargic infant is an emergency: it causes neurological injury and may explain her drowsiness. Correct it immediately with 2 mL/kg of 10% glucose intravenously through the cannula already in place and recheck, then give a 10 to 20 mL/kg bolus of 0.9% sodium chloride for her poor perfusion and start maintenance fluids containing glucose, while calling the GP and the paediatric team.",
+   "C": "She will almost certainly need discussion with the paediatric service and probably retrieval, but the call should follow immediate correction of the hypoglycaemia and the start of resuscitation fluids; the retrieval team will ask what has already been done.",
+   "D": "Results guide ongoing fluid choice and sodium correction but must not delay treatment of hypoglycaemia and poor perfusion; isotonic fluid with glucose is safe to start before results."
+  },
+  "learning_point": "In a dehydrated infant, check and correct hypoglycaemia with 2 mL/kg of 10% glucose intravenously before anything else; then fluid resuscitation and rehydration, with early escalation.",
+  "setting_note": "In a regional emergency department the sequence is: fix glucose, give the fluid bolus, call the GP on call into the department, and phone the paediatric retrieval service (MedSTAR Kids) early, because a lethargic infant with signs of shock may deteriorate during a long road trip and retrieval teams take time to mobilise.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Fluids, electrolytes and renal",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "gastroenteritis and dehydration",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "minor",
+   "uncertainty_note": "The 2 mL/kg 10% glucose dose follows RCH and SA paediatric guidance; some guidelines quote 2 to 5 mL/kg. Fluid bolus volumes (10 to 20 mL/kg) also vary slightly between guidelines, but the priority order is consistent."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "South Australian Paediatric Clinical Practice Guidelines: Gastroenteritis; Hypoglycaemia",
+    "locator": "Assessment of dehydration; failed oral rehydration; correction of hypoglycaemia with 10% glucose",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guidelines: Gastroenteritis; Hypoglycaemia",
+    "locator": "Rehydration pathway; intravenous fluids for severe dehydration or shock; 2 mL/kg 10% glucose bolus",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: weight loss of 8% from a recent weight indicates moderate to severe dehydration; lethargy, prolonged capillary refill, tachycardia and cool peripheries are signs approaching shock; hypoglycaemia is common in young children with gastroenteritis and poor intake and must be checked and corrected first; rapid nasogastric rehydration is for moderate dehydration without shock; intravenous bolus 10 to 20 mL/kg 0.9% sodium chloride for shock, then replacement with glucose-containing isotonic fluid guided by electrolytes. Misconceptions: nasogastric rehydration suits every child who fails oral trial; retrieval should be called before stabilising. Out of scope: detailed fluid replacement calculations and hypernatraemic dehydration management.",
+  "plan": "Tests prioritisation of immediate actions in a dehydrated, hypoglycaemic infant for a lone intern in a regional department (4.1, 1.4, 1.9). Failed oral rehydration, signs approaching shock and a low glucose make the first step unambiguous once recognised. Distractors are the normally correct nasogastric pathway, an early retrieval call, and waiting for bloods. Supported by SA paediatric clinical practice guidelines and the RCH guidelines."
+ },
+ {
+  "work_order_id": "r1-175",
+  "item_id": "53cbc0d4-3ffa-01b0-86b7-19c0e06cb6e6",
+  "version": 1,
+  "stem": "A term baby boy, now 20 hours old, was born by uncomplicated vaginal birth at a rural hospital on the Yorke Peninsula that has a small midwifery-led birthing unit. His mother is blood group O positive and this is her second child. He is breastfeeding well and has passed urine and meconium. During the morning check the midwife notices that he is visibly jaundiced on the face and chest. He is alert with normal tone and temperature. You are the intern; the GP obstetrician is on call and the neonatal team at the Women's and Children's Hospital is available by phone. The hospital has a transcutaneous bilirubinometer and can send blood to the regional laboratory.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure the parents that this is physiological jaundice and arrange review at the routine day 3 midwife check"
+   },
+   {
+    "id": "B",
+    "text": "Advise the parents to place him in indirect sunlight near a window for short periods several times a day"
+   },
+   {
+    "id": "C",
+    "text": "Start phototherapy on the ward now and reassess his colour, feeding and alertness after 12 hours of treatment"
+   },
+   {
+    "id": "D",
+    "text": "Measure serum bilirubin, blood group with direct antiglobulin test and full blood count now, and phone the neonatal team"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Physiological jaundice appears after 24 hours; jaundice within the first 24 hours is always considered pathological, most often haemolysis (ABO incompatibility in a baby of a group O mother, rhesus disease, G6PD deficiency) or sepsis, and needs urgent assessment.",
+   "B": "Sunlight exposure is not an effective or safe treatment for neonatal jaundice and risks hypothermia and sunburn; it delays diagnosis of a potentially rapidly rising bilirubin.",
+   "C": "Phototherapy may well be needed, but it should be started on the basis of a serum bilirubin plotted against age in hours on the treatment threshold chart and after bloods for the cause have been taken; starting blindly misses the diagnosis and the need for possible transfer.",
+   "D": "Jaundice before 24 hours of age requires a serum bilirubin (transcutaneous readings are unreliable in this window and must be confirmed), the baby's blood group and direct antiglobulin test, a full blood count and, if indicated, G6PD screen and septic workup. Results plotted on the hour-specific nomogram determine phototherapy and the need for transfer; early discussion with the neonatal team guides this."
+  },
+  "learning_point": "Jaundice in the first 24 hours of life is pathological until proven otherwise and needs urgent serum bilirubin, blood group, direct antiglobulin test and full blood count with early specialist discussion.",
+  "setting_note": "In a small rural unit without neonatal phototherapy expertise or rapid bilirubin results, the key actions are early bloods, calling the neonatal team at the Women's and Children's Hospital, and planning transfer with the retrieval service if the bilirubin is near treatment or exchange thresholds, as haemolytic jaundice can rise quickly.",
+  "learning_area": "Paediatrics",
+  "secondary_areas": [
+   "Rural and remote",
+   "Investigations and interpretation",
+   "Obstetrics and women's health"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "neonatal jaundice",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b07",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "South Australian Perinatal Practice Guideline: Neonatal jaundice",
+    "locator": "Jaundice in the first 24 hours; investigations; phototherapy thresholds by age in hours",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Children's Hospital Melbourne Clinical Practice Guideline: Jaundice in early infancy",
+    "locator": "Early-onset jaundice: causes, investigations and management",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: jaundice under 24 hours is pathological (haemolysis, sepsis); a group O mother raises the likelihood of ABO incompatibility; serum bilirubin, blood group and direct antiglobulin test, full blood count and reticulocytes are the first tests; treatment thresholds depend on gestation and age in hours; transcutaneous bilirubinometry is a screening tool and is unreliable under 24 hours and during phototherapy; sunlight is not a treatment. Misconceptions: a well, feeding baby cannot have dangerous jaundice; phototherapy can be started without bloods. Out of scope: exchange transfusion and intravenous immunoglobulin.",
+  "plan": "Tests the intern's response to jaundice within the first 24 hours in a rural birthing unit (4.1, 1.4, 1.5). A group O mother and a baby who otherwise looks well set up the haemolysis diagnosis. Distractors are reassurance, sunlight, and blind phototherapy without bloods. Supported by the SA Perinatal Practice Guideline on neonatal jaundice and the RCH guideline."
+ }
+]

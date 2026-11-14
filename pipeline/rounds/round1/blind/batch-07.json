@@ -1,0 +1,1111 @@
+[
+ {
+  "item_id": "3f84ce57-cff3-46d5-93e6-fcec493196cc",
+  "work_order_id": "r1-151",
+  "stem": "A 46-year-old woman attends the gynaecology outpatient clinic of a regional hospital, where the visiting gynaecologist reviews patients by phone between monthly visits. She has had irregular periods for a year and assumed she was perimenopausal, but now has seven weeks of amenorrhoea, light spotting and three days of mild left iliac fossa discomfort. She is haemodynamically stable (heart rate 78/min, blood pressure 124/78 mmHg) with mild left iliac fossa tenderness and no peritonism. Serum beta-hCG is 1,800 IU/L. Transvaginal ultrasound this morning shows an empty uterus, a 2.5 cm left adnexal mass without a yolk sac or fetal cardiac activity, and a small amount of free fluid in the pouch of Douglas. Liver and renal function and full blood count are normal. She lives on a station 250 km away, has no car this week and says she cannot return for blood tests until the next clinic in a month. The gynaecologist is considering methotrexate.",
+  "lead_in": "Which feature makes medical management with methotrexate unsuitable for her?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A serum beta-hCG of 1,800 IU/L"
+   },
+   {
+    "id": "B",
+    "text": "A small amount of free fluid in the pouch of Douglas"
+   },
+   {
+    "id": "C",
+    "text": "Her inability to return for serial beta-hCG monitoring"
+   },
+   {
+    "id": "D",
+    "text": "An adnexal mass of 2.5 cm without fetal cardiac activity"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "05921acb-fddd-762a-eedf-77f70e8e0b46",
+  "work_order_id": "r1-152",
+  "stem": "A 22-year-old woman sees you in a general practice attached to a metropolitan general hospital. Her last period was six weeks ago and a home pregnancy test yesterday was positive. For 24 hours she has had intermittent right iliac fossa pain, worse this morning, and a small amount of brown vaginal spotting. She had chlamydia treated two years ago. She looks well: heart rate 86/min, blood pressure 116/74 mmHg, afebrile. Abdominal examination shows mild right iliac fossa tenderness without guarding or rebound. A urine pregnancy test in the practice is positive. She asks whether she can wait and see, because the pain has eased with paracetamol and she has work tomorrow. The practice has no ultrasound; the hospital runs an early pregnancy assessment service and has an emergency department.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a pelvic ultrasound through a community radiology practice for later in the week and review the report when it arrives"
+   },
+   {
+    "id": "B",
+    "text": "Refer her today to the hospital early pregnancy assessment service for serum beta-hCG and transvaginal ultrasound"
+   },
+   {
+    "id": "C",
+    "text": "Request serum beta-hCG and progesterone through community pathology and review her tomorrow with the results"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe regular paracetamol and repeat the urine pregnancy test in one week if the pain persists"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "6fbf93ad-6c02-84e9-7980-358dd7ecdf87",
+  "work_order_id": "r1-153",
+  "stem": "A 45-year-old woman at 35 weeks of gestation attends her general practitioner for a routine shared-care antenatal visit; the practice is linked to a tertiary hospital in Adelaide. This is an IVF pregnancy using a donor egg. Her booking blood pressure was 112/70 mmHg and her antenatal course has been uncomplicated. Today her blood pressure is 142/92 mmHg and, after ten minutes of rest, 144/90 mmHg. Urine dipstick shows no protein. She mentions two days of epigastric discomfort and nausea that she has attributed to reflux, with no headache or visual symptoms. Fetal movements are normal and the fundal height is appropriate. She has no oedema. Her next hospital clinic appointment is in two weeks.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe an antacid for reflux and recheck her blood pressure at a nurse visit in one week"
+   },
+   {
+    "id": "B",
+    "text": "Start labetalol 100 mg twice daily and review her blood pressure and a urine protein-creatinine ratio in one week"
+   },
+   {
+    "id": "C",
+    "text": "Request full blood count, liver and renal function and urine protein-creatinine ratio through community pathology and review the results tomorrow"
+   },
+   {
+    "id": "D",
+    "text": "Refer her the same day to the hospital maternity assessment unit for pre-eclampsia investigations and fetal assessment"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "hypertension in pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "ee55c377-08b7-4b7e-add0-56e5c48e8fac",
+  "work_order_id": "r1-154",
+  "stem": "A 23-year-old woman attends the outpatient clinic of a rural hospital on the Yorke Peninsula, five days after an uncomplicated vaginal birth at the regional maternity unit. She has felt feverish and shivery for 24 hours, with lower abdominal cramping and offensive-smelling lochia. She is breastfeeding and her breasts are soft and non-tender. Her perineum is intact. Observations: temperature 38.6 \u00b0C, heart rate 108/min, blood pressure 108/66 mmHg, respiratory rate 20/min, oxygen saturation 98%. The uterus is tender and slightly bulky on abdominal palpation; there is no loin tenderness. Urine dipstick shows a trace of leucocytes. She has no drug allergies. The GP obstetrician is on call by phone and the hospital has a small inpatient ward.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Admit her for blood cultures and intravenous amoxicillin, gentamicin and metronidazole"
+   },
+   {
+    "id": "B",
+    "text": "Prescribe oral amoxicillin and clavulanic acid and arrange review in the clinic in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Prescribe oral cefalexin for a urinary tract infection and send a midstream urine for culture"
+   },
+   {
+    "id": "D",
+    "text": "Arrange a pelvic ultrasound to look for retained products before deciding on antibiotics"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "postpartum fever",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "82fad2a1-5adf-bc95-f0d3-c0985ad30b9d",
+  "work_order_id": "r1-155",
+  "stem": "A 45-year-old woman at 30 weeks of gestation presents at 2200 to the emergency department of a metropolitan general hospital with two days of swelling and aching in her left calf, which is now painful to walk on. She has no chest pain or breathlessness. She has a singleton pregnancy conceived by IVF and a body mass index of 34. Observations: heart rate 92/min, blood pressure 122/78 mmHg, respiratory rate 16/min, oxygen saturation 98% on room air, afebrile. The left calf is 4 cm larger in circumference than the right, warm and tender along the medial calf. The ultrasound department does not open until 0800 and the obstetric registrar is on site.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a D-dimer and, if it is below the laboratory threshold, discharge her with antenatal clinic review"
+   },
+   {
+    "id": "B",
+    "text": "Start therapeutic enoxaparin now and arrange compression ultrasound of the leg when imaging opens"
+   },
+   {
+    "id": "C",
+    "text": "Start warfarin tonight and arrange compression ultrasound of the leg as an outpatient"
+   },
+   {
+    "id": "D",
+    "text": "Advise compression stockings, elevation and analgesia, with review in the antenatal clinic in one week"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "pregnant patient in the emergency department",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "0f313f78-f13e-a506-cf4c-ad3a3abdcf22",
+  "work_order_id": "r1-156",
+  "stem": "A 32-year-old woman is seen in the outpatient clinic of a rural hospital on the Yorke Peninsula, referred by the practice nurse after a positive pregnancy test. By dates she is six weeks pregnant; the pregnancy is unplanned but wanted. Her medications are perindopril 5 mg daily for hypertension started two years ago, sodium valproate 500 mg twice daily for generalised epilepsy (seizure-free for three years), sertraline 50 mg daily for anxiety, and folic acid 0.5 mg daily that she started last week. Her blood pressure today is 128/80 mmHg. Her neurologist is in Adelaide and sees her annually; the GP obstetrician is available by phone. You are the PGY2 resident running the clinic.",
+  "lead_in": "Which action should you take before she leaves the clinic today?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease perindopril today and ask the GP obstetrician whether an alternative antihypertensive is needed"
+   },
+   {
+    "id": "B",
+    "text": "Cease sodium valproate today and request an urgent appointment with her neurologist in Adelaide"
+   },
+   {
+    "id": "C",
+    "text": "Change sertraline to a different antidepressant with more pregnancy safety data and review in two weeks"
+   },
+   {
+    "id": "D",
+    "text": "Replace sodium valproate with lamotrigine today and arrange an urgent neurology review"
+   }
+  ],
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "prescribing in pregnancy and breastfeeding",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "41f923c1-3814-2f22-37b7-473ad06caba2",
+  "work_order_id": "r1-157",
+  "stem": "You are the evening cover resident at a large metropolitan teaching hospital. At 2130 a nurse asks you to review a 79-year-old woman with severe COPD on home oxygen, admitted two days ago with pneumonia. Her respiratory rate is 32/min, oxygen saturation 86% on 6 L/min via Hudson mask, heart rate 118/min and blood pressure 138/84 mmHg, and she is drowsy but rousable, meeting rapid response criteria. The nurse shows you a certified Advance Care Directive in the notes: she refuses intubation and CPR in any circumstances, but wants treatments that may get her home, including a trial of mask ventilation. No Resuscitation Plan (7-Step Pathway) has been completed by the day team. Her husband, her substitute decision-maker, is not contactable yet. The medical registrar is in the emergency department.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Activate a rapid response call and proceed with full escalation, including intubation if required, because no Resuscitation Plan has been completed"
+   },
+   {
+    "id": "B",
+    "text": "Withhold further active treatment and start end-of-life comfort care, in keeping with the limits in her directive"
+   },
+   {
+    "id": "C",
+    "text": "Activate a rapid response call and treat within her directive's limits, including non-invasive ventilation"
+   },
+   {
+    "id": "D",
+    "text": "Defer treatment decisions until her husband can be reached to give consent as her substitute decision-maker"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "advance care directives",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "ee031eb1-e607-ca41-bb75-fccdaf49b138",
+  "work_order_id": "r1-158",
+  "stem": "A 68-year-old man is admitted to the surgical ward of a 30-bed regional hospital in South Australia's Mid North the afternoon before an elective inguinal hernia repair by the visiting surgeon. He is independent, has well-controlled type 2 diabetes and is otherwise well. While you are clerking him he hands you a copy of his Advance Care Directive, completed last year after his wife's death. It states that he refuses CPR and life support 'if I am dying from an illness that cannot be cured and will not recover a meaningful quality of life'. He has not discussed it with the surgeon. The nurse asks whether she should write 'not for CPR' on his chart and whether the anaesthetist needs to know.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Record 'not for resuscitation' on his observation chart tonight because his directive refuses CPR"
+   },
+   {
+    "id": "B",
+    "text": "Return the directive to him and explain that it does not apply while he has decision-making capacity"
+   },
+   {
+    "id": "C",
+    "text": "Ask the visiting surgeon to override the directive before he goes to theatre tomorrow morning"
+   },
+   {
+    "id": "D",
+    "text": "Clarify his perioperative wishes with him, tell the surgeon and anaesthetist, and document a Resuscitation Plan"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "advance care directives",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "b38b5678-cb03-be7f-c6ca-728d4333b825",
+  "work_order_id": "r1-159",
+  "stem": "An 88-year-old woman on the surgical ward of a metropolitan teaching hospital is three days post repair of a fractured neck of femur. She is taking oxycodone immediate-release 2.5 mg four times a day for pain, regular paracetamol, and her usual amlodipine and pantoprazole. She has not opened her bowels since admission five days ago and reports bloating and discomfort. Her abdomen is soft and mildly distended with normal bowel sounds; rectal examination shows soft stool in the rectum. She is eating small meals, drinking about 800 mL a day, and mobilises only short distances with physiotherapy. She has no history of bowel obstruction, is not vomiting, and has normal renal function. No laxative was charted on admission.",
+  "lead_in": "Which laxative is most appropriate to prescribe?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Psyllium husk 3.5 g twice daily in water"
+   },
+   {
+    "id": "B",
+    "text": "Docusate with senna 2 tablets nocte"
+   },
+   {
+    "id": "C",
+    "text": "Liquid paraffin 15 mL at night"
+   },
+   {
+    "id": "D",
+    "text": "Methylnaltrexone 8 mg subcutaneously daily"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "constipation",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "c4a671bc-c999-fc8c-08f6-08bea9a4a8a0",
+  "work_order_id": "r1-160",
+  "stem": "You are the evening cover intern at a tertiary hospital in Adelaide. At 2000 a nurse phones about an 81-year-old woman admitted yesterday with a urinary tract infection. She lives independently, drives, and had no confusion on admission. She is now pulling at her intravenous cannula, trying to climb over the bed rails and insisting she needs to get to the bus stop, and she does not know where she is. She has refused her evening medications. Her last observations two hours ago were heart rate 96/min, blood pressure 132/78 mmHg, temperature 37.6 \u00b0C and oxygen saturation 95% on room air. Her chart includes intravenous ceftriaxone, oxycodone 5 mg as needed (given twice today for back pain) and temazepam 10 mg at night, started on admission. The nurse asks you to chart something to settle her.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart olanzapine 5 mg wafer as needed over the phone so the nurse can give a dose now and reassess later"
+   },
+   {
+    "id": "B",
+    "text": "Chart an additional dose of temazepam 10 mg tonight to help her settle and sleep through"
+   },
+   {
+    "id": "C",
+    "text": "Attend now to assess for pain, retention, hypoxia and medication causes, and start non-pharmacological measures"
+   },
+   {
+    "id": "D",
+    "text": "Request an urgent CT brain tonight to exclude a stroke as the cause of her new confusion and agitation"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "delirium",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "7e434377-db6e-8e54-3b4a-704221bc49ba",
+  "work_order_id": "r1-161",
+  "stem": "You are the PGY2 covering the medical ward of a metropolitan general hospital at 2100; the medical registrar is resuscitating a patient in the emergency department. An 87-year-old man with moderate Alzheimer's dementia, admitted yesterday with community-acquired pneumonia, has been increasingly restless since dinner. When a nurse tried to redirect him back to bed he pushed her and shouted; she is unhurt. He is now standing at the ward exit, agitated, demanding to go home to his wife, who died two years ago. He has had no analgesia today, has not passed urine since 1400, and his oxygen saturation is 93% on room air with a respiratory rate of 22/min. His daughter, who usually settles him, lives 15 minutes away. The nurse in charge asks you to 'give him something' and is considering calling security.",
+  "lead_in": "What is the most appropriate first action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe risperidone 0.5 mg orally now so that he can be returned to bed and the ward kept safe overnight"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse in charge to call security to escort him back to bed and apply a restraint"
+   },
+   {
+    "id": "C",
+    "text": "Page the registrar out of the emergency department to review him before any treatment or redirection is attempted"
+   },
+   {
+    "id": "D",
+    "text": "De-escalate calmly with a familiar nurse, check for pain, retention and hypoxia, and have his daughter called"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "dementia with behavioural symptoms",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "192df013-557d-bf69-8419-f7f6336e6b51",
+  "work_order_id": "r1-162",
+  "stem": "You are the evening cover resident at a regional hospital with a small medical ward. An 88-year-old woman admitted four days ago with a urinary tract infection and a fall at home is due for discharge tomorrow morning. The nurse asks you to check that the discharge is still appropriate. The physiotherapist's note from this afternoon reads: 'Timed Up and Go 24 seconds with four-wheeled frame. Requires standby assistance for sit-to-stand and turning. Reports two falls in the past three months. Lives alone on a farm 40 km from town; no community services; daughter in Adelaide.' Her observations are normal, she is oriented and she says she is keen to go home to feed her dogs. The day team's plan says 'home when physio happy'.",
+  "lead_in": "How should the physiotherapy assessment be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "She is at high falls risk and needs standby assistance, so discharge home alone tomorrow is unsafe without supports"
+   },
+   {
+    "id": "B",
+    "text": "A Timed Up and Go of 24 seconds is acceptable at her age, so discharge home tomorrow morning can proceed as planned"
+   },
+   {
+    "id": "C",
+    "text": "She needs transfer to Adelaide for inpatient geriatric rehabilitation before any discharge home can be considered"
+   },
+   {
+    "id": "D",
+    "text": "She can no longer manage at home and the plan should change to placement in permanent residential aged care"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "discharge planning for an older person",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "5bc5dd9c-7f18-82da-2d83-11681dae5000",
+  "work_order_id": "r1-163",
+  "stem": "A 70-year-old woman on the general ward of a metropolitan teaching hospital, admitted with cellulitis and taking apixaban 5 mg twice daily for atrial fibrillation, is found on the floor beside her bed at 0300 by the night nurse. The fall was unwitnessed. You are the PGY2 covering. She is alert with a GCS of 15, normal pupils, no focal neurological deficit, no neck pain, and no visible scalp wound, bruise or swelling. She has grazed her right elbow. When asked, she says she got up to go to the toilet and 'the next thing I was on the floor'; she cannot recall falling or how long she was there. Observations are unchanged from the evening. The nurse has completed the post-fall assessment tool and asks what the findings mean for her care.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A normal GCS and absence of visible head injury mean intracranial bleeding is excluded and hourly neurological observations are sufficient"
+   },
+   {
+    "id": "B",
+    "text": "Amnesia for the fall in an anticoagulated patient means head injury cannot be excluded and a CT brain is indicated now"
+   },
+   {
+    "id": "C",
+    "text": "Amnesia for the event indicates delirium, and the priority is a 4AT screen and delirium workup rather than imaging"
+   },
+   {
+    "id": "D",
+    "text": "Apixaban must be reversed with prothrombin complex concentrate immediately, before any imaging is arranged"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "falls on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "a02ca749-0619-6a66-c13f-69d0d6519b1a",
+  "work_order_id": "r1-164",
+  "stem": "An 88-year-old man on the surgical ward of a metropolitan general hospital was admitted this afternoon with an intracapsular fractured neck of femur after a fall at home. Surgery is planned for tomorrow morning. He weighs 62 kg, has chronic kidney disease (eGFR 38 mL/min/1.73 m2) and mild cognitive impairment, and takes amlodipine and a statin. He received paracetamol in the emergency department and a fascia iliaca block four hours ago, but now rates his hip pain at 7 out of 10 at rest and cannot be repositioned. The nurse asks you, the intern, to chart analgesia for the night. The orthopaedic registrar is in theatre and the anaesthetic registrar is available by phone.",
+  "lead_in": "Which analgesic is most appropriate to chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ibuprofen 400 mg orally three times a day with food"
+   },
+   {
+    "id": "B",
+    "text": "Tramadol 100 mg orally every six hours as needed for pain"
+   },
+   {
+    "id": "C",
+    "text": "Morphine 10 mg intramuscularly every four hours as needed"
+   },
+   {
+    "id": "D",
+    "text": "Oxycodone immediate-release 2.5 mg orally four-hourly as needed"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "9dc2e33e-637d-8fe8-4adf-ecf00f86cef3",
+  "work_order_id": "r1-165",
+  "stem": "An 86-year-old woman on the medical ward of a large metropolitan teaching hospital, admitted with community-acquired pneumonia, slips while walking to the bathroom with a nurse. She lands on her left side and immediately complains of left groin pain. She is unable to weight-bear, and the left leg appears slightly shortened and externally rotated, with pain on any attempt at hip rotation. Distal pulses and sensation are normal. She has osteoporosis treated with denosumab. A pelvis and left hip X-ray performed within the hour is reported as: 'No fracture or dislocation identified. Osteopenic bones. Degenerative change in both hips.' The nurse asks whether the physiotherapist can mobilise her in the morning.",
+  "lead_in": "How should the X-ray result be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A fracture has been excluded and she can be mobilised with physiotherapy in the morning as her pain allows"
+   },
+   {
+    "id": "B",
+    "text": "Her symptoms reflect a soft tissue injury and she should be reviewed in a week if the pain persists"
+   },
+   {
+    "id": "C",
+    "text": "An occult hip fracture is not excluded given the clinical signs, and MRI or CT is required"
+   },
+   {
+    "id": "D",
+    "text": "The findings suggest septic arthritis of the hip and urgent joint aspiration should be arranged"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "6c1a761e-986d-c6b4-7a91-8783457b865a",
+  "work_order_id": "r1-166",
+  "stem": "A 78-year-old Aboriginal woman from a community on the Yorke Peninsula is admitted to the general ward of the local rural hospital after a fall at home. Her blood glucose on arrival was 3.1 mmol/L and she was sweaty and confused, improving after oral glucose. With her consent, the Aboriginal Health Practitioner helps you take a medication history with her daughter present: metformin 1 g twice daily, gliclazide modified-release 60 mg daily, perindopril 5 mg daily, atorvastatin 40 mg daily, aspirin 100 mg daily and pantoprazole 40 mg daily, started 'years ago for indigestion'. Her daughter says her appetite has been poor for a month and she sometimes skips meals. Her HbA1c last month was 6.1% (43 mmol/mol) and her eGFR is 52 mL/min/1.73 m2. Her blood pressure is 134/80 mmHg. You are the PGY2 preparing her medication review for the ward round.",
+  "lead_in": "Which medication should be addressed first in the medication review?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gliclazide, because it has caused hypoglycaemia and her HbA1c is already below target"
+   },
+   {
+    "id": "B",
+    "text": "Pantoprazole, because long-term use without a clear indication increases fracture and infection risk"
+   },
+   {
+    "id": "C",
+    "text": "Atorvastatin, because statins offer little benefit to people over 75 years without known vascular disease"
+   },
+   {
+    "id": "D",
+    "text": "Metformin, because it should be stopped once the eGFR falls below 60 mL/min/1.73 m2"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "polypharmacy and deprescribing",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "c837da30-89b3-272d-b6d5-e62c8fabb41c",
+  "work_order_id": "r1-167",
+  "stem": "A 79-year-old woman on the medical ward of a regional hospital has been bed-bound for six days with severe pneumonia and heart failure, requiring oxygen and with poor oral intake. She has type 2 diabetes with peripheral neuropathy and a body mass index of 19. During the evening skin check the nurse finds a 4 cm area over her left heel that is deep purple, feels boggy compared with the surrounding skin, and is painful to touch. The skin is intact with no blister. The foot is warm, pedal pulses are palpable and capillary refill is normal. She did not fall before admission. The nurse asks you what the finding means and whether an incident report is needed.",
+  "lead_in": "How should this finding be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A stage 1 pressure injury with non-blanchable redness that will resolve with regular repositioning and skin care"
+   },
+   {
+    "id": "B",
+    "text": "A suspected deep tissue pressure injury that needs offloading, wound team review and an incident report"
+   },
+   {
+    "id": "C",
+    "text": "A bruise from minor trauma that needs only documentation and review at the next routine skin check"
+   },
+   {
+    "id": "D",
+    "text": "Acute limb ischaemia from peripheral arterial disease that needs urgent vascular surgical referral tonight"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "pressure injury prevention",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "c530ffe1-18d8-ed81-e911-3468bbb595c3",
+  "work_order_id": "r1-168",
+  "stem": "A 78-year-old woman on the general ward of a metropolitan general hospital was admitted two days ago with severe low back pain after a fall at home, managed with paracetamol and oxycodone. At 2300 the nurse tells you, the PGY2 covering, that she has not passed urine for ten hours and has lower abdominal discomfort. A bladder scan shows 850 mL. She last opened her bowels three days ago. On questioning she says that since this afternoon her feet have felt 'numb and heavy' and she has not felt the urge to void. Examination shows reduced power (4/5) at both ankles, reduced perianal sensation and lax anal tone. Her observations are normal. The medical registrar is on site, and the hospital has 24-hour CT but MRI only during the day.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Insert an indwelling catheter and discuss with the registrar now to arrange urgent spinal imaging for suspected cauda equina syndrome"
+   },
+   {
+    "id": "B",
+    "text": "Insert an indwelling catheter, check renal function and electrolytes, and reassess her mobility and bladder function on the morning ward round"
+   },
+   {
+    "id": "C",
+    "text": "Perform an in-out catheter, encourage oral fluids and repeat the bladder scan in four hours"
+   },
+   {
+    "id": "D",
+    "text": "Withhold oxycodone, give a stimulant laxative and repeat the bladder scan in four hours"
+   }
+  ],
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "urinary retention",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "15acf156-cd96-e6dd-2395-30eb48ba31db",
+  "work_order_id": "r1-169",
+  "stem": "At 2300 in the emergency department of a regional hospital, a 4-month-old boy is brought in by his parents with three days of coryza and cough and increasing work of breathing today. He was born at term and is otherwise well. He is febrile at 38.4 \u00b0C, respiratory rate 64/min with moderate subcostal and intercostal recession and widespread wheeze and crackles, and oxygen saturation 91% on room air, improving to 96% on 1 L/min nasal prong oxygen. He has taken about two-thirds of his usual feeds today. While he was being undressed at triage, the nurse observed a 15-second pause in breathing with colour change, which resolved spontaneously. You are the intern on alone, with the GP on call at home. The hospital has a small medical ward with no paediatric high-flow or high-dependency capability.",
+  "lead_in": "Which feature most strongly indicates that he needs discussion with the paediatric retrieval service now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Oxygen saturation of 91% on room air, improving to 96% on low-flow oxygen"
+   },
+   {
+    "id": "B",
+    "text": "Feeding about two-thirds of his usual volumes over the day"
+   },
+   {
+    "id": "C",
+    "text": "The apnoeic episode with colour change witnessed at triage"
+   },
+   {
+    "id": "D",
+    "text": "Fever of 38.4 \u00b0C with three days of coryza and cough"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "bronchiolitis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "c66fb37d-2144-28bf-b801-e5e3952ca86a",
+  "work_order_id": "r1-170",
+  "stem": "A 3-year-old boy is brought to the emergency department of a 30-bed regional hospital in South Australia's Mid North by his mother's partner, with two days of cough and a runny nose. He is alert, playful at times, afebrile, with clear lungs. When you examine him you notice several bruises: three yellow-green bruises over both shins, a 3 cm purple bruise on the left pinna, a cluster of four small oval bruises on the left side of his chest, and a fading bruise on his right buttock. The partner says the boy 'is always falling over and bruises easily' and that he 'fell off the trampoline'. The mother is not present. The boy goes quiet when the partner speaks. There is no family history of bleeding disorders. The nearest paediatrician is in Adelaide, two hours away, and available by phone.",
+  "lead_in": "How should the bruising pattern be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Multiple bruises of different ages in an active 3-year-old are typical of normal play and need no further action beyond documentation"
+   },
+   {
+    "id": "B",
+    "text": "The pattern suggests a bleeding disorder, and a normal coagulation screen would exclude inflicted injury as the cause"
+   },
+   {
+    "id": "C",
+    "text": "Only bruises with a recognisable hand or object imprint are concerning for inflicted injury in a child of this age"
+   },
+   {
+    "id": "D",
+    "text": "Bruising on the ear, torso and buttock is unusual for accidental injury and requires a mandatory child protection report"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "cda0c2f4-6040-bc3b-0734-63248267657a",
+  "work_order_id": "r1-171",
+  "stem": "A 7-year-old boy is brought to the emergency department of a large metropolitan teaching hospital at 1400 by his father's new partner, with burns to both feet. She says that two evenings ago he 'turned on the hot tap while sitting in the bath' and that they treated it at home with cream. He has a mild intellectual disability and is non-verbal with strangers. Examination shows partial-thickness burns of both feet and ankles extending to the same level 5 cm above each ankle, with a sharp horizontal upper border, uniform depth throughout, no splash marks on the legs or trunk, and sparing of the soles where they would have been pressed against the bath floor. He flinches when approached. He is otherwise well and the burns show no sign of infection. The paediatric registrar is available.",
+  "lead_in": "How should these findings be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Symmetrical stocking burns with a sharp tide line and no splash marks suggest forced immersion and require a child protection report"
+   },
+   {
+    "id": "B",
+    "text": "Scalds in school-age children are almost always accidental, and the two-day delay simply reflects the carer's difficulty judging severity at home"
+   },
+   {
+    "id": "C",
+    "text": "The sharp demarcation and uniform depth indicate a contact burn from a heater, an accident consistent with his intellectual disability"
+   },
+   {
+    "id": "D",
+    "text": "The pattern indicates a chemical burn from bath products, and the carer's account of events in the bath is plausible"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "5-12",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "e6af3e0b-0a27-d198-ac39-b52b3ff6a64f",
+  "work_order_id": "r1-172",
+  "stem": "A 10-month-old boy is brought to the emergency department of a tertiary hospital in Adelaide with six days of fever to 39.5 \u00b0C despite paracetamol, irritability and poor feeding. He was seen on day 3 by a GP and diagnosed with a viral illness. Today he has bilateral conjunctival injection without discharge, a blotchy erythematous rash over the trunk and nappy area, and puffy hands. His lips are red but not cracked, there is no lymphadenopathy, the throat is mildly red, and ears and chest are normal. Observations: heart rate 168/min, temperature 39.1 \u00b0C, capillary refill 2 seconds. Catheter urinalysis shows 40 leucocytes per microlitre, nitrite negative. Blood tests: CRP 118 mg/L, white cell count 17 x 10^9/L, platelets 540 x 10^9/L, sodium 131 mmol/L, albumin 27 g/L, ALT 96 U/L. The paediatric registrar is in resus with another child and asks you to propose a plan.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start intravenous antibiotics for a urinary tract infection on the basis of the pyuria and admit for intravenous therapy pending culture"
+   },
+   {
+    "id": "B",
+    "text": "Discharge with oral antibiotics for presumed scarlet fever and arrange GP review in 48 hours"
+   },
+   {
+    "id": "C",
+    "text": "Admit under paediatrics for probable incomplete Kawasaki disease, with echocardiography and consideration of immunoglobulin"
+   },
+   {
+    "id": "D",
+    "text": "Reassure the parents that this is a prolonged viral exanthem and arrange review in the emergency department in two days"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "febrile child",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "117fa84c-0add-8d85-c4f8-3b9a58fd1ec1",
+  "work_order_id": "r1-173",
+  "stem": "A 2-year-old girl is brought by ambulance to the emergency department of a regional hospital at 1900 after a seizure at home. Her parents describe about two minutes of generalised stiffening and jerking of all limbs with her eyes rolled back, which stopped on its own; she was drowsy afterwards. She has had a runny nose and cough for a day. Her immunisations are up to date, she has no history of seizures and her development is normal; her father had a 'fit with fever' as a child. On arrival 40 minutes after the event she is febrile at 39.4 \u00b0C with a heart rate of 140/min, alert and cuddling her mother, with a red throat and a bulging left tympanic membrane. Her neck is supple, there is no rash, and neurological examination is normal. Her parents are frightened and ask whether she needs a scan.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perform a lumbar puncture to exclude bacterial meningitis before any decision about discharge is made tonight"
+   },
+   {
+    "id": "B",
+    "text": "Arrange a CT brain tonight using the on-site scanner before it closes for the evening"
+   },
+   {
+    "id": "C",
+    "text": "Commence regular sodium valproate to prevent recurrence and arrange an outpatient paediatric neurology referral"
+   },
+   {
+    "id": "D",
+    "text": "Manage the fever source, observe until fully recovered, explain febrile seizures to her parents and discharge with GP follow-up"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "febrile seizure",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "7878ac25-8996-75be-173c-7bdb4ed1637e",
+  "work_order_id": "r1-174",
+  "stem": "A 9-month-old girl is brought to a regional hospital emergency department at 2200 with two days of vomiting and profuse watery diarrhoea. Her weight today is 8.1 kg; at her 8-month child health check she weighed 8.8 kg. She is lethargic but rousable, with sunken eyes, dry mucous membranes, capillary refill of 3 seconds, heart rate 170/min, respiratory rate 40/min and cool hands. Her last wet nappy was eight hours ago. She was given ondansetron on arrival and over the past hour has vomited every attempt at oral rehydration solution. A point-of-care blood glucose is 2.6 mmol/L. An intravenous cannula has just been inserted and a venous gas is pending. You are the intern alone in the department; the GP is on call at home and the nearest paediatric unit is in Adelaide.",
+  "lead_in": "Which action should you take first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Insert a nasogastric tube and start rapid nasogastric rehydration at 25 mL/kg per hour"
+   },
+   {
+    "id": "B",
+    "text": "Give 2 mL/kg of 10% glucose intravenously and recheck the blood glucose in 15 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Phone the paediatric retrieval service to arrange transfer to Adelaide"
+   },
+   {
+    "id": "D",
+    "text": "Send electrolytes and a venous gas and wait for the results before choosing a fluid"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "gastroenteritis and dehydration",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "53cbc0d4-3ffa-01b0-86b7-19c0e06cb6e6",
+  "work_order_id": "r1-175",
+  "stem": "A term baby boy, now 20 hours old, was born by uncomplicated vaginal birth at a rural hospital on the Yorke Peninsula that has a small midwifery-led birthing unit. His mother is blood group O positive and this is her second child. He is breastfeeding well and has passed urine and meconium. During the morning check the midwife notices that he is visibly jaundiced on the face and chest. He is alert with normal tone and temperature. You are the intern; the GP obstetrician is on call and the neonatal team at the Women's and Children's Hospital is available by phone. The hospital has a transcutaneous bilirubinometer and can send blood to the regional laboratory.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure the parents that this is physiological jaundice and arrange review at the routine day 3 midwife check"
+   },
+   {
+    "id": "B",
+    "text": "Advise the parents to place him in indirect sunlight near a window for short periods several times a day"
+   },
+   {
+    "id": "C",
+    "text": "Start phototherapy on the ward now and reassess his colour, feeding and alertness after 12 hours of treatment"
+   },
+   {
+    "id": "D",
+    "text": "Measure serum bilirubin, blood group with direct antiglobulin test and full blood count now, and phone the neonatal team"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "neonatal jaundice",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.4",
+   "1.5"
+  ]
+ }
+]

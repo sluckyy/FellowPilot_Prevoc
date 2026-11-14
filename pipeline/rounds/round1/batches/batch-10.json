@@ -1,0 +1,677 @@
+[
+ {
+  "work_order_id": "r1-226",
+  "round": 1,
+  "item_id": "9680c40f-ccfe-c804-c51f-1024ff0d6409",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "death certification and coronial reporting",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in a general practice linked to a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-227",
+  "round": 1,
+  "item_id": "38384767-1c4a-be9c-7bc8-71fad21b9e0e",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "fitness to drive",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-228",
+  "round": 1,
+  "item_id": "77eb6cdc-1845-9f6d-1173-0f212c2e2823",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "gifts and conflicts of interest",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-229",
+  "round": 1,
+  "item_id": "877f4704-0d21-91f5-457d-46510ed26b73",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "impaired colleague",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-230",
+  "round": 1,
+  "item_id": "e60e212b-56bf-ff0e-1c4b-d4767015c390",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "mandatory notification",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-231",
+  "round": 1,
+  "item_id": "b9c6cd6e-d149-ee5b-3aaf-3e8915265ec8",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "open disclosure after an error",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-232",
+  "round": 1,
+  "item_id": "bed3a577-ba62-a63f-e7b0-433db58cf47a",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "scope of practice",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-233",
+  "round": 1,
+  "item_id": "f653e026-5490-fba5-0d87-32e8db64f223",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "social media and professional boundaries",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-234",
+  "round": 1,
+  "item_id": "51637b09-f920-1625-cb08-595f97cf83c2",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "appendicitis",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-235",
+  "round": 1,
+  "item_id": "f258af1d-7a2d-b032-344f-67df880f0b9b",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "bowel obstruction",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-236",
+  "round": 1,
+  "item_id": "b618ba24-a054-8183-e969-2a7f8704ce75",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "bowel obstruction",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-237",
+  "round": 1,
+  "item_id": "a590c408-2367-c634-bfce-fa58d97be4a6",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "consent for a procedure",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "on the medical ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-238",
+  "round": 1,
+  "item_id": "883fce42-08b9-f1c7-c7b3-9983b4340077",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "fasting and fluids before theatre",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-239",
+  "round": 1,
+  "item_id": "656df212-e8df-ecee-36a6-5d9b27d8c20f",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "fasting and fluids before theatre",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-240",
+  "round": 1,
+  "item_id": "7b623b24-ecf3-3b41-5684-0711dbf8c179",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "perioperative medication management",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-241",
+  "round": 1,
+  "item_id": "be2bbefb-8e60-5210-d901-ca69eae3bc69",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "postoperative fever",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-242",
+  "round": 1,
+  "item_id": "47509896-2ef0-354c-062a-069810ad2061",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "postoperative fever",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-243",
+  "round": 1,
+  "item_id": "eb9c15ef-dc26-696f-f92a-2183b2bc9302",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "postoperative ileus",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the recovery and surgical ward area of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-244",
+  "round": 1,
+  "item_id": "6531d39f-b532-ceba-1afa-92bede78c8fa",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "postoperative pain management",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the recovery and surgical ward area of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-245",
+  "round": 1,
+  "item_id": "af964a13-2268-6df0-500d-9c64bbee3b12",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "postoperative urinary retention",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-246",
+  "round": 1,
+  "item_id": "4a585cff-0e6d-7d48-a328-03cd60e94127",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "preoperative assessment",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-247",
+  "round": 1,
+  "item_id": "02918e15-95b6-5409-5134-adfa7069fb10",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "preoperative assessment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-248",
+  "round": 1,
+  "item_id": "bb541b22-c24d-ff4a-f1dd-727bb1c01af4",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "surgical drains and wound care",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-249",
+  "round": 1,
+  "item_id": "6c6cd812-18eb-d7e0-a694-f6f1b0b6cbf3",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "wound infection",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 5,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-250",
+  "round": 1,
+  "item_id": "8e9a2140-c66a-b30d-ef2e-afb4ea37be8c",
+  "learning_area": "Surgery and perioperative care",
+  "presentation": "wound infection",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.7",
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ }
+]

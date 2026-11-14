@@ -1,0 +1,111 @@
+name: Deploy to Azure
+
+# Runs after CI passes on main, or by hand from the Actions tab.
+# Sign-in to Azure uses OpenID Connect: no Azure password or key is stored in GitHub.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  id-token: write   # OIDC token for azure/login
+  contents: read
+
+concurrency:
+  group: deploy-beta
+  cancel-in-progress: false
+
+env:
+  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment: beta   # add required reviewers on this environment to approve each deploy
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build web app
+        if: hashFiles('apps/web/package.json') != ''
+        working-directory: apps/web
+        run: |
+          npm ci --no-audit --no-fund || npm install --no-audit --no-fund   # falls back when package.json has moved ahead of the lock file
+          npm run build
+          npm run package   # writes apps/web/release.zip (standalone server + static files)
+
+      - name: Sign in to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Deploy infrastructure
+        id: infra
+        uses: azure/arm-deploy@v2
+        with:
+          resourceGroupName: ${{ env.RESOURCE_GROUP }}
+          template: infra/main.bicep
+          parameters: >-
+            infra/main.parameters.json
+            postgresAdminPassword=${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+            postgresAppPassword=${{ secrets.POSTGRES_APP_PASSWORD }}
+            sessionSecret=${{ secrets.SESSION_SECRET }}
+            adminEmail=${{ vars.ADMIN_EMAIL }}
+            anthropicApiKey=${{ secrets.ANTHROPIC_API_KEY }}
+          deploymentName: fellowpilot-prevoc-${{ github.run_number }}
+          failOnStdErr: false
+
+      - name: Open database firewall for this runner
+        id: fw
+        run: |
+          ip=$(curl -fsS https://api.ipify.org)
+          server=$(cut -d. -f1 <<<"${{ steps.infra.outputs.postgresHost }}")
+          echo "server=$server" >> "$GITHUB_OUTPUT"
+          az postgres flexible-server firewall-rule create -g "$RESOURCE_GROUP" --server-name "$server" \
+            --name "gh-run-${{ github.run_id }}" --start-ip-address "$ip" --end-ip-address "$ip" -o none
+
+      - name: Run database migrations
+        env:
+          # A libpq keyword string, so the password never needs URL-encoding.
+          ADMIN_DATABASE_URL: host=${{ steps.infra.outputs.postgresHost }} port=5432 dbname=${{ steps.infra.outputs.postgresDatabase }} user=fpadmin sslmode=require
+          PGPASSWORD: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+          APP_DB_PASSWORD: ${{ secrets.POSTGRES_APP_PASSWORD }}
+        run: |
+          command -v psql >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client >/dev/null)
+          db/migrate.sh
+
+      - name: Close database firewall
+        if: always() && steps.fw.outputs.server != ''
+        run: |
+          az postgres flexible-server firewall-rule delete -g "$RESOURCE_GROUP" --server-name "${{ steps.fw.outputs.server }}" \
+            --name "gh-run-${{ github.run_id }}" --yes -o none
+
+      - name: Deploy web app
+        if: hashFiles('apps/web/release.zip') != ''
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ steps.infra.outputs.webAppName }}
+          package: apps/web/release.zip
+
+      - name: Smoke test
+        if: hashFiles('apps/web/release.zip') != ''
+        run: |
+          for i in $(seq 1 30); do
+            if curl -fsS "${{ steps.infra.outputs.appUrl }}/api/health" | grep -q '"ok":true'; then echo "healthy"; exit 0; fi
+            sleep 10
+          done
+          echo "health check failed"; exit 1
+
+      - name: Report the app address
+        if: success()
+        run: echo "::notice title=FellowPilot Prevocational is live::${{ steps.infra.outputs.appUrl }}"

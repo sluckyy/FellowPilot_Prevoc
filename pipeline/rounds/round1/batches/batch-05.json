@@ -1,0 +1,654 @@
+[
+ {
+  "work_order_id": "r1-101",
+  "round": 1,
+  "item_id": "37d7adfa-e85d-4a78-8948-4847d2e0f22e",
+  "learning_area": "General medicine",
+  "presentation": "insulin on the ward",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-102",
+  "round": 1,
+  "item_id": "c7d757d7-0d37-8636-3ecd-e79ceef7f770",
+  "learning_area": "General medicine",
+  "presentation": "syncope work-up",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-103",
+  "round": 1,
+  "item_id": "5c0972b1-5822-f194-079b-38caf1509089",
+  "learning_area": "General medicine",
+  "presentation": "thyroid disease",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-104",
+  "round": 1,
+  "item_id": "65bea202-5044-0b2d-397f-8974e8371486",
+  "learning_area": "General medicine",
+  "presentation": "thyroid disease",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-105",
+  "round": 1,
+  "item_id": "f7e700ce-e6e0-3aac-a6bd-20706381b2db",
+  "learning_area": "General medicine",
+  "presentation": "upper gastrointestinal bleed",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "covering the wards overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-106",
+  "round": 1,
+  "item_id": "627b2637-51fc-0416-9c81-fe8fd2a7bb83",
+  "learning_area": "General medicine",
+  "presentation": "venous thromboembolism",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-107",
+  "round": 1,
+  "item_id": "17df154c-59de-5f8f-ceec-2aa70103376f",
+  "learning_area": "General medicine",
+  "presentation": "venous thromboembolism",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-108",
+  "round": 1,
+  "item_id": "d166a38a-bb96-dc96-ca75-495e889aee19",
+  "learning_area": "Infection and sepsis",
+  "presentation": "antimicrobial stewardship",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-109",
+  "round": 1,
+  "item_id": "df0d6d54-8acc-e70f-5357-027c6fdfa20f",
+  "learning_area": "Infection and sepsis",
+  "presentation": "antimicrobial stewardship",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-110",
+  "round": 1,
+  "item_id": "89b0124c-f854-0164-2a2c-a711288bdb4b",
+  "learning_area": "Infection and sepsis",
+  "presentation": "cellulitis",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-111",
+  "round": 1,
+  "item_id": "6e68eb72-2140-0052-85a9-6bf995bf5094",
+  "learning_area": "Infection and sepsis",
+  "presentation": "infection control and isolation",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-112",
+  "round": 1,
+  "item_id": "5bcef505-054e-9422-2318-358c983c15b0",
+  "learning_area": "Infection and sepsis",
+  "presentation": "infection control and isolation",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the recovery and surgical ward area of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-113",
+  "round": 1,
+  "item_id": "7d1cf870-97aa-8d44-7f38-22a1b16abe90",
+  "learning_area": "Infection and sepsis",
+  "presentation": "line-related infection",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-114",
+  "round": 1,
+  "item_id": "35839da2-248c-91df-feed-7d7f90976dee",
+  "learning_area": "Infection and sepsis",
+  "presentation": "meningitis",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-115",
+  "round": 1,
+  "item_id": "6235c503-109a-1fc9-fbb1-90bf593a0a89",
+  "learning_area": "Infection and sepsis",
+  "presentation": "neutropenic fever",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-116",
+  "round": 1,
+  "item_id": "b06e1d51-34c5-7125-3dab-0850b8160826",
+  "learning_area": "Infection and sepsis",
+  "presentation": "notifiable diseases",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "covering the wards overnight at a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-117",
+  "round": 1,
+  "item_id": "84db8bc6-d1d6-e349-4458-3b620acada4a",
+  "learning_area": "Infection and sepsis",
+  "presentation": "respiratory virus on the ward",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-118",
+  "round": 1,
+  "item_id": "db65ad50-c57f-ec86-cda0-fca3d03c39a3",
+  "learning_area": "Infection and sepsis",
+  "presentation": "sepsis recognition and the sepsis pathway",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-119",
+  "round": 1,
+  "item_id": "fe7ad2f1-ee30-6b36-b7f8-21717204c236",
+  "learning_area": "Infection and sepsis",
+  "presentation": "urinary tract infection",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-120",
+  "round": 1,
+  "item_id": "59514ddd-a5e6-a931-5f18-1bff6e617aff",
+  "learning_area": "Infection and sepsis",
+  "presentation": "urinary tract infection",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.8"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-121",
+  "round": 1,
+  "item_id": "ec412002-8c8b-222d-f73d-a43a5e384ff9",
+  "learning_area": "Investigations and interpretation",
+  "presentation": "D-dimer and pretest probability",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.5"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-122",
+  "round": 1,
+  "item_id": "3db47ffd-0556-43c1-3d6e-08533cedae61",
+  "learning_area": "Investigations and interpretation",
+  "presentation": "ECG interpretation",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.5"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-123",
+  "round": 1,
+  "item_id": "2c1ceafe-0ddf-7521-186a-6ff091583ef9",
+  "learning_area": "Investigations and interpretation",
+  "presentation": "abdominal X-ray",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.5"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-124",
+  "round": 1,
+  "item_id": "6a5aa9cc-474a-c3b3-c925-3890dabe1ffa",
+  "learning_area": "Investigations and interpretation",
+  "presentation": "arterial blood gas",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.5"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-125",
+  "round": 1,
+  "item_id": "578282fe-c769-bdd2-6a2b-bdc8e7e053d0",
+  "learning_area": "Investigations and interpretation",
+  "presentation": "chest X-ray interpretation",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.5"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ }
+]

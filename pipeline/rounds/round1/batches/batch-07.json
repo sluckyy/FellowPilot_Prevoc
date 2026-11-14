@@ -1,0 +1,659 @@
+[
+ {
+  "work_order_id": "r1-151",
+  "round": 1,
+  "item_id": "3f84ce57-cff3-46d5-93e6-fcec493196cc",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the outpatient clinic of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-152",
+  "round": 1,
+  "item_id": "05921acb-fddd-762a-eedf-77f70e8e0b46",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "ectopic pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in a general practice linked to a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-153",
+  "round": 1,
+  "item_id": "6fbf93ad-6c02-84e9-7980-358dd7ecdf87",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "hypertension in pregnancy",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in a general practice linked to a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-154",
+  "round": 1,
+  "item_id": "ee55c377-08b7-4b7e-add0-56e5c48e8fac",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "postpartum fever",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the outpatient clinic of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-155",
+  "round": 1,
+  "item_id": "82fad2a1-5adf-bc95-f0d3-c0985ad30b9d",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "pregnant patient in the emergency department",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-156",
+  "round": 1,
+  "item_id": "0f313f78-f13e-a506-cf4c-ad3a3abdcf22",
+  "learning_area": "Obstetrics and women's health",
+  "presentation": "prescribing in pregnancy and breastfeeding",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the outpatient clinic of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-157",
+  "round": 1,
+  "item_id": "41f923c1-3814-2f22-37b7-473ad06caba2",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "advance care directives",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-158",
+  "round": 1,
+  "item_id": "ee031eb1-e607-ca41-bb75-fccdaf49b138",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "advance care directives",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-159",
+  "round": 1,
+  "item_id": "b38b5678-cb03-be7f-c6ca-728d4333b825",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "constipation",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-160",
+  "round": 1,
+  "item_id": "c4a671bc-c999-fc8c-08f6-08bea9a4a8a0",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "delirium",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-161",
+  "round": 1,
+  "item_id": "7e434377-db6e-8e54-3b4a-704221bc49ba",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "dementia with behavioural symptoms",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-162",
+  "round": 1,
+  "item_id": "192df013-557d-bf69-8419-f7f6336e6b51",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "discharge planning for an older person",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-163",
+  "round": 1,
+  "item_id": "5bc5dd9c-7f18-82da-2d83-11681dae5000",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "falls on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-164",
+  "round": 1,
+  "item_id": "a02ca749-0619-6a66-c13f-69d0d6519b1a",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "85+",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-165",
+  "round": 1,
+  "item_id": "9dc2e33e-637d-8fe8-4adf-ecf00f86cef3",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "hip fracture",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-166",
+  "round": 1,
+  "item_id": "6c1a761e-986d-c6b4-7a91-8783457b865a",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "polypharmacy and deprescribing",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "on the general ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-167",
+  "round": 1,
+  "item_id": "c837da30-89b3-272d-b6d5-e62c8fabb41c",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "pressure injury prevention",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-168",
+  "round": 1,
+  "item_id": "c530ffe1-18d8-ed81-e911-3468bbb595c3",
+  "learning_area": "Older people, delirium and falls",
+  "presentation": "urinary retention",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "3.2"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-169",
+  "round": 1,
+  "item_id": "15acf156-cd96-e6dd-2395-30eb48ba31db",
+  "learning_area": "Paediatrics",
+  "presentation": "bronchiolitis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-170",
+  "round": 1,
+  "item_id": "c66fb37d-2144-28bf-b801-e5e3952ca86a",
+  "learning_area": "Paediatrics",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "1-4",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-171",
+  "round": 1,
+  "item_id": "cda0c2f4-6040-bc3b-0734-63248267657a",
+  "learning_area": "Paediatrics",
+  "presentation": "child protection concern",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "5-12",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-172",
+  "round": 1,
+  "item_id": "e6af3e0b-0a27-d198-ac39-b52b3ff6a64f",
+  "learning_area": "Paediatrics",
+  "presentation": "febrile child",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-173",
+  "round": 1,
+  "item_id": "117fa84c-0add-8d85-c4f8-3b9a58fd1ec1",
+  "learning_area": "Paediatrics",
+  "presentation": "febrile seizure",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "1-4",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-174",
+  "round": 1,
+  "item_id": "7878ac25-8996-75be-173c-7bdb4ed1637e",
+  "learning_area": "Paediatrics",
+  "presentation": "gastroenteritis and dehydration",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "0-1",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "at a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-175",
+  "round": 1,
+  "item_id": "53cbc0d4-3ffa-01b0-86b7-19c0e06cb6e6",
+  "learning_area": "Paediatrics",
+  "presentation": "neonatal jaundice",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "4.1",
+   "1.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "C"
+  ],
+  "patient": {
+   "age_band": "0-1",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ }
+]

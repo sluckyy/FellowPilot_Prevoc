@@ -1,0 +1,55 @@
+{
+  "$comment": "FellowPilot brand, from the FellowPilot Brand Identity & Visual Style Guide, concept edition 1.0 (25 Oct 2026). Edit this file and push to change the app's branding; see ../README.md.",
+
+  "name": "FellowPilot",
+  "shortName": "FellowPilot",
+  "wordmark": { "parts": [{ "text": "Fellow", "color": "purple" }, { "text": "Pilot", "color": "lavender" }] },
+  "tagline": "Your partner in lifelong medical learning.",
+  "descriptor": "Personalised medical learning and professional development",
+  "pillars": ["Learn", "Develop", "Achieve", "Excel"],
+  "productLine": "Practice questions, reflective logbook and progress map for prevocational doctors (PGY1 and PGY2)",
+
+  "palette": {
+    "purple":   "#732E4A",
+    "lavender": "#A2789C",
+    "yellow":   "#F0B323",
+    "seaBlue":  "#4F868E",
+    "clay":     "#D1CCBD",
+    "white":    "#FFFFFF"
+  },
+
+  "roles": {
+    "$comment": "Which palette colour does which job. Values are palette names or hex. Text-safe shades, tints and the dark theme are derived automatically and contrast-checked at build.",
+    "primary":   "purple",
+    "heading":   "purple",
+    "highlight": "lavender",
+    "secondary": "seaBlue",
+    "accent":    "yellow",
+    "neutral":   "clay",
+    "correct":   "seaBlue",
+    "wrong":     "#B3432F",
+    "warning":   "#9A6410"
+  },
+
+  "fonts": {
+    "$comment": "Nunito Sans is the face used in the logo artwork (free, SIL Open Font License), so the app's text matches the wordmark. The style guide also names Sofia Pro; to use it once licensed, put woff2 files in ./fonts and use { \"local\": [{ \"file\": \"fonts/SofiaPro-Bold.woff2\", \"weight\": \"700\" }] }.",
+    "heading": { "google": "Nunito Sans", "weights": ["700", "800"] },
+    "body":    { "google": "Nunito Sans", "weights": ["400", "600", "700"] },
+    "reading": { "google": "Nunito Sans", "weights": ["400"] }
+  },
+
+  "logos": {
+    "$comment": "SVG (or PNG) files in this folder. These are the designer's vector logos with the text converted to outlines and the framing fixed so the top leaves aren't cropped; see source/README.md.",
+    "horizontal": { "file": "logo-horizontal.svg", "minWidth": 280 },
+    "stacked":    { "file": "logo-stacked.svg", "minWidth": 320 },
+    "emblem":     { "file": "emblem.svg" },
+    "plateOnDark": true
+  },
+
+  "icons": {
+    "$comment": "app: the rounded tile shown on home screens and in the browser's app list. full: a square, edge-to-edge version that Android and iOS mask into their own shapes (keep artwork inside the middle 80%). favicon: a simplified mark for browser tabs that still reads at 16 px. Any left out are made from the emblem.",
+    "app": "app-icon.svg",
+    "full": "app-icon-full.svg",
+    "favicon": "favicon.svg"
+  }
+}

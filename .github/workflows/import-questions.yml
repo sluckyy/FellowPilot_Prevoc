@@ -1,0 +1,109 @@
+name: Import questions
+
+# mode "reviewed": loads the questions reviewers approved into the live database.
+# mode "beta": releases every question in the round that passed the automated checks, unreviewed,
+#   so trainees can use them while clinical review catches up. Trainee flags take a question out
+#   until someone reviews it; a later "reviewed" import adds the reviewed version on top.
+# Input: pipeline/rounds/<round>/review_docs.json (what reviewers saw) and the Review Desk results,
+# saved as pipeline/rounds/<round>/reviews.csv (the desk's "Download all reviews" file) or reviews.json.
+# Only questions every reviewer accepted are loaded; a wrong-key or major-accuracy judgement from
+# anyone keeps a question out. Safe to run again as more reviews arrive.
+on:
+  workflow_dispatch:
+    inputs:
+      round:
+        description: Round folder under pipeline/rounds
+        default: round1
+        required: true
+      mode:
+        description: reviewed (Review Desk approvals only) or beta (all that passed automated checks, unreviewed)
+        type: choice
+        options: [reviewed, beta]
+        default: reviewed
+      dry_run:
+        description: Preview only (report what would load, change nothing)
+        type: boolean
+        default: true
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-beta
+  cancel-in-progress: false
+
+env:
+  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    environment: beta
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the import tool
+        working-directory: packages/core
+        run: |
+          npm install --no-save --no-audit --no-fund typescript@5.6.3 @types/node@22.9.0
+          npx tsc -p .
+
+      - name: Decide which questions load
+        id: plan
+        run: |
+          dir="pipeline/rounds/${{ inputs.round }}"
+          if [ "${{ inputs.mode }}" = "beta" ]; then
+            node packages/core/dist/src/cli/load-beta.js --docs "$dir/review_docs.json" --out import.sql --report report.json > summary.txt
+            title="Beta release plan (${{ inputs.round }}, unreviewed)"
+          else
+            reviews="$dir/reviews.csv"; [ -f "$reviews" ] || reviews="$dir/reviews.json"
+            [ -f "$reviews" ] || { echo "::error title=No reviews file::Add $dir/reviews.csv (Review Desk download) or reviews.json"; exit 1; }
+            node packages/core/dist/src/cli/import-reviewed.js --docs "$dir/review_docs.json" --reviews "$reviews" \
+              --out import.sql --report report.json > summary.txt
+            title="Import plan (${{ inputs.round }})"
+          fi
+          cat summary.txt
+          echo "::notice title=$title::$(head -1 summary.txt)"
+          tail -n +2 summary.txt | while read -r line; do echo "::warning title=Kept out::$line"; done
+
+      - name: Sign in to Azure
+        if: ${{ !inputs.dry_run }}
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Open database firewall for this runner
+        if: ${{ !inputs.dry_run }}
+        id: fw
+        run: |
+          host=$(az postgres flexible-server list -g "$RESOURCE_GROUP" --query "[0].fullyQualifiedDomainName" -o tsv)
+          server=$(cut -d. -f1 <<<"$host")
+          echo "host=$host" >> "$GITHUB_OUTPUT"
+          echo "server=$server" >> "$GITHUB_OUTPUT"
+          ip=$(curl -fsS https://api.ipify.org)
+          az postgres flexible-server firewall-rule create -g "$RESOURCE_GROUP" --server-name "$server" \
+            --name "gh-import-${{ github.run_id }}" --start-ip-address "$ip" --end-ip-address "$ip" -o none
+
+      - name: Load questions
+        if: ${{ !inputs.dry_run }}
+        env:
+          PGPASSWORD: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+        run: |
+          command -v psql >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client >/dev/null)
+          conn="host=${{ steps.fw.outputs.host }} port=5432 dbname=fellowpilot user=fpadmin sslmode=require"
+          psql "$conn" -v ON_ERROR_STOP=1 -q -f import.sql
+          n=$(psql "$conn" -At -c "SELECT count(*) FROM item WHERE status IN ('pretest','live')")
+          echo "::notice title=Questions live::$n questions are now available to trainees"
+
+      - name: Close database firewall
+        if: always() && steps.fw.outputs.server != ''
+        run: |
+          az postgres flexible-server firewall-rule delete -g "$RESOURCE_GROUP" --server-name "${{ steps.fw.outputs.server }}" \
+            --name "gh-import-${{ github.run_id }}" --yes -o none

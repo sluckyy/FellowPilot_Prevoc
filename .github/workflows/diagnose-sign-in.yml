@@ -1,0 +1,104 @@
+name: Diagnose sign-in
+
+# Read-only checks for "I didn't get a sign-in link": the admin email the app was deployed with,
+# whether the account exists, whether links were issued, and email errors in the app's logs.
+# Prints results as notices on the run. Changes nothing (it only adds and removes a temporary
+# database firewall rule for this runner). No secrets are printed.
+on:
+  workflow_dispatch:
+    inputs:
+      email:
+        description: Email address that isn't receiving links
+        required: true
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    environment: beta
+    steps:
+      - name: Sign in to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: App settings (names and non-secret values only)
+        env:
+          EMAIL: ${{ inputs.email }}
+        run: |
+          app=$(az webapp list -g "$RESOURCE_GROUP" --query "[0].name" -o tsv)
+          echo "app=$app" >> "$GITHUB_ENV"
+          settings=$(az webapp config appsettings list -g "$RESOURCE_GROUP" -n "$app" -o json)
+          admin=$(jq -r '.[] | select(.name=="ADMIN_EMAIL") | .value' <<<"$settings")
+          sender=$(jq -r '.[] | select(.name=="EMAIL_SENDER") | .value' <<<"$settings")
+          conn=$(jq -r '.[] | select(.name=="EMAIL_CONNECTION") | .value | if . == null or . == "" then "MISSING" else "set" end' <<<"$settings")
+          mode=$(jq -r '.[] | select(.name=="EMAIL_MODE") | .value' <<<"$settings")
+          lc() { tr '[:upper:]' '[:lower:]' <<<"$1" | xargs; }
+          match=$([ "$(lc "$admin")" = "$(lc "$EMAIL")" ] && echo "yes" || echo "NO")
+          echo "::notice title=ADMIN_EMAIL::'${admin:-<empty>}' (matches the email you entered: $match)"
+          echo "::notice title=Email sender::${sender:-<empty>}; connection string ${conn}; EMAIL_MODE=${mode:-<unset>}"
+
+      - name: Open database firewall for this runner
+        id: fw
+        run: |
+          host=$(az postgres flexible-server list -g "$RESOURCE_GROUP" --query "[0].fullyQualifiedDomainName" -o tsv)
+          server=$(cut -d. -f1 <<<"$host")
+          echo "host=$host" >> "$GITHUB_OUTPUT"
+          echo "server=$server" >> "$GITHUB_OUTPUT"
+          ip=$(curl -fsS https://api.ipify.org)
+          az postgres flexible-server firewall-rule create -g "$RESOURCE_GROUP" --server-name "$server" \
+            --name "gh-diag-${{ github.run_id }}" --start-ip-address "$ip" --end-ip-address "$ip" -o none
+
+      - name: Accounts and sign-in links
+        env:
+          PGPASSWORD: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+          EMAIL: ${{ inputs.email }}
+        run: |
+          command -v psql >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client >/dev/null)
+          conn="host=${{ steps.fw.outputs.host }} port=5432 dbname=fellowpilot user=fpadmin sslmode=require"
+          n=$(psql "$conn" -At -c "SELECT count(*) FROM app_user WHERE deleted_at IS NULL")
+          echo "::notice title=Accounts::$n account(s) in the app"
+          acct=$(psql "$conn" -At -v e="$EMAIL" <<'SQL'
+          SELECT coalesce((SELECT format('exists; roles %s; created %s; last sign-in %s', u.roles, to_char(u.created_at, 'YYYY-MM-DD HH24:MI'), coalesce(to_char(u.last_sign_in_at, 'YYYY-MM-DD HH24:MI'), 'never'))
+            FROM user_profile p JOIN app_user u ON u.id = p.user_id WHERE lower(p.email) = lower(:'e') AND u.deleted_at IS NULL), 'NO ACCOUNT for this email');
+          SQL
+          )
+          echo "::notice title=This email::$acct"
+          links=$(psql "$conn" -At -v e="$EMAIL" <<'SQL'
+          SELECT format('%s link(s) issued in the last 24 h; last at %s UTC; %s used', count(*), coalesce(to_char(max(t.created_at) AT TIME ZONE 'UTC', 'YYYY-MM-DD HH24:MI'), '-'), count(t.used_at))
+            FROM login_token t JOIN user_profile p ON p.user_id = t.user_id
+           WHERE lower(p.email) = lower(:'e') AND t.created_at > now() - interval '24 hours';
+          SQL
+          )
+          echo "::notice title=Sign-in links::$links"
+          admins=$(psql "$conn" -At -c "SELECT string_agg(split_part(p.email, '@', 2), ', ') FROM user_profile p JOIN app_user u ON u.id = p.user_id WHERE 'admin' = ANY(u.roles)")
+          echo "::notice title=Admin accounts (domains only)::${admins:-none}"
+
+      - name: Email errors in the app's logs (last 24 h)
+        run: |
+          ws=$(az monitor log-analytics workspace list -g "$RESOURCE_GROUP" --query "[0].customerId" -o tsv)
+          q='union isfuzzy=true AppServiceConsoleLogs, AppServiceAppLogs
+             | where TimeGenerated > ago(24h)
+             | extend m = tostring(column_ifexists("ResultDescription", column_ifexists("Message", "")))
+             | where m has_any ("email", "Email", "EMAIL", "sendMail", "communication", "auth/request")
+             | project TimeGenerated, m | order by TimeGenerated desc | take 15'
+          out=$(az monitor log-analytics query -w "$ws" --analytics-query "$q" -o json 2>&1 || true)
+          count=$(jq 'length' <<<"$out" 2>/dev/null || echo "?")
+          echo "::notice title=Email log lines::$count matching line(s) in the last 24 h"
+          jq -r '.[] | "\(.TimeGenerated) \(.m)"' <<<"$out" 2>/dev/null | cut -c1-300 | while read -r line; do echo "::warning title=Log::$line"; done
+          http=$(az monitor log-analytics query -w "$ws" --analytics-query 'AppServiceHTTPLogs | where TimeGenerated > ago(24h) and CsUriStem == "/api/auth/request" | summarize n = count() by ScStatus | order by n desc' -o json 2>&1 || true)
+          echo "::notice title=Sign-in requests (status: count)::$(jq -r 'map("\(.ScStatus): \(.n)") | join(", ")' <<<"$http" 2>/dev/null || echo "$http" | head -c 200)"
+
+      - name: Close database firewall
+        if: always() && steps.fw.outputs.server != ''
+        run: |
+          az postgres flexible-server firewall-rule delete -g "$RESOURCE_GROUP" --server-name "${{ steps.fw.outputs.server }}" \
+            --name "gh-diag-${{ github.run_id }}" --yes -o none

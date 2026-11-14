@@ -1,0 +1,644 @@
+[
+ {
+  "work_order_id": "r1-201",
+  "round": 1,
+  "item_id": "90f95068-37d5-9d17-d19c-bd76f117d587",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "drug interactions",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-202",
+  "round": 1,
+  "item_id": "818f461a-5680-8dd3-2089-5b9c103e21ef",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-203",
+  "round": 1,
+  "item_id": "3f81c608-9513-3e42-dba9-0e62d1260da5",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "high-risk medicines",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-204",
+  "round": 1,
+  "item_id": "cd618f42-fe42-a3f1-62e2-67605b199405",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "insulin prescribing errors",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-205",
+  "round": 1,
+  "item_id": "998f1a55-de28-62b9-afd7-49a32e4d65f4",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-206",
+  "round": 1,
+  "item_id": "7e7f3700-9613-c399-e013-e1be6b636419",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "medication reconciliation at admission",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-207",
+  "round": 1,
+  "item_id": "17603e6b-830c-14d4-59e4-88cc74647e94",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "opioid prescribing and discharge",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-208",
+  "round": 1,
+  "item_id": "6e0a05aa-2ac7-de89-9263-af7d213a3189",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "opioid prescribing and discharge",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-209",
+  "round": 1,
+  "item_id": "bff853ff-7d40-85b7-3e4a-b4d3bac34997",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "paracetamol and NSAID safety",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-210",
+  "round": 1,
+  "item_id": "90c488f5-0659-7db0-427f-cc02496970f6",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-211",
+  "round": 1,
+  "item_id": "4b2a05d1-380a-7453-2e5d-d99fa9a729b6",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "renal dose adjustment",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-212",
+  "round": 1,
+  "item_id": "d049eedd-a301-ae55-661c-9da55f398077",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "venous thromboembolism prophylaxis",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-213",
+  "round": 1,
+  "item_id": "1557617f-9001-b664-7d1f-cd46900ca78e",
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "writing a safe medication chart",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.8",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-214",
+  "round": 1,
+  "item_id": "4f99681c-44cc-02d3-0951-571b475c40fb",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "ECG acquisition",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-215",
+  "round": 1,
+  "item_id": "3ccef498-5784-0c78-dfb6-e02b7468b866",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "arterial puncture",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-216",
+  "round": 1,
+  "item_id": "32bbc51d-8316-918b-70c3-083d05dda7a4",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "basic airway management",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-217",
+  "round": 1,
+  "item_id": "2c9a79eb-0a72-2a05-651f-aaa814d10597",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "intravenous cannulation",
+  "context": "theatre",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the pre-admission clinic and theatre suite of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-218",
+  "round": 1,
+  "item_id": "299d6763-86ce-d96e-9ebd-9a7dd0fd0346",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "local anaesthetic and wound closure",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-219",
+  "round": 1,
+  "item_id": "f569202c-f8a4-7f99-84e5-644aac640e1c",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "nasogastric tube insertion",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-220",
+  "round": 1,
+  "item_id": "6d11e936-82e9-f4ac-6600-191769186975",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "plaster and splint check",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-221",
+  "round": 1,
+  "item_id": "78f59627-140b-6bc2-061f-1623ecf0b765",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "sharps injury",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-222",
+  "round": 1,
+  "item_id": "8241e9e1-8b16-77e2-d5d6-01de290e4253",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "urinary catheterisation",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the recovery and surgical ward area of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-223",
+  "round": 1,
+  "item_id": "f53bdb49-491b-3e6d-7b37-3f95bf93683b",
+  "learning_area": "Procedures and practical skills",
+  "presentation": "venepuncture and blood cultures",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.6"
+  ],
+  "experiences_hint": [
+   "D"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-224",
+  "round": 1,
+  "item_id": "8acc7feb-5bdc-7d83-3d79-c0ea494e9083",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "bullying and harassment",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-225",
+  "round": 1,
+  "item_id": "4367c3f5-128d-f1e2-a84e-2025da2acc82",
+  "learning_area": "Professionalism, ethics and law",
+  "presentation": "confidentiality and privacy",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.1",
+   "2.4",
+   "2.6"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ }
+]

@@ -1,0 +1,145 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ['**', '!ci-results']
+
+permissions:
+  contents: read
+
+jobs:
+  core-and-db:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: postgres
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Core library tests
+        working-directory: packages/core
+        run: |
+          npm install --no-save typescript@5.6.3 @types/node@22.9.0
+          npm test
+
+      - name: Database schema tests
+        run: |
+          createdb mcq_test
+          psql -v ON_ERROR_STOP=1 -d mcq_test -f db/migrations/001_init.sql
+          psql -v ON_ERROR_STOP=1 -d mcq_test -f db/tests/001_init_test.sql
+
+      - name: Migration runner (twice, to prove re-runs are safe)
+        env:
+          ADMIN_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mcq_mig
+          APP_DB_PASSWORD: ci-app-password-123456
+        run: |
+          createdb mcq_mig
+          db/migrate.sh
+          db/migrate.sh
+
+  web:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # publishes screenshots and logs to the ci-results branch
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: postgres
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install
+        run: |
+          npm ci --no-audit --no-fund || npm install --no-audit --no-fund   # falls back when package.json has moved ahead of the lock file
+
+      - name: Type check
+        run: set -o pipefail; npm run typecheck 2>&1 | tee typecheck.log
+
+      - name: Build
+        run: set -o pipefail; npm run build 2>&1 | tee build.log
+
+      - name: Package
+        run: npm run package
+
+      - name: Database with test questions
+        env:
+          ADMIN_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mcq_e2e
+          APP_DB_PASSWORD: e2e-app-password-123456
+        run: |
+          createdb mcq_e2e
+          ../../db/migrate.sh
+          psql -v ON_ERROR_STOP=1 -d mcq_e2e -f e2e/fixtures/items.sql
+
+      - name: Start the built app
+        env:
+          DATABASE_URL: postgresql://mcq_web:e2e-app-password-123456@localhost:5432/mcq_e2e
+          E2E: '1'
+          EMAIL_MODE: log
+          TUTOR_MODE: mock
+          ADMIN_EMAIL: admin@example.org
+          APP_URL: http://localhost:3000
+          PORT: '3000'
+          HOSTNAME: 127.0.0.1
+        run: |
+          nohup node .next/standalone/server.js > server.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3000/api/health && exit 0; sleep 1; done
+          cat server.log; exit 1
+
+      - name: Browser tests
+        env:
+          TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/mcq_e2e
+          ADMIN_EMAIL: admin@example.org
+          BASE_URL: http://127.0.0.1:3000
+        run: |
+          mkdir -p e2e/screenshots
+          npx playwright install --with-deps chromium
+          npx playwright test
+
+      - name: Server log
+        if: always()
+        run: cat server.log || true
+
+      - name: Publish screenshots, test results and logs to the ci-results branch
+        if: always() && github.event_name == 'push'
+        working-directory: .
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          out=$(mktemp -d)
+          cp -r apps/web/e2e/screenshots "$out/" 2>/dev/null || true
+          cp apps/web/server.log apps/web/test-results.json apps/web/package-lock.json apps/web/typecheck.log apps/web/build.log "$out/" 2>/dev/null || true
+          printf 'branch: %s\ncommit: %s\nrun: %s\n' "${{ github.ref_name }}" "${{ github.sha }}" "${{ github.run_id }}" > "$out/RUN.txt"
+          cd "$out"
+          git init -q -b ci-results
+          git add -A
+          git -c user.name="ci" -c user.email="ci@users.noreply.github.com" commit -qm "CI results for ${{ github.ref_name }} ${{ github.sha }}"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}" ci-results

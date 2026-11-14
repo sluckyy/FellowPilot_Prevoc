@@ -1,0 +1,37 @@
+{
+  "name": "@fellowpilot-prevoc/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "sync-core": "node scripts/sync-core.mjs",
+    "brand": "node scripts/apply-brand.mjs",
+    "prepare-src": "npm run sync-core && npm run brand",
+    "dev": "npm run prepare-src && next dev",
+    "build": "npm run prepare-src && next build",
+    "start": "node .next/standalone/server.js",
+    "typecheck": "npm run prepare-src && tsc --noEmit",
+    "test": "npm run typecheck",
+    "package": "node scripts/package.mjs",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@azure/communication-email": "1.0.0",
+    "next": "14.2.15",
+    "pg": "8.13.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.47.2",
+    "@types/node": "22.9.0",
+    "@types/pg": "8.11.10",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
+    "sharp": "0.33.5",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,725 @@
+[
+ {
+  "work_order_id": "r1-001",
+  "round": 1,
+  "item_id": "15abe5b8-e32a-9e7b-c3c4-27543ae72591",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "Sorry Business and cultural obligations",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-002",
+  "round": 1,
+  "item_id": "49ec713d-7167-c7b9-359d-a9543343b7a5",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "acute rheumatic fever and rheumatic heart disease",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-003",
+  "round": 1,
+  "item_id": "12cf7bee-a747-3852-f1c7-5fdf6458ce09",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "chronic kidney disease",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "on the surgical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-004",
+  "round": 1,
+  "item_id": "eed626a7-f496-5f1f-4c05-c1fb9f80be13",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "on the general ward of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-005",
+  "round": 1,
+  "item_id": "ee16ca5a-0549-ae39-7cc2-51aa05ee7c39",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-006",
+  "round": 1,
+  "item_id": "6b91461d-a59d-054b-12f5-b90456c1858a",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "discharge against medical advice",
+  "context": "telehealth",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "on a telehealth call from a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-007",
+  "round": 1,
+  "item_id": "93617cce-bd06-a949-ae34-b1a8999775e4",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "family and kinship in decision-making",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-008",
+  "round": 1,
+  "item_id": "d1c44202-acf6-7f8d-44ad-2c4bd5032625",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "family and kinship in decision-making",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "on the medical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-009",
+  "round": 1,
+  "item_id": "4160ede6-4257-ae5b-8a2a-70579b7d630d",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "health assessment and Closing the Gap PBS",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-010",
+  "round": 1,
+  "item_id": "e454021a-7521-269b-7523-b960c82b9ca5",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "language and interpreter needs",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-011",
+  "round": 1,
+  "item_id": "55e951c5-eced-d0c8-79db-1796b312bb95",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "systemic racism and health inequity",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "at a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-012",
+  "round": 1,
+  "item_id": "5b37c7a2-1c79-0ecf-a456-a2700de357ad",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "working with Aboriginal Liaison Officers",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.3",
+   "2.7",
+   "3.3",
+   "3.4",
+   "3.5",
+   "4.4"
+  ],
+  "experiences_hint": [
+   "A",
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-013",
+  "round": 1,
+  "item_id": "5310fbc7-03d4-7842-60f4-f1634e72db14",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "adult immunisation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on a telehealth call from a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-014",
+  "round": 1,
+  "item_id": "1eb0db42-5421-d2c9-14ec-b493b7723d4c",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "alcohol brief intervention",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the outpatient clinic of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-015",
+  "round": 1,
+  "item_id": "573d5dc7-9b80-fedd-68df-8b22f5a05735",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "chronic pain",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in a general practice linked to a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-016",
+  "round": 1,
+  "item_id": "811196ca-c1bb-6958-c426-dbb0c16a4a63",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "obesity",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "scene": "in the outpatient clinic of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-017",
+  "round": 1,
+  "item_id": "86c24bd1-ed59-0374-6ba1-bb2b60c5a316",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "screening programs",
+  "context": "telehealth",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on a telehealth call from a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-018",
+  "round": 1,
+  "item_id": "0acf264a-9b9c-963f-3b4a-9816f00057bb",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "smoking cessation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on a telehealth call from a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-019",
+  "round": 1,
+  "item_id": "611dc480-6509-b280-b691-02e63e55b274",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "social determinants and discharge",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the outpatient clinic of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-020",
+  "round": 1,
+  "item_id": "affb7c97-b458-35db-b671-5fe0005fe4e2",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "type 2 diabetes review",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "3.1",
+   "3.2",
+   "3.6"
+  ],
+  "experiences_hint": [
+   "B"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in a general practice linked to a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-021",
+  "round": 1,
+  "item_id": "fdf830f9-07fb-dd18-2579-94adacdd471a",
+  "learning_area": "Communication, handover and consent",
+  "presentation": "ISBAR clinical handover",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.1",
+   "1.2",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-022",
+  "round": 1,
+  "item_id": "7d5ca2ed-8361-8765-cd1a-fcf4dfd74033",
+  "learning_area": "Communication, handover and consent",
+  "presentation": "breaking bad news",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.1",
+   "1.2",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-023",
+  "round": 1,
+  "item_id": "46affd36-a9a4-c1f8-8c4d-1dd7cf766ede",
+  "learning_area": "Communication, handover and consent",
+  "presentation": "communication with family",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.1",
+   "1.2",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-024",
+  "round": 1,
+  "item_id": "804b4b70-1d6e-6958-7dec-95c0a3821107",
+  "learning_area": "Communication, handover and consent",
+  "presentation": "communication with family",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.1",
+   "1.2",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-025",
+  "round": 1,
+  "item_id": "1a3c9365-0de0-b9d4-3b05-cac0c8cfb955",
+  "learning_area": "Communication, handover and consent",
+  "presentation": "discharge summary quality",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.1",
+   "1.2",
+   "1.7"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ }
+]

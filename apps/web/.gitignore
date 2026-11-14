@@ -1,0 +1,19 @@
+node_modules/
+.next/
+release.zip
+src/lib/core/
+test-results/
+playwright-report/
+e2e/screenshots/
+*.tsbuildinfo
+e2e/.state-*.json
+test-results.json
+server.log
+# Generated from brand/<brand>/brand.json by scripts/apply-brand.mjs
+src/brand/generated/
+src/app/brand.css
+public/brand/
+public/icons/
+public/manifest.webmanifest
+build.log
+typecheck.log

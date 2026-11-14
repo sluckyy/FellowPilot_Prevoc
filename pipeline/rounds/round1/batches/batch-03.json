@@ -1,0 +1,679 @@
+[
+ {
+  "work_order_id": "r1-051",
+  "round": 1,
+  "item_id": "085a75c6-601d-7e36-f2d4-e1c82f442e47",
+  "learning_area": "Deteriorating patient",
+  "presentation": "reduced level of consciousness",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.9",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "at a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-052",
+  "round": 1,
+  "item_id": "53ba99d8-4ded-73e0-d910-7ec8d67645dc",
+  "learning_area": "Deteriorating patient",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-053",
+  "round": 1,
+  "item_id": "f11b3de5-3b54-2ab3-0ca8-fab1c5be85a4",
+  "learning_area": "Deteriorating patient",
+  "presentation": "seizure on the ward",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.9",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-054",
+  "round": 1,
+  "item_id": "5e6f5ca8-3906-c250-22ad-1f66f9cf9b42",
+  "learning_area": "Deteriorating patient",
+  "presentation": "tachycardia after surgery",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.9",
+   "1.1"
+  ],
+  "experiences_hint": [
+   "C"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-055",
+  "round": 1,
+  "item_id": "92caa6c5-4fba-c550-134d-341a3a6338ee",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "asking for help",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "covering the wards overnight at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-056",
+  "round": 1,
+  "item_id": "832fff68-2ed1-45f4-7998-179883020cf6",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "fatigue and safe working hours",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the general ward of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-057",
+  "round": 1,
+  "item_id": "34890f59-46e4-6f6b-12fc-0ebbcdf149a6",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "feedback and supervision",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "on the surgical ward of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-058",
+  "round": 1,
+  "item_id": "5ce5d225-7c57-efb9-29e1-4534056d543c",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "interprofessional teamwork",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "covering the wards overnight at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-059",
+  "round": 1,
+  "item_id": "b232e727-ad8f-bba2-3cc1-342c9c14ef2e",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "managing a heavy workload",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on the medical ward of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-060",
+  "round": 1,
+  "item_id": "9a037570-3241-a461-a7ee-ce16a4d19314",
+  "learning_area": "Doctor wellbeing, teamwork and workload",
+  "presentation": "prioritising a ward call list",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "2.2",
+   "2.3",
+   "2.5",
+   "2.8"
+  ],
+  "experiences_hint": [
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "on an evening cover shift at a tertiary hospital in Adelaide",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-061",
+  "round": 1,
+  "item_id": "8d564ee4-7af9-100c-e3c0-43a950eb4a48",
+  "learning_area": "Emergency presentations",
+  "presentation": "acute abdominal pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-062",
+  "round": 1,
+  "item_id": "7cfa1dd9-22b1-1cce-5979-0c618f25027b",
+  "learning_area": "Emergency presentations",
+  "presentation": "acute asthma",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-063",
+  "round": 1,
+  "item_id": "c8a11043-e3f0-f9d1-5158-19739ae81c0b",
+  "learning_area": "Emergency presentations",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-064",
+  "round": 1,
+  "item_id": "43171eee-124d-37a7-d9df-e7d66a612d8d",
+  "learning_area": "Emergency presentations",
+  "presentation": "acute back pain red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-065",
+  "round": 1,
+  "item_id": "502540d7-39cd-8586-53d4-e3f6e8915973",
+  "learning_area": "Emergency presentations",
+  "presentation": "acute shortness of breath",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-066",
+  "round": 1,
+  "item_id": "4b655508-0311-69af-f368-1a9d6a7c5ae2",
+  "learning_area": "Emergency presentations",
+  "presentation": "burns first aid",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-067",
+  "round": 1,
+  "item_id": "9ceba1bf-ed5d-d620-6e3d-28e96e72dbe2",
+  "learning_area": "Emergency presentations",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-068",
+  "round": 1,
+  "item_id": "4182fb37-9bca-1c4e-4803-93b69376cda0",
+  "learning_area": "Emergency presentations",
+  "presentation": "diabetic ketoacidosis",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-069",
+  "round": 1,
+  "item_id": "5b5b3414-65a2-329d-1837-ca3f5a0a1251",
+  "learning_area": "Emergency presentations",
+  "presentation": "headache red flags",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-070",
+  "round": 1,
+  "item_id": "f8985df3-7b2b-e71d-d528-d7752669a118",
+  "learning_area": "Emergency presentations",
+  "presentation": "limb fracture initial management",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-071",
+  "round": 1,
+  "item_id": "09dcedd3-120d-af99-bdba-0fb41438c817",
+  "learning_area": "Emergency presentations",
+  "presentation": "limb fracture initial management",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-072",
+  "round": 1,
+  "item_id": "85391dd3-eac2-83d2-53c7-52bab3186bd8",
+  "learning_area": "Emergency presentations",
+  "presentation": "minor head injury",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-073",
+  "round": 1,
+  "item_id": "b9765605-8d7b-7f57-62d1-5f0b0362cba4",
+  "learning_area": "Emergency presentations",
+  "presentation": "overdose and poisoning",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-074",
+  "round": 1,
+  "item_id": "5e494e61-b9d4-8fa2-d739-ac080d34845d",
+  "learning_area": "Emergency presentations",
+  "presentation": "stroke recognition",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor with the GP on call",
+  "calibration_core": true
+ },
+ {
+  "work_order_id": "r1-075",
+  "round": 1,
+  "item_id": "8bf17146-a98d-2f22-a516-c874b00c3046",
+  "learning_area": "Emergency presentations",
+  "presentation": "undifferentiated chest pain",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "outcomes_hint": [
+   "1.4",
+   "1.9"
+  ],
+  "experiences_hint": [
+   "C",
+   "A"
+  ],
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "scene": "in the emergency department of a country hospital 90 minutes from the nearest tertiary centre, where the junior doctor covers the ward and emergency department overnight",
+  "calibration_core": true
+ }
+]

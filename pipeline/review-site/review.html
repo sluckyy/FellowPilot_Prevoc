@@ -1,0 +1,613 @@
+<title>MCQ Coach Review Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reviewer's desk. Queue on the left, one item and its rubric on the right; stacks on phones. */
+:root {
+  --paper: #f5f7f3; --surface: #ffffff; --ink: #1c2420; --muted: #5a665f; --line: #d8ded7;
+  --accent: #2e6a56; --accent-soft: #e1ede6; --on-accent: #ffffff;
+  --warn: #9a5b0c; --warn-soft: #f6ebda; --bad: #a13a2b; --bad-soft: #f7e2dd;
+  --font-read: "Literata", Georgia, "Times New Roman", serif;
+  --font-ui: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #111613; --surface: #19201c; --ink: #e5ebe6; --muted: #9ba7a0; --line: #2c3631;
+  --accent: #7dbfa2; --accent-soft: #1d3128; --on-accent: #0f1712;
+  --warn: #e0a457; --warn-soft: #32281a; --bad: #ec8b7c; --bad-soft: #3a211d; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #111613; --surface: #19201c; --ink: #e5ebe6; --muted: #9ba7a0; --line: #2c3631;
+  --accent: #7dbfa2; --accent-soft: #1d3128; --on-accent: #0f1712;
+  --warn: #e0a457; --warn-soft: #32281a; --bad: #ec8b7c; --bad-soft: #3a211d; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 16px 48px; }
+header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-block: 8px 16px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.brand h1 { font-family: var(--font-read); font-weight: 600; font-size: 1.35rem; margin: 0; text-wrap: balance; }
+.brand p { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
+.who { display: flex; align-items: center; gap: 10px; font-size: .9rem; }
+.who img { width: 28px; height: 28px; border-radius: 50%; }
+.progress { font-family: var(--font-data); font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; width: 160px; }
+.bar > span { display: block; height: 100%; background: var(--accent); }
+nav.tabs { display: flex; gap: 4px; margin-bottom: 16px; }
+nav.tabs button { font: inherit; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+nav.tabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+.desk { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .desk { grid-template-columns: 1fr; } }
+aside.queue { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 40px); display: flex; flex-direction: column; gap: 10px; }
+@media (max-width: 860px) { aside.queue { position: static; max-height: 340px; } }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.filters select, .filters button { font: inherit; font-size: .85rem; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 8px; padding: 4px 8px; }
+.filters button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.filters select { flex: 1 1 100%; min-width: 0; max-width: 100%; }
+.qlist { overflow-y: auto; display: flex; flex-direction: column; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.qlist button { width: 100%; text-align: left; font: inherit; border: 0; background: transparent; color: var(--ink); padding: 6px 8px; border-radius: 6px; cursor: pointer; display: grid; grid-template-columns: 54px 1fr auto; gap: 8px; align-items: baseline; }
+.qlist button:hover { background: var(--paper); }
+.qlist button[aria-current="true"] { background: var(--accent-soft); }
+.qid { font-family: var(--font-data); font-size: .78rem; color: var(--muted); }
+.qtitle { font-size: .86rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--muted); display: inline-block; }
+.dot.accept { background: var(--accent); border-color: var(--accent); }
+.dot.edit { background: var(--warn); border-color: var(--warn); }
+.dot.reject { background: var(--bad); border-color: var(--bad); }
+
+main.item { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; min-width: 0; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.chip { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; color: var(--muted); background: var(--paper); }
+.chip.strong { color: var(--ink); border-color: var(--ink); }
+.chip.data { font-family: var(--font-data); }
+.stem { font-family: var(--font-read); font-size: 1.06rem; line-height: 1.7; max-width: 68ch; margin: 0 0 12px; white-space: pre-wrap; }
+.leadin { font-weight: 700; margin: 0 0 14px; max-width: 68ch; }
+.opts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.opt { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px 10px; }
+.opt.key { border-color: var(--accent); background: var(--accent-soft); }
+.opt .letter { font-family: var(--font-data); font-weight: 500; }
+.opt .otext { font-weight: 700; }
+.opt .why { grid-column: 2; color: var(--muted); font-size: .9rem; }
+.opt .keytag { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-left: 8px; }
+.extra { display: grid; gap: 10px; margin-top: 16px; }
+.extra h3, .card h2 { font-size: .76rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; font-weight: 700; }
+.extra p { margin: 0; max-width: 70ch; }
+.refs { margin: 0; padding-left: 18px; }
+details.pipe summary { cursor: pointer; font-weight: 700; }
+details.pipe .flag { padding: 8px 10px; border-radius: 8px; margin-top: 8px; font-size: .9rem; }
+.flag.warn { background: var(--warn-soft); color: var(--ink); border-left: 3px solid var(--warn); }
+.flag.bad { background: var(--bad-soft); color: var(--ink); border-left: 3px solid var(--bad); }
+.flag.note { background: var(--paper); border-left: 3px solid var(--line); }
+.alert { padding: 10px 12px; border-radius: 8px; font-size: .92rem; margin-bottom: 12px; max-width: 80ch; }
+.alert.bad { background: var(--bad-soft); border-left: 3px solid var(--bad); }
+.alert.warn { background: var(--warn-soft); border-left: 3px solid var(--warn); }
+
+textarea, input[type=text], input[type=email], select.field { font: inherit; width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--paper); color: var(--ink); }
+textarea { min-height: 70px; resize: vertical; }
+textarea.stemedit { font-family: var(--font-read); min-height: 160px; line-height: 1.6; }
+fieldset { border: 0; padding: 0; margin: 0 0 14px; min-width: 0; }
+legend { font-weight: 700; margin-bottom: 6px; padding: 0; }
+legend small { font-weight: 400; color: var(--muted); }
+.choices { display: flex; flex-wrap: wrap; gap: 6px; }
+.choices label { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; background: var(--paper); display: inline-flex; align-items: center; gap: 6px; }
+.choices input { accent-color: var(--accent); }
+.choices label:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+.choices label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.btn { font: inherit; font-weight: 700; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); padding: 9px 18px; border-radius: 8px; cursor: pointer; }
+.btn.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.status { font-size: .88rem; color: var(--muted); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 20px; }
+
+.empty { text-align: center; padding: 48px 16px; color: var(--muted); }
+.empty h2 { font-family: var(--font-read); color: var(--ink); font-size: 1.25rem; letter-spacing: 0; text-transform: none; }
+.register { max-width: 560px; margin: 24px auto; }
+.register label.f { display: block; font-weight: 700; margin: 12px 0 4px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+td.num { font-family: var(--font-data); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>MCQ Coach Review Desk</h1>
+      <p>Pilot round 1 · clinician review of draft questions · internal, not for trainees</p>
+    </div>
+    <div class="row">
+      <div class="progress" id="progressText">Loading…</div>
+      <div class="bar" aria-hidden="true"><span id="progressBar" style="width:0%"></span></div>
+      <div class="who" id="who"></div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs" hidden>
+    <button type="button" id="tabReview" aria-selected="true">Review</button>
+    <button type="button" id="tabRoster" aria-selected="false">Reviewers and results</button>
+  </nav>
+
+  <section id="gate" class="card empty">
+    <h2>Opening the review desk</h2>
+    <p>Checking who you are and loading the questions.</p>
+  </section>
+
+  <section id="registerView" class="card register" hidden>
+    <h2>Register as a reviewer</h2>
+    <p>Your name and email are recorded against every review you submit, so the project has a record of who reviewed each question. You only do this once.</p>
+    <form id="regForm">
+      <label class="f" for="regName">Full name</label>
+      <input type="text" id="regName" required autocomplete="name">
+      <label class="f" for="regEmail">Email</label>
+      <input type="email" id="regEmail" required autocomplete="email">
+      <label class="f" for="regRole">Role</label>
+      <select class="field" id="regRole">
+        <option>Rural generalist supervisor</option>
+        <option>Rural generalist (FACRRM)</option>
+        <option>Project lead</option>
+        <option>Other</option>
+      </select>
+      <fieldset style="margin-top:14px">
+        <label style="display:flex;gap:8px;align-items:flex-start"><input type="checkbox" id="regAgree" required> <span>I will keep these draft questions confidential, and I confirm I won't add any recalled ACRRM exam material or identifiable patient details.</span></label>
+      </fieldset>
+      <div class="row"><button class="btn" type="submit" id="regSubmit">Register and start reviewing</button><span class="status" id="regStatus"></span></div>
+    </form>
+  </section>
+
+  <section id="reviewView" class="desk" hidden>
+    <aside class="queue" aria-label="Question queue">
+      <div class="filters">
+        <button type="button" data-f="todo" aria-pressed="true">To review</button>
+        <button type="button" data-f="done" aria-pressed="false">Done</button>
+        <button type="button" data-f="all" aria-pressed="false">All</button>
+        <select id="areaFilter" aria-label="Learning area"><option value="">All areas</option></select>
+      </div>
+      <ul class="qlist" id="qlist"></ul>
+    </aside>
+    <main class="item" id="itemPane"></main>
+  </section>
+
+  <section id="rosterView" hidden>
+    <div class="card">
+      <div class="row" style="justify-content:space-between">
+        <h2 style="margin:0">Reviewers</h2>
+        <div class="row">
+          <button class="btn secondary" type="button" id="refreshRoster">Refresh</button>
+          <button class="btn" type="button" id="exportCsv">Download all reviews (CSV)</button>
+        </div>
+      </div>
+      <p class="status" id="rosterStatus"></p>
+      <div class="tablewrap"><table id="rosterTable"></table></div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h2>Questions by decision</h2>
+      <p class="status">Questions with a wrong-key or major-accuracy judgement from any reviewer are listed first.</p>
+      <div class="tablewrap"><table id="itemTable"></table></div>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const state = {
+    db: null, user: null, me: null, uid: null, owner: false,
+    items: [], reviews: new Map(), current: null, filter: 'todo', area: '',
+    editing: false, activeMs: 0, tickAt: 0, canWrite: true, registration: null,
+  };
+  const LETTERS = ['A', 'B', 'C', 'D'];
+  const CTX = { clinic: 'Primary care clinic', ed: 'Rural ED', ward: 'Rural ward', retrieval: 'Retrieval', remote: 'Remote clinic', telehealth: 'Telehealth' };
+  const LVL = { recall: 'Recall', interpretation: 'Interpretation', management: 'Management', rural_adaptation: 'Rural adaptation' };
+
+  function el(tag, attrs = {}, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v === undefined || v === null || v === false) continue;
+      if (k === 'class') n.className = v; else if (k === 'text') n.textContent = v;
+      else if (k.startsWith('on')) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v === true ? '' : v);
+    }
+    for (const c of kids.flat()) if (c != null) n.append(c instanceof Node ? c : document.createTextNode(String(c)));
+    return n;
+  }
+  function show(id) { for (const s of ['gate', 'registerView', 'reviewView', 'rosterView']) $(s).hidden = s !== id; }
+  function gate(title, msg) { show('gate'); $('gate').replaceChildren(el('h2', { text: title }), el('p', { text: msg })); }
+
+  // ---- timing: active seconds while an item is open and the page is visible
+  function tickStart() { state.tickAt = document.visibilityState === 'visible' ? Date.now() : 0; }
+  function tickStop() { if (state.tickAt) { state.activeMs += Date.now() - state.tickAt; state.tickAt = 0; } }
+  document.addEventListener('visibilitychange', () => { document.visibilityState === 'visible' ? tickStart() : tickStop(); });
+
+  // ---- boot
+  async function boot() {
+    const [db, user] = await Promise.all([claude.use('db'), claude.use('user')]);
+    if (!db || !user) { gate('Sign in to review', 'Open this page in claude.ai, signed in with the email address your invitation was sent to.'); return; }
+    state.db = db; state.user = user;
+    state.me = await user.me();
+    state.uid = state.me.id;
+    state.owner = await user.isOwner();
+    if (!state.uid) { gate('Sign in to review', 'Open this page in claude.ai, signed in with the email address your invitation was sent to.'); return; }
+    renderWho();
+    if (state.owner) $('tabs').hidden = false;
+
+    const regRef = db.doc('reviews/' + state.uid);
+    const reg = await regRef.get().catch(() => null);
+    if (!reg || !reg.exists) { showRegister(); } else { state.registration = reg.data(); startReview(); }
+  }
+
+  function renderWho() {
+    const me = state.me;
+    const label = (state.registration && state.registration.name) || me.name || 'You';
+    $('who').replaceChildren(el('img', { src: me.avatarUrl, alt: '' }), el('span', { text: label }));
+  }
+
+  // ---- registration
+  function showRegister() {
+    show('registerView');
+    if (state.me.name) $('regName').value = state.me.name;
+    if (state.me.email) $('regEmail').value = state.me.email;
+    $('progressText').textContent = 'Not registered yet';
+  }
+  $('regForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const body = {
+      user_id: state.uid, name: $('regName').value.trim(), email: $('regEmail').value.trim().toLowerCase(),
+      role: $('regRole').value, agreed_confidentiality: $('regAgree').checked, registered_at: new Date().toISOString(),
+    };
+    if (!body.name || !body.email || !body.agreed_confidentiality) return;
+    $('regSubmit').disabled = true; $('regStatus').textContent = 'Saving…';
+    try {
+      await state.db.doc('reviews/' + state.uid).set(body);
+      state.registration = body; renderWho(); startReview();
+    } catch (err) {
+      $('regSubmit').disabled = false;
+      $('regStatus').textContent = err && err.code === 'invalid_argument'
+        ? 'Your invitation lets you view this page but not save. Ask Sam to share it with you at Editor level.'
+        : 'Could not save. Check your connection and try again.';
+    }
+  });
+
+  // ---- review desk
+  let itemsUnsub = null, reviewsUnsub = null;
+  function startReview() {
+    show('reviewView');
+    $('itemPane').replaceChildren(el('div', { class: 'card empty' }, el('h2', { text: 'Loading questions' }), el('p', { text: 'The round 1 questions appear here once they load.' })));
+    if (!itemsUnsub) itemsUnsub = state.db.collection('items').orderBy('order').onSnapshot((snap) => {
+      state.items = snap.docs.map((d) => d.data());
+      fillAreas(); renderQueue(); updateProgress();
+      if (!state.current && state.items.length) openItem(nextTodo() || state.items[0].item_id);
+      if (!state.items.length) $('itemPane').replaceChildren(el('div', { class: 'card empty' }, el('h2', { text: 'No questions yet' }), el('p', { text: 'Questions for this round have not been loaded. Check back shortly.' })));
+    }, () => gate('Questions could not load', 'Reload the page. If it keeps happening, tell Sam.'));
+    if (!reviewsUnsub) reviewsUnsub = state.db.collection('reviews/' + state.uid + '/items').onSnapshot((snap) => {
+      state.reviews = new Map(snap.docs.map((d) => [d.id, d.data()]));
+      renderQueue(); updateProgress();
+    }, () => {});
+  }
+
+  function fillAreas() {
+    const sel = $('areaFilter'); const cur = sel.value;
+    const areas = [...new Set(state.items.map((i) => i.learning_area))].sort();
+    sel.replaceChildren(el('option', { value: '', text: 'All areas' }), ...areas.map((a) => el('option', { value: a, text: a })));
+    sel.value = cur;
+  }
+  $('areaFilter').addEventListener('change', (e) => { state.area = e.target.value; renderQueue(); });
+  document.querySelectorAll('.filters button').forEach((b) => b.addEventListener('click', () => {
+    state.filter = b.dataset.f;
+    document.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    renderQueue();
+  }));
+
+  function decisionClass(r) { if (!r) return ''; return r.decision === 'accept' ? 'accept' : r.decision === 'accept_with_edits' ? 'edit' : 'reject'; }
+  function nextTodo(after) {
+    const list = state.items; const start = after ? list.findIndex((i) => i.item_id === after) + 1 : 0;
+    for (let k = 0; k < list.length; k++) { const it = list[(start + k) % list.length]; if (!state.reviews.has(it.item_id)) return it.item_id; }
+    return null;
+  }
+  function renderQueue() {
+    const ul = $('qlist');
+    const rows = state.items.filter((i) => {
+      const done = state.reviews.has(i.item_id);
+      if (state.filter === 'todo' && done) return false;
+      if (state.filter === 'done' && !done) return false;
+      return !state.area || i.learning_area === state.area;
+    });
+    ul.replaceChildren(...rows.map((i) => {
+      const r = state.reviews.get(i.item_id);
+      return el('li', {}, el('button', { type: 'button', 'aria-current': String(state.current === i.item_id), onclick: () => openItem(i.item_id) },
+        el('span', { class: 'qid', text: i.work_order_id }),
+        el('span', { class: 'qtitle', text: i.learning_area + ' · ' + i.presentation }),
+        el('span', { class: 'dot ' + decisionClass(r), title: r ? r.decision.replace(/_/g, ' ') : 'Not reviewed', 'aria-label': r ? r.decision.replace(/_/g, ' ') : 'Not reviewed' })));
+    }));
+    if (!rows.length) ul.replaceChildren(el('li', { class: 'status', text: state.filter === 'todo' ? 'Nothing left to review here.' : 'No questions match.' }));
+  }
+  function updateProgress() {
+    const n = state.items.length, d = state.items.filter((i) => state.reviews.has(i.item_id)).length;
+    $('progressText').textContent = n ? `${d} / ${n} reviewed` : 'Loading…';
+    $('progressBar').style.width = n ? (100 * d / n).toFixed(1) + '%' : '0%';
+  }
+
+  function openItem(id) {
+    tickStop();
+    state.current = id; state.editing = false; state.activeMs = 0; pendingEdits = null; tickStart();
+    renderQueue(); renderItem();
+    window.scrollTo({ top: 0 });
+  }
+
+  function renderItem() {
+    const it = state.items.find((i) => i.item_id === state.current); if (!it) return;
+    const prev = state.reviews.get(it.item_id);
+    const edits = (prev && prev.edits) || {};
+    const val = (f) => (edits[f] !== undefined ? edits[f] : it[f]);
+    const optText = (L) => (edits.options && edits.options[L] !== undefined) ? edits.options[L] : it.options.find((o) => o.id === L).text;
+    const expl = (L) => (edits.explanations && edits.explanations[L] !== undefined) ? edits.explanations[L] : it.explanations[L];
+    const p = it.patient || {};
+
+    const meta = el('div', { class: 'meta' },
+      el('span', { class: 'chip data strong', text: it.work_order_id }),
+      el('span', { class: 'chip strong', text: it.learning_area }),
+      el('span', { class: 'chip', text: it.presentation }),
+      el('span', { class: 'chip', text: CTX[it.context] || it.context }),
+      el('span', { class: 'chip', text: LVL[it.cognitive_level] || it.cognitive_level }),
+      el('span', { class: 'chip data', text: 'Target difficulty ' + it.target_difficulty + '/5' }),
+      el('span', { class: 'chip', text: [p.age_band, p.sex, p.indigenous ? 'Aboriginal or Torres Strait Islander' : null].filter(Boolean).join(' · ') }));
+
+    const alerts = [];
+    if (it.blind_disagreement) alerts.push(el('div', { class: 'alert bad' }, el('strong', { text: 'Check the key carefully. ' }), `An independent check answered ${it.critic && it.critic.blind_answer} without seeing the key; the keyed answer is ${it.key}.`));
+    for (const f of (it.review_flags || [])) alerts.push(el('div', { class: 'alert bad' }, el('strong', { text: 'Raised by the independent check. ' }), f.replace(/^accuracy concern: /, 'Accuracy concern: ')));
+    if (it.uncertainty === 'major') alerts.push(el('div', { class: 'alert warn' }, el('strong', { text: 'Writer was unsure. ' }), it.uncertainty_note || ''));
+
+    let body;
+    if (!state.editing) {
+      body = [
+        el('p', { class: 'stem', text: val('stem') }),
+        el('p', { class: 'leadin', text: val('lead_in') }),
+        el('ol', { class: 'opts' }, LETTERS.map((L) => el('li', { class: 'opt' + (L === it.key ? ' key' : '') },
+          el('span', { class: 'letter', text: L }),
+          el('span', { class: 'otext' }, optText(L), L === it.key ? el('span', { class: 'keytag', text: 'Key' }) : null),
+          el('span', { class: 'why', text: expl(L) })))),
+      ];
+    } else {
+      body = [
+        el('label', { class: 'f', for: 'eStem', text: 'Stem' }), el('textarea', { id: 'eStem', class: 'stemedit' }),
+        el('label', { class: 'f', for: 'eLead', text: 'Lead-in' }), el('input', { type: 'text', id: 'eLead' }),
+        ...LETTERS.flatMap((L) => [
+          el('label', { class: 'f', for: 'eOpt' + L, text: `Option ${L}${L === it.key ? ' (key)' : ''}` }), el('input', { type: 'text', id: 'eOpt' + L }),
+          el('label', { class: 'f status', for: 'eExp' + L, text: `Explanation ${L}` }), el('textarea', { id: 'eExp' + L }),
+        ]),
+        el('label', { class: 'f', for: 'eLP', text: 'Learning point' }), el('textarea', { id: 'eLP' }),
+      ];
+    }
+
+    const extra = el('div', { class: 'extra' },
+      el('div', {}, el('h3', { text: 'Learning point' }), el('p', { text: val('learning_point') })),
+      it.rural_note ? el('div', {}, el('h3', { text: 'Rural note' }), el('p', { text: it.rural_note })) : null,
+      el('div', {}, el('h3', { text: 'References' }), el('ul', { class: 'refs' }, (it.references || []).map((r) => el('li', { text: [r.title, r.locator].filter(Boolean).join(' — ') })))));
+
+    const pipe = el('details', { class: 'pipe' }, el('summary', { text: 'How this question was written and checked' }),
+      it.plan ? el('div', { class: 'flag note' }, el('strong', { text: 'Writer’s plan: ' }), it.plan) : null,
+      it.critic ? el('div', { class: 'flag ' + (it.blind_disagreement ? 'bad' : 'note') }, el('strong', { text: `Independent check answered ${it.critic.blind_answer} (${it.critic.blind_confidence} confidence): ` }), it.critic.blind_reasoning || '', it.critic.notes_for_reviewer ? ' ' + it.critic.notes_for_reviewer : '') : null,
+      ...(it.soft_flags || []).map((f) => el('div', { class: 'flag warn', text: f })));
+
+    const editBtn = el('button', { type: 'button', class: 'btn secondary', onclick: () => { collectEdits(); state.editing = !state.editing; renderItemKeepForm(); } }, state.editing ? 'Done editing' : 'Edit wording');
+    const qcard = el('section', { class: 'card', 'aria-label': 'Question' }, meta, ...alerts, ...body, extra,
+      el('div', { class: 'row', style: 'margin-top:14px;justify-content:space-between' }, pipe, editBtn));
+
+    const form = rubricForm(it, prev);
+    $('itemPane').replaceChildren(qcard, form);
+
+    if (state.editing) {
+      $('eStem').value = val('stem'); $('eLead').value = val('lead_in'); $('eLP').value = val('learning_point');
+      LETTERS.forEach((L) => { $('eOpt' + L).value = optText(L); $('eExp' + L).value = expl(L); });
+    }
+  }
+
+  // Edits held in memory until the review is saved.
+  let pendingEdits = null;
+  function collectEdits() {
+    if (!state.editing) return;
+    const it = state.items.find((i) => i.item_id === state.current);
+    const e = pendingEdits || {};
+    const set = (k, v, orig) => { if (v !== orig) e[k] = v; else delete e[k]; };
+    set('stem', $('eStem').value, it.stem); set('lead_in', $('eLead').value, it.lead_in); set('learning_point', $('eLP').value, it.learning_point);
+    const o = {}, x = {};
+    LETTERS.forEach((L) => {
+      const ov = $('eOpt' + L).value, xv = $('eExp' + L).value;
+      if (ov !== it.options.find((q) => q.id === L).text) o[L] = ov;
+      if (xv !== it.explanations[L]) x[L] = xv;
+    });
+    if (Object.keys(o).length) e.options = o; else delete e.options;
+    if (Object.keys(x).length) e.explanations = x; else delete e.explanations;
+    pendingEdits = e;
+  }
+  function renderItemKeepForm() {
+    const saved = readForm();
+    const prev = state.reviews.get(state.current);
+    const merged = Object.assign({}, prev || {}, saved, { edits: Object.assign({}, (prev && prev.edits) || {}, pendingEdits || {}) });
+    state.reviews.set(state.current, prev || undefined); // keep map honest
+    if (!prev) state.reviews.delete(state.current);
+    renderItem(); writeForm(merged);
+  }
+
+  function radios(name, legend, hint, options, value) {
+    return el('fieldset', {}, el('legend', {}, legend, hint ? el('small', { text: ' ' + hint }) : null),
+      el('div', { class: 'choices', role: 'radiogroup' }, options.map(([v, label]) => el('label', {}, el('input', { type: 'radio', name, value: v, id: name + '-' + v, checked: value === v }), label))));
+  }
+  function rubricForm(it, prev) {
+    const r = prev || {};
+    const f = el('form', { class: 'card', id: 'rubric', 'aria-label': 'Review' },
+      el('h2', { text: 'Your review' }),
+      el('div', { class: 'grid2' },
+        radios('key_correct', 'Is the keyed answer the single best answer?', 'in current Australian practice', [['yes', 'Yes'], ['no', 'No'], ['unsure', 'Unsure']], r.key_correct),
+        radios('accuracy', 'Clinical accuracy', 'stem and explanations', [['yes', 'Accurate'], ['minor', 'Minor issue'], ['major', 'Major issue']], r.accuracy),
+        radios('rural_realism', 'Rural realism', '1 = unlikely, 3 = very typical', [['1', '1'], ['2', '2'], ['3', '3']], r.rural_realism != null ? String(r.rural_realism) : undefined),
+        radios('distractors_plausible', 'Plausible distractors', 'out of 3', [['0', '0'], ['1', '1'], ['2', '2'], ['3', '3']], r.distractors_plausible != null ? String(r.distractors_plausible) : undefined),
+        radios('difficulty_view', 'Difficulty against the target', `target ${it.target_difficulty}/5`, [['easier', 'Easier'], ['right', 'About right'], ['harder', 'Harder']], r.difficulty_view),
+      ),
+      radios('decision', 'Decision', '', [['accept', 'Accept'], ['accept_with_edits', 'Accept with edits'], ['reject', 'Reject']], r.decision),
+      el('fieldset', { id: 'rejectBox', hidden: r.decision !== 'reject' },
+        el('legend', { text: 'Main reason for rejecting' }),
+        el('select', { class: 'field', id: 'reject_reason' }, [['', 'Choose a reason'], ['wrong_key', 'Wrong key'], ['inaccurate', 'Clinically inaccurate or outdated'], ['not_rural', 'Not realistic for rural practice'], ['poor_distractors', 'Poor distractors'], ['ambiguous', 'Ambiguous or more than one best answer'], ['trivial', 'Trivial or not useful'], ['other', 'Other']].map(([v, t]) => el('option', { value: v, text: t, selected: r.reject_reason === v })))),
+      el('label', { class: 'f', for: 'comment', text: 'Comments for the writer (optional)' }),
+      el('textarea', { id: 'comment' }),
+      el('div', { class: 'row', style: 'margin-top:12px' },
+        el('button', { class: 'btn', type: 'submit', id: 'saveBtn', text: prev ? 'Update review' : 'Save review and next' }),
+        el('span', { class: 'status', id: 'saveStatus', role: 'status', text: prev ? `Saved ${new Date(prev.submitted_at).toLocaleString('en-AU')}` : '' })));
+    f.querySelector('#comment').value = r.comment || '';
+    f.addEventListener('change', onFormChange);
+    f.addEventListener('submit', onSave);
+    queueMicrotask(onFormChange);
+    return f;
+  }
+  function readForm() {
+    const f = $('rubric'); if (!f) return {};
+    const g = (n) => { const x = f.querySelector(`input[name="${n}"]:checked`); return x ? x.value : undefined; };
+    return {
+      key_correct: g('key_correct'), accuracy: g('accuracy'),
+      rural_realism: g('rural_realism') != null ? Number(g('rural_realism')) : undefined,
+      distractors_plausible: g('distractors_plausible') != null ? Number(g('distractors_plausible')) : undefined,
+      difficulty_view: g('difficulty_view'), decision: g('decision'),
+      reject_reason: $('reject_reason') ? $('reject_reason').value : '', comment: $('comment') ? $('comment').value : '',
+    };
+  }
+  function writeForm(r) {
+    const f = $('rubric'); if (!f) return;
+    for (const n of ['key_correct', 'accuracy', 'rural_realism', 'distractors_plausible', 'difficulty_view', 'decision']) {
+      if (r[n] == null) continue; const x = f.querySelector(`input[name="${n}"][value="${r[n]}"]`); if (x) x.checked = true;
+    }
+    if (r.reject_reason) $('reject_reason').value = r.reject_reason;
+    if (r.comment != null) $('comment').value = r.comment;
+    onFormChange();
+  }
+  function onFormChange() {
+    const v = readForm();
+    const forced = v.key_correct === 'no' || v.accuracy === 'major';
+    const f = $('rubric'); if (!f) return;
+    if (forced) {
+      const rej = f.querySelector('input[name="decision"][value="reject"]'); rej.checked = true;
+      if (!$('reject_reason').value) $('reject_reason').value = v.key_correct === 'no' ? 'wrong_key' : 'inaccurate';
+    }
+    f.querySelectorAll('input[name="decision"]').forEach((x) => { x.disabled = forced && x.value !== 'reject'; });
+    const hasEdits = pendingEdits && Object.keys(pendingEdits).length;
+    if (hasEdits && readForm().decision === 'accept') f.querySelector('input[name="decision"][value="accept_with_edits"]').checked = true;
+    $('rejectBox').hidden = readForm().decision !== 'reject';
+  }
+
+  async function onSave(e) {
+    e.preventDefault();
+    collectEdits();
+    const it = state.items.find((i) => i.item_id === state.current);
+    const v = readForm();
+    const missing = ['key_correct', 'accuracy', 'rural_realism', 'distractors_plausible', 'difficulty_view', 'decision'].filter((k) => v[k] == null);
+    if (missing.length) { $('saveStatus').textContent = 'Answer every question in the review before saving.'; return; }
+    if (v.decision === 'reject' && !v.reject_reason) { $('saveStatus').textContent = 'Choose a reason for rejecting.'; return; }
+    tickStop();
+    const prev = state.reviews.get(it.item_id);
+    const edits = Object.assign({}, (prev && prev.edits) || {}, pendingEdits || {});
+    const doc = {
+      item_id: it.item_id, work_order_id: it.work_order_id, item_version: it.version || 1, round: it.round || 1,
+      reviewer_id: state.uid, ...v, edits, edited: Object.keys(edits).length > 0,
+      active_seconds: Math.round(((prev && prev.active_seconds) || 0) + state.activeMs / 1000),
+      first_submitted_at: (prev && prev.first_submitted_at) || new Date().toISOString(),
+      submitted_at: new Date().toISOString(),
+    };
+    Object.keys(doc).forEach((k) => doc[k] === undefined && delete doc[k]);
+    $('saveBtn').disabled = true; $('saveStatus').textContent = 'Saving…';
+    try {
+      await state.db.doc(`reviews/${state.uid}/items/${it.item_id}`).set(doc);
+      state.reviews.set(it.item_id, doc); pendingEdits = null; state.activeMs = 0;
+      $('saveStatus').textContent = 'Saved';
+      const nxt = prev ? null : nextTodo(it.item_id);
+      if (nxt) openItem(nxt); else { $('saveBtn').disabled = false; renderQueue(); updateProgress(); tickStart(); if (!prev && !nextTodo()) $('saveStatus').textContent = 'Saved. That was the last question in this round. Thank you.'; }
+    } catch (err) {
+      tickStart(); $('saveBtn').disabled = false;
+      $('saveStatus').textContent = err && err.code === 'invalid_argument'
+        ? 'Your invitation lets you view this page but not save. Ask Sam to share it with you at Editor level.'
+        : 'Could not save. Check your connection and try again; your answers are still here.';
+    }
+  }
+
+  // ---- owner: roster and results
+  $('tabReview').addEventListener('click', () => { setTab('review'); });
+  $('tabRoster').addEventListener('click', () => { setTab('roster'); loadRoster(); });
+  function setTab(t) {
+    $('tabReview').setAttribute('aria-selected', String(t === 'review'));
+    $('tabRoster').setAttribute('aria-selected', String(t === 'roster'));
+    if (t === 'review') { if (state.registration) show('reviewView'); else showRegister(); } else show('rosterView');
+  }
+  $('refreshRoster').addEventListener('click', () => loadRoster());
+
+  let rosterCache = null;
+  async function loadRoster() {
+    $('rosterStatus').textContent = 'Loading reviewers…';
+    try {
+      const regs = (await state.db.collection('reviews').get()).docs.map((d) => ({ id: d.id, ...d.data() }));
+      const all = [];
+      for (const r of regs) {
+        const snap = await state.db.collection(`reviews/${r.id}/items`).get();
+        r.reviews = snap.docs.map((d) => d.data()); all.push(...r.reviews.map((x) => ({ reg: r, rev: x })));
+      }
+      const ps = await state.user.profiles(regs.map((r) => r.id));
+      rosterCache = { regs, all, ps };
+      renderRoster();
+      $('rosterStatus').textContent = `${regs.length} registered reviewer${regs.length === 1 ? '' : 's'} · ${all.length} reviews · updated ${new Date().toLocaleTimeString('en-AU')}`;
+    } catch (err) {
+      $('rosterStatus').textContent = 'Could not load reviewers. Try Refresh.';
+    }
+  }
+  function median(a) { if (!a.length) return null; const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+  function renderRoster() {
+    const { regs, all, ps } = rosterCache;
+    const head = el('tr', {}, ['Reviewer', 'Registered email', 'Signed in as', 'Role', 'Registered', 'Reviewed', 'Accept', 'With edits', 'Reject', 'Median time'].map((h) => el('th', { text: h })));
+    const rows = regs.map((r) => {
+      const c = (d) => r.reviews.filter((x) => x.decision === d).length;
+      const t = median(r.reviews.map((x) => x.active_seconds || 0));
+      const p = ps[r.id] || {};
+      const signed = [p.name, p.email].filter(Boolean).join(' · ') || 'Not visible to you';
+      return el('tr', {}, el('td', { text: r.name }), el('td', { text: r.email }), el('td', { text: signed }), el('td', { text: r.role }),
+        el('td', { text: new Date(r.registered_at).toLocaleDateString('en-AU') }), el('td', { class: 'num', text: r.reviews.length }),
+        el('td', { class: 'num', text: c('accept') }), el('td', { class: 'num', text: c('accept_with_edits') }), el('td', { class: 'num', text: c('reject') }),
+        el('td', { class: 'num', text: t == null ? '—' : `${Math.floor(t / 60)}m ${String(Math.round(t % 60)).padStart(2, '0')}s` }));
+    });
+    $('rosterTable').replaceChildren(el('thead', {}, head), el('tbody', {}, rows.length ? rows : [el('tr', {}, el('td', { colspan: 10, text: 'No one has registered yet. Share this page with reviewers at Editor level.' }))]));
+
+    const byItem = new Map();
+    for (const { reg, rev } of all) { if (!byItem.has(rev.item_id)) byItem.set(rev.item_id, []); byItem.get(rev.item_id).push({ reg, rev }); }
+    const list = state.items.map((it) => {
+      const rs = byItem.get(it.item_id) || [];
+      const red = rs.some(({ rev }) => rev.key_correct === 'no' || rev.accuracy === 'major');
+      return { it, rs, red };
+    }).sort((a, b) => (b.red - a.red) || (a.it.order - b.it.order));
+    const ih = el('tr', {}, ['Question', 'Area', 'Reviews', 'Accept', 'With edits', 'Reject', 'Wrong key or major issue', 'Reviewed by'].map((h) => el('th', { text: h })));
+    $('itemTable').replaceChildren(el('thead', {}, ih), el('tbody', {}, list.map(({ it, rs, red }) => {
+      const c = (d) => rs.filter(({ rev }) => rev.decision === d).length;
+      return el('tr', {}, el('td', { class: 'num', text: it.work_order_id }), el('td', { text: it.learning_area + ' · ' + it.presentation }),
+        el('td', { class: 'num', text: rs.length }), el('td', { class: 'num', text: c('accept') }), el('td', { class: 'num', text: c('accept_with_edits') }), el('td', { class: 'num', text: c('reject') }),
+        el('td', { text: red ? 'Yes' : '' }), el('td', { text: rs.map(({ reg }) => reg.name).join(', ') }));
+    })));
+  }
+
+  function csvCell(v) { if (v == null) return ''; const s = typeof v === 'object' ? JSON.stringify(v) : String(v); return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+  $('exportCsv').addEventListener('click', async () => {
+    if (!rosterCache) await loadRoster();
+    if (!rosterCache) return;
+    const downloads = await claude.use('downloads');
+    if (!downloads) { $('rosterStatus').textContent = 'Downloads are not available in this view. Open the page in claude.ai.'; return; }
+    const cols = ['reviewer_name', 'reviewer_email', 'reviewer_role', 'reviewer_id', 'work_order_id', 'item_id', 'item_version', 'learning_area', 'key_correct', 'accuracy', 'rural_realism', 'distractors_plausible', 'difficulty_view', 'decision', 'reject_reason', 'edited', 'edits', 'comment', 'active_seconds', 'first_submitted_at', 'submitted_at'];
+    const area = new Map(state.items.map((i) => [i.item_id, i.learning_area]));
+    const lines = [cols.join(',')].concat(rosterCache.all.map(({ reg, rev }) => [reg.name, reg.email, reg.role, reg.id, rev.work_order_id, rev.item_id, rev.item_version, area.get(rev.item_id), rev.key_correct, rev.accuracy, rev.rural_realism, rev.distractors_plausible, rev.difficulty_view, rev.decision, rev.reject_reason, rev.edited, rev.edits, rev.comment, rev.active_seconds, rev.first_submitted_at, rev.submitted_at].map(csvCell).join(',')));
+    try {
+      await downloads.save({ filename: `mcq-coach-round1-reviews-${new Date().toISOString().slice(0, 10)}.csv`, data: lines.join('\r\n') });
+      $('rosterStatus').textContent = 'Download started.';
+    } catch (err) {
+      $('rosterStatus').textContent = err && err.code === 'declined' ? 'Download cancelled.' : 'The download could not start here. Try again in claude.ai.';
+    }
+  });
+
+  boot().catch(() => gate('Something went wrong', 'Reload the page. If it keeps happening, tell Sam.'));
+})();
+</script>

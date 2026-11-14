@@ -1,0 +1,2157 @@
+[
+ {
+  "work_order_id": "r1-076",
+  "item_id": "7134750d-2278-c42c-294f-f57531fab544",
+  "version": 1,
+  "stem": "You are the PGY2 on an evening cover shift at a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight. A 34-year-old woman with ulcerative colitis, maintained on oral mesalazine for 8 months, presents with 3 weeks of malaise, low-grade fever, arthralgia and a faint maculopapular rash. Her colitis is quiescent with one formed stool daily. She denies NSAID use and has no vomiting or diarrhoea. Observations: temperature 37.9 C, heart rate 84/min, blood pressure 128/78 mmHg, mucous membranes moist. Creatinine is 310 micromol/L (baseline 68 micromol/L 6 months ago), urea 14 mmol/L, potassium 4.6 mmol/L, eosinophils 1.1 x 10^9/L. Urinalysis: leucocytes 2+, protein 1+, no blood. Urine microscopy reports white cell casts, no red cell casts, no bacteria. Bedside bladder scan shows 40 mL post-void. The physician is available by phone.",
+  "lead_in": "Which diagnosis best explains her acute kidney injury?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prerenal acute kidney injury from volume depletion"
+   },
+   {
+    "id": "B",
+    "text": "Drug-induced acute interstitial nephritis"
+   },
+   {
+    "id": "C",
+    "text": "Post-infectious glomerulonephritis"
+   },
+   {
+    "id": "D",
+    "text": "Acute pyelonephritis with early urosepsis"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Prerenal injury is the commonest cause of acute kidney injury on a ward, but this woman is euvolaemic with no fluid losses, and a prerenal state does not produce white cell casts, eosinophilia, fever, rash or arthralgia.",
+   "B": "Subacute kidney injury with fever, rash, arthralgia, peripheral eosinophilia, sterile pyuria and white cell casts in a patient established on mesalazine is the classic picture of drug-induced acute interstitial nephritis, a recognised and under-recognised adverse effect of mesalazine. The next steps are to withhold mesalazine, avoid nephrotoxins, and discuss urgently with the physician and renal team in Adelaide, since biopsy and corticosteroids may be considered.",
+   "C": "Glomerulonephritis typically produces haematuria with red cell casts and heavier proteinuria, often with hypertension and oedema; the urine here has no blood and shows white cell casts instead.",
+   "D": "Pyelonephritis would be expected to cause flank pain, dysuria and bacteriuria with a positive culture; sterile pyuria over three weeks with rash and eosinophilia points away from infection."
+  },
+  "learning_point": "Fever, rash, eosinophilia and sterile pyuria with white cell casts in a patient on a culprit drug such as mesalazine, a proton pump inhibitor, an NSAID or an antibiotic suggests acute interstitial nephritis, and the first action is to stop the drug.",
+  "setting_note": "In a country hospital without on-site nephrology, the junior doctor's role is to recognise the pattern, stop the likely culprit, hold nephrotoxins and seek same-night phone advice from the physician and the tertiary renal unit, who will decide on transfer for biopsy and treatment.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "General medicine",
+   "Prescribing and medication safety",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "acute kidney injury",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Mesalazine: adverse effects (interstitial nephritis) and monitoring of renal function",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Kidney Health Australia, Acute Kidney Injury clinical guidance for health professionals",
+    "locator": "Causes of AKI: intrinsic renal causes including acute interstitial nephritis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: acute interstitial nephritis presents with a subacute rise in creatinine, often with fever, rash, arthralgia, eosinophilia and eosinophiluria, sterile pyuria and white cell casts; common culprits are NSAIDs, proton pump inhibitors, beta-lactams, sulfonamides and mesalazine. Misconceptions: assuming ward AKI is always prerenal; treating sterile pyuria as a urinary tract infection with antibiotics. Out of scope: decisions on renal biopsy and corticosteroid therapy, which belong to the renal team.",
+  "plan": "Tests recognition of the urine and blood pattern of drug-induced interstitial nephritis in a patient on mesalazine, evidencing 1.5 and 1.8. The after-hours rural setting makes the resident the one who has to read the result and decide what to stop before phoning for help. Distractors are the commonest ward cause (prerenal), the alternative intrinsic cause (glomerulonephritis) and the trap of calling sterile pyuria infection. Supported by AMH mesalazine monograph and KHA AKI guidance."
+ },
+ {
+  "work_order_id": "r1-077",
+  "item_id": "919a818e-2c65-91b8-cee6-7e9ef8488212",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 79-year-old woman admitted with symptomatic iron deficiency anaemia (haemoglobin 66 g/L, heart rate 104/min, breathless walking to the bathroom) has been prescribed one unit of packed red cells, with iron studies and a gastroenterology referral arranged. The unit was signed out of the blood fridge and the transfusion commenced at 14:10. At 15:30 the nurse tells you the pump has been alarming intermittently for a positional cannula and only half the unit has infused. She asks by what time this unit must be finished.",
+  "lead_in": "What is the maximum time from removal from controlled storage within which the unit must be completely infused?",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 hour"
+   },
+   {
+    "id": "B",
+    "text": "2 hours"
+   },
+   {
+    "id": "C",
+    "text": "4 hours"
+   },
+   {
+    "id": "D",
+    "text": "6 hours"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "One hour is too restrictive; a unit of red cells is routinely infused over 1 to 3 hours, and a rate this fast would not be appropriate for an elderly woman at risk of circulatory overload.",
+   "B": "Two hours is a reasonable usual duration for a unit in a patient at risk of overload, but it is not the limit; the regulatory maximum is longer.",
+   "C": "Red cells must be completely infused within 4 hours of leaving controlled temperature storage because of the risk of bacterial proliferation and loss of cell viability. This unit left the fridge at about 14:10, so it must finish by 14:10 plus 4 hours; the cannula should be resited or the rate adjusted now, and if that is not achievable the remainder is discarded and a new unit requested.",
+   "D": "Six hours exceeds the accepted maximum; a unit still running at that point should have been discontinued and discarded."
+  },
+  "learning_point": "A unit of red cells must be fully infused within 4 hours of leaving controlled storage; if it cannot be, the remainder is discarded, not run faster.",
+  "setting_note": "In a regional hospital with a small blood fridge and limited stock, a wasted unit may mean a delay while a replacement is sent from Adelaide, so the junior doctor should address cannula problems early rather than letting the clock run out.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Prescribing and medication safety",
+   "Older people, delirium and falls"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "blood product prescribing",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZSBT Guidelines for the Administration of Blood Products",
+    "locator": "Section on duration of transfusion: red cells completed within 4 hours of removal from controlled storage",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, Blood Management Standard",
+    "locator": "Safe administration of blood and blood products",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: red cells are transfused over 1 to 3 hours, slower (up to the 4-hour limit) for patients at risk of transfusion-associated circulatory overload; the 4-hour limit is counted from removal from the blood fridge, not from the start of infusion. Misconceptions: speeding up the infusion to beat the clock; counting from when the drip started. Out of scope: platelet and plasma infusion times and massive transfusion.",
+  "plan": "Tests a single safety fact every resident prescribing blood must know, the 4-hour completion limit for red cells, evidencing 1.8 and 1.1. The regional setting adds the real consequence of a wasted unit. Distractors are the usual transfusion durations and an over-long period. Supported by the ANZSBT administration guideline and the NSQHS Blood Management Standard."
+ },
+ {
+  "work_order_id": "r1-078",
+  "item_id": "9c0418f6-e066-4205-e26a-5e1c3be53adb",
+  "version": 1,
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 58-year-old man with alcohol-related cirrhosis and a recent variceal bleed, now stable, is receiving his second unit of packed red cells for a haemoglobin of 64 g/L. Fifteen minutes into the unit the nurse calls you urgently: he has developed rigors and loin pain, his temperature has risen from 37.0 C to 39.1 C, heart rate is 118/min and blood pressure has fallen from 128/76 to 92/58 mmHg. He is anxious but talking. The first unit, completed 2 hours earlier, was uneventful. The nurse has already pressed the pause button on the pump and is waiting for your instruction.",
+  "lead_in": "What is the most appropriate immediate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Slow the infusion rate and give paracetamol 1 g orally for a febrile non-haemolytic reaction"
+   },
+   {
+    "id": "B",
+    "text": "Phone the transfusion laboratory to confirm the unit's compatibility before deciding"
+   },
+   {
+    "id": "C",
+    "text": "Collect blood cultures from the patient and the unit and send them to the laboratory"
+   },
+   {
+    "id": "D",
+    "text": "Stop the transfusion, disconnect the unit and keep the cannula patent with sodium chloride 0.9%"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Slowing the rate and giving paracetamol is acceptable only for a mild isolated fever (rise of less than 1.5 C with no other features); rigors, loin pain, a rise above 1.5 C and hypotension mark a severe reaction in which continuing to infuse the unit could be fatal.",
+   "B": "Checking compatibility with the laboratory is part of the subsequent work-up, but phoning first delays the one action that limits harm: no further product should enter the patient while the call is made.",
+   "C": "Cultures of the patient and the unit are needed to investigate bacterial contamination and haemolysis, but they are collected after the transfusion has been stopped and the patient stabilised, not before.",
+   "D": "Loin pain, rigors, a temperature rise above 1.5 C and hypotension early in a unit suggest acute haemolytic transfusion reaction or bacterial contamination. The first priority is to stop the transfusion, disconnect the unit and giving set, maintain IV access with sodium chloride 0.9%, check the patient's identity against the unit, start resuscitation and escalate under the hospital's Rapid Detection and Response criteria. The physician is then phoned and the unit and samples returned to the laboratory."
+  },
+  "learning_point": "Any transfusion reaction with hypotension, rigors, loin or back pain or a temperature rise of 1.5 C or more means stop the transfusion first, keep the line open with sodium chloride 0.9%, and only then investigate.",
+  "setting_note": "In a regional hospital without ICU, a severe reaction triggers early phone escalation to the physician and the retrieval service in Adelaide, and the single junior doctor must manage the airway, breathing and circulation steps and recheck patient and unit identity while waiting.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Patient safety, quality and systems",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "blood product prescribing",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZSBT Guidelines for the Administration of Blood Products",
+    "locator": "Management of adverse transfusion reactions: stop the transfusion and maintain IV access",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Red Cross Lifeblood, Transfusion reactions (Transfusion.com.au)",
+    "locator": "Acute transfusion reactions: initial management",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration (Rapid Detection and Response) policy",
+    "locator": "Escalation criteria for hypotension and tachycardia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a mild reaction (temperature rise under 1.5 C, no other symptoms) can be managed by slowing the infusion and observing; anything more, particularly hypotension, rigors, loin pain, dyspnoea or haemoglobinuria, requires stopping the unit, resuscitation, identity check and laboratory investigation. Misconceptions: that pausing the pump is the same as disconnecting the unit; that cultures or paperwork come first. Out of scope: management of transfusion-related acute lung injury and the SHOT-style reporting process.",
+  "plan": "Tests prioritisation in a severe acute transfusion reaction: stop first, investigate second, evidencing 1.8, 1.9 and 1.1. The Mid North setting means the resident acts alone before phone advice. Distractors are the mild-reaction response misapplied, a laboratory call that delays action, and investigations done out of order. Supported by ANZSBT administration guidelines, Lifeblood guidance and the SA Health RDR policy."
+ },
+ {
+  "work_order_id": "r1-079",
+  "item_id": "667b6a16-fcd1-d8a3-3557-aa4f82714c26",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital with on-site intensive care. A 19-year-old man with type 1 diabetes was admitted from the emergency department 90 minutes ago with vomiting and diabetic ketoacidosis after missing insulin doses during a gastroenteritis. In the emergency department he received 1 L of sodium chloride 0.9% over the first hour. Observations now: heart rate 112/min, blood pressure 104/66 mmHg, respiratory rate 24/min, alert. Repeat venous gas: pH 7.16, bicarbonate 9 mmol/L, glucose 27 mmol/L, potassium 3.2 mmol/L, sodium 134 mmol/L, lactate 1.8 mmol/L. Blood ketones 5.4 mmol/L. The emergency department has not yet started insulin. The medical registrar is in a resuscitation and asks you to write up the next hour of fluids and insulin according to the hospital DKA protocol.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe the next litre of sodium chloride 0.9% with potassium chloride 40 mmol added and defer the insulin infusion until potassium is above 3.5 mmol/L"
+   },
+   {
+    "id": "B",
+    "text": "Start an insulin infusion at 0.1 units/kg/hour now with potassium-free sodium chloride 0.9% running alongside"
+   },
+   {
+    "id": "C",
+    "text": "Give a further 1 L bolus of sodium chloride 0.9% and repeat the gas in one hour before deciding on potassium"
+   },
+   {
+    "id": "D",
+    "text": "Give sodium bicarbonate 8.4% 100 mL intravenously to correct the acidosis before starting insulin"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "In diabetic ketoacidosis, total body potassium is depleted even when the serum level is normal, and insulin drives potassium into cells. With serum potassium below 3.5 mmol/L, Australian DKA protocols direct replacing potassium in the intravenous fluid (commonly 40 mmol per litre, via an infusion pump, with cardiac monitoring) and withholding the insulin infusion until potassium is at least 3.5 mmol/L, then rechecking potassium every one to two hours. Fluid resuscitation continues meanwhile.",
+   "B": "Starting insulin with a serum potassium of 3.2 mmol/L and no replacement risks a rapid fall to life-threatening hypokalaemia with arrhythmia; insulin should wait until potassium is corrected.",
+   "C": "Another potassium-free litre followed by an hour's delay leaves a hypokalaemic, acidotic patient without potassium replacement and postpones the insulin that treats the ketoacidosis; the potassium result is already available and should be acted on now.",
+   "D": "Bicarbonate is not recommended in diabetic ketoacidosis with a pH above 6.9; it worsens hypokalaemia and intracellular acidosis, and the acidosis corrects with fluid and insulin."
+  },
+  "learning_point": "In diabetic ketoacidosis check potassium before every decision about insulin: below 3.5 mmol/L, replace potassium in the fluids and hold the insulin infusion until it is corrected.",
+  "setting_note": "In a regional hospital without high-dependency beds, concentrated potassium infusions and hourly gases may be harder to deliver, so early phone discussion with the physician or retrieval coordinator about transfer is part of the same decision.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "General medicine",
+   "Prescribing and medication safety",
+   "Deteriorating patient"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "fluid resuscitation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "minor",
+   "uncertainty_note": "Exact potassium concentration and the threshold for withholding insulin vary slightly between hospital DKA protocols (3.3 vs 3.5 mmol/L); the item uses the common Australian value of 3.5 mmol/L."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Diabetic ketoacidosis in adults: fluid, potassium and insulin therapy",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society, Guidelines for the management of DKA in adults",
+    "locator": "Potassium replacement and timing of insulin infusion",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: potassium is replaced once urine output is confirmed and serum potassium is below 5.0 to 5.5 mmol/L; insulin is withheld if potassium is below 3.5 mmol/L; a fixed-rate insulin infusion of 0.1 units/kg/hour is started once potassium is safe; glucose-containing fluid is added when glucose falls below about 15 mmol/L; bicarbonate is reserved for pH under 6.9 with senior advice. Misconceptions: that insulin is the urgent first treatment regardless of potassium; that a normal serum potassium means normal body stores. Out of scope: cerebral oedema management in children.",
+  "plan": "Tests the potassium-before-insulin rule in DKA fluid prescribing, evidencing 1.8 and 1.5. The metropolitan ward with a busy registrar makes the intern write the chart. Distractors are starting insulin prematurely, delaying with potassium-free fluid, and bicarbonate. Supported by eTG Endocrinology and the ADS DKA guideline."
+ },
+ {
+  "work_order_id": "r1-080",
+  "item_id": "5477351b-2b57-c724-fdcd-9d48236921e8",
+  "version": 1,
+  "stem": "You are the intern on the surgical ward of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 56-year-old woman is day 3 after a mastectomy for breast cancer with known bone metastases. The nurse reports that she has become drowsy and confused overnight, is nauseated, has not opened her bowels for 4 days and has passed only 300 mL of urine in the last 12 hours. Observations: heart rate 102/min, blood pressure 108/70 mmHg, temperature 36.9 C, dry mucous membranes. Bloods you ordered this morning show corrected calcium 3.42 mmol/L (reference 2.10 to 2.60), creatinine 142 micromol/L (baseline 70), potassium 4.1 mmol/L, albumin 31 g/L. The visiting surgeon has left for the day and the physician is available by phone.",
+  "lead_in": "Which action should you prioritise first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe intravenous zoledronic acid 4 mg"
+   },
+   {
+    "id": "B",
+    "text": "Commence intravenous sodium chloride 0.9% rehydration"
+   },
+   {
+    "id": "C",
+    "text": "Give intravenous furosemide 40 mg to promote calcium excretion"
+   },
+   {
+    "id": "D",
+    "text": "Arrange a CT of the abdomen to look for bowel obstruction"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A bisphosphonate is the definitive treatment for hypercalcaemia of malignancy, but it takes two to four days to act, should be given only after rehydration and with attention to renal function, and in this setting should be prescribed after phone discussion with the physician or oncology.",
+   "B": "Severe symptomatic hypercalcaemia (above 3.0 mmol/L with confusion, dehydration and acute kidney injury) is treated first with aggressive intravenous rehydration with sodium chloride 0.9%, which restores volume, improves renal perfusion and promotes calciuresis. The intern should start this immediately, check an ECG, stop any calcium or vitamin D supplements and thiazides, and phone the physician to plan bisphosphonate therapy and possible transfer.",
+   "C": "Loop diuretics were once used routinely but are now reserved for patients who become fluid overloaded after rehydration; given to a dehydrated patient they worsen volume depletion and renal failure.",
+   "D": "Constipation, nausea and drowsiness are explained by hypercalcaemia; imaging for obstruction, which is not available on site after hours, would delay treatment and is not indicated without distension or vomiting."
+  },
+  "learning_point": "The first treatment for severe symptomatic hypercalcaemia is intravenous rehydration with sodium chloride 0.9%; bisphosphonates follow, and loop diuretics are reserved for fluid overload.",
+  "setting_note": "In a regional hospital the intern can start fluids, cardiac monitoring and an ECG immediately, but bisphosphonate choice and the need for transfer to Adelaide for monitoring or oncology input should be settled by phone with the physician the same day.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Oncology",
+   "Surgery and perioperative care",
+   "Older people, delirium and falls"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "hypercalcaemia",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Hypercalcaemia: management of severe hypercalcaemia (rehydration, bisphosphonates)",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Palliative Care",
+    "locator": "Hypercalcaemia in patients with cancer",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hypercalcaemia above 3.0 mmol/L or with symptoms is an emergency; treatment order is isotonic saline rehydration, then intravenous bisphosphonate (zoledronic acid, dose-adjusted for renal function) or denosumab, with calcitonin for rapid short-term effect in severe cases; stop calcium, vitamin D and thiazides; check ECG for short QT. Misconceptions: that furosemide is first-line; that bisphosphonate should be given before fluids. Out of scope: haemodialysis and parathyroid surgery.",
+  "plan": "Tests prioritising rehydration over bisphosphonate, diuretic and imaging in severe hypercalcaemia of malignancy, evidencing 1.8, 1.5 and 1.9. The regional surgical ward with no on-site physician means the intern starts treatment before advice. Distractors reflect common errors: reaching for the definitive drug first, outdated use of furosemide, and chasing a surgical cause for constipation. Supported by eTG Endocrinology and Palliative Care."
+ },
+ {
+  "work_order_id": "r1-081",
+  "item_id": "77d3731c-6d6a-8c99-b4e3-93008dec47f0",
+  "version": 1,
+  "stem": "You are the intern at a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 38-year-old woman with type 1 diabetes and diabetic nephropathy (baseline eGFR 28 mL/min/1.73 m2) on perindopril and spironolactone presents with 3 days of vomiting. Potassium on the blood gas is 7.2 mmol/L, glucose 9 mmol/L, bicarbonate 17 mmol/L. The ECG shows peaked T waves and a PR interval of 240 ms. She is on a cardiac monitor with the nurse at the bedside. You have given calcium gluconate 10% 10 mL intravenously over 5 minutes. The physician, reached by phone, agrees with your plan, asks you to prescribe insulin with glucose to shift potassium into cells while retrieval is organised, and says she will call back in 15 minutes.",
+  "lead_in": "Which prescription is correct for this purpose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Neutral (short-acting) insulin 10 units subcutaneously with glucose 10% 500 mL intravenously over 4 hours"
+   },
+   {
+    "id": "B",
+    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 5% 100 mL intravenously over 5 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Neutral (short-acting) insulin 10 units intravenously with glucose 50% 50 mL intravenously over 15 to 30 minutes, then blood glucose hourly"
+   },
+   {
+    "id": "D",
+    "text": "Neutral (short-acting) insulin infusion 50 units in 50 mL at 10 units/hour with glucose 10% 1 L over 8 hours"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Subcutaneous insulin has slow, unpredictable absorption in a vomiting, possibly dehydrated patient and will not shift potassium within the 15 to 30 minutes needed in a life-threatening hyperkalaemia; the intravenous route is required.",
+   "B": "The insulin dose and route are right, but 100 mL of glucose 5% contains only 5 g of glucose, far too little to cover 10 units of intravenous insulin, and would leave her at high risk of hypoglycaemia.",
+   "C": "Australian guidance for emergency hyperkalaemia is 10 units of short-acting insulin intravenously with 25 g of glucose (50 mL of glucose 50%, or an equivalent volume of a lower concentration) given over 15 to 30 minutes, with blood glucose checked at least hourly for several hours because delayed hypoglycaemia is common. It lowers potassium by about 0.5 to 1 mmol/L within 15 to 30 minutes and buys time for retrieval and definitive treatment of the cause.",
+   "D": "A continuous insulin infusion at 10 units/hour is a diabetic ketoacidosis regimen, not a potassium-shifting bolus; it would deliver far more insulin than needed with a high risk of hypoglycaemia, and the glucose given over 8 hours would not match it."
+  },
+  "learning_point": "For emergency hyperkalaemia the shifting dose is 10 units of short-acting insulin intravenously with 25 g of glucose over 15 to 30 minutes, always followed by hourly blood glucose monitoring.",
+  "setting_note": "In a regional hospital without dialysis, calcium, insulin with glucose and nebulised salbutamol are temporising measures while the intern phones the physician and the retrieval service; the medications that caused the problem (ACE inhibitor, spironolactone) should be withheld and the prescriptions and times documented for the retrieval team.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "hyperkalaemia",
+  "context": "rural",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hyperkalaemia",
+    "locator": "Emergency management of severe hyperkalaemia: insulin and glucose",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Insulin: use in hyperkalaemia; Potassium-lowering treatment",
+    "supports": "key"
+   },
+   {
+    "source": "carpa",
+    "title": "CARPA Standard Treatment Manual",
+    "locator": "Hyperkalaemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: sequence for severe hyperkalaemia with ECG changes is calcium gluconate 10% 10 mL IV (repeat if ECG unchanged), then insulin 10 units IV with 25 g glucose, nebulised salbutamol 10 to 20 mg as an adjunct, removal of potassium (stop culprit drugs, consider dialysis), and treatment of the cause; monitor glucose hourly for at least 4 to 6 hours. Misconceptions: that calcium lowers potassium (it only stabilises the myocardium); that subcutaneous insulin is adequate; that bicarbonate is routinely useful. Out of scope: dialysis prescription and choice of potassium binder.",
+  "plan": "Tests recall of the exact insulin-glucose prescription for emergency hyperkalaemia, a fact an intern must write correctly on a chart, evidencing 1.8 and 1.9. The rural scene places the intern as the prescriber under phone supervision while retrieval is arranged. Distractors are the wrong route, insufficient glucose and a DKA infusion regimen. Supported by eTG hyperkalaemia, AMH and CARPA."
+ },
+ {
+  "work_order_id": "r1-082",
+  "item_id": "4f0ecad4-f485-f033-81dd-51f79d9830d7",
+  "version": 1,
+  "stem": "You are the intern covering the general ward of a tertiary hospital in Adelaide on a weekday evening. A 62-year-old man was transferred from the neurosurgical high-dependency unit this morning, day 2 after transsphenoidal resection of a pituitary macroadenoma. At 20:30 the nurse calls: he is intensely thirsty, has passed 400 to 450 mL of pale urine every hour for the past 4 hours, and is becoming drowsy. His sodium this morning was 141 mmol/L; a sample sent an hour ago is 158 mmol/L. He is drinking water from a jug beside the bed. Heart rate 96/min, blood pressure 118/72 mmHg. You still have a warfarin chart to complete, a cannula to resite and two discharge summaries outstanding. The neurosurgical registrar is in theatre but contactable by phone, and the medical registrar is on site.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe glucose 5% 1 L over 8 hours to lower the sodium gradually and review him on the morning round"
+   },
+   {
+    "id": "B",
+    "text": "Order paired serum and urine osmolality and a repeat sodium, and escalate once those results are available"
+   },
+   {
+    "id": "C",
+    "text": "Give desmopressin 1 microgram subcutaneously from the ward imprest to stop the polyuria"
+   },
+   {
+    "id": "D",
+    "text": "Phone the neurosurgical registrar now with an ISBAR handover, and in the meantime ensure free access to oral water, strict fluid balance and a repeat sodium within 2 hours"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A single litre of glucose 5% over 8 hours neither matches losses of over 400 mL/hour nor addresses the cause; a sodium that has risen 17 mmol/L in 12 hours with drowsiness cannot wait for the morning round.",
+   "B": "Paired osmolalities are the right investigations, but waiting for results before escalating leaves a rapidly deteriorating patient unmanaged for an hour or more; the clinical picture after pituitary surgery is already diagnostic enough to act on.",
+   "C": "Desmopressin is the specific treatment for central diabetes insipidus, but deciding to give it, and the dose and route, is a senior decision after pituitary surgery because the diabetes insipidus is often transient or triphasic and desmopressin given to a patient who then becomes anti-diuretic causes dangerous hyponatraemia. An intern should not start it without discussing with the treating team.",
+   "D": "Polyuria of over 300 mL/hour with rapidly rising sodium and drowsiness after pituitary surgery is post-operative central diabetes insipidus, an urgent complication. The rapid rise in sodium and change in conscious state meet escalation criteria. The intern's role is to escalate immediately to the responsible registrar with ISBAR, keep oral water available (thirst is the main defence while it is intact), chart strict fluid balance, send paired osmolalities and repeat the sodium, and defer the other tasks. The registrar will direct desmopressin and fluid replacement."
+  },
+  "learning_point": "Polyuria with rapidly rising sodium after pituitary surgery is diabetes insipidus and needs immediate escalation to the treating team; the intern keeps water available and measures, and does not start desmopressin alone.",
+  "setting_note": "In a regional hospital without neurosurgery this presentation would not occur post-operatively, but the same principle applies to any rapidly rising sodium: escalate by phone to the physician early rather than attempting to correct it alone.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Communication, handover and consent",
+   "Neurology"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "hypernatraemia",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Diabetes insipidus: postoperative central diabetes insipidus and management of hypernatraemia",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration (Rapid Detection and Response) policy",
+    "locator": "Escalation for altered conscious state and clinical concern",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Desmopressin: precautions, hyponatraemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: central diabetes insipidus after pituitary surgery is common, often transient, and may follow a triphasic course (polyuria, then antidiuresis with hyponatraemia, then permanent DI); diagnosis is polyuria above about 250 to 300 mL/hour for 2 or more hours with rising sodium and dilute urine; treatment is replacing water losses and senior-directed desmopressin. Misconceptions: that the intern should correct the sodium quietly with glucose 5% overnight; that desmopressin is harmless. Out of scope: desmopressin dosing regimens and management of the antidiuretic phase.",
+  "plan": "Tests whether an intern recognises that rising sodium with polyuria after pituitary surgery is a deteriorating-patient emergency to escalate now, over competing ward tasks and over tempting self-directed treatments, evidencing 1.9, 1.8 and 2.8. The tertiary setting provides a neurosurgical registrar to phone. Distractors are an inadequate fluid order, investigation before escalation, and starting desmopressin alone. Supported by eTG Endocrinology, the SA Health RDR policy and AMH."
+ },
+ {
+  "work_order_id": "r1-083",
+  "item_id": "fb37b6ce-d03c-e695-01a5-f41eaea6035c",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 52-year-old woman presents after 4 days of vomiting from viral gastroenteritis. She is alert, heart rate 92/min, blood pressure 112/70 mmHg. Potassium is 2.6 mmol/L, magnesium 0.78 mmol/L, creatinine 88 micromol/L, and the ECG shows sinus rhythm with no U waves or ST change. She cannot tolerate oral potassium because of ongoing nausea. The physician by phone agrees she should be admitted to the general ward, which has no cardiac monitoring, for intravenous potassium replacement through a peripheral cannula using premixed bags from the ward imprest, and asks you to write up the fluids.",
+  "lead_in": "What is the maximum rate of intravenous potassium replacement appropriate for her on this ward?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mmol per hour"
+   },
+   {
+    "id": "B",
+    "text": "20 mmol per hour"
+   },
+   {
+    "id": "C",
+    "text": "30 mmol per hour"
+   },
+   {
+    "id": "D",
+    "text": "40 mmol per hour"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Australian prescribing guidance limits peripheral intravenous potassium to 10 mmol per hour in a patient who is not on continuous cardiac monitoring; a premixed bag of 1 L containing 30 mmol over 3 hours, or 40 mmol over 4 hours, meets this. Serum potassium is rechecked after each 40 to 60 mmol and the infusion is run through a pump.",
+   "B": "Twenty mmol per hour is the usual ceiling only with continuous ECG monitoring, typically in an emergency department resuscitation bay, high-dependency or critical care area; it is not appropriate for an unmonitored general ward bed.",
+   "C": "Thirty mmol per hour exceeds the monitored limit and is not used outside critical care under specialist direction; it also exceeds the concentration safely tolerated by a peripheral vein.",
+   "D": "Forty mmol per hour would deliver a whole premixed bag in an hour; this is the kind of error the national potassium safety alerts were written to prevent and risks fatal arrhythmia."
+  },
+  "learning_point": "Intravenous potassium via a peripheral line on an unmonitored ward should not exceed 10 mmol per hour (and 20 mmol per hour only with continuous ECG monitoring), using premixed bags through an infusion pump.",
+  "setting_note": "A regional ward without cardiac monitoring is limited to the 10 mmol per hour rate; a patient with severe hypokalaemia, ECG changes or ongoing large losses who needs faster replacement needs a monitored bed, which may mean the emergency department overnight or discussion about transfer.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Patient safety, quality and systems",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "hypokalaemia",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "minor",
+   "uncertainty_note": "Individual local health network potassium policies set the exact unmonitored ceiling and bag concentrations; 10 mmol/hour unmonitored and 20 mmol/hour monitored is the widely used Australian standard reflected in AMH and eTG."
+  },
+  "references": [
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Potassium chloride: intravenous administration, maximum rate without and with ECG monitoring",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hypokalaemia",
+    "locator": "Intravenous potassium replacement",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC National Standard for User-applied Labelling and high-risk medicines guidance (potassium)",
+    "locator": "Potassium chloride: use of premixed solutions",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oral replacement is preferred when tolerated; intravenous potassium uses premixed bags (no ward-added concentrate), an infusion pump, maximum 10 mmol/hour unmonitored and 20 mmol/hour monitored, maximum peripheral concentration about 40 mmol/L; check magnesium and replace it if low; recheck potassium after each 40 to 60 mmol. Misconceptions: that a faster rate is fine if the bag is premixed; that a normal ECG means hypokalaemia is not dangerous. Out of scope: central line high-concentration infusions in ICU.",
+  "plan": "Tests recall of the unmonitored intravenous potassium rate limit, evidencing 1.8 and 1.1. The regional ward without monitoring makes the limit practically important. Distractors are the monitored ceiling and faster rates that reflect known error patterns. Supported by AMH, eTG hypokalaemia and ACSQHC high-risk medicine guidance."
+ },
+ {
+  "work_order_id": "r1-084",
+  "item_id": "bc0eb77f-8346-d982-a79b-f151b695458a",
+  "version": 1,
+  "stem": "You are the PGY2 on the surgical ward of a large metropolitan teaching hospital. A 36-year-old woman is day 4 after a laparoscopic cholecystectomy complicated by a bile leak, now managed with a drain. She has had persistent vomiting for 3 days despite ondansetron, is nil by mouth on maintenance fluids with potassium chloride 20 mmol per litre, and has received an additional 80 mmol of intravenous potassium over the last 48 hours. Her potassium has moved only from 2.8 to 2.9 mmol/L. This morning's results: sodium 137 mmol/L, bicarbonate 33 mmol/L, magnesium 0.46 mmol/L (reference 0.70 to 1.10), creatinine 72 micromol/L, corrected calcium 2.18 mmol/L. The ECG shows flattened T waves. The registrar is in theatre and asks you to work out why the potassium is not correcting.",
+  "lead_in": "Which interpretation best explains her persistent hypokalaemia?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Post-operative ileus is preventing absorption of the potassium given"
+   },
+   {
+    "id": "B",
+    "text": "Hypomagnesaemia is causing ongoing renal potassium wasting, so the potassium will not correct until magnesium is replaced"
+   },
+   {
+    "id": "C",
+    "text": "Vomiting is losing potassium directly in the gastric fluid faster than it can be replaced"
+   },
+   {
+    "id": "D",
+    "text": "The metabolic alkalosis is shifting potassium into cells and will resolve on its own once the vomiting stops"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "All her potassium has been given intravenously, so gut absorption is irrelevant; ileus would not explain failure of intravenous replacement.",
+   "B": "Magnesium is required for the function of the renal tubular channels that retain potassium; with a magnesium of 0.46 mmol/L the kidneys continue to waste potassium however much is infused. Vomiting and nil-by-mouth status are common causes of both deficits. Refractory hypokalaemia with low magnesium is corrected by replacing magnesium (for example magnesium sulfate 10 to 20 mmol intravenously over several hours) alongside potassium, and this is the explanation the registrar needs.",
+   "C": "Gastric fluid contains relatively little potassium (about 10 mmol/L); most of the potassium loss in vomiting is renal, driven by volume depletion, secondary hyperaldosteronism and alkalosis. Direct gastric loss alone does not explain failure of 120 mmol of replacement.",
+   "D": "Alkalosis does shift some potassium into cells, but her bicarbonate is only modestly raised and the shift is small; waiting for it to resolve would leave a patient with ECG changes untreated, and it ignores the clearly abnormal magnesium."
+  },
+  "learning_point": "Hypokalaemia that fails to correct despite adequate replacement is usually due to hypomagnesaemia, which causes renal potassium wasting; check and replace magnesium.",
+  "setting_note": "",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Investigations and interpretation",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "hypokalaemia",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hypokalaemia",
+    "locator": "Causes of hypokalaemia and refractory hypokalaemia with hypomagnesaemia",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hypomagnesaemia",
+    "locator": "Associated hypokalaemia and hypocalcaemia; intravenous magnesium replacement",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: magnesium deficiency causes renal potassium wasting via ROMK channels and also impairs parathyroid hormone release, so hypokalaemia and hypocalcaemia both resist correction until magnesium is replaced; vomiting causes hypokalaemia mainly through renal loss secondary to alkalosis and aldosterone. Misconceptions: that gastric fluid is potassium-rich; that more potassium alone is the answer. Out of scope: rare tubulopathies.",
+  "plan": "Tests interpretation of refractory hypokalaemia in a post-operative vomiting patient, with hypomagnesaemia as the explanation, evidencing 1.5 and 1.8. The metropolitan surgical ward with the registrar in theatre makes the resident the one who must reason it out. Distractors are the absorption misconception, the gastric-loss misconception and an alkalosis shift. Supported by eTG hypokalaemia and hypomagnesaemia topics."
+ },
+ {
+  "work_order_id": "r1-085",
+  "item_id": "34d7f894-d5d6-76d8-5d1f-f705713e7db4",
+  "version": 1,
+  "stem": "You are the PGY2 on the general ward of a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight. A 41-year-old man was admitted this afternoon with alcohol withdrawal after drinking about 15 standard drinks daily for several years; he has had thiamine and two doses of diazepam and is tremulous but settling. His admission bloods have just been phoned through by the laboratory as critical: magnesium 0.42 mmol/L (reference 0.70 to 1.10), potassium 3.0 mmol/L, corrected calcium 1.92 mmol/L (reference 2.10 to 2.60), albumin 34 g/L, phosphate 0.70 mmol/L, lipase normal. His ECG shows sinus rhythm 98/min with a QTc of 512 ms and no other change. He has no history of cardiac disease. The physician is available by phone.",
+  "lead_in": "Which interpretation of these results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The low calcium reflects the low albumin and will not need specific treatment"
+   },
+   {
+    "id": "B",
+    "text": "The prolonged QTc is an adverse effect of diazepam and the electrolytes are incidental"
+   },
+   {
+    "id": "C",
+    "text": "Hypomagnesaemia is the underlying cause of the hypokalaemia, hypocalcaemia and QT prolongation, and magnesium must be replaced for the others to correct"
+   },
+   {
+    "id": "D",
+    "text": "Hypocalcaemia from alcoholic pancreatitis is the primary abnormality driving the ECG change"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "The calcium quoted is already corrected for albumin, and 1.92 mmol/L is genuinely low; in this context it is caused by magnesium deficiency impairing parathyroid hormone secretion and action, and it contributes to the QT prolongation.",
+   "B": "Benzodiazepines do not prolong the QT interval; the combination of low magnesium, low potassium and low calcium is a well-recognised cause of QT prolongation and torsades de pointes, and attributing the ECG to diazepam would leave a dangerous abnormality untreated.",
+   "C": "Chronic heavy alcohol use causes magnesium depletion through poor intake and renal wasting. Hypomagnesaemia produces renal potassium wasting and reduces parathyroid hormone release and responsiveness, so hypokalaemia and hypocalcaemia are secondary and refractory until magnesium is corrected. All three prolong the QT interval. The correct response is intravenous magnesium (for example magnesium sulfate 10 mmol over 1 to 2 hours, repeated as needed under phone advice), potassium replacement, cardiac monitoring and avoidance of QT-prolonging drugs such as ondansetron and haloperidol.",
+   "D": "Pancreatitis can lower calcium, but his lipase is normal and he has no abdominal symptoms; the pattern of three low electrolytes points to magnesium deficiency as the common cause."
+  },
+  "learning_point": "In a patient with alcohol use disorder, low potassium and low calcium together with a prolonged QT usually signal hypomagnesaemia, which must be replaced first because the other electrolytes will not correct without it.",
+  "setting_note": "Overnight in a country hospital the junior doctor should put the patient on the single monitored bed if one exists, start intravenous magnesium and potassium under phone advice from the physician, and avoid QT-prolonging antiemetics and antipsychotics for agitation; if monitoring is not available, retrieval advice should be sought.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Mental health and behavioural emergencies",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.5",
+   "1.8",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "hypomagnesaemia",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hypomagnesaemia",
+    "locator": "Causes (alcohol), associated hypokalaemia and hypocalcaemia, intravenous replacement",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Magnesium sulfate: intravenous use for hypomagnesaemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: alcohol use, diarrhoea, proton pump inhibitors, diuretics and refeeding are common causes of hypomagnesaemia; magnesium below 0.5 mmol/L, or with symptoms or ECG change, warrants intravenous replacement; check phosphate and refeeding risk in the same patient. Misconceptions: that corrected calcium can be ignored; that benzodiazepines prolong the QT. Out of scope: magnesium dosing in renal failure and the management of torsades.",
+  "plan": "Tests interpretation of the triad of low magnesium, potassium and calcium with QT prolongation in alcohol withdrawal, evidencing 1.5, 1.8 and 4.1. The overnight country-hospital setting makes the resident the one reading the critical result and deciding what to start before phoning. Distractors are an albumin misreading, misattribution of the QT to diazepam, and pancreatitis. Supported by eTG hypomagnesaemia and AMH."
+ },
+ {
+  "work_order_id": "r1-086",
+  "item_id": "7181d777-2326-a647-6337-2b5689ca4c79",
+  "version": 1,
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice by phone. A 22-year-old woman was admitted yesterday afternoon with viral gastroenteritis and vomiting. Her admission sodium was 137 mmol/L. Overnight she received 3 L of glucose 5% at 125 mL/hour as written on the fluid chart by the evening doctor, and this morning she is tolerating sips of fluid, has stopped vomiting and has passed urine twice. Her morning sodium is 126 mmol/L, potassium 3.6 mmol/L, glucose 5.2 mmol/L. She is alert, mildly nauseated, with no headache or confusion. Heart rate 78/min, blood pressure 118/74 mmHg, mucous membranes moist, no oedema. The physician visits on Thursdays and is available by phone.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Continue glucose 5% at 125 mL/hour and recheck the sodium tomorrow morning"
+   },
+   {
+    "id": "B",
+    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes"
+   },
+   {
+    "id": "C",
+    "text": "Give furosemide 40 mg intravenously to remove free water"
+   },
+   {
+    "id": "D",
+    "text": "Cease the glucose 5% infusion, send paired serum and urine osmolality and urine sodium, and recheck the serum sodium in 4 to 6 hours"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Glucose 5% is effectively free water once the glucose is metabolised; continuing it at 3 L/day in a euvolaemic patient who is now drinking will drive the sodium lower and risk symptomatic hyponatraemia.",
+   "B": "Hypertonic saline is reserved for severe symptomatic hyponatraemia (seizures, coma, severe confusion) and is given under senior direction; in an alert, euvolaemic patient with mild symptoms it risks over-rapid correction.",
+   "C": "Furosemide causes further sodium and potassium loss and is not a treatment for iatrogenic hyponatraemia; it is used only in hypervolaemic states under specialist guidance.",
+   "D": "This is mild, acute, largely iatrogenic hyponatraemia from hypotonic fluid in a patient who no longer needs intravenous fluid. The first action is to stop the cause. Paired osmolalities and urine sodium are collected before any further treatment so that the cause can be confirmed, and an early repeat sodium confirms that it is rising safely (no more than 8 to 10 mmol/L in 24 hours). Oral intake is allowed, and the case is discussed with the physician by phone if the sodium falls further or symptoms develop."
+  },
+  "learning_point": "Mild euvolaemic hyponatraemia on a ward is most often caused by hypotonic intravenous fluid; stop the fluid, send paired serum and urine tests before treating, and recheck the sodium within hours.",
+  "setting_note": "In a regional hospital the phone physician will want the paired osmolalities and urine sodium, so collecting them before any change in treatment avoids an uninterpretable result; hypertonic saline, if ever needed, should be given only after that phone discussion and with retrieval advice.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "General medicine",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "hyponatraemia",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hyponatraemia",
+    "locator": "Assessment (paired osmolalities, urine sodium) and management of mild to moderate hyponatraemia",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Intravenous fluid therapy in adults",
+    "locator": "Choice of maintenance fluid and risk of hyponatraemia with hypotonic fluids",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: glucose 5% is hypotonic once metabolised; young women are at higher risk of hyponatraemic encephalopathy; paired serum and urine osmolality and urine sodium should be collected before fluids are changed; correction limit is 8 to 10 mmol/L per 24 hours. Misconceptions: that glucose 5% is a safe default maintenance fluid in adults; that hypertonic saline is needed for any sodium under 130. Out of scope: SIADH drug therapy and desmopressin clamp strategies.",
+  "plan": "Tests the basic management of mild iatrogenic hyponatraemia: stop the hypotonic fluid, investigate before treating, recheck early, evidencing 1.8 and 1.5. The Mid North ward with a phone physician makes the resident the decision-maker. Distractors are continuing the cause, over-treatment with hypertonic saline, and a diuretic. Supported by eTG hyponatraemia and IV fluid therapy topics."
+ },
+ {
+  "work_order_id": "r1-087",
+  "item_id": "09520649-97f4-206b-da57-4974859f729b",
+  "version": 1,
+  "stem": "You are the intern covering the surgical ward overnight at a country hospital 90 minutes from the nearest tertiary centre, the only doctor on site. A 55-year-old woman is day 2 after a right hemicolectomy performed by the visiting surgeon. At 02:00 the nurse calls because she has had a generalised tonic-clonic seizure lasting about 3 minutes, which has just stopped after midazolam 5 mg intramuscularly. She is now drowsy, protecting her airway, oxygen saturation 95% on 6 L/min, heart rate 104/min, blood pressure 138/84 mmHg. She has no history of epilepsy. Her venous blood gas shows sodium 116 mmol/L (124 mmol/L yesterday morning), glucose 6.1 mmol/L, potassium 3.9 mmol/L. She has been receiving glucose 4% with sodium chloride 0.18% at 125 mL/hour since surgery. The nurse has already paged the surgeon and the physician, who are both driving in, 20 minutes away. The emergency department stocks sodium chloride 3%.",
+  "lead_in": "What is the most appropriate next step while waiting?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium chloride 3% 150 mL intravenously over 20 minutes and recheck the sodium on a gas afterwards"
+   },
+   {
+    "id": "B",
+    "text": "Stop the intravenous fluid, restrict oral fluid to 1 L per day and recheck the sodium at 06:00"
+   },
+   {
+    "id": "C",
+    "text": "Give sodium chloride 0.9% 1 L intravenously over 1 hour to raise the sodium gradually"
+   },
+   {
+    "id": "D",
+    "text": "Give levetiracetam 1 g intravenously to prevent further seizures and arrange a CT brain when the radiographer arrives"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "A seizure with a sodium of 116 mmol/L is severe symptomatic hyponatraemia with cerebral oedema, a life-threatening emergency. Australian guidance is a bolus of hypertonic sodium chloride 3% (100 to 150 mL over 10 to 20 minutes, repeated up to twice to a rise of about 4 to 6 mmol/L) to reduce cerebral oedema, with the sodium rechecked after each bolus and the total rise kept under 8 to 10 mmol/L in 24 hours. The hypotonic maintenance fluid is stopped at the same time. The intern should give the first bolus as the senior doctors are on their way and the hospital stocks the solution, confirming the plan by phone if there is any doubt.",
+   "B": "Fluid restriction is the treatment for mild, asymptomatic hyponatraemia; after a seizure it is far too slow and leaves her at risk of further seizures, respiratory arrest and brain herniation.",
+   "C": "Isotonic saline raises the sodium only slowly and, if the hyponatraemia is driven by inappropriate antidiuretic hormone (common after surgery and pain), may make it worse; it does not address cerebral oedema rapidly enough.",
+   "D": "The seizure is metabolic; the treatment is to raise the sodium, not to add an anticonvulsant, and there is no radiographer overnight. Imaging is considered later if the sodium correction does not explain the picture."
+  },
+  "learning_point": "A seizure or coma with severe hyponatraemia is treated with a bolus of hypertonic sodium chloride 3% aiming for a rapid 4 to 6 mmol/L rise, with the sodium rechecked after each bolus and total correction limited to 8 to 10 mmol/L in 24 hours.",
+  "setting_note": "In a country hospital the single doctor may have to give the first hypertonic bolus before senior staff arrive; knowing where the sodium chloride 3% is kept, giving it through a pump with frequent gas sodium checks, and arranging retrieval to a monitored bed are the key rural steps.",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.8",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "hyponatraemia",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "minor",
+   "uncertainty_note": "Bolus volumes for hypertonic saline vary between 100 mL and 150 mL across Australian protocols; the principle of a rapid small rise in sodium followed by strict limits is consistent."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hyponatraemia",
+    "locator": "Severe symptomatic hyponatraemia: hypertonic sodium chloride bolus and correction limits",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Australasian College of Physicians, EVOLVE and Australian and New Zealand Society of Nephrology guidance on hyponatraemia",
+    "locator": "Emergency treatment of symptomatic hyponatraemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: severe symptoms (seizure, reduced consciousness, vomiting) with sodium under about 120 mmol/L need hypertonic saline regardless of cause; the target is a 4 to 6 mmol/L rise in the first hours, then no more than 8 to 10 mmol/L in 24 hours to avoid osmotic demyelination; stop hypotonic fluids; post-operative pain, nausea and hypotonic fluid are classic causes. Misconceptions: that hypertonic saline is only for ICU; that isotonic saline is a safe substitute. Out of scope: desmopressin rescue for overcorrection.",
+  "plan": "Tests emergency management of seizure from severe iatrogenic hyponatraemia at intern level, evidencing 1.8 and 1.9. The country-hospital night makes the intern the only doctor present. Distractors are fluid restriction, isotonic saline and an anticonvulsant. Supported by eTG hyponatraemia and ANZSN guidance."
+ },
+ {
+  "work_order_id": "r1-088",
+  "item_id": "e9a33aee-4a6d-4bfd-63c5-b89c7d008309",
+  "version": 1,
+  "stem": "You are a junior doctor on a general practice term in a practice linked to a metropolitan general hospital. A 58-year-old woman attends for review 3 days after discharge from the hospital's medical ward, where she was treated for community-acquired pneumonia. She feels well, is eating and drinking normally and has no headache, nausea or confusion. Her discharge summary notes: admission sodium 138 mmol/L; day 3 sodium 129 mmol/L after 3 days of glucose 4% with sodium chloride 0.18% at 125 mL/hour while she was eating poorly; fluids ceased on day 3; discharge sodium (day 5) 133 mmol/L. No urine tests were sent. She takes no regular medications, has no history of cardiac, renal or liver disease and her chest X-ray was reported as clear of any mass. Blood taken yesterday by the practice nurse shows sodium 136 mmol/L, potassium 4.0 mmol/L, creatinine 68 micromol/L.",
+  "lead_in": "Which interpretation of this sodium trend is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Syndrome of inappropriate antidiuresis from the pneumonia, requiring fluid restriction and referral back to the hospital"
+   },
+   {
+    "id": "B",
+    "text": "Dilutional hyponatraemia caused by hypotonic maintenance fluid in hospital, now resolved, needing only a repeat sodium in a week or two"
+   },
+   {
+    "id": "C",
+    "text": "Possible adrenal insufficiency unmasked by illness, requiring a morning cortisol and short synacthen test"
+   },
+   {
+    "id": "D",
+    "text": "Pseudohyponatraemia from lipaemia during the acute illness, requiring no further action"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Pneumonia can cause inappropriate antidiuresis, and without urine osmolality it cannot be formally excluded, but the sodium fell while she was on 3 L/day of hypotonic fluid and recovered promptly once the fluid stopped without any restriction, which is the pattern of fluid-induced dilution rather than persistent antidiuresis; fluid restriction and re-referral are not needed for a sodium that has normalised.",
+   "B": "Glucose 4% with sodium chloride 0.18% is markedly hypotonic, and 3 L/day given to an unwell adult, often with stress-related antidiuretic hormone release, commonly produces hospital-acquired hyponatraemia. The time course (normal on admission, lowest during fluids, recovering after cessation, normal three days later) fits this. The appropriate follow-up is a repeat sodium to confirm it stays normal, and feedback to the hospital team about fluid choice if the practice has that channel.",
+   "C": "Adrenal insufficiency causes hyponatraemia that does not resolve spontaneously and is usually accompanied by hyperkalaemia, hypotension, fatigue or hypoglycaemia; a sodium that has normalised without steroids makes this unlikely and the test is not indicated.",
+   "D": "Pseudohyponatraemia is a laboratory artefact of severe hyperlipidaemia or paraproteinaemia; nothing in her history suggests it, and modern direct ion-selective electrode analysers (as used on blood gases) are not affected."
+  },
+  "learning_point": "Hypotonic maintenance fluids such as glucose 4% with sodium chloride 0.18% commonly cause hospital-acquired hyponatraemia in adults; a sodium that falls on these fluids and recovers once they stop needs a confirmatory repeat, not a work-up for SIADH or adrenal disease.",
+  "setting_note": "",
+  "learning_area": "Fluids, electrolytes and renal",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Discharge planning",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.5",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "maintenance intravenous fluids",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Intravenous fluid therapy in adults",
+    "locator": "Maintenance fluids: avoiding hypotonic solutions and risk of hyponatraemia",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Hyponatraemia",
+    "locator": "Causes of hyponatraemia including iatrogenic hypotonic fluids",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: adult maintenance requirement is about 25 to 30 mL/kg/day of water with 1 mmol/kg/day sodium and potassium; isotonic or near-isotonic solutions are preferred for maintenance; hypotonic fluids plus stress-related antidiuretic hormone are the commonest cause of hospital-acquired hyponatraemia. Misconceptions: that every hyponatraemia with pneumonia is SIADH; that a normalised sodium still needs a full endocrine work-up. Out of scope: management of persistent SIADH.",
+  "plan": "Tests interpretation of a sodium trend caused by hypotonic maintenance fluid, seen from the community after discharge, evidencing 1.5 and 1.8. The general practice linked to the hospital provides the follow-up vantage point. Distractors are the plausible but unsupported SIADH, adrenal insufficiency, and pseudohyponatraemia. Supported by eTG IV fluid therapy and hyponatraemia topics."
+ },
+ {
+  "work_order_id": "r1-089",
+  "item_id": "070e4f04-c695-9f0c-e0a1-ce572e2f02f1",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A 44-year-old woman with COPD (30 pack-year smoking history, FEV1 48% predicted on spirometry last year, two previous admissions) presents with 3 days of increasing breathlessness, wheeze and green sputum. She is speaking in short sentences, respiratory rate 28/min, heart rate 108/min, oxygen saturation 86% on room air, temperature 37.8 C, blood pressure 134/82 mmHg, alert and orientated. The nurse has placed her on a monitor, inserted a cannula and asks you what oxygen to prescribe while you organise bronchodilators, prednisolone and a venous blood gas.",
+  "lead_in": "What is the most appropriate oxygen prescription?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Oxygen 15 L/min via non-rebreather mask targeting saturation of 94% or above"
+   },
+   {
+    "id": "B",
+    "text": "Withhold oxygen until the blood gas result is available because of the risk of carbon dioxide retention"
+   },
+   {
+    "id": "C",
+    "text": "Titrated oxygen via nasal prongs or Venturi mask to a target saturation of 88 to 92%"
+   },
+   {
+    "id": "D",
+    "text": "Titrated oxygen via nasal prongs to a target saturation of 92 to 96%"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "High-flow oxygen without a target in a patient with moderate to severe COPD risks hypercapnia, acidosis and reduced conscious state by suppressing hypoxic drive and worsening ventilation-perfusion matching; uncontrolled oxygen in COPD exacerbations is associated with higher mortality.",
+   "B": "A saturation of 86% is hypoxaemia that needs treatment now; withholding oxygen to await a gas is dangerous. The concern about carbon dioxide retention is addressed by titrating to a conservative target, not by withholding oxygen.",
+   "C": "Australian COPD-X and Thoracic Society guidance recommends controlled oxygen in acute exacerbations of COPD, titrated to a saturation of 88 to 92% using nasal prongs at low flow or a Venturi mask, with a blood gas to check for hypercapnia and acidosis. This treats hypoxaemia while minimising the risk of oxygen-induced hypercapnia.",
+   "D": "A target of 92 to 96% is the standard for acutely ill adults without risk of hypercapnic respiratory failure; in a patient with known moderate to severe COPD the lower target applies."
+  },
+  "learning_point": "In an acute exacerbation of COPD, prescribe oxygen titrated to a saturation target of 88 to 92% and check a blood gas for hypercapnia; neither withhold oxygen nor give it uncontrolled.",
+  "setting_note": "",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "COPD exacerbation",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Respiratory",
+    "locator": "Acute exacerbation of COPD: oxygen therapy and target saturation",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Lung Foundation Australia, COPD-X Plan",
+    "locator": "Management of exacerbations: controlled oxygen therapy (target 88 to 92%)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Thoracic Society of Australia and New Zealand, Oxygen guidelines for acute oxygen use in adults",
+    "locator": "Target saturation in patients at risk of hypercapnia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: oxygen is a drug and needs a prescribed target; 88 to 92% for patients at risk of hypercapnia (COPD, obesity hypoventilation, neuromuscular disease); 92 to 96% for other acutely unwell adults; obtain a blood gas within 30 to 60 minutes; non-invasive ventilation is indicated for pH under 7.35 with raised PaCO2 despite optimal therapy. Misconceptions: that oxygen should be withheld in COPD; that saturation above 94% is always the goal. Out of scope: NIV settings.",
+  "plan": "Tests the basic oxygen target in a COPD exacerbation, evidencing 4.1, 1.7 and 1.8. The metropolitan emergency department is a generic setting. Distractors are uncontrolled high-flow oxygen, withholding oxygen, and the general adult target. Supported by eTG Respiratory, COPD-X and the TSANZ oxygen guideline."
+ },
+ {
+  "work_order_id": "r1-090",
+  "item_id": "51aa0055-d98b-45cb-7216-b6d93ad4e5cb",
+  "version": 1,
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting physician and specialist advice by phone. A 52-year-old Aboriginal woman with type 2 diabetes, hypertension and stage 3b chronic kidney disease (baseline creatinine 118 micromol/L) was admitted 2 days ago with cellulitis of the leg and started on intravenous flucloxacillin. Her regular medications, continued on admission, are metformin, perindopril, empagliflozin and ibuprofen, which she has been taking for leg pain. This morning's bloods: creatinine 236 micromol/L, potassium 5.4 mmol/L, bicarbonate 19 mmol/L. She has passed about 600 mL of urine in the last 24 hours, feels nauseated, heart rate 92/min, blood pressure 124/78 mmHg. The ECG is normal. The Aboriginal Liaison Officer has helped arrange for her daughter to be present for discussions, as she has asked. The physician's next visit is in 2 days.",
+  "lead_in": "Which action should take priority this morning?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a renal tract ultrasound at the regional imaging service for later this week"
+   },
+   {
+    "id": "B",
+    "text": "Phone the Adelaide renal unit to arrange transfer for possible dialysis"
+   },
+   {
+    "id": "C",
+    "text": "Give a 1 L bolus of sodium chloride 0.9% and repeat the bloods this afternoon"
+   },
+   {
+    "id": "D",
+    "text": "Withhold metformin, perindopril, empagliflozin and ibuprofen, check volume status and fluid balance, and phone the physician today with an ISBAR summary"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Ultrasound to exclude obstruction is part of the work-up of acute kidney injury, but a routine outpatient slot later in the week is neither urgent enough nor the most important step; medication review comes first and the physician may want the scan sooner.",
+   "B": "Her potassium, acidosis and urine output do not yet meet indications for dialysis; calling for transfer before stopping the drugs that are causing the injury and before discussing with the treating physician skips the steps that are within the resident's scope and likely to reverse the problem.",
+   "C": "She is not clinically hypovolaemic, and empiric fluid boluses in a patient with chronic kidney disease and reduced urine output risk overload; fluid is given only if assessment shows volume depletion.",
+   "D": "This is stage 2 acute kidney injury (creatinine doubled) on chronic kidney disease, most likely from the combination of sepsis, an NSAID, an ACE inhibitor and an SGLT2 inhibitor; metformin must also stop because of the accumulation and lactic acidosis risk. Withholding the nephrotoxic and renally cleared drugs, assessing volume status with a strict fluid balance chart, checking for obstruction with a bladder scan, and escalating to the physician today rather than waiting for the visit are the priority actions, all within a PGY2's scope. Including her daughter in the discussion, as she has requested and the Aboriginal Liaison Officer has arranged, is part of safe care."
+  },
+  "learning_point": "In acute kidney injury the first priority is to stop the drugs that cause or are made dangerous by it (NSAIDs, ACE inhibitors or ARBs, SGLT2 inhibitors, metformin, diuretics), assess volume status, and escalate to the treating physician the same day.",
+  "setting_note": "With the physician visiting only twice a week, the resident must phone rather than wait for the round; transfer to Adelaide is discussed if potassium rises, acidosis worsens, urine output falls or the creatinine keeps climbing despite these measures. Aboriginal Liaison Officer and family involvement help ensure the patient understands any transfer decision.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Prescribing and medication safety",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "acute kidney injury",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Kidney Health Australia, Acute Kidney Injury clinical guidance for health professionals",
+    "locator": "Initial management: medication review, volume assessment, escalation",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Metformin, empagliflozin, perindopril and ibuprofen: use in renal impairment and acute illness (sick day guidance)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society, Sick day management guidance for people with diabetes (SADMANS medicines)",
+    "locator": "Medicines to withhold during acute illness",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: SADMANS medicines (sulfonylureas, ACE inhibitors, diuretics, metformin, ARBs, NSAIDs, SGLT2 inhibitors) are withheld during acute illness and acute kidney injury; stage 2 AKI is a 2 to 2.9-fold creatinine rise; flucloxacillin can cause interstitial nephritis but the combination of nephrotoxins is more likely here; dialysis indications are refractory hyperkalaemia, acidosis, overload or uraemic complications. Misconceptions: that fluids are always first; that transfer is the first call. Out of scope: renal biopsy and dialysis decisions.",
+  "plan": "Tests prioritising medication review and same-day escalation over imaging, fluids or transfer in AKI on CKD, evidencing 4.1, 1.7 and 1.3. The Mid North ward with a twice-weekly physician makes the phone call matter. Aboriginal identity is included with culturally safe practice (Aboriginal Liaison Officer, family involvement) rather than as a risk label. Distractors are a non-urgent scan, premature transfer and empiric fluid. Supported by KHA AKI guidance, AMH and ADS sick-day guidance."
+ },
+ {
+  "work_order_id": "r1-091",
+  "item_id": "77e1bdc7-bf46-1af0-0dc5-64df636958ae",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital with a registrar on site. A 60-year-old man presents with 3 days of vomiting and watery diarrhoea after a family barbecue. He has hypertension treated with ramipril 10 mg daily and takes no other medications. He has not passed urine since early this morning. Observations: heart rate 112/min, blood pressure 96/58 mmHg (usual 135/85), temperature 37.6 C, dry mucous membranes, capillary refill 3 seconds, chest clear, no oedema. Bloods: creatinine 196 micromol/L (84 micromol/L at his GP two months ago), urea 19 mmol/L, potassium 4.8 mmol/L, bicarbonate 18 mmol/L, glucose 6 mmol/L. Bladder scan shows 30 mL. The registrar is with another patient and asks you to start management and chart his medications.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give sodium chloride 0.9% 1 L intravenously over 30 minutes, withhold ramipril and reassess"
+   },
+   {
+    "id": "B",
+    "text": "Give furosemide 40 mg intravenously to re-establish urine output"
+   },
+   {
+    "id": "C",
+    "text": "Request an urgent renal tract ultrasound before giving any intravenous fluid"
+   },
+   {
+    "id": "D",
+    "text": "Insert an indwelling urinary catheter and observe hourly urine output for 4 hours before deciding on fluid"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "He has acute kidney injury with clear clinical hypovolaemia (tachycardia, hypotension, dry mucosa, slow capillary refill) from gastrointestinal losses, compounded by an ACE inhibitor that blunts the kidney's response to low perfusion. The treatment is prompt intravenous crystalloid resuscitation with reassessment after each bolus, withholding the ACE inhibitor and other nephrotoxins, and monitoring urine output and potassium. This is within intern scope and should not wait.",
+   "B": "A loop diuretic in a hypovolaemic patient worsens the volume depletion and the kidney injury; it does not treat the cause of oliguria and has no role in converting oliguric to non-oliguric renal failure.",
+   "C": "Imaging to exclude obstruction is appropriate when the cause is unclear or no improvement occurs, but a bladder scan has already excluded retention and the history and examination point to a prerenal cause; delaying fluid for an ultrasound prolongs renal hypoperfusion.",
+   "D": "Measuring urine output is useful, but observation for 4 hours without resuscitation in a hypotensive patient is unsafe; fluid should be given now and output measured in parallel."
+  },
+  "learning_point": "Acute kidney injury with clinical hypovolaemia is treated immediately with intravenous crystalloid boluses and reassessment, while ACE inhibitors, ARBs, NSAIDs and other nephrotoxins are withheld.",
+  "setting_note": "",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Emergency presentations",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "acute kidney injury",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Kidney Health Australia, Acute Kidney Injury clinical guidance for health professionals",
+    "locator": "Management of prerenal AKI: fluid resuscitation and medication review",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Intravenous fluid therapy in adults",
+    "locator": "Fluid resuscitation: crystalloid boluses with reassessment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: prerenal AKI is the commonest type; assess volume status clinically; give 250 to 500 mL boluses (larger in clear hypovolaemia) and reassess; withhold SADMANS medicines; check potassium and ECG; catheterise if retention or close output monitoring is needed, not instead of fluid. Misconceptions: that diuretics help oliguria; that imaging must precede treatment. Out of scope: vasopressors and renal replacement therapy.",
+  "plan": "Tests the first step in hypovolaemic prerenal AKI, fluid resuscitation with nephrotoxin withdrawal, evidencing 4.1, 1.7 and 1.8. The metropolitan emergency department with a busy registrar makes the intern act first. Distractors are furosemide, imaging before fluid, and observation without treatment. Supported by KHA AKI guidance and eTG fluid therapy."
+ },
+ {
+  "work_order_id": "r1-092",
+  "item_id": "66b87a8c-2a08-7c63-1895-5b0b81e9acce",
+  "version": 1,
+  "stem": "You are the intern covering the surgical ward and recovery area overnight at a country hospital 90 minutes from the nearest tertiary centre. A 35-year-old man had an uncomplicated laparoscopic appendicectomy this evening under the visiting surgeon, who has returned to Adelaide and plans discharge tomorrow. In recovery you review his pre-operative bloods: haemoglobin 96 g/L, MCV 68 fL, platelets 410 x 10^9/L, white cell count 13.2 x 10^9/L, creatinine normal. He is comfortable, heart rate 78/min, blood pressure 126/80 mmHg, and reports feeling tired for months but no overt bleeding; he has never had a blood test before. There is no record that anyone has discussed the anaemia with him. Estimated operative blood loss was 20 mL. The night nurse asks whether anything needs to happen about the low haemoglobin before he goes home.",
+  "lead_in": "Which action is the most important to prioritise before his discharge?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Transfuse one unit of packed red cells overnight to bring the haemoglobin above 100 g/L"
+   },
+   {
+    "id": "B",
+    "text": "Send iron studies now, tell the patient about the finding, and record the anaemia with a clear plan for GP follow-up of iron deficiency in the discharge summary"
+   },
+   {
+    "id": "C",
+    "text": "Arrange a CT of the abdomen before discharge to look for a gastrointestinal source"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe oral ferrous sulfate on the discharge script with a repeat blood count in 3 months"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "He is haemodynamically stable and asymptomatic with chronic anaemia and minimal operative blood loss; transfusion is not indicated for a haemoglobin above 70 g/L in a stable patient and would expose him to risk without benefit.",
+   "B": "Microcytic anaemia with thrombocytosis in a young man is iron deficiency until proven otherwise, and iron deficiency in a man always needs a cause found, most often gastrointestinal blood loss or coeliac disease. The most important thing an intern can do is make sure the finding is not lost: send iron studies (before any iron is given), tell the patient, and document the result and a specific follow-up plan in the discharge summary so the GP arranges investigation. Incidental findings dropped at discharge are a well-recognised patient safety failure.",
+   "C": "Investigation of iron deficiency usually involves endoscopy and coeliac serology rather than CT, and is arranged after confirming the diagnosis; it is not an overnight task in a country hospital with no CT after hours.",
+   "D": "Starting iron without confirming iron deficiency, without looking for the cause and without timely follow-up may mask a bleeding lesion; iron replacement is reasonable once iron studies confirm deficiency, but the investigation plan is the priority."
+  },
+  "learning_point": "An incidental microcytic anaemia must not be lost at discharge: confirm iron status, inform the patient and hand over a clear investigation plan to the GP, because iron deficiency in a man needs its cause found.",
+  "setting_note": "In a country hospital the GP is often the one who will arrange endoscopy, possibly in Adelaide; a documented plan in the discharge summary and a phone or electronic handover to the practice are the realistic safeguards.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Discharge planning",
+   "Documentation",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "anaemia work-up",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Gastroenterological Society of Australia, Clinical Update: Iron deficiency",
+    "locator": "Investigation of iron deficiency in adult men and post-menopausal women",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Blood Authority, Patient Blood Management Guidelines Module 2: Perioperative",
+    "locator": "Transfusion thresholds and preoperative anaemia management",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC National Safety and Quality Health Service Standards, Communicating for Safety Standard",
+    "locator": "Communication at transitions of care: discharge summaries",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: microcytic anaemia differential is iron deficiency, thalassaemia trait and anaemia of chronic disease; ferritin under 30 micrograms/L confirms iron deficiency; in men and post-menopausal women gastrointestinal evaluation is recommended; stable patients are not transfused above 70 g/L. Misconceptions: that oral iron alone closes the problem; that transfusion fixes chronic anaemia. Out of scope: the choice between oral and intravenous iron.",
+  "plan": "Tests prioritising safe handover of an incidental finding over transfusion, imaging or unexamined iron supplementation, evidencing 4.1, 1.7 and 1.10. The overnight country hospital with the surgeon gone makes the intern the one who notices. Distractors are over-treatment, inappropriate imaging and premature empiric iron. Supported by GESA iron deficiency guidance, NBA PBM Module 2 and the Communicating for Safety Standard."
+ },
+ {
+  "work_order_id": "r1-093",
+  "item_id": "f8a3ba1d-5996-4812-255d-4c4a51cb299e",
+  "version": 1,
+  "stem": "You are the intern covering the wards overnight at a country hospital 90 minutes from the nearest tertiary centre, the only doctor on site, with the physician on call by phone. At 01:30 the nurse calls about a 58-year-old man admitted 2 days ago with community-acquired pneumonia, now on day 2 of intravenous antibiotics. His monitor shows an irregular tachycardia at 138/min. He feels palpitations but no chest pain or breathlessness. Blood pressure 118/76 mmHg, oxygen saturation 93% on 2 L/min nasal prongs, temperature 38.2 C, alert. A 12-lead ECG confirms atrial fibrillation with a rate of 135/min and no ischaemic change. He has no history of atrial fibrillation or heart disease. Today's bloods: potassium 3.3 mmol/L, magnesium 0.62 mmol/L, haemoglobin 134 g/L. He has had 1 L of fluid in the last 24 hours and his mucous membranes are dry.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give amiodarone 300 mg intravenously over 1 hour to restore sinus rhythm"
+   },
+   {
+    "id": "B",
+    "text": "Give metoprolol 5 mg intravenously now, repeated every 5 minutes until the rate is below 100/min"
+   },
+   {
+    "id": "C",
+    "text": "Correct the potassium and magnesium, give fluid and paracetamol, review the oxygen, and phone the physician to agree a rate-control plan"
+   },
+   {
+    "id": "D",
+    "text": "Arrange synchronised DC cardioversion under sedation in the emergency department"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Amiodarone is a rhythm-control drug that carries a risk of converting a patient with atrial fibrillation of unknown or more than 48 hours' duration without anticoagulation; in a stable patient with an obvious precipitant it is not the first step and would not be started by an intern without senior direction.",
+   "B": "Beta-blockade may become appropriate, but giving repeated intravenous boluses in a febrile, dehydrated, hypokalaemic patient before correcting the drivers risks hypotension and is a decision to make with the physician rather than alone at night.",
+   "C": "New atrial fibrillation in a hospitalised patient is usually secondary to a precipitant: sepsis, fever, hypoxaemia, volume depletion and low potassium and magnesium are all present here. He is haemodynamically stable, so the intern's job is to treat the precipitants (replace potassium and magnesium, give fluid, treat the fever, ensure adequate oxygenation), keep him monitored, and escalate by phone to the physician so that rate control (usually a beta blocker or diltiazem, or digoxin if hypotensive) and anticoagulation decisions are made with senior input. Many such episodes revert once the precipitants are treated.",
+   "D": "Cardioversion is for atrial fibrillation with haemodynamic compromise (hypotension, ischaemia, pulmonary oedema, shock); he is stable, so it is not indicated, and it is not a procedure for a single intern overnight."
+  },
+  "learning_point": "Stable new-onset atrial fibrillation on the ward is managed first by correcting precipitants (infection, hypoxaemia, volume depletion, low potassium and magnesium) and escalating for a senior-agreed rate-control plan; cardioversion is reserved for haemodynamic instability.",
+  "setting_note": "In a country hospital overnight, the intern starts the reversible-cause measures, keeps the patient on the monitored bed, and phones the physician early; if he becomes unstable, the call is to the retrieval service as well, because cardioversion would need a second doctor and anaesthetic support.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.9"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "atrial fibrillation",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Atrial fibrillation: acute management, treatment of precipitating factors and rate control",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand, Australian clinical guidelines for the diagnosis and management of atrial fibrillation 2018",
+    "locator": "Acute management of AF: haemodynamically stable patients",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: unstable AF (hypotension, ischaemia, pulmonary oedema) needs urgent cardioversion; stable AF needs precipitant treatment and rate control with a beta blocker or non-dihydropyridine calcium channel blocker, or digoxin if hypotension or heart failure; target potassium above 4 and magnesium above 1 mmol/L; anticoagulation decisions follow CHA2DS2-VA scoring. Misconceptions: that rhythm control is urgent in stable AF; that beta blockers are safe to push in a dehydrated febrile patient. Out of scope: choice of oral anticoagulant and long-term rhythm strategy.",
+  "plan": "Tests intern-level management of stable secondary AF overnight: treat precipitants and escalate rather than cardiovert or push drugs alone, evidencing 4.1, 1.7 and 1.9. The single-doctor country hospital makes the scope-of-practice decision explicit. Distractors are amiodarone, repeated beta-blocker boluses and cardioversion. Supported by eTG Cardiovascular and the NHFA/CSANZ AF guideline."
+ },
+ {
+  "work_order_id": "r1-094",
+  "item_id": "e08e9cd2-a64b-fcaf-7438-f70de313c979",
+  "version": 1,
+  "stem": "You are the intern staffing the 4-bed emergency department of a rural hospital on the Yorke Peninsula overnight, with the GP on call by phone and the Adelaide cardiology registrar available through the hospital switchboard. A 32-year-old woman presents at 23:00 with 3 hours of palpitations that began after a wedding at which she drank about eight standard drinks. She has no chest pain, breathlessness or syncope, no past medical history, and takes the combined oral contraceptive pill. Heart rate 132/min irregular, blood pressure 122/78 mmHg, saturation 98% on room air, afebrile, chest clear. The 12-lead ECG shows atrial fibrillation at 128/min with narrow QRS and no ST change. The nurse has her on the monitor with a cannula in place and has sent electrolytes, magnesium and thyroid function.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give flecainide 300 mg orally now and discharge her once the rhythm reverts"
+   },
+   {
+    "id": "B",
+    "text": "Perform synchronised DC cardioversion under procedural sedation in the department tonight"
+   },
+   {
+    "id": "C",
+    "text": "Start apixaban 5 mg twice daily and discharge her for GP review in 2 weeks"
+   },
+   {
+    "id": "D",
+    "text": "Keep her monitored, check the bloods, and phone the GP on call and the cardiology registrar to agree a rate-control and cardioversion plan"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Flecainide can be effective for recent-onset atrial fibrillation in a structurally normal heart, but a pill-in-the-pocket approach requires a prior supervised trial and senior assessment; an intern alone should not initiate an antiarrhythmic and discharge from a 4-bed rural department overnight.",
+   "B": "Early electrical cardioversion within 48 hours of onset is a legitimate option, but it needs sedation by a second credentialed clinician and resuscitation backup; for a stable patient it is not something a single intern performs at night.",
+   "C": "Her CHA2DS2-VA score is 0, so long-term anticoagulation is not indicated, and discharging an untreated patient in fast atrial fibrillation with no plan for rate control or cardioversion is unsafe.",
+   "D": "She has stable, recent-onset atrial fibrillation with a likely alcohol trigger. The intern's role is to keep her monitored, confirm electrolytes and thyroid function, avoid further triggers, and obtain a senior plan by phone: the GP on call and the cardiology registrar can advise on rate control (such as a beta blocker), whether she should be observed for spontaneous reversion, and whether transfer or next-day cardioversion within the 48-hour window is appropriate. This uses the available support network appropriately rather than acting beyond scope."
+  },
+  "learning_point": "For a stable patient with recent-onset atrial fibrillation in a small rural emergency department, the junior doctor monitors, corrects reversible factors and obtains a senior plan by phone; antiarrhythmic initiation and cardioversion are not solo intern actions.",
+  "setting_note": "In a tertiary emergency department the same patient might be cardioverted overnight by the emergency team; in a 4-bed rural department the plan depends on phone advice and may involve observation for spontaneous reversion or transfer the next day.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Rural and remote",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "atrial fibrillation",
+  "context": "rural",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Atrial fibrillation: recent-onset AF, rate versus rhythm control, cardioversion timing",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand, Australian clinical guidelines for the diagnosis and management of atrial fibrillation 2018",
+    "locator": "Acute rate and rhythm control; stroke risk assessment with CHA2DS2-VA",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: recent-onset AF under 48 hours in a low-risk patient may be cardioverted without prior anticoagulation; about half revert spontaneously within 24 hours; alcohol is a common trigger (holiday heart); CHA2DS2-VA 0 means no long-term anticoagulation; flecainide only in a structurally normal heart after a supervised first dose. Misconceptions: that discharge on anticoagulation is the safe default; that cardioversion is mandatory within 48 hours. Out of scope: procedural sedation technique and the choice of antiarrhythmic.",
+  "plan": "Tests scope-appropriate management of stable recent-onset AF by a lone intern in a small rural department, evidencing 4.1, 1.7 and 2.4. The Yorke Peninsula setting with GP on call and cardiology by phone makes the phone plan the correct action. Distractors are solo antiarrhythmic use, solo cardioversion, and inappropriate anticoagulation with discharge. Supported by eTG Cardiovascular and the NHFA/CSANZ AF guideline."
+ },
+ {
+  "work_order_id": "r1-095",
+  "item_id": "fd469de5-26d6-0a8d-741f-67800d761339",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with the physician available by phone. A 34-year-old woman presents to the emergency department with 4 days of cough, fever and right-sided pleuritic chest pain. She is not pregnant, has no allergies and has had no antibiotics or hospital admissions in the past year. Observations: temperature 38.9 C, respiratory rate 24/min, heart rate 104/min, blood pressure 112/68 mmHg, saturation 93% on room air, alert. Examination shows bronchial breathing at the right base; chest X-ray confirms right lower lobe consolidation without effusion. Bloods: white cell count 16 x 10^9/L, creatinine normal, albumin 36 g/L. The physician agrees by phone that she needs admission to the ward and asks you to chart the antibiotics according to Therapeutic Guidelines.",
+  "lead_in": "Which antibiotic regimen is the most appropriate to prescribe?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Benzylpenicillin 1.2 g intravenously 6-hourly plus doxycycline 100 mg orally twice daily"
+   },
+   {
+    "id": "B",
+    "text": "Ceftriaxone 1 g intravenously daily plus azithromycin 500 mg intravenously daily"
+   },
+   {
+    "id": "C",
+    "text": "Amoxicillin 1 g orally 8-hourly alone, with discharge and GP review in 48 hours"
+   },
+   {
+    "id": "D",
+    "text": "Piperacillin with tazobactam 4.5 g intravenously 8-hourly"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "She has moderate-severity community-acquired pneumonia (hypoxaemia, tachypnoea and tachycardia but no hypotension, confusion or multilobar disease) requiring ward admission. Therapeutic Guidelines recommend benzylpenicillin intravenously plus oral doxycycline (or clarithromycin) for moderate pneumonia in adults without penicillin allergy, covering Streptococcus pneumoniae and atypical organisms, with a switch to oral amoxicillin once improving.",
+   "B": "Ceftriaxone with azithromycin is the regimen for high-severity pneumonia (for example SMART-COP of 5 or more, or needing intensive care) and for some patients with tropical or specific risk factors; using it for moderate pneumonia is unnecessarily broad and drives resistance.",
+   "C": "Oral amoxicillin alone is the regimen for low-severity pneumonia treated in the community; her hypoxaemia and tachypnoea mean she needs admission and intravenous therapy with atypical cover.",
+   "D": "Piperacillin with tazobactam is reserved for hospital-acquired pneumonia with risk of resistant Gram-negative organisms or severe aspiration; it has no role in uncomplicated community-acquired pneumonia in a previously well adult."
+  },
+  "learning_point": "Moderate-severity community-acquired pneumonia in an adult without penicillin allergy is treated with intravenous benzylpenicillin plus oral doxycycline, stepping down to oral amoxicillin as the patient improves.",
+  "setting_note": "In a regional hospital with no ICU, the intern should calculate a severity score such as SMART-COP at admission and agree with the physician the triggers (rising oxygen requirement, hypotension, confusion) that would prompt an early call to the retrieval service, since escalation to high-flow oxygen or ventilation is not available on site.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Prescribing and medication safety",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "community-acquired pneumonia",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Community-acquired pneumonia in adults: moderate severity, empirical therapy",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Benzylpenicillin and doxycycline: dosing",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: severity is graded clinically with tools such as SMART-COP or CORB; low severity is oral amoxicillin, moderate is IV benzylpenicillin plus doxycycline or clarithromycin, high severity is ceftriaxone plus azithromycin; in tropical northern Australia and in patients with specific risks (alcohol, diabetes, Aboriginal and Torres Strait Islander communities with high rates of melioidosis) regimens differ; doxycycline is avoided in pregnancy. Misconceptions: that ceftriaxone is a safe default for any admitted pneumonia; that atypical cover is optional. Out of scope: antibiotic choice in penicillin allergy and in tropical regions.",
+  "plan": "Tests selection of the correct empirical regimen for moderate CAP at intern level, evidencing 4.1, 1.7 and 1.8. The Mid North evening cover with the physician by phone places the intern as prescriber. Distractors are the high-severity regimen, the low-severity oral regimen, and a hospital-acquired regimen. Supported by eTG Antibiotic and AMH."
+ },
+ {
+  "work_order_id": "r1-096",
+  "item_id": "b77c2bb5-7cb3-c3fe-6335-134603a02ba7",
+  "version": 1,
+  "stem": "You are the junior doctor on the surgical ward of a large metropolitan teaching hospital. A 40-year-old man is day 2 after an open reduction and internal fixation of an ankle fracture and is receiving enoxaparin 40 mg daily for thromboprophylaxis. He has a history of gout, well controlled on allopurinol 300 mg daily with no flare for a year. Overnight he developed severe pain, redness and swelling of the opposite first metatarsophalangeal joint, identical to his previous flares. He is afebrile, heart rate 84/min, blood pressure 132/80 mmHg, and the surgical wound is clean. Bloods: white cell count 11.8 x 10^9/L, creatinine 128 micromol/L with eGFR 55 mL/min/1.73 m2, urate 0.48 mmol/L. The registrar asks you to sort out his gout before the round.",
+  "lead_in": "Which action should you prioritise?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease allopurinol until the flare has settled"
+   },
+   {
+    "id": "B",
+    "text": "Continue allopurinol and start a short course of oral prednisolone"
+   },
+   {
+    "id": "C",
+    "text": "Increase allopurinol to 400 mg daily because the urate is above target"
+   },
+   {
+    "id": "D",
+    "text": "Start ibuprofen 400 mg three times daily with food"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Stopping allopurinol during a flare is a common error; it does not shorten the flare and the fall and later rise in urate can prolong or provoke further flares. Established urate-lowering therapy is continued unchanged through a flare.",
+   "B": "An acute gout flare is treated promptly with an anti-inflammatory agent while urate-lowering therapy continues. In a post-operative patient with reduced renal function and concurrent anticoagulant prophylaxis, a short course of oral prednisolone (for example 15 to 30 mg daily for 3 to 5 days) is the preferred option; low-dose colchicine is an alternative with dose adjustment for renal function. Intra-articular corticosteroid is another option if a single joint is accessible.",
+   "C": "Adjusting the allopurinol dose is a decision for after the flare has resolved, and dose changes are made gradually with renal function in mind; changing it now adds nothing to the acute pain and may worsen the flare.",
+   "D": "NSAIDs are effective for gout flares in otherwise well patients, but with an eGFR of 55, recent surgery and concurrent enoxaparin they carry risks of acute kidney injury and bleeding; a corticosteroid is safer here."
+  },
+  "learning_point": "Treat an acute gout flare with an anti-inflammatory agent chosen for the patient's comorbidities (corticosteroid when NSAIDs are unsuitable) and keep established allopurinol going.",
+  "setting_note": "",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Musculoskeletal",
+   "Prescribing and medication safety",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "gout flare in hospital",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Rheumatology",
+    "locator": "Gout: treatment of acute flares and continuation of urate-lowering therapy",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Allopurinol: practice points on continuing during flares; NSAIDs in renal impairment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: flare treatment options are NSAIDs, low-dose colchicine or corticosteroids, chosen by comorbidity; allopurinol is never stopped for a flare and, if newly started, is begun with flare prophylaxis; target urate is under 0.36 mmol/L (0.30 with tophi). Misconceptions: stopping or adjusting allopurinol during a flare; defaulting to NSAIDs regardless of renal function. Out of scope: septic arthritis work-up where the diagnosis is uncertain, and febuxostat.",
+  "plan": "Tests the basic priority in an inpatient gout flare: treat the flare safely and leave allopurinol alone, evidencing 4.1, 1.7 and 1.8. The metropolitan surgical ward adds enoxaparin and reduced renal function to make the anti-inflammatory choice matter. Distractors are stopping allopurinol, increasing it, and an NSAID in a patient with contraindications. Supported by eTG Rheumatology and AMH."
+ },
+ {
+  "work_order_id": "r1-097",
+  "item_id": "63101d93-94c8-a62c-a4c0-50ed4d97b5a0",
+  "version": 1,
+  "stem": "You are the junior doctor on the general ward of a metropolitan general hospital with a registrar on site. A 60-year-old man with heart failure with reduced ejection fraction (ejection fraction 30%) was admitted 3 days ago with decompensation and has been receiving furosemide 80 mg intravenously twice daily alongside his usual perindopril 8 mg, bisoprolol 5 mg and spironolactone 25 mg. His weight is down 3.5 kg, he is less breathless, oxygen saturation 95% on room air, and ankle oedema has reduced but persists. This morning: heart rate 68/min, blood pressure 94/58 mmHg (124/76 on admission), creatinine 162 micromol/L (98 on admission), potassium 5.7 mmol/L (4.4 on admission), sodium 134 mmol/L. The nurse is about to give the morning doses and asks you to confirm the chart.",
+  "lead_in": "Which action should take priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease furosemide and give sodium chloride 0.9% 500 mL to restore the blood pressure"
+   },
+   {
+    "id": "B",
+    "text": "Increase the furosemide to 120 mg twice daily because oedema persists"
+   },
+   {
+    "id": "C",
+    "text": "Withhold this morning's spironolactone and perindopril, request an ECG and repeat potassium, and discuss the diuretic dose with the registrar"
+   },
+   {
+    "id": "D",
+    "text": "Give calcium gluconate 10% 10 mL intravenously for the hyperkalaemia"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "He has had an effective diuresis and still has oedema; a saline bolus in a patient with a 30% ejection fraction risks pulmonary oedema. The blood pressure drop is related to volume removal plus vasodilating drugs, and stopping diuresis entirely is not the priority.",
+   "B": "Increasing the diuretic when creatinine has risen 60% and blood pressure has fallen would worsen the kidney injury and hypotension; the diuretic needs review, not escalation.",
+   "C": "A rising creatinine, potassium of 5.7 mmol/L and falling blood pressure in a patient on an ACE inhibitor and a mineralocorticoid receptor antagonist during aggressive diuresis signal that these drugs must be paused today. The junior doctor should withhold the potassium-retaining and blood-pressure-lowering agents before the doses are given, check an ECG for hyperkalaemic changes, repeat the potassium, and involve the registrar in deciding whether the diuretic is reduced or held. This prevents a preventable adverse drug event and sits squarely within a junior doctor's responsibility for the chart.",
+   "D": "Calcium gluconate is for hyperkalaemia with ECG changes or potassium of 6.5 mmol/L or more; at 5.7 mmol/L with no ECG yet, the priority is to stop the drugs driving it and measure, not to give calcium."
+  },
+  "learning_point": "During diuresis in heart failure, a rise in creatinine with hyperkalaemia and hypotension means withholding the ACE inhibitor or ARB and mineralocorticoid antagonist that morning, checking an ECG and potassium, and reviewing the diuretic with a senior before more doses are given.",
+  "setting_note": "",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Fluids, electrolytes and renal",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "heart failure",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Heart failure: monitoring renal function and potassium with ACE inhibitors and mineralocorticoid receptor antagonists",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand, Guidelines for the prevention, detection and management of heart failure in Australia 2018",
+    "locator": "Management of acute decompensated heart failure; dose adjustment of RAAS inhibitors with renal dysfunction and hyperkalaemia",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Spironolactone: hyperkalaemia precautions; ACE inhibitors: renal impairment",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: spironolactone is withheld for potassium above 5.5 mmol/L or a marked creatinine rise; ACE inhibitors are paused for symptomatic hypotension or acute kidney injury; a small creatinine rise during diuresis is expected but a 50% or greater rise with hyperkalaemia needs action; the beta blocker is usually continued unless bradycardic or shocked. Misconceptions: that oedema means the diuretic must increase; that fluid should be given for any hypotension. Out of scope: inotropes and ultrafiltration.",
+  "plan": "Tests prioritising a medication safety action (withholding RAAS inhibitors) over diuretic changes or hyperkalaemia drugs when heart failure treatment causes AKI and hyperkalaemia, evidencing 4.1, 1.7 and 1.8. The metropolitan ward with a registrar on site makes early discussion realistic. Distractors are saline, more diuretic and calcium. Supported by eTG Cardiovascular, the NHFA/CSANZ heart failure guideline and AMH."
+ },
+ {
+  "work_order_id": "r1-098",
+  "item_id": "2740e40e-721e-8405-2e01-f8f07d4614f6",
+  "version": 1,
+  "stem": "You are the junior doctor in the emergency department of a tertiary hospital in Adelaide. A 38-year-old man is brought in by ambulance with 2 weeks of worsening breathlessness, orthopnoea and leg swelling after a flu-like illness a month ago, now acutely worse over 2 hours. He is sitting forward, sweaty, speaking in single words. Respiratory rate 32/min, oxygen saturation 86% on 8 L/min via Hudson mask, heart rate 124/min regular, blood pressure 158/96 mmHg, temperature 37.2 C. Widespread crackles to the mid-zones and a raised jugular venous pressure. The ECG shows sinus tachycardia with left bundle branch block of unknown age. Venous gas: pH 7.29, PaCO2 52 mmHg, lactate 2.8 mmol/L. A chest X-ray is being done at the bedside. The emergency consultant is in the next bay and has said to call when you have assessed him.",
+  "lead_in": "Which action should you prioritise first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Give furosemide 40 mg intravenously and insert a urinary catheter to monitor output"
+   },
+   {
+    "id": "B",
+    "text": "Send troponin, B-type natriuretic peptide and blood cultures and await the results"
+   },
+   {
+    "id": "C",
+    "text": "Request an urgent bedside echocardiogram to define the cause of heart failure"
+   },
+   {
+    "id": "D",
+    "text": "Sit him upright, give sublingual glyceryl trinitrate 400 micrograms, and call the consultant now to start continuous positive airway pressure"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Intravenous diuretic is part of treatment for acute pulmonary oedema with fluid overload, but it acts over 30 to 60 minutes and does not address the immediate respiratory failure; it follows the airway and breathing steps and the nitrate.",
+   "B": "These tests are needed for diagnosis and will be sent, but waiting on results in a patient with hypoxaemia, rising carbon dioxide and acidosis is unsafe; treatment comes first.",
+   "C": "An echocardiogram will define the likely dilated cardiomyopathy after a viral illness, but it does not change the first-hour resuscitation and should not delay respiratory support.",
+   "D": "This is acute cardiogenic pulmonary oedema with hypercapnic respiratory failure in a young man with probable new cardiomyopathy. The priorities are positioning, non-invasive ventilation (CPAP reduces work of breathing, improves oxygenation and reduces preload and afterload, and is recommended for pulmonary oedema with respiratory distress or acidosis), and nitrate vasodilation while blood pressure is adequate, with immediate senior involvement because he may need intubation or intensive care. Diuretic, investigations and echocardiography follow."
+  },
+  "learning_point": "In acute pulmonary oedema with respiratory distress or acidosis, the first priorities are upright positioning, nitrate if blood pressure allows, non-invasive ventilation and immediate senior help; diuretics and investigations come next.",
+  "setting_note": "In a regional hospital without on-site ICU, the same first steps apply with whatever non-invasive support is available, and the retrieval service should be called at the same time because this patient may need intubation and transfer.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "heart failure",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Acute heart failure and pulmonary oedema: initial management, nitrates and non-invasive ventilation",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand, Guidelines for the prevention, detection and management of heart failure in Australia 2018",
+    "locator": "Acute heart failure: non-invasive ventilation, vasodilators and diuretics",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: in acute pulmonary oedema with hypertension or normal blood pressure, nitrates and CPAP or bilevel ventilation are first-line with diuretics for volume overload; hypotension or shock changes the approach to inotropes and senior or ICU care; opioids are no longer routine. Misconceptions: that furosemide is the first drug in all pulmonary oedema; that investigations must precede treatment. Out of scope: inotrope selection and mechanical support.",
+  "plan": "Tests prioritisation of respiratory support, nitrate and escalation over diuretic, investigations and echocardiography in acute pulmonary oedema, evidencing 4.1, 1.9 and 1.7. The tertiary emergency department has CPAP and a consultant nearby. Distractors are the reflex diuretic, waiting on bloods and imaging. Supported by eTG Cardiovascular and the NHFA/CSANZ heart failure guideline."
+ },
+ {
+  "work_order_id": "r1-099",
+  "item_id": "fea1ce09-50fc-29da-518e-f8c989405803",
+  "version": 1,
+  "stem": "You are the intern on the general medicine team at a tertiary hospital in Adelaide, which provides a daily telehealth ward round to a regional hospital's medical ward. On today's video call the regional nurse presents a 56-year-old woman admitted 2 days ago with a community-acquired pneumonia, who has type 2 diabetes managed with metformin and gliclazide at home and is now on prednisolone 50 mg daily for coexisting asthma. Her capillary blood glucose readings over the past 24 hours have been 13 to 19 mmol/L, highest in the late afternoon. She is eating about half her meals, has no ketones on a point-of-care test, and her creatinine is normal. The regional hospital uses a subcutaneous insulin chart that requires the treating team to document a blood glucose target range before supplemental insulin can be prescribed. The nurse asks what target range your team wants documented.",
+  "lead_in": "Which blood glucose target range is recommended for this hospital inpatient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "5 to 10 mmol/L"
+   },
+   {
+    "id": "B",
+    "text": "4 to 7 mmol/L"
+   },
+   {
+    "id": "C",
+    "text": "8 to 15 mmol/L"
+   },
+   {
+    "id": "D",
+    "text": "Below 20 mmol/L"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Australian Diabetes Society guidance for most non-critically ill hospital inpatients recommends a blood glucose target of 5 to 10 mmol/L, balancing avoidance of hyperglycaemia (infection risk, dehydration, poor wound healing) against the harm of inpatient hypoglycaemia. Her corticosteroid-induced pattern will need a morning intermediate-acting or basal insulin plus supplemental doses, which the registrar can direct once the target is set.",
+   "B": "A target of 4 to 7 mmol/L is a tight outpatient fasting target in selected patients; in hospital it increases the risk of hypoglycaemia, particularly in a patient eating unpredictably, and is not recommended.",
+   "C": "An upper limit of 15 mmol/L is too permissive; sustained readings above 10 mmol/L are associated with worse outcomes in acute illness and should prompt adjustment of therapy.",
+   "D": "Simply avoiding readings above 20 mmol/L is not a treatment target; it would leave her persistently hyperglycaemic and is a trigger for urgent review, not a goal."
+  },
+  "learning_point": "For most non-critically ill hospital inpatients with diabetes the recommended blood glucose target range is 5 to 10 mmol/L.",
+  "setting_note": "On a telehealth ward round the target and insulin plan must be documented clearly in the regional hospital's chart, with explicit instructions on what glucose readings should prompt the nurse to phone the team, since no doctor from the team is physically present.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Telehealth",
+   "Prescribing and medication safety",
+   "Chronic disease, prevention and advocacy"
+  ],
+  "domains": [
+   "4.1",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "hyperglycaemia in hospital",
+  "context": "telehealth",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society, Guidelines for routine glucose control in hospital",
+    "locator": "Recommended blood glucose targets for non-critically ill inpatients (5 to 10 mmol/L)",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Endocrinology",
+    "locator": "Managing diabetes in hospital: glycaemic targets and glucocorticoid-induced hyperglycaemia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: inpatient target 5 to 10 mmol/L for most patients, somewhat higher for frail patients at risk of hypoglycaemia; sliding-scale insulin alone is discouraged; glucocorticoid hyperglycaemia peaks in the afternoon and evening and is managed with morning intermediate-acting insulin; sulfonylureas are often withheld when intake is poor. Misconceptions: that outpatient HbA1c-based targets apply in hospital; that readings under 15 are acceptable. Out of scope: insulin dose calculation and management of ketosis.",
+  "plan": "Tests recall of the Australian inpatient glucose target, evidencing 4.1 and 1.8. The telehealth ward round from Adelaide makes the documented target the practical link between the team and the regional nurse. Distractors are a tight outpatient target and two over-permissive ranges. Supported by the ADS inpatient guideline and eTG Endocrinology."
+ },
+ {
+  "work_order_id": "r1-100",
+  "item_id": "766c5cca-cc8f-8c5f-97a0-58ec8ff71126",
+  "version": 1,
+  "stem": "You are the PGY2 in the emergency department of a regional hospital with no ICU, on-site CT during business hours only and retrieval to Adelaide by road or air. A 79-year-old man presents at 19:00 with a sprained ankle after a fall from a step. The triage nurse is concerned because his blood pressure is 198/108 mmHg, confirmed on three readings 10 minutes apart in both arms. He tells you he ran out of amlodipine 2 weeks ago. He has no headache, visual disturbance, chest pain, breathlessness or neurological symptoms, and is fully orientated. Heart rate 76/min, saturation 97% on room air. Examination: no focal neurology, chest clear, no new murmur; fundoscopy shows arteriolar narrowing without haemorrhages or papilloedema. ECG shows sinus rhythm with voltage criteria for left ventricular hypertrophy and no acute change. Creatinine 92 micromol/L (baseline 90), urinalysis trace protein, no blood. The ankle X-ray is normal.",
+  "lead_in": "Which interpretation of his blood pressure is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hypertensive emergency requiring intravenous labetalol and retrieval to Adelaide tonight"
+   },
+   {
+    "id": "B",
+    "text": "Severe hypertension without acute target organ damage, managed by restarting oral therapy with GP review within days"
+   },
+   {
+    "id": "C",
+    "text": "Pain-related blood pressure elevation needing analgesia only and no antihypertensive action"
+   },
+   {
+    "id": "D",
+    "text": "Probable secondary hypertension requiring urgent renal artery imaging before discharge"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A hypertensive emergency is defined by acute target organ damage (encephalopathy, retinal haemorrhages or papilloedema, acute pulmonary oedema, acute coronary syndrome, aortic dissection, acute kidney injury or stroke), not by the number alone. He has none, and acute intravenous lowering in a 79-year-old with chronic hypertension risks hypoperfusion of brain and kidneys.",
+   "B": "Blood pressure of 180/110 mmHg or more without evidence of acute target organ damage is severe (sometimes called asymptomatic severe) hypertension. Australian guidance is to resume or start oral antihypertensive therapy, avoid rapid reduction, and arrange review within days to confirm control, with safety-net advice about symptoms that would prompt return. Restarting his amlodipine tonight and ensuring supply and GP follow-up is the appropriate plan.",
+   "C": "Pain and anxiety can raise blood pressure, but readings this high that persist across three measurements in a man who has stopped his antihypertensive are not explained by a mild ankle sprain, and leaving him untreated with no follow-up would be unsafe.",
+   "D": "Secondary causes are considered in resistant or early-onset hypertension or with suggestive features; here the obvious cause is cessation of treatment, and renal artery imaging is neither urgent nor available overnight."
+  },
+  "learning_point": "Severe hypertension is classified by the presence or absence of acute target organ damage, not the reading alone; without such damage it is managed with oral therapy and early outpatient review, not intravenous drugs.",
+  "setting_note": "In a regional emergency department the key rural decision is recognising which patients need retrieval: those with acute target organ damage do, while a patient with asymptomatic severe hypertension can be discharged home with medication, a confirmed supply and a GP appointment within a few days.",
+  "learning_area": "General medicine",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Chronic disease, prevention and advocacy",
+   "Rural and remote"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "hypertension on the ward",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b04",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Hypertension: severe hypertension and hypertensive emergencies, assessment for target organ damage",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia, Guideline for the diagnosis and management of hypertension in adults 2016",
+    "locator": "Severe hypertension and hypertensive emergencies",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hypertensive emergency equals severe hypertension with acute target organ damage and needs controlled intravenous lowering in a monitored setting; asymptomatic severe hypertension is managed orally with follow-up in days; rapid lowering in chronic hypertension risks stroke and renal hypoperfusion; check fundi, neurology, ECG, creatinine and urinalysis. Misconceptions: treating the number; labelling all readings above 180/110 as emergencies. Out of scope: choice of intravenous agent in true emergencies and aortic dissection targets.",
+  "plan": "Tests interpretation of a very high reading without target organ damage as asymptomatic severe hypertension rather than an emergency, evidencing 4.1, 1.7 and 1.4. The regional emergency department makes the retrieval-versus-discharge distinction concrete. Distractors are the emergency label, dismissal as pain, and premature secondary work-up. Supported by eTG Cardiovascular and the NHFA hypertension guideline."
+ }
+]

@@ -1,0 +1,100 @@
+
+> @fellowpilot-prevoc/web@0.1.0 build
+> npm run prepare-src && next build
+
+
+> @fellowpilot-prevoc/web@0.1.0 prepare-src
+> npm run sync-core && npm run brand
+
+
+> @fellowpilot-prevoc/web@0.1.0 sync-core
+> node scripts/sync-core.mjs
+
+synced 13 core files
+
+> @fellowpilot-prevoc/web@0.1.0 brand
+> node scripts/apply-brand.mjs
+
+light: ink on paper 17.2 | ink on surface 18.6 | muted on paper 5.1 | muted on surface 5.5 | primary on paper 8.8 | primary on surface 9.5 | on-primary on primary 9.5 | heading on paper 8.8 | ink on primary-soft 15.7 | correct on correct-soft 4.6 | wrong on wrong-soft 4.7 | warning on warning-soft 4.5 | ink on accent-soft 16.6 | focus on paper 3.8
+dark: ink on paper 17.9 | ink on surface 17.4 | muted on paper 7.0 | muted on surface 6.8 | primary on paper 6.8 | primary on surface 6.6 | on-primary on primary 6.8 | heading on paper 7.6 | ink on primary-soft 13.7 | correct on correct-soft 7.0 | wrong on wrong-soft 5.9 | warning on warning-soft 6.4 | ink on accent-soft 10.9 | focus on paper 4.9
+brand "FellowPilot" applied (fellowpilot)
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.15
+
+   Creating an optimized production build ...
+ ⨯ Failed to find font override values for font `Nunito Sans`
+ ⨯ Failed to find font override values for font `Nunito Sans`
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/28) ...
+   Generating static pages (7/28) 
+   Generating static pages (14/28) 
+   Generating static pages (21/28) 
+ ✓ Generating static pages (28/28)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ƒ /                                    654 B          94.6 kB
+├ ƒ /_not-found                          873 B            88 kB
+├ ƒ /admin                               1.8 kB         95.7 kB
+├ ƒ /admin/achievements                  2.56 kB         107 kB
+├ ƒ /admin/seasons                       2.19 kB         100 kB
+├ ƒ /api/admin/achievements              0 B                0 B
+├ ƒ /api/admin/achievements/[id]         0 B                0 B
+├ ƒ /api/admin/flags                     0 B                0 B
+├ ƒ /api/admin/seasons                   0 B                0 B
+├ ƒ /api/admin/seasons/[id]              0 B                0 B
+├ ƒ /api/admin/users                     0 B                0 B
+├ ƒ /api/auth/confirm                    0 B                0 B
+├ ƒ /api/auth/logout                     0 B                0 B
+├ ƒ /api/auth/request                    0 B                0 B
+├ ƒ /api/events                          0 B                0 B
+├ ƒ /api/feedback                        0 B                0 B
+├ ƒ /api/flags                           0 B                0 B
+├ ƒ /api/health                          0 B                0 B
+├ ƒ /api/items/[id]/feedback             0 B                0 B
+├ ƒ /api/me                              0 B                0 B
+├ ƒ /api/me/goal                         0 B                0 B
+├ ƒ /api/me/pauses                       0 B                0 B
+├ ƒ /api/me/pauses/[id]                  0 B                0 B
+├ ƒ /api/plan                            0 B                0 B
+├ ƒ /api/progress                        0 B                0 B
+├ ƒ /api/questions                       0 B                0 B
+├ ƒ /api/questions/[id]                  0 B                0 B
+├ ƒ /api/reflections                     0 B                0 B
+├ ƒ /api/reflections/[id]                0 B                0 B
+├ ƒ /api/sets/next                       0 B                0 B
+├ ƒ /api/teams                           0 B                0 B
+├ ƒ /api/test/last-email                 0 B                0 B
+├ ƒ /api/tutor/[id]                      0 B                0 B
+├ ƒ /auth/confirm                        944 B          94.9 kB
+├ ƒ /feedback                            1.19 kB        88.3 kB
+├ ƒ /guide                               314 B          94.2 kB
+├ ƒ /insights                            180 B          94.1 kB
+├ ƒ /logbook                             2.15 kB         107 kB
+├ ƒ /login                               1.16 kB        88.3 kB
+├ ƒ /onboarding                          3.39 kB         108 kB
+├ ƒ /practice                            7.62 kB         112 kB
+├ ƒ /progress                            1.32 kB         106 kB
+├ ƒ /review                              180 B          94.1 kB
+├ ƒ /review/[id]                         1.52 kB        95.4 kB
+├ ƒ /team                                1.57 kB        88.7 kB
+├ ƒ /welcome                             2.1 kB         89.2 kB
+├ ƒ /write                               180 B          94.1 kB
+├ ƒ /write/[id]                          565 B           109 kB
+└ ƒ /write/new                           177 B           109 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-624922780907f1ad.js       31.6 kB
+  ├ chunks/fd9d1056-60782db93d271710.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+ƒ  (Dynamic)  server-rendered on demand
+

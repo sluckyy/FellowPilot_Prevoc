@@ -1,0 +1,20 @@
+
+> @fellowpilot-prevoc/web@0.1.0 typecheck
+> npm run prepare-src && tsc --noEmit
+
+
+> @fellowpilot-prevoc/web@0.1.0 prepare-src
+> npm run sync-core && npm run brand
+
+
+> @fellowpilot-prevoc/web@0.1.0 sync-core
+> node scripts/sync-core.mjs
+
+synced 13 core files
+
+> @fellowpilot-prevoc/web@0.1.0 brand
+> node scripts/apply-brand.mjs
+
+light: ink on paper 17.2 | ink on surface 18.6 | muted on paper 5.1 | muted on surface 5.5 | primary on paper 8.8 | primary on surface 9.5 | on-primary on primary 9.5 | heading on paper 8.8 | ink on primary-soft 15.7 | correct on correct-soft 4.6 | wrong on wrong-soft 4.7 | warning on warning-soft 4.5 | ink on accent-soft 16.6 | focus on paper 3.8
+dark: ink on paper 17.9 | ink on surface 17.4 | muted on paper 7.0 | muted on surface 6.8 | primary on paper 6.8 | primary on surface 6.6 | on-primary on primary 6.8 | heading on paper 7.6 | ink on primary-soft 13.7 | correct on correct-soft 7.0 | wrong on wrong-soft 5.9 | warning on warning-soft 6.4 | ink on accent-soft 10.9 | focus on paper 4.9
+brand "FellowPilot" applied (fellowpilot)

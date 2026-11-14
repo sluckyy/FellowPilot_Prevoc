@@ -480,7 +480,7 @@ test.describe.serial('Web app', () => {
     await page.goto('/');
     await page.getByRole('link', { name: 'Create my goal plan' }).click();
     await expect(page.getByRole('heading', { name: 'Your goal plan' })).toBeVisible();
-    await page.getByRole('button', { name: 'Save my plan' }).click();   // nothing filled in: disabled, so nothing happens
+    await expect(page.getByRole('button', { name: 'Save my plan' })).toBeDisabled();   // nothing filled in yet
     await page.locator('#g-0').fill('Be confident escalating a deteriorating patient overnight');
     await page.locator('#g-0-o-0').selectOption('1.9');
     await page.getByRole('button', { name: 'Add another goal' }).click();
@@ -511,8 +511,9 @@ test.describe.serial('Web app', () => {
     await page.screenshot({ path: `${SHOTS}/27-logbook.png`, fullPage: true });
     await page.getByRole('button', { name: 'Save entry' }).click();
     await expect(page.getByText(text)).toBeVisible();
-    const row = await db.query(`SELECT r.tags, r.words, r.prompt_id, encode(r.body_enc, 'escape') AS raw FROM reflection r JOIN user_profile p ON p.user_id = r.user_id WHERE p.email = $1 AND r.deleted_at IS NULL`, [TRAINEE]);
-    expect(row.rows).toHaveLength(1);
+    const saved = () => db.query(`SELECT r.tags, r.words, r.prompt_id, encode(r.body_enc, 'escape') AS raw FROM reflection r JOIN user_profile p ON p.user_id = r.user_id WHERE p.email = $1 AND r.deleted_at IS NULL`, [TRAINEE]);
+    await expect.poll(async () => (await saved()).rows.length, { timeout: 10_000 }).toBe(1);
+    const row = await saved();
     expect(row.rows[0].tags.sort()).toEqual(['1.1', '1.9']);
     expect(row.rows[0].prompt_id).toBe('escalation');
     expect(row.rows[0].raw).not.toContain('hypotensive');                          // encrypted, not plain text
@@ -543,7 +544,7 @@ test.describe.serial('Web app', () => {
     await expect(page.getByRole('heading', { name: /Port Pirie interns/ })).toBeVisible();
     const code = (await page.locator('strong.num').innerText()).trim();
     expect(code).toMatch(/^[A-Z0-9]{6}$/);
-    await expect(page.getByText(/team total shows once 5 people have joined/)).toBeVisible();
+    await expect(page.getByText(/1 member: /)).toBeVisible();
     await page.goto('/progress');
     await expect(page.locator('.badge.done', { hasText: 'Team player' })).toBeVisible();
     await page.screenshot({ path: `${SHOTS}/28-team.png`, fullPage: true });

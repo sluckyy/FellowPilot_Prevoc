@@ -1,0 +1,1002 @@
+[
+ {
+  "item_id": "9680c40f-ccfe-c804-c51f-1024ff0d6409",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "medium",
+  "blind_reasoning": "A fall with head strike the day before death means the cause cannot be confidently recorded as natural; under the SA Coroners Act the death should be reported (via police/State Coroner's Office) and no medical certificate of cause of death issued until the Coroner decides. The PGY1 has also never attended this patient, so certifying is not appropriate anyway.",
+  "second_defensible": {
+   "flag": false,
+   "option": "D",
+   "why": "D (preserve the scene, wait an hour for the GP who knows the patient) is what many PGY1s would actually do and is not unsafe, but its wording presumes the GP will issue a certificate, which is the error being tested; B remains best."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "B is the longest and most procedural option, a mild length cue; A's 'since death was expected' reads as a justification, which some candidates will read as a trap."
+  },
+  "distractor_plausibility": {
+   "A": 3,
+   "B": 1,
+   "C": 2,
+   "D": 3
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Reportable-death framing is correct for SA; 'must' is strong (the Coroner may decline jurisdiction) but the obligation to notify rather than certify is right."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Recognising a potentially reportable death and not signing is squarely within PGY1 scope; the GP arriving in an hour does not remove the duty to explain and notify."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Stem gives enough to decide; the practice-nurse relay and 'paperwork' phrasing are realistic."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Key defensible but D will attract strong candidates for 'wait for the senior'; consider softening B's 'must' to 'should be discussed with/reported to' and making clear the PGY1 has not attended the patient."
+ },
+ {
+  "item_id": "38384767-1c4a-be9c-7bc8-71fad21b9e0e",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "Austroads AFTD: after a first unprovoked seizure the private non-driving period is at least 6 months and the commercial period is years (5 years default), with a legal duty in SA to notify the Registrar of Motor Vehicles. He cannot drive either vehicle now.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, B and D each contain a clear factual error (continuing to drive, car-only, or resuming without review)."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "C is roughly twice the length of every other option and bundles three correct facts; the longest, most hedged option is the answer."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 3,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Non-driving periods and the SA self-notification duty are consistent with current Austroads standards and the SA Motor Vehicles Act."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Giving interim driving advice after a first seizure is expected of a junior doctor in ED."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear; 'both vehicle classes' is understood."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Trim C to a single statement (e.g. 'must not drive any vehicle; private 6 months, commercial several years; must notify the Registrar') or lengthen distractors to match."
+ },
+ {
+  "item_id": "77eb6cdc-1845-9f6d-1173-0f212c2e2823",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "Cash can never be accepted under SA Health gifts and benefits policy and Good medical practice; a gracious decline with an alternative (card, hospital donation) and acceptance of a shared nominal gift if policy allows is the professional response.",
+  "second_defensible": {
+   "flag": false,
+   "option": "C",
+   "why": "C is safe but overstates the rule ('anything'), so D is clearly better."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "D is the longest option, is the only one with warmth ('thank her warmly') and includes a hedged 'if local policy allows' clause, all pointing to it."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 2,
+   "C": 3,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with SA Health Gifts, Benefits and Hospitality policy and the Code of Conduct."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope for any junior doctor."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Shorten D and remove the hedge, or give C and A equivalent nuance so length does not give it away."
+ },
+ {
+  "item_id": "877f4704-0d21-91f5-457d-46510ed26b73",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "An apparently intoxicated registrar cannot be allowed to direct care of an unstable chest pain patient; the PGY1 must escalate immediately to the on-call consultant (and/or after-hours coordinator) so that the patient is managed by a fit doctor and the registrar is removed from duty. Mandatory notification to AHPRA follows later, not at 01:30.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B leaves a PGY1 alone with a possible ACS and delays the impairment concern; C and D are clearly inadequate."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Options are of similar length and tone; A is first but not obviously flagged."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 3,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Intoxication while practising is a mandatory notification ground, but immediate local escalation is correct first; A is safe and realistic."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Escalating to the consultant is exactly the junior-doctor action required."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Good item; explanation should mention the after-hours coordinator as an alternative escalation route and that the AHPRA notification is still required subsequently."
+ },
+ {
+  "item_id": "e60e212b-56bf-ff0e-1c4b-d4767015c390",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "Mandatory notification for impairment requires a reasonable belief the practitioner is placing the public at substantial risk of harm; a treated, well-controlled depression with good insight and engagement does not meet that threshold. Support and encouragement of ongoing care is the right response.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A and B misstate the law; D imposes an unjustified work restriction."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "C is by far the longest option and contains the explanation; the other three are short, absolute statements."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with the Health Practitioner Regulation National Law and AHPRA mandatory notification guidelines (2020)."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Appropriate for PGY2."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Cut the trailing explanation from C ('and the right response is...') so it matches the length of the distractors; the '30 days' in A is invented and might be queried but works as a distractor."
+ },
+ {
+  "item_id": "b9c6cd6e-d149-ee5b-3aaf-3e8915265ec8",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "high",
+  "blind_reasoning": "Ketorolac given to a patient with documented NSAID urticaria is a medication error warranting open disclosure now (what happened, apology, plan), notification of the supervising GP, observation and an incident report, regardless of absence of harm.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, C and D each delay, conceal or shift disclosure, contrary to the Australian Open Disclosure Framework."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Options are of comparable length; B is the compound 'do everything' option but not conspicuously so."
+  },
+  "distractor_plausibility": {
+   "A": 3,
+   "B": 1,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Cross-reactivity between NSAIDs makes this a genuine error; disclosure obligations as stated are correct."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope; the junior doctor who made the error should lead the initial disclosure with senior support."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Sound. Difficulty 4 is overstated; most juniors will choose B."
+ },
+ {
+  "item_id": "bed3a577-ba62-a63f-e7b0-433db58cf47a",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "Do what you are competent to do (NGT) and be honest about what you are not (wound aspiration), so the surgeon can defer or arrange supervision.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B withholds a safe, needed intervention; A and C are outside scope."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Options balanced; none stands out by length."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate and realistic."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Scope-of-practice decision is exactly the junior's to make."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Easy and appropriate for difficulty 1."
+ },
+ {
+  "item_id": "f653e026-5490-fba5-0d87-32e8db64f223",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "A patient's own disclosure does not release the doctor from confidentiality; clinical details should not be discussed publicly, friend requests from patients should be declined, and a brief non-clinical acknowledgement is acceptable under AHPRA social media guidance.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B misstates confidentiality; C and D are inappropriate."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "A is the longest and first option, a mild cue, but B is almost as long."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with AHPRA/Medical Board social media guidance; some employers would prefer no public reply at all, but 'acceptable' is defensible."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Explanation should note local policy may discourage any public reply by staff; otherwise fine."
+ },
+ {
+  "item_id": "51637b09-f920-1625-cb08-595f97cf83c2",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "Migratory pain, anorexia, RIF guarding, neutrophilia and raised CRP are classic appendicitis; sterile pyuria is common when the inflamed appendix abuts the ureter or bladder.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, B and D are each factually wrong."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "C is more than twice the length of the others and includes its own explanation of the urinary finding; the distractors are short, absolute statements."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Basic interpretation within PGY1 scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Move the explanatory clause in C to the explanation; even at difficulty 1 the stem should not teach inside the key."
+ },
+ {
+  "item_id": "f258af1d-7a2d-b032-344f-67df880f0b9b",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "medium",
+  "blind_reasoning": "The anaesthetist is standing there and expects to induce in 45 minutes; unseen hypokalaemia of 2.9 and an undrained obstructed stomach both change the anaesthetic plan, so communicating them immediately comes before any single task. G&H, NGT and potassium replacement all follow and can be delegated or sequenced.",
+  "second_defensible": {
+   "flag": false,
+   "option": "A",
+   "why": "A and C are genuinely tempting as 'first tasks' but each is a single action that the anaesthetist needs to prioritise; raising the critical results is quicker and governs the rest."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "All options are short; B is the only one phrased as communication, which is a mild pattern cue but not a wording cue."
+  },
+  "distractor_plausibility": {
+   "A": 3,
+   "B": 1,
+   "C": 3,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Values and context are realistic; D's rate (10 mmol/h) is an acceptable ward rate but inappropriate as a first unilateral act."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Prioritisation and escalation of critical results is core PGY1 work."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Good prioritisation item; explanation must acknowledge A and C are necessary next steps so the item does not read as 'talking beats doing'."
+ },
+ {
+  "item_id": "b618ba24-a054-8183-e969-2a7f8704ce75",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "New localised peritonism, tachycardia, hypotension, fever and lactate 3.8 in a small bowel obstruction indicate strangulation/ischaemia with sepsis; resuscitate and escalate immediately for surgical advice and retrieval.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, B and C all defer care to the morning in a deteriorating patient."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "D is the only option containing 'now' and escalation, but length is balanced."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 1,
+   "C": 2,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate; antibiotics would also be given but not instead of escalation."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Recognise-and-escalate is the PGY1 action."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Distractors are weak (three obvious delays); consider replacing B with a 'start antibiotics and fluids and call the GP at 06:00' option to raise difficulty."
+ },
+ {
+  "item_id": "a590c408-2367-c634-bfce-fa58d97be4a6",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "Consent must be taken by a clinician able to explain the procedure, its risks and alternatives, usually the proceduralist; the PGY1 who has never done a pleural tap should not take it, but can prepare the patient, book an interpreter and ALO and welcome family.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B, C and D each misstate consent law or policy."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "A is more than double the length of the other options and is the only one that references the interpreter, ALO and aunty from the stem; it is also placed first."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 2,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with SA Health consent policy; interpreter use for a Pitjantjatjara first-language speaker is correct practice."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Knowing the limits of who may take consent is PGY1 core."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Portrayal is respectful; the key models culturally safe practice (interpreter, ALO, family). C is a wrong-law distractor rather than a stereotype."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Shorten A (e.g. drop the trailing list of things the PGY1 can do, or split it) so the key is not the obvious long option; cultural content is good."
+ },
+ {
+  "item_id": "883fce42-08b9-f1c7-c7b3-9983b4340077",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "ANZCA PG07: adults may have a light meal up to 6 hours and clear fluids up to 2 hours before anaesthesia; the midnight blanket fast is outdated and worsens hypoglycaemia risk and dehydration.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B understates fasting times; A and D are the outdated practice."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "C is the longest and gives clock times, a mild cue, but B uses the same structure."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with ANZCA PG07(A) 2023 adult fasting guidance; metformin and diabetes do not alter the fasting intervals."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Writing fasting orders is routine junior work."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Fine; explanation could add the metformin instruction for the morning of surgery since the stem raises it."
+ },
+ {
+  "item_id": "656df212-e8df-ecee-36a6-5d9b27d8c20f",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "high",
+  "blind_reasoning": "Symptomatic glucose 3.6 in a type 1 diabetic must be treated now; with theatre 4 hours away oral clear-fluid glucose is permissible (or IV glucose), then the anaesthetist and surgeon are informed of the hypoglycaemia and the delay so the insulin/fluid plan is adjusted.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A does not treat the current hypoglycaemia; C is dangerous in type 1 diabetes; D breaks fasting unnecessarily and cancels the case."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "B is the longest, but A and C are similarly structured."
+  },
+  "distractor_plausibility": {
+   "A": 3,
+   "B": 1,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with ADS/ANZCA perioperative diabetes guidance."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within PGY1 scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Good; A is a strong distractor. Explanation should name an example clear-fluid glucose source."
+ },
+ {
+  "item_id": "7b623b24-ecf3-3b41-5684-0711dbf8c179",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "TURP is a high-bleeding-risk procedure; with CrCl 80 apixaban is withheld for 48 hours (last dose 3 days before) with no bridging, which means omitting tonight's dose. Bridging is not used for DOACs.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "C is the low-bleeding-risk interval; A and B are wrong."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "D carries the 'confirm with the anaesthetist and urologist' tail that none of the others have, a safety-wording cue; C is conspicuously short."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 2,
+   "C": 3,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Consistent with THANZ/PAUSE-based Australian guidance."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "PGY2 proposing a DOAC plan with confirmation is realistic."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Timing of 'tonight's dose' relative to surgery is inferable but could state the surgery time."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Drop the confirmation tail from D (or add it to C) so the interval is what is tested."
+ },
+ {
+  "item_id": "be2bbefb-8e60-5210-d901-ca69eae3bc69",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "Low-grade fever within 24 hours of uncomplicated laparoscopic appendicectomy in a well patient is usually inflammatory/atelectasis; examine first, then investigate selectively.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B, C and D are over- or under-treatment."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "A is the 'examine first' generic option but length is balanced."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Easy, appropriate for difficulty 1."
+ },
+ {
+  "item_id": "47509896-2ef0-354c-062a-069810ad2061",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "Day 5 fever with rigor and a red, tender wound with purulent discharge is a surgical site infection; chest clear, catheter long removed and urinalysis unremarkable.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "The purulent wound makes C unequivocal."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Options are single phrases; no cue."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Very easy for difficulty 2; the purulent discharge removes any discrimination. Consider a subtler wound description."
+ },
+ {
+  "item_id": "eb9c15ef-dc26-696f-f92a-2183b2bc9302",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "high",
+  "blind_reasoning": "ERAS evidence supports opioid-sparing multimodal analgesia, early oral intake and mobilisation to shorten ileus; routine NGT, prokinetics and prolonged NBM are not supported.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, C and D are traditional practices without supporting evidence."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "B is the recognisable ERAS phrase but not cued by length."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 1,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Recall within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Stem (NBM after perforated appendix, surgeon's instruction) slightly conflicts with 'early oral intake' as an overnight action, but the lead-in is clearly a recall question."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Difficulty 4 is overstated; context metadata 'theatre' should be 'ward'."
+ },
+ {
+  "item_id": "6531d39f-b532-ceba-1afa-92bede78c8fa",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "Sedation score 2 with respiratory rate 8 after PCA plus oral oxycodone in an elderly patient with CKD is opioid-induced ventilatory impairment; sedation is the earlier and more reliable sign than respiratory rate or saturation on oxygen. Stop the PCA and escalate.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, B and C are wrong interpretations."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "D is the longest option and embeds management ('PCA stopped, registrar called') in an interpretation question, which signals the key."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 3,
+   "C": 2,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Sedation score definitions and triggers match standard Australian PCA protocols."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Make D an interpretation only, or convert the lead-in to 'most appropriate action'; explanation should mention naloxone threshold."
+ },
+ {
+  "item_id": "af964a13-2268-6df0-500d-9c64bbee3b12",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "Symptomatic postoperative retention with 650 mL on scan after 8 hours and failed conservative measures requires catheterisation; more fluid or tamsulosin (in a woman) is wrong and catheterisation is not contraindicated after inguinal hernia repair.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "Only A involves decompressing the bladder; an in-out catheter would also be acceptable but is not offered."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Balanced lengths; no cue."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate; IDC with trial of void within 24 h is standard, as is a single in-out catheter."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Difficulty 4 is overstated; a better item would offer in-out versus indwelling catheter as the discrimination."
+ },
+ {
+  "item_id": "4a585cff-0e6d-7d48-a328-03cd60e94127",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "New exertional angina over two weeks with new lateral T-wave inversion is an active cardiac condition; elective surgery should not proceed until assessed, so the anaesthetist and surgical registrar are told tonight and a troponin sent.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A and B proceed inappropriately; D (new beta blocker the night before) is harmful per POISE."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "C is the longest option and the only one with three actions; A's 'non-specific' and B's 'allow the surgery to proceed' both read as traps."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Escalation is the PGY2 action."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Trim C (e.g. 'Inform the anaesthetist and registrar tonight and send a troponin') to balance the options."
+ },
+ {
+  "item_id": "02918e15-95b6-5409-5134-adfa7069fb10",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "B",
+  "blind_confidence": "high",
+  "blind_reasoning": "A healthy 29-year-old needs no routine chest X-ray, ECG or coagulation screen; a woman of reproductive age with a late/irregular period must have a pregnancy test before anaesthesia.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "None of the others is indicated for an ASA 1 patient."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Single-word options; the LMP detail in the stem is a necessary clue, not a wording cue."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 1,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Within scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Good difficulty 1 item."
+ },
+ {
+  "item_id": "bb541b22-c24d-ff4a-f1dd-727bb1c01af4",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "D",
+  "blind_confidence": "high",
+  "blind_reasoning": "400 mL frank blood with tachycardia and hypotension is postoperative haemorrhage: escalate to the surgical registrar now, secure large-bore access, crossmatch and FBC, and leave the drain draining so bleeding is not concealed.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A and B are dangerous; C delays review."
+  },
+  "cueing": {
+   "flag": true,
+   "why": "D is the longest option and the only one containing escalation; the compound 'do all the right things' option is the key."
+  },
+  "distractor_plausibility": {
+   "A": 2,
+   "B": 1,
+   "C": 2,
+   "D": 1
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Recognise, resuscitate and escalate is PGY1 scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "concern",
+  "notes_for_reviewer": "Balance option length, e.g. give C a comparable list of actions with the wrong priority (fluids, one unit, morning review) so D is not the only 'full' option."
+ },
+ {
+  "item_id": "6c6cd812-18eb-d7e0-a694-f6f1b0b6cbf3",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "A",
+  "blind_confidence": "high",
+  "blind_reasoning": "Pain out of proportion, dusky skin, grey foul 'dishwater' discharge, induration beyond erythema, crepitus and septic shock with organ dysfunction are necrotising soft tissue infection until proven otherwise; this needs immediate surgical review for debridement plus sepsis management.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "B, C and D each dismiss the hallmark findings."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "A is first and slightly longest, but all options are compound interpretation-plus-management statements."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 1,
+   "C": 2,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate; labelling as a surgical emergency is correct."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Recognition and escalation are PGY2 scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Difficulty 5 is overstated: the stem lists every textbook sign including crepitus. To make it harder, remove crepitus and the grey discharge."
+ },
+ {
+  "item_id": "8e9a2140-c66a-b30d-ef2e-afb4ea37be8c",
+  "critic_version": "critic-prevoc-v0.1",
+  "blind_answer": "C",
+  "blind_confidence": "high",
+  "blind_reasoning": "Therapeutic Guidelines: cefazolin 2 g IV as a single dose within 60 minutes before incision for mesh hernia repair in a patient under 120 kg; postoperative doses are not indicated.",
+  "second_defensible": {
+   "flag": false,
+   "option": null,
+   "why": "A, B and D have the wrong route, timing or duration."
+  },
+  "cueing": {
+   "flag": false,
+   "why": "Balanced lengths; no cue."
+  },
+  "distractor_plausibility": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 2
+  },
+  "accuracy": {
+   "flag": false,
+   "why": "Accurate."
+  },
+  "level_fit": {
+   "flag": false,
+   "why": "Charting prophylaxis per guideline is within PGY1 scope."
+  },
+  "cultural_safety": {
+   "flag": false,
+   "why": "Not applicable."
+  },
+  "clarity": {
+   "flag": false,
+   "why": "Clear."
+  },
+  "overall": "pass",
+  "notes_for_reviewer": "Fine; difficulty 3 may be generous but B is a useful distractor."
+ }
+]

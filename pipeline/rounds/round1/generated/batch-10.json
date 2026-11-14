@@ -8,11 +8,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Complete the medical certificate of cause of death recording metastatic lung cancer, since death was expected."
+    "text": "Complete the medical certificate of cause of death, recording metastatic lung cancer as the cause."
    },
    {
     "id": "B",
-    "text": "Explain that the death must be reported to the Coroner because of the fall, and contact police or the State Coroner's Office before any certificate is issued."
+    "text": "Explain the death is reportable and notify police or the State Coroner's Office before certifying."
    },
    {
     "id": "C",
@@ -92,19 +92,19 @@
   "options": [
    {
     "id": "A",
-    "text": "He may continue to drive the truck until neurology review, because a single seizure does not establish epilepsy."
+    "text": "He may keep driving the truck until neurology review, because a single seizure does not establish epilepsy."
    },
    {
     "id": "B",
-    "text": "He may drive his car but not the truck until a neurologist clears him for commercial driving."
+    "text": "He may drive his car in the meantime, but not the truck until a neurologist clears him for commercial driving."
    },
    {
     "id": "C",
-    "text": "He must not drive any vehicle now; the non-driving period after a first seizure is at least 6 months for a private licence and years for his commercial licence, and he is obliged to notify the Registrar."
+    "text": "He must not drive either vehicle, for at least 6 months (car) or years (truck), and must notify the Registrar."
    },
    {
     "id": "D",
-    "text": "He must stop driving both vehicle classes for 12 months and may then resume without specialist review."
+    "text": "He must stop driving both vehicle classes for 12 months and may then resume driving without any specialist review."
    }
   ],
   "key": "C",
@@ -179,7 +179,7 @@
    },
    {
     "id": "B",
-    "text": "Accept the cash on the condition that it is shared among the nursing staff who were on duty."
+    "text": "Accept the cash on the condition that it is shared among the nursing staff who were on duty that night."
    },
    {
     "id": "C",
@@ -187,7 +187,7 @@
    },
    {
     "id": "D",
-    "text": "Thank her warmly, decline the cash and explain that staff cannot accept money, and suggest a card or donation to the hospital; the shared chocolates may be accepted if local policy allows."
+    "text": "Decline the cash, suggest a card or hospital donation instead, and let the nurses keep the chocolates per policy."
    }
   ],
   "key": "D",
@@ -342,7 +342,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Yes, any mental illness in a registered practitioner must be notified to AHPRA within 30 days."
+    "text": "Yes; any mental illness diagnosed in a registered practitioner must be notified to AHPRA within 30 days."
    },
    {
     "id": "B",
@@ -350,7 +350,7 @@
    },
    {
     "id": "C",
-    "text": "No; a treated health condition that is not placing patients at substantial risk of harm does not meet the mandatory notification threshold, and the right response is to support him and encourage ongoing care."
+    "text": "No; a treated condition not placing patients at substantial risk is below the notification threshold."
    },
    {
     "id": "D",
@@ -593,11 +593,11 @@
   "options": [
    {
     "id": "A",
-    "text": "You should not discuss his clinical details publicly even though he posted them himself, and should decline the friend request; a brief non-clinical thank you is acceptable."
+    "text": "You should not add clinical details publicly and should decline the friend request, but may post a brief non-clinical thanks."
    },
    {
     "id": "B",
-    "text": "Because he has disclosed the information himself, confidentiality no longer applies and you may reply with clinical reassurance about his recovery."
+    "text": "Since he disclosed it himself, confidentiality no longer applies and you may reply with clinical reassurance about his recovery."
    },
    {
     "id": "C",
@@ -605,7 +605,7 @@
    },
    {
     "id": "D",
-    "text": "You should ask the page administrator to remove his post because it breaches the hospital's social media policy."
+    "text": "You should ask the community page administrator to remove his post because it breaches the hospital's social media policy."
    }
   ],
   "key": "A",
@@ -675,15 +675,15 @@
   "options": [
    {
     "id": "A",
-    "text": "The urinary leucocytes indicate a urinary tract infection that explains his pain."
+    "text": "The urinary leucocytes indicate a urinary tract infection, which explains his abdominal pain."
    },
    {
     "id": "B",
-    "text": "The absence of a temperature above 38 degrees makes appendicitis unlikely."
+    "text": "The absence of a temperature above 38 degrees makes acute appendicitis an unlikely diagnosis."
    },
    {
     "id": "C",
-    "text": "The history, examination and inflammatory markers are consistent with acute appendicitis; trace urinary leucocytes can occur when an inflamed appendix lies near the ureter or bladder."
+    "text": "The findings fit acute appendicitis, and the trace urinary leucocytes are consistent with it."
    },
    {
     "id": "D",
@@ -759,19 +759,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Take blood for group and hold and send it urgently."
+    "text": "Take a blood sample for group and hold and send it to the blood bank as an urgent request."
    },
    {
     "id": "B",
-    "text": "Tell the anaesthetist and surgical registrar now that the potassium is 2.9 mmol/L and no nasogastric tube is in place."
+    "text": "Alert the anaesthetist and registrar to the 2.9 mmol/L potassium and absent nasogastric tube."
    },
    {
     "id": "C",
-    "text": "Insert a nasogastric tube and connect it to free drainage."
+    "text": "Insert a nasogastric tube and connect it to free drainage before she is taken down to theatre."
    },
    {
     "id": "D",
-    "text": "Chart 40 mmol potassium chloride in 1 litre of sodium chloride 0.9% over 4 hours."
+    "text": "Chart 40 mmol of potassium chloride in 1 litre of sodium chloride 0.9%, to run over 4 hours."
    }
   ],
   "key": "B",
@@ -929,7 +929,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Consent should be obtained by a doctor able to perform the procedure or fully explain its risks and alternatives, usually the registrar; you can prepare her, arrange the interpreter and Aboriginal Liaison Officer, and welcome her aunty."
+    "text": "Consent should be taken by a doctor who can perform it or fully explain its risks, usually the registrar."
    },
    {
     "id": "B",
@@ -941,7 +941,7 @@
    },
    {
     "id": "D",
-    "text": "The nurse in charge may obtain consent provided the registrar countersigns the form later."
+    "text": "The nurse in charge may obtain the patient's consent provided the registrar countersigns the form later."
    }
   ],
   "key": "A",
@@ -1013,19 +1013,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Nothing by mouth, including water, from midnight."
+    "text": "Nothing by mouth, including water or other clear fluids, from midnight (00:00) until surgery."
    },
    {
     "id": "B",
-    "text": "A light meal until 2 hours before surgery and clear fluids until 30 minutes before."
+    "text": "A light meal until 2 hours before surgery (06:00) and clear fluids until 30 minutes before (07:30)."
    },
    {
     "id": "C",
-    "text": "A light meal until 6 hours before surgery (02:00) and clear fluids such as water or apple juice until 2 hours before (06:00)."
+    "text": "A light meal until 6 hours before surgery (02:00) and clear fluids until 2 hours before (06:00)."
    },
    {
     "id": "D",
-    "text": "Clear fluids only from 18:00 the evening before, then nothing after midnight."
+    "text": "Clear fluids only from 18:00 the evening before, then nothing at all by mouth after midnight."
    }
   ],
   "key": "C",
@@ -1100,7 +1100,7 @@
    },
    {
     "id": "B",
-    "text": "Treat the hypoglycaemia now with oral glucose as a clear fluid or intravenous glucose, then inform the anaesthetist and surgeon of the result and the delay."
+    "text": "Give glucose now as a clear oral drink or intravenously, then tell the anaesthetist and surgeon."
    },
    {
     "id": "C",
@@ -1108,7 +1108,7 @@
    },
    {
     "id": "D",
-    "text": "Give her a sandwich now and tell theatre she will need to be rebooked for tomorrow."
+    "text": "Give her a sandwich now and tell theatre she will need to be rebooked onto tomorrow's list."
    }
   ],
   "key": "B",
@@ -1181,19 +1181,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Continue apixaban through the perioperative period because the procedure is endoscopic and minor."
+    "text": "Continue apixaban throughout, as the procedure is endoscopic and minor."
    },
    {
     "id": "B",
-    "text": "Stop apixaban 5 days before surgery and bridge with therapeutic enoxaparin until the night before."
+    "text": "Stop apixaban 5 days before surgery and bridge with therapeutic enoxaparin."
    },
    {
     "id": "C",
-    "text": "Stop apixaban 24 hours before surgery."
+    "text": "Take the last apixaban dose 24 hours before surgery, with no bridging."
    },
    {
     "id": "D",
-    "text": "Stop apixaban 48 hours before surgery with no bridging, and confirm the plan with the anaesthetist and urologist."
+    "text": "Take the last apixaban dose 48 hours before surgery, with no bridging."
    }
   ],
   "key": "D",
@@ -1517,15 +1517,15 @@
    },
    {
     "id": "B",
-    "text": "The low respiratory rate reflects residual sedation from the anaesthetic and will resolve if the PCA continues with oxygen."
+    "text": "The low respiratory rate is residual anaesthetic sedation and will resolve with oxygen as the PCA continues."
    },
    {
     "id": "C",
-    "text": "He is likely hypovolaemic from surgical blood loss, which explains his drowsiness."
+    "text": "He is most likely hypovolaemic from surgical blood loss, which would explain why he is drowsy."
    },
    {
     "id": "D",
-    "text": "He has opioid-induced ventilatory impairment; the sedation score is the key early sign, and the PCA should be stopped and the anaesthetic registrar called."
+    "text": "He has opioid-induced ventilatory impairment, and his sedation score is the key early warning sign."
    }
   ],
   "key": "D",
@@ -1681,19 +1681,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Proceed as planned, because the symptoms are stable and lateral T-wave changes are non-specific."
+    "text": "Proceed as planned, because the symptoms are stable and the lateral T-wave changes are non-specific."
    },
    {
     "id": "B",
-    "text": "Request an outpatient stress echocardiogram after discharge and allow the surgery to proceed in the morning."
+    "text": "Proceed with surgery in the morning, and request an outpatient stress echocardiogram after discharge."
    },
    {
     "id": "C",
-    "text": "Inform the anaesthetist and surgical registrar tonight of the new symptoms and ECG changes, send a troponin, and expect surgery to be deferred for cardiology assessment."
+    "text": "Tell the anaesthetist and surgical registrar tonight, send a troponin and expect surgery to be deferred."
    },
    {
     "id": "D",
-    "text": "Start aspirin and a beta blocker tonight so that the operation can go ahead safely in the morning."
+    "text": "Start aspirin and a beta blocker tonight so that the operation can safely go ahead as planned in the morning."
    }
   ],
   "key": "C",
@@ -1766,11 +1766,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Chest X-ray"
+    "text": "Plain chest X-ray"
    },
    {
     "id": "B",
-    "text": "Urine or serum pregnancy test"
+    "text": "Urine or serum hCG"
    },
    {
     "id": "C",
@@ -1849,11 +1849,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Clamp the drain to tamponade the bleeding and reassess the output in an hour."
+    "text": "Clamp the drain so that it tamponades the bleeding, and reassess the drain output in an hour's time."
    },
    {
     "id": "B",
-    "text": "Remove the drain, as it may be eroding a vessel, and apply a firm dressing over the site."
+    "text": "Remove the drain, as it may be eroding a vessel, and apply a firm pressure dressing over the drain site."
    },
    {
     "id": "C",
@@ -1861,7 +1861,7 @@
    },
    {
     "id": "D",
-    "text": "Call the surgical registrar now, insert a second large-bore cannula, send a group and crossmatch and full blood count, and leave the drain unclamped."
+    "text": "Call the registrar now, site a second large-bore cannula, send a crossmatch and keep the drain open."
    }
   ],
   "key": "D",
@@ -1934,7 +1934,7 @@
   "options": [
    {
     "id": "A",
-    "text": "A necrotising soft tissue infection of the abdominal wall; this is a surgical emergency needing immediate surgical review for debridement alongside sepsis management."
+    "text": "A necrotising soft tissue infection of the abdominal wall; he needs immediate surgical review for debridement."
    },
    {
     "id": "B",
@@ -1942,11 +1942,11 @@
    },
    {
     "id": "C",
-    "text": "An intra-abdominal collection; a CT with percutaneous drainage will address the fever and the wound changes are incidental."
+    "text": "An intra-abdominal collection causing the fever, for CT and percutaneous drainage; the wound changes are incidental."
    },
    {
     "id": "D",
-    "text": "Cellulitis around the wound; intravenous flucloxacillin and marking the erythema for reassessment in 12 hours are appropriate."
+    "text": "Cellulitis around the wound; give intravenous flucloxacillin and mark the erythema for reassessment in 12 hours."
    }
   ],
   "key": "A",
@@ -2019,19 +2019,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Cefalexin 500 mg orally with breakfast on the morning of surgery."
+    "text": "Cefalexin 500 mg orally, given with breakfast on the morning of the surgery."
    },
    {
     "id": "B",
-    "text": "Cefazolin 2 g intravenously at skin incision, then 8-hourly for 24 hours."
+    "text": "Cefazolin 2 g intravenously at skin incision, then 8-hourly for the next 24 hours."
    },
    {
     "id": "C",
-    "text": "Cefazolin 2 g intravenously as a single dose within 60 minutes before skin incision."
+    "text": "Cefazolin 2 g intravenously, single dose, within 60 minutes before incision."
    },
    {
     "id": "D",
-    "text": "Cefazolin 2 g intravenously in recovery after wound closure."
+    "text": "Cefazolin 2 g intravenously, single dose, in recovery after wound closure."
    }
   ],
   "key": "C",

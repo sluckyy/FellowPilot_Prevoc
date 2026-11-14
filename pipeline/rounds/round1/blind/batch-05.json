@@ -1,0 +1,1117 @@
+[
+ {
+  "item_id": "37d7adfa-e85d-4a78-8948-4847d2e0f22e",
+  "work_order_id": "r1-101",
+  "stem": "You are the intern on an evening cover shift at a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A nurse calls about a 32-year-old man with type 1 diabetes admitted this afternoon with gastroenteritis. He is on insulin glargine 22 units at night and insulin aspart with meals. He has vomited twice since arrival and has eaten almost nothing. His blood glucose is 9.8 mmol/L and capillary ketones are 0.4 mmol/L. Observations are normal and he is tolerating sips of water. The nurse asks whether she should give tonight's glargine, which is due in 30 minutes.",
+  "lead_in": "What is the most appropriate instruction for his insulin tonight?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Withhold all insulin until he is eating and drinking normally"
+   },
+   {
+    "id": "B",
+    "text": "Give the usual glargine dose, withhold mealtime aspart and check glucose and ketones 2-hourly"
+   },
+   {
+    "id": "C",
+    "text": "Withhold glargine and manage with supplemental aspart according to 4-hourly glucose readings"
+   },
+   {
+    "id": "D",
+    "text": "Give half the usual mealtime aspart dose now and withhold glargine until the morning"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "insulin on the ward",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "c7d757d7-0d37-8636-3ecd-e79ceef7f770",
+  "work_order_id": "r1-102",
+  "stem": "You are the intern on the general ward of a rural hospital on the Yorke Peninsula. The 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. A 29-year-old woman was admitted for observation after collapsing without warning while sitting at a family barbecue. She recovered within a minute, has no injuries and no past medical history. Her examination is normal and her lying and standing blood pressures are unchanged. She asks whether she can go home. Her 12-lead ECG, taken in the department, is in her notes. You know that some ECG findings in syncope mandate discussion with the GP on call and consideration of transfer for cardiology assessment rather than discharge.",
+  "lead_in": "Which ECG finding is a high-risk feature that requires escalation before she is discharged?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Sinus bradycardia at 56 beats per minute"
+   },
+   {
+    "id": "B",
+    "text": "Incomplete right bundle branch block"
+   },
+   {
+    "id": "C",
+    "text": "Corrected QT interval of 520 milliseconds"
+   },
+   {
+    "id": "D",
+    "text": "Sinus arrhythmia with respiration"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "syncope work-up",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.5",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "5c0972b1-5822-f194-079b-38caf1509089",
+  "work_order_id": "r1-103",
+  "stem": "You are the intern on an evening cover shift at a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air. The physician is available by phone. A 34-year-old woman presents to the ward clerk's desk asking to be seen because she was discharged from this hospital 5 weeks ago with newly diagnosed Graves disease and started on carbimazole 30 mg daily. Over 2 days she has developed a sore throat, mouth ulcers and fevers to 38.6 \u00b0C. Heart rate is 104, blood pressure 118/72, respiratory rate 18, oxygen saturation 98%. Her throat is red without exudate and she has no neck stiffness or rash. She took her carbimazole this morning.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe oral amoxicillin for pharyngitis, continue carbimazole and arrange GP review in 2 days"
+   },
+   {
+    "id": "B",
+    "text": "Replace carbimazole with propylthiouracil and send a thyroid function test"
+   },
+   {
+    "id": "C",
+    "text": "Reassure her that viral pharyngitis is likely, continue carbimazole and advise paracetamol"
+   },
+   {
+    "id": "D",
+    "text": "Withhold carbimazole, send an urgent full blood count with differential and discuss with the physician on call"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "thyroid disease",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.8",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "65bea202-5044-0b2d-397f-8974e8371486",
+  "work_order_id": "r1-104",
+  "stem": "You are the intern in the emergency department of a tertiary hospital in Adelaide. A 38-year-old Aboriginal man presents with 3 months of weight loss despite a good appetite, palpitations, heat intolerance and tremor. He has travelled from a regional community to visit family and has been offered support from the Aboriginal Liaison Officer, which he accepts. Heart rate is 112 and regular, blood pressure 138/70, temperature 37.1 \u00b0C. He has a fine tremor, warm moist palms and a smooth diffusely enlarged thyroid without nodules. His thyroid function results return: TSH less than 0.01 mIU/L (reference 0.4 to 4.0), free T4 48 pmol/L (reference 10 to 20), free T3 18 pmol/L (reference 3.5 to 6.5).",
+  "lead_in": "Which diagnosis do these thyroid function results indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Primary hyperthyroidism"
+   },
+   {
+    "id": "B",
+    "text": "Primary hypothyroidism"
+   },
+   {
+    "id": "C",
+    "text": "Subclinical hyperthyroidism"
+   },
+   {
+    "id": "D",
+    "text": "Secondary (central) hyperthyroidism"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "thyroid disease",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.5",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "f7e700ce-e6e0-3aac-a6bd-20706381b2db",
+  "work_order_id": "r1-105",
+  "stem": "You are the PGY2 resident covering the wards overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department staffed overnight by one junior doctor, with the GP on call at home 15 minutes away. At 0200 a nurse calls you to a 68-year-old man admitted 2 days ago with a community-acquired pneumonia. He takes apixaban 5 mg twice daily for atrial fibrillation and has just passed a large black tarry stool and feels light-headed. Heart rate is 112, blood pressure 94/58, respiratory rate 20, oxygen saturation 96% on room air, temperature 36.8 \u00b0C. He is pale with a soft abdomen and no peritonism. He has one 22-gauge cannula in situ. The nearest endoscopy service is in Adelaide.",
+  "lead_in": "What is the most appropriate immediate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start an oral proton pump inhibitor, keep him nil by mouth and repeat observations every 4 hours"
+   },
+   {
+    "id": "B",
+    "text": "Insert a nasogastric tube and perform gastric lavage to confirm the bleeding source"
+   },
+   {
+    "id": "C",
+    "text": "Insert two large-bore cannulas, send bloods including group and crossmatch, start crystalloid resuscitation, withhold apixaban and call the GP on call and MedSTAR for transfer"
+   },
+   {
+    "id": "D",
+    "text": "Give intravenous tranexamic acid and book him for endoscopy on the next visiting specialist list"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "upper gastrointestinal bleed",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "627b2637-51fc-0416-9c81-fe8fd2a7bb83",
+  "work_order_id": "r1-106",
+  "stem": "You are the intern in the pre-admission clinic of a rural hospital on the Yorke Peninsula, which has a 4-bed emergency department staffed overnight by one junior doctor with the GP on call. You are clerking a 38-year-old woman booked for an elective laparoscopic cholecystectomy on the visiting surgeon's list in 10 days. She mentions that 11 weeks ago she had a proximal deep vein thrombosis of the left leg after a long flight and has been taking apixaban 5 mg twice daily since. Her haemoglobin and renal function are normal and she has no bleeding history. The surgeon and anaesthetist are in Adelaide and the list is finalised by the end of today. You also need to complete her medication chart, consent paperwork and group and hold.",
+  "lead_in": "Which action should you prioritise before she leaves the clinic?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Instruct her to stop apixaban 48 hours before surgery as per the hospital's standard anticoagulant interruption guide"
+   },
+   {
+    "id": "B",
+    "text": "Phone the surgeon and anaesthetist today to flag the recent deep vein thrombosis and apixaban so they can decide on surgery timing and perioperative anticoagulation"
+   },
+   {
+    "id": "C",
+    "text": "Request a repeat lower limb Doppler ultrasound to confirm the thrombus has resolved before the operation"
+   },
+   {
+    "id": "D",
+    "text": "Request a thrombophilia screen so the result is available before the anaesthetic review"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "venous thromboembolism",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.7",
+   "2.4"
+  ]
+ },
+ {
+  "item_id": "17df154c-59de-5f8f-ceec-2aa70103376f",
+  "work_order_id": "r1-107",
+  "stem": "You are the intern on the surgical ward of a tertiary hospital in Adelaide. On the morning round the registrar asks you to review the medication chart of a 30-year-old man, weight 88 kg, who is day 1 after a laparoscopic appendicectomy for perforated appendicitis. He is on intravenous antibiotics and is expected to stay at least 3 more days. He is mobilising only to the bathroom because of pain. He has no history of bleeding, his platelet count is 260 x 10^9/L and his estimated glomerular filtration rate is above 90 mL/min/1.73 m2. The registrar notes that no venous thromboembolism prophylaxis has been charted and asks you to fix this before you move on.",
+  "lead_in": "What is the most appropriate prescription to add to his chart?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aspirin 100 mg orally once daily"
+   },
+   {
+    "id": "B",
+    "text": "Enoxaparin 1 mg/kg subcutaneously twice daily"
+   },
+   {
+    "id": "C",
+    "text": "Graduated compression stockings alone with early mobilisation"
+   },
+   {
+    "id": "D",
+    "text": "Enoxaparin 40 mg subcutaneously once daily"
+   }
+  ],
+  "learning_area": "General medicine",
+  "presentation": "venous thromboembolism",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "4.1",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "d166a38a-bb96-dc96-ca75-495e889aee19",
+  "work_order_id": "r1-108",
+  "stem": "You are the PGY2 resident on the medical ward of a rural hospital on the Yorke Peninsula, which has a 4-bed emergency department staffed overnight by one junior doctor with the GP on call. A 79-year-old man with Parkinson disease was admitted 3 days ago after a witnessed aspiration during a meal, with right lower lobe consolidation on chest X-ray. The locum overnight started intravenous piperacillin-tazobactam 4.5 g 8-hourly. He is now afebrile for 36 hours, eating a modified diet with speech pathology input, oxygen saturation 95% on room air, and C-reactive protein has fallen from 180 to 70 mg/L. Blood cultures at 48 hours are negative. He has normal renal function and no antibiotic allergies. The GP on call asks you to rationalise his antibiotics on today's round.",
+  "lead_in": "What is the most appropriate antibiotic plan?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cease piperacillin-tazobactam and change to oral amoxicillin to complete a total of 5 days, documenting the stop date"
+   },
+   {
+    "id": "B",
+    "text": "Continue intravenous piperacillin-tazobactam to complete 7 days because he is responding"
+   },
+   {
+    "id": "C",
+    "text": "Change to oral amoxicillin-clavulanate plus metronidazole for 10 days to cover anaerobes"
+   },
+   {
+    "id": "D",
+    "text": "Continue intravenous piperacillin-tazobactam for 5 days then step down to oral ciprofloxacin"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "antimicrobial stewardship",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.7",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "df0d6d54-8acc-e70f-5357-027c6fdfa20f",
+  "work_order_id": "r1-109",
+  "stem": "You are the PGY2 resident on the surgical ward of a rural hospital on the Yorke Peninsula, which has a 4-bed emergency department staffed overnight by one junior doctor with the GP on call. A 36-year-old man is day 3 after an open repair of an incarcerated inguinal hernia and is recovering well on oral analgesia. On the night of surgery he had a single temperature of 38.1 \u00b0C and the covering doctor took one set of blood cultures from a freshly inserted cannula. Today he is afebrile, heart rate 72, blood pressure 124/78, wound clean, eating and mobilising. The laboratory phones to report that the aerobic bottle of the single set has grown coagulase-negative staphylococci at 52 hours; the anaerobic bottle is negative. He is on no antibiotics.",
+  "lead_in": "What does this blood culture result most likely represent?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Methicillin-resistant Staphylococcus aureus bacteraemia requiring intravenous vancomycin"
+   },
+   {
+    "id": "B",
+    "text": "Staphylococcus aureus bacteraemia requiring at least 14 days of intravenous antibiotics"
+   },
+   {
+    "id": "C",
+    "text": "Skin contamination at the time of collection, with no antibiotic treatment indicated"
+   },
+   {
+    "id": "D",
+    "text": "Polymicrobial surgical sepsis requiring broadening to piperacillin-tazobactam"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "antimicrobial stewardship",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "D"
+  ],
+  "domains": [
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "89b0124c-f854-0164-2a2c-a711288bdb4b",
+  "work_order_id": "r1-110",
+  "stem": "You are the sole junior doctor overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department; the GP on call is at home 20 minutes away. At 0100 a 70-year-old man with type 2 diabetes presents with 12 hours of rapidly spreading redness of the right calf and severe pain that seems out of proportion to the appearance. Heart rate is 118, blood pressure 98/60, respiratory rate 24, temperature 38.9 \u00b0C, oxygen saturation 95%. The skin over the calf is tense and dusky with two haemorrhagic bullae, and the tenderness extends beyond the erythema. Venous lactate is 3.6 mmol/L. At the same time a teenager with a deformed wrist is waiting to be seen and a ward nurse asks you to chart a sedative for a restless patient.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start intravenous flucloxacillin 2 g 6-hourly for cellulitis, admit him and hand over to the GP for review in the morning"
+   },
+   {
+    "id": "B",
+    "text": "Request a plain X-ray of the leg to look for soft tissue gas before deciding whether to escalate"
+   },
+   {
+    "id": "C",
+    "text": "Mark the edge of the erythema, elevate the leg, start intravenous fluids and reassess the limb in 2 hours"
+   },
+   {
+    "id": "D",
+    "text": "Start fluid resuscitation and broad-spectrum intravenous antibiotics for necrotising infection and immediately call the GP on call and MedSTAR for urgent transfer to a surgical service"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "cellulitis",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 5,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "6e68eb72-2140-0052-85a9-6bf995bf5094",
+  "work_order_id": "r1-111",
+  "stem": "You are the intern in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone. A 27-year-old woman presents with 4 days of fever, cough, runny nose and red eyes, followed today by a blotchy red maculopapular rash that began on her face and is spreading down her trunk. She returned from a holiday in South-East Asia 10 days ago and says she never received childhood vaccinations. On examination she has small white spots on the buccal mucosa opposite the molars. She is sitting in the open waiting area and the triage nurse asks what precautions are needed while you arrange her assessment.",
+  "lead_in": "Which transmission-based precautions are required for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Standard precautions with hand hygiene and a surgical mask for the patient"
+   },
+   {
+    "id": "B",
+    "text": "Airborne precautions in a single room with the door closed, staff wearing a fit-checked P2/N95 respirator, with only measles-immune staff entering"
+   },
+   {
+    "id": "C",
+    "text": "Droplet precautions with a surgical mask for staff within 1 metre of the patient"
+   },
+   {
+    "id": "D",
+    "text": "Contact precautions with gown and gloves and dedicated patient equipment"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "infection control and isolation",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.1",
+   "1.9"
+  ]
+ },
+ {
+  "item_id": "5bcef505-054e-9422-2318-358c983c15b0",
+  "work_order_id": "r1-112",
+  "stem": "You are the PGY2 resident in the recovery and surgical ward area of a tertiary hospital in Adelaide. A 41-year-old man has just returned from theatre after an elective open inguinal hernia repair and is well, with a dry dressing, temperature 36.9 \u00b0C and normal observations. The laboratory phones with a result from the nasal and groin screening swabs taken at pre-admission clinic 3 days ago, which had not been reported before surgery: methicillin-resistant Staphylococcus aureus detected in the nasal swab, groin swab negative. He has no skin lesions, no wound problems and has never had a staphylococcal infection. The recovery nurse asks you what the result means for his care and bed placement.",
+  "lead_in": "How should this result be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "MRSA colonisation, requiring contact precautions and a single room, with no systemic antibiotic treatment"
+   },
+   {
+    "id": "B",
+    "text": "Active MRSA infection, requiring intravenous vancomycin to be started before he leaves recovery"
+   },
+   {
+    "id": "C",
+    "text": "Probable laboratory contamination, requiring a repeat swab before any precautions are applied"
+   },
+   {
+    "id": "D",
+    "text": "A result of no clinical significance because he is asymptomatic, so standard precautions are sufficient"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "infection control and isolation",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.1",
+   "1.8",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "7d1cf870-97aa-8d44-7f38-22a1b16abe90",
+  "work_order_id": "r1-113",
+  "stem": "You are the intern on the medical ward of a tertiary hospital in Adelaide. A nurse asks you to review an 81-year-old woman admitted 5 days ago with a urinary tract infection, now on oral antibiotics and awaiting a rehabilitation bed. Her peripheral intravenous cannula in the left forearm was inserted on admission and has been unused for 2 days. Over the last 24 hours the site has become red, hot and tender along 5 cm of the vein, with a small amount of pus at the insertion point. Her temperature is 38.4 \u00b0C, heart rate 98, blood pressure 128/70, respiratory rate 18 and oxygen saturation 96%. She has no allergies and normal renal function. The registrar is in a procedure and available by phone.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Leave the cannula in place, apply topical mupirocin to the site and review in the morning"
+   },
+   {
+    "id": "B",
+    "text": "Remove the cannula, apply a warm compress and review the site in 24 hours without further investigation"
+   },
+   {
+    "id": "C",
+    "text": "Remove the cannula, take two sets of blood cultures from another site, swab the pus and start intravenous flucloxacillin through a new cannula, then inform the registrar"
+   },
+   {
+    "id": "D",
+    "text": "Leave the cannula in place to avoid difficult re-cannulation and start oral cefalexin"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "line-related infection",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "35839da2-248c-91df-feed-7d7f90976dee",
+  "work_order_id": "r1-114",
+  "stem": "You are the sole junior doctor overnight at a rural hospital on the Yorke Peninsula with a 4-bed emergency department; the GP on call is available by phone. A 19-year-old woman is brought in by her mother with 8 hours of severe headache, vomiting and fever. She is drowsy but rousable, dislikes the light and cannot touch her chin to her chest. Temperature is 39.4 \u00b0C, heart rate 124, blood pressure 92/54, respiratory rate 24. On exposing her legs you find scattered purple spots 1 to 3 mm in size that do not fade when a glass is pressed over them. She has no history of bleeding disorders and takes no regular medications.",
+  "lead_in": "What is the most likely explanation for these findings?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Viral meningitis with incidental bruising from a minor injury"
+   },
+   {
+    "id": "B",
+    "text": "Meningococcal septicaemia with meningitis"
+   },
+   {
+    "id": "C",
+    "text": "Migraine with a viral exanthem"
+   },
+   {
+    "id": "D",
+    "text": "Immune thrombocytopenic purpura with a coincidental febrile illness"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "meningitis",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "6235c503-109a-1fc9-fbb1-90bf593a0a89",
+  "work_order_id": "r1-115",
+  "stem": "You are the intern on the general ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air. At 2300 a 40-year-old woman who received her second cycle of chemotherapy for breast cancer 9 days ago is admitted from the emergency department with rigors. Temperature is 38.5 \u00b0C, heart rate 108, blood pressure 108/66, respiratory rate 20, oxygen saturation 97% on room air. She has a chemotherapy port in place with a clean site and no localising symptoms. Her full blood count was sent from the emergency department and the result is expected in 45 minutes. The physician on call lives 30 minutes away and has asked to be phoned with any concerns. You also have a discharge summary to finish and two medication charts to rewrite before midnight.",
+  "lead_in": "Which action takes priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wait for the neutrophil count to confirm neutropenia before choosing an antibiotic"
+   },
+   {
+    "id": "B",
+    "text": "Give paracetamol, document a plan for review and present her to the physician on the morning round"
+   },
+   {
+    "id": "C",
+    "text": "Arrange transfer to Adelaide now and defer antibiotics until she arrives at a centre with oncology"
+   },
+   {
+    "id": "D",
+    "text": "Take blood cultures from the port and a peripheral vein and give intravenous piperacillin-tazobactam within 60 minutes, then phone the physician on call"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "neutropenic fever",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "b06e1d51-34c5-7125-3dab-0850b8160826",
+  "work_order_id": "r1-116",
+  "stem": "You are the PGY2 resident covering the wards and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. At 2330 you admit a 54-year-old woman with 18 hours of profuse watery diarrhoea, vomiting, fever of 38.6 \u00b0C and mild dehydration. She attended a community fundraising dinner 2 nights ago. While you are writing her admission, the nurse tells you two other people who ate at the same dinner have been seen in the department this evening with the same symptoms and sent home with oral rehydration advice. Stool specimens have been sent from all three but no results are expected for 48 hours. The patient is stable after a litre of intravenous fluid.",
+  "lead_in": "What is the most appropriate action regarding public health notification?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the SA Health Communicable Disease Control Branch now to report a suspected food-borne outbreak, before culture results are available"
+   },
+   {
+    "id": "B",
+    "text": "Wait for the stool culture results, because the laboratory will notify any confirmed pathogen"
+   },
+   {
+    "id": "C",
+    "text": "Ask the GP on call to contact the local council environmental health officer in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Document the cluster in the notes and notify public health only if any of the patients becomes critically unwell"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "notifiable diseases",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.1",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "84db8bc6-d1d6-e349-4458-3b620acada4a",
+  "work_order_id": "r1-117",
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging. A 78-year-old woman is brought from a residential aged care facility with 2 days of fever, cough and increasing breathlessness; three other residents on her wing have similar symptoms this week. She is coughing frequently and is on a trolley in a shared cubicle. Temperature is 38.4 \u00b0C, heart rate 102, blood pressure 132/78, respiratory rate 26, oxygen saturation 90% on room air. She is alert and oriented. The nurse asks what you want done first while she sets up for your examination.",
+  "lead_in": "Which action should you prioritise?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Send a respiratory viral PCR and keep her in the shared cubicle until the result is known"
+   },
+   {
+    "id": "B",
+    "text": "Prescribe oseltamivir immediately before completing the examination"
+   },
+   {
+    "id": "C",
+    "text": "Move her to a single room with droplet and contact precautions, start oxygen to a target saturation of 92 to 96% and then complete your assessment"
+   },
+   {
+    "id": "D",
+    "text": "Return her to the facility with a surgical mask to limit transmission within the department"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "respiratory virus on the ward",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "1.9",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "db65ad50-c57f-ec86-cda0-fca3d03c39a3",
+  "work_order_id": "r1-118",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A 36-year-old woman presents with 2 days of dysuria, right flank pain, vomiting and rigors. On arrival her temperature is 39.2 \u00b0C, heart rate 124, blood pressure 92/54, respiratory rate 26 and oxygen saturation 95% on room air. She is flushed and drowsy but answers questions. The triage nurse has inserted a cannula and taken blood cultures, and a litre of intravenous crystalloid has just finished. Her repeat observations are heart rate 118, blood pressure 88/50. Venous lactate is 4.2 mmol/L. Urine dipstick shows leukocytes, nitrites and blood.",
+  "lead_in": "How should this clinical picture be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Uncomplicated pyelonephritis suitable for oral antibiotics and discharge after a further fluid bolus"
+   },
+   {
+    "id": "B",
+    "text": "Septic shock from a urinary source requiring immediate senior escalation and the sepsis pathway"
+   },
+   {
+    "id": "C",
+    "text": "Dehydration from vomiting, with a reassuring response to intravenous fluid"
+   },
+   {
+    "id": "D",
+    "text": "Anaphylaxis requiring intramuscular adrenaline"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "sepsis recognition and the sepsis pathway",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.9",
+   "4.1",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "fe7ad2f1-ee30-6b36-b7f8-21717204c236",
+  "work_order_id": "r1-119",
+  "stem": "You are the intern on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air. A 22-year-old man with spina bifida and a neurogenic bladder managed by clean intermittent self-catheterisation four times a day was admitted yesterday with cellulitis of the foot and is improving on intravenous flucloxacillin. On admission a nurse sent a routine catheter urine specimen. The result shows leukocytes 2+ and nitrites positive on dipstick, and culture of Escherichia coli greater than 10^8 colony-forming units per litre, sensitive to trimethoprim and cefalexin. He has no dysuria, frequency, suprapubic or flank pain, no change in his usual bladder sensation, and his temperature has been under 37.5 \u00b0C since admission.",
+  "lead_in": "What does this urine result most likely represent?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Catheter-associated urinary tract infection requiring 7 days of oral antibiotics"
+   },
+   {
+    "id": "B",
+    "text": "Early urosepsis requiring a change to broader intravenous antibiotics"
+   },
+   {
+    "id": "C",
+    "text": "A contaminated specimen requiring a repeat midstream sample before any decision"
+   },
+   {
+    "id": "D",
+    "text": "Asymptomatic bacteriuria that does not require antibiotic treatment"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "urinary tract infection",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "59514ddd-a5e6-a931-5f18-1bff6e617aff",
+  "work_order_id": "r1-120",
+  "stem": "You are the junior doctor on the medical ward of a regional hospital with a small ICU-free medical ward, on-site CT during business hours only and retrieval to Adelaide by road or air. A 58-year-old man is admitted from the emergency department with 2 days of dysuria, fever, rigors and right flank pain, and has vomited three times this morning. Temperature is 38.8 \u00b0C, heart rate 104, blood pressure 118/74, respiratory rate 20, oxygen saturation 97%. His abdomen is soft with right renal angle tenderness. He has no drug allergies, weighs 82 kg and his estimated glomerular filtration rate is 75 mL/min/1.73 m2. Urine dipstick shows leukocytes and nitrites. The physician will review him this afternoon and asks you to start treatment now.",
+  "lead_in": "What is the most appropriate initial antibiotic management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Send urine and blood cultures, then start intravenous gentamicin plus intravenous amoxicillin"
+   },
+   {
+    "id": "B",
+    "text": "Start oral trimethoprim 300 mg at night for 7 days"
+   },
+   {
+    "id": "C",
+    "text": "Give a single dose of intravenous ceftriaxone and discharge on oral cefalexin"
+   },
+   {
+    "id": "D",
+    "text": "Start intravenous vancomycin plus intravenous meropenem"
+   }
+  ],
+  "learning_area": "Infection and sepsis",
+  "presentation": "urinary tract infection",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "4.1",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "ec412002-8c8b-222d-f73d-a43a5e384ff9",
+  "work_order_id": "r1-121",
+  "stem": "You are the intern on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre, where you also cover the emergency department overnight. The surgeon has gone home and the GP on call is available by phone. At 2200 a nurse asks you to see a 78-year-old man who is day 3 after a hemiarthroplasty for a fractured neck of femur. He has new right-sided pleuritic chest pain and feels short of breath. Heart rate is 104, blood pressure 130/80, respiratory rate 22, oxygen saturation 92% on room air, temperature 37.2 \u00b0C. His calves are soft. He has been receiving enoxaparin 40 mg daily since surgery. The nurse suggests sending a D-dimer with the morning bloods and reviewing him then.",
+  "lead_in": "What is the most appropriate approach?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Send a D-dimer now and escalate only if it is raised"
+   },
+   {
+    "id": "B",
+    "text": "Assess him now with an ECG and repeat observations, treat him as high pretest probability for pulmonary embolism and discuss empirical anticoagulation and transfer for CT pulmonary angiography with the GP on call tonight"
+   },
+   {
+    "id": "C",
+    "text": "Prescribe oral analgesia for musculoskeletal chest pain and review him on the morning round"
+   },
+   {
+    "id": "D",
+    "text": "Request a chest X-ray and defer any decision until the film has been reported"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "D-dimer and pretest probability",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "D"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "3db47ffd-0556-43c1-3d6e-08533cedae61",
+  "work_order_id": "r1-122",
+  "stem": "You are the PGY2 resident on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting physician and specialist advice by phone. A 34-year-old woman was admitted overnight with 3 days of profuse vomiting and diarrhoea from gastroenteritis. She has no cardiac history and takes no regular medications. This morning she reports palpitations and leg weakness. Heart rate is 96 and regular, blood pressure 108/70. Her ECG shows sinus rhythm, flattened T waves in most leads, prominent U waves best seen in V2 to V4, mild ST segment depression in the lateral leads and an apparently prolonged QT interval. Her electrolytes, sent an hour ago, are not yet back.",
+  "lead_in": "Which abnormality do these ECG changes most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Hyperkalaemia"
+   },
+   {
+    "id": "B",
+    "text": "Acute pericarditis"
+   },
+   {
+    "id": "C",
+    "text": "Hypokalaemia"
+   },
+   {
+    "id": "D",
+    "text": "Inferior ST-elevation myocardial infarction"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "ECG interpretation",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "2c1ceafe-0ddf-7521-186a-6ff091583ef9",
+  "work_order_id": "r1-123",
+  "stem": "You are the PGY2 resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging. A 68-year-old man presents with 3 days of colicky central abdominal pain, repeated bilious vomiting and no flatus or bowel action for 36 hours. He had an open appendicectomy 20 years ago. Heart rate is 102, blood pressure 124/78, temperature 37.3 \u00b0C. His abdomen is distended and tympanic with a midline scar, mild generalised tenderness and no guarding or rebound. The supine abdominal X-ray you requested shows several dilated loops of small bowel up to 4 cm in diameter with valvulae conniventes, multiple air-fluid levels on the erect film and no gas in the colon or rectum. The surgical registrar is in theatre and expects to be free in 30 minutes.",
+  "lead_in": "What is the most appropriate management while you wait for the surgical registrar?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Discharge him with oral laxatives and advice to return if the vomiting persists"
+   },
+   {
+    "id": "B",
+    "text": "Give oral water-soluble contrast and reassess in 6 hours before involving the surgical team"
+   },
+   {
+    "id": "C",
+    "text": "Start intravenous antibiotics for diverticulitis and admit under the medical team"
+   },
+   {
+    "id": "D",
+    "text": "Keep him nil by mouth, insert a nasogastric tube on free drainage, start intravenous fluids and analgesia, send bloods including lactate, and request a CT of the abdomen with intravenous contrast"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "abdominal X-ray",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "4.1",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "6a5aa9cc-474a-c3b3-c925-3890dabe1ffa",
+  "work_order_id": "r1-124",
+  "stem": "You are the junior doctor on the surgical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and physician and specialist advice by phone. A nurse asks you to review an 80-year-old woman who is day 2 after a laparotomy for a perforated duodenal ulcer. She has a morphine patient-controlled analgesia pump and received 20 mg of oral oxycodone from the pain chart over the last 6 hours. She is difficult to rouse, with respiratory rate 7, oxygen saturation 90% on 4 L/min oxygen by nasal prongs, heart rate 84, blood pressure 118/70, and pinpoint pupils. She has no history of lung disease and is not a smoker. An arterial blood gas on 4 L/min shows pH 7.24, PaCO2 68 mmHg, PaO2 82 mmHg, bicarbonate 28 mmol/L, base excess +1.",
+  "lead_in": "How should this blood gas be interpreted?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute respiratory acidosis from opioid-induced hypoventilation"
+   },
+   {
+    "id": "B",
+    "text": "Chronic compensated respiratory acidosis from undiagnosed chronic obstructive pulmonary disease"
+   },
+   {
+    "id": "C",
+    "text": "Metabolic acidosis from postoperative sepsis"
+   },
+   {
+    "id": "D",
+    "text": "Metabolic alkalosis from gastric losses"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "arterial blood gas",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "578282fe-c769-bdd2-6a2b-bdc8e7e053d0",
+  "work_order_id": "r1-125",
+  "stem": "You are the junior doctor in the emergency department of a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A 29-year-old tall, slim woman presents with sudden right-sided pleuritic chest pain and breathlessness that began an hour ago while lifting boxes. She is distressed, speaking in short phrases. Heart rate is 128, blood pressure 84/50, respiratory rate 32, oxygen saturation 87% on 15 L/min oxygen by non-rebreather mask. The trachea is deviated to the left, the right hemithorax is hyper-resonant with absent breath sounds, and the neck veins are distended. A portable chest X-ray has been requested and the radiographer says she will be there in about 10 minutes. The registrar is with another patient in resuscitation bay 2 and the nurse asks what you want to do.",
+  "lead_in": "What is the most appropriate immediate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wait for the chest X-ray to confirm the diagnosis before any intervention"
+   },
+   {
+    "id": "B",
+    "text": "Perform immediate needle decompression of the right chest and call the registrar for urgent chest drain insertion"
+   },
+   {
+    "id": "C",
+    "text": "Give a 500 mL intravenous fluid bolus and intravenous analgesia and repeat the observations in 15 minutes"
+   },
+   {
+    "id": "D",
+    "text": "Arrange an urgent CT pulmonary angiogram to exclude pulmonary embolism"
+   }
+  ],
+  "learning_area": "Investigations and interpretation",
+  "presentation": "chest X-ray interpretation",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.5",
+   "1.9",
+   "1.6"
+  ]
+ }
+]

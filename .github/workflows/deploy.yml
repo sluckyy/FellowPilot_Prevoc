@@ -1,7 +1,10 @@
 name: Deploy to Azure
 
 # Runs after CI passes on main, or by hand from the Actions tab.
-# Sign-in to Azure uses OpenID Connect: no Azure password or key is stored in GitHub.
+# Sign-in to Azure uses OpenID Connect: no Azure password or key is stored in GitHub. The deploy
+# identity, resource group and IDs below are not secrets; repository variables of the same name
+# override them. Generated passwords live in the bootstrap Key Vault, which only the deploy identity
+# (and the subscription owner) can read. GitHub secrets of the same name, if set, take precedence.
 on:
   workflow_run:
     workflows: [CI]
@@ -12,19 +15,57 @@ on:
 permissions:
   id-token: write   # OIDC token for azure/login
   contents: read
+  actions: read     # to find the last successful deploy
 
 concurrency:
   group: deploy-beta
   cancel-in-progress: false
 
 env:
-  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+  AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID || '5abe5757-757e-44b6-8257-f082239fb0a9' }}
+  AZURE_TENANT_ID: ${{ vars.AZURE_TENANT_ID || '73127c6e-f145-485b-aca3-9acd217aef4c' }}
+  AZURE_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID || 'baaab4c0-90a6-455f-9a75-2b9c83ea7763' }}
+  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP || 'rg-fellowpilot-prevoc-beta' }}
+  BOOTSTRAP_VAULT: ${{ vars.BOOTSTRAP_VAULT || 'fpprevoc-boot-f6dc80' }}
 
 jobs:
-  deploy:
+  # Question-generation work (pipeline/) and documentation don't change the running app, so a push
+  # that touches only those doesn't redeploy. Anything else since the last successful deploy does.
+  changes:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    environment: beta   # add required reviewers on this environment to approve each deploy
+    outputs:
+      deploy: ${{ steps.diff.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 0
+      - id: diff
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "deploy=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          last=$(gh run list -R "${{ github.repository }}" --workflow deploy.yml --status success --limit 20 --json headSha,databaseId \
+                 --jq "map(select(.databaseId != ${{ github.run_id }})) | .[0].headSha // empty" || true)
+          if [ -z "$last" ] || ! git cat-file -e "$last^{commit}" 2>/dev/null; then
+            echo "No earlier successful deploy found: deploying."; echo "deploy=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          changed=$(git diff --name-only "$last" "$HEAD_SHA" | grep -vE '^(pipeline/|docs/|.*\.md$)' || true)
+          if [ -n "$changed" ]; then
+            echo "App, database or infrastructure changed since ${last:0:7}:"; echo "$changed" | head -20
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice title=No deploy needed::Only question-generation files or docs changed since the last deploy (${last:0:7})."
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: changes
+    if: needs.changes.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    environment: beta   # the Azure federated credential trusts this environment; add required reviewers to approve each deploy
     steps:
       - uses: actions/checkout@v4
         with:
@@ -45,9 +86,37 @@ jobs:
       - name: Sign in to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Show the sign-in identity GitHub presented (only if sign-in failed)
+        if: failure()
+        run: |
+          tok=$(curl -fsS -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api://AzureADTokenExchange" | jq -r .value)
+          claims=$(cut -d. -f2 <<<"$tok" | tr '_-' '/+' | base64 -d 2>/dev/null || cut -d. -f2 <<<"$tok" | tr '_-' '/+' | sed 's/$/==/' | base64 -d)
+          echo "::error title=OIDC subject::$(jq -r .sub <<<"$claims"). The federated credential on the deploy identity must match this exactly."
+
+      - name: Load deployment secrets
+        env:
+          GH_PG_ADMIN: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+          GH_PG_APP: ${{ secrets.POSTGRES_APP_PASSWORD }}
+          GH_SESSION: ${{ secrets.SESSION_SECRET }}
+          GH_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_ADMIN_EMAIL: ${{ vars.ADMIN_EMAIL }}
+        run: |
+          kv() { az keyvault secret show --vault-name "$BOOTSTRAP_VAULT" -n "$1" --query value -o tsv 2>/dev/null || true; }
+          put() { local name="$1" value="$2" required="$3"
+            if [ -z "$value" ] && [ "$required" = yes ]; then echo "::error title=Missing secret::$name is in neither GitHub secrets nor Key Vault $BOOTSTRAP_VAULT"; exit 1; fi
+            [ -n "$value" ] && echo "::add-mask::$value"
+            { echo "$name<<__EOV__"; echo "$value"; echo "__EOV__"; } >> "$GITHUB_ENV"; }
+          put PG_ADMIN_PASSWORD "${GH_PG_ADMIN:-$(kv postgres-admin-password)}" yes
+          put PG_APP_PASSWORD   "${GH_PG_APP:-$(kv postgres-app-password)}" yes
+          put SESSION_SECRET    "${GH_SESSION:-$(kv session-secret)}" yes
+          put ANTHROPIC_KEY     "${GH_ANTHROPIC:-$(kv anthropic-api-key)}" no
+          admin="${GH_ADMIN_EMAIL:-$(kv admin-email)}"
+          echo "ADMIN_EMAIL=$admin" >> "$GITHUB_ENV"
+          [ -n "$admin" ] || echo "::warning title=No admin email::Nobody can sign in until an admin email is set (repository variable ADMIN_EMAIL, or Key Vault secret admin-email)."
 
       - name: Deploy infrastructure
         id: infra
@@ -57,11 +126,11 @@ jobs:
           template: infra/main.bicep
           parameters: >-
             infra/main.parameters.json
-            postgresAdminPassword=${{ secrets.POSTGRES_ADMIN_PASSWORD }}
-            postgresAppPassword=${{ secrets.POSTGRES_APP_PASSWORD }}
-            sessionSecret=${{ secrets.SESSION_SECRET }}
-            adminEmail=${{ vars.ADMIN_EMAIL }}
-            anthropicApiKey=${{ secrets.ANTHROPIC_API_KEY }}
+            postgresAdminPassword=${{ env.PG_ADMIN_PASSWORD }}
+            postgresAppPassword=${{ env.PG_APP_PASSWORD }}
+            sessionSecret=${{ env.SESSION_SECRET }}
+            adminEmail=${{ env.ADMIN_EMAIL }}
+            anthropicApiKey=${{ env.ANTHROPIC_KEY }}
           deploymentName: fellowpilot-prevoc-${{ github.run_number }}
           failOnStdErr: false
 
@@ -78,8 +147,8 @@ jobs:
         env:
           # A libpq keyword string, so the password never needs URL-encoding.
           ADMIN_DATABASE_URL: host=${{ steps.infra.outputs.postgresHost }} port=5432 dbname=${{ steps.infra.outputs.postgresDatabase }} user=fpadmin sslmode=require
-          PGPASSWORD: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
-          APP_DB_PASSWORD: ${{ secrets.POSTGRES_APP_PASSWORD }}
+          PGPASSWORD: ${{ env.PG_ADMIN_PASSWORD }}
+          APP_DB_PASSWORD: ${{ env.PG_APP_PASSWORD }}
         run: |
           command -v psql >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client >/dev/null)
           db/migrate.sh

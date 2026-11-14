@@ -34,7 +34,11 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+  AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID || '5abe5757-757e-44b6-8257-f082239fb0a9' }}
+  AZURE_TENANT_ID: ${{ vars.AZURE_TENANT_ID || '73127c6e-f145-485b-aca3-9acd217aef4c' }}
+  AZURE_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID || 'baaab4c0-90a6-455f-9a75-2b9c83ea7763' }}
+  RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP || 'rg-fellowpilot-prevoc-beta' }}
+  BOOTSTRAP_VAULT: ${{ vars.BOOTSTRAP_VAULT || 'fpprevoc-boot-f6dc80' }}
 
 jobs:
   import:
@@ -75,9 +79,9 @@ jobs:
         if: ${{ !inputs.dry_run }}
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: ${{ env.AZURE_CLIENT_ID }}
+          tenant-id: ${{ env.AZURE_TENANT_ID }}
+          subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
 
       - name: Open database firewall for this runner
         if: ${{ !inputs.dry_run }}
@@ -94,8 +98,10 @@ jobs:
       - name: Load questions
         if: ${{ !inputs.dry_run }}
         env:
-          PGPASSWORD: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
+          GH_PG_ADMIN: ${{ secrets.POSTGRES_ADMIN_PASSWORD }}
         run: |
+          export PGPASSWORD="${GH_PG_ADMIN:-$(az keyvault secret show --vault-name "$BOOTSTRAP_VAULT" -n postgres-admin-password --query value -o tsv)}"
+          echo "::add-mask::$PGPASSWORD"
           command -v psql >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client >/dev/null)
           conn="host=${{ steps.fw.outputs.host }} port=5432 dbname=fellowpilot user=fpadmin sslmode=require"
           psql "$conn" -v ON_ERROR_STOP=1 -q -f import.sql

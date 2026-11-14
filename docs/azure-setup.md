@@ -20,38 +20,30 @@ in GitHub.
 
 The deploy job must run with `environment: beta` (it does), or the sign-in fails.
 
-## 1. GitHub environment and secrets
+## 1. Secrets: nothing to paste
 
-Repo → **Settings → Environments → New environment** → name `beta`.
-Under **Deployment protection rules**, tick **Required reviewers** and add yourself, so nothing deploys
-without your approval.
+The workflows carry the (non-secret) Azure IDs above, and the generated passwords are in the bootstrap
+Key Vault `fpprevoc-boot-f6dc80` in the same resource group, readable by the deploy identity and by the subscription
+owner. Nobody needs to type or keep a password:
 
-Then in the `beta` environment, add **Environment secrets**:
-
-| Secret | Value |
+| Key Vault secret | What it is |
 | --- | --- |
-| `AZURE_CLIENT_ID` | `5abe5757-757e-44b6-8257-f082239fb0a9` |
-| `AZURE_TENANT_ID` | `73127c6e-f145-485b-aca3-9acd217aef4c` |
-| `AZURE_SUBSCRIPTION_ID` | `baaab4c0-90a6-455f-9a75-2b9c83ea7763` |
-| `POSTGRES_ADMIN_PASSWORD` | a new random password (see below) |
-| `POSTGRES_APP_PASSWORD` | a different random password |
-| `SESSION_SECRET` | a random string of at least 32 characters (also derives the reflection encryption keys: back it up) |
-| `ANTHROPIC_API_KEY` | optional: switches on the "Ask why" tutor and the question-writing coach |
+| `postgres-admin-password` | Postgres administrator (used by migrations only) |
+| `postgres-app-password` | the web app's least-privilege database login |
+| `session-secret` | signs session cookies and derives the per-trainee reflection keys: never rotate it casually |
+| `admin-email` (optional) | the first admin; their first sign-in creates the account |
+| `anthropic-api-key` (optional) | switches on the "Ask why" tutor and the question-writing coach |
 
-And two **Environment variables**: `AZURE_RESOURCE_GROUP` = `rg-fellowpilot-prevoc-beta`, and
-`ADMIN_EMAIL` = the email of the first admin (their first sign-in creates the account; they invite everyone else).
+To see or change one: Azure portal, Key vaults, `fpprevoc-boot-f6dc80`, Secrets. GitHub secrets or repository variables
+with the same names as the workflow's (`POSTGRES_ADMIN_PASSWORD`, `ADMIN_EMAIL`, `AZURE_CLIENT_ID` ...)
+override these if you ever prefer them.
 
-To make the random values use a password manager's generator (24+ characters), or:
-
-```bash
-openssl rand -base64 30
-```
-
-Keep the admin password in your password manager; you'll want it if you ever connect to the database directly.
+Recommended: in the repo, Settings, Environments, `beta`, tick **Required reviewers** and add yourself,
+so nothing deploys without your approval.
 
 ## 2. Deploy
 
-Repo → **Actions** → **Deploy to Azure** → **Run workflow**, then approve it when asked.
+Every push to `main` that passes CI deploys automatically, unless it only touched `pipeline/` or docs. To deploy by hand: Repo → **Actions** → **Deploy to Azure** → **Run workflow**.
 
 The first run takes about 15 minutes (the database is the slow part). It:
 

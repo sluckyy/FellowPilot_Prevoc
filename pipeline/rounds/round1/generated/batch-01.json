@@ -1,0 +1,2090 @@
+[
+ {
+  "work_order_id": "r1-001",
+  "item_id": "15abe5b8-e32a-9e7b-c3c4-27543ae72591",
+  "version": 1,
+  "stem": "You are the resident covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The physician is available by phone. At 22:30 the nurse asks you to see a 32-year-old Aboriginal man admitted two days ago with lower-leg cellulitis. He has had 48 hours of intravenous flucloxacillin, is afebrile with observations in the normal range, and the erythema is receding behind the marked line. He has just learned that his uncle has died in Port Augusta and tells you he must leave tonight to travel there for Sorry Business. He is calm and clearly understands that his infection is not yet fully treated. He has a mobile phone and family will drive him.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that he must remain until the intravenous course is finished and document that he was advised not to leave"
+   },
+   {
+    "id": "B",
+    "text": "Acknowledge his obligation, review him for a switch to oral antibiotics, arrange follow-up with an Aboriginal health service in Port Augusta and confirm the plan with the physician"
+   },
+   {
+    "id": "C",
+    "text": "Ask him to sign the discharge against medical advice form so he can leave without further delay"
+   },
+   {
+    "id": "D",
+    "text": "Suggest that his family travel to the hospital instead so he can grieve here while completing treatment"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Insisting he stay ignores a cultural obligation that is central to his wellbeing and his standing in his community. He has capacity and will leave regardless; the doctor's job is to make that departure as safe as possible, not to refuse to plan for it.",
+   "B": "Attending Sorry Business is a recognised cultural obligation, not an inconvenience. He is clinically improving and meets usual criteria for intravenous-to-oral switch, so a planned early discharge on oral antibiotics with a review arranged near where he will be, written instructions on return precautions and a brief phone call to the physician on call is the safest and most culturally responsive plan.",
+   "C": "Treating this as discharge against medical advice frames a reasonable decision as non-compliance and often ends with no antibiotics, no follow-up and no handover. The form does not remove the duty to arrange safe ongoing care.",
+   "D": "Asking the family to come to him misunderstands Sorry Business, which involves travelling to be with community for ceremony; it is not something that can be relocated to the ward."
+  },
+  "learning_point": "When a patient must leave for Sorry Business, plan a safe early discharge (oral switch, follow-up near their destination, return advice) rather than framing the departure as non-compliance.",
+  "setting_note": "In a regional hospital without an on-site Aboriginal Liaison Officer overnight, the resident may need to make the follow-up arrangements directly, contacting the Aboriginal Community Controlled Health Service or hospital at the destination town and handing over by phone; in a tertiary hospital the Aboriginal Liaison Officer or Aboriginal Health Practitioner would usually coordinate this.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Discharge planning",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.3",
+   "3.3",
+   "3.6"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "Sorry Business and cultural obligations",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Cellulitis and erysipelas; intravenous to oral switch",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Aboriginal Health Care Framework and Aboriginal Patient Pathway Officer guidance",
+    "locator": "Culturally responsive care; Sorry Business",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Sorry Business describes the period of mourning and the ceremonial and family obligations following a death; attending is a serious obligation. Cellulitis improving after 48 hours of intravenous therapy in an afebrile patient meets usual oral-switch criteria. Common misconception: that a patient who leaves before planned completion of therapy must be processed as discharge against medical advice. Out of scope: specific antibiotic choice and dosing for the oral switch, and the hospital's leave-of-absence paperwork.",
+  "plan": "Tests the decision to plan a safe early discharge around a cultural obligation instead of framing it as non-compliance (outcomes 1.3, 3.3, 3.6). Patient is improving cellulitis in a Mid North hospital overnight with physician by phone. Distractors: insist he stays (paternalistic, ignores capacity), DAMA form (abdicates follow-up), relocate the family (misunderstands Sorry Business). Supported by Therapeutic Guidelines oral-switch criteria and SA Health Aboriginal health care guidance."
+ },
+ {
+  "work_order_id": "r1-002",
+  "item_id": "49ec713d-7167-c7b9-359d-a9543343b7a5",
+  "version": 1,
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The visiting physician has reviewed a 19-year-old Aboriginal woman admitted two days ago with community-acquired pneumonia and has agreed she can go home tomorrow. She has known rheumatic heart disease with moderate mitral regurgitation and is prescribed 4-weekly intramuscular benzathine benzylpenicillin as secondary prophylaxis; the medication chart and the hospital record show her last injection was seven weeks ago, and she says the clinic she usually attends has closed. She has no current GP, her last echocardiogram was 10 months ago and she mentions she is overdue for a dental check. You have a long task list before the end of the day.",
+  "lead_in": "Which task is the most important to complete before she leaves hospital?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Book an outpatient dental review through the regional dental service"
+   },
+   {
+    "id": "B",
+    "text": "Request a follow-up chest X-ray in six weeks to confirm resolution of the pneumonia"
+   },
+   {
+    "id": "C",
+    "text": "Give the overdue benzathine benzylpenicillin injection today and notify the rheumatic heart disease register of the missed dose and her new contact details"
+   },
+   {
+    "id": "D",
+    "text": "Arrange her next echocardiogram for 12 months after the previous one"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Dental health matters in rheumatic heart disease because of endocarditis risk, but a routine dental review can be organised after discharge; it does not carry the immediate risk that a lapse in secondary prophylaxis does.",
+   "B": "Follow-up imaging after pneumonia is reasonable in selected patients but is a low-urgency task that can be requested through her future GP.",
+   "C": "Each missed or late benzathine benzylpenicillin dose exposes her to recurrence of acute rheumatic fever, which worsens valve damage; she is already three weeks overdue. Giving the dose in hospital today and informing the rheumatic heart disease register and control program, so they can re-establish her recall and link her to a new clinic, is the highest-value action and is within a PGY2's scope.",
+   "D": "Echocardiographic surveillance is important but is not due for another two months; it can be requested in the discharge plan rather than before she leaves."
+  },
+  "learning_point": "For a patient with rheumatic heart disease, maintaining secondary benzathine benzylpenicillin prophylaxis and keeping the rheumatic heart disease register informed takes priority over routine surveillance tasks.",
+  "setting_note": "In a regional hospital the resident may be the only clinician who notices the lapse; the SA Rheumatic Heart Disease Control Program can be contacted directly to re-establish recall and identify a local clinic or Aboriginal health service that can give ongoing injections.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Chronic disease, prevention and advocacy",
+   "Discharge planning",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.3",
+   "4.4",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "acute rheumatic fever and rheumatic heart disease",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "The 2020 Australian guideline for prevention, diagnosis and management of acute rheumatic fever and rheumatic heart disease (RHDAustralia)",
+    "locator": "Secondary prophylaxis; register and control programs",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Rheumatic Heart Disease Control Program",
+    "locator": "Notification and recall",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: secondary prophylaxis with benzathine benzylpenicillin every 4 weeks (or 3-weekly in selected high-risk patients) is the single most effective intervention to prevent recurrence and progression of rheumatic heart disease; adherence above about 80 percent of doses is needed. Hospital admission is an opportunity to give an overdue dose. SA has an RHD register and control program under the Public Health Act notification system. Common misconception: that prophylaxis is managed by the register and is not the admitting team's concern. Out of scope: anticoagulation and surgical timing for valve disease.",
+  "plan": "Tests prioritisation: among several reasonable discharge tasks, closing the gap in secondary prophylaxis and informing the register is the one that cannot wait (outcomes 1.3, 4.4, 2.8). Patient is a young Aboriginal woman with RHD admitted for pneumonia in a Mid North hospital. Distractors are all legitimate but lower-urgency surveillance tasks. Supported by the 2020 Australian ARF/RHD guideline."
+ },
+ {
+  "work_order_id": "r1-003",
+  "item_id": "12cf7bee-a747-3852-f1c7-5fdf6458ce09",
+  "version": 1,
+  "stem": "You are the intern on the surgical ward of a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 38-year-old Aboriginal man has been admitted for incision and drainage of a thigh abscess under the visiting surgeon tomorrow morning. He is afebrile and well hydrated, with blood pressure 152/94 mmHg. His admission bloods show creatinine 148 micromol/L, eGFR 52 mL/min/1.73 m2, potassium 4.7 mmol/L, HbA1c 8.9 percent and a urine albumin-creatinine ratio of 42 mg/mmol. The state pathology record shows an eGFR of 55 and albumin-creatinine ratio of 38 from a presentation 7 months ago. He has not seen a GP since. The anaesthetist has asked you to summarise his renal function for the pre-operative note.",
+  "lead_in": "Which interpretation of these results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute kidney injury from the abscess and sepsis, expected to recover with intravenous fluids over the next 48 hours"
+   },
+   {
+    "id": "B",
+    "text": "Renal function within the expected range for a man of his age, with no implications for his peri-operative care"
+   },
+   {
+    "id": "C",
+    "text": "Nephrotic syndrome from undiagnosed glomerulonephritis, requiring urgent transfer for renal biopsy"
+   },
+   {
+    "id": "D",
+    "text": "Chronic kidney disease, stage 3a with moderately increased albuminuria, most likely diabetic, so nephrotoxic drugs such as NSAIDs should be avoided and GP and renal follow-up arranged"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Acute kidney injury cannot be assumed when a similar eGFR and albuminuria were documented seven months earlier; he is also afebrile and well hydrated, so a pre-renal cause is unlikely.",
+   "B": "An eGFR of 52 in a 38-year-old is not normal, and albuminuria of 42 mg/mmol confirms kidney damage. Dismissing it would miss a treatable, progressive disease and the chance to avoid peri-operative harm.",
+   "C": "Nephrotic syndrome requires heavy proteinuria (albumin-creatinine ratio typically above 220 mg/mmol) with hypoalbuminaemia and oedema; his albuminuria is moderate and there is no indication for urgent biopsy.",
+   "D": "Reduced eGFR (45 to 59) with albuminuria of 3 to 30 mg/mmol or more persisting over at least three months meets the definition of chronic kidney disease; with his HbA1c and blood pressure the likely cause is diabetic kidney disease. Recognising this changes peri-operative prescribing (avoid NSAIDs, dose-adjust renally cleared drugs, maintain hydration) and must trigger follow-up, ideally through a GP or Aboriginal health service, with renal referral criteria applied."
+  },
+  "learning_point": "A reduced eGFR with albuminuria on two occasions more than three months apart means chronic kidney disease, which changes peri-operative prescribing and demands planned follow-up.",
+  "setting_note": "In a regional hospital the renal unit is in Adelaide, so the intern should document the finding clearly for the GP and discuss referral thresholds with the visiting physician; telehealth nephrology review is often available.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Surgery and perioperative care",
+   "Investigations and interpretation"
+  ],
+  "domains": [
+   "1.5",
+   "4.4",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "chronic kidney disease",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Kidney Health Australia, Chronic Kidney Disease (CKD) Management in Primary Care (5th edition)",
+    "locator": "Diagnosis and staging of CKD; Aboriginal and Torres Strait Islander people",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Analgesic",
+    "locator": "NSAIDs in kidney disease",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: CKD is defined as eGFR below 60 or evidence of kidney damage (albuminuria) persisting for at least 3 months; staging uses both eGFR and albuminuria categories. Aboriginal and Torres Strait Islander adults have roughly twice the prevalence of CKD and much higher rates of kidney failure, and Kidney Health Australia recommends kidney health checks from age 18 in this population. Common misconception: labelling every abnormal creatinine on admission as acute kidney injury. Out of scope: initiating SGLT2 inhibitors or ACE inhibitors from the surgical ward.",
+  "plan": "Tests interpretation of eGFR and albuminuria over time as chronic kidney disease and its peri-operative implications (outcomes 1.5, 4.4, 1.8). Patient is a young Aboriginal man on a regional surgical ward with prior comparable results in the state record. Distractors: AKI (ignores prior results), normal variant (dangerous dismissal), nephrotic syndrome (misreads albuminuria magnitude). Supported by Kidney Health Australia CKD management handbook."
+ },
+ {
+  "work_order_id": "r1-004",
+  "item_id": "eed626a7-f496-5f1f-4c05-c1fb9f80be13",
+  "version": 1,
+  "stem": "You are the PGY2 on a general medical ward of a tertiary hospital in Adelaide. On the morning ward round the team reviews a 31-year-old Aboriginal woman from a remote community who was admitted overnight with pyelonephritis. She is clinically improving. During the review she looks at the floor, gives brief answers, and says \"yeah\" when the registrar asks whether she understands that she will need to stay for intravenous antibiotics and whether she has any questions. Afterwards the registrar remarks that she seems \"disengaged and probably won't comply\" and asks you to document that she has been counselled and agrees with the plan. The ward's Aboriginal Liaison Officer has not yet been told she is an inpatient.",
+  "lead_in": "Which interpretation of her responses is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her brief answers and limited eye contact may reflect communication norms and feeling unsafe on the ward, so her understanding and agreement cannot be assumed and should be checked in a more culturally safe way"
+   },
+   {
+    "id": "B",
+    "text": "Her responses show she understands the plan and consents to it, and documenting her agreement is appropriate"
+   },
+   {
+    "id": "C",
+    "text": "Her presentation most likely indicates depression and a mental health assessment should be requested"
+   },
+   {
+    "id": "D",
+    "text": "Her lack of engagement suggests intoxication or withdrawal, which should be assessed before any further discussion"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "For many Aboriginal people, direct eye contact and extended conversation with unfamiliar authority figures on a crowded ward round are uncomfortable, and \"yeah\" may be a polite acknowledgement rather than informed agreement. The safe approach is to return later, sit with her, use open questions and allow silence, offer the Aboriginal Liaison Officer, and ask about family involvement before documenting that she understands.",
+   "B": "Documenting agreement on the basis of a monosyllabic reply during a team ward round risks recording consent that was never truly given, which is both a communication failure and a documentation error.",
+   "C": "Depression is a possible contributor in any inpatient but there is nothing here to support it over the more likely explanation; leaping to a psychiatric label is itself a form of bias.",
+   "D": "There is no clinical information suggesting intoxication or withdrawal; attributing a quiet manner to substance use is a stereotype that contributes to inequitable care."
+  },
+  "learning_point": "Quiet, brief answers from an Aboriginal patient during a ward round are not evidence of understanding, agreement or disengagement; check understanding one-to-one, with the Aboriginal Liaison Officer and family where wanted.",
+  "setting_note": "In a tertiary hospital the Aboriginal Liaison Officer service is usually available each weekday and should be notified of every Aboriginal inpatient; in a regional hospital the resident may need to call the Aboriginal health team or a local Aboriginal health service directly.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Documentation"
+  ],
+  "domains": [
+   "1.3",
+   "3.4",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (2nd edition), User guide for Aboriginal and Torres Strait Islander health",
+    "locator": "Action 1.33 and 2.8; culturally safe communication",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4.7 Aboriginal and Torres Strait Islander health and cultural safety",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: cultural safety is defined by the patient's experience, not the clinician's intent. Gratuitous concurrence (agreeing to be polite or to end an uncomfortable exchange) is well described. Good practice includes introducing yourself, sitting down, open questions, comfortable silence, asking who she wants involved, and notifying the Aboriginal Liaison Officer on admission. Common misconception: that labels like \"non-compliant\" are clinical observations rather than judgements. Out of scope: antibiotic choice for pyelonephritis.",
+  "plan": "Tests interpretation of a communication style through a culturally safe lens and the risk of documenting assumed consent (outcomes 1.3, 3.4, 1.2). Scene is a tertiary ward round with a registrar primed to label the patient. Distractors: accept the agreement at face value, medicalise as depression, stereotype as substance use. Supported by the ACSQHC Aboriginal and Torres Strait Islander user guide and Good medical practice section 4.7."
+ },
+ {
+  "work_order_id": "r1-005",
+  "item_id": "ee16ca5a-0549-ae39-7cc2-51aa05ee7c39",
+  "version": 1,
+  "stem": "You are the junior doctor on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre; overnight you cover the ward and the emergency department alone, with the surgeon on call by phone. A 56-year-old Aboriginal man is day one after an open appendicectomy. When you ask how he is, he says he is \"alright\" and does not ask for anything. The nurse tells you he has not got out of bed, grimaces when he moves, has declined the charted oxycodone twice and has not eaten. His nephew, who is visiting, says quietly that \"Uncle won't complain, he never does\". Observations are normal apart from a heart rate of 102 beats per minute.",
+  "lead_in": "Which interpretation of this situation is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "He has little pain and the analgesia can be stepped down to paracetamol alone"
+   },
+   {
+    "id": "B",
+    "text": "He is declining opioids because of a probable history of substance misuse that should be clarified"
+   },
+   {
+    "id": "C",
+    "text": "His answer may understate his pain, so his pain should be assessed using function, behaviour and a scale he is comfortable with, and analgesia offered with a clear explanation of its purpose"
+   },
+   {
+    "id": "D",
+    "text": "His nephew is influencing his answers and should be asked to leave during clinical assessments"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Immobility, grimacing, poor intake and tachycardia all point to uncontrolled pain despite the reassuring words; stepping down analgesia would compound the problem and raise his risk of complications such as atelectasis and venous thromboembolism.",
+   "B": "There is nothing in the history to suggest substance misuse. Assuming it is a stereotype; the more likely reasons for declining are stoicism, not wanting to be a bother, concern about what the tablets are for, or previous experience of being dismissed.",
+   "C": "Under-reporting of pain is common and may reflect stoicism, cultural norms around men's health, mistrust or unfamiliarity with hospital routines. Observing behaviour and function, using a pain tool he can relate to, explaining what the medication is and why it will help him recover, and involving his nephew if he wishes gives a truer picture and better care.",
+   "D": "The nephew is offering useful insight and his presence is likely to make the patient feel safer; excluding family undermines trust and is contrary to culturally safe practice."
+  },
+  "learning_point": "A patient who says he is \"alright\" but shows behavioural and physiological signs of pain needs his pain assessed by function and observation, not accepted at face value.",
+  "setting_note": "In a country hospital there is usually no acute pain service and no on-site Aboriginal Liaison Officer overnight, so the junior doctor and nursing staff carry the assessment themselves and should document their approach for the morning team.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "1.3",
+   "3.6",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Analgesic",
+    "locator": "Assessment of acute pain",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, User guide for Aboriginal and Torres Strait Islander health",
+    "locator": "Partnering with consumers; culturally safe care",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: self-report is the gold standard for pain but must be elicited in a way the patient trusts; behavioural indicators (guarding, immobility, poor intake) and physiological signs (tachycardia) support the assessment. Family and the Aboriginal Liaison Officer can help a patient express needs. Common misconception: that declining opioids signals misuse. Out of scope: opioid dosing and multimodal regimen details.",
+  "plan": "Tests interpretation of under-reported post-operative pain in an Aboriginal man and the role of family (outcomes 1.3, 3.6, 1.4). Scene is a country surgical ward overnight. Distractors: accept \"alright\" and de-escalate, stereotype about substance misuse, exclude the nephew. Supported by Therapeutic Guidelines pain assessment and the ACSQHC Aboriginal and Torres Strait Islander user guide."
+ },
+ {
+  "work_order_id": "r1-006",
+  "item_id": "6b91461d-a59d-054b-12f5-b90456c1858a",
+  "version": 1,
+  "stem": "You are the PGY2 on a busy medical ward of a metropolitan general hospital, with a registrar on site overnight. You are making a planned telehealth follow-up call to a 20-year-old Aboriginal man who left the ward two days ago, before completing intravenous antibiotics for a leg cellulitis, after signing a discharge against medical advice form. He explains that he had to go home to look after his younger siblings. The leg is still red and sore but he is not febrile. He asks whether he is \"still allowed\" to come back to the hospital, or whether he has to go somewhere else now because he signed the form.",
+  "lead_in": "Which statement correctly describes his entitlement to care after a discharge against medical advice?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The signed form ends the hospital's duty of care, so he must now present to a general practitioner or a different hospital"
+   },
+   {
+    "id": "B",
+    "text": "His right to care and the hospital's duty of care continue unchanged; he can return at any time, and the team should offer the safest treatment plan he can accept"
+   },
+   {
+    "id": "C",
+    "text": "He may return only if he is formally readmitted under the original consultant and agrees to complete the intravenous course"
+   },
+   {
+    "id": "D",
+    "text": "Because he left with an untreated infection, he can be detained under the Mental Health Act 2009 if he refuses to return"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A discharge against medical advice form documents that risks were explained; it does not waive the patient's entitlement to care or the hospital's ongoing duty of care, and it must never be used to refuse a patient who re-presents.",
+   "B": "Leaving against advice is a decision by a person with capacity, often for reasons such as caring responsibilities. The duty of care continues: the team should welcome his return, offer oral therapy or hospital-in-the-home if clinically reasonable, arrange review, and involve the Aboriginal Liaison Officer to address the barriers that led him to leave.",
+   "C": "Conditions such as mandatory readmission or an all-or-nothing treatment plan are not legal requirements and are likely to drive him away again; a negotiated plan is safer.",
+   "D": "The Mental Health Act 2009 (SA) applies only where a person appears to have a mental illness and meets the criteria for an inpatient treatment order; refusing medical treatment for an infection is not grounds for detention."
+  },
+  "learning_point": "A discharge against medical advice form does not end the patient's entitlement to care; the team should actively offer a plan the patient can accept and make return easy.",
+  "setting_note": "",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Telehealth",
+   "Discharge planning"
+  ],
+  "domains": [
+   "1.3",
+   "2.1",
+   "3.6"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "discharge against medical advice",
+  "context": "telehealth",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "Local health network discharge-against-advice policies differ in wording but all preserve the duty of care and the patient's right to return."
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Sections 3.3 (informed consent, right to refuse) and 4.7 (cultural safety)",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Charter of Healthcare Rights (2nd edition)",
+    "locator": "Access and partnership",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Aboriginal patients leave hospital against advice at several times the rate of non-Indigenous patients, often because of family obligations, feeling unsafe or poor communication; this is a system problem to address, not a patient failing. Good practice on discharge against advice includes offering medications and follow-up, documenting capacity and the discussion, and notifying the Aboriginal Liaison Officer. Common misconception: that the signed form transfers all responsibility to the patient. Out of scope: criteria for a Mental Health Act inpatient treatment order.",
+  "plan": "Tests recall that duty of care and the patient's entitlement to care continue after a discharge against advice (outcomes 1.3, 2.1, 3.6). Scene is a telehealth follow-up call from a metropolitan ward to a young Aboriginal man with carer responsibilities. Distractors: form ends duty, conditional readmission, misuse of the Mental Health Act. Supported by Good medical practice and the Australian Charter of Healthcare Rights."
+ },
+ {
+  "work_order_id": "r1-007",
+  "item_id": "93617cce-bd06-a949-ae34-b1a8999775e4",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital, with the medical registrar on site overnight. A 36-year-old Aboriginal man has presented with two hours of central chest pain. His ECG shows ST depression in the lateral leads and the registrar has told you he will be admitted for serial troponins and likely angiography. When you return to explain the plan, he says he wants his aunty, who raised him and has just arrived in the waiting room, to be with him and part of any decisions. His wife is at home with their children and he has not asked for her to be called. He is alert, with capacity, and in no distress.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that only his wife, as legal next of kin, can be involved in discussions about his care"
+   },
+   {
+    "id": "B",
+    "text": "Explain that hospital policy limits clinical discussions to the patient alone while he is in the emergency department"
+   },
+   {
+    "id": "C",
+    "text": "Delay the discussion until the social worker has clarified the family structure in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Ask him whom he would like involved and, with his consent, bring his aunty in to join the discussion of the plan"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A patient with capacity chooses who is involved in his care; the \"next of kin\" concept has no legal force here and does not override his wishes. In many Aboriginal families an aunty or grandmother has a central role regardless of the formal relationship.",
+   "B": "No such policy exists, and inventing one damages trust at the moment he most needs support; family presence is usually possible in an emergency department cubicle.",
+   "C": "Delaying a straightforward request until business hours leaves him without support during a frightening admission; the social worker is not needed to honour his choice.",
+   "D": "Asking who he wants involved respects his autonomy and kinship structure, supports culturally safe care and improves understanding of the plan. The patient's consent to share information is what matters, and it should be documented."
+  },
+  "learning_point": "Ask Aboriginal patients who they want involved in their care and include those people with the patient's consent, whatever the formal family relationship.",
+  "setting_note": "",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.3",
+   "3.6",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "family and kinship in decision-making",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Sections 3.2 (good patient care) and 4.7 (cultural safety)",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, User guide for Aboriginal and Torres Strait Islander health",
+    "locator": "Partnering with consumers",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: kinship structures in Aboriginal families often place decision-making support with extended family; a competent adult decides who is involved and what is shared. The legal substitute decision-maker hierarchy only applies when capacity is lost. Common misconception: that a spouse must be consulted first. Out of scope: acute coronary syndrome management.",
+  "plan": "Tests the basic management step of asking who the patient wants involved and honouring it (outcomes 1.3, 3.6, 1.2). Scene is an emergency department with a man with a non-ST-elevation acute coronary syndrome asking for his aunty. Distractors are rigid next-of-kin, invented policy and unnecessary delay. Supported by Good medical practice and the ACSQHC Aboriginal and Torres Strait Islander user guide."
+ },
+ {
+  "work_order_id": "r1-008",
+  "item_id": "d1c44202-acf6-7f8d-44ad-2c4bd5032625",
+  "version": 1,
+  "stem": "You are the junior doctor on the medical ward of a country hospital in South Australia, 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the GP on call by phone. A 79-year-old Aboriginal man with severe COPD and a hip fracture awaiting transfer has become hypoxic and delirious and cannot currently take part in decisions about escalation of his care. He has no advance care directive and no appointed guardian. Six family members are present; a man introduced as his nephew says he has always been the one who speaks for the old man and makes decisions with him, and that the patient's only daughter lives in Adelaide and has had little contact for years. You need to decide who can lawfully consent on his behalf.",
+  "lead_in": "Which statement is correct under South Australian law?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An adult relative under Aboriginal kinship rules who has a close and continuing relationship with him can act as the person responsible for consent"
+   },
+   {
+    "id": "B",
+    "text": "Only his daughter, as his closest blood relative, can give consent, and she must be contacted before any decision"
+   },
+   {
+    "id": "C",
+    "text": "The South Australian Civil and Administrative Tribunal must appoint a guardian before any medical decision can be made"
+   },
+   {
+    "id": "D",
+    "text": "Decisions about limiting treatment cannot be made by family at all and rest solely with the treating consultant"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The Consent to Medical Treatment and Palliative Care Act 1995 (SA) sets out who may consent for an adult without capacity: a substitute decision-maker under an advance care directive, a guardian, then a prescribed relative, then an adult friend or carer. A relative includes a person related by blood, marriage, adoption or Aboriginal or Torres Strait Islander kinship rules who has a close and continuing relationship with the patient, so the nephew can be the person responsible.",
+   "B": "Blood proximity does not decide the matter; the Act requires a close and continuing relationship, and an estranged daughter does not automatically outrank a nephew who has acted for him for years.",
+   "C": "Tribunal involvement is reserved for disputes or situations with no suitable person responsible; the Act is designed to allow decisions by family without a tribunal order.",
+   "D": "The person responsible can consent to or refuse treatment on the patient's behalf, guided by what the patient would have wanted; emergency treatment to save life can proceed without consent, but the family's role in limitation decisions remains."
+  },
+  "learning_point": "In South Australia, a relative under Aboriginal kinship rules with a close and continuing relationship can be the person responsible for consent when there is no advance care directive or guardian.",
+  "setting_note": "Overnight in a country hospital the junior doctor should phone the GP on call before any limitation decision, but can confidently involve the nephew as the person responsible rather than delaying while trying to reach a distant relative.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Palliative care and goals of care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.3",
+   "1.2",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "family and kinship in decision-making",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "Confident that the SA Act recognises Aboriginal and Torres Strait Islander kinship relationships within the person-responsible hierarchy; reviewers should confirm the current section numbering."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "Consent to Medical Treatment and Palliative Care Act 1995 (SA) and SA Health Consent to Medical Treatment and Health Care Policy",
+    "locator": "Person responsible; definition of relative",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "Advance Care Directives Act 2013 (SA)",
+    "locator": "Substitute decision-makers",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: SA hierarchy is advance care directive substitute decision-maker, then guardian, then prescribed relative (spouse or domestic partner, adult related by blood, marriage, adoption or Aboriginal or Torres Strait Islander kinship rules, with a close and continuing relationship), then adult friend or carer. Decisions must reflect what the patient would have wanted. Emergency life-saving treatment can be given without consent. Common misconception: that next of kin is a legal status based on closeness of blood relationship. Out of scope: process for SACAT guardianship applications.",
+  "plan": "Tests recall of the SA person-responsible hierarchy and its explicit recognition of Aboriginal kinship (outcomes 1.3, 1.2, 2.1). Scene is a country hospital overnight with a delirious elderly man and family present. Distractors: blood-proximity next of kin, mandatory tribunal, consultant-only decisions. Supported by the Consent to Medical Treatment and Palliative Care Act 1995 (SA)."
+ },
+ {
+  "work_order_id": "r1-009",
+  "item_id": "4160ede6-4257-ae5b-8a2a-70579b7d630d",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital on an afternoon shift, with the registrar available. A 52-year-old Aboriginal man has had a forearm laceration sutured and is ready to go home. His observations show blood pressure 168/98 mmHg on two readings, he has a body mass index of 34, smokes 15 cigarettes a day and mentions that his father had a heart attack at 50. He says he has not seen a doctor for \"years\", does not have a regular GP, and that scripts are expensive so he usually does not fill them. He is asymptomatic and his ECG is normal. The hospital's Aboriginal Liaison Officer is on duty.",
+  "lead_in": "What is the most appropriate action to address his longer-term health?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe amlodipine on a hospital script and advise him to see a GP at some stage for review"
+   },
+   {
+    "id": "B",
+    "text": "Refer him to the hospital's cardiology outpatient clinic for assessment of hypertension"
+   },
+   {
+    "id": "C",
+    "text": "With the Aboriginal Liaison Officer, link him to an Aboriginal Community Controlled Health Service or GP for an Aboriginal and Torres Strait Islander health assessment and registration for the Closing the Gap PBS co-payment measure"
+   },
+   {
+    "id": "D",
+    "text": "Admit him under the medical team for investigation and control of his blood pressure"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Starting an antihypertensive from the emergency department without follow-up, for a man who says he cannot afford scripts and has no GP, is unlikely to achieve anything and may expose him to unmonitored side effects.",
+   "B": "Uncomplicated hypertension does not need a specialist clinic; it needs continuity of primary care where his overall cardiovascular risk, smoking and weight can be managed over time.",
+   "C": "He has multiple cardiovascular risk factors and the main barrier is access to affordable primary care. The Medicare health assessment for Aboriginal and Torres Strait Islander people (item 715) is the entry point to structured risk management, and registration for the Closing the Gap PBS co-payment measure, which is done through a general practice or Aboriginal health service, removes or reduces the cost of his medicines. The Aboriginal Liaison Officer can make the connection and a warm referral far more likely to succeed.",
+   "D": "Asymptomatic hypertension without end-organ damage is not an indication for admission; it would use an acute bed without solving his lack of ongoing care."
+  },
+  "learning_point": "For an Aboriginal patient without primary care, the most useful emergency department intervention for chronic disease risk is a warm referral to an Aboriginal health service or GP for a health assessment and Closing the Gap PBS registration.",
+  "setting_note": "In a regional hospital the Aboriginal health team or local Aboriginal Community Controlled Health Service plays the same role; the intern may need to phone the service directly.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Chronic disease, prevention and advocacy",
+   "Discharge planning"
+  ],
+  "domains": [
+   "1.3",
+   "3.1",
+   "4.4"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "health assessment and Closing the Gap PBS",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "Closing the Gap PBS registration is by a GP, Aboriginal health service or other eligible practice; since 2021 any PBS prescriber, including hospital doctors, may write CTG-annotated scripts for a registered patient, but this man is not yet registered."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Department of Health and Aged Care, Closing the Gap PBS Co-payment Program and MBS item 715 (Aboriginal and Torres Strait Islander Health Assessment)",
+    "locator": "Eligibility and registration",
+    "supports": "key"
+   },
+   {
+    "source": "red_book",
+    "title": "RACGP National guide to preventive healthcare for Aboriginal and Torres Strait Islander people (4th edition)",
+    "locator": "Cardiovascular disease prevention",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Aboriginal and Torres Strait Islander people are eligible for an annual 715 health assessment from birth; absolute cardiovascular risk assessment is recommended from age 30 (and from 18 in some guidance). Closing the Gap PBS co-payment registration is a one-off registration through a practice; hospital doctors cannot register patients but can prescribe CTG scripts once registered. Common misconception: that the emergency department's job ends at the acute problem. Out of scope: antihypertensive selection.",
+  "plan": "Tests management of an incidental chronic disease risk profile in an Aboriginal man without primary care, focusing on the health assessment and Closing the Gap PBS measure (outcomes 1.3, 3.1, 4.4). Scene is an ED discharge with an ALO available. Distractors: unsupported prescribing, inappropriate specialist referral, unnecessary admission. Supported by the RACGP National guide and DoHAC program information."
+ },
+ {
+  "work_order_id": "r1-010",
+  "item_id": "e454021a-7521-269b-7523-b960c82b9ca5",
+  "version": 1,
+  "stem": "You are the intern in the emergency department of a tertiary hospital in Adelaide. A 34-year-old Aboriginal woman from the APY Lands, whose first language is Pitjantjatjara and who speaks limited English, has presented with 12 hours of right lower abdominal pain. She is haemodynamically stable with localised tenderness. The surgical registrar has reviewed her and asks you to obtain consent for a CT abdomen and, depending on the result, an appendicectomy, and to do this quickly because the CT slot is in 30 minutes. Her 12-year-old son, who speaks English well, has been translating so far. The Aboriginal Liaison Officer is on site, and the hospital has access to telephone and video interpreting services.",
+  "lead_in": "What is the most important step to take before the consent discussion?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Proceed with her son interpreting, since he has already been doing so and time matters"
+   },
+   {
+    "id": "B",
+    "text": "Arrange an accredited Pitjantjatjara interpreter by phone or video, and ask the Aboriginal Liaison Officer to support her during the discussion"
+   },
+   {
+    "id": "C",
+    "text": "Ask the Aboriginal Liaison Officer to interpret the consent discussion"
+   },
+   {
+    "id": "D",
+    "text": "Ask a nurse who speaks some Pitjantjatjara to explain the procedure to her"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Children must not be used as interpreters for clinical decisions: it places an unfair burden on the child, risks inaccurate translation of medical content and compromises her privacy. Her condition is stable and a short delay to arrange an interpreter is safe.",
+   "B": "Valid consent requires that she understands the nature, risks and alternatives of the procedure in a language she commands. An accredited interpreter (the Interpreting and Translating Centre or the national service) provides this, and the Aboriginal Liaison Officer can support her, help with family contact and cultural safety, but does not replace the interpreter. Pitjantjatjara interpreters are limited, so the request should be made now.",
+   "C": "Aboriginal Liaison Officers provide cultural and practical support; unless they are an accredited interpreter in the relevant language they should not be used to interpret clinical consent, and asking them to do so blurs their role.",
+   "D": "Partial language skills in a staff member are not adequate for consent to surgery; misunderstanding of risks or alternatives is likely."
+  },
+  "learning_point": "Consent for an investigation or operation in a patient with limited English requires an accredited interpreter; family members, children and Aboriginal Liaison Officers should not interpret clinical consent.",
+  "setting_note": "",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Surgery and perioperative care"
+  ],
+  "domains": [
+   "1.3",
+   "1.2",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "language and interpreter needs",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Consent to Medical Treatment and Health Care Policy and SA Health Interpreter Services guideline",
+    "locator": "Use of accredited interpreters for consent",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (2nd edition)",
+    "locator": "Partnering with Consumers Standard, Action 2.6 and 2.8",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: an accredited interpreter should be used for any significant clinical communication, especially consent, when the patient is not proficient in English; in SA this is through the Interpreting and Translating Centre or the national Translating and Interpreting Service, with Aboriginal language interpreters available via specialist services. Children and relatives should not interpret except in a life-threatening emergency when no alternative exists. Common misconception: that the Aboriginal Liaison Officer is an interpreter. Out of scope: imaging choice in suspected appendicitis.",
+  "plan": "Tests prioritisation of arranging an accredited interpreter over expediency when consent is needed (outcomes 1.3, 1.2, 2.8). Scene is a tertiary ED with a stable Pitjantjatjara-speaking woman and a son translating. Distractors: use the child, use the ALO as interpreter, use a part-speaking nurse. Supported by SA Health consent and interpreter policies and NSQHS Partnering with Consumers actions."
+ },
+ {
+  "work_order_id": "r1-011",
+  "item_id": "55e951c5-eced-d0c8-79db-1796b312bb95",
+  "version": 1,
+  "stem": "You are the PGY2 covering the ward and the emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre, with the GP on call by phone. At 02:00 the nurse tells you a 29-year-old Aboriginal woman has arrived with abdominal pain, triaged category 4. The nurse adds, \"She's back again, third time this fortnight, the notes say drug-seeking.\" Her previous two visits ended with analgesia and discharge without investigations; the notes record no examination findings. Her observations tonight are heart rate 108 beats per minute, temperature 37.9 degrees Celsius, blood pressure 118/70 mmHg. You have one other patient, a man with stable chest pain awaiting a repeat troponin in an hour.",
+  "lead_in": "What is the most appropriate priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Review her previous notes, offer analgesia consistent with her earlier visits and discharge her with advice to see the GP"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to contact the GP on call to see her in the morning so you can focus on the chest pain patient"
+   },
+   {
+    "id": "C",
+    "text": "Request a urine drug screen before deciding whether analgesia is appropriate"
+   },
+   {
+    "id": "D",
+    "text": "Assess her now as a new presentation with a full history, examination and investigations, setting aside the labels in her notes"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Repeating the earlier approach anchors on a label that was never supported by documented assessment; repeat presentations with tachycardia and low-grade fever raise the likelihood of a missed diagnosis such as pelvic inflammatory disease, ectopic pregnancy or appendicitis.",
+   "B": "Deferring a febrile, tachycardic patient to the morning is not safe; the chest pain patient is stable and awaiting a timed test, so she can and should be seen now.",
+   "C": "A drug screen does not help diagnose abdominal pain and signals that the clinician has already decided the presentation is not genuine; it entrenches bias and delays care.",
+   "D": "Labels such as \"drug-seeking\" in the records of Aboriginal patients are a recognised form of systemic bias and are associated with under-investigation and worse outcomes. Her repeated attendance and abnormal observations demand a complete assessment, including pregnancy test and bloods, as for any patient, and an honest documented plan."
+  },
+  "learning_point": "Repeat presentations with abnormal observations require a full fresh assessment; prior labels such as \"drug-seeking\" are a risk factor for missed diagnosis, not a diagnosis.",
+  "setting_note": "In a country hospital the junior doctor is often the only clinician who can break a cycle of unexamined repeat presentations; if serious pathology is suspected, early discussion with the GP on call and the tertiary surgical or gynaecology registrar about transfer is appropriate.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Emergency presentations",
+   "Patient safety, quality and systems",
+   "Rural and remote"
+  ],
+  "domains": [
+   "3.4",
+   "1.4",
+   "2.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "systemic racism and health inequity",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 4.7 Aboriginal and Torres Strait Islander health and cultural safety; section 2.1 providing good care",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, User guide for Aboriginal and Torres Strait Islander health",
+    "locator": "Addressing institutional racism",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: institutional racism manifests as lower rates of investigation, analgesia and admission for Aboriginal patients with the same presentations; frequent presentation is a red flag for an unmet need. Judgemental labels in notes propagate through episodes. Common misconception: that prior attendances without a diagnosis make serious disease less likely. Out of scope: the differential diagnosis workup itself.",
+  "plan": "Tests prioritisation: seeing a labelled, frequently attending Aboriginal woman with abnormal observations now and assessing her afresh (outcomes 3.4, 1.4, 2.8). Scene is a country ED at night with a competing but stable patient. Distractors: repeat prior pattern, defer to GP in the morning, drug screen first. Supported by Good medical practice and the ACSQHC Aboriginal and Torres Strait Islander user guide."
+ },
+ {
+  "work_order_id": "r1-012",
+  "item_id": "5b37c7a2-1c79-0ecf-a456-a2700de357ad",
+  "version": 1,
+  "stem": "You are the resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging. A 68-year-old Aboriginal woman from Ceduna has been diagnosed with a non-ST-elevation myocardial infarction and is pain free on treatment. The cardiology registrar plans angiography tomorrow. She is distressed, says she does not trust hospitals since her husband died in one, and wants to go home to her family on the first flight. Her daughter is 800 kilometres away and she has no family in Adelaide. The cardiology registrar asks you to \"get the ALO to sort it out\". An Aboriginal Liaison Officer is available on call this evening.",
+  "lead_in": "What is the most appropriate way to involve the Aboriginal Liaison Officer?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the Aboriginal Liaison Officer to meet her now, help her contact her family and join the discussion about angiography, while you remain responsible for explaining the procedure and seeking her consent"
+   },
+   {
+    "id": "B",
+    "text": "Ask the Aboriginal Liaison Officer to obtain her consent for the angiogram so the cardiology team can proceed in the morning"
+   },
+   {
+    "id": "C",
+    "text": "Ask the Aboriginal Liaison Officer to convince her to stay in hospital until the procedure is done"
+   },
+   {
+    "id": "D",
+    "text": "Defer involving the Aboriginal Liaison Officer until the morning ward round so the cardiology registrar can brief them in person"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The Aboriginal Liaison Officer's role is cultural support, advocacy, family contact and helping the clinical team communicate in a way the patient finds safe. Involving them early, with a clear request, gives her the best chance of feeling safe enough to stay, while consent and clinical explanation remain the doctor's responsibility.",
+   "B": "Consent must be obtained by a clinician who can explain the procedure, its risks and alternatives; delegating it to the liaison officer is invalid and places them in an inappropriate position.",
+   "C": "Asking the liaison officer to persuade or pressure her undermines their trust relationship with the patient and misunderstands their role; she has capacity and the decision is hers.",
+   "D": "Her distress and her wish to leave are present now, and the first flight leaves before the ward round; waiting overnight risks a preventable departure with an untreated myocardial infarction."
+  },
+  "learning_point": "Involve the Aboriginal Liaison Officer early and with a clear request for support and advocacy, not as a substitute for the doctor's duties of explanation and consent or as a persuader.",
+  "setting_note": "A tertiary hospital usually has an on-call Aboriginal Liaison Officer or Aboriginal Health Practitioner after hours; in a regional hospital the resident may instead call the Aboriginal health team by phone or the patient's own Aboriginal health service, and should ask the patient who she would like contacted.",
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Emergency presentations",
+   "Doctor wellbeing, teamwork and workload"
+  ],
+  "domains": [
+   "1.3",
+   "2.5",
+   "3.6"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "metro",
+  "presentation": "working with Aboriginal Liaison Officers",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "After-hours Aboriginal Liaison Officer availability varies by hospital; the stem states one is on call."
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Aboriginal Health Care Framework and local health network Aboriginal Liaison Officer role statements",
+    "locator": "Role of Aboriginal Liaison Officers and Aboriginal Patient Pathway Officers",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards, User guide for Aboriginal and Torres Strait Islander health",
+    "locator": "Actions 1.21, 1.33 and 2.13; workforce and partnering",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: Aboriginal Liaison Officers and Aboriginal Health Practitioners support patients and families, advocate, help with accommodation and travel (including the Patient Assistance Transport Scheme) and help clinicians communicate; they do not interpret, consent or persuade. Early notification of every Aboriginal admission is expected. Common misconception: that a referral to the liaison officer transfers responsibility for the patient's engagement. Out of scope: timing and indications for invasive management of NSTEMI.",
+  "plan": "Tests nuanced management of how to use the Aboriginal Liaison Officer when a patient with an acute coronary syndrome wants to leave (outcomes 1.3, 2.5, 3.6). Scene is a tertiary ED with an on-call ALO and a registrar who wants the problem handed off. Distractors: ALO obtains consent, ALO persuades, defer to morning. Supported by SA Health ALO role guidance and the ACSQHC user guide."
+ },
+ {
+  "work_order_id": "r1-013",
+  "item_id": "5310fbc7-03d4-7842-60f4-f1634e72db14",
+  "version": 1,
+  "stem": "You are the intern at a regional hospital with a small medical ward and no intensive care unit, making a telehealth follow-up call one week after discharge to a 79-year-old woman who was admitted with an exacerbation of COPD. She is recovering well on her usual inhalers and lives independently in a town 40 minutes away. She asks about vaccinations because her neighbour \"caught shingles and was in agony\". You confirm from the Australian Immunisation Register that she received this year's influenza vaccine and her COVID-19 booster in the last six months, but there is no record of pneumococcal or zoster vaccination. She has no history of immunosuppression and no allergies, and is happy to see her GP.",
+  "lead_in": "What is the most appropriate advice?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure her that the influenza and COVID-19 vaccines are the only vaccines recommended at her age"
+   },
+   {
+    "id": "B",
+    "text": "Advise that pneumococcal vaccination is unlikely to benefit her now that she is over 75"
+   },
+   {
+    "id": "C",
+    "text": "Recommend she see her GP for pneumococcal vaccination and the two-dose recombinant zoster vaccine, both funded under the National Immunisation Program for her age"
+   },
+   {
+    "id": "D",
+    "text": "Advise against the zoster vaccine because inhaled corticosteroids make a live vaccine unsafe"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "The Australian Immunisation Handbook recommends several additional vaccines for older adults, including pneumococcal and zoster vaccination, and an admission for COPD is a good prompt to catch up.",
+   "B": "Adults aged 70 years and over without prior pneumococcal vaccination are recommended and funded to receive it; COPD further increases her risk of pneumococcal pneumonia and invasive disease.",
+   "C": "The Handbook recommends pneumococcal vaccination for all adults from 70 years, and the recombinant zoster vaccine (two doses, 2 to 6 months apart) for adults from 65 years; both are funded on the National Immunisation Program for her. Her GP can give them and record them on the Australian Immunisation Register.",
+   "D": "The recombinant zoster vaccine is not a live vaccine and is safe with inhaled corticosteroids; the earlier live zoster vaccine is no longer in use in Australia."
+  },
+  "learning_point": "A hospital contact with an older adult is an opportunity to check the Australian Immunisation Register and recommend funded pneumococcal and recombinant zoster vaccination.",
+  "setting_note": "",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Telehealth",
+   "Older people, delirium and falls",
+   "General medicine"
+  ],
+  "domains": [
+   "3.1",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "adult immunisation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "The exact pneumococcal vaccine product and schedule for adults aged 70 and over has been revised more than once; the item deliberately refers to pneumococcal vaccination generically and the GP should apply the current Handbook schedule."
+  },
+  "references": [
+   {
+    "source": "immunisation_handbook",
+    "title": "Australian Immunisation Handbook",
+    "locator": "Pneumococcal disease; Zoster (herpes zoster); Vaccination for older adults",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: National Immunisation Program funds pneumococcal vaccination for non-Indigenous adults from 70 years (from 50 years for Aboriginal and Torres Strait Islander adults) and recombinant zoster vaccine (Shingrix, two doses) from 65 years (from 50 years for Aboriginal and Torres Strait Islander adults and for immunocompromised adults from 18). Respiratory syncytial virus vaccination is also recommended from 75 years. Common misconception: that zoster vaccine is live and contraindicated with steroids. Out of scope: COVID-19 booster intervals.",
+  "plan": "Tests management of adult immunisation catch-up in an older woman after a COPD admission (outcomes 3.1, 3.2). Scene is a telehealth call from a regional hospital with the Immunisation Register checked. Distractors: nothing more needed, too old to benefit, live-vaccine fear. Supported by the Australian Immunisation Handbook pneumococcal and zoster chapters."
+ },
+ {
+  "work_order_id": "r1-014",
+  "item_id": "1eb0db42-5421-d2c9-14ec-b493b7723d4c",
+  "version": 1,
+  "stem": "You are the intern in the outpatient clinic of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, seeing patients before the visiting surgeon's list. A 38-year-old man who farms near the town is being worked up for elective inguinal hernia repair. In the pre-admission questionnaire he reports drinking six to eight stubbies of full-strength beer on four nights a week and his AUDIT-C score is 8 out of 12. He has never had withdrawal symptoms, seizures or blackouts, does not drink in the morning and has had no injuries or legal problems related to alcohol. His gamma-glutamyl transferase is 92 U/L and other liver tests are normal. He says \"everyone around here drinks like that\".",
+  "lead_in": "Which interpretation of his drinking is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "He has alcohol dependence and requires inpatient withdrawal management before surgery can be scheduled"
+   },
+   {
+    "id": "B",
+    "text": "He is drinking well above the Australian guideline levels at a risky level, which warrants a brief intervention now and a plan for withdrawal risk around surgery"
+   },
+   {
+    "id": "C",
+    "text": "His intake is within the Australian guideline of no more than 10 standard drinks a week and no action is needed"
+   },
+   {
+    "id": "D",
+    "text": "His raised gamma-glutamyl transferase indicates established alcoholic liver disease requiring hepatology referral before surgery"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Dependence is defined by features such as tolerance, withdrawal, loss of control and continued use despite harm; he reports none of these, so inpatient withdrawal management is not indicated, although peri-operative monitoring for withdrawal is sensible.",
+   "B": "Six to eight full-strength stubbies is about 8 to 11 standard drinks per occasion and 30 to 45 per week, far above the National Health and Medical Research Council guideline of no more than 10 standard drinks a week and no more than 4 on any one day. An AUDIT-C of 8 indicates risky drinking. A brief intervention using feedback, advice and goal-setting is effective at this level and the anaesthetist should know about his intake.",
+   "C": "This misreads the guideline; his weekly intake is three to four times the recommended maximum and his per-occasion intake exceeds the daily limit each time he drinks.",
+   "D": "An isolated mildly raised gamma-glutamyl transferase is a marker of heavy drinking, not of established liver disease; with normal other liver tests it does not warrant specialist referral or delay of surgery."
+  },
+  "learning_point": "Six to eight full-strength beers four nights a week is risky drinking well above the Australian guideline, warranting a brief intervention and peri-operative withdrawal planning, not a dependence label.",
+  "setting_note": "In a regional town with high local drinking norms, framing the discussion around the guideline numbers and his own goals is more effective than moral judgement; the local drug and alcohol service and the national Alcohol and Drug Information Service (1300 13 1340 in SA) can provide follow-up support.",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Surgery and perioperative care",
+   "Rural and remote",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "3.1",
+   "3.2",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "alcohol brief intervention",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Health and Medical Research Council, Australian guidelines to reduce health risks from drinking alcohol (2020)",
+    "locator": "Guideline 1: adults",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Addiction",
+    "locator": "Screening for alcohol use; brief intervention",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a full-strength 375 mL stubby is about 1.4 standard drinks; AUDIT-C of 4 or more in men (3 in women) suggests risky drinking, higher scores are more concerning but do not by themselves diagnose dependence. Brief intervention (FLAGS: feedback, listen, advice, goals, strategies) is effective in non-dependent risky drinkers. Pre-operatively, heavy drinkers have higher complication rates and may need withdrawal monitoring and thiamine. Common misconception: that any heavy drinker is dependent, or that normal transaminases exclude a drinking problem. Out of scope: pharmacotherapy for alcohol dependence.",
+  "plan": "Tests interpretation of an AUDIT-C score and quantity of drinking against the NHMRC guideline, distinguishing risky drinking from dependence (outcomes 3.1, 3.2, 1.4). Scene is a regional surgical pre-admission clinic. Distractors: dependence requiring detox, within guideline, liver disease. Supported by NHMRC 2020 guidelines and Therapeutic Guidelines Addiction."
+ },
+ {
+  "work_order_id": "r1-015",
+  "item_id": "573d5dc7-9b80-fedd-68df-8b22f5a05735",
+  "version": 1,
+  "stem": "You are the intern on a general practice rotation linked to a rural hospital on the Yorke Peninsula, where the 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. A 68-year-old woman attends for repeat prescriptions. She has had chronic low back pain for eight years and takes modified-release oxycodone 20 mg twice daily, pregabalin 150 mg twice daily and diazepam 5 mg at night, all prescribed by a GP who has since left the practice. Her MRI two years ago showed degenerative change only. She mentions she feels drowsy most mornings, has had two falls in the past month, one with a wrist sprain, and that her daughter has stopped letting her mind the grandchildren. She would like the scripts renewed today as she is \"nearly out\". The supervising GP is available between patients.",
+  "lead_in": "Which issue is the most important to address at this visit?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Renew the three prescriptions as requested and book a routine review in three months"
+   },
+   {
+    "id": "B",
+    "text": "Arrange a repeat MRI of the lumbar spine to look for a new surgical cause of her pain"
+   },
+   {
+    "id": "C",
+    "text": "Refer her to the multidisciplinary pain clinic in Adelaide and continue the current medications until she is seen"
+   },
+   {
+    "id": "D",
+    "text": "Address the sedation and falls from combined opioid, benzodiazepine and gabapentinoid use, checking the real-time prescription monitoring system and agreeing a supervised taper plan with the GP"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Continuing an unchanged regimen that is already causing falls, daytime sedation and loss of function is unsafe; an intern should not simply renew high-risk scripts inherited from a departed prescriber without review.",
+   "B": "There is no new neurological deficit or red flag; repeat imaging for chronic low back pain with known degenerative change does not change management and may reinforce a structural model of her pain.",
+   "C": "Pain clinic referral is reasonable later, but waits are long and the immediate harm from her current combination of sedatives must be dealt with now rather than left in place for months.",
+   "D": "The combination of an opioid, a benzodiazepine and a gabapentinoid in a 68-year-old is the most likely cause of her falls, drowsiness and loss of role; these harms outweigh any benefit for chronic non-cancer pain. Checking ScriptCheckSA, discussing goals with her, and planning a gradual supervised reduction with the GP, with non-drug strategies and regular review, is the priority."
+  },
+  "learning_point": "In an older patient on an opioid, benzodiazepine and gabapentinoid with falls and sedation, the priority is to address the combination and plan a supervised taper, not to renew or image.",
+  "setting_note": "Rural practices often inherit long-standing opioid regimens from previous prescribers; the Adelaide pain clinic and drug and alcohol services offer telehealth support for tapering, and the Rural Support Service can help with case conferencing.",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Older people, delirium and falls",
+   "Musculoskeletal"
+  ],
+  "domains": [
+   "3.2",
+   "1.8",
+   "3.6"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "chronic pain",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Analgesic",
+    "locator": "Chronic non-cancer pain; opioid deprescribing; drugs that cause sedation in combination",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health ScriptCheckSA real-time prescription monitoring and Drugs of Dependence Unit guidance",
+    "locator": "Checking before prescribing Schedule 8 medicines",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: opioids provide little long-term benefit for chronic non-cancer pain and combination with benzodiazepines and gabapentinoids markedly increases sedation, falls and respiratory depression; falls in older people on sedatives are a trigger for deprescribing. ScriptCheckSA must be checked before prescribing monitored drugs in SA; ongoing Schedule 8 prescribing beyond two months requires Drugs of Dependence Unit authority. Taper gradually (for example 10 to 25 percent every 1 to 4 weeks) with support. Common misconception: that the patient must stop everything immediately, or that imaging will reveal a fixable cause. Out of scope: exact taper schedule and pregabalin dosing.",
+  "plan": "Tests prioritisation in a GP clinic: recognising that polypharmacy harm (falls, sedation) outranks script renewal, imaging or deferred referral (outcomes 3.2, 1.8, 3.6). Scene is a Yorke Peninsula practice with an available supervising GP. Distractors: renew, MRI, pain clinic with no interim action. Supported by Therapeutic Guidelines Analgesic and SA ScriptCheckSA requirements."
+ },
+ {
+  "work_order_id": "r1-016",
+  "item_id": "811196ca-c1bb-6958-c426-dbb0c16a4a63",
+  "version": 1,
+  "stem": "You are the intern in the general medicine outpatient clinic of a large metropolitan teaching hospital, seeing a new patient before presenting to the consultant. A 34-year-old Aboriginal woman has been referred by her GP for \"weight management\". Her body mass index is 38, blood pressure 142/90 mmHg, HbA1c 6.2 percent, lipids mildly raised and she has no symptoms. She works full time, has two children and tells you that she and her partner hope to have another baby in the next year. She has tried several diets without lasting success and asks whether \"the injections\" or surgery would be best for her. She attends an Aboriginal Community Controlled Health Service for her general care.",
+  "lead_in": "Which issue should be addressed first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Discuss her pregnancy plans and agree a preconception plan with lifestyle-based weight management, folate, and glucose and blood pressure monitoring in partnership with her Aboriginal health service"
+   },
+   {
+    "id": "B",
+    "text": "Start a glucagon-like peptide-1 receptor agonist for weight loss before she conceives"
+   },
+   {
+    "id": "C",
+    "text": "Refer her for bariatric surgery assessment given her body mass index and metabolic risk"
+   },
+   {
+    "id": "D",
+    "text": "Advise her to postpone pregnancy until her body mass index is below 30"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Her plan to conceive within a year changes everything: it rules out drug and surgical options that require effective contraception and a delay to pregnancy, and it makes preconception care (folate, optimising glucose and blood pressure, lifestyle support) the most valuable and time-sensitive intervention. Shared decision-making with her and continuity through her Aboriginal health service give the plan the best chance of success.",
+   "B": "Glucagon-like peptide-1 receptor agonists are not recommended in pregnancy and must be stopped well before conception; starting one in a woman planning pregnancy within a year offers little and risks exposure.",
+   "C": "Bariatric surgery requires 12 to 18 months of avoiding pregnancy afterwards and lifelong nutritional follow-up; it is incompatible with her stated plan and should not be the first step.",
+   "D": "Telling her to delay pregnancy until she reaches a body mass index target is paternalistic, may not be achievable, and ignores her priorities; the task is to make her planned pregnancy as healthy as possible."
+  },
+  "learning_point": "When a woman with obesity plans pregnancy, preconception care takes priority over pharmacological and surgical weight-loss options that require pregnancy to be delayed.",
+  "setting_note": "",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Obstetrics and women's health",
+   "Aboriginal and Torres Strait Islander health"
+  ],
+  "domains": [
+   "3.1",
+   "3.6",
+   "1.3"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "obesity",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "red_book",
+    "title": "RACGP National guide to preventive healthcare for Aboriginal and Torres Strait Islander people (4th edition)",
+    "locator": "Overweight and obesity; preconception care",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes (and Obesity)",
+    "locator": "Pharmacotherapy for obesity; use in pregnancy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: obesity in pregnancy increases gestational diabetes, hypertensive disorders and congenital anomaly risk, and preconception optimisation helps; higher-dose folate (5 mg) is recommended for women with body mass index over 30. Semaglutide and tirzepatide require cessation before conception; bariatric surgery requires delaying pregnancy. Common misconception: that the most potent weight-loss intervention is always the first priority. Out of scope: detailed obstetric management.",
+  "plan": "Tests prioritisation where a reproductive plan determines which chronic disease interventions are appropriate (outcomes 3.1, 3.6, 1.3). Scene is a tertiary outpatient clinic with a young Aboriginal woman planning pregnancy. Distractors: GLP-1 agonist, bariatric referral, delay pregnancy. Supported by the RACGP National guide and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-017",
+  "item_id": "86c24bd1-ed59-0374-6ba1-bb2b60c5a316",
+  "version": 1,
+  "stem": "You are the PGY2 at a regional hospital with a small medical ward and no intensive care unit, making a telehealth follow-up call to a 66-year-old man discharged last week after treatment for community-acquired pneumonia. He has recovered well. During the call he mentions that a bowel screening kit arrived in the post, that he sent it off about two months ago and received a letter saying the result was \"positive\" and that he should see his GP. He has not done so because he feels well, has no change in bowel habit, no weight loss and \"has always had a bit of a haemorrhoid\". He has no family history of bowel cancer and has never had a colonoscopy. His haemoglobin on admission was 138 g/L.",
+  "lead_in": "Which interpretation of his screening result is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It is most likely a false positive from his haemorrhoid and he can safely wait for the next kit in two years"
+   },
+   {
+    "id": "B",
+    "text": "It indicates a meaningful chance of bowel cancer or advanced adenoma and he needs prompt GP referral for colonoscopy regardless of symptoms"
+   },
+   {
+    "id": "C",
+    "text": "It means he has bowel cancer and should be referred directly to a surgeon for staging"
+   },
+   {
+    "id": "D",
+    "text": "The test is unreliable in people over 65 and should be repeated before any further action"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Haemorrhoids can cause a positive result, but they cannot be assumed to be the cause; among participants with a positive immunochemical faecal occult blood test roughly 1 in 30 has cancer and a substantial proportion have advanced adenomas, and a normal haemoglobin does not exclude either.",
+   "B": "The National Bowel Cancer Screening Program recommends colonoscopy, ideally within 120 days of a positive result, because early-stage cancer and adenomas are usually asymptomatic. Absence of symptoms is expected in a screening population and provides no reassurance. His GP can arrange the referral and the program follows up non-attendance.",
+   "C": "A positive faecal immunochemical test is a screening result, not a diagnosis; most positives are not cancer, and the next step is diagnostic colonoscopy rather than surgical referral.",
+   "D": "The program screens people aged 45 to 74 and the test performs well across this range; repeating the kit after a positive result delays diagnosis and is not recommended."
+  },
+  "learning_point": "A positive bowel screening test needs colonoscopy within about four months irrespective of symptoms or a presumed benign cause such as haemorrhoids.",
+  "setting_note": "In regional South Australia, colonoscopy waits can be long; the GP should refer as a positive screening result (a category 1 referral) so the regional endoscopy list or Adelaide service can prioritise him.",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Telehealth",
+   "Investigations and interpretation",
+   "Oncology"
+  ],
+  "domains": [
+   "3.1",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "screening programs",
+  "context": "telehealth",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Cancer Council Australia, Clinical practice guidelines for the prevention, early detection and management of colorectal cancer",
+    "locator": "Population screening; management of a positive iFOBT",
+    "supports": "key"
+   },
+   {
+    "source": "red_book",
+    "title": "RACGP Guidelines for preventive activities in general practice (Red Book)",
+    "locator": "Colorectal cancer screening",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the National Bowel Cancer Screening Program invites people aged 45 to 74 every two years; a positive immunochemical faecal occult blood test should be followed by colonoscopy within 120 days; positive predictive value for cancer is around 3 to 4 percent and for advanced adenoma around 20 to 30 percent. Common misconception: that symptoms or haemorrhoids explain the result. Out of scope: surveillance intervals after polypectomy.",
+  "plan": "Tests interpretation of a positive screening iFOBT in an asymptomatic man and the need for colonoscopy (outcomes 3.1, 1.5). Scene is a telehealth call from a regional hospital. Distractors: dismiss as haemorrhoids, overcall as cancer, repeat the kit. Supported by Cancer Council colorectal cancer guidelines and the RACGP Red Book."
+ },
+ {
+  "work_order_id": "r1-018",
+  "item_id": "0acf264a-9b9c-963f-3b4a-9816f00057bb",
+  "version": 1,
+  "stem": "You are the intern at a tertiary hospital in Adelaide, conducting a telehealth review for a 55-year-old woman who was discharged a fortnight ago after an admission with a COPD exacerbation. She smokes 20 cigarettes a day, has her first cigarette within five minutes of waking, and says the admission \"scared her into\" wanting to quit. Two years ago she used a 21 mg nicotine patch alone for three weeks, found the cravings unbearable and relapsed. She has depression that is stable on sertraline 100 mg daily and asks what she should try this time. The respiratory registrar has asked you to make a plan and arrange a prescription through her GP.",
+  "lead_in": "What is the most appropriate recommendation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Advise that because nicotine replacement has already failed, her best chance now is to stop without medication"
+   },
+   {
+    "id": "B",
+    "text": "Recommend bupropion as first-line therapy because it will also help her depression"
+   },
+   {
+    "id": "C",
+    "text": "Recommend combination nicotine replacement therapy, a 21 mg patch plus a fast-acting form such as gum, lozenge or mouth spray for cravings, together with referral to Quitline"
+   },
+   {
+    "id": "D",
+    "text": "Recommend she switch to a nicotine vaping product as the first-line approach"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Unaided quitting has the lowest success rate; a previous short course of patch monotherapy is not a reason to abandon pharmacotherapy but to use it properly, in combination and for a full 8 to 12 weeks with behavioural support.",
+   "B": "Bupropion is less effective than combination nicotine replacement or varenicline, lowers the seizure threshold, and is not a treatment for her already-stable depression; combining it with sertraline needs specialist consideration and it is not a first-line choice here.",
+   "C": "Combination nicotine replacement therapy (a patch for background nicotine plus a fast-acting product for breakthrough cravings) roughly doubles quit rates compared with a patch alone and directly addresses the problem she had last time. Her high dependence (first cigarette within five minutes of waking) supports the 21 mg patch. Both forms are PBS-subsidised, and Quitline multi-session support further improves success. Her depression and sertraline are not contraindications.",
+   "D": "Nicotine vaping products are prescription-only in Australia and the RACGP recommends them only after first-line therapies have genuinely failed and with behavioural support; she has not had an adequate trial of first-line therapy."
+  },
+  "learning_point": "After relapse on a nicotine patch alone, the next step is combination nicotine replacement therapy (patch plus a fast-acting form) with Quitline support, which is safe in stable depression.",
+  "setting_note": "",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Pharmacology",
+   "Telehealth",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "3.1",
+   "3.2",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "smoking cessation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "Varenicline is also a first-line option and was deliberately left out of the options to avoid two defensible answers; its availability in Australia has changed since 2021."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "RACGP, Supporting smoking cessation: a guide for health professionals (2nd edition, updated)",
+    "locator": "Pharmacotherapy; combination NRT; vaping products",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Addiction",
+    "locator": "Nicotine dependence; nicotine replacement therapy",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: first-line pharmacotherapies are combination nicotine replacement therapy and varenicline; bupropion is second-line. Time to first cigarette under 30 minutes indicates high dependence. Nicotine replacement is PBS-listed (patches and some fast-acting forms) and safe in cardiovascular disease and in people with mental illness. Quitline (13 7848) provides free multi-session behavioural support and callback. Nicotine vaping products are prescription-only and not first-line. Common misconception: that failure on one NRT product means NRT does not work for that patient. Out of scope: varenicline dosing and the status of its PBS listing.",
+  "plan": "Tests management of smoking cessation after a prior patch failure in a woman with stable depression (outcomes 3.1, 3.2, 1.8). Scene is a tertiary telehealth call. Distractors: unaided quit, bupropion as antidepressant-plus-cessation, vaping first-line. Supported by the RACGP smoking cessation guide and Therapeutic Guidelines Addiction."
+ },
+ {
+  "work_order_id": "r1-019",
+  "item_id": "611dc480-6509-b280-b691-02e63e55b274",
+  "version": 1,
+  "stem": "You are the PGY2 in the heart failure outpatient clinic of a large metropolitan teaching hospital, with the consultant available. A 58-year-old woman with heart failure with reduced ejection fraction attends for review three weeks after her third admission in six months for fluid overload. She is euvolaemic today on furosemide 40 mg twice daily and standard heart failure therapy. She tells you she lost her rental property two months ago and has been sleeping in her car, that she cannot afford all her medications so takes \"the important ones\", has no scales, and missed two clinic appointments because she had no fuel. She is not depressed and does not drink alcohol. She has a mobile phone and a Centrelink payment.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Increase her furosemide dose and book a review in two weeks to reduce the chance of readmission"
+   },
+   {
+    "id": "B",
+    "text": "Discharge her from the clinic for non-attendance and ask her GP to manage her heart failure"
+   },
+   {
+    "id": "C",
+    "text": "Refer her to psychiatry for assessment of non-adherence before changing her plan"
+   },
+   {
+    "id": "D",
+    "text": "Refer her to the clinic social worker today, simplify her regimen into a once-daily dose administration aid, check her PBS Safety Net status and link her with the community heart failure nurse and a homelessness service"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Her readmissions are driven by missed doses and the inability to monitor weight, not by an inadequate diuretic dose; increasing the dose without addressing why she cannot take her medicines risks dehydration and renal impairment when she does take them.",
+   "B": "Removing her from the clinic penalises her for the circumstances causing her illness and will almost certainly lead to further admissions; non-attendance is a signal to reach out, not to discharge.",
+   "C": "Her reasons for missing doses are financial and practical, and she has no features of a mental illness; a psychiatric referral misattributes a social problem and delays practical help.",
+   "D": "Housing, cost and transport are the social determinants driving her admissions. Same-day social work involvement can address housing, Centrelink entitlements, medication costs and transport; a simplified regimen in a dose administration aid is cheaper and easier to adhere to; the community heart failure nurse can monitor her by phone and arrange scales; and the PBS Safety Net and concession pricing reduce cost. This is whole-of-person care within a PGY2's remit."
+  },
+  "learning_point": "When social circumstances drive repeated admissions, the effective intervention is to address them directly (social work, medication cost and simplification, community nursing) rather than adjust doses or discharge the patient.",
+  "setting_note": "In a regional hospital the same tasks fall to the ward social worker, the local council or community health service and the GP; community heart failure nurses may be available by telehealth from Adelaide.",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Discharge planning",
+   "General medicine",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "3.2",
+   "3.6",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "social determinants and discharge",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand, Guidelines for the prevention, detection and management of heart failure in Australia (2018)",
+    "locator": "Multidisciplinary care and self-management; adherence",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care, Acute Coronary Syndromes and chronic condition clinical care standards; NSQHS Comprehensive Care Standard",
+    "locator": "Comprehensive care planning including social needs",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: non-adherence is the leading precipitant of heart failure readmission; multidisciplinary heart failure programs with nurse follow-up reduce admissions; homelessness, cost and transport are modifiable with social work and community services. Dose administration aids and once-daily regimens improve adherence. Common misconception: that adherence problems are attitudinal rather than structural. Out of scope: titration of heart failure pharmacotherapy.",
+  "plan": "Tests management of social determinants as the cause of repeated admissions (outcomes 3.2, 3.6, 1.7). Scene is a tertiary heart failure clinic with a woman who is homeless and cannot afford medicines. Distractors: dose escalation, discharge for non-attendance, psychiatric referral. Supported by the Heart Foundation heart failure guideline and NSQHS comprehensive care requirements."
+ },
+ {
+  "work_order_id": "r1-020",
+  "item_id": "affb7c97-b458-35db-b671-5fe0005fe4e2",
+  "version": 1,
+  "stem": "You are the intern on a general practice rotation linked to a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 41-year-old woman with type 2 diabetes diagnosed four years ago attends for her annual cycle of care review. She takes metformin 1 g twice daily and no other medications. Her results are HbA1c 8.4 percent (68 mmol/mol), eGFR 88 mL/min/1.73 m2, urine albumin-creatinine ratio 4.2 mg/mmol with a repeat of 3.8 mg/mmol three months earlier, blood pressure 128/78 mmHg, LDL cholesterol 2.6 mmol/L, body mass index 31 and a normal foot examination. Her retinal screen last year was normal. The supervising GP has asked you to summarise what the results mean before you see her together.",
+  "lead_in": "Which interpretation of her results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her glycaemia is above target and she has persistent moderately increased albuminuria, so her glucose-lowering therapy needs intensifying and an ACE inhibitor or angiotensin receptor blocker should be considered"
+   },
+   {
+    "id": "B",
+    "text": "Her results are all at target and her current treatment should continue unchanged"
+   },
+   {
+    "id": "C",
+    "text": "An albumin-creatinine ratio of 4.2 mg/mmol is within the normal range for a woman, so only her HbA1c needs attention"
+   },
+   {
+    "id": "D",
+    "text": "She has established diabetic nephropathy with declining kidney function and needs urgent nephrology referral"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "An HbA1c of 8.4 percent is well above the usual target of 7 percent or less for a young woman on metformin alone, so a second agent is indicated. Two albumin-creatinine ratios above 3.5 mg/mmol (the threshold for women) three months apart confirm persistent moderately increased albuminuria, which raises cardiovascular and renal risk and is an indication to consider an ACE inhibitor or angiotensin receptor blocker and an SGLT2 inhibitor even with normal blood pressure.",
+   "B": "Her HbA1c is above target and albuminuria is present; continuing unchanged therapy would miss two opportunities to reduce long-term complications.",
+   "C": "The sex-specific threshold for moderately increased albuminuria is 3.5 mg/mmol in women (2.5 in men); both of her results exceed it and the finding is persistent.",
+   "D": "Her eGFR is normal and the albuminuria is moderate; this is early diabetic kidney disease to be managed in primary care, and referral criteria such as eGFR below 30, rapid decline or heavy albuminuria are not met."
+  },
+  "learning_point": "In type 2 diabetes, a persistent urine albumin-creatinine ratio above the sex-specific threshold (3.5 mg/mmol in women) is early kidney disease that warrants renin-angiotensin blockade and review of glucose-lowering therapy.",
+  "setting_note": "",
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Investigations and interpretation",
+   "General medicine"
+  ],
+  "domains": [
+   "3.1",
+   "1.5",
+   "3.2"
+  ],
+  "clinical_experiences": [
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "type 2 diabetes review",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "red_book",
+    "title": "RACGP, Management of type 2 diabetes: a handbook for general practice",
+    "locator": "Glycaemic targets; kidney disease; albuminuria",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Diabetes",
+    "locator": "Type 2 diabetes: glycaemic management; diabetic kidney disease",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: general HbA1c target 7 percent or less (53 mmol/mol) for most; albumin-creatinine ratio thresholds 2.5 mg/mmol (men) and 3.5 mg/mmol (women), confirmed on two of three samples; persistent albuminuria indicates ACE inhibitor or ARB and favours SGLT2 inhibitor or GLP-1 agonist as second-line agents for renal and cardiovascular benefit. Referral to nephrology is for eGFR under 30, albumin-creatinine ratio over 30 mg/mmol with haematuria, or sustained rapid decline. Common misconception: that normal blood pressure makes renin-angiotensin blockade unnecessary. Out of scope: choice and dosing of the second glucose-lowering agent.",
+  "plan": "Tests interpretation of an annual diabetes review, in particular recognising sex-specific albuminuria thresholds and an above-target HbA1c (outcomes 3.1, 1.5, 3.2). Scene is a regional general practice with the GP supervising. Distractors: all at target, albuminuria dismissed by wrong threshold, over-called nephropathy. Supported by the RACGP diabetes handbook and Therapeutic Guidelines Diabetes."
+ },
+ {
+  "work_order_id": "r1-021",
+  "item_id": "fdf830f9-07fb-dd18-2579-94adacdd471a",
+  "version": 1,
+  "stem": "You are the junior doctor on the medical ward of a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the physician on call by phone. A 36-year-old man admitted yesterday with right lower lobe pneumonia on intravenous benzylpenicillin and oral doxycycline has deteriorated: respiratory rate 28 breaths per minute, oxygen saturation 91 percent on 4 L/min via nasal prongs, blood pressure 98/60 mmHg, heart rate 118 beats per minute and temperature 39.1 degrees Celsius, which triggers a red-zone response under the Rapid Detection and Response chart. You have started the sepsis pathway, taken cultures, given a 500 mL crystalloid bolus and are about to phone the physician using the ISBAR framework.",
+  "lead_in": "Which statement belongs in the Recommendation component of your ISBAR call?",
+  "options": [
+   {
+    "id": "A",
+    "text": "\"I am the resident covering the medical ward tonight and I am calling about a patient who is in the red zone.\""
+   },
+   {
+    "id": "B",
+    "text": "\"I would like you to come in and review him now, and I want to give a second 500 mL bolus while I wait; do you agree?\""
+   },
+   {
+    "id": "C",
+    "text": "\"He is a 36-year-old admitted yesterday with right lower lobe pneumonia on intravenous benzylpenicillin and doxycycline.\""
+   },
+   {
+    "id": "D",
+    "text": "\"His respiratory rate is 28, saturations 91 percent on 4 litres, blood pressure 98 over 60 and heart rate 118.\""
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Identifying yourself, your role and the patient is the Identify component, the opening of the call rather than the request.",
+   "B": "The Recommendation is the explicit statement of what you need from the listener and by when, plus what you propose to do in the meantime, and it should end with a check that both parties agree. Stating a clear request (attend now, agreement to a second bolus) is the part most often omitted by junior doctors and the part that most changes the outcome of the call.",
+   "C": "The admission diagnosis and current treatment are Background, the context that helps the listener understand the situation.",
+   "D": "The observations and the red-zone trigger are part of the Assessment (together with your impression, in this case septic shock until proven otherwise), not the Recommendation."
+  },
+  "learning_point": "The Recommendation in ISBAR states clearly what you want the senior to do and when, what you propose to do meanwhile, and confirms agreement; it is the component most often left out.",
+  "setting_note": "In a country hospital the Recommendation should also include an explicit question about escalation beyond the site, for example whether to contact MedSTAR or the tertiary intensive care unit for retrieval advice now rather than after further deterioration.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Infection and sepsis",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.1",
+   "1.9",
+   "1.2"
+  ],
+  "clinical_experiences": [
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "ISBAR clinical handover",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Clinical Handover Policy Directive and ISBAR tools; Rapid Detection and Response observation chart",
+    "locator": "ISBAR components; red-zone escalation",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (2nd edition)",
+    "locator": "Communicating for Safety Standard, Action 6.8; Recognising and Responding to Acute Deterioration Standard",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ISBAR is Identify, Situation, Background, Assessment, Recommendation; the recommendation should be specific (what, by whom, by when), include interim actions and a read-back or agreement check. In SA the Rapid Detection and Response chart red zone requires immediate escalation to a medical officer and consideration of a Medical Emergency Response. Common misconception: that reporting observations alone is sufficient. Out of scope: antibiotic escalation for severe pneumonia.",
+  "plan": "Tests recall of the ISBAR components by asking which statement is the Recommendation (outcomes 1.1, 1.9, 1.2). Scene is a country hospital overnight with a septic patient and the physician by phone. Each distractor is a correctly worded statement from a different ISBAR component, so the item hinges on knowing what Recommendation means. Supported by the SA Health clinical handover directive and NSQHS Communicating for Safety."
+ },
+ {
+  "work_order_id": "r1-022",
+  "item_id": "7d5ca2ed-8361-8765-cd1a-fcf4dfd74033",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a tertiary hospital in Adelaide, covering four surgical wards with the surgical registrar in theatre and the consultant at home. At 20:30 a nurse asks you to see a 34-year-old man admitted that morning with epigastric pain and weight loss. His CT abdomen, reported at 19:00 after the day team left, describes a mass in the head of the pancreas with multiple liver lesions suspicious for metastases and recommends oncological referral. He is comfortable, his partner is at the bedside, and he asks you directly: \"They said the scan would be back tonight. What did it show?\" The admitting team has not yet seen the report.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tell him the scan was fine for tonight so he can rest, and leave the result for the day team to discuss"
+   },
+   {
+    "id": "B",
+    "text": "Read him the full report, including the likely metastatic cancer, and answer his questions about prognosis"
+   },
+   {
+    "id": "C",
+    "text": "Tell him honestly that the scan has shown a serious abnormality that needs specialist explanation, ask what he would like to know now, contact the registrar tonight to arrange a proper discussion as soon as possible, and document the conversation"
+   },
+   {
+    "id": "D",
+    "text": "Tell him you have not seen the report and that results are only discussed on ward rounds"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Telling him the scan was fine is a lie that will be discovered the next morning, destroys trust and denies him the chance to prepare or have family present.",
+   "B": "Delivering a diagnosis of probable metastatic cancer and prognosis at night, as an intern who has not seen the images, has not discussed the case with the treating team and cannot answer questions about treatment, risks inaccurate or incomplete information and leaves him without a plan; it exceeds an intern's scope.",
+   "C": "Honesty does not require dumping every detail. Acknowledging that the result is serious, exploring what he wants to know and when, ensuring he has support, and escalating to the registrar tonight so that a senior clinician can break the news properly (ideally with the consultant's involvement the next morning or sooner) respects his autonomy and stays within an intern's role. Documenting what was said avoids mixed messages.",
+   "D": "Deflecting with a false statement or a non-existent rule is dishonest and leaves him anxious and uninformed."
+  },
+  "learning_point": "When a serious unexpected result arrives after hours, be honest that it is serious, find out what the patient wants to know, escalate to the registrar for a timely senior discussion, and document; neither lie nor break the full news alone.",
+  "setting_note": "In a regional hospital the senior clinician may be the visiting surgeon or GP by phone; the intern should still phone them that evening so the news is delivered by someone able to discuss next steps, including referral to Adelaide.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Oncology",
+   "Professionalism, ethics and law",
+   "Documentation"
+  ],
+  "domains": [
+   "1.2",
+   "2.4",
+   "2.1"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "breaking bad news",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "minor",
+   "uncertainty_note": "Some senior clinicians would argue the patient is entitled to the full result immediately; the keyed answer keeps honesty while escalating so that the full discussion is led by someone who can answer treatment questions."
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Sections 3.2 (good patient care), 3.3 (effective communication) and 2.2 (recognising limits of competence)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Clinical practice guidelines for communicating prognosis and end-of-life issues (Clayton et al, Medical Journal of Australia 2007) and the SPIKES protocol",
+    "locator": "Preparation; perception; invitation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: principles of breaking bad news (setting, perception, invitation, knowledge in small chunks, empathy, strategy) apply even when the full conversation must be deferred; patients have a right to honesty but also to choose how much they hear and when. Interns should escalate rather than deliver major diagnoses alone, and the registrar should be told tonight, not left to find the report tomorrow. Common misconception: that the only choices are lying or telling everything. Out of scope: management of pancreatic cancer.",
+  "plan": "Tests management of a direct question about a serious result after hours, balancing honesty, the patient's preference and an intern's scope (outcomes 1.2, 2.4, 2.1). Scene is an evening cover shift in a tertiary hospital with the registrar in theatre. Distractors: lie, dump the whole report, deflect with a false rule. Supported by Good medical practice and Australian prognosis-communication guidelines."
+ },
+ {
+  "work_order_id": "r1-023",
+  "item_id": "46affd36-a9a4-c1f8-8c4d-1dd7cf766ede",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a tertiary hospital in Adelaide, with the gynaecology registrar available by phone. A 29-year-old woman was admitted this afternoon with pelvic pain; her serum hCG is positive, ultrasound has not yet located the pregnancy, and she is stable with serial hCG planned. On admission she told the day team, and it is documented, that she does not want her parents to know she is pregnant. At 21:00 the ward clerk puts through a call from her mother, who says she is listed as next of kin, is very worried, and wants to know \"what is wrong with her and what the tests showed\". The patient is awake and has capacity.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tell her mother the working diagnosis, since she is the recorded next of kin and is asking in good faith"
+   },
+   {
+    "id": "B",
+    "text": "Tell her mother that you cannot give any information at all and end the call"
+   },
+   {
+    "id": "C",
+    "text": "Ask the gynaecology registrar to return the call so that a more senior doctor can decide what to say"
+   },
+   {
+    "id": "D",
+    "text": "Check with the patient what, if anything, she wants shared, then speak to her mother within those limits, for example that she is safe and being looked after, and document the conversation"
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Being named next of kin confers no right to clinical information about an adult with capacity; disclosing the pregnancy against her documented wishes breaches confidentiality and could cause real harm.",
+   "B": "A flat refusal is unnecessarily harsh and may itself suggest something serious; with the patient's agreement, reassurance that she is safe can usually be given without breaching confidentiality.",
+   "C": "Escalating a routine confidentiality question to the on-call registrar at night is not needed and delays a response; managing this call is within an intern's scope.",
+   "D": "The patient controls what is shared. A brief check with her allows a response tailored to her wishes, for example that she is stable and being cared for, or that she will phone her mother herself, and protects the information she asked to keep private. Documenting what was agreed and said protects both patient and staff and informs the day team."
+  },
+  "learning_point": "Information about an adult patient with capacity is shared with family only to the extent the patient agrees, whatever the next-of-kin field says; check with the patient first and document.",
+  "setting_note": "",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Professionalism, ethics and law",
+   "Obstetrics and women's health",
+   "Documentation"
+  ],
+  "domains": [
+   "1.2",
+   "2.1",
+   "1.10"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "communication with family",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia",
+    "locator": "Section 3.4 Confidentiality and privacy",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Privacy Policy Directive and Code of Fair Information Practice",
+    "locator": "Disclosure of personal health information to family",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: confidentiality is owed to the patient; next of kin is an administrative contact, not a legal entitlement to information; disclosure to family requires the patient's consent unless she lacks capacity or an exception applies. Telephone callers cannot be verified, which is a further reason for caution. Common misconception: that family members listed as next of kin have a right to results. Out of scope: management of pregnancy of unknown location.",
+  "plan": "Tests management of a family phone call where the patient has restricted disclosure (outcomes 1.2, 2.1, 1.10). Scene is an evening cover shift in a tertiary hospital with a possible ectopic pregnancy. Distractors: disclose to next of kin, blanket refusal, unnecessary escalation. Supported by Good medical practice section 3.4 and SA Health privacy directives."
+ },
+ {
+  "work_order_id": "r1-024",
+  "item_id": "804b4b70-1d6e-6958-7dec-95c0a3821107",
+  "version": 1,
+  "stem": "You are the intern on the medical ward of a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 56-year-old woman admitted with pneumonia was charted enoxaparin 40 mg once daily for thromboprophylaxis; on checking the chart you find that she received 80 mg this morning because the dose was transcribed incorrectly. She is well, with no bleeding, normal observations and a normal creatinine. You have told the registrar, who agrees no treatment is needed beyond observation, and you have entered the incident in the Safety Learning System. Her husband is at the bedside and asks why the nurses have been \"checking on her so much\".",
+  "lead_in": "Which statement correctly describes what open disclosure requires in this situation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The patient, and her husband if she wishes, should be told promptly what happened, given an apology or expression of regret, told what is being done and how recurrence will be prevented"
+   },
+   {
+    "id": "B",
+    "text": "Disclosure should wait until the root cause analysis is complete so that accurate information can be given"
+   },
+   {
+    "id": "C",
+    "text": "Only the medical director or consultant may disclose the error, so the intern should say nothing until they are available"
+   },
+   {
+    "id": "D",
+    "text": "The word \"sorry\" should be avoided because an apology is an admission of liability"
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "The Australian Open Disclosure Framework requires that patients, and with their consent their family, are told about an incident that caused or could have caused harm, as soon as practicable; the discussion includes an apology or expression of regret including the word sorry, a factual explanation, the consequences and what is being done, and the steps to prevent recurrence. A double prophylactic dose with no harm still warrants disclosure.",
+   "B": "Waiting for a formal review contradicts the framework's requirement for timely disclosure; initial disclosure gives the known facts and promises further information as it becomes available.",
+   "C": "Any clinician involved can and should participate in disclosure; a junior doctor should involve the registrar or consultant and follow the local process, but need not stay silent when the patient or family asks, and a lower-level open disclosure for a minor event can be led by the treating team.",
+   "D": "The Civil Liability Act 1936 (SA) provides that an apology or expression of regret does not constitute an admission of liability; saying sorry is expected under the national framework."
+  },
+  "learning_point": "Open disclosure after a medication error means telling the patient promptly and honestly what happened, saying sorry, explaining consequences and prevention, and involving family as the patient wishes; an apology is not an admission of liability.",
+  "setting_note": "In a regional hospital the consultant may be off site; the intern and registrar can conduct the initial disclosure of a minor incident and inform the consultant, following the local health network's open disclosure procedure.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Prescribing and medication safety",
+   "Professionalism, ethics and law"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "4.3"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "communication with family",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care, Australian Open Disclosure Framework",
+    "locator": "Elements of open disclosure; apology; timing",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Open Disclosure Policy Directive; Civil Liability Act 1936 (SA) section 75",
+    "locator": "Apology provisions; lower- and higher-level open disclosure",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the national framework's elements are open and timely communication, acknowledgement, apology or expression of regret, supporting and meeting the needs of the patient and family, supporting staff, integration with clinical governance, and confidentiality. SA has an apology law (Civil Liability Act 1936, s75) protecting apologies from being admissions. Incidents are reported in the Safety Learning System in SA. Common misconception: that an error without harm need not be disclosed. Out of scope: management of enoxaparin overdose.",
+  "plan": "Tests recall of the elements of open disclosure after a near-harm medication error, prompted by a family member's question (outcomes 1.1, 1.2, 4.3). Scene is a regional medical ward with the registrar involved and the incident reported. Distractors: wait for analysis, only seniors may disclose, avoid apology. Supported by the Australian Open Disclosure Framework and SA apology law."
+ },
+ {
+  "work_order_id": "r1-025",
+  "item_id": "1a3c9365-0de0-b9d4-3b05-cac0c8cfb955",
+  "version": 1,
+  "stem": "You are the intern on an evening cover shift at a country hospital 90 minutes from the nearest tertiary centre, where you cover the ward and emergency department overnight. The nurse asks you to finalise the discharge summary for a 38-year-old man leaving on the 06:00 bus tomorrow, before the day team arrives. He was admitted five days ago with community-acquired pneumonia and was found to have new atrial fibrillation; the visiting physician started apixaban 5 mg twice daily and metoprolol 25 mg twice daily, planned an echocardiogram and physician review in four weeks, and a blood culture taken on admission is still reported as \"no growth to date\". The draft summary written by the day resident reads: \"Admitted with pneumonia. Treated with IV antibiotics, improved. Discharged on oral amoxicillin to complete 7 days. GP follow-up.\"",
+  "lead_in": "Which deficiency in this draft poses the greatest risk to his safety after discharge?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It does not include the ward's direct telephone number for the GP to call"
+   },
+   {
+    "id": "B",
+    "text": "It omits the new diagnosis of atrial fibrillation, the newly started apixaban and metoprolol with their reasons, the pending blood culture result and the planned echocardiogram and physician review"
+   },
+   {
+    "id": "C",
+    "text": "The hospital course is too brief and does not describe his daily progress"
+   },
+   {
+    "id": "D",
+    "text": "It does not list the investigations that returned normal results"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A contact number is helpful but its absence is unlikely on its own to lead to harm; the GP can reach the hospital through the switchboard.",
+   "B": "The discharge summary is the main communication to the GP. Omitting a new diagnosis, a new anticoagulant and beta blocker (with the reasons they were started and the intended duration), a result still pending, and specific follow-up actions means the GP may stop or fail to continue the anticoagulant, miss a positive culture and overlook the echocardiogram. Medication changes with reasons, pending results and follow-up responsibilities are the elements most strongly linked to post-discharge harm.",
+   "C": "A concise hospital course is acceptable and often preferred; narrative detail matters less than the actionable content.",
+   "D": "Normal results are low-yield in a discharge summary; what matters are abnormal and pending results and the actions they require."
+  },
+  "learning_point": "The critical content of a discharge summary is new diagnoses, every medication started, stopped or changed with the reason, results still pending, and who is responsible for each follow-up action.",
+  "setting_note": "In a country hospital the discharge summary may be the only handover the GP and the Adelaide physician receive; the intern should also telephone the GP practice if the patient leaves before business hours, and note who will chase the blood culture.",
+  "learning_area": "Communication, handover and consent",
+  "secondary_areas": [
+   "Discharge planning",
+   "Documentation",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.1",
+   "1.10",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "discharge summary quality",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b01",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "National Safety and Quality Health Service Standards (2nd edition), Communicating for Safety Standard and National guidelines for on-screen presentation of discharge summaries",
+    "locator": "Actions 6.7 to 6.8; discharge summary core content",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care, Medication Safety Standard and medication reconciliation at transitions of care",
+    "locator": "Action 4.12 documenting medication changes",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the ACSQHC discharge summary core elements include principal and secondary diagnoses, medication list with changes and reasons, pending results and who will follow them up, arranged follow-up and information given to the patient. Medication changes and pending results are the most common sources of post-discharge adverse events. Common misconception: that a long narrative equals a good summary. Out of scope: anticoagulation decisions in atrial fibrillation.",
+  "plan": "Tests interpretation of a deficient draft discharge summary to identify the omission most linked to harm (outcomes 1.1, 1.10, 1.8). Scene is an evening cover shift in a country hospital with an early-morning discharge. Distractors are minor or cosmetic deficiencies. Supported by the ACSQHC Communicating for Safety and Medication Safety standards."
+ }
+]

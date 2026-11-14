@@ -1,0 +1,1102 @@
+[
+ {
+  "item_id": "15abe5b8-e32a-9e7b-c3c4-27543ae72591",
+  "work_order_id": "r1-001",
+  "stem": "You are the resident covering the wards overnight at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The physician is available by phone. At 22:30 the nurse asks you to see a 32-year-old Aboriginal man admitted two days ago with lower-leg cellulitis. He has had 48 hours of intravenous flucloxacillin, is afebrile with observations in the normal range, and the erythema is receding behind the marked line. He has just learned that his uncle has died in Port Augusta and tells you he must leave tonight to travel there for Sorry Business. He is calm and clearly understands that his infection is not yet fully treated. He has a mobile phone and family will drive him.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that he must remain until the intravenous course is finished and document that he was advised not to leave"
+   },
+   {
+    "id": "B",
+    "text": "Acknowledge his obligation, review him for a switch to oral antibiotics, arrange follow-up with an Aboriginal health service in Port Augusta and confirm the plan with the physician"
+   },
+   {
+    "id": "C",
+    "text": "Ask him to sign the discharge against medical advice form so he can leave without further delay"
+   },
+   {
+    "id": "D",
+    "text": "Suggest that his family travel to the hospital instead so he can grieve here while completing treatment"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "Sorry Business and cultural obligations",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.3",
+   "3.3",
+   "3.6"
+  ]
+ },
+ {
+  "item_id": "49ec713d-7167-c7b9-359d-a9543343b7a5",
+  "work_order_id": "r1-002",
+  "stem": "You are the PGY2 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. The visiting physician has reviewed a 19-year-old Aboriginal woman admitted two days ago with community-acquired pneumonia and has agreed she can go home tomorrow. She has known rheumatic heart disease with moderate mitral regurgitation and is prescribed 4-weekly intramuscular benzathine benzylpenicillin as secondary prophylaxis; the medication chart and the hospital record show her last injection was seven weeks ago, and she says the clinic she usually attends has closed. She has no current GP, her last echocardiogram was 10 months ago and she mentions she is overdue for a dental check. You have a long task list before the end of the day.",
+  "lead_in": "Which task is the most important to complete before she leaves hospital?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Book an outpatient dental review through the regional dental service"
+   },
+   {
+    "id": "B",
+    "text": "Request a follow-up chest X-ray in six weeks to confirm resolution of the pneumonia"
+   },
+   {
+    "id": "C",
+    "text": "Give the overdue benzathine benzylpenicillin injection today and notify the rheumatic heart disease register of the missed dose and her new contact details"
+   },
+   {
+    "id": "D",
+    "text": "Arrange her next echocardiogram for 12 months after the previous one"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "acute rheumatic fever and rheumatic heart disease",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.3",
+   "4.4",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "12cf7bee-a747-3852-f1c7-5fdf6458ce09",
+  "work_order_id": "r1-003",
+  "stem": "You are the intern on the surgical ward of a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 38-year-old Aboriginal man has been admitted for incision and drainage of a thigh abscess under the visiting surgeon tomorrow morning. He is afebrile and well hydrated, with blood pressure 152/94 mmHg. His admission bloods show creatinine 148 micromol/L, eGFR 52 mL/min/1.73 m2, potassium 4.7 mmol/L, HbA1c 8.9 percent and a urine albumin-creatinine ratio of 42 mg/mmol. The state pathology record shows an eGFR of 55 and albumin-creatinine ratio of 38 from a presentation 7 months ago. He has not seen a GP since. The anaesthetist has asked you to summarise his renal function for the pre-operative note.",
+  "lead_in": "Which interpretation of these results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute kidney injury from the abscess and sepsis, expected to recover with intravenous fluids over the next 48 hours"
+   },
+   {
+    "id": "B",
+    "text": "Renal function within the expected range for a man of his age, with no implications for his peri-operative care"
+   },
+   {
+    "id": "C",
+    "text": "Nephrotic syndrome from undiagnosed glomerulonephritis, requiring urgent transfer for renal biopsy"
+   },
+   {
+    "id": "D",
+    "text": "Chronic kidney disease, stage 3a with moderately increased albuminuria, most likely diabetic, so nephrotoxic drugs such as NSAIDs should be avoided and GP and renal follow-up arranged"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "chronic kidney disease",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "1.5",
+   "4.4",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "eed626a7-f496-5f1f-4c05-c1fb9f80be13",
+  "work_order_id": "r1-004",
+  "stem": "You are the PGY2 on a general medical ward of a tertiary hospital in Adelaide. On the morning ward round the team reviews a 31-year-old Aboriginal woman from a remote community who was admitted overnight with pyelonephritis. She is clinically improving. During the review she looks at the floor, gives brief answers, and says \"yeah\" when the registrar asks whether she understands that she will need to stay for intravenous antibiotics and whether she has any questions. Afterwards the registrar remarks that she seems \"disengaged and probably won't comply\" and asks you to document that she has been counselled and agrees with the plan. The ward's Aboriginal Liaison Officer has not yet been told she is an inpatient.",
+  "lead_in": "Which interpretation of her responses is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her brief answers and limited eye contact may reflect communication norms and feeling unsafe on the ward, so her understanding and agreement cannot be assumed and should be checked in a more culturally safe way"
+   },
+   {
+    "id": "B",
+    "text": "Her responses show she understands the plan and consents to it, and documenting her agreement is appropriate"
+   },
+   {
+    "id": "C",
+    "text": "Her presentation most likely indicates depression and a mental health assessment should be requested"
+   },
+   {
+    "id": "D",
+    "text": "Her lack of engagement suggests intoxication or withdrawal, which should be assessed before any further discussion"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.3",
+   "3.4",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "ee16ca5a-0549-ae39-7cc2-51aa05ee7c39",
+  "work_order_id": "r1-005",
+  "stem": "You are the junior doctor on the surgical ward of a country hospital 90 minutes from the nearest tertiary centre; overnight you cover the ward and the emergency department alone, with the surgeon on call by phone. A 56-year-old Aboriginal man is day one after an open appendicectomy. When you ask how he is, he says he is \"alright\" and does not ask for anything. The nurse tells you he has not got out of bed, grimaces when he moves, has declined the charted oxycodone twice and has not eaten. His nephew, who is visiting, says quietly that \"Uncle won't complain, he never does\". Observations are normal apart from a heart rate of 102 beats per minute.",
+  "lead_in": "Which interpretation of this situation is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "He has little pain and the analgesia can be stepped down to paracetamol alone"
+   },
+   {
+    "id": "B",
+    "text": "He is declining opioids because of a probable history of substance misuse that should be clarified"
+   },
+   {
+    "id": "C",
+    "text": "His answer may understate his pain, so his pain should be assessed using function, behaviour and a scale he is comfortable with, and analgesia offered with a clear explanation of its purpose"
+   },
+   {
+    "id": "D",
+    "text": "His nephew is influencing his answers and should be asked to leave during clinical assessments"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "culturally safe communication",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "D"
+  ],
+  "domains": [
+   "1.3",
+   "3.6",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "6b91461d-a59d-054b-12f5-b90456c1858a",
+  "work_order_id": "r1-006",
+  "stem": "You are the PGY2 on a busy medical ward of a metropolitan general hospital, with a registrar on site overnight. You are making a planned telehealth follow-up call to a 20-year-old Aboriginal man who left the ward two days ago, before completing intravenous antibiotics for a leg cellulitis, after signing a discharge against medical advice form. He explains that he had to go home to look after his younger siblings. The leg is still red and sore but he is not febrile. He asks whether he is \"still allowed\" to come back to the hospital, or whether he has to go somewhere else now because he signed the form.",
+  "lead_in": "Which statement correctly describes his entitlement to care after a discharge against medical advice?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The signed form ends the hospital's duty of care, so he must now present to a general practitioner or a different hospital"
+   },
+   {
+    "id": "B",
+    "text": "His right to care and the hospital's duty of care continue unchanged; he can return at any time, and the team should offer the safest treatment plan he can accept"
+   },
+   {
+    "id": "C",
+    "text": "He may return only if he is formally readmitted under the original consultant and agrees to complete the intravenous course"
+   },
+   {
+    "id": "D",
+    "text": "Because he left with an untreated infection, he can be detained under the Mental Health Act 2009 if he refuses to return"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "discharge against medical advice",
+  "context": "telehealth",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.3",
+   "2.1",
+   "3.6"
+  ]
+ },
+ {
+  "item_id": "93617cce-bd06-a949-ae34-b1a8999775e4",
+  "work_order_id": "r1-007",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital, with the medical registrar on site overnight. A 36-year-old Aboriginal man has presented with two hours of central chest pain. His ECG shows ST depression in the lateral leads and the registrar has told you he will be admitted for serial troponins and likely angiography. When you return to explain the plan, he says he wants his aunty, who raised him and has just arrived in the waiting room, to be with him and part of any decisions. His wife is at home with their children and he has not asked for her to be called. He is alert, with capacity, and in no distress.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that only his wife, as legal next of kin, can be involved in discussions about his care"
+   },
+   {
+    "id": "B",
+    "text": "Explain that hospital policy limits clinical discussions to the patient alone while he is in the emergency department"
+   },
+   {
+    "id": "C",
+    "text": "Delay the discussion until the social worker has clarified the family structure in the morning"
+   },
+   {
+    "id": "D",
+    "text": "Ask him whom he would like involved and, with his consent, bring his aunty in to join the discussion of the plan"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "family and kinship in decision-making",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.3",
+   "3.6",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "d1c44202-acf6-7f8d-44ad-2c4bd5032625",
+  "work_order_id": "r1-008",
+  "stem": "You are the junior doctor on the medical ward of a country hospital in South Australia, 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the GP on call by phone. A 79-year-old Aboriginal man with severe COPD and a hip fracture awaiting transfer has become hypoxic and delirious and cannot currently take part in decisions about escalation of his care. He has no advance care directive and no appointed guardian. Six family members are present; a man introduced as his nephew says he has always been the one who speaks for the old man and makes decisions with him, and that the patient's only daughter lives in Adelaide and has had little contact for years. You need to decide who can lawfully consent on his behalf.",
+  "lead_in": "Which statement is correct under South Australian law?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An adult relative under Aboriginal kinship rules who has a close and continuing relationship with him can act as the person responsible for consent"
+   },
+   {
+    "id": "B",
+    "text": "Only his daughter, as his closest blood relative, can give consent, and she must be contacted before any decision"
+   },
+   {
+    "id": "C",
+    "text": "The South Australian Civil and Administrative Tribunal must appoint a guardian before any medical decision can be made"
+   },
+   {
+    "id": "D",
+    "text": "Decisions about limiting treatment cannot be made by family at all and rest solely with the treating consultant"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "family and kinship in decision-making",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.3",
+   "1.2",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "4160ede6-4257-ae5b-8a2a-70579b7d630d",
+  "work_order_id": "r1-009",
+  "stem": "You are the intern in the emergency department of a metropolitan general hospital on an afternoon shift, with the registrar available. A 52-year-old Aboriginal man has had a forearm laceration sutured and is ready to go home. His observations show blood pressure 168/98 mmHg on two readings, he has a body mass index of 34, smokes 15 cigarettes a day and mentions that his father had a heart attack at 50. He says he has not seen a doctor for \"years\", does not have a regular GP, and that scripts are expensive so he usually does not fill them. He is asymptomatic and his ECG is normal. The hospital's Aboriginal Liaison Officer is on duty.",
+  "lead_in": "What is the most appropriate action to address his longer-term health?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe amlodipine on a hospital script and advise him to see a GP at some stage for review"
+   },
+   {
+    "id": "B",
+    "text": "Refer him to the hospital's cardiology outpatient clinic for assessment of hypertension"
+   },
+   {
+    "id": "C",
+    "text": "With the Aboriginal Liaison Officer, link him to an Aboriginal Community Controlled Health Service or GP for an Aboriginal and Torres Strait Islander health assessment and registration for the Closing the Gap PBS co-payment measure"
+   },
+   {
+    "id": "D",
+    "text": "Admit him under the medical team for investigation and control of his blood pressure"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "health assessment and Closing the Gap PBS",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.3",
+   "3.1",
+   "4.4"
+  ]
+ },
+ {
+  "item_id": "e454021a-7521-269b-7523-b960c82b9ca5",
+  "work_order_id": "r1-010",
+  "stem": "You are the intern in the emergency department of a tertiary hospital in Adelaide. A 34-year-old Aboriginal woman from the APY Lands, whose first language is Pitjantjatjara and who speaks limited English, has presented with 12 hours of right lower abdominal pain. She is haemodynamically stable with localised tenderness. The surgical registrar has reviewed her and asks you to obtain consent for a CT abdomen and, depending on the result, an appendicectomy, and to do this quickly because the CT slot is in 30 minutes. Her 12-year-old son, who speaks English well, has been translating so far. The Aboriginal Liaison Officer is on site, and the hospital has access to telephone and video interpreting services.",
+  "lead_in": "What is the most important step to take before the consent discussion?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Proceed with her son interpreting, since he has already been doing so and time matters"
+   },
+   {
+    "id": "B",
+    "text": "Arrange an accredited Pitjantjatjara interpreter by phone or video, and ask the Aboriginal Liaison Officer to support her during the discussion"
+   },
+   {
+    "id": "C",
+    "text": "Ask the Aboriginal Liaison Officer to interpret the consent discussion"
+   },
+   {
+    "id": "D",
+    "text": "Ask a nurse who speaks some Pitjantjatjara to explain the procedure to her"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "language and interpreter needs",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.3",
+   "1.2",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "55e951c5-eced-d0c8-79db-1796b312bb95",
+  "work_order_id": "r1-011",
+  "stem": "You are the PGY2 covering the ward and the emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre, with the GP on call by phone. At 02:00 the nurse tells you a 29-year-old Aboriginal woman has arrived with abdominal pain, triaged category 4. The nurse adds, \"She's back again, third time this fortnight, the notes say drug-seeking.\" Her previous two visits ended with analgesia and discharge without investigations; the notes record no examination findings. Her observations tonight are heart rate 108 beats per minute, temperature 37.9 degrees Celsius, blood pressure 118/70 mmHg. You have one other patient, a man with stable chest pain awaiting a repeat troponin in an hour.",
+  "lead_in": "What is the most appropriate priority?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Review her previous notes, offer analgesia consistent with her earlier visits and discharge her with advice to see the GP"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to contact the GP on call to see her in the morning so you can focus on the chest pain patient"
+   },
+   {
+    "id": "C",
+    "text": "Request a urine drug screen before deciding whether analgesia is appropriate"
+   },
+   {
+    "id": "D",
+    "text": "Assess her now as a new presentation with a full history, examination and investigations, setting aside the labels in her notes"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "systemic racism and health inequity",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "3.4",
+   "1.4",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "5b37c7a2-1c79-0ecf-a456-a2700de357ad",
+  "work_order_id": "r1-012",
+  "stem": "You are the resident in the emergency department of a large metropolitan teaching hospital with on-site intensive care, interventional cardiology and 24-hour imaging. A 68-year-old Aboriginal woman from Ceduna has been diagnosed with a non-ST-elevation myocardial infarction and is pain free on treatment. The cardiology registrar plans angiography tomorrow. She is distressed, says she does not trust hospitals since her husband died in one, and wants to go home to her family on the first flight. Her daughter is 800 kilometres away and she has no family in Adelaide. The cardiology registrar asks you to \"get the ALO to sort it out\". An Aboriginal Liaison Officer is available on call this evening.",
+  "lead_in": "What is the most appropriate way to involve the Aboriginal Liaison Officer?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ask the Aboriginal Liaison Officer to meet her now, help her contact her family and join the discussion about angiography, while you remain responsible for explaining the procedure and seeking her consent"
+   },
+   {
+    "id": "B",
+    "text": "Ask the Aboriginal Liaison Officer to obtain her consent for the angiogram so the cardiology team can proceed in the morning"
+   },
+   {
+    "id": "C",
+    "text": "Ask the Aboriginal Liaison Officer to convince her to stay in hospital until the procedure is done"
+   },
+   {
+    "id": "D",
+    "text": "Defer involving the Aboriginal Liaison Officer until the morning ward round so the cardiology registrar can brief them in person"
+   }
+  ],
+  "learning_area": "Aboriginal and Torres Strait Islander health",
+  "presentation": "working with Aboriginal Liaison Officers",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.3",
+   "2.5",
+   "3.6"
+  ]
+ },
+ {
+  "item_id": "5310fbc7-03d4-7842-60f4-f1634e72db14",
+  "work_order_id": "r1-013",
+  "stem": "You are the intern at a regional hospital with a small medical ward and no intensive care unit, making a telehealth follow-up call one week after discharge to a 79-year-old woman who was admitted with an exacerbation of COPD. She is recovering well on her usual inhalers and lives independently in a town 40 minutes away. She asks about vaccinations because her neighbour \"caught shingles and was in agony\". You confirm from the Australian Immunisation Register that she received this year's influenza vaccine and her COVID-19 booster in the last six months, but there is no record of pneumococcal or zoster vaccination. She has no history of immunosuppression and no allergies, and is happy to see her GP.",
+  "lead_in": "What is the most appropriate advice?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reassure her that the influenza and COVID-19 vaccines are the only vaccines recommended at her age"
+   },
+   {
+    "id": "B",
+    "text": "Advise that pneumococcal vaccination is unlikely to benefit her now that she is over 75"
+   },
+   {
+    "id": "C",
+    "text": "Recommend she see her GP for pneumococcal vaccination and the two-dose recombinant zoster vaccine, both funded under the National Immunisation Program for her age"
+   },
+   {
+    "id": "D",
+    "text": "Advise against the zoster vaccine because inhaled corticosteroids make a live vaccine unsafe"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "adult immunisation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.1",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "1eb0db42-5421-d2c9-14ec-b493b7723d4c",
+  "work_order_id": "r1-014",
+  "stem": "You are the intern in the outpatient clinic of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, seeing patients before the visiting surgeon's list. A 38-year-old man who farms near the town is being worked up for elective inguinal hernia repair. In the pre-admission questionnaire he reports drinking six to eight stubbies of full-strength beer on four nights a week and his AUDIT-C score is 8 out of 12. He has never had withdrawal symptoms, seizures or blackouts, does not drink in the morning and has had no injuries or legal problems related to alcohol. His gamma-glutamyl transferase is 92 U/L and other liver tests are normal. He says \"everyone around here drinks like that\".",
+  "lead_in": "Which interpretation of his drinking is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "He has alcohol dependence and requires inpatient withdrawal management before surgery can be scheduled"
+   },
+   {
+    "id": "B",
+    "text": "He is drinking well above the Australian guideline levels at a risky level, which warrants a brief intervention now and a plan for withdrawal risk around surgery"
+   },
+   {
+    "id": "C",
+    "text": "His intake is within the Australian guideline of no more than 10 standard drinks a week and no action is needed"
+   },
+   {
+    "id": "D",
+    "text": "His raised gamma-glutamyl transferase indicates established alcoholic liver disease requiring hepatology referral before surgery"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "alcohol brief intervention",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "D"
+  ],
+  "domains": [
+   "3.1",
+   "3.2",
+   "1.4"
+  ]
+ },
+ {
+  "item_id": "573d5dc7-9b80-fedd-68df-8b22f5a05735",
+  "work_order_id": "r1-015",
+  "stem": "You are the intern on a general practice rotation linked to a rural hospital on the Yorke Peninsula, where the 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. A 68-year-old woman attends for repeat prescriptions. She has had chronic low back pain for eight years and takes modified-release oxycodone 20 mg twice daily, pregabalin 150 mg twice daily and diazepam 5 mg at night, all prescribed by a GP who has since left the practice. Her MRI two years ago showed degenerative change only. She mentions she feels drowsy most mornings, has had two falls in the past month, one with a wrist sprain, and that her daughter has stopped letting her mind the grandchildren. She would like the scripts renewed today as she is \"nearly out\". The supervising GP is available between patients.",
+  "lead_in": "Which issue is the most important to address at this visit?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Renew the three prescriptions as requested and book a routine review in three months"
+   },
+   {
+    "id": "B",
+    "text": "Arrange a repeat MRI of the lumbar spine to look for a new surgical cause of her pain"
+   },
+   {
+    "id": "C",
+    "text": "Refer her to the multidisciplinary pain clinic in Adelaide and continue the current medications until she is seen"
+   },
+   {
+    "id": "D",
+    "text": "Address the sedation and falls from combined opioid, benzodiazepine and gabapentinoid use, checking the real-time prescription monitoring system and agreeing a supervised taper plan with the GP"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "chronic pain",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.2",
+   "1.8",
+   "3.6"
+  ]
+ },
+ {
+  "item_id": "811196ca-c1bb-6958-c426-dbb0c16a4a63",
+  "work_order_id": "r1-016",
+  "stem": "You are the intern in the general medicine outpatient clinic of a large metropolitan teaching hospital, seeing a new patient before presenting to the consultant. A 34-year-old Aboriginal woman has been referred by her GP for \"weight management\". Her body mass index is 38, blood pressure 142/90 mmHg, HbA1c 6.2 percent, lipids mildly raised and she has no symptoms. She works full time, has two children and tells you that she and her partner hope to have another baby in the next year. She has tried several diets without lasting success and asks whether \"the injections\" or surgery would be best for her. She attends an Aboriginal Community Controlled Health Service for her general care.",
+  "lead_in": "Which issue should be addressed first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Discuss her pregnancy plans and agree a preconception plan with lifestyle-based weight management, folate, and glucose and blood pressure monitoring in partnership with her Aboriginal health service"
+   },
+   {
+    "id": "B",
+    "text": "Start a glucagon-like peptide-1 receptor agonist for weight loss before she conceives"
+   },
+   {
+    "id": "C",
+    "text": "Refer her for bariatric surgery assessment given her body mass index and metabolic risk"
+   },
+   {
+    "id": "D",
+    "text": "Advise her to postpone pregnancy until her body mass index is below 30"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "obesity",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.1",
+   "3.6",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "86c24bd1-ed59-0374-6ba1-bb2b60c5a316",
+  "work_order_id": "r1-017",
+  "stem": "You are the PGY2 at a regional hospital with a small medical ward and no intensive care unit, making a telehealth follow-up call to a 66-year-old man discharged last week after treatment for community-acquired pneumonia. He has recovered well. During the call he mentions that a bowel screening kit arrived in the post, that he sent it off about two months ago and received a letter saying the result was \"positive\" and that he should see his GP. He has not done so because he feels well, has no change in bowel habit, no weight loss and \"has always had a bit of a haemorrhoid\". He has no family history of bowel cancer and has never had a colonoscopy. His haemoglobin on admission was 138 g/L.",
+  "lead_in": "Which interpretation of his screening result is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It is most likely a false positive from his haemorrhoid and he can safely wait for the next kit in two years"
+   },
+   {
+    "id": "B",
+    "text": "It indicates a meaningful chance of bowel cancer or advanced adenoma and he needs prompt GP referral for colonoscopy regardless of symptoms"
+   },
+   {
+    "id": "C",
+    "text": "It means he has bowel cancer and should be referred directly to a surgeon for staging"
+   },
+   {
+    "id": "D",
+    "text": "The test is unreliable in people over 65 and should be repeated before any further action"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "screening programs",
+  "context": "telehealth",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.1",
+   "1.5"
+  ]
+ },
+ {
+  "item_id": "0acf264a-9b9c-963f-3b4a-9816f00057bb",
+  "work_order_id": "r1-018",
+  "stem": "You are the intern at a tertiary hospital in Adelaide, conducting a telehealth review for a 55-year-old woman who was discharged a fortnight ago after an admission with a COPD exacerbation. She smokes 20 cigarettes a day, has her first cigarette within five minutes of waking, and says the admission \"scared her into\" wanting to quit. Two years ago she used a 21 mg nicotine patch alone for three weeks, found the cravings unbearable and relapsed. She has depression that is stable on sertraline 100 mg daily and asks what she should try this time. The respiratory registrar has asked you to make a plan and arrange a prescription through her GP.",
+  "lead_in": "What is the most appropriate recommendation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Advise that because nicotine replacement has already failed, her best chance now is to stop without medication"
+   },
+   {
+    "id": "B",
+    "text": "Recommend bupropion as first-line therapy because it will also help her depression"
+   },
+   {
+    "id": "C",
+    "text": "Recommend combination nicotine replacement therapy, a 21 mg patch plus a fast-acting form such as gum, lozenge or mouth spray for cravings, together with referral to Quitline"
+   },
+   {
+    "id": "D",
+    "text": "Recommend she switch to a nicotine vaping product as the first-line approach"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "smoking cessation",
+  "context": "telehealth",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.1",
+   "3.2",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "611dc480-6509-b280-b691-02e63e55b274",
+  "work_order_id": "r1-019",
+  "stem": "You are the PGY2 in the heart failure outpatient clinic of a large metropolitan teaching hospital, with the consultant available. A 58-year-old woman with heart failure with reduced ejection fraction attends for review three weeks after her third admission in six months for fluid overload. She is euvolaemic today on furosemide 40 mg twice daily and standard heart failure therapy. She tells you she lost her rental property two months ago and has been sleeping in her car, that she cannot afford all her medications so takes \"the important ones\", has no scales, and missed two clinic appointments because she had no fuel. She is not depressed and does not drink alcohol. She has a mobile phone and a Centrelink payment.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Increase her furosemide dose and book a review in two weeks to reduce the chance of readmission"
+   },
+   {
+    "id": "B",
+    "text": "Discharge her from the clinic for non-attendance and ask her GP to manage her heart failure"
+   },
+   {
+    "id": "C",
+    "text": "Refer her to psychiatry for assessment of non-adherence before changing her plan"
+   },
+   {
+    "id": "D",
+    "text": "Refer her to the clinic social worker today, simplify her regimen into a once-daily dose administration aid, check her PBS Safety Net status and link her with the community heart failure nurse and a homelessness service"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "social determinants and discharge",
+  "context": "clinic",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.2",
+   "3.6",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "affb7c97-b458-35db-b671-5fe0005fe4e2",
+  "work_order_id": "r1-020",
+  "stem": "You are the intern on a general practice rotation linked to a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 41-year-old woman with type 2 diabetes diagnosed four years ago attends for her annual cycle of care review. She takes metformin 1 g twice daily and no other medications. Her results are HbA1c 8.4 percent (68 mmol/mol), eGFR 88 mL/min/1.73 m2, urine albumin-creatinine ratio 4.2 mg/mmol with a repeat of 3.8 mg/mmol three months earlier, blood pressure 128/78 mmHg, LDL cholesterol 2.6 mmol/L, body mass index 31 and a normal foot examination. Her retinal screen last year was normal. The supervising GP has asked you to summarise what the results mean before you see her together.",
+  "lead_in": "Which interpretation of her results is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Her glycaemia is above target and she has persistent moderately increased albuminuria, so her glucose-lowering therapy needs intensifying and an ACE inhibitor or angiotensin receptor blocker should be considered"
+   },
+   {
+    "id": "B",
+    "text": "Her results are all at target and her current treatment should continue unchanged"
+   },
+   {
+    "id": "C",
+    "text": "An albumin-creatinine ratio of 4.2 mg/mmol is within the normal range for a woman, so only her HbA1c needs attention"
+   },
+   {
+    "id": "D",
+    "text": "She has established diabetic nephropathy with declining kidney function and needs urgent nephrology referral"
+   }
+  ],
+  "learning_area": "Chronic disease, prevention and advocacy",
+  "presentation": "type 2 diabetes review",
+  "context": "clinic",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "3.1",
+   "1.5",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "fdf830f9-07fb-dd18-2579-94adacdd471a",
+  "work_order_id": "r1-021",
+  "stem": "You are the junior doctor on the medical ward of a country hospital 90 minutes from the nearest tertiary centre, covering the ward and emergency department overnight with the physician on call by phone. A 36-year-old man admitted yesterday with right lower lobe pneumonia on intravenous benzylpenicillin and oral doxycycline has deteriorated: respiratory rate 28 breaths per minute, oxygen saturation 91 percent on 4 L/min via nasal prongs, blood pressure 98/60 mmHg, heart rate 118 beats per minute and temperature 39.1 degrees Celsius, which triggers a red-zone response under the Rapid Detection and Response chart. You have started the sepsis pathway, taken cultures, given a 500 mL crystalloid bolus and are about to phone the physician using the ISBAR framework.",
+  "lead_in": "Which statement belongs in the Recommendation component of your ISBAR call?",
+  "options": [
+   {
+    "id": "A",
+    "text": "\"I am the resident covering the medical ward tonight and I am calling about a patient who is in the red zone.\""
+   },
+   {
+    "id": "B",
+    "text": "\"I would like you to come in and review him now, and I want to give a second 500 mL bolus while I wait; do you agree?\""
+   },
+   {
+    "id": "C",
+    "text": "\"He is a 36-year-old admitted yesterday with right lower lobe pneumonia on intravenous benzylpenicillin and doxycycline.\""
+   },
+   {
+    "id": "D",
+    "text": "\"His respiratory rate is 28, saturations 91 percent on 4 litres, blood pressure 98 over 60 and heart rate 118.\""
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "ISBAR clinical handover",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "1.1",
+   "1.9",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "7d5ca2ed-8361-8765-cd1a-fcf4dfd74033",
+  "work_order_id": "r1-022",
+  "stem": "You are the intern on an evening cover shift at a tertiary hospital in Adelaide, covering four surgical wards with the surgical registrar in theatre and the consultant at home. At 20:30 a nurse asks you to see a 34-year-old man admitted that morning with epigastric pain and weight loss. His CT abdomen, reported at 19:00 after the day team left, describes a mass in the head of the pancreas with multiple liver lesions suspicious for metastases and recommends oncological referral. He is comfortable, his partner is at the bedside, and he asks you directly: \"They said the scan would be back tonight. What did it show?\" The admitting team has not yet seen the report.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tell him the scan was fine for tonight so he can rest, and leave the result for the day team to discuss"
+   },
+   {
+    "id": "B",
+    "text": "Read him the full report, including the likely metastatic cancer, and answer his questions about prognosis"
+   },
+   {
+    "id": "C",
+    "text": "Tell him honestly that the scan has shown a serious abnormality that needs specialist explanation, ask what he would like to know now, contact the registrar tonight to arrange a proper discussion as soon as possible, and document the conversation"
+   },
+   {
+    "id": "D",
+    "text": "Tell him you have not seen the report and that results are only discussed on ward rounds"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "breaking bad news",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.2",
+   "2.4",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "46affd36-a9a4-c1f8-8c4d-1dd7cf766ede",
+  "work_order_id": "r1-023",
+  "stem": "You are the intern on an evening cover shift at a tertiary hospital in Adelaide, with the gynaecology registrar available by phone. A 29-year-old woman was admitted this afternoon with pelvic pain; her serum hCG is positive, ultrasound has not yet located the pregnancy, and she is stable with serial hCG planned. On admission she told the day team, and it is documented, that she does not want her parents to know she is pregnant. At 21:00 the ward clerk puts through a call from her mother, who says she is listed as next of kin, is very worried, and wants to know \"what is wrong with her and what the tests showed\". The patient is awake and has capacity.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tell her mother the working diagnosis, since she is the recorded next of kin and is asking in good faith"
+   },
+   {
+    "id": "B",
+    "text": "Tell her mother that you cannot give any information at all and end the call"
+   },
+   {
+    "id": "C",
+    "text": "Ask the gynaecology registrar to return the call so that a more senior doctor can decide what to say"
+   },
+   {
+    "id": "D",
+    "text": "Check with the patient what, if anything, she wants shared, then speak to her mother within those limits, for example that she is safe and being looked after, and document the conversation"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "communication with family",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.2",
+   "2.1",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "804b4b70-1d6e-6958-7dec-95c0a3821107",
+  "work_order_id": "r1-024",
+  "stem": "You are the intern on the medical ward of a regional hospital that has a small medical ward without intensive care, CT during business hours only and retrieval to Adelaide by road or air. A 56-year-old woman admitted with pneumonia was charted enoxaparin 40 mg once daily for thromboprophylaxis; on checking the chart you find that she received 80 mg this morning because the dose was transcribed incorrectly. She is well, with no bleeding, normal observations and a normal creatinine. You have told the registrar, who agrees no treatment is needed beyond observation, and you have entered the incident in the Safety Learning System. Her husband is at the bedside and asks why the nurses have been \"checking on her so much\".",
+  "lead_in": "Which statement correctly describes what open disclosure requires in this situation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The patient, and her husband if she wishes, should be told promptly what happened, given an apology or expression of regret, told what is being done and how recurrence will be prevented"
+   },
+   {
+    "id": "B",
+    "text": "Disclosure should wait until the root cause analysis is complete so that accurate information can be given"
+   },
+   {
+    "id": "C",
+    "text": "Only the medical director or consultant may disclose the error, so the intern should say nothing until they are available"
+   },
+   {
+    "id": "D",
+    "text": "The word \"sorry\" should be avoided because an apology is an admission of liability"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "communication with family",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "1.2",
+   "4.3"
+  ]
+ },
+ {
+  "item_id": "1a3c9365-0de0-b9d4-3b05-cac0c8cfb955",
+  "work_order_id": "r1-025",
+  "stem": "You are the intern on an evening cover shift at a country hospital 90 minutes from the nearest tertiary centre, where you cover the ward and emergency department overnight. The nurse asks you to finalise the discharge summary for a 38-year-old man leaving on the 06:00 bus tomorrow, before the day team arrives. He was admitted five days ago with community-acquired pneumonia and was found to have new atrial fibrillation; the visiting physician started apixaban 5 mg twice daily and metoprolol 25 mg twice daily, planned an echocardiogram and physician review in four weeks, and a blood culture taken on admission is still reported as \"no growth to date\". The draft summary written by the day resident reads: \"Admitted with pneumonia. Treated with IV antibiotics, improved. Discharged on oral amoxicillin to complete 7 days. GP follow-up.\"",
+  "lead_in": "Which deficiency in this draft poses the greatest risk to his safety after discharge?",
+  "options": [
+   {
+    "id": "A",
+    "text": "It does not include the ward's direct telephone number for the GP to call"
+   },
+   {
+    "id": "B",
+    "text": "It omits the new diagnosis of atrial fibrillation, the newly started apixaban and metoprolol with their reasons, the pending blood culture result and the planned echocardiogram and physician review"
+   },
+   {
+    "id": "C",
+    "text": "The hospital course is too brief and does not describe his daily progress"
+   },
+   {
+    "id": "D",
+    "text": "It does not list the investigations that returned normal results"
+   }
+  ],
+  "learning_area": "Communication, handover and consent",
+  "presentation": "discharge summary quality",
+  "context": "after_hours",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "1.10",
+   "1.8"
+  ]
+ }
+]

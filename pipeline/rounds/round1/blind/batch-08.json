@@ -1,0 +1,1101 @@
+[
+ {
+  "item_id": "4e580023-fe15-9bf4-f4e4-f8444f8fcd76",
+  "work_order_id": "r1-176",
+  "stem": "You are the only doctor overnight in the 4-bed emergency department of a rural hospital on the Yorke Peninsula; the GP is on call from home. A 15-year-old Aboriginal girl with known asthma is brought in by her mother at 02:00 with 6 hours of worsening wheeze after a viral illness. She has used her salbutamol puffer repeatedly with little relief. She can speak only in short phrases, has tracheal tug and widespread wheeze. Respiratory rate 32, heart rate 126, SpO2 90% on air, temperature 37.4 \u00b0C, alert. Her mother is frightened and asks whether she can stay with her daughter. The nurse has brought the resuscitation trolley and asks what you want first.",
+  "lead_in": "Which action should you take first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Obtain a portable chest X-ray to exclude pneumothorax before any further bronchodilator is given"
+   },
+   {
+    "id": "B",
+    "text": "Give salbutamol with oxygen now and have the nurse phone the GP on call"
+   },
+   {
+    "id": "C",
+    "text": "Take an arterial blood gas to assess for carbon dioxide retention before deciding on treatment"
+   },
+   {
+    "id": "D",
+    "text": "Give oral prednisolone and reassess her work of breathing and oxygen saturation in 30 minutes"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "paediatric asthma",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "any",
+  "patient": {
+   "age_band": "13-17",
+   "sex": "female",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "C"
+  ],
+  "domains": [
+   "4.1",
+   "1.9",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "7b2cc013-a81b-dc99-013a-7a74967ab0d6",
+  "work_order_id": "r1-177",
+  "stem": "You are the intern in the emergency department of a large metropolitan teaching hospital. An 8-year-old boy presents with a 2-day history of a red, warm, tender area of cellulitis on his shin after a graze. He is well, afebrile, tolerating oral intake and the registrar has reviewed him and asked you to prescribe oral cefalexin and regular paracetamol on the paediatric medication chart for discharge. The weight box on the chart is blank. His mother says he weighed 'about 25 kilos' at a check-up last year. The nurse is busy with another patient and suggests you just use the mother's figure so the family can leave.",
+  "lead_in": "What is the most appropriate way to determine the doses?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Prescribe using the mother's reported weight of 25 kg and write 'parent-reported weight' on the chart"
+   },
+   {
+    "id": "B",
+    "text": "Estimate his weight from the age-based formula and prescribe from that estimate, noting it is estimated"
+   },
+   {
+    "id": "C",
+    "text": "Weigh him now, record the weight on the chart and calculate each dose in mg/kg"
+   },
+   {
+    "id": "D",
+    "text": "Prescribe the standard adult dose of each medicine, since he is well and the course is short"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "paediatric drug dosing",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "5-12",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "42777ee2-15a1-0f74-2946-b9a3dc6e0323",
+  "work_order_id": "r1-178",
+  "stem": "A 3-year-old girl weighing 14 kg is brought to the emergency department of a rural hospital on the Yorke Peninsula at 23:00 with 2 days of vomiting and watery diarrhoea. You are the only doctor on site; the GP is on call. She is lethargic but rousable, has dry mucous membranes, sunken eyes and capillary refill of 2 seconds, with heart rate 130 and normal blood pressure. You estimate 5 per cent dehydration. She vomited an oral rehydration trial and then two attempts at nasogastric rehydration. Blood glucose is 4.8 mmol/L and point-of-care sodium is 137 mmol/L. The GP on call agrees to admit her and asks you to prescribe intravenous rehydration while she drives in.",
+  "lead_in": "Which intravenous fluid prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "0.45% sodium chloride with 5% glucose at 50 mL/h for maintenance only, with electrolytes rechecked in the morning"
+   },
+   {
+    "id": "B",
+    "text": "0.9% sodium chloride 20 mL/kg bolus, then 0.18% sodium chloride with 4% glucose at 80 mL/h until review in the morning"
+   },
+   {
+    "id": "C",
+    "text": "0.9% sodium chloride without glucose at 100 mL/h for 24 hours, with electrolytes rechecked at 12 hours"
+   },
+   {
+    "id": "D",
+    "text": "0.9% sodium chloride with 5% glucose at about 80 mL/h, with electrolytes and glucose rechecked within 4 to 6 hours"
+   }
+  ],
+  "learning_area": "Paediatrics",
+  "presentation": "paediatric fluid prescribing",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "1-4",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "C",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "4.1"
+  ]
+ },
+ {
+  "item_id": "ea0c21e0-f709-3a00-8d9d-2e7bd083ea49",
+  "work_order_id": "r1-179",
+  "stem": "You are the sole doctor overnight at a rural hospital on the Yorke Peninsula, with the GP on call at home. A 79-year-old woman with severe COPD on home oxygen presents at 01:00 with her third exacerbation in 3 months. On controlled oxygen, nebulised bronchodilators and prednisolone she has improved: respiratory rate 24, SpO2 90% on 2 L/min, alert and talking in sentences. Her daughter is with her. There is no advance care directive or resuscitation plan in her notes. While you insert a cannula she says, 'Last time in Adelaide they put that mask on me and I never want that again. I'm tired.' The ward is quiet and the nurse is ready to admit her.",
+  "lead_in": "What is the most appropriate thing to do now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explore and document what she means and what matters to her, inform the GP on call, and flag a resuscitation plan discussion for the day"
+   },
+   {
+    "id": "B",
+    "text": "Defer any discussion of her wishes until the day team arrives, because goals of care conversations should be led by the senior treating doctor"
+   },
+   {
+    "id": "C",
+    "text": "Complete a not-for-resuscitation order tonight on the basis of her statement so that the nurses know what to do if she deteriorates overnight"
+   },
+   {
+    "id": "D",
+    "text": "Contact the retrieval service now to arrange transfer to Adelaide so that non-invasive ventilation is available if she deteriorates overnight"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "goals of care conversation",
+  "context": "rural",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 3,
+  "pgy_level": "both",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.2",
+   "3.2",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "288844b6-3605-c5cd-b491-7fe0e88966e3",
+  "work_order_id": "r1-180",
+  "stem": "You are the intern on the surgical ward of a regional hospital without an ICU. An 88-year-old woman with an inoperable obstructing sigmoid cancer is being managed with palliative intent after discussion with the visiting surgeon; her goals are comfort and to stay in this hospital near family. She weighs 52 kg and her eGFR is 48 mL/min/1.73 m2. She is prescribed modified-release oral morphine 10 mg twice daily with immediate-release morphine 2.5 mg every 2 hours as needed. Over the past 24 hours she has needed five breakthrough doses for constant abdominal pain she rates 6 out of 10, and her pain disturbs sleep. She is alert, not drowsy, has no myoclonus or confusion, and bowels have not opened for 3 days. The registrar asks you to adjust her analgesia.",
+  "lead_in": "What is the most appropriate change to her opioid prescription?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Change to a transdermal fentanyl 12 microgram/hour patch and stop the oral morphine"
+   },
+   {
+    "id": "B",
+    "text": "Increase modified-release morphine to 15 mg twice daily and the breakthrough dose to 5 mg as needed"
+   },
+   {
+    "id": "C",
+    "text": "Keep modified-release morphine at 10 mg twice daily and increase the breakthrough dose to 10 mg hourly as needed"
+   },
+   {
+    "id": "D",
+    "text": "Add regular immediate-release oxycodone 5 mg every 4 hours alongside the current morphine"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "opioid titration in palliative care",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "85+",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.7",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "e58056c1-b35f-eee1-1cd5-2fb2ca41a523",
+  "work_order_id": "r1-181",
+  "stem": "You are the PGY2 resident on the surgical ward of a rural hospital on the Yorke Peninsula. A 71-year-old man with metastatic pancreatic cancer was admitted 5 days ago with a biliary stent occlusion; after discussion with the visiting surgeon and his family, the plan is palliative intent with ward-based care. He is on modified-release oral morphine 20 mg twice daily, unchanged for 2 weeks, and intravenous antibiotics for cholangitis. Over the past 48 hours he has become bed-bound, rouses only briefly to voice, can no longer swallow tablets and takes only sips of water. Today his breathing is irregular with pauses, he has audible upper airway secretions, his hands and knees are mottled and cool, and he has passed 100 mL of urine in 12 hours. Temperature 37.6 \u00b0C, heart rate 104, blood pressure 92/54. The nurse asks what is happening.",
+  "lead_in": "What do these findings most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Opioid toxicity from accumulation of morphine metabolites"
+   },
+   {
+    "id": "B",
+    "text": "Worsening sepsis from the biliary source that needs further investigation"
+   },
+   {
+    "id": "C",
+    "text": "He is entering the last days of life"
+   },
+   {
+    "id": "D",
+    "text": "Dehydration from poor oral intake that would reverse with intravenous fluids"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "recognising dying",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "12094618-118d-101a-155b-332d5624ac36",
+  "work_order_id": "r1-182",
+  "stem": "You are the intern on the medical ward of a regional South Australian hospital without an ICU, 2 hours from Adelaide. A 77-year-old woman with metastatic ovarian cancer and recurrent malignant ascites is admitted for drainage and symptom control. She lives alone and is fully oriented. The physician is visiting next week and the GP covers the ward. While you review her chart she says, 'I've been reading about voluntary assisted dying. Can you tell me how I would go about it?' You have no conscientious objection, have had no training in voluntary assisted dying, and the nurse is in the room.",
+  "lead_in": "What is the most appropriate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Explain that voluntary assisted dying cannot be discussed by doctors in a public hospital and suggest she raises it with her family or her own GP instead"
+   },
+   {
+    "id": "B",
+    "text": "Tell her that you can receive her first request today and begin the eligibility assessment as her treating doctor, documenting the request in her record"
+   },
+   {
+    "id": "C",
+    "text": "Tell her that she would not be eligible at present because she has been admitted for active treatment rather than being in the final stage of her illness"
+   },
+   {
+    "id": "D",
+    "text": "Listen, explain that you cannot assess her but will inform the treating doctor, give her the Care Navigator Service details and document the conversation"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "request for information about voluntary assisted dying",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.2",
+   "2.1",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "2ae88d82-f3f5-21b3-99d8-886c0280910b",
+  "work_order_id": "r1-183",
+  "stem": "You are the PGY2 covering the ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre, with the GP on call at home. A 68-year-old woman with metastatic breast cancer and bone and liver metastases was admitted 2 days ago for pain control; she still walks with a frame and is planning a family event next month. Her resuscitation plan, completed by the GP with her, states: not for CPR, not for intubation, for ward-based medical treatment including intravenous antibiotics and fluids, discuss transfer with the patient if needed. At 02:30 the nurse calls: temperature 38.9 \u00b0C, heart rate 118, blood pressure 94/58, respiratory rate 24, new confusion. She has a peripherally inserted central catheter. The nurse says, 'She's not for resuscitation, so do we just keep her comfortable?'",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Treat her for sepsis now with cultures, intravenous antibiotics and fluids, and phone the GP on call"
+   },
+   {
+    "id": "B",
+    "text": "Provide comfort measures only, because the resuscitation plan documents that she is not for resuscitation"
+   },
+   {
+    "id": "C",
+    "text": "Call the retrieval service for immediate transfer to the tertiary centre for intensive care assessment"
+   },
+   {
+    "id": "D",
+    "text": "Withhold active treatment until her family can be contacted in the morning to confirm her wishes"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "resuscitation plan",
+  "context": "rural",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.7",
+   "1.9",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "4ecb5ffc-3e4e-c068-03f9-4a8d31349f5e",
+  "work_order_id": "r1-184",
+  "stem": "You are the intern on the medical ward of a metropolitan general hospital; the medical registrar is on site overnight. A 78-year-old man with end-stage lung cancer is now in the last days of life and can no longer swallow. His pain has been well controlled on modified-release oral morphine 40 mg twice daily, and over the past 24 hours he needed one breakthrough dose of immediate-release oral morphine 10 mg. His eGFR is 62 mL/min/1.73 m2 and he has no signs of opioid toxicity. The registrar asks you to chart a continuous subcutaneous infusion of morphine over 24 hours by syringe driver, with a subcutaneous breakthrough dose, and says to use the standard oral to subcutaneous conversion.",
+  "lead_in": "What is the most appropriate 24-hour subcutaneous morphine dose?",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mg over 24 hours"
+   },
+   {
+    "id": "B",
+    "text": "30 mg over 24 hours"
+   },
+   {
+    "id": "C",
+    "text": "60 mg over 24 hours"
+   },
+   {
+    "id": "D",
+    "text": "90 mg over 24 hours"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "syringe driver",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 4,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "4998ff49-4402-dc9c-5975-c82aeba6fdb2",
+  "work_order_id": "r1-185",
+  "stem": "You are the intern on the medical ward of a regional hospital without an ICU, 2 hours from Adelaide. A 69-year-old man with end-stage metastatic prostate cancer is in the last days of life. Twenty hours ago a continuous subcutaneous infusion of morphine 30 mg, midazolam 10 mg and hyoscine butylbromide 60 mg over 24 hours was started via a syringe driver in the left upper chest, and he was comfortable for the first 12 hours. The nurse now reports that he is restless, grimacing when moved and has needed two breakthrough doses in the last 3 hours. She has noticed that the syringe still contains 16 mL of the original 22 mL, the dressing over the cannula is damp, and the skin around the site is red and firm. The driver's display shows no alarm.",
+  "lead_in": "What is the most likely explanation for his symptoms?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Development of opioid tolerance that requires a higher morphine dose"
+   },
+   {
+    "id": "B",
+    "text": "Terminal agitation from progression of his underlying disease"
+   },
+   {
+    "id": "C",
+    "text": "Failure of drug delivery from a leaking or occluded infusion site"
+   },
+   {
+    "id": "D",
+    "text": "A paradoxical agitation reaction to the midazolam in the infusion"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "syringe driver",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.7",
+   "1.1",
+   "3.2"
+  ]
+ },
+ {
+  "item_id": "50cfcd21-13b0-8589-34cf-06c00ada09bd",
+  "work_order_id": "r1-186",
+  "stem": "You are the intern at a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 72-year-old woman with metastatic lung cancer is in the last days of life on a terminal care plan; a syringe driver with morphine and midazolam was started yesterday and her dose has not changed. At 19:00 the nurse asks you to review her because her breathing has become loud and gurgling over the last 2 hours. Her daughter is distressed and asks whether she is drowning. On review she is unresponsive to voice, her breathing is 14 per minute and unlaboured, there is no grimacing or use of accessory muscles, and the noise comes from the throat and varies with position. Her lungs are difficult to auscultate over the noise; there is no fever and no peripheral oedema.",
+  "lead_in": "What does this finding most likely indicate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Acute pulmonary oedema, which would respond to intravenous furosemide, sitting her upright and oxygen"
+   },
+   {
+    "id": "B",
+    "text": "Aspiration pneumonia, which should be treated with intravenous antibiotics, chest physiotherapy and oral suction"
+   },
+   {
+    "id": "C",
+    "text": "Opioid-induced respiratory depression, which needs naloxone and a reduction in the infusion rate"
+   },
+   {
+    "id": "D",
+    "text": "Retained upper airway secretions of the dying phase, managed by repositioning and an antisecretory medicine"
+   }
+  ],
+  "learning_area": "Palliative care and goals of care",
+  "presentation": "terminal symptoms",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.4",
+   "3.2",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "316cd842-1c6f-10ba-dea9-3a02ac4961de",
+  "work_order_id": "r1-187",
+  "stem": "You are the PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 58-year-old man admitted with cellulitis developed a hot, tender forearm around his peripheral intravenous cannula on day 4 and grew Staphylococcus aureus from blood cultures; the visiting physician has managed the bacteraemia. Reviewing the record, you find no documented insertion date or time for the cannula, no daily phlebitis score, and no record of whether the cannula was still needed after oral antibiotics started on day 2. The nurse unit manager, preparing for the hospital's accreditation visit, asks you to help write up the case and wants to know which National Safety and Quality Health Service Standard the gaps in cannula insertion, daily review and documentation mainly fall under.",
+  "lead_in": "Which National Safety and Quality Health Service Standard most directly covers these gaps?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Preventing and Controlling Infections Standard"
+   },
+   {
+    "id": "B",
+    "text": "Medication Safety Standard"
+   },
+   {
+    "id": "C",
+    "text": "Recognising and Responding to Acute Deterioration Standard"
+   },
+   {
+    "id": "D",
+    "text": "Communicating for Safety Standard"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "National Safety and Quality Health Service Standards",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "e25f587e-afa0-7a1a-98a0-7d5c9f88ce7b",
+  "work_order_id": "r1-188",
+  "stem": "You are the intern on the medical ward of a large metropolitan teaching hospital. On the ward round the consultant notices that a 19-year-old woman admitted with pyelonephritis 3 days ago has no venous thromboembolism risk assessment documented and asks you to 'do a quick audit' of VTE risk assessment and prophylaxis on the ward over the next 2 weeks and present the results at the unit meeting. You have never done an audit before. The ward has about 30 inpatients at a time and the electronic medical record is used for all charts.",
+  "lead_in": "What is the most appropriate first step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Start reviewing charts today and record each patient's name and findings in a spreadsheet on your personal laptop so you can work on it at home"
+   },
+   {
+    "id": "B",
+    "text": "Define the standard and criteria from the hospital's VTE policy, agree the sample, and register the audit with the quality office"
+   },
+   {
+    "id": "C",
+    "text": "Submit an application to the hospital's human research ethics committee and wait for approval before any data are collected"
+   },
+   {
+    "id": "D",
+    "text": "Obtain written consent from each inpatient, or their next of kin, before opening their record for the audit"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "clinical audit",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 1,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.3",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "79a7d5bb-d4a5-e9e2-3a37-539d8f3a196c",
+  "work_order_id": "r1-189",
+  "stem": "You are the intern starting a shift in the emergency department of a large metropolitan teaching hospital. A 68-year-old woman with heart failure presented 6 hours ago with breathlessness and was referred to the medical team. At the 08:00 handover the outgoing ED doctor said, 'Bed 12, heart failure, medics are seeing her, nothing to do.' The medical registrar was not at the handover and had not yet reviewed her; her 06:00 potassium result of 6.4 mmol/L was in the system but unacknowledged. At 10:30 she had a broad-complex arrhythmia and required treatment in resuscitation. The ED consultant is reviewing the incident with you and asks what the handover lacked.",
+  "lead_in": "Which element required by the Communicating for Safety Standard was missing from this handover?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A written summary countersigned by both the outgoing and the oncoming doctor"
+   },
+   {
+    "id": "B",
+    "text": "The use of the ISBAR format for every patient discussed at handover"
+   },
+   {
+    "id": "C",
+    "text": "A clear transfer of responsibility and accountability for her care"
+   },
+   {
+    "id": "D",
+    "text": "The presence of the nurse in charge at the medical handover"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "clinical handover failure",
+  "context": "ed",
+  "cognitive_level": "recall",
+  "target_difficulty": 5,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "domains": [
+   "1.1",
+   "1.10",
+   "4.3"
+  ]
+ },
+ {
+  "item_id": "231a8f66-df0b-6bcc-0417-15f3100d805c",
+  "work_order_id": "r1-190",
+  "stem": "You are the PGY2 on the medical ward of a rural hospital on the Yorke Peninsula. A 34-year-old woman with Crohn's disease was admitted 2 days ago with a flare and vomiting. Reviewing the electronic medical record this morning you realise that your progress note from yesterday evening recorded her potassium as 3.9 mmol/L with a plan of 'no replacement required'; the actual result was 2.9 mmol/L. The nurse noticed the result overnight, the GP on call prescribed potassium, and the patient is well with a repeat level of 3.6 mmol/L today. The nurse unit manager says, 'Just go in and fix the number in your note so the record is accurate.' The electronic record allows you to edit or delete your own notes, and keeps an edit history that is not visible to most users.",
+  "lead_in": "What is the most appropriate way to correct the record?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Edit the original note to show the correct potassium value, relying on the system's hidden edit history to preserve the original wording"
+   },
+   {
+    "id": "B",
+    "text": "Leave the original note as it is, and tell the registrar and the GP verbally about the error so that they are aware of it"
+   },
+   {
+    "id": "C",
+    "text": "Delete the original note and write a new note timed for yesterday evening with the correct value and the plan that should have followed"
+   },
+   {
+    "id": "D",
+    "text": "Write a dated and timed addendum identifying the error and the correct value, leave the original visible, and report the incident"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "electronic medical record documentation",
+  "context": "ward",
+  "cognitive_level": "management",
+  "target_difficulty": 5,
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.10",
+   "2.1",
+   "4.3"
+  ]
+ },
+ {
+  "item_id": "8b358f2c-0206-899c-65fd-2a6231e12de1",
+  "work_order_id": "r1-191",
+  "stem": "You are the intern on an evening cover shift at a metropolitan general hospital with a busy medical ward; the medical registrar is on site. At 20:30 a nurse tells you that a 32-year-old woman admitted with a lower limb cellulitis was given enoxaparin 40 mg subcutaneously at 18:00 by the afternoon nurse and again at 20:00 by the evening nurse, because the 18:00 administration had not been signed on the chart. The patient has no history of bleeding, a normal platelet count and eGFR on admission, and is not on any other anticoagulant. The nurse is upset and asks you what needs to happen now. You have four other jobs waiting, none of them urgent.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Review her for bleeding and risk factors, and tell the medical registrar"
+   },
+   {
+    "id": "B",
+    "text": "Complete the Safety Learning System incident report while the details are fresh in everyone's mind"
+   },
+   {
+    "id": "C",
+    "text": "Go and tell the patient what has happened and apologise on behalf of the team"
+   },
+   {
+    "id": "D",
+    "text": "Ask both nurses to write statements about how the duplicate administration occurred"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "incident reporting",
+  "context": "after_hours",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "2.8"
+  ]
+ },
+ {
+  "item_id": "87b40509-676e-6446-dfaf-41f562ad590e",
+  "work_order_id": "r1-192",
+  "stem": "You are the intern on the general ward of a regional hospital without an ICU. A 38-year-old man was admitted this morning with community-acquired pneumonia. The admitting doctor charted amoxicillin with clavulanic acid 875 mg with 125 mg orally twice daily. The patient's alert band and the adverse drug reaction section of the medication chart record 'penicillin: anaphylaxis, 2015'. Before the first dose, the ward pharmacist noticed the conflict, withheld the medicine and phoned you. No dose was given. You change the prescription after discussing an alternative with the GP. The pharmacist asks whether you will enter the event in the Safety Learning System, and a colleague says there is no point because nothing happened to the patient.",
+  "lead_in": "How is this event best classified?",
+  "options": [
+   {
+    "id": "A",
+    "text": "An adverse drug reaction, which is reported to the Therapeutic Goods Administration rather than locally"
+   },
+   {
+    "id": "B",
+    "text": "A near miss, intercepted before reaching the patient, which is still reported in the incident system"
+   },
+   {
+    "id": "C",
+    "text": "A non-reportable event, because no medicine was administered and no harm came to the patient"
+   },
+   {
+    "id": "D",
+    "text": "A sentinel event, which requires notification to the department and a formal root cause analysis"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "medication error",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.8"
+  ]
+ },
+ {
+  "item_id": "9012628b-7ab2-b60b-c27f-aae72e10ce28",
+  "work_order_id": "r1-193",
+  "stem": "You are the PGY2 on the medical ward of a regional hospital without an ICU, where CT is available only in business hours and patients are retrieved to Adelaide by road or air. Three weeks ago a 55-year-old man admitted with pancreatitis deteriorated overnight; his observations had breached the escalation criteria for 4 hours before the GP on call was contacted, and he died after a delayed retrieval. The Local Health Network has commissioned a root cause analysis and you have been asked to attend an interview because you were the doctor on the preceding day shift. The night nurse involved is anxious and asks you whether the process is going to decide whether she loses her registration.",
+  "lead_in": "What is the purpose of a root cause analysis?",
+  "options": [
+   {
+    "id": "A",
+    "text": "To determine which individual was responsible for the delay and recommend appropriate disciplinary action"
+   },
+   {
+    "id": "B",
+    "text": "To establish the hospital's legal liability in preparation for the coronial inquest into the death"
+   },
+   {
+    "id": "C",
+    "text": "To identify system factors contributing to the event and recommend changes to prevent recurrence"
+   },
+   {
+    "id": "D",
+    "text": "To provide the family with a formal written apology and explanation from the hospital"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "root cause analysis",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 2,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "4.3",
+   "1.1",
+   "2.1"
+  ]
+ },
+ {
+  "item_id": "0d3a56ef-8465-a7e6-0690-06ef86a159ce",
+  "work_order_id": "r1-194",
+  "stem": "You are the intern in the emergency department of a tertiary hospital in Adelaide. Two women with the same surname are in adjacent cubicles. You intended to chart intravenous ceftriaxone and order blood cultures for a 54-year-old woman with pyelonephritis in cubicle 9, but entered the orders on the record of the 56-year-old woman in cubicle 8, who is being observed after a fall. The nurse has just administered ceftriaxone 1 g intravenously to the woman in cubicle 8, who has no documented antibiotic allergy, before you noticed the error. The ED consultant is on the floor.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cancel the orders on the wrong record and re-enter them for the correct patient, since no harm has occurred and she has no allergy"
+   },
+   {
+    "id": "B",
+    "text": "Ask the nurse to document that she administered the dose in error and to submit the incident report, since she gave it"
+   },
+   {
+    "id": "C",
+    "text": "Wait until the woman in cubicle 8 has been observed for a reaction before deciding whether she needs to be told"
+   },
+   {
+    "id": "D",
+    "text": "Assess the woman who received the dose, inform the consultant, correct both records, disclose and report"
+   }
+  ],
+  "learning_area": "Patient safety, quality and systems",
+  "presentation": "wrong-patient error",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.1",
+   "4.3",
+   "1.2"
+  ]
+ },
+ {
+  "item_id": "e158f4a2-0a75-74f9-659b-13c151936b51",
+  "work_order_id": "r1-195",
+  "stem": "You are the intern in the outpatient clinic of a rural hospital on the Yorke Peninsula, seeing a 78-year-old man before a planned admission for an elective hernia repair. He is otherwise well. While you complete the medication chart he tells you that penicillin 'gave me a rash all over as a boy' and that codeine 'makes me vomit every time'. His general practitioner's summary lists only 'penicillin allergy'. You are completing the adverse drug reaction section of the chart that will be used for his admission.",
+  "lead_in": "What should be recorded in the adverse drug reaction section?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Both medicines, with the reaction, its type, the date and the source, signed and dated"
+   },
+   {
+    "id": "B",
+    "text": "Penicillin only, as an allergy, since vomiting with codeine is a predictable side effect rather than an adverse reaction"
+   },
+   {
+    "id": "C",
+    "text": "'Penicillin: anaphylaxis' so that all staff treat the allergy as the most serious possibility during his admission"
+   },
+   {
+    "id": "D",
+    "text": "'No known drug allergies', because neither reaction has been confirmed by testing and both occurred years ago"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "allergy documentation",
+  "context": "clinic",
+  "cognitive_level": "recall",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.1",
+   "1.10"
+  ]
+ },
+ {
+  "item_id": "8bc19389-6927-a663-8e2c-a2342190581a",
+  "work_order_id": "r1-196",
+  "stem": "You are the intern in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 52-year-old Aboriginal man with well-controlled type 2 diabetes presents with 2 days of a warm, red, tender area over his left shin after a scratch while fencing. There is no abscess, ulcer or necrosis, the erythema is 8 cm across and marked, and he has no fever; heart rate 84, blood pressure 132/80, blood glucose 7.1 mmol/L. He has no history of MRSA infection and the local antibiogram shows low community MRSA rates; he has no drug allergies. He lives 40 minutes away, has transport and would like to go home. The GP on call agrees with discharge and asks you to prescribe oral antibiotics and arrange review with the Aboriginal health service in 48 hours.",
+  "lead_in": "Which antibiotic prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Amoxicillin with clavulanic acid 875 mg with 125 mg orally twice daily for 10 days"
+   },
+   {
+    "id": "B",
+    "text": "Flucloxacillin 500 mg orally 6-hourly for 5 days, extended if slow to resolve"
+   },
+   {
+    "id": "C",
+    "text": "Cefalexin 500 mg orally 6-hourly for 14 days to cover his diabetes"
+   },
+   {
+    "id": "D",
+    "text": "Trimethoprim with sulfamethoxazole 160 mg with 800 mg orally twice daily for 7 days"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "antibiotic choice and duration",
+  "context": "ed",
+  "cognitive_level": "management",
+  "target_difficulty": 3,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": true
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.7",
+   "1.3"
+  ]
+ },
+ {
+  "item_id": "b4d4636e-4de1-0241-31bd-c61237b4c9b5",
+  "work_order_id": "r1-197",
+  "stem": "You are the junior doctor on the medical ward of a metropolitan general hospital; the registrar is on site. A 58-year-old man was admitted 3 days ago from the emergency department with community-acquired pneumonia and was started empirically on intravenous piperacillin with tazobactam because he was initially tachycardic and febrile. Blood cultures taken before antibiotics have grown Streptococcus pneumoniae, fully susceptible to penicillin. He has been afebrile for 36 hours, is eating and drinking, has a respiratory rate of 18 on room air, and wants to go home tomorrow. On the morning round the registrar says, 'Sort out his antibiotics today' and moves to the next patient. The pharmacist has also left a note on the chart about antimicrobial stewardship.",
+  "lead_in": "What is the most important action regarding his antibiotics today?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Continue intravenous piperacillin with tazobactam until he has completed 7 days, then stop"
+   },
+   {
+    "id": "B",
+    "text": "Leave the antibiotics unchanged until the consultant reviews him on tomorrow's ward round"
+   },
+   {
+    "id": "C",
+    "text": "Switch to oral amoxicillin and document a stop date for a 5 to 7 day course"
+   },
+   {
+    "id": "D",
+    "text": "Request infectious diseases approval so that piperacillin with tazobactam can be continued"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "antibiotic choice and duration",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "target_difficulty": 1,
+  "pgy_level": "both",
+  "setting": "metro",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.7"
+  ]
+ },
+ {
+  "item_id": "bd8edf9f-8557-d988-892c-395530d2b457",
+  "work_order_id": "r1-198",
+  "stem": "You are the PGY2 in the emergency department of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with specialist advice available by phone. A 60-year-old man on warfarin for a mechanical mitral valve presents at 21:00 after an hour of epistaxis that stopped with 20 minutes of pressure. He started a course of trimethoprim with sulfamethoxazole 5 days ago for a urinary infection. He has no other bleeding, no headache, no melaena, and his observations are normal; haemoglobin is 142 g/L. His INR tonight is 7.5, with a target range of 2.5 to 3.5. The hospital pharmacy holds vitamin K and a small stock of prothrombin complex concentrate.",
+  "lead_in": "What does this INR result mean for his management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A life-threatening bleed, requiring prothrombin complex concentrate and intravenous vitamin K 10 mg immediately, before any transfer"
+   },
+   {
+    "id": "B",
+    "text": "An acceptable INR for a patient with a mechanical valve, requiring no change to his warfarin dosing"
+   },
+   {
+    "id": "C",
+    "text": "A supratherapeutic INR requiring warfarin to be stopped permanently and replaced with apixaban"
+   },
+   {
+    "id": "D",
+    "text": "A supratherapeutic INR with minor bleeding, needing warfarin withheld, low-dose vitamin K and an INR recheck in 24 hours"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "anticoagulant dosing and reversal",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "A"
+  ],
+  "domains": [
+   "1.8",
+   "1.5",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "0d7836bd-2a29-ecf4-7afc-f10035ffd0b3",
+  "work_order_id": "r1-199",
+  "stem": "You are the only doctor overnight, covering the wards at a rural hospital on the Yorke Peninsula; the GP is on call at home. A 58-year-old woman, weight 70 kg, admitted 2 days ago with community-acquired pneumonia, developed a swollen right calf this afternoon. The visiting sonographer confirmed an above-knee deep vein thrombosis at 17:00. Her eGFR is 55 mL/min/1.73 m2, platelets 240 x 10^9/L, haemoglobin 128 g/L, and she has no history of bleeding, recent surgery or liver disease. The GP has reviewed her by phone, agrees she should start treatment-dose low molecular weight heparin tonight, and asks you to chart it. The nurse brings the medication chart and the ward stock of enoxaparin.",
+  "lead_in": "Which prescription is most appropriate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Enoxaparin 70 mg subcutaneously every 12 hours"
+   },
+   {
+    "id": "B",
+    "text": "Enoxaparin 40 mg subcutaneously once daily"
+   },
+   {
+    "id": "C",
+    "text": "Enoxaparin 70 mg subcutaneously once daily because of her reduced eGFR"
+   },
+   {
+    "id": "D",
+    "text": "Unfractionated heparin by intravenous infusion with 6-hourly APTT monitoring"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "anticoagulant dosing and reversal",
+  "context": "after_hours",
+  "cognitive_level": "management",
+  "target_difficulty": 2,
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B",
+   "C"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ },
+ {
+  "item_id": "d6b49dd7-1953-6eb8-cd05-70ba26a5f6d6",
+  "work_order_id": "r1-200",
+  "stem": "You are the PGY2 on the medical ward of a regional hospital without an ICU, where CT is available in business hours and patients are retrieved to Adelaide when needed. A 68-year-old man with rheumatoid arthritis, who takes methotrexate 15 mg orally once weekly with folic acid, is admitted with a lower urinary tract infection and mild dehydration; he is not septic. His eGFR is 58 mL/min/1.73 m2, full blood count is normal, and he has no drug allergies. The GP covering the ward asks you to chart an oral antibiotic from the ward's standard options and to check for interactions with his regular medicines before you do.",
+  "lead_in": "Which antibiotic carries the greatest risk of a serious interaction with his regular medicines?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cefalexin"
+   },
+   {
+    "id": "B",
+    "text": "Trimethoprim"
+   },
+   {
+    "id": "C",
+    "text": "Nitrofurantoin"
+   },
+   {
+    "id": "D",
+    "text": "Amoxicillin"
+   }
+  ],
+  "learning_area": "Prescribing and medication safety",
+  "presentation": "drug interactions",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "target_difficulty": 3,
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "clinical_experiences": [
+   "B"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ]
+ }
+]

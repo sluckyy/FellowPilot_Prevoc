@@ -8,11 +8,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Withhold all insulin until he is eating and drinking normally"
+    "text": "Withhold all insulin until he is eating and drinking normally and his vomiting has settled"
    },
    {
     "id": "B",
-    "text": "Give the usual glargine dose, withhold mealtime aspart and check glucose and ketones 2-hourly"
+    "text": "Give the usual glargine dose, withhold mealtime aspart and monitor glucose and ketones"
    },
    {
     "id": "C",
@@ -95,7 +95,7 @@
    },
    {
     "id": "B",
-    "text": "Incomplete right bundle branch block"
+    "text": "Incomplete right bundle branch block pattern in lead V1"
    },
    {
     "id": "C",
@@ -183,11 +183,11 @@
    },
    {
     "id": "C",
-    "text": "Reassure her that viral pharyngitis is likely, continue carbimazole and advise paracetamol"
+    "text": "Reassure her that viral pharyngitis is likely, continue carbimazole and advise paracetamol and fluids"
    },
    {
     "id": "D",
-    "text": "Withhold carbimazole, send an urgent full blood count with differential and discuss with the physician on call"
+    "text": "Withhold carbimazole, send an urgent full blood count and discuss with the physician on call"
    }
   ],
   "key": "D",
@@ -345,7 +345,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Start an oral proton pump inhibitor, keep him nil by mouth and repeat observations every 4 hours"
+    "text": "Start an oral proton pump inhibitor, keep him nil by mouth and continue 4-hourly observations until the morning round"
    },
    {
     "id": "B",
@@ -353,11 +353,11 @@
    },
    {
     "id": "C",
-    "text": "Insert two large-bore cannulas, send bloods including group and crossmatch, start crystalloid resuscitation, withhold apixaban and call the GP on call and MedSTAR for transfer"
+    "text": "Insert two large-bore cannulas, send a crossmatch, start crystalloid, withhold apixaban and call the GP on call and MedSTAR"
    },
    {
     "id": "D",
-    "text": "Give intravenous tranexamic acid and book him for endoscopy on the next visiting specialist list"
+    "text": "Give intravenous tranexamic acid, keep him nil by mouth and book endoscopy on the next visiting specialist list"
    }
   ],
   "key": "C",
@@ -434,15 +434,15 @@
    },
    {
     "id": "B",
-    "text": "Phone the surgeon and anaesthetist today to flag the recent deep vein thrombosis and apixaban so they can decide on surgery timing and perioperative anticoagulation"
+    "text": "Phone the surgeon and anaesthetist today about the recent deep vein thrombosis and apixaban so they can decide on timing"
    },
    {
     "id": "C",
-    "text": "Request a repeat lower limb Doppler ultrasound to confirm the thrombus has resolved before the operation"
+    "text": "Request a repeat lower limb Doppler ultrasound to confirm the thrombus has resolved before she is listed for theatre"
    },
    {
     "id": "D",
-    "text": "Request a thrombophilia screen so the result is available before the anaesthetic review"
+    "text": "Request a thrombophilia screen so the result is available for the anaesthetist at her review next week"
    }
   ],
   "key": "B",
@@ -598,11 +598,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Cease piperacillin-tazobactam and change to oral amoxicillin to complete a total of 5 days, documenting the stop date"
+    "text": "Change to oral amoxicillin to complete 5 days in total and document the stop date"
    },
    {
     "id": "B",
-    "text": "Continue intravenous piperacillin-tazobactam to complete 7 days because he is responding"
+    "text": "Continue intravenous piperacillin-tazobactam to complete 7 days because he is responding well to it"
    },
    {
     "id": "C",
@@ -767,19 +767,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Start intravenous flucloxacillin 2 g 6-hourly for cellulitis, admit him and hand over to the GP for review in the morning"
+    "text": "Start intravenous flucloxacillin 2 g 6-hourly for cellulitis, admit him to the ward and hand over to the GP for review in the morning"
    },
    {
     "id": "B",
-    "text": "Request a plain X-ray of the leg to look for soft tissue gas before deciding whether to escalate"
+    "text": "Request a plain X-ray of the leg to look for soft tissue gas before deciding whether to escalate to the GP on call"
    },
    {
     "id": "C",
-    "text": "Mark the edge of the erythema, elevate the leg, start intravenous fluids and reassess the limb in 2 hours"
+    "text": "Mark the edge of the erythema, elevate the leg, start intravenous fluids and antibiotics and reassess the limb in 2 hours"
    },
    {
     "id": "D",
-    "text": "Start fluid resuscitation and broad-spectrum intravenous antibiotics for necrotising infection and immediately call the GP on call and MedSTAR for urgent transfer to a surgical service"
+    "text": "Start intravenous fluids and broad-spectrum antibiotics for necrotising infection and call the GP on call and MedSTAR now"
    }
   ],
   "key": "D",
@@ -857,19 +857,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Standard precautions with hand hygiene and a surgical mask for the patient"
+    "text": "Standard precautions with hand hygiene and a surgical mask for the patient while she waits in the open area"
    },
    {
     "id": "B",
-    "text": "Airborne precautions in a single room with the door closed, staff wearing a fit-checked P2/N95 respirator, with only measles-immune staff entering"
+    "text": "Airborne precautions in a single room with the door closed, fit-checked P2/N95 respirators and measles-immune staff only"
    },
    {
     "id": "C",
-    "text": "Droplet precautions with a surgical mask for staff within 1 metre of the patient"
+    "text": "Droplet precautions with a surgical mask for staff within 1 metre and a surgical mask for the patient"
    },
    {
     "id": "D",
-    "text": "Contact precautions with gown and gloves and dedicated patient equipment"
+    "text": "Contact precautions with gown and gloves, dedicated patient equipment and a single room"
    }
   ],
   "key": "B",
@@ -948,11 +948,11 @@
   "options": [
    {
     "id": "A",
-    "text": "MRSA colonisation, requiring contact precautions and a single room, with no systemic antibiotic treatment"
+    "text": "MRSA colonisation requiring contact precautions and a single room, without systemic antibiotics"
    },
    {
     "id": "B",
-    "text": "Active MRSA infection, requiring intravenous vancomycin to be started before he leaves recovery"
+    "text": "Active MRSA infection, requiring intravenous vancomycin to be started before he leaves the recovery area"
    },
    {
     "id": "C",
@@ -960,7 +960,7 @@
    },
    {
     "id": "D",
-    "text": "A result of no clinical significance because he is asymptomatic, so standard precautions are sufficient"
+    "text": "A result of no clinical significance because he is asymptomatic, so standard precautions alone are sufficient"
    }
   ],
   "key": "A",
@@ -1032,19 +1032,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Leave the cannula in place, apply topical mupirocin to the site and review in the morning"
+    "text": "Leave the cannula in place, apply topical mupirocin to the insertion site and review it on the morning round"
    },
    {
     "id": "B",
-    "text": "Remove the cannula, apply a warm compress and review the site in 24 hours without further investigation"
+    "text": "Remove the cannula, apply a warm compress and review the site in 24 hours without cultures or antibiotics"
    },
    {
     "id": "C",
-    "text": "Remove the cannula, take two sets of blood cultures from another site, swab the pus and start intravenous flucloxacillin through a new cannula, then inform the registrar"
+    "text": "Remove the cannula, take two sets of blood cultures from another site, swab the pus and start intravenous flucloxacillin"
    },
    {
     "id": "D",
-    "text": "Leave the cannula in place to avoid difficult re-cannulation and start oral cefalexin"
+    "text": "Leave the cannula in place to avoid a difficult re-cannulation and start oral cefalexin for the site infection"
    }
   ],
   "key": "C",
@@ -1201,7 +1201,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Wait for the neutrophil count to confirm neutropenia before choosing an antibiotic"
+    "text": "Wait for the neutrophil count to confirm neutropenia before choosing and giving an antibiotic"
    },
    {
     "id": "B",
@@ -1209,11 +1209,11 @@
    },
    {
     "id": "C",
-    "text": "Arrange transfer to Adelaide now and defer antibiotics until she arrives at a centre with oncology"
+    "text": "Arrange transfer to Adelaide now and defer antibiotics until she arrives at a centre with an oncology service"
    },
    {
     "id": "D",
-    "text": "Take blood cultures from the port and a peripheral vein and give intravenous piperacillin-tazobactam within 60 minutes, then phone the physician on call"
+    "text": "Take blood cultures from the port and a peripheral vein and give intravenous piperacillin-tazobactam within 60 minutes"
    }
   ],
   "key": "D",
@@ -1285,11 +1285,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Phone the SA Health Communicable Disease Control Branch now to report a suspected food-borne outbreak, before culture results are available"
+    "text": "Phone the SA Health Communicable Disease Control Branch now to report a suspected food-borne outbreak"
    },
    {
     "id": "B",
-    "text": "Wait for the stool culture results, because the laboratory will notify any confirmed pathogen"
+    "text": "Wait for the stool culture results, because the laboratory will notify public health of any confirmed pathogen"
    },
    {
     "id": "C",
@@ -1297,7 +1297,7 @@
    },
    {
     "id": "D",
-    "text": "Document the cluster in the notes and notify public health only if any of the patients becomes critically unwell"
+    "text": "Document the cluster in the notes and notify public health only if one of the patients becomes critically unwell"
    }
   ],
   "key": "A",
@@ -1370,7 +1370,7 @@
   "options": [
    {
     "id": "A",
-    "text": "Send a respiratory viral PCR and keep her in the shared cubicle until the result is known"
+    "text": "Send a respiratory viral PCR and keep her in the shared cubicle until the result is known so a single room is not used unnecessarily"
    },
    {
     "id": "B",
@@ -1378,11 +1378,11 @@
    },
    {
     "id": "C",
-    "text": "Move her to a single room with droplet and contact precautions, start oxygen to a target saturation of 92 to 96% and then complete your assessment"
+    "text": "Move her to a single room under droplet and contact precautions, start oxygen to a target of 92 to 96% and then assess her"
    },
    {
     "id": "D",
-    "text": "Return her to the facility with a surgical mask to limit transmission within the department"
+    "text": "Return her to the facility with a surgical mask and a plan for GP review to limit transmission within the department"
    }
   ],
   "key": "C",
@@ -1630,19 +1630,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Send urine and blood cultures, then start intravenous gentamicin plus intravenous amoxicillin"
+    "text": "Send urine and blood cultures, then start intravenous gentamicin plus amoxicillin"
    },
    {
     "id": "B",
-    "text": "Start oral trimethoprim 300 mg at night for 7 days"
+    "text": "Start oral trimethoprim 300 mg at night for 7 days with an antiemetic"
    },
    {
     "id": "C",
-    "text": "Give a single dose of intravenous ceftriaxone and discharge on oral cefalexin"
+    "text": "Give a single dose of intravenous ceftriaxone and discharge him on oral cefalexin with GP follow-up"
    },
    {
     "id": "D",
-    "text": "Start intravenous vancomycin plus intravenous meropenem"
+    "text": "Start intravenous vancomycin plus intravenous meropenem after sending cultures"
    }
   ],
   "key": "A",
@@ -1715,19 +1715,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Send a D-dimer now and escalate only if it is raised"
+    "text": "Send a D-dimer now and escalate to the GP on call only if the result comes back raised"
    },
    {
     "id": "B",
-    "text": "Assess him now with an ECG and repeat observations, treat him as high pretest probability for pulmonary embolism and discuss empirical anticoagulation and transfer for CT pulmonary angiography with the GP on call tonight"
+    "text": "Assess him now with an ECG and observations, treat as high pretest probability, and discuss anticoagulation and transfer for CT with the GP on call"
    },
    {
     "id": "C",
-    "text": "Prescribe oral analgesia for musculoskeletal chest pain and review him on the morning round"
+    "text": "Prescribe oral analgesia for probable musculoskeletal chest pain and review him on the morning surgical round"
    },
    {
     "id": "D",
-    "text": "Request a chest X-ray and defer any decision until the film has been reported"
+    "text": "Request a chest X-ray and defer any decision about escalation until the film has been reported by the radiologist"
    }
   ],
   "key": "B",
@@ -1882,19 +1882,19 @@
   "options": [
    {
     "id": "A",
-    "text": "Discharge him with oral laxatives and advice to return if the vomiting persists"
+    "text": "Discharge him with oral laxatives, antiemetics and advice to return if the vomiting persists"
    },
    {
     "id": "B",
-    "text": "Give oral water-soluble contrast and reassess in 6 hours before involving the surgical team"
+    "text": "Give oral water-soluble contrast and reassess in 6 hours with a repeat X-ray before involving the surgical team"
    },
    {
     "id": "C",
-    "text": "Start intravenous antibiotics for diverticulitis and admit under the medical team"
+    "text": "Start intravenous antibiotics for diverticulitis, keep him nil by mouth and admit under the medical team"
    },
    {
     "id": "D",
-    "text": "Keep him nil by mouth, insert a nasogastric tube on free drainage, start intravenous fluids and analgesia, send bloods including lactate, and request a CT of the abdomen with intravenous contrast"
+    "text": "Nil by mouth, nasogastric tube on free drainage, intravenous fluids and analgesia, lactate, and CT abdomen with contrast"
    }
   ],
   "key": "D",
@@ -2052,11 +2052,11 @@
   "options": [
    {
     "id": "A",
-    "text": "Wait for the chest X-ray to confirm the diagnosis before any intervention"
+    "text": "Wait for the chest X-ray to confirm the diagnosis before any invasive intervention is attempted"
    },
    {
     "id": "B",
-    "text": "Perform immediate needle decompression of the right chest and call the registrar for urgent chest drain insertion"
+    "text": "Perform immediate needle decompression of the right chest and call the registrar for a chest drain"
    },
    {
     "id": "C",
@@ -2064,7 +2064,7 @@
    },
    {
     "id": "D",
-    "text": "Arrange an urgent CT pulmonary angiogram to exclude pulmonary embolism"
+    "text": "Arrange an urgent CT pulmonary angiogram to exclude pulmonary embolism before any procedure"
    }
   ],
   "key": "B",

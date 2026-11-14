@@ -1,0 +1,2096 @@
+[
+ {
+  "work_order_id": "r1-226",
+  "item_id": "9680c40f-ccfe-c804-c51f-1024ff0d6409",
+  "version": 1,
+  "stem": "You are a PGY1 on a rural placement in a general practice linked to a Yorke Peninsula hospital whose 4-bed emergency department is staffed overnight by one junior doctor with the GP on call. At 07:30 the practice nurse tells you that a 68-year-old man with metastatic lung cancer, known to the practice and receiving community palliative care, was found dead in bed by his wife this morning. His GP last reviewed him 6 days ago and had discussed that death was expected within weeks. The wife mentions that yesterday he fell down the back steps and hit his head but \"seemed alright\". She asks you to complete the paperwork so the funeral director can collect him. The GP is on the road and will arrive in an hour.",
+  "lead_in": "What is the most appropriate next step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Complete the medical certificate of cause of death recording metastatic lung cancer, since death was expected."
+   },
+   {
+    "id": "B",
+    "text": "Explain that the death must be reported to the Coroner because of the fall, and contact police or the State Coroner's Office before any certificate is issued."
+   },
+   {
+    "id": "C",
+    "text": "Ask the community palliative care nurse to confirm the death so the funeral director can proceed."
+   },
+   {
+    "id": "D",
+    "text": "Leave the body undisturbed and ask the wife to wait until the GP arrives to complete the certificate."
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Completing a cause-of-death certificate is wrong here even though death was anticipated. Under the Coroners Act 2003 (SA), a death that may have been caused or contributed to by injury, including a fall with head strike the day before, is reportable, and a doctor must not certify a reportable death.",
+   "B": "Reporting the death is correct. A recent fall with head strike means the death cannot be assumed to be natural; it must be reported to the Coroner, usually by notifying police, who attend and liaise with the State Coroner's Office. The Coroner may still release the body quickly if the history is clear, but that decision is not the junior doctor's to make.",
+   "C": "Confirming that death has occurred is different from certifying its cause. A nurse verifying death does not resolve the reporting duty, and the funeral director cannot remove the body of a reportable death without the Coroner's authority.",
+   "D": "Waiting for the GP delays the legally required report and leaves the wife without an explanation. The duty to report applies to any doctor who becomes aware of a reportable death, and a PGY1 should recognise and act on it, while also informing the GP."
+  },
+  "learning_point": "An expected death becomes reportable to the Coroner if injury may have contributed, such as a recent fall, and a junior doctor must not certify cause of death until the Coroner declines jurisdiction.",
+  "setting_note": "In a rural town the GP often knows the family well and police may be some distance away; the junior doctor should still initiate the report promptly, explain the process compassionately to the family, and inform the GP, who may speak with the Coroner's office about expediting release of the body.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Palliative care and goals of care",
+   "Documentation",
+   "Rural and remote"
+  ],
+  "domains": [
+   "2.1",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "death certification and coronial reporting",
+  "context": "clinic",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "The practical pathway (police attendance versus direct phone call to the State Coroner's Office) varies between SA towns; the reporting duty itself is not in doubt."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Coroners Act 2003 (SA), s 3 (definition of reportable death) and s 28 (duty to report)",
+    "locator": "ss 3, 28",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health, Reporting of Deaths to the Coroner and Medical Certificate Cause of Death guidance",
+    "locator": "Reportable deaths",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: reportable deaths in SA include unexpected, unnatural, unusual or violent deaths, deaths from injury or accident (even if delayed), deaths in custody or care, within 24 hours of surgery or anaesthesia, and deaths where cause is unknown. A doctor who completes a cause-of-death certificate for a reportable death commits an offence. Common misconception: that a palliative diagnosis makes every death certifiable. Out of scope: the Coroner's decision about autopsy and release of the body.",
+  "plan": "Tests the legal duty to report a death that may have an injury contribution even when a terminal illness makes death expected. The rural general practice makes the junior doctor the first clinician involved with the GP an hour away. Distractors: certify because death was expected, delegate verification to a nurse, or wait for the GP. Supported by the Coroners Act 2003 (SA)."
+ },
+ {
+  "work_order_id": "r1-227",
+  "item_id": "38384767-1c4a-be9c-7bc8-71fad21b9e0e",
+  "version": 1,
+  "stem": "A 32-year-old man is brought to the emergency department of a 30-bed Mid North regional hospital, 2 hours by road from Adelaide, after a witnessed first generalised tonic-clonic seizure at a roadhouse. He drives a B-double truck for a living and also drives his family car. He has recovered fully, examination is normal, blood glucose and electrolytes are normal, and he had no alcohol, drug use, head injury or sleep deprivation. CT is available in the morning and the physician on call advises outpatient neurology referral and EEG. He asks whether he can drive the truck back to the depot tomorrow, and whether he can at least drive his car in the meantime.",
+  "lead_in": "Which statement best describes his driving status under the Austroads Assessing Fitness to Drive standards?",
+  "options": [
+   {
+    "id": "A",
+    "text": "He may continue to drive the truck until neurology review, because a single seizure does not establish epilepsy."
+   },
+   {
+    "id": "B",
+    "text": "He may drive his car but not the truck until a neurologist clears him for commercial driving."
+   },
+   {
+    "id": "C",
+    "text": "He must not drive any vehicle now; the non-driving period after a first seizure is at least 6 months for a private licence and years for his commercial licence, and he is obliged to notify the Registrar."
+   },
+   {
+    "id": "D",
+    "text": "He must stop driving both vehicle classes for 12 months and may then resume without specialist review."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Continuing commercial driving is unsafe and contrary to the standards. The risk of recurrence after a first unprovoked seizure is highest in the following months, and the commercial standard is far stricter than the private one.",
+   "B": "Private driving is also prohibited immediately after a first seizure. The default private non-driving period is 6 months, which may be modified by a specialist, and the patient must be advised not to drive any vehicle until cleared.",
+   "C": "This is the correct interpretation. After a first unprovoked seizure the private non-driving period is 6 months and the commercial period is measured in years, with specialist review required. The patient has a legal duty to notify the Registrar of Motor Vehicles, and in South Australia the doctor must also notify if they believe the person's driving is likely to endanger the public. The advice and the patient's response must be documented.",
+   "D": "The periods differ between private and commercial licences, and return to driving depends on specialist assessment, not simply time elapsed."
+  },
+  "learning_point": "After a first seizure a patient must stop driving all vehicles immediately, with much longer restrictions for commercial licences, and the junior doctor must give and document clear non-driving advice and address notification to the Registrar.",
+  "setting_note": "In a regional town where there is no public transport and the patient's livelihood depends on driving, the conversation is harder but the standard is unchanged; involve the physician on call, give written advice, and arrange follow-up with the GP and neurology by telehealth.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Neurology",
+   "Documentation",
+   "Rural and remote"
+  ],
+  "domains": [
+   "2.1",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "fitness to drive",
+  "context": "ed",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "Exact commercial non-driving period for a first seizure (5 years off treatment in current AFTD) is described as 'years' to avoid depending on an edition-specific figure; the SA statutory duty for doctors to notify under the Motor Vehicles Act 1959 s 148 should be confirmed by reviewers."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Austroads and NTC, Assessing Fitness to Drive for commercial and private vehicle drivers (2022)",
+    "locator": "Part B, Seizures and epilepsy: first seizure; Part A, Legal and ethical responsibilities",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Motor Vehicles Act 1959 (SA)",
+    "locator": "s 148 (notification by medical practitioners)",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: first unprovoked seizure means no driving for at least 6 months (private) and far longer for commercial licences, subject to specialist review; the patient must notify the Registrar; SA is one of the jurisdictions where doctors have a statutory duty to notify when they believe a driver would endanger the public, and are protected when doing so. Misconceptions: that a single seizure carries no restriction, or that a private car is exempt. Out of scope: antiepileptic drug choice and EEG interpretation.",
+  "plan": "Tests interpretation of fitness-to-drive standards after a first seizure in a commercial driver, a common ED task. Distractors reflect common misconceptions: no epilepsy so no restriction, private driving allowed, or a fixed period without specialist review. Supported by AFTD 2022 and the SA Motor Vehicles Act."
+ },
+ {
+  "work_order_id": "r1-228",
+  "item_id": "77eb6cdc-1845-9f6d-1173-0f212c2e2823",
+  "version": 1,
+  "stem": "You are the junior doctor covering the ward and the emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. Earlier in the week you treated a 34-year-old woman for anaphylaxis to a wasp sting; she recovered fully and was discharged with an adrenaline autoinjector and an action plan. At 21:00 she comes to the emergency department desk with her partner and hands you an envelope containing $300 in cash \"to say thank you for saving my life\", plus a large box of chocolates for the nurses. The triage nurse is watching and the department is otherwise quiet. She is clearly emotional and says she will be offended if you refuse.",
+  "lead_in": "What is the most appropriate immediate response?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Accept the cash so as not to offend her, and declare it to the Director of Medical Services in the morning."
+   },
+   {
+    "id": "B",
+    "text": "Accept the cash on the condition that it is shared among the nursing staff who were on duty."
+   },
+   {
+    "id": "C",
+    "text": "Decline both the cash and the chocolates and explain that staff are not permitted to accept anything from patients."
+   },
+   {
+    "id": "D",
+    "text": "Thank her warmly, decline the cash and explain that staff cannot accept money, and suggest a card or donation to the hospital; the shared chocolates may be accepted if local policy allows."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Accepting cash from a patient is not acceptable under Good medical practice or SA Health policy, and declaring it afterwards does not cure the conflict of interest or the perception of one. Declining is the required action, not disclosure after the fact.",
+   "B": "Redistributing the money does not change its character: a cash gift from a patient to clinicians creates a real or perceived conflict of interest and is not permitted under the SA Health gifts and benefits policy.",
+   "C": "Refusing everything is unnecessarily rigid and risks humiliating a grateful patient. Token gifts of nominal value shared with a team are generally permitted, provided they are declared where required and not sought.",
+   "D": "This response protects professional boundaries while respecting the patient's gratitude: cash is declined with a clear explanation, an acceptable alternative is offered, and a modest shared gift is handled according to local policy, including declaration if the policy requires it."
+  },
+  "learning_point": "Doctors must not accept money from patients; gratitude can be acknowledged by declining graciously, explaining the rule and redirecting to a card or hospital donation, while nominal shared gifts are managed under the local gifts and benefits policy.",
+  "setting_note": "In a small country town the doctor and patient will meet again socially, which makes declining feel harder but makes clear boundaries more important; knowing the local hospital's gifts and benefits policy and register in advance helps.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Rural and remote"
+  ],
+  "domains": [
+   "2.1",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "gifts and conflicts of interest",
+  "context": "ed",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 10.12 Conflicts of interest; 10.13 Financial and commercial dealings",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Gifts, Benefits and Hospitality Policy Directive",
+    "locator": "Acceptance and declaration of gifts",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: cash or cash equivalents from patients must be declined; token gifts of nominal value shared with a team may be accepted and declared under the local policy; gifts must never influence care or be solicited. Misconceptions: that declaring a gift afterwards makes acceptance acceptable, or that all gifts must be refused. Out of scope: industry sponsorship rules, which are covered elsewhere.",
+  "plan": "Tests the immediate handling of a cash gift from a grateful patient, a situation junior doctors commonly meet in small communities. Distractors: accept and declare, accept and share, refuse everything rigidly. Supported by Good medical practice section 10.12 and the SA Health gifts policy."
+ },
+ {
+  "work_order_id": "r1-229",
+  "item_id": "877f4704-0d21-91f5-457d-46510ed26b73",
+  "version": 1,
+  "stem": "You are the PGY1 on the medical ward of a metropolitan general hospital at 01:30. The medical registrar on site overnight has just arrived from the residents' room to review a 58-year-old man with new central chest pain, a heart rate of 104 and an ECG showing 1 mm ST depression in the lateral leads. As the registrar leans over the chart you notice a strong smell of alcohol, slurred speech and an unsteady gait; the registrar fumbles the ECG and says \"just give him some morphine, he's fine\". The nurse looks at you with concern. The on-call consultant physician is available by phone and there is an after-hours hospital coordinator in the building.",
+  "lead_in": "What is the most appropriate action now?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Phone the on-call consultant immediately about both the patient and the registrar, and ensure the patient is managed by a doctor who is fit to practise."
+   },
+   {
+    "id": "B",
+    "text": "Manage the patient yourself using the chest pain pathway and raise your concerns about the registrar with the Director of Clinical Training in the morning."
+   },
+   {
+    "id": "C",
+    "text": "Ask the registrar to rest in the residents' room, cover the ward alone for the rest of the shift, and document what you observed."
+   },
+   {
+    "id": "D",
+    "text": "Phone AHPRA now to make a mandatory notification, then continue the shift with the registrar once the call is made."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "Patient safety comes first. A deteriorating patient with possible acute coronary syndrome needs a competent senior decision-maker now, and an apparently intoxicated registrar must not continue to practise tonight. Escalating immediately to the on-call consultant and the after-hours coordinator achieves both, and the hospital then manages the colleague, including any notification obligations.",
+   "B": "Managing an unstable patient alone as an intern, without senior support, is outside safe scope, and delaying action on an intoxicated colleague leaves other patients exposed overnight.",
+   "C": "Removing the registrar from the floor without telling anyone leaves the hospital's only medical registrar unavailable, you unsupported, and the colleague without help. Documentation is appropriate but is not a substitute for escalation.",
+   "D": "Practising while intoxicated is a ground for mandatory notification, but the notification is not the urgent first action at 01:30 and AHPRA cannot make the ward safe tonight. Allowing the registrar to continue working after the call would be unsafe."
+  },
+  "learning_point": "When a colleague appears impaired at work, the junior doctor's first duty is to make the patient safe by escalating immediately to the on-call consultant and hospital management, not to manage alone or defer the concern to the morning.",
+  "setting_note": "In a regional hospital the impaired colleague may be the only senior doctor on site, so escalation goes to the on-call GP or consultant by phone and the after-hours manager, and retrieval or telehealth advice may be needed for the patient.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Doctor wellbeing, teamwork and workload",
+   "Deteriorating patient",
+   "Patient safety, quality and systems"
+  ],
+  "domains": [
+   "2.1",
+   "2.4",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "A",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "impaired colleague",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 11.2 Other doctors' health; 11.3 Mandatory reporting",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "AHPRA and National Boards, Guidelines: Mandatory notifications about registered health practitioners (2020)",
+    "locator": "Intoxication at work",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: an intoxicated colleague must not continue clinical work; escalate to the senior on call and hospital management immediately; the hospital usually makes any mandatory notification, though the individual duty remains. Misconceptions: that reporting a colleague is disloyal, or that the intern should quietly cover. Out of scope: the details of the AHPRA notification process and employer disciplinary pathways.",
+  "plan": "Tests the immediate management when a supervising registrar appears intoxicated while an unstable patient needs review. The key is dual escalation to the on-call consultant for patient and colleague safety. Distractors: intern manages alone, hides the registrar, or treats AHPRA notification as the first step. Supported by Good medical practice sections 11.2-11.3 and the AHPRA mandatory notification guidelines."
+ },
+ {
+  "work_order_id": "r1-230",
+  "item_id": "e60e212b-56bf-ff0e-1c4b-d4767015c390",
+  "version": 1,
+  "stem": "You are a PGY2 on the general ward of a regional hospital with a small medical ward and no ICU. You and the intern are looking after a 55-year-old woman admitted with cellulitis, whose care has been thorough and appropriate. Over coffee the intern confides that he was diagnosed with depression 4 months ago, sees his GP monthly and a psychologist fortnightly, takes sertraline 100 mg daily, is sleeping well and feels he is coping at work. He asks you not to tell anyone. The ward nurse manager, who overheard part of the conversation, later asks you whether you now have to \"report him to AHPRA\".",
+  "lead_in": "What is the most appropriate response to the nurse manager's question?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Yes, any mental illness in a registered practitioner must be notified to AHPRA within 30 days."
+   },
+   {
+    "id": "B",
+    "text": "Yes, but the notification should be made through the Director of Clinical Training rather than directly."
+   },
+   {
+    "id": "C",
+    "text": "No; a treated health condition that is not placing patients at substantial risk of harm does not meet the mandatory notification threshold, and the right response is to support him and encourage ongoing care."
+   },
+   {
+    "id": "D",
+    "text": "No notification is needed provided he stops clinical duties until a psychiatrist confirms he is fit to work."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "A health condition alone is not a notifiable matter. Mandatory notification for impairment applies only when the practitioner is placing the public at substantial risk of harm, and the National Law explicitly aims not to deter practitioners from seeking treatment.",
+   "B": "Routing a notification through a supervisor does not change the threshold; there is nothing to notify here. Sharing his confidential disclosure without consent would also breach his trust unless there was a safety concern.",
+   "C": "This is correct. He is engaged in treatment, functioning well and placing no one at risk, so there is no mandatory notification. Supporting him, encouraging him to continue care and knowing where to escalate if his condition or performance changes is the professional response.",
+   "D": "Stopping clinical duties is not required and would be punitive and discouraging for a colleague who is managing his health responsibly. Fitness to work is assessed on function and risk, not on a diagnosis label."
+  },
+  "learning_point": "A colleague's treated mental illness is not grounds for mandatory notification unless it places the public at substantial risk of harm; the right response is confidentiality, support and encouragement to keep engaging with care.",
+  "setting_note": "Regional junior doctors often rely on each other and on distant supervisors; knowing the local employee assistance program, Doctors' Health SA and the Medical Education Unit helps when a colleague discloses a health issue.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Doctor wellbeing, teamwork and workload",
+   "Mental health and behavioural emergencies"
+  ],
+  "domains": [
+   "2.1",
+   "2.2",
+   "2.6"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "mandatory notification",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "AHPRA and National Boards, Guidelines: Mandatory notifications about registered health practitioners (2020)",
+    "locator": "Impairment: threshold of substantial risk of harm",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 11 Ensuring doctors' health",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: the four mandatory notification grounds are impairment, intoxication at work, significant departure from accepted standards, and sexual misconduct; for impairment the threshold is substantial risk of harm to the public; treating practitioners have a higher threshold still. Misconceptions: that any diagnosis must be reported, or that a colleague must stop work. Out of scope: how to lodge a notification.",
+  "plan": "Tests understanding of the mandatory notification threshold when a well-managed colleague discloses depression, a scenario that frightens junior doctors away from help-seeking. Distractors: reflexive notification, notification via a supervisor, and unnecessary stand-down. Supported by the AHPRA mandatory notification guidelines."
+ },
+ {
+  "work_order_id": "r1-231",
+  "item_id": "b9c6cd6e-d149-ee5b-3aaf-3e8915265ec8",
+  "version": 1,
+  "stem": "You are the junior doctor covering the ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre; the GP is on call by phone. At 23:00 you treated a 38-year-old man with left renal colic, charting ketorolac 30 mg intramuscularly, which the nurse gave. At 01:00, while writing the discharge summary, you notice the triage alert sheet records an allergy to ibuprofen (generalised urticaria 5 years ago); you had not seen it and did not ask. Two hours after the dose he is comfortable, with no rash, wheeze or hypotension, and is asking to go home. The nurse asks what you want to do.",
+  "lead_in": "What is the most appropriate course of action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Complete an incident report in the Safety Learning System and let the GP on call decide in the morning whether the patient needs to be told, since no harm has occurred."
+   },
+   {
+    "id": "B",
+    "text": "Tell him now what happened and apologise, explain the plan to observe him, phone the GP on call to inform them, and complete an incident report."
+   },
+   {
+    "id": "C",
+    "text": "Observe him for a further 4 hours and disclose the error only if an allergic reaction develops, to avoid causing unnecessary anxiety."
+   },
+   {
+    "id": "D",
+    "text": "Ask the nurse who administered the dose to tell him, because the administering clinician holds responsibility for the allergy check."
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Incident reporting is necessary but not sufficient. Under the Australian Open Disclosure Framework a patient is told about an incident that reached them even when no harm has resulted, and the disclosure should not be deferred to someone else the next day while the patient is being discharged.",
+   "B": "This reflects the open disclosure principles: prompt, honest acknowledgement, a sincere apology including the word sorry, an explanation of what is being done (observation for a delayed reaction and advice on what to watch for), senior involvement, and an incident report so the system can learn. Prescribing without checking allergies is the prescriber's responsibility.",
+   "C": "Waiting to see whether harm occurs before telling the patient is contrary to open disclosure and would leave him unaware of a risk he needs to know about when he goes home. Anxiety is not a reason to withhold information about his own care.",
+   "D": "Delegating the disclosure to the nurse is unfair and inaccurate; the prescriber who did not check allergies is primarily responsible, and the patient is entitled to hear from the doctor involved, with the nurse welcome to be present."
+  },
+  "learning_point": "Open disclosure applies to no-harm incidents as well as harmful ones: tell the patient promptly, apologise, explain the monitoring plan, involve the senior on call and report the incident.",
+  "setting_note": "Working alone overnight, the junior doctor is the only person who can disclose in a timely way; the GP on call should be informed by phone and can support the conversation, and the discharge should include clear written advice about delayed reactions given the distance from help.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Patient safety, quality and systems",
+   "Prescribing and medication safety",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "2.1",
+   "1.1",
+   "4.3"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "open disclosure after an error",
+  "context": "ed",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "acsqhc",
+    "title": "Australian Commission on Safety and Quality in Health Care, Australian Open Disclosure Framework (2013)",
+    "locator": "Part A: principles; no-harm incidents and lower-level response",
+    "supports": "key"
+   },
+   {
+    "source": "sa_health",
+    "title": "SA Health Open Disclosure Policy Directive",
+    "locator": "Disclosure of incidents including near misses and no-harm incidents",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: open disclosure elements are apology, factual explanation, opportunity for the patient to relate their experience, discussion of consequences and steps taken; it applies to no-harm incidents with a proportionate lower-level response. A cross-reaction between NSAIDs is possible, so observation and advice matter. Misconceptions: that disclosure is only for harm, or that saying sorry is an admission of liability (apology laws in SA protect expressions of regret). Out of scope: medico-legal processes beyond the incident report.",
+  "plan": "Tests whether a junior doctor applies open disclosure to a no-harm prescribing error at night with no senior on site. Distractors defer disclosure to the morning, make it conditional on harm, or shift it to the nurse. Supported by the ACSQHC Australian Open Disclosure Framework and the SA Health policy."
+ },
+ {
+  "work_order_id": "r1-232",
+  "item_id": "bed3a577-ba62-a63f-e7b0-433db58cf47a",
+  "version": 1,
+  "stem": "You are a PGY2 covering the surgical ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. A 55-year-old man is 2 days post open repair of an incisional hernia and has developed vomiting and abdominal distension. You phone the visiting surgeon, who is in Adelaide. The surgeon asks you to insert a nasogastric tube on free drainage, which you have done many times, and then to aspirate the tense fluid collection under the lower wound with a needle and syringe \"to see if it is a seroma or a haematoma\". You have never performed or observed aspiration of a wound collection. The surgeon will drive up in the morning.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Perform both procedures as instructed, because the surgeon has delegated them and carries responsibility for the outcome."
+   },
+   {
+    "id": "B",
+    "text": "Decline both procedures until the surgeon can attend in person in the morning."
+   },
+   {
+    "id": "C",
+    "text": "Watch an online video of wound aspiration and attempt it, documenting that it was done on the surgeon's instruction."
+   },
+   {
+    "id": "D",
+    "text": "Insert the nasogastric tube, and tell the surgeon you are not trained in wound aspiration so that it is deferred or done under supervision."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Delegation does not transfer competence. A doctor who performs a procedure they are not trained in is responsible for the outcome, and the surgeon can only delegate appropriately if told that the task is outside your skills.",
+   "B": "Refusing the nasogastric tube, which is within your competence and is needed now to relieve vomiting and distension, would leave the patient worse off. Scope of practice means declining what you cannot do safely, not declining everything.",
+   "C": "Attempting an unfamiliar invasive procedure guided only by a video, with no supervisor on site, risks bleeding, infection and breaching a repair, and documentation of the instruction does not make it safe.",
+   "D": "This is the correct response. Do what you are competent to do, state plainly what you are not trained for, and let the surgeon decide whether the aspiration can wait, be done by someone else, or be supervised. Graded assertiveness about one's own limits is an expected professional behaviour."
+  },
+  "learning_point": "A junior doctor should carry out delegated tasks within their competence and clearly tell the senior clinician when a requested procedure is outside their training so that it can be deferred or supervised.",
+  "setting_note": "With no on-site surgeon, the temptation to attempt unfamiliar procedures is greater; the regional network's protocols and telehealth support exist precisely so that junior doctors are not pressed beyond their scope, and the patient's safety usually tolerates waiting for the morning.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Procedures and practical skills",
+   "Surgery and perioperative care",
+   "Rural and remote"
+  ],
+  "domains": [
+   "2.4",
+   "2.1",
+   "1.6"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "scope of practice",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 2.2 Good patient care: recognising and working within the limits of competence; 5.3 Delegation, referral and handover",
+    "supports": "key"
+   },
+   {
+    "source": "amc",
+    "title": "AMC National Framework for Prevocational Medical Training, Outcome statements",
+    "locator": "2.4 Increasing responsibility within limits of expertise",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: working within limits of competence is a Good medical practice obligation; delegation is only appropriate when the delegate is competent; junior doctors should state their limits plainly and offer what they can do. Misconception: that an instruction from a senior makes any task safe. Out of scope: the clinical management of the postoperative collection itself.",
+  "plan": "A straightforward scope-of-practice item in which a remote surgeon asks for one familiar and one unfamiliar procedure. The key is to do the familiar one and declare the limit on the other. Distractors: do both, do neither, or improvise. Supported by Good medical practice section 2.2 and AMC outcome 2.4."
+ },
+ {
+  "work_order_id": "r1-233",
+  "item_id": "f653e026-5490-fba5-0d87-32e8db64f223",
+  "version": 1,
+  "stem": "You are the junior doctor at a rural hospital on the Yorke Peninsula, where you staff the 4-bed emergency department alone overnight with the GP on call. Last week you treated a 52-year-old farmer for a deep laceration to his forearm from a shearing handpiece, which you closed and referred for review. Tonight a nurse shows you a post on the town's public community Facebook page in which he names you, describes his injury, the number of stitches and the tetanus booster, and thanks you for \"saving the arm\". He has also sent you a friend request. The nurse suggests you reply publicly \"so people know the hospital is good\" and that refusing the friend request would seem rude in a town this size.",
+  "lead_in": "Which statement best describes your professional obligations in this situation?",
+  "options": [
+   {
+    "id": "A",
+    "text": "You should not discuss his clinical details publicly even though he posted them himself, and should decline the friend request; a brief non-clinical thank you is acceptable."
+   },
+   {
+    "id": "B",
+    "text": "Because he has disclosed the information himself, confidentiality no longer applies and you may reply with clinical reassurance about his recovery."
+   },
+   {
+    "id": "C",
+    "text": "You should accept the friend request, because in a small community refusing would damage the therapeutic relationship."
+   },
+   {
+    "id": "D",
+    "text": "You should ask the page administrator to remove his post because it breaches the hospital's social media policy."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This is correct. A patient's own disclosure does not release the doctor from confidentiality; anything you add publicly, even confirming details, is a disclosure by you. Professional boundaries also mean personal social media connections with patients are avoided, particularly where you are likely to treat them again, and this can be declined courteously.",
+   "B": "Confidentiality is the doctor's obligation and is not waived by the patient posting. Adding clinical reassurance online would disclose health information and create an inappropriate channel for clinical advice.",
+   "C": "Social media friendships blur the boundary between personal and professional roles and can expose the doctor's private life and the patient's health information. Small-town familiarity makes clear boundaries more, not less, important; declining can be done kindly.",
+   "D": "The patient is entitled to post about his own care; the hospital's social media policy governs staff, not patients, and demanding removal would be heavy-handed and damage trust."
+  },
+  "learning_point": "A patient's public post about their care does not permit the doctor to add or confirm clinical information online, and personal social media connections with current patients should be declined politely to maintain professional boundaries.",
+  "setting_note": "In a small rural community the doctor will see patients at the shop and the football; AHPRA's guidance still applies, and a consistent, friendly policy of not connecting with patients online is easier to maintain than case-by-case decisions.",
+  "learning_area": "Professionalism, ethics and law",
+  "secondary_areas": [
+   "Rural and remote",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "2.1",
+   "2.4"
+  ],
+  "clinical_experiences": [
+   "A"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "social media and professional boundaries",
+  "context": "rural",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "mba",
+    "title": "AHPRA and National Boards, Social media: how to meet your obligations under the National Law (2019)",
+    "locator": "Confidentiality and professional boundaries online",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 4.4 Confidentiality and privacy; 4.5 Professional boundaries",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: confidentiality obligations apply regardless of what the patient has posted; the doctor should not confirm, add or correct clinical details publicly; personal online connections with patients are discouraged; the hospital communications team handles organisational responses. Misconceptions: that patient disclosure waives confidentiality, or that rural familiarity requires accepting online friendship. Out of scope: defamation and employer disciplinary processes.",
+  "plan": "Tests interpretation of confidentiality and boundary obligations when a grateful rural patient posts publicly and sends a friend request. Distractors: treat patient disclosure as waiver, accept the request for relationship reasons, or demand the post be removed. Supported by the AHPRA social media guidance and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-234",
+  "item_id": "51637b09-f920-1625-cb08-595f97cf83c2",
+  "version": 1,
+  "stem": "You are the PGY1 on the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 28-year-old man was admitted overnight with 18 hours of periumbilical pain that has moved to the right iliac fossa, anorexia and one vomit. On examination this morning his temperature is 37.9 degrees, heart rate 96, and he has localised tenderness with guarding at McBurney's point. Results: white cell count 14.2 x 10^9/L (neutrophils 11.5), CRP 62 mg/L, lipase normal, and urinalysis shows trace leucocytes with no nitrites or blood. The visiting surgeon is due at 10:00 and has asked you to phone with the results.",
+  "lead_in": "Which interpretation of these findings is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "The urinary leucocytes indicate a urinary tract infection that explains his pain."
+   },
+   {
+    "id": "B",
+    "text": "The absence of a temperature above 38 degrees makes appendicitis unlikely."
+   },
+   {
+    "id": "C",
+    "text": "The history, examination and inflammatory markers are consistent with acute appendicitis; trace urinary leucocytes can occur when an inflamed appendix lies near the ureter or bladder."
+   },
+   {
+    "id": "D",
+    "text": "The degree of leucocytosis indicates perforation and he should be transferred to Adelaide immediately."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Trace leucocytes without nitrites, haematuria or urinary symptoms do not make a urinary infection; a mild sterile pyuria is well recognised in appendicitis when the inflamed appendix lies against the urinary tract. Migratory pain with localised peritonism points to the appendix.",
+   "B": "Fever is often low grade or absent in early appendicitis, so a temperature below 38 degrees carries little negative weight. Diagnosis rests on the whole picture.",
+   "C": "This is the correct interpretation. Migratory pain, anorexia, localised right iliac fossa tenderness with guarding, neutrophilia and raised CRP together make acute appendicitis the most likely diagnosis; the urinalysis is a recognised red herring. These are the findings to convey to the surgeon by ISBAR.",
+   "D": "Leucocytosis of this degree is typical of uncomplicated appendicitis and does not indicate perforation; generalised peritonitis, marked tachycardia or sepsis would raise that concern. Transfer decisions rest with the surgeon, who may operate locally."
+  },
+  "learning_point": "Classic migratory pain, localised right iliac fossa peritonism and raised neutrophils and CRP support acute appendicitis, and mild sterile pyuria does not point away from it.",
+  "setting_note": "In a regional hospital with a visiting surgeon, timely and accurate ISBAR communication of the findings determines whether the patient is operated on locally that day or transferred, so the junior doctor's interpretation matters more than in a tertiary centre with surgical registrars on site.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Emergency presentations",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "1.5"
+  ],
+  "clinical_experiences": [
+   "D",
+   "A"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "any",
+  "presentation": "appendicitis",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Cameron P et al., Textbook of Adult Emergency Medicine (5th ed, 2020)",
+    "locator": "Chapter on acute abdomen: appendicitis, clinical features and investigations",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Intra-abdominal infections: appendicitis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: appendicitis is a clinical diagnosis supported by neutrophilia and CRP; sterile pyuria occurs in a minority of cases; fever may be absent early; imaging is used when the diagnosis is uncertain. Misconceptions: urinalysis abnormalities redirect to UTI; no fever excludes appendicitis. Out of scope: Alvarado scoring details and antibiotic choice.",
+  "plan": "Tests basic interpretation of a classic appendicitis work-up with a mild urinalysis red herring, pitched at intern level. Distractors each over-interpret a single result. Supported by standard emergency medicine texts and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-235",
+  "item_id": "f258af1d-7a2d-b032-344f-67df880f0b9b",
+  "version": 1,
+  "stem": "You are the PGY1 in the theatre suite of a tertiary hospital in Adelaide. A 58-year-old woman with adhesional small bowel obstruction after a previous hysterectomy has been booked for laparotomy; the surgical registrar has consented her and is scrubbing for the preceding case. The anaesthetist asks you to \"get her ready\". You find that she has been vomiting bilious fluid for 36 hours, no nasogastric tube has been inserted, group and hold has not been sent, and the potassium on this morning's bloods, which the registrar has not yet seen, is 2.9 mmol/L with a creatinine of 130 micromol/L. Her observations are stable. The anaesthetist expects to start in 45 minutes.",
+  "lead_in": "Which task should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Take blood for group and hold and send it urgently."
+   },
+   {
+    "id": "B",
+    "text": "Tell the anaesthetist and surgical registrar now that the potassium is 2.9 mmol/L and no nasogastric tube is in place."
+   },
+   {
+    "id": "C",
+    "text": "Insert a nasogastric tube and connect it to free drainage."
+   },
+   {
+    "id": "D",
+    "text": "Chart 40 mmol potassium chloride in 1 litre of sodium chloride 0.9% over 4 hours."
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Group and hold is required before a laparotomy and must be sent, but it is a task that takes minutes and does not change the anaesthetic plan. The unreported electrolyte abnormality is the finding that may alter timing and needs to be communicated first.",
+   "B": "This is correct. A potassium of 2.9 mmol/L is a critical result for a patient about to be anaesthetised, with risk of arrhythmia, and a full stomach without decompression affects induction. Both are decisions for the anaesthetist and surgeon, who must know now so they can decide whether to delay, how to replace potassium and how to secure the airway. The other tasks follow immediately once the plan is set.",
+   "C": "Nasogastric decompression is needed before induction and the intern can insert it, but doing so first without telling the team about the potassium delays the information that may alter the operating schedule. Communicate, then act.",
+   "D": "Replacement is indicated but the route, rate and whether it should be intravenous via a central or peripheral line in theatre is the anaesthetist's decision; charting it alone, without communicating the result, is not the first step."
+  },
+  "learning_point": "When preparing a patient for theatre, a critical unreported result such as hypokalaemia must be communicated to the anaesthetist and surgeon before other preparation tasks, because it may change the timing and conduct of surgery.",
+  "setting_note": "In a tertiary centre the anaesthetist and registrar are seconds away and can act on the information immediately; in a regional hospital the same result might mean a phone discussion about whether the case should proceed locally or the patient be transferred.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Fluids, electrolytes and renal",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.1",
+   "1.5",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "bowel obstruction",
+  "context": "theatre",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "A reasonable registrar might argue that inserting the nasogastric tube is equally urgent; the item is keyed on communicating the critical result first because that is the step only the junior doctor knows is needed."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZCA PG07(A) Guideline on pre-anaesthesia consultation and patient preparation (2017)",
+    "locator": "Preoperative assessment and communication of relevant findings",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC National Safety and Quality Health Service Standards (2nd ed), Communicating for Safety Standard",
+    "locator": "Communication of critical information",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: hypokalaemia below 3.0 mmol/L before anaesthesia increases arrhythmia risk and usually prompts replacement and possible delay; small bowel obstruction is a full-stomach situation requiring nasogastric decompression and rapid sequence induction; group and hold is needed for laparotomy. Misconception: doing tasks in the order they were listed rather than communicating the critical finding. Out of scope: rate limits for intravenous potassium replacement.",
+  "plan": "A prioritisation item about preparing a patient for emergency laparotomy when the intern discovers an unreported critical potassium. The hinge is communication before task completion. Distractors are all appropriate tasks but none is the first step. Supported by ANZCA PG07 and the NSQHS Communicating for Safety Standard."
+ },
+ {
+  "work_order_id": "r1-236",
+  "item_id": "b618ba24-a054-8183-e969-2a7f8704ce75",
+  "version": 1,
+  "stem": "You are the PGY1 covering the general ward overnight at a regional hospital with a small medical ward, no ICU, CT available only in business hours, and retrieval to Adelaide by road or air. A 70-year-old woman with a previous hysterectomy was admitted at 18:00 under the GP with vomiting and abdominal distension; an abdominal X-ray showed dilated small bowel loops, a nasogastric tube is draining, and she is on intravenous fluids awaiting surgical discussion in the morning. At 02:00 the nurse calls: she now has constant pain localised to the right lower abdomen with guarding, heart rate 118, blood pressure 95/60, temperature 38.2, and a venous lactate of 3.8 mmol/L. The GP on call is at home 15 minutes away.",
+  "lead_in": "What is the most appropriate first action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Request a repeat abdominal X-ray now and plan a CT when the department opens at 08:00."
+   },
+   {
+    "id": "B",
+    "text": "Increase her analgesia, check the nasogastric tube is draining and review her at the morning ward round."
+   },
+   {
+    "id": "C",
+    "text": "Start intravenous antibiotics and wait for the surgical registrar in Adelaide to call back after their morning handover."
+   },
+   {
+    "id": "D",
+    "text": "Give a fluid bolus and call the GP on call now to arrange urgent surgical advice and retrieval."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Localised peritonism, tachycardia, hypotension and a raised lactate in a patient with small bowel obstruction indicate possible strangulation or ischaemia; a plain X-ray will not change the need for urgent surgical assessment and waiting 6 hours for CT is unsafe.",
+   "B": "Treating the pain and waiting until morning ignores the new signs of bowel compromise and sepsis. Her observations meet escalation criteria now and she needs senior review and a transfer decision tonight.",
+   "C": "Antibiotics are part of management but are not the first step, and waiting hours for a call back is inappropriate when the patient is deteriorating. Surgical advice for a strangulating obstruction is obtained urgently, by phoning the surgical team and the retrieval service directly.",
+   "D": "This is correct. Her observations meet rapid detection and response criteria, so the junior doctor starts resuscitation with a fluid bolus and escalates immediately to the senior doctor on call, who will arrange urgent surgical advice and retrieval to Adelaide. Antibiotics, bloods and repeat observations follow while the transfer is organised."
+  },
+  "learning_point": "New localised peritonism with tachycardia, hypotension and raised lactate in a patient with bowel obstruction suggests strangulation and must be escalated immediately with resuscitation and arrangements for urgent surgical care and retrieval.",
+  "setting_note": "In a regional hospital without an on-site surgeon or overnight CT, the deciding step is early escalation to the senior doctor and the retrieval service; the time to definitive surgery includes hours of transport, which makes earlier recognition more important than in a tertiary centre.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Rural and remote",
+   "Infection and sepsis"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "bowel obstruction",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy and Rapid Detection and Response observation chart",
+    "locator": "Escalation criteria for heart rate, blood pressure and clinician concern",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Intra-abdominal infections: secondary peritonitis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: features suggesting strangulated or ischaemic bowel include constant localised pain, peritonism, fever, tachycardia, hypotension and raised lactate; management is resuscitation, antibiotics and urgent surgery. In SA country hospitals the GP on call and MedSTAR retrieval are the escalation pathway. Misconceptions: that imaging must precede escalation, or that analgesia masks the need for surgery. Out of scope: operative decisions.",
+  "plan": "Tests recognition that a conservatively managed bowel obstruction has become a surgical emergency overnight in a hospital without surgical or imaging support. The key is immediate resuscitation and escalation. Distractors delay for imaging, analgesia or a scheduled call back. Supported by the SA Health deterioration policy and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-237",
+  "item_id": "a590c408-2367-c634-bfce-fa58d97be4a6",
+  "version": 1,
+  "stem": "You are the PGY1 on the medical ward of a large metropolitan teaching hospital with on-site intensive care and 24-hour imaging. A 30-year-old Aboriginal woman from the APY Lands has a large left pleural effusion and the medical registrar plans a diagnostic pleural aspiration this afternoon. The registrar, who is in clinic, phones and asks you to \"get the consent form signed\" before 14:00. You have watched one pleural aspiration and have never performed one. The patient speaks Pitjantjatjara as her first language and conversational English, and she has asked whether her aunty can be with her and whether the Aboriginal Liaison Officer can come.",
+  "lead_in": "Which statement about obtaining consent for this procedure is correct?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Consent should be obtained by a doctor able to perform the procedure or fully explain its risks and alternatives, usually the registrar; you can prepare her, arrange the interpreter and Aboriginal Liaison Officer, and welcome her aunty."
+   },
+   {
+    "id": "B",
+    "text": "Any registered medical practitioner may obtain consent for any procedure, so you should complete the form now."
+   },
+   {
+    "id": "C",
+    "text": "Consent is only valid if her family and the Aboriginal Liaison Officer are present when the form is signed."
+   },
+   {
+    "id": "D",
+    "text": "The nurse in charge may obtain consent provided the registrar countersigns the form later."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This is correct. Valid consent requires that the person obtaining it can explain the procedure, its material risks, benefits and alternatives and answer questions; that is the proceduralist or a doctor with adequate knowledge, not an intern who has only observed. Arranging an interpreter, the Aboriginal Liaison Officer and family presence is part of culturally safe, informed consent and is squarely within the intern's role.",
+   "B": "Registration alone does not make a doctor able to obtain informed consent; SA Health policy requires the clinician obtaining consent to have sufficient knowledge of the procedure and its risks. A signed form without informed discussion is not valid consent.",
+   "C": "Family and liaison officer involvement is good practice and should be offered, but the consent is the patient's own; she has capacity and her consent is valid whether or not others are present.",
+   "D": "Nurses may witness a signature but do not obtain consent for a medical procedure performed by a doctor; countersigning afterwards does not retrospectively validate an uninformed consent."
+  },
+  "learning_point": "Consent must be obtained by a clinician who can perform or fully explain the procedure, and the junior doctor's role is to ensure the patient's language, cultural and family supports are in place so the consent discussion is genuinely informed.",
+  "setting_note": "A tertiary hospital has interpreter services and Aboriginal Liaison Officers on site; in a regional hospital a phone interpreter and the local Aboriginal health worker can be arranged, and the procedure may be delayed until the proceduralist can speak with the patient.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Communication, handover and consent",
+   "Aboriginal and Torres Strait Islander health",
+   "Procedures and practical skills"
+  ],
+  "domains": [
+   "1.2",
+   "1.3",
+   "1.6"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "consent for a procedure",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": true
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "sa",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Consent to Medical Treatment and Health Care Policy Directive and Guideline",
+    "locator": "Who may obtain consent; use of interpreters",
+    "supports": "key"
+   },
+   {
+    "source": "mba",
+    "title": "Medical Board of Australia, Good medical practice: a code of conduct for doctors in Australia (2020)",
+    "locator": "Section 4.5 Informed consent; 4.6 Children and young people; 3.5 Culturally safe practice",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: informed consent requires capacity, voluntariness, adequate information in a language the patient understands, and a clinician who can answer questions about the procedure; interpreters should be accredited, not family; Aboriginal Liaison Officers support communication and cultural safety but do not replace the patient's own decision. Misconceptions: that consent is a signature, or that any doctor may obtain it. Out of scope: consent for patients lacking capacity.",
+  "plan": "Recall item on who may obtain consent, set in a tertiary ward with an Aboriginal patient whose language and family needs are shown as part of good care. Distractors: any doctor can consent, family presence is mandatory, nurse consents with countersignature. Supported by the SA Health consent policy and Good medical practice."
+ },
+ {
+  "work_order_id": "r1-238",
+  "item_id": "883fce42-08b9-f1c7-c7b3-9983b4340077",
+  "version": 1,
+  "stem": "You are the junior doctor covering the surgical ward and emergency department overnight at a country hospital 90 minutes from the nearest tertiary centre. A 56-year-old man with type 2 diabetes on metformin has been admitted the evening before an elective open inguinal hernia repair under general anaesthesia, booked first on the list at 08:00 with the visiting surgeon and anaesthetist. He has no reflux, no gastroparesis and a body mass index of 29. At 20:00 the nurse tells you the ward's old \"nil by mouth from midnight\" sign is on his bed and asks what fasting instructions you want written up, because he is hungry and anxious about going hypoglycaemic overnight.",
+  "lead_in": "What are the most appropriate fasting instructions?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Nothing by mouth, including water, from midnight."
+   },
+   {
+    "id": "B",
+    "text": "A light meal until 2 hours before surgery and clear fluids until 30 minutes before."
+   },
+   {
+    "id": "C",
+    "text": "A light meal until 6 hours before surgery (02:00) and clear fluids such as water or apple juice until 2 hours before (06:00)."
+   },
+   {
+    "id": "D",
+    "text": "Clear fluids only from 18:00 the evening before, then nothing after midnight."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Prolonged fasting from midnight is outdated: it increases thirst, discomfort, dehydration and, in a person with diabetes, the risk of hypoglycaemia, without reducing aspiration risk. Clear fluids until 2 hours before anaesthesia are safe and encouraged.",
+   "B": "Solid food 2 hours before a general anaesthetic leaves residual gastric contents and is unsafe; the minimum interval for a light meal in an adult is 6 hours, and clear fluids stop 2 hours before.",
+   "C": "This matches the ANZCA guideline for adults without delayed gastric emptying: limited solid food up to 6 hours and clear fluids up to 2 hours before anaesthesia. For an 08:00 case that means a light supper is fine and he can drink water until 06:00, which also reduces his hypoglycaemia risk. Metformin is usually withheld on the morning of surgery, and the anaesthetist should confirm the plan.",
+   "D": "Restricting him to clear fluids from the evening before and nothing after midnight is unnecessarily long for both food and fluids and offers no safety benefit."
+  },
+  "learning_point": "For an adult having general anaesthesia, allow a light meal until 6 hours and clear fluids until 2 hours before the scheduled time; prolonged fasting from midnight is unnecessary and harmful.",
+  "setting_note": "Country hospitals with visiting lists sometimes have older fasting signage and no on-site anaesthetist the evening before; the junior doctor should apply the current ANZCA standard and leave a clear note for the anaesthetist, including the diabetes medication plan.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Anaesthetics",
+   "Prescribing and medication safety",
+   "Chronic disease, prevention and advocacy"
+  ],
+  "domains": [
+   "1.7",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "both",
+  "setting": "rural",
+  "presentation": "fasting and fluids before theatre",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZCA PG07(A) Guideline on pre-anaesthesia consultation and patient preparation (2017)",
+    "locator": "Appendix: fasting guidelines for adults",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society, Peri-operative Diabetes Management Guidelines (2012)",
+    "locator": "Oral hypoglycaemic agents on the day of surgery",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: adults - limited solids 6 hours, clear fluids 2 hours (some units allow sips until called); clear fluids exclude milk and particulate juices; metformin is usually omitted on the morning of surgery and resumed when eating; fasting instructions are written relative to scheduled time, with a plan if the list runs late. Misconception: longer fasting is safer. Out of scope: fasting for sedation and for children.",
+  "plan": "Management item testing current fasting standards against the outdated nil-from-midnight habit, with a diabetic patient to highlight the harm of prolonged fasting. Distractors: fasting from midnight, unsafe short solid interval, prolonged fluid restriction. Supported by ANZCA PG07(A)."
+ },
+ {
+  "work_order_id": "r1-239",
+  "item_id": "656df212-e8df-ecee-36a6-5d9b27d8c20f",
+  "version": 1,
+  "stem": "You are the PGY1 on the medical ward of a regional hospital with no ICU, CT in business hours only and retrieval to Adelaide. A 19-year-old woman with type 1 diabetes was admitted overnight with right iliac fossa pain and is booked for laparoscopic appendicectomy by the visiting surgeon. She has been fasting since midnight, received her usual insulin glargine last night, and has been on intravenous sodium chloride 0.9% without glucose. At 10:00 theatre tells you the list is running late and she will not go until about 14:00. The nurse reports her capillary glucose is 3.6 mmol/L; she feels shaky but is alert. The surgical consent is complete and the anaesthetist is in theatre.",
+  "lead_in": "What should you do first?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chart maintenance intravenous fluids containing 5% glucose and recheck the glucose in an hour."
+   },
+   {
+    "id": "B",
+    "text": "Treat the hypoglycaemia now with oral glucose as a clear fluid or intravenous glucose, then inform the anaesthetist and surgeon of the result and the delay."
+   },
+   {
+    "id": "C",
+    "text": "Withhold her next insulin glargine dose and extend the fast until the new theatre time is confirmed."
+   },
+   {
+    "id": "D",
+    "text": "Give her a sandwich now and tell theatre she will need to be rebooked for tomorrow."
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Glucose-containing maintenance fluid is part of the plan for a fasting patient with type 1 diabetes on basal insulin, but it corrects low glucose slowly; a glucose of 3.6 mmol/L with symptoms needs immediate treatment before anything else.",
+   "B": "This is correct. Hypoglycaemia is treated at once: a clear glucose-containing drink (such as 150 mL of apple juice or glucose solution) remains within the clear-fluid rule given theatre is 4 hours away, or intravenous glucose can be used. The anaesthetist and surgeon must then be told so the fluids, insulin and list order can be adjusted; patients with type 1 diabetes should be prioritised early on a list for this reason.",
+   "C": "Withholding basal insulin in type 1 diabetes risks ketoacidosis, and extending the fast without treating the low glucose leaves her symptomatic and at risk of a more severe hypoglycaemic episode.",
+   "D": "A sandwich would push her surgery back at least 6 hours and deferring an appendicectomy a full day for a correctable glucose is not justified; a clear-fluid treatment achieves the same correction without breaching fasting."
+  },
+  "learning_point": "A fasting patient with type 1 diabetes who becomes hypoglycaemic is treated immediately with clear oral glucose fluid or intravenous glucose, and the anaesthetic and surgical teams are informed so fluids, insulin and list order are adjusted; basal insulin is never simply omitted.",
+  "setting_note": "With a single visiting list and no anaesthetic registrar on the ward, the junior doctor must communicate directly with theatre; regional lists often run late, so patients with type 1 diabetes should be placed first and have glucose-containing fluids charted from the start of fasting.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Fluids, electrolytes and renal",
+   "Prescribing and medication safety",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.8",
+   "1.9",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "fasting and fluids before theatre",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "Local protocols differ on whether oral clear glucose fluids or intravenous glucose are preferred for a fasting patient; either is acceptable within the key, which hinges on immediate treatment and communication."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Australian Diabetes Society, Peri-operative Diabetes Management Guidelines (2012)",
+    "locator": "Type 1 diabetes: basal insulin, glucose-containing fluids and management of hypoglycaemia while fasting",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "ANZCA PG07(A) Guideline on pre-anaesthesia consultation and patient preparation (2017)",
+    "locator": "Fasting guidelines: clear fluids until 2 hours before anaesthesia",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: type 1 diabetes patients need continued basal insulin and glucose-containing fluids while fasting; hypoglycaemia (below 4 mmol/L) is treated immediately; clear fluids with glucose are permitted until 2 hours before anaesthesia; theatre must be told of delays and results. Misconceptions: that insulin should be stopped while fasting, or that treating hypoglycaemia necessarily cancels surgery. Out of scope: insulin infusion protocols.",
+  "plan": "Prioritisation item: a fasting type 1 diabetic becomes hypoglycaemic when a rural list runs late. The key is immediate treatment within fasting rules plus communication to theatre. Distractors delay treatment, stop insulin, or breach fasting unnecessarily. Supported by the ADS perioperative guidelines and ANZCA PG07(A)."
+ },
+ {
+  "work_order_id": "r1-240",
+  "item_id": "7b623b24-ecf3-3b41-5684-0711dbf8c179",
+  "version": 1,
+  "stem": "You are a PGY2 on the general ward of a country hospital 90 minutes from the nearest tertiary centre. A 62-year-old man with permanent atrial fibrillation on apixaban 5 mg twice daily (CHA2DS2-VA score 2, no previous stroke, no mechanical valve) has been admitted 2 days before a transurethral resection of the prostate with the visiting urologist, who has asked that his anticoagulation be \"sorted out\" before the morning of surgery. His creatinine is 85 micromol/L, estimated creatinine clearance 80 mL/min, and his platelet count and haemoglobin are normal. The anaesthetist will see him tomorrow. He asks whether he should take tonight's dose.",
+  "lead_in": "What is the most appropriate plan for his apixaban?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Continue apixaban through the perioperative period because the procedure is endoscopic and minor."
+   },
+   {
+    "id": "B",
+    "text": "Stop apixaban 5 days before surgery and bridge with therapeutic enoxaparin until the night before."
+   },
+   {
+    "id": "C",
+    "text": "Stop apixaban 24 hours before surgery."
+   },
+   {
+    "id": "D",
+    "text": "Stop apixaban 48 hours before surgery with no bridging, and confirm the plan with the anaesthetist and urologist."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Transurethral resection of the prostate is a high bleeding risk procedure; continuing an anticoagulant through it risks significant haematuria and clot retention. Direct oral anticoagulants are interrupted before high bleeding risk surgery.",
+   "B": "A 5-day interruption with bridging is the approach for warfarin in high thrombotic risk patients. Bridging is not recommended with direct oral anticoagulants because their short half-life makes it unnecessary and it increases bleeding without reducing stroke.",
+   "C": "A 24-hour interruption is appropriate for low bleeding risk procedures in a patient with normal renal function; for a high bleeding risk procedure such as this it leaves too much residual anticoagulant effect.",
+   "D": "This is correct. For apixaban with normal renal function before a high bleeding risk procedure, the last dose is taken 48 hours before surgery (so tonight's dose is the last), bridging is not used, and the plan is documented and confirmed with the anaesthetist and surgeon, with a documented plan for restarting after surgery once haemostasis is secure."
+  },
+  "learning_point": "Before a high bleeding risk procedure, apixaban is withheld for 48 hours in a patient with normal renal function, without bridging, and the plan is confirmed with the surgical and anaesthetic team and documented.",
+  "setting_note": "With the specialist team arriving only for the operating day, the resident on the ward often makes and documents the anticoagulant plan; a phone call to the anaesthetist or a hospital pharmacist is appropriate when unsure, and Therapeutic Guidelines or the AMH can be consulted on the spot.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Pharmacology",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.8",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "perioperative medication management",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "Some local protocols specify 48 to 72 hours for high bleeding risk procedures; 48 hours with creatinine clearance above 50 mL/min reflects Therapeutic Guidelines and the AMH."
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Cardiovascular",
+    "locator": "Perioperative management of anticoagulant therapy: direct oral anticoagulants",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Apixaban: perioperative interruption",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: DOAC interruption depends on bleeding risk of the procedure and renal function; low bleeding risk 24 hours, high bleeding risk 48 hours for apixaban and rivaroxaban with adequate renal function, longer for dabigatran or impaired renal function; no bridging; restart 48 to 72 hours after high bleeding risk surgery once haemostasis is secure. Misconceptions: bridging DOACs; treating TURP as minor. Out of scope: neuraxial anaesthesia timing specifics.",
+  "plan": "Management item on perioperative DOAC interruption before a high bleeding risk urological procedure. Distractors: continue, warfarin-style bridging, and the low bleeding risk interval. Supported by Therapeutic Guidelines Cardiovascular and the AMH."
+ },
+ {
+  "work_order_id": "r1-241",
+  "item_id": "be2bbefb-8e60-5210-d901-ca69eae3bc69",
+  "version": 1,
+  "stem": "You are a PGY2 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, where the visiting surgeon operated yesterday and has now returned to Adelaide; the physician is available by phone. At 22:00 the nurse asks you to review a 34-year-old woman who is 18 hours post laparoscopic appendicectomy for uncomplicated appendicitis. Her temperature is 38.1 degrees, heart rate 92, blood pressure 118/74, respiratory rate 18 and oxygen saturation 97% on room air. She says she feels \"a bit sore but okay\", has passed urine, has a peripheral cannula in her left hand and received a single dose of cefazolin at induction.",
+  "lead_in": "What is the most appropriate first step?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Examine her, including chest, port sites, cannula site, calves and abdomen, before deciding on investigations."
+   },
+   {
+    "id": "B",
+    "text": "Start intravenous piperacillin-tazobactam now and take blood cultures once the first dose is running."
+   },
+   {
+    "id": "C",
+    "text": "Arrange transfer to Adelaide tonight for CT of the abdomen to exclude an intra-abdominal collection."
+   },
+   {
+    "id": "D",
+    "text": "Give paracetamol and ask the nurse to repeat the observations at the morning ward round."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This is correct. A low-grade fever in the first 24 to 48 hours after surgery is common and most often due to the inflammatory response or atelectasis, but the junior doctor must assess the patient: chest, wound or port sites, cannula, urine, calves and abdomen. Investigations and escalation are then targeted at what is found.",
+   "B": "Empirical broad-spectrum antibiotics for an early, haemodynamically stable low-grade fever without a source are not indicated and would expose her to unnecessary risk; cultures before antibiotics is the correct order if sepsis is suspected.",
+   "C": "Imaging and transfer are not justified on day 1 for a stable patient with a mild fever and no localising signs; an intra-abdominal collection typically presents later and would be considered if she fails to settle or deteriorates.",
+   "D": "Treating the fever without assessing her is unsafe: a fever within 24 hours can occasionally reflect a serious cause (aspiration, early wound infection, cannula-related infection), and a nurse's request for review deserves an examination, documented findings and a plan."
+  },
+  "learning_point": "Early postoperative fever requires bedside assessment of the common sources before investigation or antibiotics; most day-1 fevers are benign, but the decision rests on examination.",
+  "setting_note": "With the surgeon off site, the resident's examination findings are what the surgeon or physician will act on by phone; a clear ISBAR call after assessment, and a low threshold to phone if observations meet escalation criteria, keeps the patient safe without unnecessary transfer.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Deteriorating patient",
+   "Rural and remote"
+  ],
+  "domains": [
+   "1.4",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "postoperative fever",
+  "context": "ward",
+  "cognitive_level": "prioritisation",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Surgical site infections; fever in the postoperative patient (assessment before empirical therapy)",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Royal Australasian College of Surgeons / Talley and O'Connor, Clinical Examination: assessment of the postoperative patient",
+    "locator": "Postoperative fever: sources by timing",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: common causes of postoperative fever by timing - day 0-2 inflammatory response and atelectasis, day 3-5 urinary and respiratory infection, day 5-7 wound infection and collections, any time cannula infection, VTE and drug fever. Assessment precedes investigation; antibiotics only for a suspected source or sepsis. Misconception: every fever needs cultures and antibiotics. Out of scope: management of established collections.",
+  "plan": "Simple prioritisation item on the first step for an early postoperative fever in a stable patient: examine before investigating or treating. Distractors: empirical antibiotics, unnecessary transfer for CT, and treating the number without review. Supported by Therapeutic Guidelines and standard surgical texts."
+ },
+ {
+  "work_order_id": "r1-242",
+  "item_id": "47509896-2ef0-354c-062a-069810ad2061",
+  "version": 1,
+  "stem": "You are the PGY1 on the medical ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, with a visiting surgeon and specialist advice by phone. A 55-year-old woman is 5 days post open abdominal hysterectomy for fibroids. Her indwelling catheter was removed on day 2 and she has been voiding normally. This morning she has a temperature of 38.6 degrees with a rigor overnight, heart rate 105, blood pressure 112/70, respiratory rate 18 and saturations 97% on room air. The lower half of her wound is red, warm and tender with a 3 cm area of purulent discharge; the chest is clear; calves are soft; urinalysis shows trace leucocytes and no nitrites. White cell count is 16 x 10^9/L.",
+  "lead_in": "What is the most likely cause of her fever?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Postoperative atelectasis"
+   },
+   {
+    "id": "B",
+    "text": "Catheter-associated urinary tract infection"
+   },
+   {
+    "id": "C",
+    "text": "Surgical site infection of the wound"
+   },
+   {
+    "id": "D",
+    "text": "Drug fever from the perioperative antibiotic"
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Atelectasis causes low-grade fever in the first 48 hours, not a rigor on day 5 with a clear chest and normal saturations.",
+   "B": "The catheter was removed 3 days ago, she has no urinary symptoms, and trace leucocytes without nitrites is not diagnostic of infection; the wound findings offer a far better explanation.",
+   "C": "This is correct. Fever on days 5 to 7 with localised erythema, warmth, tenderness and purulent discharge from the incision is a surgical site infection. Management is wound swab for culture, opening and draining the infected part of the wound in discussion with the surgeon, and antibiotics guided by Therapeutic Guidelines, with escalation if sepsis criteria are met.",
+   "D": "Drug fever is a diagnosis of exclusion and would not produce localised purulent wound changes; a single perioperative dose of cefazolin is an unlikely cause."
+  },
+  "learning_point": "Fever on day 5 to 7 after surgery with a red, tender, discharging incision indicates a surgical site infection, and the timing of postoperative fever helps rank the likely sources.",
+  "setting_note": "In a regional hospital the surgeon is often not on site; the junior doctor should swab, examine for deeper collection, discuss opening the wound and antibiotic choice with the surgeon by phone, and apply local sepsis escalation criteria if she deteriorates.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Investigations and interpretation",
+   "Obstetrics and women's health"
+  ],
+  "domains": [
+   "1.4",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "postoperative fever",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Surgical site infections: assessment and treatment",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC Preventing and Controlling Infections Standard (NSQHS Standards, 2nd ed)",
+    "locator": "Surveillance of surgical site infection",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: superficial incisional SSI presents around day 5 to 10 with local signs and purulent discharge; treatment is drainage of pus and antibiotics for surrounding cellulitis or systemic features; deep or organ-space infection should be considered if there is a collection or the patient is septic. Misconceptions: anchoring on urinalysis; attributing day 5 fever to atelectasis. Out of scope: specific antibiotic regimens.",
+  "plan": "Interpretation item ranking the causes of a day 5 postoperative fever with clear wound signs and a urinalysis red herring. Distractors are each the wrong timing or lack supporting findings. Supported by Therapeutic Guidelines Antibiotic."
+ },
+ {
+  "work_order_id": "r1-243",
+  "item_id": "eb9c15ef-dc26-696f-f92a-2183b2bc9302",
+  "version": 1,
+  "stem": "You are the PGY1 covering the recovery and surgical ward area overnight at a country hospital 90 minutes from the nearest tertiary centre. A 30-year-old man had a laparotomy yesterday for a perforated appendix with washout; he is on a morphine patient-controlled analgesia pump, has a nasogastric tube that the surgeon removed this evening, and is nil by mouth. The nurse tells you he has a distended, quiet abdomen and has not passed flatus, and asks whether anything can be done to \"get his bowels going\" faster. The visiting surgeon is in Adelaide and has asked you to manage him overnight according to standard postoperative principles.",
+  "lead_in": "Which measure is best supported for reducing the duration of postoperative ileus?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Reinserting the nasogastric tube and keeping it on free drainage until flatus is passed."
+   },
+   {
+    "id": "B",
+    "text": "Opioid-sparing multimodal analgesia with early oral intake and mobilisation."
+   },
+   {
+    "id": "C",
+    "text": "Regular intravenous metoclopramide for 72 hours."
+   },
+   {
+    "id": "D",
+    "text": "Keeping him strictly nil by mouth with intravenous fluids until bowel sounds return."
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "Routine nasogastric decompression after laparotomy does not shorten ileus and increases pulmonary complications; a tube is reinserted only for persistent vomiting or marked distension with aspiration risk.",
+   "B": "This is correct. Enhanced recovery after surgery evidence shows that minimising opioids through multimodal analgesia (regular paracetamol, non-steroidal anti-inflammatory drugs where not contraindicated, regional techniques), early resumption of oral intake and early mobilisation shortens ileus. Chewing gum has modest supporting evidence as well.",
+   "C": "Prokinetics including metoclopramide have not been shown to shorten postoperative ileus and carry extrapyramidal and cardiac adverse effects; routine use is not recommended.",
+   "D": "Withholding oral intake until bowel sounds return prolongs ileus and delays recovery; early feeding as tolerated is safe after most abdominal surgery and is a core enhanced recovery element."
+  },
+  "learning_point": "Postoperative ileus is shortened by opioid-sparing multimodal analgesia, early oral intake and mobilisation, not by routine nasogastric tubes, prokinetics or prolonged fasting.",
+  "setting_note": "In a country hospital the resident may be the only doctor adjusting analgesia overnight; reducing the PCA bolus, adding regular paracetamol and discussing a non-steroidal agent or alternative with the surgeon by phone are within scope, while mobilisation plans are shared with nursing staff and physiotherapy by day.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Pharmacology",
+   "Prescribing and medication safety"
+  ],
+  "domains": [
+   "1.7",
+   "4.2"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "postoperative ileus",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Gustafsson UO et al., Guidelines for perioperative care in elective colorectal surgery: ERAS Society recommendations (World J Surg 2019)",
+    "locator": "Postoperative ileus prevention: analgesia, early feeding, mobilisation, nasogastric intubation",
+    "supports": "key"
+   },
+   {
+    "source": "amh",
+    "title": "Australian Medicines Handbook",
+    "locator": "Metoclopramide: indications and adverse effects",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: ileus is physiological for 2 to 4 days after laparotomy; prolonging factors include opioids, electrolyte disturbance (hypokalaemia, hypomagnesaemia), intra-abdominal sepsis and immobility; evidence-based measures are opioid sparing, early feeding, mobilisation, avoiding fluid overload and correcting electrolytes; alvimopan is not available in Australia. Misconceptions: nasogastric tube and nil by mouth until bowel sounds. Out of scope: mechanical obstruction work-up.",
+  "plan": "Recall item at the upper difficulty range on evidence-based measures for postoperative ileus, pitched at what a PGY1 managing analgesia overnight should know. Distractors are traditional but unsupported practices. Supported by ERAS Society guidelines and the AMH."
+ },
+ {
+  "work_order_id": "r1-244",
+  "item_id": "6531d39f-b532-ceba-1afa-92bede78c8fa",
+  "version": 1,
+  "stem": "You are the junior doctor covering the recovery and surgical ward area of a tertiary hospital in Adelaide. A 70-year-old man, 6 hours post total hip replacement under spinal anaesthesia with sedation, is on a morphine patient-controlled analgesia pump (1 mg bolus, 5 minute lockout) and also received oxycodone 10 mg orally in recovery for breakthrough pain. The nurse asks you to review him: his sedation score is 2 (easy to rouse but unable to stay awake), respiratory rate 8 breaths per minute, oxygen saturation 94% on 2 L nasal oxygen, blood pressure 128/76, heart rate 72 and pain score 2 out of 10. He has mild chronic kidney disease. The anaesthetic registrar is available by phone.",
+  "lead_in": "Which interpretation of these observations is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Pain is well controlled and the observations are acceptable for a patient recovering from anaesthesia."
+   },
+   {
+    "id": "B",
+    "text": "The low respiratory rate reflects residual sedation from the anaesthetic and will resolve if the PCA continues with oxygen."
+   },
+   {
+    "id": "C",
+    "text": "He is likely hypovolaemic from surgical blood loss, which explains his drowsiness."
+   },
+   {
+    "id": "D",
+    "text": "He has opioid-induced ventilatory impairment; the sedation score is the key early sign, and the PCA should be stopped and the anaesthetic registrar called."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "A sedation score of 2 and a respiratory rate of 8 are not acceptable; a satisfactory oxygen saturation on supplemental oxygen can mask hypoventilation and must not reassure.",
+   "B": "Attributing the picture to residual anaesthesia 6 hours after a spinal with light sedation is unsafe; the combination of PCA morphine, additional oxycodone and reduced renal clearance of morphine metabolites points to opioid excess, which will worsen if the PCA continues.",
+   "C": "Hypovolaemia would be expected to produce tachycardia and hypotension, not bradypnoea with a normal blood pressure; drowsiness here is explained by opioids.",
+   "D": "This is correct. Sedation is the most reliable early indicator of opioid-induced ventilatory impairment, preceding respiratory depression and desaturation; a score of 2 with a respiratory rate below 10 requires stopping the PCA, maintaining oxygen and airway support, calling the anaesthetic team or pain service, and preparing naloxone according to the hospital's PCA protocol."
+  },
+  "learning_point": "Sedation score is the earliest and most reliable sign of opioid-induced ventilatory impairment; a score of 2 with a low respiratory rate means stop the opioid, support ventilation and oxygenation, and escalate to the anaesthetic or pain team.",
+  "setting_note": "In a regional hospital without an on-site anaesthetist overnight, the junior doctor should know the local PCA protocol and naloxone dosing, stop the pump, stay with the patient and phone the anaesthetist or retrieval service early.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Prescribing and medication safety",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.9",
+   "1.8",
+   "1.4"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "both",
+  "setting": "any",
+  "presentation": "postoperative pain management",
+  "context": "theatre",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "65-74",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 2,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZCA and FPM, Acute Pain Management: Scientific Evidence (5th ed, 2020)",
+    "locator": "Opioid-induced ventilatory impairment: sedation score as the earliest sign; PCA monitoring",
+    "supports": "key"
+   },
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Pain and Analgesia",
+    "locator": "Opioid adverse effects: sedation and respiratory depression; naloxone",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: sedation score 0-3 scale (2 = easy to rouse, unable to stay awake; 3 = difficult to rouse); respiratory rate alone is a late sign; oxygen can mask hypoventilation; risk factors include age, renal impairment, additional opioids and sedatives; management per local PCA protocol includes stopping the opioid, oxygen, airway support, naloxone in small titrated doses and escalation. Misconceptions: normal saturations are reassuring; low pain score is the goal regardless of sedation. Out of scope: naloxone infusion dosing.",
+  "plan": "Interpretation item on recognising opioid-induced ventilatory impairment from a sedation score and respiratory rate in a PCA patient with added oral opioid and renal impairment. Distractors normalise, misattribute to anaesthesia, or to hypovolaemia. Supported by ANZCA Acute Pain Management: Scientific Evidence and Therapeutic Guidelines."
+ },
+ {
+  "work_order_id": "r1-245",
+  "item_id": "af964a13-2268-6df0-500d-9c64bbee3b12",
+  "version": 1,
+  "stem": "You are a PGY2 covering the general ward of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide. A 50-year-old woman had an open inguinal hernia repair under spinal anaesthesia at 10:00; the visiting anaesthetist and surgeon have left and are available by phone. At 18:00 the nurse reports she has not passed urine since the morning, received 2 litres of intravenous fluid during and after surgery, is uncomfortable with a palpable suprapubic mass, and the bladder scan shows 650 mL. Sensation in her legs has fully returned. She has no history of urinary problems and her creatinine was normal preoperatively. She has tried voiding in the shower without success.",
+  "lead_in": "What is the most appropriate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Catheterise her now, leaving an indwelling catheter with a plan for a trial of void within 24 hours."
+   },
+   {
+    "id": "B",
+    "text": "Give a further litre of intravenous fluid, encourage voiding in a warm shower and rescan in 2 hours."
+   },
+   {
+    "id": "C",
+    "text": "Prescribe tamsulosin tonight and reassess her ability to void at the morning ward round."
+   },
+   {
+    "id": "D",
+    "text": "Withhold catheterisation and ask the surgeon by phone whether it is contraindicated after an inguinal hernia repair."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This is correct. A bladder volume above about 500 to 600 mL with inability to void after 8 hours, discomfort and a palpable bladder meets the threshold for postoperative urinary retention and requires catheterisation to prevent overdistension injury. Whether an in-out catheter or a short-term indwelling catheter is used depends on volume and local practice; with 650 mL and spinal anaesthesia a short indwelling period with a planned trial of void is a reasonable approach, and the surgeon is informed.",
+   "B": "More fluid worsens the distension and does not treat the retention; conservative measures have already failed and delay risks bladder injury and pain.",
+   "C": "Alpha blockers have some evidence for men with prostatic outflow obstruction, not for a woman with retention after spinal anaesthesia and perioperative opioids; they do not relieve an acutely distended bladder tonight.",
+   "D": "There is no contraindication to urethral catheterisation after an inguinal hernia repair, and waiting for a phone call while the bladder is overdistended delays necessary care; the resident should act and then inform the surgeon."
+  },
+  "learning_point": "Postoperative urinary retention with a bladder volume above about 500 to 600 mL and failure to void should be relieved promptly by catheterisation, with a planned trial of void, rather than more fluids or pharmacological measures.",
+  "setting_note": "With no on-site surgical team the resident must make the decision; catheterisation is within a PGY2's scope, the surgeon is informed afterwards, and a failed trial of void may mean discharge with a catheter and GP or community nurse follow-up rather than extended admission.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Procedures and practical skills",
+   "Fluids, electrolytes and renal",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.7",
+   "1.6"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "rural",
+  "presentation": "postoperative urinary retention",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 4,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "minor",
+   "uncertainty_note": "Thresholds (500 versus 600 mL) and the choice between in-out and indwelling catheter vary between units; the key hinges on prompt catheterisation, which is not in doubt."
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "Baldini G et al., Postoperative urinary retention: anesthetic and perioperative considerations (Anesthesiology 2009)",
+    "locator": "Diagnosis by bladder scan and management thresholds",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "ANZCA and FPM, Acute Pain Management: Scientific Evidence (5th ed, 2020)",
+    "locator": "Adverse effects of neuraxial opioids and anaesthesia: urinary retention",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: risk factors include spinal anaesthesia, opioids, anticholinergics, large fluid volumes, hernia and anorectal surgery, age and male sex; bladder scan is the diagnostic tool; catheterise when volume exceeds about 500 to 600 mL or the patient cannot void; overdistension beyond 1 litre risks detrusor injury; plan a trial of void. Misconceptions: more fluid helps; alpha blockers treat acute retention in women. Out of scope: suprapubic catheterisation and urology referral criteria.",
+  "plan": "Management item on postoperative urinary retention after spinal anaesthesia in a rural hospital with no surgeon on site. The key is prompt catheterisation and a trial of void plan. Distractors: more fluid, an alpha blocker, and unnecessary deferral to the surgeon. Supported by perioperative literature and ANZCA acute pain guidance."
+ },
+ {
+  "work_order_id": "r1-246",
+  "item_id": "4a585cff-0e6d-7d48-a328-03cd60e94127",
+  "version": 1,
+  "stem": "You are a PGY2 on the general ward of a metropolitan general hospital with a busy medical ward and a registrar on site overnight. A 58-year-old woman was admitted this evening for a laparoscopic cholecystectomy on tomorrow morning's list after two episodes of biliary colic; she was seen in pre-admission clinic 3 weeks ago and cleared. While clerking her you learn that over the past fortnight she has had central chest tightness walking up the ramp from the car park, settling within minutes of rest, with no pain at rest. She has hypertension and smokes 15 cigarettes a day. Her admission ECG shows new T-wave inversion in V4 to V6 compared with the pre-admission tracing. She is currently pain free with normal observations.",
+  "lead_in": "What is the most appropriate action?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Proceed as planned, because the symptoms are stable and lateral T-wave changes are non-specific."
+   },
+   {
+    "id": "B",
+    "text": "Request an outpatient stress echocardiogram after discharge and allow the surgery to proceed in the morning."
+   },
+   {
+    "id": "C",
+    "text": "Inform the anaesthetist and surgical registrar tonight of the new symptoms and ECG changes, send a troponin, and expect surgery to be deferred for cardiology assessment."
+   },
+   {
+    "id": "D",
+    "text": "Start aspirin and a beta blocker tonight so that the operation can go ahead safely in the morning."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "New exertional angina with new ECG changes represents an active cardiac condition; elective surgery in this setting carries a substantial risk of perioperative myocardial infarction and should not proceed until the condition has been assessed and managed.",
+   "B": "Deferring the cardiac work-up until after the operation puts the risk in the wrong order; the surgery for uncomplicated biliary colic is elective and can wait, whereas the new ischaemic symptoms cannot.",
+   "C": "This is correct. New-onset exertional chest pain with new T-wave inversion is a recognised active cardiac condition that requires evaluation before elective non-cardiac surgery. The resident's job is to communicate the finding promptly to the anaesthetist and surgical team, check a troponin and ensure she is reviewed; the decision to postpone belongs to them, but it is the expected outcome.",
+   "D": "Starting a beta blocker on the night before surgery increases the risk of hypotension, stroke and death and is specifically advised against; aspirin alone does not make surgery safe in untreated active ischaemia."
+  },
+  "learning_point": "New exertional chest pain with new ECG changes found at preoperative assessment is an active cardiac condition: communicate it to the anaesthetic and surgical teams immediately, investigate, and expect elective surgery to be postponed pending cardiology review.",
+  "setting_note": "In a regional hospital the same finding would mean cancelling the case on a visiting list and arranging cardiology advice by telehealth or transfer; the communication step is identical, and the resident should not feel pressure to let a visiting list proceed.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Anaesthetics",
+   "General medicine",
+   "Communication, handover and consent"
+  ],
+  "domains": [
+   "1.4",
+   "1.7",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "B"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "metro",
+  "presentation": "preoperative assessment",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZCA PG07(A) Guideline on pre-anaesthesia consultation and patient preparation (2017)",
+    "locator": "Identification and communication of conditions requiring optimisation before anaesthesia",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "ACC/AHA Guideline for perioperative cardiovascular management for noncardiac surgery (2024)",
+    "locator": "Active cardiac conditions; unstable angina; perioperative beta-blocker initiation",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: active cardiac conditions (unstable or new angina, recent MI, decompensated heart failure, significant arrhythmia, severe valvular disease) warrant deferral of elective surgery; beta blockers should not be started within a day of surgery; troponin and cardiology review precede rescheduling. Misconceptions: that pre-admission clearance is permanent, or that ECG changes without rest pain are benign. Out of scope: functional capacity scoring details.",
+  "plan": "Management item on discovering new ischaemic symptoms and ECG changes on the night before elective surgery. The key is immediate communication and work-up with expected deferral. Distractors: proceed, defer investigation, or start beta blockers the night before. Supported by ANZCA PG07(A) and current perioperative cardiovascular guidelines."
+ },
+ {
+  "work_order_id": "r1-247",
+  "item_id": "02918e15-95b6-5409-5134-adfa7069fb10",
+  "version": 1,
+  "stem": "You are the PGY1 on the general ward of a metropolitan general hospital with a registrar on site overnight. A 29-year-old woman has been admitted the night before an elective laparoscopic cholecystectomy under general anaesthesia. She is otherwise well, takes no regular medications, has no family history of bleeding or anaesthetic problems, does not smoke, and has a normal examination with a body mass index of 24. Her last menstrual period was 5 weeks ago and she says her periods are sometimes irregular. The anaesthetist has asked you to make sure the \"routine preoperative tests\" are done before the morning and the nurse asks which forms to prepare.",
+  "lead_in": "Which preoperative test is indicated for this patient?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Chest X-ray"
+   },
+   {
+    "id": "B",
+    "text": "Urine or serum pregnancy test"
+   },
+   {
+    "id": "C",
+    "text": "Resting 12-lead ECG"
+   },
+   {
+    "id": "D",
+    "text": "Coagulation screen"
+   }
+  ],
+  "key": "B",
+  "explanations": {
+   "A": "A chest X-ray is not indicated before elective surgery in a healthy young non-smoker with a normal examination; routine preoperative chest radiography does not change management and is listed among tests to avoid.",
+   "B": "This is correct. Pregnancy testing should be offered to any woman of childbearing potential before surgery or anaesthesia where pregnancy cannot be excluded, and here a late and irregular period makes it clearly necessary; the result may alter the timing of surgery, drug choices and radiology.",
+   "C": "A resting ECG is not required in an asymptomatic patient under 40 without cardiac risk factors undergoing low or intermediate risk surgery.",
+   "D": "Coagulation tests are not indicated without a personal or family history of bleeding, liver disease or anticoagulant use; routine screening is unhelpful and is a Choosing Wisely target."
+  },
+  "learning_point": "Routine preoperative tests are selected by patient and procedure, not ordered as a bundle; in a healthy young woman the test that matters is a pregnancy test when pregnancy cannot be excluded.",
+  "setting_note": "",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Investigations and interpretation",
+   "Anaesthetics",
+   "Obstetrics and women's health"
+  ],
+  "domains": [
+   "1.5",
+   "1.7"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "preoperative assessment",
+  "context": "ward",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "25-44",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 1,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "other",
+    "title": "ANZCA PG07(A) Guideline on pre-anaesthesia consultation and patient preparation (2017)",
+    "locator": "Preoperative investigations: indications; pregnancy testing",
+    "supports": "key"
+   },
+   {
+    "source": "other",
+    "title": "Choosing Wisely Australia, ANZCA recommendations",
+    "locator": "Avoid routine preoperative investigations in low-risk patients",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: preoperative tests should be targeted; ECG for older patients or cardiac risk factors; chest X-ray only for active cardiorespiratory disease; coagulation only with bleeding history; pregnancy test for women of childbearing potential when pregnancy cannot be excluded, with consent. Misconception: a standard preoperative bundle for everyone. Out of scope: management if the test is positive.",
+  "plan": "Easy recall item on targeted preoperative testing in a healthy young woman with a late period. Distractors are commonly over-ordered tests. Supported by ANZCA PG07(A) and Choosing Wisely Australia."
+ },
+ {
+  "work_order_id": "r1-248",
+  "item_id": "bb541b22-c24d-ff4a-f1dd-727bb1c01af4",
+  "version": 1,
+  "stem": "You are the PGY1 covering the surgical ward of a metropolitan general hospital overnight; the surgical registrar is on site. A 78-year-old man is 2 days post anterior resection for rectal cancer with a pelvic drain that has been producing about 50 mL of serosanguineous fluid per shift. At 03:00 the nurse calls you: over the last 2 hours the drain has filled with 400 mL of frank blood, his heart rate is 112, blood pressure 98/58, respiratory rate 22 and he is pale and anxious. He takes aspirin, which was restarted this morning, and his haemoglobin yesterday was 102 g/L. He has one 20-gauge cannula in situ.",
+  "lead_in": "What is the most appropriate immediate management?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Clamp the drain to tamponade the bleeding and reassess the output in an hour."
+   },
+   {
+    "id": "B",
+    "text": "Remove the drain, as it may be eroding a vessel, and apply a firm dressing over the site."
+   },
+   {
+    "id": "C",
+    "text": "Give a litre of sodium chloride 0.9%, order one unit of red cells and review at the morning ward round."
+   },
+   {
+    "id": "D",
+    "text": "Call the surgical registrar now, insert a second large-bore cannula, send a group and crossmatch and full blood count, and leave the drain unclamped."
+   }
+  ],
+  "key": "D",
+  "explanations": {
+   "A": "Clamping a drain does not stop intra-abdominal bleeding; it hides the volume being lost and allows blood to collect in the pelvis. Drain output is the monitoring tool, not the source of the haemorrhage.",
+   "B": "Removing the drain removes the only indicator of ongoing bleeding and does not address the bleeding vessel; a pressure dressing has no effect on pelvic haemorrhage.",
+   "C": "Fluid and blood are part of the response, but a plan that waits until morning ignores a patient who is tachycardic and hypotensive with active bleeding and needs senior surgical review now, possibly a return to theatre.",
+   "D": "This is correct. Fresh blood in a drain with haemodynamic instability on day 2 is postoperative haemorrhage until proven otherwise. The intern's role is to escalate immediately by calling the surgical registrar and activating the rapid response if criteria are met, secure two large-bore cannulas, send crossmatch and bloods, start fluid resuscitation, withhold the aspirin and keep the drain on free drainage so losses can be measured."
+  },
+  "learning_point": "Fresh blood in a surgical drain with tachycardia and hypotension is postoperative haemorrhage: escalate to the surgical registrar immediately, obtain large-bore access and crossmatch, resuscitate, and never clamp or remove the drain.",
+  "setting_note": "In a regional hospital without a surgeon on site, the same steps apply with the GP or senior doctor on call, early activation of the retrieval service, and use of emergency O-negative blood if the patient deteriorates before crossmatched blood is available.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Deteriorating patient",
+   "Procedures and practical skills",
+   "Oncology"
+  ],
+  "domains": [
+   "1.9",
+   "1.1",
+   "1.8"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "metro",
+  "presentation": "surgical drains and wound care",
+  "context": "ward",
+  "cognitive_level": "management",
+  "patient": {
+   "age_band": "75-84",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "sa_health",
+    "title": "SA Health Recognising and Responding to Clinical Deterioration Policy and Rapid Detection and Response observation chart",
+    "locator": "Escalation criteria and rapid response activation",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC Blood Management Standard and National Patient Blood Management Guidelines Module 1: Critical bleeding",
+    "locator": "Assessment and management of acute haemorrhage",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: a change in drain output from serous to frank blood, especially with tachycardia or hypotension, indicates haemorrhage; management is ABC, two large-bore cannulas, group and crossmatch, resuscitation, holding antiplatelets and anticoagulants, and urgent surgical review; drains are never clamped to manage bleeding. Misconceptions: clamping to tamponade; waiting for the haemoglobin to fall before acting. Out of scope: massive transfusion protocol details.",
+  "plan": "Management item on fresh haemorrhage in a surgical drain with instability overnight. The key is immediate escalation with resuscitation preparation while leaving the drain draining. Distractors: clamp, remove, or fluid and wait. Supported by the SA Health deterioration policy and the National Patient Blood Management Guidelines."
+ },
+ {
+  "work_order_id": "r1-249",
+  "item_id": "6c6cd812-18eb-d7e0-a694-f6f1b0b6cbf3",
+  "version": 1,
+  "stem": "You are a PGY2 on the general ward of a metropolitan general hospital with a registrar on site overnight. A 22-year-old man is 3 days post open appendicectomy for a perforated appendix and has received intravenous amoxicillin-clavulanate since surgery. Overnight he developed severe pain around the wound that the nurse describes as out of proportion to the appearance, needing repeated opioid doses. On examination at 05:00 he is confused and sweaty, temperature 39.4 degrees, heart rate 128, blood pressure 102/60. The wound edges show faint dusky erythema with a thin grey, foul-smelling discharge; the tenderness and induration extend well beyond the erythema, and you feel crepitus in the right flank. Bloods: white cell count 24 x 10^9/L, CRP 310 mg/L, sodium 128 mmol/L, creatinine 150 micromol/L, lactate 4.1 mmol/L.",
+  "lead_in": "Which interpretation of these findings is most accurate?",
+  "options": [
+   {
+    "id": "A",
+    "text": "A necrotising soft tissue infection of the abdominal wall; this is a surgical emergency needing immediate surgical review for debridement alongside sepsis management."
+   },
+   {
+    "id": "B",
+    "text": "A superficial incisional surgical site infection; the wound should be opened, swabbed and treated with oral antibiotics."
+   },
+   {
+    "id": "C",
+    "text": "An intra-abdominal collection; a CT with percutaneous drainage will address the fever and the wound changes are incidental."
+   },
+   {
+    "id": "D",
+    "text": "Cellulitis around the wound; intravenous flucloxacillin and marking the erythema for reassessment in 12 hours are appropriate."
+   }
+  ],
+  "key": "A",
+  "explanations": {
+   "A": "This is correct. Pain out of proportion, rapidly progressive systemic toxicity, dusky skin, grey foul discharge, induration beyond the visible erythema, crepitus, hyponatraemia, marked leucocytosis and raised lactate together indicate necrotising fasciitis. Diagnosis is clinical, imaging must not delay surgery, and management is immediate senior surgical review for urgent debridement, sepsis resuscitation, broad-spectrum antibiotics with clindamycin, and intensive care involvement.",
+   "B": "A superficial site infection does not cause confusion, tachycardia, high lactate or crepitus; treating this as a simple wound infection would delay life-saving debridement by hours.",
+   "C": "A collection is possible after a perforated appendix and may coexist, but it does not explain the wound-centred pain, crepitus and skin changes; arranging CT first would delay surgical exploration, which is the priority.",
+   "D": "Cellulitis is confined to the skin without crepitus, dishwater discharge or pain beyond the erythema, and does not produce this degree of organ dysfunction; a 12-hour reassessment is far too slow."
+  },
+  "learning_point": "Pain out of proportion, rapidly progressive sepsis, dusky skin, grey discharge, crepitus and induration beyond the erythema around a surgical wound indicate necrotising soft tissue infection, a clinical diagnosis requiring immediate surgical debridement rather than imaging or antibiotics alone.",
+  "setting_note": "In a regional hospital the same recognition triggers immediate phone contact with the surgeon and the retrieval service, sepsis management and antibiotics while transfer is arranged, because time to debridement determines survival.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Infection and sepsis",
+   "Deteriorating patient",
+   "Emergency presentations"
+  ],
+  "domains": [
+   "1.4",
+   "1.9",
+   "4.1"
+  ],
+  "clinical_experiences": [
+   "D",
+   "C"
+  ],
+  "pgy_level": "PGY2",
+  "setting": "any",
+  "presentation": "wound infection",
+  "context": "ward",
+  "cognitive_level": "interpretation",
+  "patient": {
+   "age_band": "16-24",
+   "sex": "male",
+   "indigenous": false
+  },
+  "target_difficulty": 5,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Necrotising skin and soft tissue infections: clinical features, urgent surgical debridement and antibiotic therapy",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC Sepsis Clinical Care Standard (2022)",
+    "locator": "Recognition and early management of sepsis",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: necrotising fasciitis features include pain out of proportion, rapid progression, crepitus, bullae, grey dishwater discharge, anaesthesia of overlying skin and systemic toxicity; LRINEC scoring supports but does not replace clinical judgement; management is surgical debridement within hours, broad-spectrum antibiotics (meropenem or piperacillin-tazobactam plus clindamycin per Therapeutic Guidelines), resuscitation and ICU. Misconceptions: waiting for imaging; antibiotics alone. Out of scope: specific operative technique.",
+  "plan": "High-difficulty interpretation item where a postoperative wound infection is actually necrotising fasciitis with subtle skin findings but marked systemic features. Distractors are the more common and more comfortable diagnoses. Supported by Therapeutic Guidelines Antibiotic and the Sepsis Clinical Care Standard."
+ },
+ {
+  "work_order_id": "r1-250",
+  "item_id": "8e9a2140-c66a-b30d-ef2e-afb4ea37be8c",
+  "version": 1,
+  "stem": "You are the PGY1 assisting in the pre-admission clinic and theatre suite of a 30-bed regional hospital in South Australia's Mid North, 2 hours by road from Adelaide, where the visiting surgeon runs a monthly list. A 55-year-old woman, weight 78 kg, with no drug allergies and no history of multi-resistant organisms, is booked for an elective open repair of an umbilical hernia with mesh under general anaesthesia tomorrow. The anaesthetist asks you to chart her surgical antibiotic prophylaxis on the medication chart so the theatre nurse can prepare it, and to note when it should be given.",
+  "lead_in": "What is the correct prophylactic antibiotic regimen?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Cefalexin 500 mg orally with breakfast on the morning of surgery."
+   },
+   {
+    "id": "B",
+    "text": "Cefazolin 2 g intravenously at skin incision, then 8-hourly for 24 hours."
+   },
+   {
+    "id": "C",
+    "text": "Cefazolin 2 g intravenously as a single dose within 60 minutes before skin incision."
+   },
+   {
+    "id": "D",
+    "text": "Cefazolin 2 g intravenously in recovery after wound closure."
+   }
+  ],
+  "key": "C",
+  "explanations": {
+   "A": "Oral cefalexin at breakfast gives unpredictable tissue levels at the time of incision and is not a recommended surgical prophylaxis regimen; intravenous administration timed to incision is required.",
+   "B": "Giving the first dose at incision is slightly late, and continuing for 24 hours offers no additional protection for a clean procedure while increasing adverse effects and resistance; a single dose is standard, with intraoperative redosing only for prolonged surgery or major blood loss.",
+   "C": "This is correct. For a clean procedure with mesh implantation, cefazolin 2 g intravenously (3 g if weight is 120 kg or more) is given as a single dose within 60 minutes before incision, usually at induction, so that tissue concentrations are adequate when the incision is made.",
+   "D": "Prophylaxis given after wound closure is ineffective; the antibiotic must be present in tissues at the time of contamination."
+  },
+  "learning_point": "Surgical antibiotic prophylaxis is a single intravenous dose of cefazolin 2 g given within 60 minutes before skin incision, not an oral dose, a postoperative dose or a prolonged course.",
+  "setting_note": "On a visiting list the junior doctor often charts prophylaxis in advance; writing the dose, route and the instruction to give at induction on the chart, and confirming allergies and weight, prevents a missed or mistimed dose when the anaesthetist is also managing other cases.",
+  "learning_area": "Surgery and perioperative care",
+  "secondary_areas": [
+   "Prescribing and medication safety",
+   "Infection and sepsis",
+   "Anaesthetics"
+  ],
+  "domains": [
+   "1.8",
+   "1.1"
+  ],
+  "clinical_experiences": [
+   "D"
+  ],
+  "pgy_level": "PGY1",
+  "setting": "rural",
+  "presentation": "wound infection",
+  "context": "theatre",
+  "cognitive_level": "recall",
+  "patient": {
+   "age_band": "45-64",
+   "sex": "female",
+   "indigenous": false
+  },
+  "target_difficulty": 3,
+  "calibration_core": true,
+  "jurisdiction": "national",
+  "provenance": "ai",
+  "generation": {
+   "prompt_version": "gen-prevoc-v0.1",
+   "batch_id": "r1-b10",
+   "uncertainty": "none",
+   "uncertainty_note": ""
+  },
+  "references": [
+   {
+    "source": "etg",
+    "title": "Therapeutic Guidelines: Antibiotic",
+    "locator": "Surgical antibiotic prophylaxis: principles (timing, dosing, duration); hernia repair",
+    "supports": "key"
+   },
+   {
+    "source": "acsqhc",
+    "title": "ACSQHC Surgical Antimicrobial Prophylaxis Clinical Care Standard (2020)",
+    "locator": "Timing of administration; single dose; weight-based dosing",
+    "supports": "key"
+   }
+  ],
+  "tutor_context": "Key facts: cefazolin 2 g IV within 60 minutes before incision (3 g if 120 kg or more); redose intraoperatively after about 4 hours or major blood loss; no postoperative continuation for most procedures; vancomycin for MRSA colonisation or severe beta-lactam allergy requires earlier infusion. Misconceptions: oral prophylaxis, prolonged courses. Out of scope: prophylaxis choices for contaminated procedures.",
+  "plan": "Recall item on timing, route and duration of surgical antibiotic prophylaxis for a clean mesh hernia repair on a rural visiting list. Distractors: oral dose, prolonged course, postoperative dose. Supported by Therapeutic Guidelines Antibiotic and the ACSQHC Surgical Antimicrobial Prophylaxis Clinical Care Standard."
+ }
+]

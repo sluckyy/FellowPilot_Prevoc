@@ -1,20 +1,21 @@
-# MCQ Coach — question generation pipeline
+# FellowPilot Prevocational — question generation pipeline
 
-Implements the Question Generation Spec (500-item pilot) for the MCQ Coach project.
+Adapted from MCQ Coach's pipeline for the prevocational track: 250 items in round 1 across 20 junior-doctor learning areas, tagged to the AMC outcome statements.
 
 ## Layout
 
 | Path | What it is |
 | --- | --- |
-| `blueprint.py` | Learning-area allocation, presentation lists, context/cognitive/difficulty shares |
+| `blueprint.py` | Learning-area allocation, presentation lists, outcome-statement and clinical-experience defaults, context/cognitive/difficulty/setting/PGY shares |
 | `make_work_orders.py` | Turns the blueprint into one round of work orders |
-| `prompts/gen-v0.1.md` | Generator prompt (versioned; the version is stored on every item) |
-| `prompts/critic-v0.1.md` | Blind critic prompt (never sees the key) |
-| `run_round.py` | Runs generator and critic through the Claude API on your own key |
+| `prompts/gen-prevoc-v0.1.md` | Generator prompt (versioned; the version is stored on every item). `gen-v0.*` are MCQ Coach's |
+| `prompts/critic-prevoc-v0.1.md` | Blind critic prompt (never sees the key); adds level-fit and cultural-safety checks |
+| `run_round.py` | Runs generator and critic through the Claude API on your own key (round 1 used in-session agents instead) |
 | `gates.py` | Automated quality gates; writes `gated_items.json` and `gate_report.json` |
 | `to_review_docs.py` | Converts gated items into review-site documents |
 | `review-site/review.html` | The clinician review page (published as a claude.ai artifact) |
-| `rounds/roundN/` | Work orders, generated items, critic results, gate outputs, review docs |
+| `release_round.sh` | Gates, review docs, then the beta release as a migration plus the browser-test fixture |
+| `rounds/roundN/` | Work orders (and `batches/` for agents), generated items, critic results, gate outputs, review docs |
 
 ## Running a round
 
@@ -43,5 +44,6 @@ Then load `review_docs.json` into the review site's `items` collection.
 
 ## Round 1
 
-Round 1 was generated in the build session (generator and blind critic run as separate agents)
-using `gen-v0.1` and `critic-v0.1`; later rounds use `run_round.py`.
+Round 1 (250 items) was generated in the build session: ten generator agents, one per `batches/batch-NN.json`,
+then ten blind critic agents, using `gen-prevoc-v0.1` and `critic-prevoc-v0.1`. `release_round.sh 1 008` then
+wrote `db/migrations/008_round1_beta_items.sql`. Later rounds can use `run_round.py` with an API key.

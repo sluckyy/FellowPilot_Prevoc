@@ -1,0 +1,630 @@
+{
+ "01": [
+  {
+   "work_order_id": "r1-001",
+   "key_len": 180,
+   "max_other": 114,
+   "critic_note": "B is roughly twice the length of the other options and the only one with a multi-step, nuanced plan; test-wise candidates will pick it without clinical knowledge."
+  },
+  {
+   "work_order_id": "r1-002",
+   "key_len": 155,
+   "max_other": 83,
+   "critic_note": "C is the longest and only compound option (give injection and notify register); others are single short tasks."
+  },
+  {
+   "work_order_id": "r1-003",
+   "key_len": 183,
+   "max_other": 115,
+   "critic_note": "D is by far the longest and the only option containing a management plan; the others are short and categorical."
+  },
+  {
+   "work_order_id": "r1-004",
+   "key_len": 210,
+   "max_other": 114,
+   "critic_note": "A is nearly twice the length of any other option and is the only hedged, nuanced statement; the three distractors are blunt assertions."
+  },
+  {
+   "work_order_id": "r1-005",
+   "key_len": 190,
+   "max_other": 98,
+   "critic_note": "C is far longer and the only option framed as a nuanced process; distractors are short and absolute."
+  },
+  {
+   "work_order_id": "r1-006",
+   "key_len": 162,
+   "max_other": 123,
+   "critic_note": "B is the longest option and the only one phrased positively with a care-planning clause; A, C and D are all restrictive statements."
+  },
+  {
+   "work_order_id": "r1-008",
+   "key_len": 147,
+   "max_other": 118,
+   "critic_note": "A and B are of similar length and structure; no obvious cue."
+  },
+  {
+   "work_order_id": "r1-009",
+   "key_len": 231,
+   "max_other": 93,
+   "critic_note": "C is more than twice the length of other options and the only one naming the ALO who was flagged in the stem."
+  },
+  {
+   "work_order_id": "r1-010",
+   "key_len": 143,
+   "max_other": 86,
+   "critic_note": "B is the only compound option and includes the word 'accredited'; distractors are short single actions."
+  },
+  {
+   "work_order_id": "r1-011",
+   "key_len": 127,
+   "max_other": 121,
+   "critic_note": "D is the longest option and the phrase 'setting aside the labels' signals the intended lesson; the three distractors all share the labelled-patient framing."
+  },
+  {
+   "work_order_id": "r1-012",
+   "key_len": 204,
+   "max_other": 128,
+   "critic_note": "A is more than twice the length of the other options and the only one with an explicit 'while you remain responsible' clause."
+  },
+  {
+   "work_order_id": "r1-013",
+   "key_len": 162,
+   "max_other": 98,
+   "critic_note": "C is the longest and the only positive recommendation; the three distractors are all 'reassure/advise against' statements."
+  },
+  {
+   "work_order_id": "r1-014",
+   "key_len": 161,
+   "max_other": 128,
+   "critic_note": "Options are of broadly comparable length and all make a definite claim."
+  },
+  {
+   "work_order_id": "r1-015",
+   "key_len": 193,
+   "max_other": 113,
+   "critic_note": "D is three times longer than the other options and the only one describing a process; test-wise selection is trivial."
+  },
+  {
+   "work_order_id": "r1-016",
+   "key_len": 198,
+   "max_other": 87,
+   "critic_note": "A is twice the length of other options and the only one mentioning her Aboriginal health service, echoing the stem."
+  },
+  {
+   "work_order_id": "r1-017",
+   "key_len": 139,
+   "max_other": 108,
+   "critic_note": "A and B are of similar length and both make a definite interpretation; no strong cue."
+  },
+  {
+   "work_order_id": "r1-018",
+   "key_len": 174,
+   "max_other": 110,
+   "critic_note": "C is the longest, most specific option; A, B and D are each a single questionable claim."
+  },
+  {
+   "work_order_id": "r1-019",
+   "key_len": 219,
+   "max_other": 95,
+   "critic_note": "D is roughly three times longer than other options and lists five actions; selection by length alone."
+  },
+  {
+   "work_order_id": "r1-020",
+   "key_len": 211,
+   "max_other": 116,
+   "critic_note": "A is the longest and most detailed option; C is a reasonable near-miss but B and D are easily excluded."
+  },
+  {
+   "work_order_id": "r1-022",
+   "key_len": 246,
+   "max_other": 106,
+   "critic_note": "C is three times the length of the other options and the only one describing a multi-step process."
+  },
+  {
+   "work_order_id": "r1-023",
+   "key_len": 188,
+   "max_other": 104,
+   "critic_note": "D is far longer than other options and includes an illustrative example; cueing by length and nuance."
+  },
+  {
+   "work_order_id": "r1-024",
+   "key_len": 185,
+   "max_other": 121,
+   "critic_note": "A is the longest and the only option listing the Framework's elements; the three distractors are single misconceptions."
+  },
+  {
+   "work_order_id": "r1-025",
+   "key_len": 197,
+   "max_other": 73,
+   "critic_note": "B is four times the length of the other options and restates the stem's facts verbatim; the item can be answered without any knowledge of discharge summary standards."
+  }
+ ],
+ "02": [
+  {
+   "work_order_id": "r1-029",
+   "key_len": 159,
+   "max_other": 115,
+   "critic_note": "A is the longest option and echoes the stem ('as she requested'), a modest cue, but B-D are not implausibly short."
+  },
+  {
+   "work_order_id": "r1-030",
+   "key_len": 165,
+   "max_other": 112,
+   "critic_note": "D is the longest and most process-oriented option, a mild length cue, but A and B are of reasonable length and plausibility."
+  },
+  {
+   "work_order_id": "r1-031",
+   "key_len": 224,
+   "max_other": 172,
+   "critic_note": "All four are quoted openings of similar length; the structure of B is the content being tested, not a format artefact."
+  },
+  {
+   "work_order_id": "r1-032",
+   "key_len": 187,
+   "max_other": 125,
+   "critic_note": "C is markedly longer than the other options and lists multiple good-practice steps, which signals it as the key to a test-wise candidate."
+  },
+  {
+   "work_order_id": "r1-033",
+   "key_len": 147,
+   "max_other": 131,
+   "critic_note": "A is the longest and most technically phrased option; B-D are each framed as obvious errors, so the key stands out."
+  },
+  {
+   "work_order_id": "r1-036",
+   "key_len": 146,
+   "max_other": 76,
+   "critic_note": "C is the longest option and names the reversible cause, a mild cue, but the other three are plausible ALS-sounding actions."
+  },
+  {
+   "work_order_id": "r1-038",
+   "key_len": 143,
+   "max_other": 118,
+   "critic_note": "D is the longest option but A is also detailed and tempting; the cue is modest."
+  },
+  {
+   "work_order_id": "r1-039",
+   "key_len": 168,
+   "max_other": 115,
+   "critic_note": "B is the longest option, a mild cue; C and D are of reasonable length."
+  },
+  {
+   "work_order_id": "r1-040",
+   "key_len": 135,
+   "max_other": 108,
+   "critic_note": "Options are balanced in length; A is complete but not conspicuously longer."
+  },
+  {
+   "work_order_id": "r1-041",
+   "key_len": 129,
+   "max_other": 112,
+   "critic_note": "Options are balanced; A and C are of similar length."
+  },
+  {
+   "work_order_id": "r1-046",
+   "key_len": 147,
+   "max_other": 108,
+   "critic_note": "D is the longest option and includes 'requires immediate escalation', a modest cue, but A and C also carry management statements."
+  },
+  {
+   "work_order_id": "r1-047",
+   "key_len": 140,
+   "max_other": 100,
+   "critic_note": "B is the longest option, a mild cue, but the others are plausible actions of reasonable length."
+  },
+  {
+   "work_order_id": "r1-048",
+   "key_len": 136,
+   "max_other": 96,
+   "critic_note": "A is the most comprehensive option and lists three actions, a modest cue, but B-D are similar in length."
+  },
+  {
+   "work_order_id": "r1-050",
+   "key_len": 202,
+   "max_other": 110,
+   "critic_note": "D is roughly three times the length of the other options and reads as a complete care plan, which strongly cues the key."
+  }
+ ],
+ "03": [
+  {
+   "work_order_id": "r1-056",
+   "key_len": 55,
+   "max_other": 46,
+   "critic_note": "Options are parallel; the scenario describes a 24-hour shift, which points to C only through knowledge, not wording."
+  },
+  {
+   "work_order_id": "r1-058",
+   "key_len": 74,
+   "max_other": 53,
+   "critic_note": "No cue; A is the only option involving a patient review but that is the construct being tested."
+  },
+  {
+   "work_order_id": "r1-059",
+   "key_len": 110,
+   "max_other": 98,
+   "critic_note": "B is the only option framed as a system or safety issue and is the longest; the other three are deliberately dismissive, so the item is answerable without reading the stem."
+  },
+  {
+   "work_order_id": "r1-060",
+   "key_len": 74,
+   "max_other": 57,
+   "critic_note": "C is the longest option and restates the stem's alarming findings ('new confusion, tachypnoea and hypotension'), while the other options restate benign details; a test-wise candidate answers without clinical reasoning."
+  },
+  {
+   "work_order_id": "r1-064",
+   "key_len": 139,
+   "max_other": 107,
+   "critic_note": "C is noticeably longer than the other options and pre-empts the obvious objections ('despite the normal X-ray and neurology'), which reads as the examiner's explanation and cues the key."
+  },
+  {
+   "work_order_id": "r1-066",
+   "key_len": 86,
+   "max_other": 65,
+   "critic_note": "Options are parallel; A is not conspicuously longer."
+  },
+  {
+   "work_order_id": "r1-067",
+   "key_len": 112,
+   "max_other": 92,
+   "critic_note": "No cue; C is longest but A and B are also multi-clause."
+  },
+  {
+   "work_order_id": "r1-068",
+   "key_len": 104,
+   "max_other": 90,
+   "critic_note": "D is the longest option but A is also long; no obvious cue."
+  },
+  {
+   "work_order_id": "r1-070",
+   "key_len": 50,
+   "max_other": 35,
+   "critic_note": "The stem notes pulses and perfusion are preserved, which eliminates A and B clinically rather than lexically; D is the longest option but only marginally."
+  },
+  {
+   "work_order_id": "r1-073",
+   "key_len": 106,
+   "max_other": 80,
+   "critic_note": "No cue."
+  }
+ ],
+ "06": [
+  {
+   "work_order_id": "r1-126",
+   "key_len": 143,
+   "max_other": 111,
+   "critic_note": "B is the longest option and the only one that bundles several actions (NBM, fluids, analgesia, antibiotics, two phone calls), which marks it as the 'do everything' answer."
+  },
+  {
+   "work_order_id": "r1-130",
+   "key_len": 119,
+   "max_other": 100,
+   "critic_note": "B is slightly longer but the distractors are plausible-sounding actions rather than throwaways; not materially cueing."
+  },
+  {
+   "work_order_id": "r1-133",
+   "key_len": 135,
+   "max_other": 110,
+   "critic_note": "C is longest but A is also long; distractors read as serious alternatives."
+  },
+  {
+   "work_order_id": "r1-134",
+   "key_len": 89,
+   "max_other": 76,
+   "critic_note": "Options are balanced; D is only marginally longer."
+  },
+  {
+   "work_order_id": "r1-135",
+   "key_len": 98,
+   "max_other": 76,
+   "critic_note": "No length or wording cue; B is of similar length to the antibiotic options."
+  },
+  {
+   "work_order_id": "r1-137",
+   "key_len": 121,
+   "max_other": 75,
+   "critic_note": "C is the longest and the only compound, measured option; A, B and D read as obviously punitive or dangerous."
+  },
+  {
+   "work_order_id": "r1-138",
+   "key_len": 113,
+   "max_other": 110,
+   "critic_note": "B is the longest, multi-part option and the only one that includes escalation, which is a recognisable 'correct answer' pattern."
+  },
+  {
+   "work_order_id": "r1-140",
+   "key_len": 171,
+   "max_other": 136,
+   "critic_note": "A is by far the longest option and reads as the balanced, process-rich answer; B and C contain overtly wrong legal assertions that signal they are wrong."
+  },
+  {
+   "work_order_id": "r1-141",
+   "key_len": 145,
+   "max_other": 109,
+   "critic_note": "C is the longest option and the only one naming physiological deterioration; the psychiatric options are internally consistent with the nurse's red herring but read as a set of three wrong answers."
+  },
+  {
+   "work_order_id": "r1-143",
+   "key_len": 156,
+   "max_other": 93,
+   "critic_note": "D is far longer than the other options and the only one that names a lawful process; the other three are clearly inappropriate."
+  },
+  {
+   "work_order_id": "r1-144",
+   "key_len": 126,
+   "max_other": 96,
+   "critic_note": "A is somewhat longer and includes the specific time, but B is of comparable length; the time detail is the tested knowledge."
+  },
+  {
+   "work_order_id": "r1-145",
+   "key_len": 114,
+   "max_other": 86,
+   "critic_note": "C is slightly longer but all options are single-sentence plans; no strong cue."
+  },
+  {
+   "work_order_id": "r1-148",
+   "key_len": 28,
+   "max_other": 24,
+   "critic_note": "Options are parallel; no cue beyond the obviousness of the content."
+  }
+ ],
+ "07": [
+  {
+   "work_order_id": "r1-158",
+   "key_len": 111,
+   "max_other": 100,
+   "critic_note": "D is the longest, most comprehensive, three-part option and is the only one phrased as a balanced process; test-wise candidates will select it on form alone."
+  },
+  {
+   "work_order_id": "r1-161",
+   "key_len": 109,
+   "max_other": 113,
+   "critic_note": "D is the longest option and the only one listing three positive, guideline-flavoured actions; the stem also enumerates exactly the items D addresses (no analgesia, no urine, hypoxia, daughter), so the pattern-match is strong."
+  },
+  {
+   "work_order_id": "r1-168",
+   "key_len": 133,
+   "max_other": 142,
+   "critic_note": "A names 'suspected cauda equina syndrome' in the option, effectively giving the diagnosis to candidates who recognise the term; it is the only option containing a diagnosis."
+  },
+  {
+   "work_order_id": "r1-173",
+   "key_len": 127,
+   "max_other": 111,
+   "critic_note": "D is noticeably longer and is the only 'reassuring' multi-component option, which test-wise candidates will select."
+  }
+ ],
+ "09": [
+  {
+   "work_order_id": "r1-202",
+   "key_len": 145,
+   "max_other": 122,
+   "critic_note": "A is the longest option and bundles three actions, but C and D are also of moderate length and the stem does not repeat A's wording. Noted for editor."
+  },
+  {
+   "work_order_id": "r1-203",
+   "key_len": 162,
+   "max_other": 104,
+   "critic_note": "B is somewhat longer and includes a sensible safety step (haematology advice, document last dose), but the length difference is moderate and C contains an equally confident-sounding rationale."
+  },
+  {
+   "work_order_id": "r1-204",
+   "key_len": 124,
+   "max_other": 85,
+   "critic_note": "D is the longest option and restates the key stem facts (full home doses, reduced oral intake), so a test-wise candidate can pick it without reasoning."
+  },
+  {
+   "work_order_id": "r1-205",
+   "key_len": 133,
+   "max_other": 108,
+   "critic_note": "Both A and B carry a 'because' justification; option lengths are similar."
+  },
+  {
+   "work_order_id": "r1-206",
+   "key_len": 224,
+   "max_other": 110,
+   "critic_note": "D is roughly three times the length of the other options and is the only one listing multiple sources and documentation; strongly cued."
+  },
+  {
+   "work_order_id": "r1-207",
+   "key_len": 217,
+   "max_other": 104,
+   "critic_note": "A is by far the longest option and the only one that includes a plan and handover, cueing the answer."
+  },
+  {
+   "work_order_id": "r1-208",
+   "key_len": 120,
+   "max_other": 101,
+   "critic_note": "Option lengths are comparable; C is the obvious 'safe' option but that is the construct being tested."
+  },
+  {
+   "work_order_id": "r1-209",
+   "key_len": 170,
+   "max_other": 91,
+   "critic_note": "B is more than twice the length of the other options and bundles all the safe actions."
+  },
+  {
+   "work_order_id": "r1-211",
+   "key_len": 187,
+   "max_other": 116,
+   "critic_note": "A is the longest option by a wide margin and lists several actions; C and D are short."
+  },
+  {
+   "work_order_id": "r1-212",
+   "key_len": 174,
+   "max_other": 101,
+   "critic_note": "C is the longest and most comprehensive option; the others are one-liners."
+  },
+  {
+   "work_order_id": "r1-215",
+   "key_len": 201,
+   "max_other": 94,
+   "critic_note": "A is much longer than the other options and the only one with an escalation pathway."
+  },
+  {
+   "work_order_id": "r1-216",
+   "key_len": 163,
+   "max_other": 91,
+   "critic_note": "C is the longest option and bundles three actions, making it the comprehensive choice."
+  },
+  {
+   "work_order_id": "r1-219",
+   "key_len": 124,
+   "max_other": 88,
+   "critic_note": "A is modestly longer but the length difference is not striking."
+  },
+  {
+   "work_order_id": "r1-220",
+   "key_len": 136,
+   "max_other": 89,
+   "critic_note": "C is the longest option and embeds the teaching point ('a palpable pulse ... do not exclude the diagnosis'), which reads as the examiner's voice."
+  },
+  {
+   "work_order_id": "r1-221",
+   "key_len": 233,
+   "max_other": 153,
+   "critic_note": "B is far longer than the others and bundles all correct steps."
+  },
+  {
+   "work_order_id": "r1-223",
+   "key_len": 199,
+   "max_other": 129,
+   "critic_note": "A is the longest and most detailed option; D contains an obvious error (after antibiotics)."
+  },
+  {
+   "work_order_id": "r1-224",
+   "key_len": 246,
+   "max_other": 127,
+   "critic_note": "C is markedly longer and the only option with a process-based pathway; distractors are short and obviously wrong."
+  },
+  {
+   "work_order_id": "r1-225",
+   "key_len": 286,
+   "max_other": 102,
+   "critic_note": "D is roughly three times longer than the other options and contains the legal rationale; strongly cued."
+  }
+ ],
+ "10": [
+  {
+   "work_order_id": "r1-226",
+   "key_len": 158,
+   "max_other": 110,
+   "critic_note": "B is the longest and most procedural option, a mild length cue; A's 'since death was expected' reads as a justification, which some candidates will read as a trap."
+  },
+  {
+   "work_order_id": "r1-227",
+   "key_len": 203,
+   "max_other": 112,
+   "critic_note": "C is roughly twice the length of every other option and bundles three correct facts; the longest, most hedged option is the answer."
+  },
+  {
+   "work_order_id": "r1-228",
+   "key_len": 188,
+   "max_other": 115,
+   "critic_note": "D is the longest option, is the only one with warmth ('thank her warmly') and includes a hedged 'if local policy allows' clause, all pointing to it."
+  },
+  {
+   "work_order_id": "r1-230",
+   "key_len": 208,
+   "max_other": 108,
+   "critic_note": "C is by far the longest option and contains the explanation; the other three are short, absolute statements."
+  },
+  {
+   "work_order_id": "r1-233",
+   "key_len": 173,
+   "max_other": 147,
+   "critic_note": "A is the longest and first option, a mild cue, but B is almost as long."
+  },
+  {
+   "work_order_id": "r1-234",
+   "key_len": 183,
+   "max_other": 102,
+   "critic_note": "C is more than twice the length of the others and includes its own explanation of the urinary finding; the distractors are short, absolute statements."
+  },
+  {
+   "work_order_id": "r1-235",
+   "key_len": 118,
+   "max_other": 81,
+   "critic_note": "All options are short; B is the only one phrased as communication, which is a mild pattern cue but not a wording cue."
+  },
+  {
+   "work_order_id": "r1-237",
+   "key_len": 236,
+   "max_other": 110,
+   "critic_note": "A is more than double the length of the other options and is the only one that references the interpreter, ALO and aunty from the stem; it is also placed first."
+  },
+  {
+   "work_order_id": "r1-238",
+   "key_len": 125,
+   "max_other": 83,
+   "critic_note": "C is the longest and gives clock times, a mild cue, but B uses the same structure."
+  },
+  {
+   "work_order_id": "r1-239",
+   "key_len": 156,
+   "max_other": 100,
+   "critic_note": "B is the longest, but A and C are similarly structured."
+  },
+  {
+   "work_order_id": "r1-240",
+   "key_len": 113,
+   "max_other": 98,
+   "critic_note": "D carries the 'confirm with the anaesthetist and urologist' tail that none of the others have, a safety-wording cue; C is conspicuously short."
+  },
+  {
+   "work_order_id": "r1-244",
+   "key_len": 155,
+   "max_other": 123,
+   "critic_note": "D is the longest option and embeds management ('PCA stopped, registrar called') in an interpretation question, which signals the key."
+  },
+  {
+   "work_order_id": "r1-246",
+   "key_len": 169,
+   "max_other": 108,
+   "critic_note": "C is the longest option and the only one with three actions; A's 'non-specific' and B's 'allow the surgery to proceed' both read as traps."
+  },
+  {
+   "work_order_id": "r1-247",
+   "key_len": 29,
+   "max_other": 19,
+   "critic_note": "Single-word options; the LMP detail in the stem is a necessary clue, not a wording cue."
+  },
+  {
+   "work_order_id": "r1-248",
+   "key_len": 149,
+   "max_other": 103,
+   "critic_note": "D is the longest option and the only one containing escalation; the compound 'do all the right things' option is the key."
+  },
+  {
+   "work_order_id": "r1-249",
+   "key_len": 166,
+   "max_other": 126,
+   "critic_note": "A is first and slightly longest, but all options are compound interpretation-plus-management statements."
+  },
+  {
+   "work_order_id": "r1-250",
+   "key_len": 84,
+   "max_other": 73,
+   "critic_note": "Balanced lengths; no cue."
+  }
+ ],
+ "05": [
+  {
+   "work_order_id": "r1-110",
+   "key_len": 121,
+   "max_other": 133,
+   "critic_note": "Lengths are now balanced, but D is the only option that names 'necrotising infection', which hands the candidate the recognition step the stem is designed to test."
+  },
+  {
+   "work_order_id": "r1-111",
+   "key_len": 120,
+   "max_other": 107,
+   "critic_note": "Lengths are now balanced, but B is the only option that names measles ('measles-immune staff'), confirming the diagnosis the stem expects the candidate to make."
+  },
+  {
+   "work_order_id": "r1-121",
+   "key_len": 147,
+   "max_other": 113,
+   "critic_note": "B remains the longest option and the only one with multiple steps, but the gap is now modest and A and D are also phrased as full plans."
+  }
+ ]
+}

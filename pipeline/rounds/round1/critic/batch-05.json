@@ -4,103 +4,103 @@
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "B",
   "blind_confidence": "high",
-  "blind_reasoning": "A person with type 1 diabetes must never have basal insulin withheld, even when not eating, because this precipitates DKA. He is not eating so mealtime aspart is withheld, with glucose and ketone monitoring and correction doses as needed.",
+  "blind_reasoning": "A person with type 1 diabetes must never have basal insulin withheld, even when not eating, because this precipitates DKA. He is not eating so mealtime aspart is withheld, with glucose and ketone monitoring and correction doses as per the sick-day plan.",
   "second_defensible": {"flag": false, "option": null, "why": "A, C and D all withhold or delay glargine, which is unsafe in type 1 diabetes; none can be argued as best."},
   "cueing": {"flag": false, "why": "Options are of similar length and structure; the correct option is not signposted by wording."},
   "distractor_plausibility": {"A": 2, "B": 3, "C": 2, "D": 1},
-  "accuracy": {"flag": false, "why": "Consistent with sick-day management guidance for type 1 diabetes (continue basal, withhold prandial when not eating, monitor ketones). Ketones 0.4 mmol/L and glucose 9.8 mmol/L are realistic and do not require DKA treatment."},
+  "accuracy": {"flag": false, "why": "Consistent with sick-day management guidance for type 1 diabetes (continue basal, withhold prandial when not eating, monitor ketones). Ketones 0.4 mmol/L and glucose 9.8 mmol/L do not require DKA treatment."},
   "level_fit": {"flag": false, "why": "A PGY1 on evening cover is routinely asked this by nursing staff and is expected to know it."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Stem provides the needed data (glucose, ketones, oral intake, observations)."},
   "overall": "pass",
-  "notes_for_reviewer": "Sound core teaching point. Option B could mention that supplemental/correction aspart remains available per the sick-day plan, but this does not change the answer."
+  "notes_for_reviewer": "Sound core teaching point. Option B is a little vague on monitoring frequency; the explanation should specify 2-hourly glucose and ketone checks and that supplemental/correction aspart remains available."
  },
  {
   "item_id": "c7d757d7-0d37-8636-3ecd-e79ceef7f770",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "C",
   "blind_confidence": "high",
-  "blind_reasoning": "A QTc of 520 ms is markedly prolonged and, with unheralded syncope, raises long QT syndrome and risk of torsades, mandating escalation and cardiology input. Sinus bradycardia at 56, incomplete RBBB and respiratory sinus arrhythmia are normal variants in a young adult.",
+  "blind_reasoning": "A QTc of 520 ms is markedly prolonged and, with unheralded syncope while seated, raises long QT syndrome and risk of torsades, mandating escalation and cardiology input. Sinus bradycardia at 56, incomplete RBBB in V1 and respiratory sinus arrhythmia are normal variants in a young adult.",
   "second_defensible": {"flag": false, "option": null, "why": "No other option is a recognised high-risk ECG feature in syncope."},
   "cueing": {"flag": false, "why": "Options are short and parallel; no length or wording cue."},
   "distractor_plausibility": {"A": 2, "B": 2, "C": 3, "D": 1},
   "accuracy": {"flag": false, "why": "Consistent with syncope risk-stratification guidance (QTc >500 ms is a high-risk feature)."},
-  "level_fit": {"flag": false, "why": "Recognising a prolonged QTc on an ECG is core PGY1 interpretation."},
+  "level_fit": {"flag": false, "why": "Recognising a prolonged QTc is core PGY1 ECG interpretation."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Straightforward recall item. Consider whether 'collapse without warning while seated' adds a useful clinical cue (it does, as exertional/seated syncope is itself a red flag)."
+  "notes_for_reviewer": "Straightforward recall item. The explanation should note that syncope while seated without prodrome is itself a red flag and that the GP on call should be involved in the discharge decision regardless."
  },
  {
   "item_id": "5c0972b1-5822-f194-079b-38caf1509089",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "D",
   "blind_confidence": "high",
-  "blind_reasoning": "Sore throat, mouth ulcers and fever within weeks of starting carbimazole is agranulocytosis until proven otherwise. The drug must be withheld, an urgent FBC with differential sent and the physician contacted; she should not be sent home on oral antibiotics.",
-  "second_defensible": {"flag": false, "option": null, "why": "A and C continue carbimazole without a blood count, which is unsafe; B swaps to propylthiouracil, which carries the same cross-reactive agranulocytosis risk and is not an acute step."},
-  "cueing": {"flag": false, "why": "Option lengths are comparable; the correct option is not uniquely detailed."},
+  "blind_reasoning": "Sore throat, mouth ulcers and fever within weeks of starting carbimazole is agranulocytosis until proven otherwise. The drug must be withheld, an urgent FBC sent and the physician contacted; she must not be sent home on oral antibiotics or reassurance.",
+  "second_defensible": {"flag": false, "option": null, "why": "A and C continue carbimazole without a blood count, which is unsafe; B swaps to propylthiouracil, which carries cross-reactive agranulocytosis risk and is not an acute step."},
+  "cueing": {"flag": false, "why": "Option lengths are comparable and the correct option is not uniquely detailed."},
   "distractor_plausibility": {"A": 2, "B": 1, "C": 2, "D": 3},
   "accuracy": {"flag": false, "why": "Matches standard advice on antithyroid drug agranulocytosis. Observations are consistent with early sepsis in a possibly neutropenic patient."},
   "level_fit": {"flag": false, "why": "Withholding the drug, sending an FBC and escalating are exactly the PGY1 actions expected."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear; the setting detail about CT and retrieval is surplus but not misleading."},
   "overall": "pass",
-  "notes_for_reviewer": "Good safety item. If the FBC shows neutropenia she will need the sepsis pathway and empirical IV antibiotics; the explanation should state this so learners do not read D as 'wait for the count before treating'."
+  "notes_for_reviewer": "Good safety item. The explanation should state that if neutropenic she needs the sepsis pathway and empirical IV antibiotics immediately, so learners do not read D as 'wait for the count before treating'."
  },
  {
   "item_id": "65bea202-5044-0b2d-397f-8974e8371486",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "A",
   "blind_confidence": "high",
-  "blind_reasoning": "Suppressed TSH with markedly elevated free T4 and free T3 is overt primary hyperthyroidism; the smooth diffuse goitre suggests Graves disease. Subclinical disease would have normal free hormones and central hyperthyroidism would have an inappropriately normal or raised TSH.",
-  "second_defensible": {"flag": false, "option": null, "why": "The pattern is unambiguous."},
-  "cueing": {"flag": false, "why": "Options are single-phrase diagnoses with no cue."},
+  "blind_reasoning": "Suppressed TSH with markedly elevated free T4 and free T3 is overt primary hyperthyroidism; the smooth diffuse goitre suggests Graves disease. Subclinical disease would have normal free hormones and central hyperthyroidism an inappropriately normal or raised TSH.",
+  "second_defensible": {"flag": false, "option": null, "why": "The biochemical pattern is unambiguous."},
+  "cueing": {"flag": false, "why": "Single-phrase diagnoses with no cue."},
   "distractor_plausibility": {"A": 3, "B": 1, "C": 2, "D": 2},
   "accuracy": {"flag": false, "why": "Reference ranges and clinical features are realistic."},
   "level_fit": {"flag": false, "why": "Basic thyroid function interpretation is core PGY1 knowledge."},
   "cultural_safety": {"flag": false, "why": "The patient is portrayed respectfully, the Aboriginal Liaison Officer is offered and accepted, and there is no stereotype; his Aboriginality is incidental to the question, which is appropriate."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Easy item as intended (difficulty 1). Clinical detail is richer than the lead-in needs; a follow-up item on management or referral could reuse the stem."
+  "notes_for_reviewer": "Easy item as intended (difficulty 1). The clinical detail is richer than the lead-in needs; a companion item on management or follow-up planning with the ALO could reuse the stem."
  },
  {
   "item_id": "f7e700ce-e6e0-3aac-a6bd-20706381b2db",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "C",
   "blind_confidence": "high",
-  "blind_reasoning": "Melaena with tachycardia and hypotension on apixaban is a haemodynamically significant upper GI bleed. Immediate management is two large-bore IV access, bloods with crossmatch, fluid resuscitation, withholding the anticoagulant and early escalation to the GP and MedSTAR for transfer to an endoscopy-capable centre.",
-  "second_defensible": {"flag": false, "option": null, "why": "A under-treats a shocked patient; B (NG lavage) is not recommended; D defers definitive care and tranexamic acid is not indicated for GI bleeding."},
-  "cueing": {"flag": true, "why": "Option C is roughly twice the length of the others and is the only one listing a full resuscitation bundle, which signals it as the answer regardless of clinical knowledge."},
+  "blind_reasoning": "Melaena with tachycardia and hypotension on apixaban is a haemodynamically significant upper GI bleed. Immediate management is two large-bore IV access, crossmatch, crystalloid resuscitation, withholding the anticoagulant and early escalation to the GP and MedSTAR for transfer to an endoscopy-capable centre.",
+  "second_defensible": {"flag": false, "option": null, "why": "A under-treats a shocked patient; NG lavage (B) is not recommended; D defers definitive care and tranexamic acid is not indicated for GI bleeding."},
+  "cueing": {"flag": false, "why": "Option lengths are now balanced; C is the only resuscitation-based option but that is the content being tested rather than a wording cue."},
   "distractor_plausibility": {"A": 1, "B": 1, "C": 3, "D": 2},
   "accuracy": {"flag": false, "why": "Consistent with Australian practice for acute upper GI bleeding on a DOAC in a rural setting; MedSTAR is the correct SA retrieval service."},
   "level_fit": {"flag": false, "why": "Initial resuscitation and escalation are appropriate PGY2 actions."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
-  "overall": "concern",
-  "notes_for_reviewer": "Clinically correct key but the length cue is strong; either trim C or build out A/D to a comparable level of detail (e.g. a plausible but incomplete resuscitation option)."
+  "overall": "pass",
+  "notes_for_reviewer": "Sound. The explanation could mention IV PPI as an adjunct after resuscitation and that reversal (andexanet or prothrombin complex concentrate) is a retrieval or receiving-centre decision."
  },
  {
   "item_id": "627b2637-51fc-0416-9c81-fe8fd2a7bb83",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "B",
   "blind_confidence": "high",
-  "blind_reasoning": "A proximal DVT within the last 3 months places her at very high risk of recurrence if anticoagulation is interrupted, and elective surgery is usually deferred until at least 3 months of treatment. The timing decision and any bridging plan belong to the surgeon and anaesthetist, so the intern's priority is to flag it today before the list is finalised.",
-  "second_defensible": {"flag": false, "option": null, "why": "A applies a routine interruption guide to a non-routine patient without senior input; C and D are not required for perioperative decision-making."},
-  "cueing": {"flag": false, "why": "B is somewhat longer than the others but not disproportionately so, and A is similarly worded as a concrete instruction."},
+  "blind_reasoning": "A proximal DVT within the last 3 months places her at very high risk of recurrence if anticoagulation is interrupted, and elective surgery is usually deferred until at least 3 months of treatment. The timing and perioperative anticoagulation decisions belong to the surgeon and anaesthetist, so the intern's priority is to flag it today before the list is finalised.",
+  "second_defensible": {"flag": false, "option": null, "why": "A applies a routine interruption guide to a non-routine patient without senior input; C and D are not required for the perioperative decision."},
+  "cueing": {"flag": false, "why": "Options are balanced in length and all phrased as concrete actions."},
   "distractor_plausibility": {"A": 2, "B": 3, "C": 2, "D": 1},
-  "accuracy": {"flag": false, "why": "Consistent with perioperative anticoagulation guidance (recent VTE <3 months is a high-thrombotic-risk category requiring individualised planning)."},
+  "accuracy": {"flag": false, "why": "Consistent with perioperative anticoagulation guidance (VTE within 3 months is a high-thrombotic-risk category requiring individualised planning)."},
   "level_fit": {"flag": false, "why": "Recognising the red flag and escalating is the right PGY1 action; the item does not ask the intern to decide the plan."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear; the list of competing tasks supports the prioritisation framing."},
   "overall": "pass",
-  "notes_for_reviewer": "Good prioritisation item. Explanation should note that at 11 weeks plus 10 days she will be just over 3 months, so the decision is genuinely the surgeon's and anaesthetist's, not automatically 'cancel'."
+  "notes_for_reviewer": "Good prioritisation item. The explanation should note that at 11 weeks plus 10 days she will be just past 3 months, so this is a genuine surgeon/anaesthetist decision rather than an automatic cancellation."
  },
  {
   "item_id": "17df154c-59de-5f8f-ceec-2aa70103376f",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "D",
   "blind_confidence": "high",
-  "blind_reasoning": "A post-operative patient with limited mobility, intra-abdominal sepsis and an expected stay over 3 days needs pharmacological VTE prophylaxis; enoxaparin 40 mg subcutaneously daily is the standard dose with normal renal function and a weight of 88 kg. 1 mg/kg twice daily is a treatment dose, aspirin is not recommended for surgical prophylaxis, and stockings alone are inadequate.",
+  "blind_reasoning": "A post-operative patient with limited mobility, intra-abdominal sepsis and an expected stay over 3 days needs pharmacological VTE prophylaxis; enoxaparin 40 mg subcutaneously daily is the standard dose with normal renal function at 88 kg. 1 mg/kg twice daily is a treatment dose, aspirin is not recommended for surgical prophylaxis, and stockings alone are inadequate.",
   "second_defensible": {"flag": false, "option": null, "why": "No other option is an accepted prophylactic regimen for this patient."},
   "cueing": {"flag": false, "why": "Options are parallel and short."},
   "distractor_plausibility": {"A": 1, "B": 2, "C": 2, "D": 3},
@@ -109,7 +109,7 @@
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Mechanical prophylaxis can be added to D; the explanation could mention this so learners do not read C as entirely wrong in concept, only as insufficient alone."
+  "notes_for_reviewer": "Mechanical prophylaxis can be added to D; the explanation should say so, so learners read C as insufficient alone rather than wrong in concept."
  },
  {
   "item_id": "d166a38a-bb96-dc96-ca75-495e889aee19",
@@ -118,14 +118,14 @@
   "blind_confidence": "medium",
   "blind_reasoning": "Community-acquired aspiration pneumonia that is clinically improving should be de-escalated to oral amoxicillin, which covers the relevant oral flora; routine anaerobic cover is not required and Therapeutic Guidelines recommends a short total course of about 5 days with a documented stop date. Continuing IV piperacillin-tazobactam, adding metronidazole for 10 days, or stepping down to ciprofloxacin are all poor stewardship.",
   "second_defensible": {"flag": false, "option": null, "why": "Some clinicians would prefer a 7-day total course, but no option offers oral amoxicillin for 7 days; B keeps unnecessary IV broad-spectrum therapy, so A remains clearly best."},
-  "cueing": {"flag": false, "why": "Options are of similar length; 'documenting the stop date' in A hints at a stewardship-flavoured answer but is not a strong cue."},
+  "cueing": {"flag": false, "why": "Options are of similar length; 'document the stop date' in A hints at a stewardship-flavoured answer but is not a strong cue."},
   "distractor_plausibility": {"A": 3, "B": 2, "C": 3, "D": 1},
   "accuracy": {"flag": false, "why": "Consistent with eTG aspiration pneumonia and CAP guidance (switch to oral amoxicillin when improving, 5-day total duration, no routine anaerobic cover)."},
   "level_fit": {"flag": false, "why": "Rationalising antibiotics with guideline support is within PGY2 scope, especially when asked by the supervising GP."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Stem provides the response data needed for a de-escalation decision."},
   "overall": "pass",
-  "notes_for_reviewer": "Good stewardship item. Target difficulty 5 seems high for what is a fairly direct eTG application; consider 3-4. Explanation should address why the locum's pip-taz was overkill without being pejorative."
+  "notes_for_reviewer": "Good stewardship item. Target difficulty 5 seems high for a direct eTG application; consider 3-4. Explanation should address why the locum's pip-taz was broader than needed without being pejorative."
  },
  {
   "item_id": "df0d6d54-8acc-e70f-5357-027c6fdfa20f",
@@ -141,39 +141,39 @@
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Distractors are weak: any junior knows CoNS is not S. aureus, so A and B are unlikely to be chosen. Consider a more tempting distractor such as 'possible true CoNS bacteraemia requiring repeat cultures and empirical vancomycin pending results'. Fine as a difficulty 1 item."
+  "notes_for_reviewer": "Distractors are weak: any junior knows CoNS is not S. aureus, so A and B will rarely be chosen. A more tempting distractor would be 'possible true CoNS bacteraemia requiring repeat cultures and empirical vancomycin pending results'. Acceptable as a difficulty 1 item."
  },
  {
   "item_id": "89b0124c-f854-0164-2a2c-a711288bdb4b",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "D",
   "blind_confidence": "high",
-  "blind_reasoning": "Pain out of proportion, haemorrhagic bullae, tenderness beyond the erythema, raised lactate and septic shock in a diabetic man indicate necrotising soft tissue infection, a surgical emergency. The junior doctor must start resuscitation and broad-spectrum antibiotics and immediately escalate for urgent retrieval; imaging and observation would dangerously delay surgery.",
-  "second_defensible": {"flag": false, "option": null, "why": "A under-treats and delays, B delays definitive care for a low-yield test, C is a cellulitis plan inappropriate for a shocked patient."},
-  "cueing": {"flag": true, "why": "Option D is the longest and the only option that names 'necrotising infection' and 'urgent transfer', effectively restating the diagnosis the stem is built around."},
+  "blind_reasoning": "Pain out of proportion, haemorrhagic bullae, tenderness beyond the erythema, raised lactate and septic shock in a diabetic man indicate necrotising soft tissue infection, a surgical emergency. The junior doctor must start resuscitation and broad-spectrum antibiotics and escalate immediately for urgent retrieval; imaging or a 2-hour observation period would dangerously delay surgery.",
+  "second_defensible": {"flag": false, "option": null, "why": "A under-treats and delays, B delays definitive care for a low-yield test, and C is a cellulitis plan with a 2-hour wait that is inappropriate for a shocked patient."},
+  "cueing": {"flag": true, "why": "Lengths are now balanced, but D is the only option that names 'necrotising infection', which hands the candidate the recognition step the stem is designed to test."},
   "distractor_plausibility": {"A": 2, "B": 2, "C": 2, "D": 3},
   "accuracy": {"flag": false, "why": "Clinical picture and response are consistent with eTG necrotising skin infection guidance and SA rural escalation via MedSTAR."},
   "level_fit": {"flag": false, "why": "Recognise, resuscitate, escalate is the expected PGY1 action; the competing tasks are realistic rural distractions."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "concern",
-  "notes_for_reviewer": "Key is correct and important, but D reveals the diagnosis in the option text; reword to describe actions without naming 'necrotising infection' and keep lengths comparable. Also confirm a PGY1 as sole overnight doctor fits the intended supervision model for the site."
+  "notes_for_reviewer": "Key is correct and important. Reword D so it does not state the diagnosis (e.g. 'Start intravenous fluids and broad-spectrum antibiotics and call the GP on call and MedSTAR now for urgent surgical transfer'). Also confirm a PGY1 as sole overnight doctor fits the intended supervision model for the site."
  },
  {
   "item_id": "6e68eb72-2140-0052-85a9-6bf995bf5094",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "B",
   "blind_confidence": "high",
-  "blind_reasoning": "Fever, cough, coryza, conjunctivitis, Koplik spots and a cephalocaudal maculopapular rash in an unvaccinated returned traveller is measles, which is airborne. Airborne precautions in a negative-pressure or at least single room with door closed, P2/N95 respirators and restriction to immune staff are required.",
+  "blind_reasoning": "Fever, cough, coryza, conjunctivitis, Koplik spots and a cephalocaudal maculopapular rash in an unvaccinated returned traveller is measles, which is airborne. Airborne precautions in a single room with the door closed, P2/N95 respirators and restriction to immune staff are required.",
   "second_defensible": {"flag": false, "option": null, "why": "Droplet precautions are insufficient for measles; standard and contact precautions are wrong."},
-  "cueing": {"flag": true, "why": "Option B is markedly longer and more detailed than the other three, and uniquely names 'measles-immune' staff, giving away the diagnosis and the answer."},
+  "cueing": {"flag": true, "why": "Lengths are now balanced, but B is the only option that names measles ('measles-immune staff'), confirming the diagnosis the stem expects the candidate to make."},
   "distractor_plausibility": {"A": 2, "B": 3, "C": 3, "D": 1},
   "accuracy": {"flag": false, "why": "Consistent with Australian infection control guidance; measles is also urgently notifiable by phone in SA."},
   "level_fit": {"flag": false, "why": "Choosing transmission-based precautions is an expected PGY1 competency."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "concern",
-  "notes_for_reviewer": "Remove 'measles-immune' from B (say 'immune staff' or drop it) and shorten so it matches C in length; otherwise the item tests reading rather than knowledge. The explanation should add urgent notification to CDCB."
+  "notes_for_reviewer": "Change 'measles-immune staff only' to 'immune staff only' in B so the option does not reveal the diagnosis. The explanation should add urgent notification to CDCB and that the patient should be moved out of the open waiting area immediately."
  },
  {
   "item_id": "5bcef505-054e-9422-2318-358c983c15b0",
@@ -196,16 +196,16 @@
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "C",
   "blind_confidence": "high",
-  "blind_reasoning": "A febrile patient with purulent thrombophlebitis at a peripheral cannula site has a line infection; the cannula must be removed, blood cultures and a swab taken, and empirical IV anti-staphylococcal therapy (flucloxacillin) started, with the registrar informed. Leaving the line in situ or treating topically or orally without cultures is unsafe.",
+  "blind_reasoning": "A febrile patient with purulent thrombophlebitis at a peripheral cannula site has a line infection; the cannula must be removed, blood cultures and a swab taken, and empirical IV anti-staphylococcal therapy (flucloxacillin) started. Leaving the line in situ or treating topically or orally without cultures is unsafe.",
   "second_defensible": {"flag": false, "option": null, "why": "A, B and D either leave the source in place or omit cultures and systemic therapy in a febrile patient."},
-  "cueing": {"flag": true, "why": "Option C is far longer than the others and is the only one containing a complete, sequenced plan; a test-wise candidate picks it on length alone."},
+  "cueing": {"flag": false, "why": "Option lengths are balanced and all four are phrased as complete plans."},
   "distractor_plausibility": {"A": 1, "B": 2, "C": 3, "D": 1},
   "accuracy": {"flag": false, "why": "Consistent with eTG guidance for peripheral line infection (remove line, cultures, IV flucloxacillin)."},
-  "level_fit": {"flag": false, "why": "Removing a cannula, taking cultures and starting empirical antibiotics then informing the registrar is appropriate PGY1 action."},
+  "level_fit": {"flag": false, "why": "Removing a cannula, taking cultures and starting empirical antibiotics is appropriate PGY1 action with the registrar available by phone."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
-  "overall": "concern",
-  "notes_for_reviewer": "Key is correct; shorten C or make B a more complete-looking but still wrong plan (e.g. remove cannula, swab, oral cefalexin, no cultures) so length does not cue the answer. Consider whether the registrar should be phoned before antibiotics are given; most would accept 'start then inform' for a febrile line infection."
+  "overall": "pass",
+  "notes_for_reviewer": "Sound. The explanation should state that the registrar is informed after these steps and that a new cannula is needed for IV therapy; option C no longer says so and some learners may read it as acting without escalation."
  },
  {
   "item_id": "35839da2-248c-91df-feed-7d7f90976dee",
@@ -214,14 +214,14 @@
   "blind_confidence": "high",
   "blind_reasoning": "Fever, headache, meningism, drowsiness, hypotension and a non-blanching petechial rash in a young adult is meningococcal septicaemia with meningitis until proven otherwise. The other options do not explain the combination of shock, meningism and non-blanching rash.",
   "second_defensible": {"flag": false, "option": null, "why": "No other option accounts for all findings."},
-  "cueing": {"flag": false, "why": "Options are short and parallel; the distractors all pair a benign explanation with a coincidence, which is a pattern but not a wording cue to B."},
+  "cueing": {"flag": false, "why": "Options are short and parallel; the distractors all pair a benign diagnosis with a coincidence, which is a pattern but not a wording cue to B."},
   "distractor_plausibility": {"A": 1, "B": 3, "C": 1, "D": 2},
   "accuracy": {"flag": false, "why": "Clinical description, including the glass test, is accurate."},
   "level_fit": {"flag": false, "why": "Recognising meningococcal disease is essential PGY1 knowledge."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Very easy, as intended. Distractors are weak; a management follow-up (immediate IV ceftriaxone, do not delay for lumbar puncture, notify, chemoprophylaxis for the mother) would be a more useful item at this level."
+  "notes_for_reviewer": "Very easy, as intended. Distractors are weak; a management follow-up (immediate IV ceftriaxone without waiting for lumbar puncture, droplet precautions, urgent notification, chemoprophylaxis for the mother) would be a more useful item at this level."
  },
  {
   "item_id": "6235c503-109a-1fc9-fbb1-90bf593a0a89",
@@ -230,14 +230,14 @@
   "blind_confidence": "high",
   "blind_reasoning": "Fever within the neutropenic window after chemotherapy is a medical emergency; empirical broad-spectrum antibiotics (piperacillin-tazobactam) must be given within 60 minutes after cultures, without waiting for the neutrophil count. Paracetamol alone, deferring to transfer, or waiting for the count all delay treatment.",
   "second_defensible": {"flag": false, "option": null, "why": "No other option delivers timely antibiotics; C delays treatment by hours."},
-  "cueing": {"flag": true, "why": "Option D is roughly twice the length of the others and is the only one that specifies drug, route and timing, cueing it as the answer."},
+  "cueing": {"flag": false, "why": "Option lengths are now balanced; D is the only option specifying a drug but that is the tested content."},
   "distractor_plausibility": {"A": 3, "B": 1, "C": 2, "D": 3},
   "accuracy": {"flag": false, "why": "Consistent with eTG febrile neutropenia guidance (empirical pip-taz within 60 minutes, cultures from the central device and periphery)."},
   "level_fit": {"flag": false, "why": "Initiating the febrile neutropenia pathway and then escalating is within PGY1 scope and is what the physician would expect."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear; the competing paperwork supports the prioritisation framing."},
-  "overall": "concern",
-  "notes_for_reviewer": "Clinically correct and important, but D is length-cued. Trim D or lengthen A (e.g. 'wait 45 minutes for the neutrophil count, then give pip-taz if neutropenic, otherwise ceftriaxone'), which would also make A a genuinely tempting distractor."
+  "overall": "pass",
+  "notes_for_reviewer": "Good item; A is a genuinely tempting distractor. The explanation should say the physician on call is phoned once antibiotics are underway, since D no longer states this."
  },
  {
   "item_id": "b06e1d51-34c5-7125-3dab-0850b8160826",
@@ -246,14 +246,14 @@
   "blind_confidence": "high",
   "blind_reasoning": "In South Australia a suspected food-borne or water-borne illness in two or more related cases is urgently notifiable by phone to the Communicable Disease Control Branch on clinical suspicion, before laboratory confirmation. Waiting for cultures or routing through the council in the morning delays the public health response.",
   "second_defensible": {"flag": false, "option": null, "why": "B relies on laboratory notification, which only covers confirmed pathogens and would miss the cluster for 48 hours; C and D are delays."},
-  "cueing": {"flag": false, "why": "A is slightly longer but all options are action statements of similar form; 'before culture results are available' is a mild hint at most."},
+  "cueing": {"flag": false, "why": "Options are balanced action statements."},
   "distractor_plausibility": {"A": 3, "B": 3, "C": 2, "D": 1},
   "accuracy": {"flag": false, "why": "Consistent with the SA Public Health Act notifiable conditions list, which includes suspected food-borne illness clusters as a clinician-notifiable condition."},
   "level_fit": {"flag": false, "why": "Making a public health notification is within PGY2 scope; the GP on call would also be informed in practice."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Good item; B is a genuinely tempting distractor. Explanation should note the after-hours CDCB number is available and that the GP on call should also be told."
+  "notes_for_reviewer": "Good item; B is a genuinely tempting distractor. Explanation should note that CDCB has an after-hours number and that the GP on call should also be told."
  },
  {
   "item_id": "84db8bc6-d1d6-e349-4458-3b620acada4a",
@@ -262,14 +262,14 @@
   "blind_confidence": "high",
   "blind_reasoning": "A hypoxic, coughing patient from a facility with a respiratory cluster needs isolation with droplet and contact precautions and oxygen to a target saturation before the rest of the assessment. Keeping her in a shared cubicle, prescribing oseltamivir before assessment, or sending her home with saturations of 90% are all inappropriate.",
   "second_defensible": {"flag": false, "option": null, "why": "No other option addresses both hypoxia and transmission risk."},
-  "cueing": {"flag": true, "why": "Option C is the longest and the only one combining two correct actions; D is implausible, so the choice collapses to C by elimination and length."},
+  "cueing": {"flag": false, "why": "Option lengths are now balanced; C is the only option combining two correct actions but that reflects the content, not a wording cue."},
   "distractor_plausibility": {"A": 2, "B": 2, "C": 3, "D": 1},
-  "accuracy": {"flag": false, "why": "Oxygen target 92-96% in a patient without known hypercapnic risk is acceptable; droplet and contact precautions match SA Health guidance for suspected influenza, with airborne precautions reserved for aerosol-generating procedures or if COVID-19 is suspected."},
+  "accuracy": {"flag": false, "why": "Oxygen target 92-96% in a patient without known hypercapnic risk is acceptable; droplet and contact precautions match SA Health guidance for suspected influenza, with airborne precautions for aerosol-generating procedures or if COVID-19 is suspected."},
   "level_fit": {"flag": false, "why": "Within PGY2 ED scope."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
-  "overall": "concern",
-  "notes_for_reviewer": "Key is correct but the item is easy and length-cued (difficulty 1 is accurate). Replace D with a more tempting distractor such as 'start empirical ceftriaxone and azithromycin for pneumonia before isolating her' to test whether the learner prioritises isolation."
+  "overall": "pass",
+  "notes_for_reviewer": "Easy item (difficulty 1 is accurate). D remains implausible; a more tempting distractor would be 'start empirical ceftriaxone and azithromycin for pneumonia before moving her', which tests whether isolation is prioritised."
  },
  {
   "item_id": "db65ad50-c57f-ec86-cda0-fca3d03c39a3",
@@ -280,12 +280,12 @@
   "second_defensible": {"flag": false, "option": null, "why": "A and C ignore the shock state; D has no supporting features."},
   "cueing": {"flag": false, "why": "Options are parallel in form; B is a little longer but not disproportionately."},
   "distractor_plausibility": {"A": 1, "B": 3, "C": 2, "D": 1},
-  "accuracy": {"flag": false, "why": "Consistent with ACSQHC Sepsis Clinical Care Standard and state sepsis pathways; lactate >=4 or hypotension unresponsive to fluid are red flags."},
+  "accuracy": {"flag": false, "why": "Consistent with the ACSQHC Sepsis Clinical Care Standard and state sepsis pathways; lactate >=4 or hypotension unresponsive to fluid are red flags."},
   "level_fit": {"flag": false, "why": "Recognition and escalation is core PGY1 work."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Sound. The explanation should avoid a strict Sepsis-3 definition argument (vasopressor requirement) and frame it as red-flag sepsis/septic shock on the pathway, which is what a junior doctor uses."
+  "notes_for_reviewer": "Sound. The explanation should frame it as red-flag sepsis/septic shock on the pathway rather than a strict Sepsis-3 definition, which is what a junior doctor uses."
  },
  {
   "item_id": "fe7ad2f1-ee30-6b36-b7f8-21717204c236",
@@ -301,23 +301,23 @@
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear; the stem usefully documents the absence of symptoms, including unchanged bladder sensation."},
   "overall": "pass",
-  "notes_for_reviewer": "Good stewardship item. Explanation might add that in spinal cord injury or spina bifida, atypical symptoms (increased spasticity, autonomic dysreflexia, malaise) can indicate true infection, which the stem has reasonably excluded."
+  "notes_for_reviewer": "Good stewardship item. Explanation might add that in spina bifida or spinal cord injury, atypical symptoms (increased spasticity, malaise, autonomic dysreflexia) can indicate true infection, which the stem has reasonably excluded."
  },
  {
   "item_id": "59514ddd-a5e6-a931-5f18-1bff6e617aff",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "A",
   "blind_confidence": "high",
-  "blind_reasoning": "Acute pyelonephritis with fever, rigors and vomiting requires IV therapy; Therapeutic Guidelines first-line is IV gentamicin plus IV amoxicillin (or ampicillin) after urine and blood cultures, with normal renal function allowing gentamicin. Oral trimethoprim is inadequate in a vomiting patient, discharge is inappropriate and vancomycin plus meropenem is grossly excessive.",
+  "blind_reasoning": "Acute pyelonephritis with fever, rigors and vomiting requires IV therapy; Therapeutic Guidelines first-line is IV gentamicin plus IV amoxicillin (or ampicillin) after urine and blood cultures, and normal renal function allows gentamicin. Oral trimethoprim is inadequate in a vomiting patient, discharge is inappropriate and vancomycin plus meropenem is grossly excessive.",
   "second_defensible": {"flag": false, "option": null, "why": "Ceftriaxone alone would be an accepted alternative, but C pairs it with discharge, which is not defensible in an admitted vomiting patient."},
-  "cueing": {"flag": false, "why": "Options are similar in length; the inclusion of 'send cultures' in A is a mild hint but A is not disproportionately long."},
+  "cueing": {"flag": false, "why": "Options are balanced; both A and D mention cultures so that is not a cue."},
   "distractor_plausibility": {"A": 3, "B": 2, "C": 2, "D": 1},
   "accuracy": {"flag": false, "why": "Matches eTG for pyelonephritis requiring IV therapy; weight and eGFR are provided to support gentamicin dosing."},
   "level_fit": {"flag": false, "why": "Starting guideline-based empirical therapy pending physician review is within PGY1/PGY2 scope."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Solid item. The explanation should note ceftriaxone monotherapy as an acceptable alternative and that gentamicin should be limited to 48-72 hours pending cultures."
+  "notes_for_reviewer": "Solid item. Explanation should note ceftriaxone monotherapy as an acceptable alternative and that gentamicin is limited to 48-72 hours pending cultures."
  },
  {
   "item_id": "ec412002-8c8b-222d-f73d-a43a5e384ff9",
@@ -326,14 +326,14 @@
   "blind_confidence": "high",
   "blind_reasoning": "New pleuritic chest pain, dyspnoea, tachycardia and hypoxia 3 days after hip fracture surgery is high pretest probability for pulmonary embolism despite prophylaxis; a D-dimer is uninformative post-operatively and must not be used to defer assessment. The patient needs assessment now, consideration of empirical anticoagulation and discussion of transfer for CTPA with the GP on call tonight.",
   "second_defensible": {"flag": false, "option": null, "why": "A and D defer a potentially lethal diagnosis; C ignores objective abnormalities."},
-  "cueing": {"flag": true, "why": "Option B is about three times the length of the others and is the only option with a multi-step plan; it is unmistakably the intended answer on form alone."},
+  "cueing": {"flag": false, "why": "B remains the longest option and the only one with multiple steps, but the gap is now modest and A and D are also phrased as full plans."},
   "distractor_plausibility": {"A": 2, "B": 3, "C": 1, "D": 2},
-  "accuracy": {"flag": false, "why": "Consistent with Wells-based reasoning and guidance that D-dimer is not useful in post-operative patients; empirical anticoagulation when imaging is delayed is standard."},
+  "accuracy": {"flag": false, "why": "Consistent with Wells-based reasoning and guidance that D-dimer is not useful post-operatively; empirical anticoagulation when imaging is delayed is standard."},
   "level_fit": {"flag": false, "why": "Assessment, ECG, oxygen and escalation are appropriate PGY1 actions; the anticoagulation decision is shared with the GP."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
-  "overall": "concern",
-  "notes_for_reviewer": "Correct key and a valuable rural teaching point, but B needs substantial trimming (e.g. 'Assess him now, treat as high pretest probability for PE and discuss with the GP on call tonight') and the other options need a comparable level of detail."
+  "overall": "pass",
+  "notes_for_reviewer": "Valuable rural item. B could still be trimmed slightly ('transfer for CT' could read 'CT pulmonary angiography' for precision). Explanation should mention supplemental oxygen and that enoxaparin prophylaxis does not exclude PE."
  },
  {
   "item_id": "3db47ffd-0556-43c1-3d6e-08533cedae61",
@@ -349,7 +349,7 @@
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Sound. Hypomagnesaemia often coexists and the explanation should mention checking magnesium and replacing potassium with cardiac monitoring."
+  "notes_for_reviewer": "Sound. Hypomagnesaemia often coexists; the explanation should mention checking magnesium and replacing potassium with cardiac monitoring."
  },
  {
   "item_id": "2c1ceafe-0ddf-7521-186a-6ff091583ef9",
@@ -357,31 +357,31 @@
   "blind_answer": "D",
   "blind_confidence": "high",
   "blind_reasoning": "The history, examination and X-ray findings are those of small bowel obstruction, almost certainly adhesional given previous laparotomy. Initial management is nil by mouth, nasogastric decompression, IV fluids and analgesia, bloods including lactate, and CT with IV contrast to define the cause and look for ischaemia, while awaiting the surgical registrar.",
-  "second_defensible": {"flag": false, "option": null, "why": "A and C are wrong diagnoses or disposition; a water-soluble contrast challenge (B) is a surgical team decision after initial resuscitation and CT, not a reason to defer surgical involvement."},
-  "cueing": {"flag": true, "why": "Option D is several times longer than the others and is the only one containing a coherent plan; A and C are implausible, leaving the candidate to pick D by elimination and length."},
+  "second_defensible": {"flag": false, "option": null, "why": "A and C are wrong diagnoses or disposition; a water-soluble contrast challenge (B) is a surgical team decision after resuscitation and CT, not a reason to defer surgical involvement."},
+  "cueing": {"flag": false, "why": "Option lengths are now balanced; D is written as a compressed list rather than a conspicuously fuller plan."},
   "distractor_plausibility": {"A": 1, "B": 2, "C": 1, "D": 3},
   "accuracy": {"flag": false, "why": "Consistent with standard SBO management in a tertiary ED."},
   "level_fit": {"flag": false, "why": "Initiating supportive management and CT before the registrar arrives is within PGY2 ED scope."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear; the lead-in sensibly frames it as holding management while awaiting surgery."},
-  "overall": "concern",
-  "notes_for_reviewer": "Key is correct but the distractor set is weak and D is heavily length-cued. Replace A and C with plausible partial plans (e.g. 'IV fluids and analgesia, keep nil by mouth and await the registrar before any imaging' or 'arrange CT without contrast because of his age') and shorten D."
+  "overall": "pass",
+  "notes_for_reviewer": "Key is correct but A and C are implausible, making this easier than difficulty 2 suggests. Consider replacing one with a partial plan such as 'IV fluids and analgesia, keep nil by mouth and await the registrar before any further imaging'."
  },
  {
   "item_id": "6a5aa9cc-474a-c3b3-c925-3890dabe1ffa",
   "critic_version": "critic-prevoc-v0.1",
   "blind_answer": "A",
   "blind_confidence": "high",
-  "blind_reasoning": "pH 7.24 with PaCO2 68 mmHg and a bicarbonate of 28 mmol/L (an acute rise of about 1 mmol/L per 10 mmHg CO2 rise, with no chronic renal compensation) is an acute respiratory acidosis, and the drowsiness, respiratory rate of 7 and pinpoint pupils after morphine PCA plus oxycodone point to opioid-induced hypoventilation. Chronic compensation would give a bicarbonate in the mid-30s.",
-  "second_defensible": {"flag": false, "option": null, "why": "The numbers exclude a chronic compensated picture and there is no metabolic acidosis (bicarbonate and base excess are normal-high)."},
+  "blind_reasoning": "pH 7.24 with PaCO2 68 mmHg and a bicarbonate of 28 mmol/L (an acute rise of about 1 mmol/L per 10 mmHg CO2 rise, with no chronic renal compensation) is an acute respiratory acidosis, and the drowsiness, respiratory rate of 7 and pinpoint pupils after morphine PCA plus oxycodone indicate opioid-induced hypoventilation. Chronic compensation would give a bicarbonate in the mid-30s.",
+  "second_defensible": {"flag": false, "option": null, "why": "The numbers exclude a chronic compensated picture and there is no metabolic acidosis (bicarbonate and base excess are normal to high)."},
   "cueing": {"flag": false, "why": "Options are parallel diagnoses of similar length."},
   "distractor_plausibility": {"A": 3, "B": 2, "C": 1, "D": 2},
-  "accuracy": {"flag": false, "why": "Gas values are internally consistent for an acute respiratory acidosis; clinical picture is realistic."},
+  "accuracy": {"flag": false, "why": "Gas values are internally consistent for an acute respiratory acidosis; the clinical picture is realistic."},
   "level_fit": {"flag": false, "why": "ABG interpretation and recognising opioid toxicity are expected of PGY1 and PGY2 doctors."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Good item. The explanation should state the expected acute versus chronic bicarbonate compensation and the immediate actions (stop PCA, naloxone, MET call), which are the point of recognising it."
+  "notes_for_reviewer": "Good item. The explanation should state the expected acute versus chronic bicarbonate compensation and the immediate actions (stop the PCA, naloxone, rapid response call), which are the point of recognising it."
  },
  {
   "item_id": "578282fe-c769-bdd2-6a2b-bdc8e7e053d0",
@@ -390,13 +390,13 @@
   "blind_confidence": "high",
   "blind_reasoning": "Tracheal deviation, hyper-resonance with absent breath sounds, distended neck veins, hypotension and severe hypoxia after sudden pleuritic pain in a tall slim woman is tension pneumothorax, a clinical diagnosis requiring immediate needle decompression without waiting for imaging. Fluids, CTPA or waiting for the X-ray would be dangerous delays.",
   "second_defensible": {"flag": false, "option": null, "why": "Nothing else is defensible in a tension pneumothorax with shock."},
-  "cueing": {"flag": false, "why": "Options are of comparable length; B is not disproportionately detailed."},
+  "cueing": {"flag": false, "why": "Options are balanced in length; B is not disproportionately detailed."},
   "distractor_plausibility": {"A": 1, "B": 3, "C": 2, "D": 2},
   "accuracy": {"flag": false, "why": "Consistent with standard emergency management; needle decompression is the appropriate junior-doctor first step before definitive chest drain."},
-  "level_fit": {"flag": false, "why": "Needle decompression is a skill expected of a junior doctor in ED when a registrar is occupied; calling for help is included."},
+  "level_fit": {"flag": false, "why": "Needle decompression is a skill expected of a junior doctor in ED when the registrar is occupied; calling for help is included."},
   "cultural_safety": {"flag": false, "why": "Not applicable."},
   "clarity": {"flag": false, "why": "Clear."},
   "overall": "pass",
-  "notes_for_reviewer": "Clinically sound. Metadata mismatch: presentation is tagged 'chest X-ray interpretation' but the item deliberately tests acting before the X-ray; re-tag as pneumothorax or emergency prioritisation. Explanation should specify the decompression site (4th/5th intercostal space anterior axillary line or 2nd intercostal space midclavicular line)."
+  "notes_for_reviewer": "Clinically sound. Metadata mismatch: presentation is tagged 'chest X-ray interpretation' but the item tests acting before the X-ray; re-tag as pneumothorax or emergency prioritisation. Explanation should specify the decompression site (4th/5th intercostal space anterior axillary line, or 2nd intercostal space midclavicular line)."
  }
 ]
